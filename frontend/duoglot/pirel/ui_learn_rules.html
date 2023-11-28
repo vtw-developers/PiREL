@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./ui_learn_rules.css" />
+    <title>PiREL: Learn Rules</title>
+  </head>
+
+  <body>
+    <script type="text/javascript" src="../../_common/monaco/node_modules/monaco-editor/min/vs/loader.js"></script>
+
+    <div class="full-width-div height-100p-fixed">
+      <!-- HEADER -->
+      <div class="height-headline">
+        <!-- headline -->
+        <div class="headline-elem">
+          <h2 class="main-name">PiREL: Learn rules</h2>
+          <a class="the-other-link" href="../index.html">Go to index</a>
+        </div>
+
+        <!-- Rules control group -->
+        <div class="control-group" id="load-control-group">
+          <button id="start-rule-learning-btn" class="my-btn headline-elem">Start PiREL rule learning</button>
+        </div>
+      </div>
+
+      <!-- EDITORS -->
+      <div class="full-width-div">
+        <div class="row">
+
+          <div class="column">
+            <span>Current program:</span>
+          </div>
+
+          <div class="column">
+            <span>Logs:</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="../../_common/common.js"></script>
+    <script type="text/javascript" src="../../_api/api_file.js"></script>
+    <script type="text/javascript" src="../../_api/api_test.js"></script>
+    <script type="text/javascript" src="../../_api/api_duoglot.js"></script>
+    <script type="text/javascript" src="../api_wrapper.js"></script>
+    <script type="text/javascript" src="./ui_learn_rules.js"></script>
+    <script type="text/javascript" src="./consts.js"></script>
+    <script type="text/javascript" src="./prompt_templates.js"></script>
+    <script type="text/javascript" src="./query_llm.js"></script>
+    <script type="text/javascript" src="./rule_inference.js"></script>
+    <script type="text/javascript" src="./utils.js"></script>
+  </body>
+</html>

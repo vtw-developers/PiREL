@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./debug_rule_inf.css" />
+    <title>PiREL: Debug rule inference</title>
+  </head>
+
+  <body>
+    <script type="text/javascript" src="../../../_common/monaco/node_modules/monaco-editor/min/vs/loader.js"></script>
+
+    <div class="full-width-div height-100p-fixed">
+      <!-- HEADER -->
+      <div class="height-headline">
+        <!-- headline -->
+        <div class="headline-elem">
+          <h2 class="main-name">PiREL: Debug rule inference</h2>
+          <a class="the-other-link" href="../../index.html">Go to index</a>
+        </div>
+
+        <!-- Rules control group -->
+        <div class="control-group" id="load-control-group">
+          <button id="debug-rule-inf-btn" class="my-btn headline-elem">Debug PiREL rule inference</button>
+
+          <input type="checkbox" id="pretty-print-rule" checked>
+          <label for="pretty-print-rule">Pretty-print rule</label>
+
+        </div>
+      </div>
+
+      <!-- EDITORS -->
+      <div class="full-width-div">
+        <div class="row">
+
+          <div class="column">
+            <!-- source editors -->
+            <span>Source program 1 (py):</span>
+            <div id="source-1-editor" class="pair-editor source-pair-editor"></div>
+            <span>Source program 2 (py):</span>
+            <div id="source-2-editor" class="pair-editor source-pair-editor"></div>
+
+            <!-- target editor -->
+            <span>Target program 1 (js):</span>
+            <div id="target-1-editor" class="pair-editor target-pair-editor"></div>
+            <span>Target program 2 (js):</span>
+            <div id="target-2-editor" class="pair-editor target-pair-editor"></div>
+          </div>
+
+          <div class="column">
+            <!-- context editor -->
+            <span>Context (json)</span>
+            <div id="context-editor" class="rule-editor"></div>
+          </div>
+
+          <div class="column">
+            <!-- rule display -->
+            <span>Generated rule:</span>
+            <div id="generated-rule-editor" class="rule-editor"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="../../../_common/common.js"></script>
+    <script type="text/javascript" src="../../../_api/api_file.js"></script>
+    <script type="text/javascript" src="../../../_api/api_test.js"></script>
+    <script type="text/javascript" src="../../../_api/api_duoglot.js"></script>
+    <script type="text/javascript" src="../../api_wrapper.js"></script>
+    <script type="text/javascript" src="../consts.js"></script>
+    <script type="text/javascript" src="../rule_inference.js"></script>
+    <script type="text/javascript" src="./debug_rule_inf.js"></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link data-name="vs/editor/editor.main" rel="stylesheet" href="../_common/monaco/node_modules/monaco-editor/min/vs/editor/editor.main.css"> -->
+  <link href="../_common/autoComplete/css/autoComplete.01.css" rel="stylesheet">
+  <link href="../_common/tabulator/css/tabulator_simple.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./index_t.css" />
+  <title>Trans</title>
+</head>
+
+<body>
+  <script type="text/javascript" src="../_common/g6/g6.min.js"></script>
+  <script type="text/javascript" src="../_common/tabulator/js/tabulator.min.js"></script>
+  <script type="text/javascript" src="../_common/autoComplete/autoComplete.js"></script>
+  <script type="text/javascript" src="../_common/monaco/node_modules/monaco-editor/min/vs/loader.js"></script>  
+  <!-- <script type="text/javascript" src="../_common/monaco/node_modules/monaco-editor/min/vs/editor/editor.main.nls.js"></script> -->
+  <!-- <script type="text/javascript" src="../_common/monaco/node_modules/monaco-editor/min/vs/editor/editor.main.js"></script> -->
+
+  <div class="full-width-div height-100p-fixed">
+    <div class="height-headline">
+      <div class="headline-elem">
+        <h2 class="main-name">Trans</h2>
+        <a class="the-other-link" href="./index.html">Go to index</a>
+      </div> 
+      
+      <select name="sourcelang" id="sourcelang-select" class="headline-elem my-select">
+        <option value="js">JavaScript</option>
+        <option value="py" selected>Python</option>
+        <!-- <option value="cpp">C++</option>
+        <option value="java">Java</option>
+        <option value="cs">C#</option> -->
+      </select>
+      <p class="immediate-select-label">to</p>
+      <select name="targetlang" id="targetlang-select" class="headline-elem my-select">
+        <option value="js" selected>JavaScript</option>
+        <option value="py">Python</option>
+        <!-- <option value="cpp">C++</option>
+        <option value="java">Java</option>
+        <option value="cs">C#</option> -->
+      </select>
+      <div class="control-group" id="load-control-group">
+        <p class="immediate-select-label">Rules</p>
+        <select name="transprog" id="transprog-select" class="headline-elem my-select"></select>
+        <select name="loadtype" id="loadtype-select" class="headline-elem my-select more-margin-left">
+          <option value="testcase">Debugging</option>
+          <option value="singlefile" selected>File</option>
+        </select>
+        <select name="testcase" id="testcase-select" class="headline-elem my-small-select">
+        </select>
+        <div class="display-inline-block">
+          <input id="srcfilepath-input" value="./duoglot/tests/staleetcode/pysep/L0003_LongestSubstringWithoutRepeatingCharacters.py"></input>
+        </div>
+        <button id="load-btn" class="my-btn headline-elem">Load</button>
+      </div>
+      <div class="control-group">
+        <button id="translate-btn" class="my-btn headline-elem">Trans</button>
+        <input type="checkbox" id="translate-autobackward" checked>
+        <label for="translate-autobackward">AutoBack</label>
+        <input id="choices-input" value='{"type": "STEP", "choices_list": []}'></input>
+        <button id="translate-choices-btn" class="my-btn headline-elem">Trans(ch)</button>
+        <button id="continue-choices-btn" class="my-btn headline-elem" style="display: none;">Continue(ch)</button>
+      </div>
+      <button id="copyurl-btn" class="tiny-btn headline-elem">Copy URL</button>
+      <span id="headline-note"></span>
+    </div>
+    <div class="full-width-div height-80p">
+      <div class="my-editor-wrapper">
+        <div id="source-lang-editor" class="my-editor"></div>
+      </div>
+      <div class="ast-visualization-wrapper">
+        <div class="ast-visualization-headbar">
+          <div>
+            <div id="astvis-source-info-bar" class="astvis-info-bar">Source</div>
+            <div id="astvis-common-info-bar" class="astvis-info-bar">------</div>
+            <div id="astvis-target-info-bar" class="astvis-info-bar">Target</div>
+          </div>
+          <div>    
+            <div id="astvis-shared-operation-bar">
+              <button id="delayed-graph-visualize-btn">Visualize</button>
+            </div>
+          </div>
+        </div> 
+        <div id="ast-visualization-container"></div>
+      </div>
+      <div class="my-editor-wrapper my-split-editor-wrapper">
+        <div id="target-lang-editor" class="my-editor"></div>
+      </div>
+    </div>
+    <div class="full-width-div height-20p">
+      <div class="my-panel-wrapper">
+        <div id="my-panel-container">
+          <div id="panel-transform-target-viewer" class="my-panel-normal">
+            <div id="target-trans-editor" class="my-small-editor"></div>
+          </div>
+          <div id="panel-mapping-viewer" class="my-panel-normal">
+            <div id="panel-dbg-history-table" class="my-panel-viewer-main-table"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../_common/common.js"></script>
+  <script type="text/javascript" src="../_api/api_file.js"></script>
+  <script type="text/javascript" src="../_api/api_test.js"></script>
+  <script type="text/javascript" src="../_api/api_duoglot.js"></script>
+  <script type="text/javascript" src="./api_wrapper.js"></script>
+  <script type="text/javascript" src="./index_t.js"></script>
+</body>
+
+</html>

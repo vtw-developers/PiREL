@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./mydashboard.css" />
+  <title>MyDashboard</title>
+</head>
+
+<body>
+  <script type="text/javascript" src="../monaco/node_modules/monaco-editor/min/vs/loader.js"></script>  
+  <div id="dash-ROOT" class="fixed-full-div">
+  </div>
+  <div class="floating-control-group">
+    <button id="panel-layout-btn" onclick="set_pop_window_visibility(true)">Layout</button>
+  </div>
+  <div id="pop-window-wrapper" class="display-none">
+    <div class="pop-window-inner-wrap">
+      <div class="pop-window">
+        <div class="pop-window-bar">
+          <span>Edit Layout</span>
+          <button onclick="set_pop_window_visibility(false)">Close</button>
+        </div>
+        <div class="pop-window-content">
+          <div class="pop-window-controlbar">
+            <span>Zoom:</span>
+            <input type="range" min="5" max="15" value="10" class="slider" id="pop-window1-range1" onchange="editLayoutHandler()">
+            <input type="checkbox" id="pop-window1-checkbox1" style="display: none;" onchange="editLayoutHandler()">
+            <label for="pop-window1-checkbox1" style="display: none;" >TBD</label>
+          </div>
+          <textarea id="pop-window1-text-viewer"></textarea>
+          <div id="pop-window1-log-viewer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./mydashboard.js"></script>  
+</body>

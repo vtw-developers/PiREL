@@ -1,0 +1,236 @@
+body {
+  padding: 0px;
+}
+
+.more-margin-left {
+  margin-left: 20px;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.main-name {
+  margin-bottom: -2px;
+  margin-top: 10px;
+}
+
+.the-other-link {
+  font-size: small;
+}
+
+
+.flex-hori-parent {
+  display: flex;
+}
+
+.flex-hori-child {
+  height: 100%;
+}
+
+.full-width-div {
+  width: calc(100% - 10px);
+}
+
+.full-height-div-m60 {
+  height: calc(100% - 60px);
+  overflow: hidden;
+}
+
+.full-height-div {
+  height: calc(100% - 8px);
+  overflow: hidden;
+}
+
+#benchmark-list {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.sidelist-item {
+  margin: 4px;
+  border-radius: 4px;
+  background-color: rgba(211, 211, 211, 0.459);
+  padding: 4px;
+  font-family: monospace;
+  font-size: small;
+  word-break: break-all;
+}
+
+.sidelist-item.benchfile-log-exists {
+  background-color: #e1b279;
+}
+
+.sidelist-item.benchfile-result-exists {
+  background-color: darkseagreen;
+}
+
+.sidelist-item-run-btn {
+  font-size: smaller;
+  padding: 1px 4px;
+}
+
+.sidelist-item-view-link {
+  font-size: small;
+  padding: 1px 4px;
+  background: powderblue;
+  border-radius: 2px;
+}
+
+.width-div-leftside {
+  width: 300px;
+  min-width: 200px;
+  border: 2px solid wheat;
+  margin-left: 2px;
+  margin-right: 8px;
+  border-radius: 6px;
+  background: #fff7e8;
+}
+
+.width-div-rightmain {
+  width: calc(100%);
+}
+
+
+.green-iframe {
+  border: 2px solid green;
+  background-color: rgb(245, 255, 245);
+  border-radius: 8px;
+}
+
+.blue-iframe {
+  border: 2px solid skyblue;
+  background-color: rgb(245, 249, 255);
+  border-radius: 8px;
+}
+
+.full-iframe {
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+}
+
+.height-100p-fixed {
+  height: calc(100% - 10px);
+  position: fixed;
+  padding: 5px;
+  left: 0px;
+  top: 0px;
+}
+
+.height-headline {
+  margin-bottom: -1px;
+  padding-left: 4px;
+}
+
+.headline-elem {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.my-btn {
+  font-size: medium;
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 28px;
+}
+
+.tiny-btn {
+  font-size: small;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+.select-label {
+  font-size: medium;
+  font-weight: 600;
+  margin: 3px;
+  margin-left: 7px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.immediate-select-label {
+  font-size: small;
+  font-weight: 600;
+  margin: 3px;
+  margin-left: 0px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.my-select {
+  font-size: small;
+  max-width: 220px;
+}
+
+.my-small-select {
+  font-size: small;
+  margin-left: 10px;
+  max-width: 220px;
+}
+
+.fail-reason-span {
+  font-family: sans-serif;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.144);
+}
+
+
+/* ------------------------------------------ */
+.iframe-tab-groups-wrapper {
+  float: right;
+  margin-right: 15px;
+  display: flex;
+  margin-top: 6px;
+  opacity: 0.8;
+}
+
+.iframe-tabs {
+  display: flex;
+}
+
+.iframe-tab-group {
+  text-align: center;
+  margin-right: 15px;
+}
+
+.iframe-tab-label {
+  font-size: small;
+  margin: 4px;
+}
+
+.iframe-tabs {
+  margin: 0px;
+}
+
+.iframe-tab {
+  /* border-radius: 0px; */
+  padding: 2px 5px;
+}
+
+#iframe-tab-status {
+  margin-top: 23px;
+  margin-right: 2px;
+  padding: 2px 5px;
+}
+
+.control-group {
+  padding: 4px 14px;
+  background-color: whitesmoke;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+#benchfolder-input,
+#outpath-input {
+  font-size: small;
+  width: 100px;
+}

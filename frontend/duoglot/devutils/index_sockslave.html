@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_common/autoComplete/css/autoComplete.01.css" rel="stylesheet">
+  <link href="../../_common/tabulator/css/tabulator_simple.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./index_sockslave.css" />
+  <title>SockSlave</title>
+</head>
+
+<body>
+  <div class="full-width-div height-100p-fixed">
+    <div class="height-headline">
+      <div class="headline-elem">
+        <h2 class="main-name">SockSlave</h2>
+        <a class="the-other-link" href="./index_t.html">Go to Trans</a>
+      </div> 
+      <div class="control-group">
+        <input id="wssocket-input" value="ws://localhost:8848"></input>
+        <button id="wssocket-connect-btn" class="my-btn headline-elem" disabled>Connect to Master</button>
+      </div>
+      <div class="headline-elem" id="ws-stat"></div>
+      <div class="iframe-tab-groups-wrapper">
+        <div class="iframe-tab-group">
+          <button id="iframe-tab-status" onclick="iframeTabHandler('dashboard')">Status</button>
+          <button class="iframe-tab-trans" id="iframe-tab-trans0" onclick="iframeTabHandler('trans0')">Idle</button>
+        </div>
+      </div>
+    </div>
+    <div class="full-width-div full-height-div-m60 flex-hori-parent">
+      <div class="width-div-rightmain flex-hori-child">
+        <iframe src="../../_common/mydashboard/mydashboard.html" id="iframe-dashboard" class="full-iframe blue-iframe"></iframe>
+        <iframe src="../index_t.html?hideload=none&mi=true" id="iframe-trans0" class="full-iframe green-iframe" style="display: none;"></iframe>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../../_common/common.js"></script>
+  <script type="text/javascript" src="../../_api/api_file.js"></script>
+  <script type="text/javascript" src="./index_sockslave.js"></script>
+</body>
+
+</html>

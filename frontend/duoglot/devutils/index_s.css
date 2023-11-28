@@ -1,0 +1,272 @@
+body {
+  padding: 0px;
+}
+
+.display-none {
+  display: none;
+}
+
+.main-name {
+  margin-bottom: -2px;
+  margin-top: 10px;
+}
+
+.the-other-link {
+  font-size: small;
+}
+
+.my-editor {
+  width: 100%;
+  height: 100%;
+}
+
+
+.my-small-editor {
+  width: 100%;
+  height: 100%;
+}
+
+.my-editor-wrapper {
+  width: calc(28% - 12px);
+  height: calc(100% - 12px);
+  margin: 2px;
+  padding: 3px;
+  display: inline-block;
+  vertical-align: top;
+  border: 2px solid gray;
+}
+
+.ast-visualization-wrapper {
+  width: calc(44% - 20px);
+  height: calc(100% - 6px);
+  margin: 2px;
+  vertical-align: top;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: inline-block;
+  border: 2px solid lightgray;
+}
+
+.my-panel-wrapper {
+  width: calc(100% - 8px);
+  height: calc(100% - 12px);
+  margin: 2px;
+  margin-top: 6px;
+  vertical-align: top;
+  display: inline-block;
+  border: 2px solid lightgray;
+}
+
+#my-panel-container {
+  height: 100%;
+  display: flex;
+}
+
+.my-panel-normal {
+  height: 100%;
+  width: 50%;
+  margin: 1px;
+  background-color: whitesmoke;
+}
+
+.my-panel-viewer-main-table {
+  width: 100%;
+}
+
+.full-width-div {
+  width: calc(100% - 10px);
+}
+
+.height-100p-fixed {
+  height: 100%;
+  position: fixed;
+  padding: 5px;
+  left: 0px;
+  top: 0px;
+}
+
+.height-headline {
+  margin-bottom: -1px;
+  padding-left: 4px;
+}
+
+.height-80p {
+  height: calc(70% - 60px);
+  overflow: hidden;
+}
+
+.height-20p {
+  height: calc(30% - 20px);
+  overflow: hidden;
+}
+
+.headline-elem {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.my-btn {
+  font-size: medium;
+  margin: 5px;
+  width: 90px;
+  height: 28px;
+}
+
+.control-group {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 9px;
+  margin: 1px 4px;
+  border: 2px solid #cbcbcb;
+  border-radius: 4px;
+}
+
+.select-label {
+  font-size: medium;
+  font-weight: 600;
+  margin: 3px;
+  margin-left: 7px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.my-select {
+  font-size: medium;
+  max-width: 250px;
+}
+
+.my-small-select {
+  font-size: small;
+  margin-left: 10px;
+  max-width: 250px;
+}
+
+#ast-visualization-container {
+  text-align: center;
+}
+
+.ast-visualization-headbar {
+  position: sticky;
+  top: 0px;
+  background: rgb(118 118 118 / 38%);
+}
+
+.astvis-info-bar {
+  display: inline-block;
+  width: calc(33% - 5px);
+}
+
+#astvis-source-info-bar {
+  text-align: left;
+}
+
+#astvis-target-info-bar {
+  text-align: right;
+}
+
+#astvis-common-info-bar {
+  text-align: center;
+}
+
+#astvis-shared-operation-bar {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.astvis-op-btn {
+  margin: 2px;
+  font-size: small;
+  padding: 0px 3px;
+}
+
+#panel-mapping-viewer {
+  margin-top: -2px;
+  margin-bottom: 2px;
+  border: 2px solid gray;
+}
+
+#panel-transform-source-viewer {
+  display: none;
+}
+
+.g6-tooltip {
+  display: none;
+  padding: 10px 6px;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+}
+
+#pop-window-wrapper {
+  position: absolute;
+  width: calc(99% - 15px);
+  height: calc(99% - 15px);
+  left: 0px;
+  top: 0px;
+}
+
+.pop-window-inner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.pop-window {
+  background-color: #f4f4f4;
+  border: 2px solid darkgray;
+  border-radius: 7px;
+  box-shadow: 0 0 30px #888;
+}
+
+.pop-window-bar {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  background: lightsteelblue;
+  padding: 6px;
+}
+
+.pop-window-controlbar {
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.pop-window-content {
+  padding: 10px;
+}
+
+#pop-window1-text-viewer {
+  width: 560px;
+  height: 250px;
+  min-width: 560px;
+  min-height: 200px;
+}
+
+#pop-window1-log-viewer {
+  width: 560px;
+  height: 150px;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  background: lemonchiffon;
+  font-family: monospace;
+  padding: 4px;
+  margin-top: 4px;
+}
+
+/* --------------------------------------- */
+
+.mymonaco-hover {
+  background-color: lightblue;
+}
+
+.mymonaco-scpink1 {
+  background-color: greenyellow;
+}
+
+.mymonaco-scpink2 {
+  background-color: lightgreen;
+}

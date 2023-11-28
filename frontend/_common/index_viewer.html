@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_common/autoComplete/css/autoComplete.01.css" rel="stylesheet">
+  <link rel="stylesheet" href="./index_viewer.css" />
+  <title>Code Viewer</title>
+</head>
+
+<body>
+  <script type="text/javascript" src="../_common/autoComplete/autoComplete.js"></script>
+  <script type="text/javascript" src="../_common/monaco/node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script type="text/javascript" src="../_common/monaco/additional_files/language-log.js"></script>
+  <div class="full-width-div height-100p-fixed">
+    <div class="height-headline">
+      <div class="headline-elem">
+        <h2 class="main-name">Code Viewer</h2>
+        <a class="the-other-link" href="../duoglot/index.html">Go to index</a>
+      </div> 
+      <div class="control-group" id="load-control-group">
+        <div class="display-inline-block">
+          <input id="codepath-input0" value=""></input>
+        </div>
+        <div class="display-inline-block">
+          <input id="codepath-input1" value=""></input>
+        </div>
+        <div class="display-inline-block">
+          <input id="codepath-input2" value=""></input>
+        </div>
+        <button id="load-btn" class="my-btn headline-elem">Load</button>
+      </div>
+      <button id="copyurl-btn" class="tiny-btn headline-elem">Copy URL</button>
+    </div>
+    <div class="main-flex-div">
+      <div class="my-editor-wrapper">
+        <div id="code-viewer0" class="my-editor"></div>
+      </div>
+      <div class="my-editor-wrapper">
+        <div id="code-viewer1" class="my-editor"></div>
+      </div>
+      <div class="my-editor-wrapper">
+        <div id="code-viewer2" class="my-editor"></div>
+      </div>
+    </div> 
+  </div>
+  <script type="text/javascript" src="../_common/common.js"></script>
+  <script type="text/javascript" src="../_api/api_file.js"></script>
+  <script type="text/javascript" src="./index_viewer.js"></script>
+</body>
+
+</html>

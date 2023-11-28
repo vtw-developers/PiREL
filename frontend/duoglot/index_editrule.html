@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_common/autoComplete/css/autoComplete.01.css" rel="stylesheet">
+  <link rel="stylesheet" href="../_common/toastify-js/toastify.css" />
+  <link rel="stylesheet" href="./index_editrule.css" />
+  <title>Rule Editor</title>
+</head>
+
+<body>
+  <script type="text/javascript" src="../_common/sortable/Sortable.min.js"></script>
+  <script type="text/javascript" src="../_common/toastify-js/toastify.js"></script>
+  <script type="text/javascript" src="../_common/autoComplete/autoComplete.js"></script>
+  <script type="text/javascript" src="../_common/monaco/node_modules/monaco-editor/min/vs/loader.js"></script>  
+  <script type="text/javascript" src="../_common/monaco/additional_files/language-log.js"></script>
+
+  <div class="full-width-div height-100pc-fixed">
+    <div class="height-headline">
+      <div class="headline-elem">
+        <h2 class="main-name">Rule Editor</h2>
+        <a class="the-other-link" href="./index.html">Go to index</a>
+      </div> 
+      <div class="control-group" id="load-control-group">
+        <div class="display-inline-block">
+          <input id="codepath-input0" value="./duoglot/tests/trans_programs/py_js/gfg.snart"></input>
+        </div>
+        <button id="load-btn" class="my-btn headline-elem">Load</button>
+        <button id="save-btn" class="my-btn headline-elem">Save (to file)</button>
+        <button id="copyurl-btn" class="tiny-btn headline-elem">Copy URL</button>
+      </div>
+      <!-- <button id="copyurl-btn" class="tiny-btn headline-elem">Copy URL</button> -->
+    </div>
+    <div class="main-flex-div">
+      <div class="editor-wrapper-rules">
+        <div class="status-bar">
+          <div class="status-bar-row">
+            <div id="status-bar-error-msg" class="status-bar-label"></div>
+          </div>
+        </div>
+        <div id="rule-visual-list-wrapper">
+          <div id="rule-visual-list" class="list-group">
+          </div>
+        </div>
+        <div id="code-viewer0" class="my-editor"></div>
+        <div class="code-viewer-control-bar">
+          <button id="code-viewer0-edit-btn">Edit In Raw</button>
+        </div>
+        <div id="code-viewer-diff0" class="my-editor" style="display: none;"></div> 
+      </div>
+      <div class="editor-wrapper-onerule">
+        <div id="code-viewer1" class="my-editor"></div>
+        <div id="single-rule-visual-wrapper">
+          <div id="rule-visual-list" class="list-group">
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <div id="fullscreen-editor" class="full-width-div height-100pc-fixed" style="display: none;">
+    <div id="code-editor0"></div>
+    <div class="fullscreen-editor-controlbar">
+      <button id="fullscreen-editor-discard-btn">Discard</button>
+      <button id="fullscreen-editor-savereload-btn">Save &amp; Reload</button>
+    </div>
+  </div>
+  <script type="text/javascript" src="../_common/common.js"></script>
+  <script type="text/javascript" src="../_api/api_duoglot.js"></script>
+  <script type="text/javascript" src="../_api/api_file.js"></script>
+  <script src="../_common/incremental-dom/incremental-dom.js"></script>
+  <script src="../_common/incremental-dom/jsonml2idom.js"></script>
+  <script type="text/javascript" src="./common_ruleutils.js"></script>
+  <script type="module" type="text/javascript" src="./index_editrule.js"></script>
+</body>
+
+</html>

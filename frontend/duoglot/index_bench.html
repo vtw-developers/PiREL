@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_common/autoComplete/css/autoComplete.01.css" rel="stylesheet">
+  <link href="../_common/tabulator/css/tabulator_simple.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../_common/toastify-js/toastify.css" />
+  <link rel="stylesheet" href="./index_bench.css" />
+  <title>Bench (standalone)</title>
+</head>
+
+<body>
+  <script type="text/javascript" src="../_common/toastify-js/toastify.js"></script>
+  <div class="full-width-div height-100p-fixed">
+    <div class="height-headline">
+      <div class="headline-elem">
+        <h2 id="echo-test" class="main-name">Bench</h2>
+        <a class="the-other-link" href="./index.html">Go to index</a>
+      </div> 
+      <p class="immediate-select-label">ben</p>
+      <input name="bench" id="benchfolder-input" class="headline-elem" value="standalone" disabled></input>
+      <select name="sourcelang" id="sourcelang-select" class="headline-elem my-select">
+        <option value="js">js</option>
+        <option value="py" selected>py</option>
+        <!-- <option value="cpp">C++</option>
+        <option value="java">Java</option>
+        <option value="cs">C#</option> -->
+      </select>
+      <p class="immediate-select-label">to</p>
+      <select name="targetlang" id="targetlang-select" class="headline-elem my-select">
+        <option value="js" selected>js</option>
+        <option value="py">py</option>
+        <!-- <option value="cpp">C++</option>
+        <option value="java">Java</option>
+        <option value="cs">C#</option> -->
+      </select>
+      <p class="immediate-select-label">Src</p>
+      <select name="transprog" id="transprog-source-select" class="headline-elem my-select"></select>
+      <p class="immediate-select-label">Tr(test)</p>
+      <select name="transprog" id="transprog-transtest-select" class="headline-elem my-select"></select>
+      <p class="immediate-select-label">Tr(main)</p>
+      <select name="transprog" id="transprog-trans-select" class="headline-elem my-select"></select>
+      <p class="immediate-select-label">Tar</p>
+      <select name="transprog" id="transprog-target-select" class="headline-elem my-select"></select>
+      <p class="immediate-select-label">goldtrans</p>
+      <select name="goldtrans" id="goldtrans-select" class="headline-elem my-select"></select>
+      <p class="immediate-select-label">out</p>
+      <input name="goldtrans" id="outpath-input" class="headline-elem"></input>
+      <!-- <input type="checkbox" id="instrugold-check"> -->
+      <!-- <label for="instrugold-check">InsGold</label> -->
+      <input type="checkbox" id="split3-check">
+      <label for="split3-check">Split3</label>
+      <input type="checkbox" id="savestage2ret-check">
+      <label for="savestage2ret-check">SaveS2</label>
+      <input type="checkbox" id="nodech-check">
+      <label for="nodech-check">NodeCh</label>
+      <div class="control-group">
+        <p class="immediate-select-label">Config</p>
+        <select name="config" id="config-select" class="headline-elem my-select"></select>
+        <input type="checkbox" id="saverun-check">
+        <label for="saverun-check">SaveRun</label>
+      </div>
+
+      <div class="iframe-tab-groups-wrapper">
+        <div class="iframe-tab-group">
+          <button id="iframe-tab-status" onclick="iframeTabHandler('dashboard')">Status</button>
+        </div>
+        <div class="iframe-tab-group">
+          <p class="iframe-tab-label" id="iframe-tab-label0">Idle</p>
+          <div class="iframe-tabs">
+            <button class="iframe-tab" id="iframe-tab-source0" onclick="iframeTabHandler('source0')">S</button>
+            <button class="iframe-tab" id="iframe-tab-trans0" onclick="iframeTabHandler('trans0')">-&gt;</button>
+            <button class="iframe-tab" id="iframe-tab-target0" onclick="iframeTabHandler('target0')">T</button>
+          </div>
+        </div>
+        <div class="iframe-tab-group">
+          <p class="iframe-tab-label" id="iframe-tab-label1">Idle</p>
+          <div class="iframe-tabs">
+            <button class="iframe-tab" id="iframe-tab-source1" onclick="iframeTabHandler('source1')">S</button>
+            <button class="iframe-tab" id="iframe-tab-trans1" onclick="iframeTabHandler('trans1')">-&gt;</button>
+            <button class="iframe-tab" id="iframe-tab-target1" onclick="iframeTabHandler('target1')">T</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="full-width-div full-height-div-m60 flex-hori-parent">
+      <div class="width-div-leftside full-height-div flex-hori-child">
+        <div id="benchmark-list" class="full-width-div full-height-div"></div>
+      </div>
+      <div class="width-div-rightmain flex-hori-child">
+        <iframe src="../_common/mydashboard/mydashboard.html" id="iframe-dashboard" class="full-iframe blue-iframe"></iframe>
+        <iframe src="./index_t.html?hideload=none&mi=true" id="iframe-source0" class="full-iframe green-iframe" style="display: none;"></iframe>
+        <iframe src="./index_t.html?hideload=none&mi=true" id="iframe-trans0" class="full-iframe green-iframe" style="display: none;"></iframe>
+        <iframe src="./index_t.html?hideload=none&mi=true" id="iframe-target0" class="full-iframe green-iframe" style="display: none;"></iframe>
+        <iframe src="./index_t.html?hideload=none&mi=true" id="iframe-source1" class="full-iframe green-iframe" style="display: none;"></iframe>
+        <iframe src="./index_t.html?hideload=none&mi=true" id="iframe-trans1" class="full-iframe green-iframe" style="display: none;"></iframe>
+        <iframe src="./index_t.html?hideload=none&mi=true" id="iframe-target1" class="full-iframe green-iframe" style="display: none;"></iframe>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../_common/hacktimer/HackTimer.js"></script>
+  <script type="text/javascript" src="../_common/common.js"></script>
+  <script type="text/javascript" src="../_api/api_file.js"></script>
+  <script type="text/javascript" src="../_api/api_duoglot.js"></script>
+  <script type="text/javascript" src="../_api/api_test.js"></script>
+  <script type="text/javascript" src="./api_wrapper.js"></script>
+  <script type="text/javascript" src="./index_bench_autofix.js"></script>
+  <script type="text/javascript" src="./index_bench_postprocess.js"></script>
+  <script type="text/javascript" src="./index_bench_config.js"></script>
+  <script type="text/javascript" src="./common_ruleutils.js"></script>
+  <script type="text/javascript" src="./index_bench.js"></script>
+</body>
+
+</html>

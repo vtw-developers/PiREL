@@ -1,0 +1,495 @@
+body {
+  padding: 0px;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.main-name {
+  margin-bottom: -2px;
+  margin-top: 10px;
+}
+
+.status-bar {
+  width: 100%;
+}
+
+.status-bar-row {
+  width: calc(100% - 6px);
+  height: 24px;
+  margin: 3px;
+  border-radius: 5px;
+  background: white;
+}
+
+.status-bar-label {
+  margin: 2px;
+  padding: 2px 8px;
+  border-radius: 2px;
+  display: inline-block;
+  font-family: monospace;
+}
+
+.the-other-link {
+  font-size: small;
+}
+
+.my-editor {
+  width: 100%;
+  height: 100%;
+}
+
+#code-viewer0,
+#code-viewer-diff0 {
+  margin: 6px;
+  height: calc(45% - 16px);
+  border: 3px solid gainsboro;
+  border-radius: 2px;
+  width: calc(100% - 15px);
+}
+
+.code-viewer-control-bar {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(211, 211, 211, 0.247);
+  padding: 8px;
+}
+
+#code-viewer1 {
+  margin: 6px;
+  height: calc(60% - 16px);
+  border: 3px solid gainsboro;
+  border-radius: 2px;
+  width: calc(100% - 18px);
+}
+
+#single-rule-visual-wrapper {
+  background: rgb(243, 243, 243);
+  margin: 3px 6px ;
+  height: calc(40% - 16px);
+  border: 3px solid gainsboro;
+  border-radius: 2px;
+  width: calc(100% - 18px); 
+  overflow-y: auto;
+}
+
+#single-rule-visual {
+  padding: 5px;
+  margin: 4px;
+  background-color: aliceblue;
+  min-height: calc(40% - 24px);;
+}
+
+#rule-visual-list-wrapper {
+  height: calc(55% - 10px);
+  overflow-y: auto;
+  font-family: monospace;
+}
+
+#rule-visual-list {
+  padding: 5px;
+  margin: 4px;
+  background-color: aliceblue;
+  min-height: calc(100% - 18px);
+}
+
+.my-small-editor {
+  width: 100%;
+  height: 100%;
+}
+
+.editor-wrapper-rules {
+  width: calc(55% - 10px);
+  height: 100%;
+  margin: 2px;
+  padding: 3px;
+  vertical-align: top;
+  border: 2px solid gray;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  background: #c1d7ff;
+  position: relative;
+}
+
+.editor-wrapper-onerule {
+  width: calc(45% - 10px);
+  height: 100%;
+  margin: 2px;
+  padding: 3px;
+  vertical-align: top;
+  border: 2px solid gray;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+}
+
+.full-width-div {
+  width: calc(100% - 10px);
+}
+
+.main-flex-div {
+  display: flex;
+  width: calc(100% - 15px);
+  margin: 5px;
+  height: calc(100% - 100px);
+}
+
+.height-100pc-fixed {
+  height: calc(100% - 10px);
+  position: fixed;
+  padding: 5px;
+  left: 0px;
+  top: 0px;
+}
+
+.height-headline {
+  margin-bottom: -1px;
+  padding-left: 4px;
+}
+
+.height-80p {
+  height: calc(70% - 60px);
+  overflow: hidden;
+}
+
+.height-20p {
+  height: calc(30% - 20px);
+  overflow: hidden;
+}
+
+.headline-elem {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.my-btn {
+  font-size: medium;
+  margin: 5px;
+  height: 28px;
+}
+
+.tiny-btn {
+  font-size: small;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.control-group {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 9px;
+  margin: 1px 4px;
+  border: 2px solid #cbcbcb;
+  border-radius: 4px;
+}
+
+.select-label {
+  font-size: medium;
+  font-weight: 600;
+  margin: 3px;
+  margin-left: 7px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.list-group {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.single-list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.handle-move {
+  cursor: move;
+  width: 16px;
+  height: 16px;
+}
+
+.single-control-bar {
+  margin: 5px;
+}
+
+.single-control-caption {
+  margin: 5px;
+  margin-right: 15px;
+}
+
+.single-control-btn {
+  margin: 3px;
+}
+
+.item-right-side,
+.single-control-right-side,
+.single-item-right-side {
+  float: right;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.mark-range {
+  display: inline-block;
+}
+
+.single-item-anno {
+  display: flex;
+  flex-direction: column;
+}
+
+.anno-row {
+  display: flex;
+  flex-direction: row;
+  padding: 4px;
+  margin: 4px;
+  margin-top: 0px;
+  width: calc(100% - 16px);
+  background: whitesmoke;
+  border-radius: 3px;
+}
+
+.anno-row-label {
+  vertical-align: middle;
+  margin: 8px;
+}
+
+.mark-range {
+  margin: 4px;
+  padding: 2px;
+  background-color: antiquewhite;
+  border-radius: 2px;
+}
+
+.btn-delete-mark {
+  border-radius: 9px;
+  width: 18px;
+  height: 18px;
+  margin-left: 3px;
+  font-size: smaller;
+  padding: 0px;
+}
+
+.right-side-btn {
+  font-family: monospace;
+  font-size: small;
+  padding: 2px 3px;
+  opacity: 0.4;
+}
+
+.right-side-btn:hover {
+  opacity: 1.0;
+}
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  margin-left: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #777;
+  border-radius: 10px;
+}
+
+.rulevis-wrapper,
+.rulevis-match,
+.rulevis-expand,
+.rulevis-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.rulevis-list {
+  margin: 2px;
+  padding: 1px 4px;
+  border-radius: 4px;
+  background-color: #cbcbcb38;
+  border: 1px solid #80808082;
+}
+
+.rulevis-list > .rulevis-hovershow {
+  max-width: 0px;
+  transition: max-width 1.5s;
+  overflow: hidden;
+  display: block;
+}
+
+.rulevis-list:hover > .rulevis-hovershow {
+  overflow: hidden;
+  max-width: 400px;
+  transition: max-width 0s;
+  display: block;
+}
+
+.rulevis-wrapper {
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.rulevis-type,
+.rulevis-string,
+.rulevis-str,
+.rulevis-val {
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+.rulevis-type {
+  padding: 2px 8px;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  color: darkcyan;
+}
+
+.rulevis-str {
+  color: blue;
+}
+
+.rulevis-val {
+  color: green;
+}
+
+.rulevis-list > .rulevis-nostr-child {
+  background-color: blue;
+  width: 4px;
+  height: 4px;
+  border-radius: 4px;
+}
+
+.rulevis-wildcarddot,
+.rulevis-wildcardstar {
+  background: yellow;
+}
+
+.rulevis-phmatchstr,
+.rulevis-phmatchval {
+  background: rgb(195, 255, 180);
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border-radius: 4px;
+}
+
+.rulevis-phmatchstr {
+  background: rgb(180, 238, 255);
+}
+
+.rulevis-phstrref,
+.rulevis-phvalref {
+  background: rgb(160, 255, 160);
+  font-weight: bolder;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border-radius: 6px;
+}
+.rulevis-phstrref {
+  background: rgb(148, 230, 255);
+}
+
+.rulevis-wildcarddot,
+.rulevis-wildcardstar {
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border-radius: 4px;
+}
+
+.rulevis-wildref {
+  background: rgb(255, 230, 0);
+  font-weight: bolder;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border-radius: 6px;
+}
+
+.rulevis-wildcardidx,
+.rulevis-stridx,
+.rulevis-validx {
+  font-size: x-small;
+  background: transparent;
+  opacity: 0.8;
+  width: 10px;
+  height: 10px;
+  float: right;
+}
+
+.toast-info {
+  font-family: monospace;
+}
+
+#fullscreen-editor {
+  background: #0000006b;
+}
+
+#code-editor0 {
+  margin: 30px;
+  height: calc(100% - 146px);
+  border: 3px solid gainsboro;
+  border-radius: 2px;
+  width: calc(100% - 60px);
+}
+
+.fullscreen-editor-controlbar {
+  text-align: center;
+  padding: 4px;
+  margin-bottom: 20px;
+}
+
+#fullscreen-editor-savereload-btn,
+#fullscreen-editor-discard-btn {
+  padding: 5px 10px;
+  font-size: x-large;
+}

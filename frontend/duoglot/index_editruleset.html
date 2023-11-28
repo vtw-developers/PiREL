@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_common/autoComplete/css/autoComplete.01.css" rel="stylesheet">
+  <link rel="stylesheet" href="../_common/tingle/tingle.min.css" />
+  <link rel="stylesheet" href="../_common/toastify-js/toastify.css" />
+  <link rel="stylesheet" href="./index_editruleset.css" />
+  <title>Ruleset Combiner</title>
+</head>
+
+<body>
+  <script type="text/javascript" src="../_common/sortable/Sortable.min.js"></script>
+  <script type="text/javascript" src="../_common/tingle/tingle.min.js"></script>
+  <script type="text/javascript" src="../_common/toastify-js/toastify.js"></script>
+  <script type="text/javascript" src="../_common/autoComplete/autoComplete.js"></script>
+  <script type="text/javascript" src="../_common/monaco/node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script type="text/javascript" src="../_common/monaco/additional_files/language-log.js"></script>
+  <div id="approot"></div>
+  <div class="full-width-div height-100p-fixed">
+    <div class="height-headline">
+      <div class="headline-elem">
+        <h2 class="main-name">Ruleset Combiner</h2>
+        <a class="the-other-link" href="./index_t.html">Go to Trans</a>
+      </div> 
+      <div class="control-group" id="load-control-group">
+        <div class="display-inline-block">
+          <input id="codepath-input0" value="."></input>
+        </div>
+        <button id="load-btn" class="my-btn headline-elem">Reload</button>
+        <button id="save-btn" class="my-btn headline-elem">Save Combo Config (to file)</button>
+        <button id="copyurl-btn" class="tiny-btn headline-elem">Copy URL</button>
+      </div>
+      <!-- <button id="copyurl-btn" class="tiny-btn headline-elem">Copy URL</button> -->
+    </div>
+    <div class="main-flex-div">
+      <div class="status-bar">
+        <div class="status-bar-row">
+          <div id="status-bar-error-msg" class="status-bar-label"></div>
+        </div>
+      </div>
+      <div class="ruleset-combo-edit-wrapper">
+        <div class="ruleset-combo-flex-wrapper">
+          <div id="ruleset-copy-list-wrapper0" class="ruleset-copy-list-wrapper"></div>
+          <div id="ruleset-visual-list-wrapper0" class="ruleset-visual-list-wrapper"></div>
+        </div>
+        <div id="edit-right-side0" class="edit-right-side"></div>
+      </div>
+      <div class="ruleset-combo-edit-wrapper">
+        <div class="ruleset-combo-flex-wrapper">
+          <div id="ruleset-copy-list-wrapper1" class="ruleset-copy-list-wrapper"></div>
+          <div id="ruleset-visual-list-wrapper1" class="ruleset-visual-list-wrapper"></div>
+        </div>
+        <div id="edit-right-side1" class="edit-right-side"></div>
+      </div>
+      <div class="ruleset-combo-edit-wrapper">
+        <div class="ruleset-combo-flex-wrapper">
+          <div id="ruleset-copy-list-wrapper2" class="ruleset-copy-list-wrapper"></div>
+          <div id="ruleset-visual-list-wrapper2" class="ruleset-visual-list-wrapper"></div>
+        </div>
+        <div id="edit-right-side2" class="edit-right-side"></div>
+      </div>
+    </div> 
+  </div>
+  <script type="text/javascript" src="../_common/common.js"></script>
+  <script type="text/javascript" src="../_api/api_file.js"></script>
+  <script type="text/javascript" src="../_api/api_duoglot.js"></script>
+  <script src="../_common/incremental-dom/incremental-dom.js"></script>
+  <script src="../_common/incremental-dom/jsonml2idom.js"></script>
+  <script type="module" type="text/javascript" src="./index_editruleset.js"></script>
+</body>
+
+</html>

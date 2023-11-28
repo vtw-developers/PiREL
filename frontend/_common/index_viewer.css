@@ -1,0 +1,115 @@
+body {
+  padding: 0px;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.main-name {
+  margin-bottom: -2px;
+  margin-top: 10px;
+}
+
+.the-other-link {
+  font-size: small;
+}
+
+.my-editor {
+  width: 100%;
+  height: 100%;
+}
+
+.my-small-editor {
+  width: 100%;
+  height: 100%;
+}
+
+.my-editor-wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 2px;
+  padding: 3px;
+  display: inline-block;
+  vertical-align: top;
+  border: 2px solid gray;
+}
+
+.full-width-div {
+  width: calc(100% - 10px);
+}
+
+.main-flex-div {
+  display: flex;
+  width: calc(100% - 15px);
+  margin: 5px;
+  height: calc(100% - 100px);
+}
+
+.height-100p-fixed {
+  height: 100%;
+  position: fixed;
+  padding: 5px;
+  left: 0px;
+  top: 0px;
+}
+
+.height-headline {
+  margin-bottom: -1px;
+  padding-left: 4px;
+}
+
+.height-80p {
+  height: calc(70% - 60px);
+  overflow: hidden;
+}
+
+.height-20p {
+  height: calc(30% - 20px);
+  overflow: hidden;
+}
+
+.headline-elem {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.my-btn {
+  font-size: medium;
+  margin: 5px;
+  width: 90px;
+  height: 28px;
+}
+
+.tiny-btn {
+  font-size: small;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.control-group {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 9px;
+  margin: 1px 4px;
+  border: 2px solid #cbcbcb;
+  border-radius: 4px;
+}
+
+.select-label {
+  font-size: medium;
+  font-weight: 600;
+  margin: 3px;
+  margin-left: 7px;
+  display: inline-block;
+  vertical-align: middle;
+}
+

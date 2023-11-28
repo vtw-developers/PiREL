@@ -1,0 +1,259 @@
+body {
+  padding: 0px;
+}
+
+.more-margin-left {
+  margin-left: 20px;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.main-name {
+  margin-bottom: -2px;
+  margin-top: 10px;
+}
+
+.the-other-link {
+  font-size: small;
+}
+
+.my-editor {
+  width: 100%;
+  height: 100%;
+}
+
+
+.my-small-editor {
+  width: 100%;
+  height: 100%;
+}
+
+#choices-input {
+  margin-left: 16px;
+}
+
+.my-editor-wrapper {
+  width: calc(33% - 12px);
+  height: calc(100% - 12px);
+  margin: 2px;
+  padding: 3px;
+  display: inline-block;
+  vertical-align: top;
+  border: 2px solid gray;
+}
+
+.my-split-editor-wrapper {
+  width: calc(42% - 12px);
+}
+
+.ast-visualization-wrapper {
+  width: calc(25% - 20px);
+  height: calc(100% - 6px);
+  margin: 2px;
+  vertical-align: top;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: inline-block;
+  border: 2px solid lightgray;
+}
+
+.my-panel-wrapper {
+  width: calc(100% - 8px);
+  height: calc(100% - 12px);
+  margin: 2px;
+  margin-top: 6px;
+  vertical-align: top;
+  display: inline-block;
+  border: 2px solid lightgray;
+}
+
+#my-panel-container {
+  height: 100%;
+  display: flex;
+}
+
+.my-panel-normal {
+  height: 100%;
+  width: 50%;
+  margin: 1px;
+  background-color: whitesmoke;
+}
+
+.my-panel-dbg-history-table {
+  width: 100%;
+}
+
+.full-width-div {
+  width: calc(100% - 10px);
+}
+
+.height-100p-fixed {
+  height: 100%;
+  position: fixed;
+  padding: 5px;
+  left: 0px;
+  top: 0px;
+}
+
+.height-headline {
+  margin-bottom: -1px;
+  padding-left: 4px;
+}
+
+.height-80p {
+  height: calc(70% - 60px);
+  overflow: hidden;
+}
+
+.height-20p {
+  height: calc(30% - 20px);
+  overflow: hidden;
+}
+
+.headline-elem {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.my-btn {
+  font-size: medium;
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 28px;
+}
+
+.tiny-btn {
+  font-size: small;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.control-group {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 9px;
+  margin: 1px 4px;
+  border: 2px solid #cbcbcb;
+  border-radius: 4px;
+}
+
+.select-label {
+  font-size: medium;
+  font-weight: 600;
+  margin: 3px;
+  margin-left: 7px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.immediate-select-label {
+  font-size: medium;
+  font-weight: 600;
+  margin: 3px;
+  margin-left: 0px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.my-select {
+  font-size: medium;
+  max-width: 250px;
+}
+
+.my-small-select {
+  font-size: small;
+  margin-left: 10px;
+  max-width: 250px;
+}
+
+#ast-visualization-container {
+  text-align: center;
+}
+
+.ast-visualization-headbar {
+  position: sticky;
+  top: 0px;
+  background: rgb(118 118 118 / 38%);
+}
+
+.astvis-info-bar {
+  display: inline-block;
+  width: calc(33% - 5px);
+}
+
+#astvis-source-info-bar {
+  text-align: left;
+}
+
+#astvis-target-info-bar {
+  text-align: right;
+}
+
+#astvis-common-info-bar {
+  text-align: center;
+}
+
+#astvis-shared-operation-bar {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+#panel-mapping-viewer {
+  margin-top: -2px;
+  margin-bottom: 2px;
+  border: 2px solid gray;
+}
+
+#choices-input {
+  width: 280px;
+}
+
+.g6-tooltip {
+  display: none;
+  padding: 10px 6px;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+}
+
+#headline-note {
+  font-family: serif;
+  font-size: small;
+}
+
+.red-text {
+  color: red;
+}
+
+/* --------------------------------------- */
+
+.mymonaco-hover {
+  background-color: lightblue;
+}
+
+.mymonaco-selected {
+  background-color: lightblue;
+}
+
+.mymonaco-expanmatch {
+  background-color: #fff582;
+}
+
+.mymonaco-expanslotmatch1 {
+  background-color: greenyellow;
+}
+
+.mymonaco-expanslotmatch2 {
+  background-color: lightgreen;
+}
+
+.mymonaco-locate {
+  background-color: #fff4d0;
+}

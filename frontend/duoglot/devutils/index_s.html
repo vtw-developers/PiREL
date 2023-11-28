@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_common/tabulator/css/tabulator_simple.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./index_s.css" />
+  <title>Synth</title>
+</head>
+
+<body>
+  <script type="text/javascript" src="../../_common/g6/g6.min.js"></script>
+  <script type="text/javascript" src="../../_common/tabulator/js/tabulator.min.js"></script>
+  <script type="text/javascript" src="../../_common/monaco/node_modules/monaco-editor/min/vs/loader.js"></script>
+  <div class="full-width-div height-100p-fixed">
+    <div class="height-headline">
+      <div class="headline-elem">
+        <h2 class="main-name">Synth</h2>
+        <a class="the-other-link" href="../index_t.html">Go to Trans</a>
+      </div> 
+      <select name="sourcelang" id="sourcelang-select" class="headline-elem my-select">
+        <option value="js">JavaScript</option>
+        <option value="py" selected>Python</option>
+        <option value="cpp">C++</option>
+        <option value="java">Java</option>
+        <option value="cs">C#</option>
+      </select>
+      <p class="select-label">to</p>
+      <select name="targetlang" id="targetlang-select" class="headline-elem my-select">
+        <option value="js" selected>JavaScript</option>
+        <option value="py">Python</option>
+        <option value="cpp">C++</option>
+        <option value="java">Java</option>
+        <option value="cs">C#</option>
+      </select>
+      <p class="select-label">Testcase:</p>
+      <select name="testcase" id="testcase-select" class="headline-elem my-small-select">
+      </select>
+      <button id="load-btn" class="my-btn headline-elem">Load</button>
+      <div class="control-group">
+        <button id="parse-btn" class="my-btn headline-elem">Parse</button>
+        <p class="select-label">Matcher:</p>
+        <select name="match_algo" id="match-algo-select" class="headline-elem my-small-select">
+          <option value="structure_only">Structure Only</option>
+          <option value="structure_ComboNT_sim" selected>Structure + NT Sim</option>
+        </select>
+        <button id="match-btn" class="my-btn headline-elem">
+          <span>Match</span>
+        </button>
+      </div>
+    </div>
+    <div class="full-width-div height-80p">
+      <div class="my-editor-wrapper">
+        <div id="source-lang-editor" class="my-editor"></div>
+      </div>
+      <div class="ast-visualization-wrapper">
+        <div class="ast-visualization-headbar">
+          <div>
+            <div id="astvis-source-info-bar" class="astvis-info-bar">Source</div>
+            <div id="astvis-common-info-bar" class="astvis-info-bar">------</div>
+            <div id="astvis-target-info-bar" class="astvis-info-bar">Target</div>
+          </div>
+          <div>    
+            <div id="astvis-shared-operation-bar">Operations
+              <button id="astvis-get-sexpr-btn" class="astvis-op-btn">Get s-expression</button>
+            </div>
+          </div>
+        </div> 
+        <div id="ast-visualization-container"></div>
+      </div>
+      <div class="my-editor-wrapper">
+        <div id="target-lang-editor" class="my-editor"></div>
+      </div>
+    </div>
+    <div class="full-width-div height-20p">
+      <div class="my-panel-wrapper">
+        <div id="my-panel-container">
+          <div id="panel-transform-source-viewer" class="my-panel-normal">
+            TBD: introduced source NTs and transformations. 
+          </div>
+          <div id="panel-mapping-viewer" class="my-panel-normal">
+            <div id="panel-mapping-main-table" class="my-panel-viewer-main-table"></div>
+          </div>
+          <div id="panel-transform-target-viewer" class="my-panel-normal">
+            <div id="target-trans-editor" class="my-small-editor"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="pop-window-wrapper" class="display-none">
+    <div class="pop-window-inner-wrap">
+      <div class="pop-window">
+        <div class="pop-window-bar">
+          <span>Get S-expression</span>
+          <button onclick="set_pop_window_visibility(false)">Close</button>
+        </div>
+        <div class="pop-window-content">
+          <div class="pop-window-controlbar">
+            <span>Depth:</span>
+            <input type="range" min="1" max="10" value="2" class="slider" id="pop-window1-range1" onchange="astGetSexprHandler()">
+            <input type="checkbox" id="pop-window1-checkbox1" onchange="astGetSexprHandler()">
+            <label for="pop-window1-checkbox1">Ignore str</label>
+          </div>
+          <textarea id="pop-window1-text-viewer"></textarea>
+          <div id="pop-window1-log-viewer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../../_common/common.js"></script>
+  <script type="text/javascript" src="../../_api/api_file.js"></script>
+  <script type="text/javascript" src="../../_api/api_duoglot.js"></script>
+  <script type="text/javascript" src="../api_wrapper.js"></script>
+  <script type="text/javascript" src="./index_s.js"></script>
+</body>
+
+</html>
