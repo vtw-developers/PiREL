@@ -1,0 +1,1 @@
+docker build -t thirdp-duoglotcompare -f ./thirdp-duoglotcompare.dockerfile .

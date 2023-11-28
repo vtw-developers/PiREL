@@ -1,0 +1,1 @@
+docker build -t backendpybase -f ./backendpybase.dockerfile .

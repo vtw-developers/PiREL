@@ -1,0 +1,1 @@
+docker build -t nginxbase -f ./nginxbase.dockerfile .

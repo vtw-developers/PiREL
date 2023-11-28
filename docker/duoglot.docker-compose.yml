@@ -1,0 +1,65 @@
+version: "2.4"
+services:
+  backend-file:
+    image: backendpybase
+    # ports:
+    #   - "8777:8777"
+    volumes:
+      - type: bind
+        source: "$PWD/../backend/file-server"
+        target: "/opt/file-server"
+      - type: bind
+        source: "$PWD/../backend/_common"
+        target: "/opt/_common"
+      - type: bind
+        source: "$PWD/../data"
+        target: "/data"
+      - type: bind
+        source: "$PWD/__gitstatus"
+        target: "/tmp/__gitstatus"
+        read_only: true
+    working_dir : '/opt/file-server/'
+    command: 'python server_files.py --reloader True'
+  backend-test:
+    image: backendtestingbase
+    # ports:
+    #   - "8776:8776"
+    volumes:
+      - type: bind
+        source: "$PWD/../backend/test-server"
+        target: "/opt/test-server"
+      - type: bind
+        source: "$PWD/../backend/_common"
+        target: "/opt/_common"
+      - type: tmpfs
+        target: "/tmp/"
+    working_dir: '/opt/test-server/'
+    command: 'python3 server_testing.py --reloader True'
+  backend-duoglotcore:
+    image: backendpybase
+    ports:
+      - "4444:4444"
+    stdin_open: true
+    tty: true
+    volumes:
+      - type: bind
+        source: "$PWD/../backend/duoglotcore-server"
+        target: "/opt/duoglotcore-server"
+      - type: bind
+        source: "$PWD/../backend/_common"
+        target: "/opt/_common"
+    working_dir: '/opt/duoglotcore-server/'
+    command: 'python server_trans.py --reloader True'
+  nginx:
+    image: nginxbase
+    ports:
+      - "127.0.0.1:8000:80"
+    volumes:
+      - type: bind
+        source: "$PWD/../frontend"
+        target: "/opt/frontend"
+        read_only: true
+      - type: bind
+        source: "$PWD/duoglot.nginx.conf"
+        target: "/etc/nginx/nginx.conf"
+        read_only: true
