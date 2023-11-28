@@ -1,0 +1,12 @@
+[
+  [
+    {
+      "source": "def f_gold(x: float, n: int) -> int:\n    return n",
+      "target": "function f_gold(x, n) {\n    return n;\n}"
+    },
+    {
+      "source": "def f_gold(arg1: int, n: int) -> int:\n    return n",
+      "target": "function f_gold(arg1, n) {\n    return n;\n}"
+    }
+  ]
+]

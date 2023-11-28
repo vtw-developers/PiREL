@@ -1,0 +1,42 @@
+(ext_match_expand
+  (fragment "_liststr_" ("py.identifier" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" ("py.identifier" "_val1_") "_liststr2_" "*1")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("py.integer" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" ("py.integer" "_val1_") "_liststr2_" "*1")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("py.float" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" ("py.float" "_val1_") "_liststr2_" "*1")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("py.string" "_anno_" "*") "_liststr_" "*")
+  (fragment "_liststr1_" ("py.string" "_anno1_" "*1") "_liststr2_" "*2")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("py.string_content" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" ("py.string_content" "_val1_") "_liststr2_" "*1")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("py.escape_sequence" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" ("py.escape_sequence" "_val1_") "_liststr2_" "*1")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("py.comment" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" "_liststr2_" "*1")
+  (flags))
+
+
+(ext_match_expand 
+  (fragment "_liststr_" ("_anynt_" "_liststr_" "*") "_liststr_" "*")
+  (fragment "_liststr1_" (nostr) ("_anynt1_" "_liststr2_" "*1"  (nostr)) "_liststr3_" "*2")
+  (flags))
+
+; no (nostr) after liststr3 because this fragment might be a "." or some kind of partial fragment.

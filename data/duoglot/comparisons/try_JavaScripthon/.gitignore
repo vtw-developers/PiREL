@@ -1,0 +1,11 @@
+eval_javascripthon.*.log
+!eval_javascripthon.stat.log
+*.ext.json
+standalone/pygold
+standalone/combined
+standalone/output
+standalone
+standalone_ext
+__pycache__
+staleetcode
+stactci

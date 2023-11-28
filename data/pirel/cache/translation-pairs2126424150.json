@@ -1,0 +1,302 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "group if i == __ else 2 * __ - 2 * i",
+  "template_origin": "group if i == numRows else 2 * numRows - 2 * i",
+  "templatized_node_ids": [
+    6,
+    10
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "group if i == NotImplemented else 2 * NotImplemented - 2 * i",
+        "target": "i === NotImplemented ? group : 2 * NotImplemented - 2 * i;"
+      },
+      {
+        "source": "group if i == b else 2 * b - 2 * i",
+        "target": "i === b ? group : 2 * b - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == OSError else 2 * OSError - 2 * i",
+        "target": "i == OSError ? group : 2 * OSError - 2 * i;"
+      },
+      {
+        "source": "group if i == a else 2 * a - 2 * i",
+        "target": "i == a ? group : 2 * a - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == OSError else 2 * OSError - 2 * i",
+        "target": "i == OSError ? group : 2 * OSError - 2 * i;"
+      },
+      {
+        "source": "group if i == c else 2 * c - 2 * i",
+        "target": "i == c ? group : 2 * c - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == OSError else 2 * OSError - 2 * i",
+        "target": "i == OSError ? group : 2 * OSError - 2 * i;"
+      },
+      {
+        "source": "group if i == f else 2 * f - 2 * i",
+        "target": "i == f ? group : 2 * f - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == OSError else 2 * OSError - 2 * i",
+        "target": "i == OSError ? group : 2 * OSError - 2 * i;"
+      },
+      {
+        "source": "group if i == g else 2 * g - 2 * i",
+        "target": "i == g ? group : 2 * g - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == OSError else 2 * OSError - 2 * i",
+        "target": "i == OSError ? group : 2 * OSError - 2 * i;"
+      },
+      {
+        "source": "group if i == k else 2 * k - 2 * i",
+        "target": "i == k ? group : 2 * k - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == OSError else 2 * OSError - 2 * i",
+        "target": "i == OSError ? group : 2 * OSError - 2 * i;"
+      },
+      {
+        "source": "group if i == x else 2 * x - 2 * i",
+        "target": "i == x ? group : 2 * x - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == OSError else 2 * OSError - 2 * i",
+        "target": "i == OSError ? group : 2 * OSError - 2 * i;"
+      },
+      {
+        "source": "group if i == p else 2 * p - 2 * i",
+        "target": "i == p ? group : 2 * p - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == a else 2 * a - 2 * i",
+        "target": "i == a ? group : 2 * a - 2 * i;"
+      },
+      {
+        "source": "group if i == c else 2 * c - 2 * i",
+        "target": "i == c ? group : 2 * c - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == a else 2 * a - 2 * i",
+        "target": "i == a ? group : 2 * a - 2 * i;"
+      },
+      {
+        "source": "group if i == f else 2 * f - 2 * i",
+        "target": "i == f ? group : 2 * f - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == a else 2 * a - 2 * i",
+        "target": "i == a ? group : 2 * a - 2 * i;"
+      },
+      {
+        "source": "group if i == g else 2 * g - 2 * i",
+        "target": "i == g ? group : 2 * g - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == a else 2 * a - 2 * i",
+        "target": "i == a ? group : 2 * a - 2 * i;"
+      },
+      {
+        "source": "group if i == k else 2 * k - 2 * i",
+        "target": "i == k ? group : 2 * k - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == a else 2 * a - 2 * i",
+        "target": "i == a ? group : 2 * a - 2 * i;"
+      },
+      {
+        "source": "group if i == x else 2 * x - 2 * i",
+        "target": "i == x ? group : 2 * x - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == a else 2 * a - 2 * i",
+        "target": "i == a ? group : 2 * a - 2 * i;"
+      },
+      {
+        "source": "group if i == p else 2 * p - 2 * i",
+        "target": "i == p ? group : 2 * p - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == c else 2 * c - 2 * i",
+        "target": "i == c ? group : 2 * c - 2 * i;"
+      },
+      {
+        "source": "group if i == f else 2 * f - 2 * i",
+        "target": "i == f ? group : 2 * f - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == c else 2 * c - 2 * i",
+        "target": "i == c ? group : 2 * c - 2 * i;"
+      },
+      {
+        "source": "group if i == g else 2 * g - 2 * i",
+        "target": "i == g ? group : 2 * g - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == c else 2 * c - 2 * i",
+        "target": "i == c ? group : 2 * c - 2 * i;"
+      },
+      {
+        "source": "group if i == k else 2 * k - 2 * i",
+        "target": "i == k ? group : 2 * k - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == c else 2 * c - 2 * i",
+        "target": "i == c ? group : 2 * c - 2 * i;"
+      },
+      {
+        "source": "group if i == x else 2 * x - 2 * i",
+        "target": "i == x ? group : 2 * x - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == c else 2 * c - 2 * i",
+        "target": "i == c ? group : 2 * c - 2 * i;"
+      },
+      {
+        "source": "group if i == p else 2 * p - 2 * i",
+        "target": "i == p ? group : 2 * p - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == f else 2 * f - 2 * i",
+        "target": "i == f ? group : 2 * f - 2 * i;"
+      },
+      {
+        "source": "group if i == g else 2 * g - 2 * i",
+        "target": "i == g ? group : 2 * g - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == f else 2 * f - 2 * i",
+        "target": "i == f ? group : 2 * f - 2 * i;"
+      },
+      {
+        "source": "group if i == k else 2 * k - 2 * i",
+        "target": "i == k ? group : 2 * k - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == f else 2 * f - 2 * i",
+        "target": "i == f ? group : 2 * f - 2 * i;"
+      },
+      {
+        "source": "group if i == x else 2 * x - 2 * i",
+        "target": "i == x ? group : 2 * x - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == f else 2 * f - 2 * i",
+        "target": "i == f ? group : 2 * f - 2 * i;"
+      },
+      {
+        "source": "group if i == p else 2 * p - 2 * i",
+        "target": "i == p ? group : 2 * p - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == g else 2 * g - 2 * i",
+        "target": "i == g ? group : 2 * g - 2 * i;"
+      },
+      {
+        "source": "group if i == k else 2 * k - 2 * i",
+        "target": "i == k ? group : 2 * k - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == g else 2 * g - 2 * i",
+        "target": "i == g ? group : 2 * g - 2 * i;"
+      },
+      {
+        "source": "group if i == x else 2 * x - 2 * i",
+        "target": "i == x ? group : 2 * x - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == g else 2 * g - 2 * i",
+        "target": "i == g ? group : 2 * g - 2 * i;"
+      },
+      {
+        "source": "group if i == p else 2 * p - 2 * i",
+        "target": "i == p ? group : 2 * p - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == k else 2 * k - 2 * i",
+        "target": "i == k ? group : 2 * k - 2 * i;"
+      },
+      {
+        "source": "group if i == x else 2 * x - 2 * i",
+        "target": "i == x ? group : 2 * x - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == k else 2 * k - 2 * i",
+        "target": "i == k ? group : 2 * k - 2 * i;"
+      },
+      {
+        "source": "group if i == p else 2 * p - 2 * i",
+        "target": "i == p ? group : 2 * p - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == x else 2 * x - 2 * i",
+        "target": "i == x ? group : 2 * x - 2 * i;"
+      },
+      {
+        "source": "group if i == p else 2 * p - 2 * i",
+        "target": "i == p ? group : 2 * p - 2 * i;"
+      }
+    ]
+  ]
+}

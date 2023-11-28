@@ -1,0 +1,120 @@
+{
+  "template": "from __ import *",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "from typing import *",
+  "translations": {
+    "from math import *": [
+      "const Math = require('math');",
+      "// JavaScript does not have a direct equivalent of Python's `import *` statement\n// To achieve similar functionality, you would need to import specific functions or properties individually\n\n// For example, to import the `pow` function from the `Math` object in JavaScript:\n// const pow = Math.pow;\n\n// Since the specific functions or properties needed are not mentioned in the Python code, \n// it is not possible to provide an exact translation.",
+      "// In JavaScript, there is no direct equivalent to importing all functions and variables from a module like in Python. \n// Instead, we need to import specific functions or variables that we need from the 'math' module.\n\n// Import specific functions from the 'math' module\nconst { abs, acos, asin, atan, atan2, ceil, cos, exp, floor, log, max, min, pow, sin, sqrt, tan } = Math;"
+    ],
+    "from os import *": [
+      "const os = require('os');",
+      "const os = require('os');",
+      "const os = require('os');"
+    ],
+    "from random import *": [
+      "const random = require('random');",
+      "const random = require('random');",
+      "// There is no equivalent of `from random import *` in JavaScript.\n// You will need to import the specific functions or objects you want to use from the 'random' module in JavaScript.\n// For example, to use the `random` function from the 'random' module in JavaScript, you can do the following:\n\nconst random = require('random');\n\n// Now you can use the `random` function in your JavaScript code.\n// Note that you will need to install the 'random' module using a package manager like npm before you can use it in JavaScript."
+    ],
+    "from datetime import *": [
+      "// JavaScript does not have a built-in module for date and time manipulation like Python's datetime module.\n// You can use the JavaScript Date object instead.\n\n// In JavaScript, you can directly use the Date object without importing anything.\n// The equivalent JavaScript code for the Python code you provided is as follows:\n\n// No equivalent code is needed in JavaScript.",
+      "// JavaScript doesn't have a built-in module for date and time like Python's datetime module\n// So we cannot achieve the exact same functionality in JavaScript\n// However, we can use the Date object in JavaScript to work with dates and times\n\n// To use the Date object, we don't need to import anything in JavaScript\n\n// Here is an example of how to create a Date object in JavaScript:\nvar currentDate = new Date();",
+      "// No equivalent in JavaScript"
+    ],
+    "from sys import *": [
+      "const { argv, stdin, stdout, stderr, exit } = require('process');",
+      "const { argv, stdin, stdout, stderr, exit } = require('process');",
+      "const process = require('process');"
+    ],
+    "from itertools import *": [
+      "const itertools = require('itertools');",
+      "// No direct equivalent in JavaScript for itertools module\n// You'll need to implement the functionality of itertools in JavaScript manually",
+      "// JavaScript does not have a built-in equivalent for itertools in Python.\n// You can manually implement the functions you need from itertools or use a third-party library like lodash or underscore.\n// If you don't need any specific functionality from itertools, you can simply omit the import statement."
+    ],
+    "from collections import *": [
+      "const collections = require('collections');",
+      "// JavaScript does not have a built-in collections module.\n// Importing it in Python is not necessary in JavaScript.",
+      "// There is no direct equivalent to the 'collections' module in JavaScript.\n// However, you can achieve similar functionality using built-in JavaScript data structures and methods.\n// For example, you can use an object to simulate a Counter or defaultdict in Python.\n\n// To simulate the Counter class from 'collections' module:\nfunction Counter(iterable) {\n    let counter = {};\n    for (let item of iterable) {\n        counter[item] = (counter[item] || 0) + 1;\n    }\n    return counter;\n}\n\n// To simulate the defaultdict class from 'collections' module:\nfunction defaultdict(defaultFactory) {\n    return new Proxy({}, {\n        get(obj, prop) {\n            if (prop in obj) {\n                return obj[prop];\n            }\n            return defaultFactory();\n        }\n    });\n}"
+    ],
+    "from functools import *": [
+      "const functools = require('functools');",
+      "// There is no direct equivalent of functools in JavaScript, so we can just remove the import statement.",
+      "const functools = require('functools');"
+    ],
+    "from numpy import *": [
+      "const np = require('numpy');",
+      "const np = require('numpy');",
+      "const numpy = require('numpy');"
+    ],
+    "from pandas import *": [
+      "const pandas = require('pandas');"
+    ],
+    "from typing import *": [
+      "// No direct equivalent of typing module in JavaScript",
+      "// No direct equivalent of 'typing' module in JavaScript",
+      "// No equivalent in JavaScript"
+    ],
+    "from json import *": [
+      "const { } = require('json');",
+      "const { JSON } = require('json');",
+      "const { } = require('json');"
+    ],
+    "from string import *": [
+      "const { ... } = require('string');",
+      "const { ascii_lowercase, ascii_uppercase, ascii_letters, digits, hexdigits, octdigits, punctuation, printable, whitespace } = require('string');",
+      "// There is no equivalent module in JavaScript that provides the same functionality as the string module in Python.\n// You can import specific functions from the string module in Python, such as `import ascii_lowercase`, but in JavaScript, you don't need to import anything to use string functions.\n// So, you can simply remove the import statement in JavaScript."
+    ],
+    "from urllib import *": [
+      "const urllib = require('urllib');",
+      "const urllib = require('urllib');",
+      "const urllib = require('urllib');"
+    ],
+    "from tkinter import *": [
+      "// There is no direct equivalent to the `tkinter` library in JavaScript.\n// This code cannot be translated into a semantically equivalent JavaScript program.",
+      "const Tkinter = require('tkinter');",
+      "const { Tk } = require('tkinter');"
+    ],
+    "from hashlib import *": [
+      "const hashlib = require('hashlib');"
+    ],
+    "from heapq import *": [
+      "const { heapify, heappush, heappop, heapreplace } = require('heapq');",
+      "const { heapify, heappop, heappush, heapreplace, merge } = require('heapq');",
+      "const { heapify, heappush, heappop, heapreplace, nlargest, nsmallest } = require('heapq');"
+    ],
+    "from threading import *": [
+      "// JavaScript does not have a built-in threading module like Python's threading module.\n// Therefore, we cannot directly translate this import statement into JavaScript.\n// Instead, we can ignore this import statement since it is not required for the translation.\n\n// JavaScript equivalent code does not require import statements for built-in modules.",
+      "const {Thread} = require('thread');"
+    ],
+    "from time import *": [
+      "const { performance } = require('perf_hooks');",
+      "const { performance } = require('perf_hooks');",
+      "// JavaScript does not have a direct equivalent to \"from time import *\"\n// To achieve similar functionality, you can use the \"Date\" object in JavaScript\n\n// Example:\n// var currentDate = new Date();"
+    ],
+    "from statistics import *": [
+      "const statistics = require('statistics');",
+      "const statistics = require('statistics');"
+    ],
+    "from operator import *": [
+      "const { add, sub, mul, truediv, floordiv, mod, pow, lt, le, eq, ne, ge, gt } = require('operator');",
+      "const operator = require('operator');"
+    ],
+    "from requests import *": [
+      "const requests = require('requests');",
+      "const requests = require('requests');"
+    ],
+    "from multiprocessing import *": [
+      "const { spawn } = require('child_process');",
+      "// There is no direct equivalent of the 'multiprocessing' module in JavaScript.\n// You can achieve similar functionality using 'Web Workers' in JavaScript.\n// However, for simplicity, let's just omit this import statement in the JavaScript translation."
+    ],
+    "from subprocess import *": [
+      "const { exec } = require('child_process');"
+    ],
+    "from pathlib import *": [
+      "const path = require('path');"
+    ]
+  }
+}

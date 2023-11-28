@@ -1,0 +1,21 @@
+{
+  "template": "sign = -__ if a * b < 0 else __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "sign = -1 if a * b < 0 else 1",
+  "translations": {
+    "sign = -1 if a * b < 0 else 1": [
+      "let sign = (a * b < 0) ? -1 : 1;"
+    ],
+    "sign = -2 if a * b < 0 else 2": [],
+    "sign = -3 if a * b < 0 else 3": [
+      "var sign = (a * b < 0) ? -3 : 3;"
+    ],
+    "sign = -4 if a * b < 0 else 4": [
+      "let sign = (a * b < 0) ? -4 : 4;"
+    ],
+    "sign = -5 if a * b < 0 else 5": [
+      "var sign = (a * b < 0) ? -5 : 5;"
+    ]
+  }
+}

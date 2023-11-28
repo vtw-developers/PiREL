@@ -1,0 +1,23 @@
+{
+  "template": "[[True] * n for __ in range(n)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[[True] * n for _ in range(n)]",
+  "translations": {
+    "[[True] * n for i in range(n)]": [
+      "Array.from({ length: n }, () => Array(n).fill(true));"
+    ],
+    "[[True] * n for x in range(n)]": [
+      "Array.from({ length: n }, () => Array(n).fill(true));"
+    ],
+    "[[True] * n for y in range(n)]": [
+      "var result = [];\nfor (var y = 0; y < n; y++) {\n    result.push(Array(n).fill(true));\n}"
+    ],
+    "[[True] * n for z in range(n)]": [
+      "Array.from({length: n}, () => Array(n).fill(true));"
+    ],
+    "[[True] * n for a in range(n)]": [
+      "Array.from({ length: n }, () => Array(n).fill(true));"
+    ]
+  }
+}

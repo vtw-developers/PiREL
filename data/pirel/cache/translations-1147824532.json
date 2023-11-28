@@ -1,0 +1,23 @@
+{
+  "template": "used[i] or (i > 0 and nums[i] == nums[i - __] and not used[i - __])",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "used[i] or (i > 0 and nums[i] == nums[i - 1] and not used[i - 1])",
+  "translations": {
+    "used[i] or (i > 0 and nums[i] == nums[i - 1] and not used[i - 1])": [
+      "used[i] || (i > 0 && nums[i] == nums[i - 1] && !used[i - 1]);"
+    ],
+    "used[i] or (i > 0 and nums[i] == nums[i - 2] and not used[i - 2])": [
+      "used[i] || (i > 0 && nums[i] === nums[i - 2] && !used[i - 2]);"
+    ],
+    "used[i] or (i > 0 and nums[i] == nums[i - 3] and not used[i - 3])": [
+      "used[i] || (i > 0 && nums[i] === nums[i - 3] && !used[i - 3]);"
+    ],
+    "used[i] or (i > 0 and nums[i] == nums[i - 4] and not used[i - 4])": [
+      "used[i] || (i > 0 && nums[i] === nums[i - 4] && !used[i - 4])"
+    ],
+    "used[i] or (i > 0 and nums[i] == nums[i - 5] and not used[i - 5])": [
+      "used[i] || (i > 0 && nums[i] === nums[i - 5] && !used[i - 5]);"
+    ]
+  }
+}

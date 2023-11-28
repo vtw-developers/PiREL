@@ -1,0 +1,7 @@
+{
+  "template": "from __ import __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "from typing import *",
+  "translations": {}
+}

@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(__: str, num2: str) -> str:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(num1: str, num2: str) -> str:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(xyz: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(xyz, num2) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(abc: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(abc, num2) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(xyz: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(xyz, num2) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(foo: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(foo, num2) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(xyz: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(xyz, num2) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(bar: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(bar, num2) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(xyz: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(xyz, num2) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(baz: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(baz, num2) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(abc: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(abc, num2) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(foo: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(foo, num2) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(abc: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(abc, num2) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(bar: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(bar, num2) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(abc: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(abc, num2) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(baz: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(baz, num2) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(foo: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(foo, num2) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(bar: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(bar, num2) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(foo: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(foo, num2) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(baz: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(baz, num2) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(bar: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(bar, num2) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(baz: str, num2: str) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(baz, num2) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

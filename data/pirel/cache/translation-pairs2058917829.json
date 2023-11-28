@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "i < __ and cnt + 1 + len(words[i]) <= maxWidth",
+  "template_origin": "i < n and cnt + 1 + len(words[i]) <= maxWidth",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "i < n and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < n && cnt + 1 + words[i].length <= maxWidth"
+      },
+      {
+        "source": "i < total and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < total && cnt + 1 + words[i].length <= maxWidth"
+      }
+    ],
+    [
+      {
+        "source": "i < n and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < n && cnt + 1 + words[i].length <= maxWidth"
+      },
+      {
+        "source": "i < size and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < size && cnt + 1 + words[i].length <= maxWidth"
+      }
+    ],
+    [
+      {
+        "source": "i < n and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < n && cnt + 1 + words[i].length <= maxWidth"
+      },
+      {
+        "source": "i < limit and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < limit && cnt + 1 + words[i].length <= maxWidth"
+      }
+    ],
+    [
+      {
+        "source": "i < n and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < n && cnt + 1 + words[i].length <= maxWidth"
+      },
+      {
+        "source": "i < count and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < count && cnt + 1 + words[i].length <= maxWidth"
+      }
+    ],
+    [
+      {
+        "source": "i < total and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < total && cnt + 1 + words[i].length <= maxWidth"
+      },
+      {
+        "source": "i < size and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < size && cnt + 1 + words[i].length <= maxWidth"
+      }
+    ],
+    [
+      {
+        "source": "i < total and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < total && cnt + 1 + words[i].length <= maxWidth"
+      },
+      {
+        "source": "i < limit and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < limit && cnt + 1 + words[i].length <= maxWidth"
+      }
+    ],
+    [
+      {
+        "source": "i < total and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < total && cnt + 1 + words[i].length <= maxWidth"
+      },
+      {
+        "source": "i < count and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < count && cnt + 1 + words[i].length <= maxWidth"
+      }
+    ],
+    [
+      {
+        "source": "i < size and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < size && cnt + 1 + words[i].length <= maxWidth"
+      },
+      {
+        "source": "i < limit and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < limit && cnt + 1 + words[i].length <= maxWidth"
+      }
+    ],
+    [
+      {
+        "source": "i < size and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < size && cnt + 1 + words[i].length <= maxWidth"
+      },
+      {
+        "source": "i < count and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < count && cnt + 1 + words[i].length <= maxWidth"
+      }
+    ],
+    [
+      {
+        "source": "i < limit and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < limit && cnt + 1 + words[i].length <= maxWidth"
+      },
+      {
+        "source": "i < count and cnt + 1 + len(words[i]) <= maxWidth",
+        "target": "i < count && cnt + 1 + words[i].length <= maxWidth"
+      }
+    ]
+  ]
+}

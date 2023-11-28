@@ -1,0 +1,42 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums[__] > nums[l] or nums[__] > nums[r]",
+  "template_origin": "nums[mid] > nums[l] or nums[mid] > nums[r]",
+  "templatized_node_ids": [
+    6,
+    13
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums[i] > nums[l] or nums[i] > nums[r]",
+        "target": "nums[i] > nums[l] || nums[i] > nums[r];"
+      },
+      {
+        "source": "nums[x] > nums[l] or nums[x] > nums[r]",
+        "target": "nums[x] > nums[l] || nums[x] > nums[r];"
+      }
+    ],
+    [
+      {
+        "source": "nums[i] > nums[l] or nums[i] > nums[r]",
+        "target": "nums[i] > nums[l] || nums[i] > nums[r];"
+      },
+      {
+        "source": "nums[k] > nums[l] or nums[k] > nums[r]",
+        "target": "nums[k] > nums[l] || nums[k] > nums[r];"
+      }
+    ],
+    [
+      {
+        "source": "nums[x] > nums[l] or nums[x] > nums[r]",
+        "target": "nums[x] > nums[l] || nums[x] > nums[r];"
+      },
+      {
+        "source": "nums[k] > nums[l] or nums[k] > nums[r]",
+        "target": "nums[k] > nums[l] || nums[k] > nums[r];"
+      }
+    ]
+  ]
+}

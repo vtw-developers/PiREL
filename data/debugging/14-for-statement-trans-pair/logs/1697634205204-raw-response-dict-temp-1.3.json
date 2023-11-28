@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-8B0UWBil1JDJlYpj6eYytibmC03Aw",
+  "object": "chat.completion",
+  "created": 1697634188,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1. Variants where holes are filled with identifiers:\n```python\nfor i in items:\n    print(i)\n```\n\n2. Variants where holes are filled with literals:\n```python\nfor x in [1, 2, 3, 4, 5]:\n    print(x)\n```  \n\n3. A variant where holes are filled with function literals:\n```python\nfor e in enumerate([\"A\", \"B\", \"C\"]):\n    print(e)\n```\n\n4. Variants where holes are filled with different language elements:\n```python\nfor i in range(5):\n    continue\n```\n\n```python\nfor person in ['Bob','Charlie','Adam']:\n    if person == 'Adam':\n       break\n    print(person)\n```\n\n```python\nfor variable in dict(name='John Doe', city='Amsterdam'):\n    print(variable)\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 1,
+      "message": {
+        "role": "assistant",
+        "content": "1. Example where all holes are filled with identifiers:\n```python\nfor item in myList:\n    print(item)\n```\n\n2. Example where first hole is filled with literal and from there identifiers: \n```python\nfor 1 in myList:\n    print(myList[1])\n```\n\n3. Example filled with combination of function calls and some identifiers:\n\n```python\nfor i in range(10):\n    print(i)\n```\n\n4. Example filled with control structures like break, continue statements:\n\n```python\nfor num in myList:\n    if num > 5:\n        break\n```\n\n```python\nfor num in myList:\n    if num == 3:\n        continue\n    print num\n```\n\n5. Example using a Python Dictionary object: \n\n```python\nfor key in myDictionary:\n    print(myDictionary[key])\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 2,
+      "message": {
+        "role": "assistant",
+        "content": "Variant 1 - Filled with identifiers:\n```\nfor i in my_list:\n    print(i)\n```\n\nVariant 2 - Filled with literals:\n```\nfor i in [1, 2, 3, 4, 5]:\n    print(\"Number:\")\n```\n\nVariant 3 - Filled with function calls:\n```\nfor char in 'word':\n   print(char.upper())\n```\n\nVariant 4 - Filled with break statement inside while loop:\n```\nfor item in values:\n    if(item > 10):\n        break\n```\n\nVariant 5 - Filled with if statement:\n```\nfor num in numbers:\n    if num > 5:\n        print(num)\n```\n\nVariant 6 - Other data structures (Dictionary):\n```\nfor key in dictionary:\n    print(key)\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 3,
+      "message": {
+        "role": "assistant",
+        "content": "```python \nfor i in list:\n    print(i)\n```\n\n```python\nfor char in string: \n    character_frequency = string.count(char)\n```\n\n```python \nfor index in range(10):\n    pass\n```\n\n```python \nfor -10 in range(-17, -5, 2):\n    print(i)\n```\n\n```python \nfor line in open(\"file.txt\"):\n    print(line)\n````\n\n```python\nfor _ in range(10):\n    continue \n```\n\n```python\nfor number in [1,2,3,4,5]:\n    if number > 3:\n        break\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 4,
+      "message": {
+        "role": "assistant",
+        "content": "Variant 1 - Filled with identifiers / literals:\n\n```python\nfor i in list_name:\n    vars_to_print\n```\n\nVariant 2 - Filled with literals:\n\n```python\nfor _ in [10, 20, 30]:\n    print(_)\n```\n\nVariant 3 - Filled with different language elements like function calls, continue statement/result statement, if statement, Dictionary:\n\n```python\nfor key in dictionary_name.keys():\n    values = dictionary_name.get(key)\n```\n\nVariant 4 - with objects:\n\n(In the definision `Sample` is a class and `sample` is an instance of `Sample`.)\n\n```python\nfor attr in dir(sample):\n    value = getattr(sample, attr)\n```\n\nVariant 5 - With control statement \n\n```python\n# condition => Identifer need to get intitaliation \nfor item in list_name:\n    if condition:\n        break\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 542,
+    "completion_tokens": 834,
+    "total_tokens": 1376
+  }
+}

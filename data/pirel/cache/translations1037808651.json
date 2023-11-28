@@ -1,0 +1,23 @@
+{
+  "template": "for i, __ in enumerate(nums[:-1]):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for i, num in enumerate(nums[:-1]):\n    some_secret_fn_4071()",
+  "translations": {
+    "for i, _ in enumerate(nums[:-1]):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < nums.length - 1; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, x in enumerate(nums[:-1]):\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < nums.length - 1; i++) {\n    var x = nums[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, item in enumerate(nums[:-1]):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < nums.length - 1; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, element in enumerate(nums[:-1]):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < nums.length - 1; i++) {\n    let element = nums[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, val in enumerate(nums[:-1]):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < nums.length - 1; i++) {\n    let val = nums[i];\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

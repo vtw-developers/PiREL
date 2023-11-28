@@ -1,0 +1,72 @@
+{
+  "template": "__ = len(digits)",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "n = len(digits)",
+  "translations": {
+    "n = len(digits)": [
+      "var n = digits.length;"
+    ],
+    "count = len(digits)": [
+      "var count = digits.length;"
+    ],
+    "size = len(digits)": [
+      "var size = digits.length;"
+    ],
+    "length = len(digits)": [
+      "var length = digits.length;"
+    ],
+    "num_elements = len(digits)": [
+      "var num_elements = digits.length;"
+    ],
+    "total = len(digits)": [
+      "var total = digits.length;"
+    ],
+    "amount = len(digits)": [],
+    "quantity = len(digits)": [
+      "var quantity = digits.length;"
+    ],
+    "measure = len(digits)": [
+      "var measure = digits.length;"
+    ],
+    "dimension = len(digits)": [
+      "var dimension = digits.length;"
+    ],
+    "num = len(digits)": [
+      "var num = digits.length;"
+    ],
+    "value = len(digits)": [
+      "var value = digits.length;"
+    ],
+    "num_digits = len(digits)": [
+      "var num_digits = digits.length;"
+    ],
+    "num_values = len(digits)": [
+      "var num_values = digits.length;"
+    ],
+    "elements = len(digits)": [
+      "var elements = digits.length;"
+    ],
+    "result = len(digits)": [
+      "var result = digits.length;"
+    ],
+    "num_items = len(digits)": [
+      "var num_items = digits.length;"
+    ],
+    "number = len(digits)": [
+      "var number = digits.length;"
+    ],
+    "number_of_digits = len(digits)": [
+      "var number_of_digits = digits.length;"
+    ],
+    "qty = len(digits)": [
+      "var qty = digits.length;"
+    ],
+    "x = len(digits)": [
+      "var x = digits.length;"
+    ],
+    "size_of_digits = len(digits)": [
+      "var size_of_digits = digits.length;"
+    ]
+  }
+}

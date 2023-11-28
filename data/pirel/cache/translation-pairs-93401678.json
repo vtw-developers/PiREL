@@ -1,0 +1,302 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "group if __ == numRows else 2 * numRows - 2 * __",
+  "template_origin": "group if i == numRows else 2 * numRows - 2 * i",
+  "templatized_node_ids": [
+    5,
+    13
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "group if x == numRows else 2 * numRows - 2 * x",
+        "target": "x === numRows ? group : 2 * numRows - 2 * x;"
+      },
+      {
+        "source": "group if a == numRows else 2 * numRows - 2 * a",
+        "target": "a === numRows ? group : 2 * numRows - 2 * a;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? group : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "group if item == numRows else 2 * numRows - 2 * item",
+        "target": "item == numRows ? group : 2 * numRows - 2 * item;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? group : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "group if j == numRows else 2 * numRows - 2 * j",
+        "target": "j == numRows ? group : 2 * numRows - 2 * j;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? group : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "group if c == numRows else 2 * numRows - 2 * c",
+        "target": "c == numRows ? group : 2 * numRows - 2 * c;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? group : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "group if f == numRows else 2 * numRows - 2 * f",
+        "target": "f == numRows ? group : 2 * numRows - 2 * f;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? group : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "group if g == numRows else 2 * numRows - 2 * g",
+        "target": "g == numRows ? group : 2 * numRows - 2 * g;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? group : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "group if h == numRows else 2 * numRows - 2 * h",
+        "target": "h == numRows ? group : 2 * numRows - 2 * h;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? group : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "group if a == numRows else 2 * numRows - 2 * b",
+        "target": "a == numRows ? group : 2 * numRows - 2 * b;"
+      }
+    ],
+    [
+      {
+        "source": "group if item == numRows else 2 * numRows - 2 * item",
+        "target": "item == numRows ? group : 2 * numRows - 2 * item;"
+      },
+      {
+        "source": "group if j == numRows else 2 * numRows - 2 * j",
+        "target": "j == numRows ? group : 2 * numRows - 2 * j;"
+      }
+    ],
+    [
+      {
+        "source": "group if item == numRows else 2 * numRows - 2 * item",
+        "target": "item == numRows ? group : 2 * numRows - 2 * item;"
+      },
+      {
+        "source": "group if c == numRows else 2 * numRows - 2 * c",
+        "target": "c == numRows ? group : 2 * numRows - 2 * c;"
+      }
+    ],
+    [
+      {
+        "source": "group if item == numRows else 2 * numRows - 2 * item",
+        "target": "item == numRows ? group : 2 * numRows - 2 * item;"
+      },
+      {
+        "source": "group if f == numRows else 2 * numRows - 2 * f",
+        "target": "f == numRows ? group : 2 * numRows - 2 * f;"
+      }
+    ],
+    [
+      {
+        "source": "group if item == numRows else 2 * numRows - 2 * item",
+        "target": "item == numRows ? group : 2 * numRows - 2 * item;"
+      },
+      {
+        "source": "group if g == numRows else 2 * numRows - 2 * g",
+        "target": "g == numRows ? group : 2 * numRows - 2 * g;"
+      }
+    ],
+    [
+      {
+        "source": "group if item == numRows else 2 * numRows - 2 * item",
+        "target": "item == numRows ? group : 2 * numRows - 2 * item;"
+      },
+      {
+        "source": "group if h == numRows else 2 * numRows - 2 * h",
+        "target": "h == numRows ? group : 2 * numRows - 2 * h;"
+      }
+    ],
+    [
+      {
+        "source": "group if item == numRows else 2 * numRows - 2 * item",
+        "target": "item == numRows ? group : 2 * numRows - 2 * item;"
+      },
+      {
+        "source": "group if a == numRows else 2 * numRows - 2 * b",
+        "target": "a == numRows ? group : 2 * numRows - 2 * b;"
+      }
+    ],
+    [
+      {
+        "source": "group if j == numRows else 2 * numRows - 2 * j",
+        "target": "j == numRows ? group : 2 * numRows - 2 * j;"
+      },
+      {
+        "source": "group if c == numRows else 2 * numRows - 2 * c",
+        "target": "c == numRows ? group : 2 * numRows - 2 * c;"
+      }
+    ],
+    [
+      {
+        "source": "group if j == numRows else 2 * numRows - 2 * j",
+        "target": "j == numRows ? group : 2 * numRows - 2 * j;"
+      },
+      {
+        "source": "group if f == numRows else 2 * numRows - 2 * f",
+        "target": "f == numRows ? group : 2 * numRows - 2 * f;"
+      }
+    ],
+    [
+      {
+        "source": "group if j == numRows else 2 * numRows - 2 * j",
+        "target": "j == numRows ? group : 2 * numRows - 2 * j;"
+      },
+      {
+        "source": "group if g == numRows else 2 * numRows - 2 * g",
+        "target": "g == numRows ? group : 2 * numRows - 2 * g;"
+      }
+    ],
+    [
+      {
+        "source": "group if j == numRows else 2 * numRows - 2 * j",
+        "target": "j == numRows ? group : 2 * numRows - 2 * j;"
+      },
+      {
+        "source": "group if h == numRows else 2 * numRows - 2 * h",
+        "target": "h == numRows ? group : 2 * numRows - 2 * h;"
+      }
+    ],
+    [
+      {
+        "source": "group if j == numRows else 2 * numRows - 2 * j",
+        "target": "j == numRows ? group : 2 * numRows - 2 * j;"
+      },
+      {
+        "source": "group if a == numRows else 2 * numRows - 2 * b",
+        "target": "a == numRows ? group : 2 * numRows - 2 * b;"
+      }
+    ],
+    [
+      {
+        "source": "group if c == numRows else 2 * numRows - 2 * c",
+        "target": "c == numRows ? group : 2 * numRows - 2 * c;"
+      },
+      {
+        "source": "group if f == numRows else 2 * numRows - 2 * f",
+        "target": "f == numRows ? group : 2 * numRows - 2 * f;"
+      }
+    ],
+    [
+      {
+        "source": "group if c == numRows else 2 * numRows - 2 * c",
+        "target": "c == numRows ? group : 2 * numRows - 2 * c;"
+      },
+      {
+        "source": "group if g == numRows else 2 * numRows - 2 * g",
+        "target": "g == numRows ? group : 2 * numRows - 2 * g;"
+      }
+    ],
+    [
+      {
+        "source": "group if c == numRows else 2 * numRows - 2 * c",
+        "target": "c == numRows ? group : 2 * numRows - 2 * c;"
+      },
+      {
+        "source": "group if h == numRows else 2 * numRows - 2 * h",
+        "target": "h == numRows ? group : 2 * numRows - 2 * h;"
+      }
+    ],
+    [
+      {
+        "source": "group if c == numRows else 2 * numRows - 2 * c",
+        "target": "c == numRows ? group : 2 * numRows - 2 * c;"
+      },
+      {
+        "source": "group if a == numRows else 2 * numRows - 2 * b",
+        "target": "a == numRows ? group : 2 * numRows - 2 * b;"
+      }
+    ],
+    [
+      {
+        "source": "group if f == numRows else 2 * numRows - 2 * f",
+        "target": "f == numRows ? group : 2 * numRows - 2 * f;"
+      },
+      {
+        "source": "group if g == numRows else 2 * numRows - 2 * g",
+        "target": "g == numRows ? group : 2 * numRows - 2 * g;"
+      }
+    ],
+    [
+      {
+        "source": "group if f == numRows else 2 * numRows - 2 * f",
+        "target": "f == numRows ? group : 2 * numRows - 2 * f;"
+      },
+      {
+        "source": "group if h == numRows else 2 * numRows - 2 * h",
+        "target": "h == numRows ? group : 2 * numRows - 2 * h;"
+      }
+    ],
+    [
+      {
+        "source": "group if f == numRows else 2 * numRows - 2 * f",
+        "target": "f == numRows ? group : 2 * numRows - 2 * f;"
+      },
+      {
+        "source": "group if a == numRows else 2 * numRows - 2 * b",
+        "target": "a == numRows ? group : 2 * numRows - 2 * b;"
+      }
+    ],
+    [
+      {
+        "source": "group if g == numRows else 2 * numRows - 2 * g",
+        "target": "g == numRows ? group : 2 * numRows - 2 * g;"
+      },
+      {
+        "source": "group if h == numRows else 2 * numRows - 2 * h",
+        "target": "h == numRows ? group : 2 * numRows - 2 * h;"
+      }
+    ],
+    [
+      {
+        "source": "group if g == numRows else 2 * numRows - 2 * g",
+        "target": "g == numRows ? group : 2 * numRows - 2 * g;"
+      },
+      {
+        "source": "group if a == numRows else 2 * numRows - 2 * b",
+        "target": "a == numRows ? group : 2 * numRows - 2 * b;"
+      }
+    ],
+    [
+      {
+        "source": "group if h == numRows else 2 * numRows - 2 * h",
+        "target": "h == numRows ? group : 2 * numRows - 2 * h;"
+      },
+      {
+        "source": "group if a == numRows else 2 * numRows - 2 * b",
+        "target": "a == numRows ? group : 2 * numRows - 2 * b;"
+      }
+    ]
+  ]
+}

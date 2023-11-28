@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "sign * tot if __ <= sign * tot <= INT_MAX else INT_MAX",
+  "template_origin": "sign * tot if INT_MIN <= sign * tot <= INT_MAX else INT_MAX",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "sign * tot if x <= sign * tot <= INT_MAX else INT_MAX",
+        "target": "if (x <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+      },
+      {
+        "source": "sign * tot if y <= sign * tot <= INT_MAX else INT_MAX",
+        "target": "if (y <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+      }
+    ],
+    [
+      {
+        "source": "sign * tot if x <= sign * tot <= INT_MAX else INT_MAX",
+        "target": "if (x <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+      },
+      {
+        "source": "sign * tot if z <= sign * tot <= INT_MAX else INT_MAX",
+        "target": "if (z <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+      }
+    ],
+    [
+      {
+        "source": "sign * tot if x <= sign * tot <= INT_MAX else INT_MAX",
+        "target": "if (x <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+      },
+      {
+        "source": "sign * tot if a <= sign * tot <= INT_MAX else INT_MAX",
+        "target": "if (a <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+      }
+    ],
+    [
+      {
+        "source": "sign * tot if y <= sign * tot <= INT_MAX else INT_MAX",
+        "target": "if (y <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+      },
+      {
+        "source": "sign * tot if z <= sign * tot <= INT_MAX else INT_MAX",
+        "target": "if (z <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+      }
+    ],
+    [
+      {
+        "source": "sign * tot if y <= sign * tot <= INT_MAX else INT_MAX",
+        "target": "if (y <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+      },
+      {
+        "source": "sign * tot if a <= sign * tot <= INT_MAX else INT_MAX",
+        "target": "if (a <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+      }
+    ],
+    [
+      {
+        "source": "sign * tot if z <= sign * tot <= INT_MAX else INT_MAX",
+        "target": "if (z <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+      },
+      {
+        "source": "sign * tot if a <= sign * tot <= INT_MAX else INT_MAX",
+        "target": "if (a <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+      }
+    ]
+  ]
+}

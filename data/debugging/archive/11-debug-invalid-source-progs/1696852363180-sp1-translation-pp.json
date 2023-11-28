@@ -1,0 +1,9 @@
+{
+  "good_program_pairs": [
+    {
+      "source": "def f_gold(x: float, n: int) -> int:\n    return n",
+      "target": "function f_gold(x, n) {\n    return n;\n}"
+    }
+  ],
+  "success": true
+}

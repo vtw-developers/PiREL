@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(__: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(s: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(token: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(token) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(value: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(value) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(token: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(token) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(input_str: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(input_str) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(token: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(token) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(string: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(string) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(token: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(token) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(text: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(text) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(value: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(value) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(input_str: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(input_str) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(value: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(value) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(string: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(string) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(value: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(value) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(text: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(text) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(input_str: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(input_str) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(string: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(string) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(input_str: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(input_str) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(text: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(text) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(string: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(string) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(text: str) -> List[List[str]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(text) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

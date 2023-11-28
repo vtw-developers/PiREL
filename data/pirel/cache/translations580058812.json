@@ -1,0 +1,23 @@
+{
+  "template": "i == n or len(t) == __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "i == n or len(t) == 1",
+  "translations": {
+    "i == n or len(t) == 0": [
+      "i === n || t.length === 0"
+    ],
+    "i == n or len(t) == 1": [
+      "i === n || t.length === 1"
+    ],
+    "i == n or len(t) == 100": [
+      "i === n || t.length === 100"
+    ],
+    "i == n or len(t) == 2": [
+      "i === n || t.length === 2;"
+    ],
+    "i == n or len(t) == 3": [
+      "i === n || t.length === 3;"
+    ]
+  }
+}

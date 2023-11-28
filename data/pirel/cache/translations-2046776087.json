@@ -1,0 +1,23 @@
+{
+  "template": "-1 if s[__] == '-' else 1",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "-1 if s[i] == '-' else 1",
+  "translations": {
+    "-1 if s[n] == '-' else 1": [
+      "s[n] == '-' ? -1 : 1;"
+    ],
+    "-1 if s[index] == '-' else 1": [
+      "s[index] === '-' ? -1 : 1;"
+    ],
+    "-1 if s[i] == '-' else 1": [
+      "s[i] == '-' ? -1 : 1"
+    ],
+    "-1 if s[char_index] == '-' else 1": [
+      "s[char_index] == '-' ? -1 : 1;"
+    ],
+    "-1 if s[last_index] == '-' else 1": [
+      "s[last_index] == '-' ? -1 : 1;"
+    ]
+  }
+}

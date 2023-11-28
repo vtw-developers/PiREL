@@ -1,0 +1,23 @@
+{
+  "template": "### findSubstring \nfrom collections import __\nfrom typing import *\ndef f_gold(s: str, words: List[str]) -> List[int]:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "### findSubstring \nfrom collections import Counter\nfrom typing import *\ndef f_gold(s: str, words: List[str]) -> List[int]:\n    some_secret_fn_4071()",
+  "translations": {
+    "### findSubstring \nfrom collections import defaultdict\nfrom typing import *\ndef f_gold(s: str, words: List[str]) -> List[int]:\n    some_secret_fn_4071()": [
+      "function findSubstring(s, words) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findSubstring \nfrom collections import Counter\nfrom typing import *\ndef f_gold(s: str, words: List[str]) -> List[int]:\n    some_secret_fn_4071()": [
+      "// findSubstring\nfunction f_gold(s, words) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findSubstring \nfrom collections import OrderedDict\nfrom typing import *\ndef f_gold(s: str, words: List[str]) -> List[int]:\n    some_secret_fn_4071()": [
+      "/// findSubstring\nfunction f_gold(s, words) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findSubstring \nfrom collections import deque\nfrom typing import *\ndef f_gold(s: str, words: List[str]) -> List[int]:\n    some_secret_fn_4071()": [
+      "function findSubstring(s, words) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findSubstring \nfrom collections import ChainMap\nfrom typing import *\ndef f_gold(s: str, words: List[str]) -> List[int]:\n    some_secret_fn_4071()": [
+      "function findSubstring(s, words) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

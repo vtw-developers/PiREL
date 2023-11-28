@@ -1,0 +1,23 @@
+{
+  "template": "### maxPoints \nimport __\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "### maxPoints \nimport math\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+  "translations": {
+    "### maxPoints \nimport random\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()": [
+      "function maxPoints(points) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### maxPoints \nimport sys\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(points) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### maxPoints \nimport time\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()": [
+      "// maxPoints\nimport { some_secret_fn_4071 } from './some_secret_fn_4071.js';\nimport { gcd } from './math.js';\nimport { Counter } from './collections.js';\n\nfunction f_gold(points) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### maxPoints \nimport json\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(points) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### maxPoints \nimport itertools\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()": [
+      "function maxPoints(points) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

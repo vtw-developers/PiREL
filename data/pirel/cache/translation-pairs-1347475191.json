@@ -1,0 +1,22 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[['.'] * __ for _ in range(__)]",
+  "template_origin": "[['.'] * n for _ in range(n)]",
+  "templatized_node_ids": [
+    7,
+    13
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[['.'] * x for _ in range(y)]",
+        "target": "Array.from({ length: y }, () => Array(x).fill('.'));"
+      },
+      {
+        "source": "[['.'] * size for _ in range(count)]",
+        "target": "Array.from({ length: count }, () => Array(size).fill('.'));"
+      }
+    ]
+  ]
+}

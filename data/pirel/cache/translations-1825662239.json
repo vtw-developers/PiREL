@@ -1,0 +1,19 @@
+{
+  "template": "nums[mid] > nums[__] or nums[mid] > nums[r]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "nums[mid] > nums[l] or nums[mid] > nums[r]",
+  "translations": {
+    "nums[mid] > nums[i] or nums[mid] > nums[r]": [
+      "nums[mid] > nums[i] || nums[mid] > nums[r]"
+    ],
+    "nums[mid] > nums[x] or nums[mid] > nums[r]": [
+      "nums[mid] > nums[x] || nums[mid] > nums[r]"
+    ],
+    "nums[mid] > nums[placeholder] or nums[mid] > nums[r]": [
+      "nums[mid] > nums[placeholder] || nums[mid] > nums[r]"
+    ],
+    "nums[mid] > nums[element] or nums[mid] > nums[r]": [],
+    "nums[mid] > nums[index] or nums[mid] > nums[r]": []
+  }
+}

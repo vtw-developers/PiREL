@@ -1,0 +1,1271 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "-y if __ < 0 else y",
+  "template_origin": "-y if x < 0 else y",
+  "templatized_node_ids": [
+    6
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if i < 0 else y",
+        "target": "i < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if a < 0 else y",
+        "target": "a < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else y",
+        "target": "a < 0 ? -a : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else z",
+        "target": "a < 0 ? -a : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else y",
+        "target": "i < 0 ? -i : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else z",
+        "target": "i < 0 ? -i : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if i < 0 else y",
+        "target": "i < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if i < 0 else y",
+        "target": "i < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if i < 0 else y",
+        "target": "i < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if a < 0 else y",
+        "target": "a < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if i < 0 else y",
+        "target": "i < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if i < 0 else y",
+        "target": "i < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if i < 0 else y",
+        "target": "i < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if i < 0 else y",
+        "target": "i < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if i < 0 else y",
+        "target": "i < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if i < 0 else y",
+        "target": "i < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else z",
+        "target": "x < 0 ? -x : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if i < 0 else y",
+        "target": "i < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else y",
+        "target": "a < 0 ? -a : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if i < 0 else y",
+        "target": "i < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else z",
+        "target": "a < 0 ? -a : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if i < 0 else y",
+        "target": "i < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if i < 0 else y",
+        "target": "i < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if a < 0 else y",
+        "target": "a < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else z",
+        "target": "x < 0 ? -x : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else y",
+        "target": "a < 0 ? -a : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else z",
+        "target": "a < 0 ? -a : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else y",
+        "target": "i < 0 ? -i : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else z",
+        "target": "i < 0 ? -i : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if n < 0 else y",
+        "target": "n < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if a < 0 else y",
+        "target": "a < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else z",
+        "target": "x < 0 ? -x : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else y",
+        "target": "a < 0 ? -a : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else z",
+        "target": "a < 0 ? -a : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else y",
+        "target": "i < 0 ? -i : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else z",
+        "target": "i < 0 ? -i : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if value < 0 else y",
+        "target": "value < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if a < 0 else y",
+        "target": "a < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if a < 0 else y",
+        "target": "a < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if a < 0 else y",
+        "target": "a < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if a < 0 else y",
+        "target": "a < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if a < 0 else y",
+        "target": "a < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if a < 0 else y",
+        "target": "a < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else z",
+        "target": "x < 0 ? -x : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if a < 0 else y",
+        "target": "a < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else y",
+        "target": "i < 0 ? -i : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if a < 0 else y",
+        "target": "a < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else z",
+        "target": "i < 0 ? -i : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if a < 0 else y",
+        "target": "a < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if a < 0 else y",
+        "target": "a < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else z",
+        "target": "x < 0 ? -x : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else y",
+        "target": "a < 0 ? -a : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else z",
+        "target": "a < 0 ? -a : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else y",
+        "target": "i < 0 ? -i : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else z",
+        "target": "i < 0 ? -i : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if index < 0 else y",
+        "target": "index < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else z",
+        "target": "x < 0 ? -x : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else y",
+        "target": "a < 0 ? -a : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else z",
+        "target": "a < 0 ? -a : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else y",
+        "target": "i < 0 ? -i : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else z",
+        "target": "i < 0 ? -i : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if count < 0 else y",
+        "target": "count < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else z",
+        "target": "x < 0 ? -x : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else y",
+        "target": "a < 0 ? -a : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else z",
+        "target": "a < 0 ? -a : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else y",
+        "target": "i < 0 ? -i : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else z",
+        "target": "i < 0 ? -i : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if result < 0 else y",
+        "target": "result < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else z",
+        "target": "x < 0 ? -x : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else y",
+        "target": "a < 0 ? -a : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      },
+      {
+        "source": "-a if a < 0 else z",
+        "target": "a < 0 ? -a : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else y",
+        "target": "i < 0 ? -i : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      },
+      {
+        "source": "-i if i < 0 else z",
+        "target": "i < 0 ? -i : z;"
+      }
+    ],
+    [
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if z < 0 else y",
+        "target": "z < 0 ? -y : y;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-a if a < 0 else y",
+        "target": "a < 0 ? -a : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-a if a < 0 else z",
+        "target": "a < 0 ? -a : z;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-i if i < 0 else y",
+        "target": "i < 0 ? -i : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-i if i < 0 else z",
+        "target": "i < 0 ? -i : z;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else z",
+        "target": "x < 0 ? -x : z;"
+      },
+      {
+        "source": "-a if a < 0 else y",
+        "target": "a < 0 ? -a : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else z",
+        "target": "x < 0 ? -x : z;"
+      },
+      {
+        "source": "-a if a < 0 else z",
+        "target": "a < 0 ? -a : z;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else z",
+        "target": "x < 0 ? -x : z;"
+      },
+      {
+        "source": "-i if i < 0 else y",
+        "target": "i < 0 ? -i : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else z",
+        "target": "x < 0 ? -x : z;"
+      },
+      {
+        "source": "-i if i < 0 else z",
+        "target": "i < 0 ? -i : z;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else z",
+        "target": "x < 0 ? -x : z;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else z",
+        "target": "x < 0 ? -x : z;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ],
+    [
+      {
+        "source": "-a if a < 0 else y",
+        "target": "a < 0 ? -a : y;"
+      },
+      {
+        "source": "-i if i < 0 else y",
+        "target": "i < 0 ? -i : y;"
+      }
+    ],
+    [
+      {
+        "source": "-a if a < 0 else y",
+        "target": "a < 0 ? -a : y;"
+      },
+      {
+        "source": "-i if i < 0 else z",
+        "target": "i < 0 ? -i : z;"
+      }
+    ],
+    [
+      {
+        "source": "-a if a < 0 else y",
+        "target": "a < 0 ? -a : y;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-a if a < 0 else y",
+        "target": "a < 0 ? -a : y;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ],
+    [
+      {
+        "source": "-a if a < 0 else z",
+        "target": "a < 0 ? -a : z;"
+      },
+      {
+        "source": "-i if i < 0 else y",
+        "target": "i < 0 ? -i : y;"
+      }
+    ],
+    [
+      {
+        "source": "-a if a < 0 else z",
+        "target": "a < 0 ? -a : z;"
+      },
+      {
+        "source": "-i if i < 0 else z",
+        "target": "i < 0 ? -i : z;"
+      }
+    ],
+    [
+      {
+        "source": "-a if a < 0 else z",
+        "target": "a < 0 ? -a : z;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-a if a < 0 else z",
+        "target": "a < 0 ? -a : z;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ],
+    [
+      {
+        "source": "-i if i < 0 else y",
+        "target": "i < 0 ? -i : y;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-i if i < 0 else y",
+        "target": "i < 0 ? -i : y;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ],
+    [
+      {
+        "source": "-i if i < 0 else z",
+        "target": "i < 0 ? -i : z;"
+      },
+      {
+        "source": "-num if num < 0 else y",
+        "target": "num < 0 ? -num : y;"
+      }
+    ],
+    [
+      {
+        "source": "-i if i < 0 else z",
+        "target": "i < 0 ? -i : z;"
+      },
+      {
+        "source": "-num if num < 0 else z",
+        "target": "num < 0 ? -num : z;"
+      }
+    ]
+  ]
+}

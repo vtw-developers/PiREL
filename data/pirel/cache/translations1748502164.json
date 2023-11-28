@@ -1,0 +1,45 @@
+{
+  "template": "nums[mid] < target <= nums[__ - 1]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "nums[mid] < target <= nums[n - 1]",
+  "translations": {
+    "nums[mid] < target <= nums[mid - 1]": [
+      "nums[mid] < target && target <= nums[mid - 1]"
+    ],
+    "nums[mid] < target <= nums[mid - 2]": [
+      "nums[mid] < target && target <= nums[mid - 2];"
+    ],
+    "nums[mid] < target <= nums[mid - 3]": [
+      "nums[mid] < target && target <= nums[mid - 3];"
+    ],
+    "nums[mid] < target <= nums[mid - 4]": [],
+    "nums[mid] < target <= nums[mid - 5]": [
+      "nums[mid] < target && target <= nums[mid - 5];"
+    ],
+    "nums[mid] < target <= nums[mid - 6]": [
+      "nums[mid] < target && target <= nums[mid - 6];"
+    ],
+    "nums[mid] < target <= nums[mid - 7]": [
+      "nums[mid] < target && target <= nums[mid - 7]"
+    ],
+    "nums[mid] < target <= nums[mid - 8]": [],
+    "nums[mid] < target <= nums[mid - 9]": [
+      "nums[mid] < target && target <= nums[mid - 9]"
+    ],
+    "nums[mid] < target <= nums[mid - 10]": [],
+    "nums[mid] < target <= nums[i - 1]": [],
+    "nums[mid] < target <= nums[j - 1]": [
+      "nums[mid] < target && target <= nums[j - 1];"
+    ],
+    "nums[mid] < target <= nums[k - 1]": [
+      "nums[mid] < target && target <= nums[k - 1];"
+    ],
+    "nums[mid] < target <= nums[x - 1]": [
+      "nums[mid] < target && target <= nums[x - 1];"
+    ],
+    "nums[mid] < target <= nums[y - 1]": [
+      "nums[mid] < target && target <= nums[y - 1];"
+    ]
+  }
+}

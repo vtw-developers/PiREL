@@ -1,0 +1,78 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "temporary_tree_sitter_play.py",
+      "type": "python",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/backend/duoglotcore-server/",
+      "program": "temporary_tree_sitter_play.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "s_templatizer.py",
+      "type": "python",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/backend/duoglotcore-server/",
+      "program": "s_templatizer.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "s_post_process_translation_rule.py",
+      "type": "python",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/backend/duoglotcore-server/",
+      "program": "s_post_process_translation_rule.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "s_data_structures.py",
+      "type": "python",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/backend/duoglotcore-server/",
+      "program": "s_data_structures.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "s_post_process_llm_gen_code.py",
+      "type": "python",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/backend/duoglotcore-server/",
+      "program": "s_post_process_llm_gen_code.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "ast_parse.py",
+      "type": "python",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/backend/duoglotcore-server/",
+      "program": "ast_parse.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "DuoGlot backend: Attach",
+      "type": "python",
+      "request": "attach",
+      "connect": {
+        "host": "0.0.0.0",
+        "port": 4444
+      },
+      "pathMappings": [
+        {
+          "localRoot": "${workspaceFolder}/backend/duoglotcore-server",
+          "remoteRoot": "/opt/duoglotcore-server"
+        }
+      ],
+      "justMyCode": true
+    }
+  ]
+}

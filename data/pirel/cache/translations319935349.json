@@ -1,0 +1,65 @@
+{
+  "template": "### findMedianSortedArrays \nimport __\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "### findMedianSortedArrays \nimport math\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()",
+  "translations": {
+    "### findMedianSortedArrays \nimport random\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function findMedianSortedArrays(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport statistics\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "import statistics;\nimport { inf } from 'math';\nfunction f_gold(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport sys\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function findMedianSortedArrays(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport os\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function findMedianSortedArrays(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport datetime\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function findMedianSortedArrays(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport itertools\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "import * as itertools from 'itertools';\nimport { inf } from 'math';\nfunction f_gold(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport json\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function f_gold(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport urllib\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "// findMedianSortedArrays\nfunction f_gold(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport requests\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function f_gold(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport collections\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function f_gold(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport functools\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function findMedianSortedArrays(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport time\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function findMedianSortedArrays(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport heapq\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function findMedianSortedArrays(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport hashlib\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function findMedianSortedArrays(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport re\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function findMedianSortedArrays(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport numpy\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "// findMedianSortedArrays\nfunction f_gold(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport pandas\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function f_gold(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport matplotlib\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function f_gold(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findMedianSortedArrays \nimport scipy\nfrom math import inf\nfrom typing import *\ndef f_gold(nums1: List[int], nums2: List[int]) -> float:\n    some_secret_fn_4071()": [
+      "function findMedianSortedArrays(nums1, nums2) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

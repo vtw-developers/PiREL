@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "not used[__]",
+  "template_origin": "not used[i]",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "not used[not_used_variable]",
+        "target": "not_used[not_used_variable];"
+      },
+      {
+        "source": "not used[x]",
+        "target": "unused[x];"
+      }
+    ]
+  ]
+}

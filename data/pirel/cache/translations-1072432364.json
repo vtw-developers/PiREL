@@ -1,0 +1,68 @@
+{
+  "template": "__ //= 10",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "t //= 10",
+  "translations": {
+    "a //= 10": [
+      "a = Math.floor(a / 10);"
+    ],
+    "b //= 10": [
+      "b = Math.floor(b / 10);"
+    ],
+    "c //= 10": [
+      "c = Math.floor(c / 10);"
+    ],
+    "d //= 10": [
+      "d = Math.floor(d / 10);"
+    ],
+    "e //= 10": [
+      "e = Math.floor(e / 10);"
+    ],
+    "f //= 10": [
+      "f /= 10;"
+    ],
+    "g //= 10": [
+      "g = Math.floor(g / 10);"
+    ],
+    "h //= 10": [
+      "h = Math.floor(h / 10);"
+    ],
+    "i //= 10": [
+      "i = Math.floor(i / 10);"
+    ],
+    "j //= 10": [
+      "j = Math.floor(j / 10);"
+    ],
+    "x //= 10": [
+      "x = Math.floor(x / 10);"
+    ],
+    "y //= 10": [
+      "y = Math.floor(y / 10);"
+    ],
+    "z //= 10": [
+      "z = Math.floor(z / 10);"
+    ],
+    "num //= 10": [
+      "num = Math.floor(num / 10);"
+    ],
+    "value //= 10": [
+      "value = Math.floor(value / 10);"
+    ],
+    "result //= 10": [
+      "result = Math.floor(result / 10);"
+    ],
+    "data //= 10": [
+      "data = Math.floor(data / 10);"
+    ],
+    "var //= 10": [
+      "var _var = Math.floor(_var / 10);"
+    ],
+    "count //= 10": [
+      "count = count / 10;"
+    ],
+    "value_to_update //= 10": [
+      "value_to_update = Math.floor(value_to_update / 10);"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "role": "system",
+    "content": "You are a world-class software engineer.\n\nYour task is to generate SYNTACTICALLY VALID Python programs as follows:\n1. I will give you a Python program with holes (placeholders).\n2. A hole is a missing part of a program. Usually, it is an identifier or a literal value.\n3. A hole is denoted with double underscores (i.e. `__`)\n4. Your task is to fill in every hole in such a way that the resulting program is a SYNTACTICALLY VALID Python program.\n5. You should modify ONLY holes (double underscores `__`). DO NOT change other parts of the program.\n\nYour output should contain ONLY the Python program with its holes filled in.\nSurround the code blocks with triple backticks (```)."
+  },
+  {
+    "role": "user",
+    "content": "Fill in the holes in the following Python program:\n```\nfor __ in range(len(__)):\n    print(__)\n```\nRemember:\n1. A hole is denoted with double underscores `__`.\n2. Generate a syntactically valid Python program.\n3. Replace `__` with literal or identifier, and DO NOT change the rest of the code."
+  },
+  {
+    "role": "assistant",
+    "content": "```\nfor i in range(len(nums)):\n    print(i)\n```"
+  },
+  {
+    "role": "user",
+    "content": "Fill in the holes in the following Python program:\n```\ndef fgold(__: __):\n    pass\n```\nRemember:\n1. A hole is denoted with double underscores `__`.\n2. Generate a syntactically valid Python program.\n3. Replace `__` with something, and DO NOT change the rest of the code."
+  },
+  {
+    "role": "assistant",
+    "content": "```\ndef fgold(arg1: int):\n    pass\n```"
+  },
+  {
+    "role": "user",
+    "content": "Remember:\n1. A hole is denoted with double underscores `__`.\n2. Generate a syntactically valid Python program.\n3. Replace `__` with a single literal or identifier token, and DO NOT change the rest of the code.\n\nFill in the hole in the following Python program:\n```\n__ = __\n```\n\nProvide 10 different variants to fill in the holes.\nPut each variant in a separate code block."
+  }
+]

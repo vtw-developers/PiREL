@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for i, num in enumerate(__[:-1]):\n    some_secret_fn_4071()",
+  "template_origin": "for i, num in enumerate(nums[:-1]):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    9
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for i, num in enumerate(lst[:-1]):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < lst.length - 1; i++) {\n    let num = lst[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i, num in enumerate(data[:-1]):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < data.length - 1; i++) {\n    let num = data[i];\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i, num in enumerate(lst[:-1]):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < lst.length - 1; i++) {\n    let num = lst[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i, num in enumerate(items[:-1]):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < items.length - 1; i++) {\n    let num = items[i];\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i, num in enumerate(lst[:-1]):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < lst.length - 1; i++) {\n    let num = lst[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i, num in enumerate(values[:-1]):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < values.length - 1; i++) {\n    let num = values[i];\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i, num in enumerate(data[:-1]):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < data.length - 1; i++) {\n    let num = data[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i, num in enumerate(items[:-1]):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < items.length - 1; i++) {\n    let num = items[i];\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i, num in enumerate(data[:-1]):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < data.length - 1; i++) {\n    let num = data[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i, num in enumerate(values[:-1]):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < values.length - 1; i++) {\n    let num = values[i];\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i, num in enumerate(items[:-1]):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < items.length - 1; i++) {\n    let num = items[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i, num in enumerate(values[:-1]):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < values.length - 1; i++) {\n    let num = values[i];\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

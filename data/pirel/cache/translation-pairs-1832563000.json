@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for s, e in intervals[__:]:\n    some_secret_fn_4071()",
+  "template_origin": "for s, e in intervals[1:]:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for s, e in intervals[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < intervals.length; i++) {\n    let [s, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for s, e in intervals[2:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 2; i < intervals.length; i++) {\n    let [s, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for s, e in intervals[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < intervals.length; i++) {\n    let [s, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for s, e in intervals[3:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 3; i < intervals.length; i++) {\n    let [s, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for s, e in intervals[2:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 2; i < intervals.length; i++) {\n    let [s, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for s, e in intervals[3:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 3; i < intervals.length; i++) {\n    let [s, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

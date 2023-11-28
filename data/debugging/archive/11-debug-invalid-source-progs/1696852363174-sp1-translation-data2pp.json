@@ -1,0 +1,30 @@
+{
+  "program_pairs": [
+    {
+      "source": "def f_gold(x: float, n: int) -> int:\n    return n",
+      "target": "function f_gold(x, n) {\n    return n;\n}"
+    },
+    {
+      "source": "def f_gold(x: float, n: int) -> int:\n    return n",
+      "target": "const f_gold = (x, n) => n;"
+    }
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": [
+          "\"py.parameters\"",
+          "\"py.function_definition\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.formal_parameters\"",
+          "\"js.function_declaration\""
+        ]
+      }
+    }
+  ]
+}

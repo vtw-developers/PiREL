@@ -1,0 +1,23 @@
+{
+  "template": "### maxProduct \nimport __\nfrom math import inf\nfrom typing import *\ndef f_gold(nums: List[int]) -> int:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "### maxProduct \nimport math\nfrom math import inf\nfrom typing import *\ndef f_gold(nums: List[int]) -> int:\n    some_secret_fn_4071()",
+  "translations": {
+    "### maxProduct \nimport random\nfrom math import inf\nfrom typing import *\ndef f_gold(nums: List[int]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### maxProduct \nimport datetime\nfrom math import inf\nfrom typing import *\ndef f_gold(nums: List[int]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### maxProduct \nimport itertools\nfrom math import inf\nfrom typing import *\ndef f_gold(nums: List[int]) -> int:\n    some_secret_fn_4071()": [
+      "function maxProduct(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### maxProduct \nimport sys\nfrom math import inf\nfrom typing import *\ndef f_gold(nums: List[int]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### maxProduct \nimport collections\nfrom math import inf\nfrom typing import *\ndef f_gold(nums: List[int]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "template": "-__ if a * b < 0 else __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "-1 if a * b < 0 else 1",
+  "translations": {
+    "-1 if a * b < 0 else 1": [
+      "(a * b < 0) ? -1 : 1;"
+    ],
+    "-1 if a * b < 0 else 0": [
+      "var result = (a * b < 0) ? -1 : 0;"
+    ],
+    "-0 if a * b < 0 else 0": [
+      "(a * b < 0) ? -0 : 0;"
+    ],
+    "-100 if a * b < 0 else 100": [
+      "var result = a * b < 0 ? -100 : 100;"
+    ],
+    "-999 if a * b < 0 else 999": [
+      "(a * b < 0) ? -999 : 999;"
+    ]
+  }
+}

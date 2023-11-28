@@ -1,0 +1,44 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "return __ * __ if (n & 1) == 0 else __ * __ * x",
+  "template_origin": "return y * y if (n & 1) == 0 else y * y * x",
+  "templatized_node_ids": [
+    4,
+    5,
+    14,
+    15
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "return x * y if (n & 1) == 0 else x * y * x",
+        "target": "return (n & 1) === 0 ? x * y : x * y * x;"
+      },
+      {
+        "source": "return var1 * var2 if (n & 1) == 0 else var1 * var2 * x",
+        "target": "return (n & 1) === 0 ? var1 * var2 : var1 * var2 * x;"
+      }
+    ],
+    [
+      {
+        "source": "return x * y if (n & 1) == 0 else x * y * x",
+        "target": "return (n & 1) === 0 ? x * y : x * y * x;"
+      },
+      {
+        "source": "return val1 * val2 if (n & 1) == 0 else val1 * val2 * x",
+        "target": "return (n & 1) === 0 ? val1 * val2 : val1 * val2 * x;"
+      }
+    ],
+    [
+      {
+        "source": "return var1 * var2 if (n & 1) == 0 else var1 * var2 * x",
+        "target": "return (n & 1) === 0 ? var1 * var2 : var1 * var2 * x;"
+      },
+      {
+        "source": "return val1 * val2 if (n & 1) == 0 else val1 * val2 * x",
+        "target": "return (n & 1) === 0 ? val1 * val2 : val1 * val2 * x;"
+      }
+    ]
+  ]
+}

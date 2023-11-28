@@ -1,0 +1,112 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums[__] < nums[r] or nums[__] < nums[l]",
+  "template_origin": "nums[mid] < nums[r] or nums[mid] < nums[l]",
+  "templatized_node_ids": [
+    6,
+    13
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums[__1] < nums[r] or nums[__2] < nums[l]",
+        "target": "nums[1] < nums[r] || nums[2] < nums[l];"
+      },
+      {
+        "source": "nums[__3] < nums[r] or nums[__4] < nums[l]",
+        "target": "nums[3] < nums[r] || nums[4] < nums[l];"
+      }
+    ],
+    [
+      {
+        "source": "nums[__1] < nums[r] or nums[__2] < nums[l]",
+        "target": "nums[1] < nums[r] || nums[2] < nums[l];"
+      },
+      {
+        "source": "nums[__5] < nums[r] or nums[__6] < nums[l]",
+        "target": "nums[5] < nums[r] || nums[6] < nums[l];"
+      }
+    ],
+    [
+      {
+        "source": "nums[__1] < nums[r] or nums[__2] < nums[l]",
+        "target": "nums[1] < nums[r] || nums[2] < nums[l];"
+      },
+      {
+        "source": "nums[__7] < nums[r] or nums[__8] < nums[l]",
+        "target": "nums[7] < nums[r] || nums[8] < nums[l];"
+      }
+    ],
+    [
+      {
+        "source": "nums[__1] < nums[r] or nums[__2] < nums[l]",
+        "target": "nums[1] < nums[r] || nums[2] < nums[l];"
+      },
+      {
+        "source": "nums[__9] < nums[r] or nums[__10] < nums[l]",
+        "target": "nums[9] < nums[r] || nums[10] < nums[l];"
+      }
+    ],
+    [
+      {
+        "source": "nums[__3] < nums[r] or nums[__4] < nums[l]",
+        "target": "nums[3] < nums[r] || nums[4] < nums[l];"
+      },
+      {
+        "source": "nums[__5] < nums[r] or nums[__6] < nums[l]",
+        "target": "nums[5] < nums[r] || nums[6] < nums[l];"
+      }
+    ],
+    [
+      {
+        "source": "nums[__3] < nums[r] or nums[__4] < nums[l]",
+        "target": "nums[3] < nums[r] || nums[4] < nums[l];"
+      },
+      {
+        "source": "nums[__7] < nums[r] or nums[__8] < nums[l]",
+        "target": "nums[7] < nums[r] || nums[8] < nums[l];"
+      }
+    ],
+    [
+      {
+        "source": "nums[__3] < nums[r] or nums[__4] < nums[l]",
+        "target": "nums[3] < nums[r] || nums[4] < nums[l];"
+      },
+      {
+        "source": "nums[__9] < nums[r] or nums[__10] < nums[l]",
+        "target": "nums[9] < nums[r] || nums[10] < nums[l];"
+      }
+    ],
+    [
+      {
+        "source": "nums[__5] < nums[r] or nums[__6] < nums[l]",
+        "target": "nums[5] < nums[r] || nums[6] < nums[l];"
+      },
+      {
+        "source": "nums[__7] < nums[r] or nums[__8] < nums[l]",
+        "target": "nums[7] < nums[r] || nums[8] < nums[l];"
+      }
+    ],
+    [
+      {
+        "source": "nums[__5] < nums[r] or nums[__6] < nums[l]",
+        "target": "nums[5] < nums[r] || nums[6] < nums[l];"
+      },
+      {
+        "source": "nums[__9] < nums[r] or nums[__10] < nums[l]",
+        "target": "nums[9] < nums[r] || nums[10] < nums[l];"
+      }
+    ],
+    [
+      {
+        "source": "nums[__7] < nums[r] or nums[__8] < nums[l]",
+        "target": "nums[7] < nums[r] || nums[8] < nums[l];"
+      },
+      {
+        "source": "nums[__9] < nums[r] or nums[__10] < nums[l]",
+        "target": "nums[9] < nums[r] || nums[10] < nums[l];"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "template": "x, __ = divmod(mid, n)",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "x, y = divmod(mid, n)",
+  "translations": {
+    "x, _ = divmod(mid, n)": [
+      "let x;\n[x, _] = divmod(mid, n);"
+    ],
+    "x, _temp = divmod(mid, n)": [
+      "let [_temp, x] = [Math.floor(mid / n), mid % n];"
+    ],
+    "x, _1 = divmod(mid, n)": [
+      "let [x, _1] = [Math.floor(mid / n), mid % n];"
+    ],
+    "x, _2 = divmod(mid, n)": [
+      "let [x, _2] = [Math.floor(mid / n), mid % n];"
+    ],
+    "x, _value = divmod(mid, n)": [
+      "var _value;\nvar x = Math.floor(mid / n);\n_value = mid % n;"
+    ]
+  }
+}

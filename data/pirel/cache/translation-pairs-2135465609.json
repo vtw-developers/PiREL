@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "base, __ = divmod(n, cnt)",
+  "template_origin": "base, mod = divmod(n, cnt)",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "base, y = divmod(n, cnt)",
+        "target": "let [base, y] = [Math.floor(n / cnt), n % cnt];"
+      },
+      {
+        "source": "base, z = divmod(n, cnt)",
+        "target": "let [base, z] = [Math.floor(n / cnt), n % cnt];"
+      }
+    ],
+    [
+      {
+        "source": "base, y = divmod(n, cnt)",
+        "target": "let [base, y] = [Math.floor(n / cnt), n % cnt];"
+      },
+      {
+        "source": "base, val = divmod(n, cnt)",
+        "target": "let [base, val] = [Math.floor(n / cnt), n % cnt];"
+      }
+    ],
+    [
+      {
+        "source": "base, z = divmod(n, cnt)",
+        "target": "let [base, z] = [Math.floor(n / cnt), n % cnt];"
+      },
+      {
+        "source": "base, val = divmod(n, cnt)",
+        "target": "let [base, val] = [Math.floor(n / cnt), n % cnt];"
+      }
+    ]
+  ]
+}

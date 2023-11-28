@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "@__\ndef dfs(i, j):\n    some_secret_fn_4071()",
+  "template_origin": "@cache\ndef dfs(i, j):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    3
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "@staticmethod\ndef dfs(i, j):\n    some_secret_fn_4071()",
+        "target": "class ClassName {\n    static dfs(i, j) {\n        some_secret_fn_4071();\n    }\n}"
+      },
+      {
+        "source": "@classmethod\ndef dfs(i, j):\n    some_secret_fn_4071()",
+        "target": "class ClassName {\n    static dfs(i, j) {\n        some_secret_fn_4071();\n    }\n}"
+      }
+    ]
+  ]
+}

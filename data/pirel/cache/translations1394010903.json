@@ -1,0 +1,38 @@
+{
+  "template": "sign = -1 if __ * b < 0 else 1",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "sign = -1 if a * b < 0 else 1",
+  "translations": {
+    "sign = -1 if a * b < 0 else 1": [
+      "var sign = (a * b < 0) ? -1 : 1;"
+    ],
+    "sign = -1 if a * b <= 0 else 1": [
+      "let sign = (a * b <= 0) ? -1 : 1;"
+    ],
+    "sign = -1 if a * b > 0 else 1": [
+      "var sign = (a * b > 0) ? -1 : 1;"
+    ],
+    "sign = -1 if a * b >= 0 else 1": [
+      "let sign = (a * b >= 0) ? -1 : 1;"
+    ],
+    "sign = -1 if a * b == 0 else 1": [
+      "var sign = (a * b == 0) ? -1 : 1;"
+    ],
+    "sign = -1 if a * b != 0 else 1": [
+      "var sign = a * b !== 0 ? -1 : 1;"
+    ],
+    "sign = -1 if a * b is 0 else 1": [
+      "let sign = (a * b === 0) ? -1 : 1;"
+    ],
+    "sign = -1 if c * b < 0 else 1": [
+      "var sign = (c * b < 0) ? -1 : 1;"
+    ],
+    "sign = -1 if x * b < 0 else 1": [
+      "var sign = (x * b < 0) ? -1 : 1;"
+    ],
+    "sign = -1 if val * b < 0 else 1": [
+      "let sign = val * b < 0 ? -1 : 1;"
+    ]
+  }
+}

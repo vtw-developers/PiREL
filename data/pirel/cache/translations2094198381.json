@@ -1,0 +1,36 @@
+{
+  "template": "-__ if x < 0 else __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "-y if x < 0 else y",
+  "translations": {
+    "-x if x < 0 else x": [
+      "x < 0 ? -x : x;"
+    ],
+    "-x if x < 0 else y": [
+      "x < 0 ? -x : y;"
+    ],
+    "+x if x < 0 else x": [],
+    "-abc if x < 0 else def": [
+      "x < 0 ? -abc : def;"
+    ],
+    "-neg if x < 0 else pos": [
+      "x < 0 ? -1 : 1;"
+    ],
+    "-empty if x < 0 else full": [
+      "x < 0 ? \"\" : \"full\";"
+    ],
+    "-low if x < 0 else high": [
+      "x < 0 ? low : high;"
+    ],
+    "-minus if x < 0 else plus": [
+      "x < 0 ? minus : plus;"
+    ],
+    "-error if x < 0 else success": [
+      "if (x < 0) {\n    console.error('error');\n} else {\n    console.log('success');\n}"
+    ],
+    "-left if x < 0 else right": [
+      "x < 0 ? -left : right;"
+    ]
+  }
+}

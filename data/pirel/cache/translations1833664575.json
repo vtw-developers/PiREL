@@ -1,0 +1,23 @@
+{
+  "template": "[[False] * 9 for __ in range(9)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[[False] * 9 for _ in range(9)]",
+  "translations": {
+    "[[False] * 9 for i in range(9)]": [
+      "Array.from({ length: 9 }, () => Array(9).fill(false));"
+    ],
+    "[[False] * 9 for j in range(9)]": [
+      "var arr = new Array(9);\nfor (var j = 0; j < 9; j++) {\n    arr[j] = new Array(9);\n    for (var i = 0; i < 9; i++) {\n        arr[j][i] = false;\n    }\n}"
+    ],
+    "[[False] * 9 for k in range(9)]": [
+      "Array.from({length: 9}, () => Array(9).fill(false));"
+    ],
+    "[[False] * 9 for x in range(9)]": [
+      "Array.from({ length: 9 }, () => new Array(9).fill(false));"
+    ],
+    "[[False] * 9 for y in range(9)]": [
+      "let arr = Array.from({ length: 9 }, () => Array(9).fill(false));"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "template": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * __ + int(s[i - 1]) <= 26)",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 10 + int(s[i - 1]) <= 26)",
+  "translations": {
+    "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 1 + int(s[i - 1]) <= 26)": [
+      "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 1 + parseInt(s[i - 1]) <= 26)"
+    ],
+    "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 2 + int(s[i - 1]) <= 26)": [
+      "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 2 + parseInt(s[i - 1]) <= 26)"
+    ],
+    "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 3 + int(s[i - 1]) <= 26)": [
+      "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 3 + parseInt(s[i - 1]) <= 26)"
+    ],
+    "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 4 + int(s[i - 1]) <= 26)": [
+      "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 4 + parseInt(s[i - 1]) <= 26)"
+    ],
+    "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 5 + int(s[i - 1]) <= 26)": [
+      "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 5 + parseInt(s[i - 1]) <= 26)"
+    ]
+  }
+}

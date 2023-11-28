@@ -1,0 +1,21 @@
+{
+  "template": "def f_gold(digits: str) -> __[str]:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(digits: str) -> List[str]:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(digits: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: str) -> List[Any]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: str) -> List[int]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: str) -> List[float]:\n    some_secret_fn_4071()": [],
+    "def f_gold(digits: str) -> Tuple[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

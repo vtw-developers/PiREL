@@ -1,0 +1,62 @@
+{
+  "template": "-y if x < __ else y",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "-y if x < 0 else y",
+  "translations": {
+    "-y if x < 0 else y": [
+      "x < 0 ? -y : y;"
+    ],
+    "-y if x < 1 else y": [
+      "x < 1 ? -y : y;"
+    ],
+    "-y if x < 2 else y": [
+      "(x < 2) ? -y : y;"
+    ],
+    "-y if x < 3 else y": [
+      "x < 3 ? -y : y;"
+    ],
+    "-y if x < 4 else y": [],
+    "-y if x < 5 else y": [],
+    "-y if x < 6 else y": [
+      "x < 6 ? -y : y;"
+    ],
+    "-y if x < 7 else y": [
+      "x < 7 ? -y : y;"
+    ],
+    "-y if x < 8 else y": [
+      "x < 8 ? -y : y;"
+    ],
+    "-y if x < 9 else y": [
+      "x < 9 ? -y : y;"
+    ],
+    "-x if x < 0 else y": [
+      "x < 0 ? -x : y;"
+    ],
+    "-x if x < 1 else y": [
+      "x < 1 ? -x : y;"
+    ],
+    "-x if x < 2 else y": [
+      "x < 2 ? -x : y;"
+    ],
+    "-x if x < 3 else y": [
+      "x < 3 ? -x : y;"
+    ],
+    "-x if x < 4 else y": [],
+    "-x if x < 5 else y": [
+      "x < 5 ? -x : y;"
+    ],
+    "-x if x < 6 else y": [
+      "x < 6 ? -x : y;"
+    ],
+    "-x if x < 7 else y": [
+      "x < 7 ? -x : y;"
+    ],
+    "-x if x < 8 else y": [
+      "let result = x < 8 ? -x : y;"
+    ],
+    "-x if x < 9 else y": [
+      "x < 9 ? -x : y;"
+    ]
+  }
+}

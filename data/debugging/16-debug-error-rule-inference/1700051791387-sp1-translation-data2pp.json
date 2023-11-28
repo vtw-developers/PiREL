@@ -1,0 +1,24 @@
+{
+  "program_pairs": [
+    {
+      "source": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "target": "for (let idx = 0; idx < my_list.length; idx++) {\n    let val = my_list[idx];\n    secret_fun_4071();\n}"
+    },
+    {
+      "source": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "target": "my_list.forEach((val, idx) => {\n    secret_fun_4071();\n});"
+    }
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

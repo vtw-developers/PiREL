@@ -1,0 +1,22 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__ in m1 or __ not in words",
+  "template_origin": "t in m1 or t not in words",
+  "templatized_node_ids": [
+    4,
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "a in m1 or b not in words",
+        "target": "m1.includes(a) || !words.includes(b);"
+      },
+      {
+        "source": "i in m1 or j not in words",
+        "target": "m1.includes(i) || !words.includes(j);"
+      }
+    ]
+  ]
+}

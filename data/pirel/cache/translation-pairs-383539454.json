@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[[grid[0][0]] * __ for _ in range(m)]",
+  "template_origin": "[[grid[0][0]] * n for _ in range(m)]",
+  "templatized_node_ids": [
+    10
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[[grid[0][0]] * grid_width for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(grid_width).fill(grid[0][0]));"
+      },
+      {
+        "source": "[[grid[0][0]] * columns for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(columns).fill(grid[0][0]));"
+      }
+    ],
+    [
+      {
+        "source": "[[grid[0][0]] * grid_width for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(grid_width).fill(grid[0][0]));"
+      },
+      {
+        "source": "[[grid[0][0]] * count for _ in range(m)]",
+        "target": "Array.from({length: m}, () => Array(count).fill(grid[0][0]));"
+      }
+    ],
+    [
+      {
+        "source": "[[grid[0][0]] * columns for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(columns).fill(grid[0][0]));"
+      },
+      {
+        "source": "[[grid[0][0]] * count for _ in range(m)]",
+        "target": "Array.from({length: m}, () => Array(count).fill(grid[0][0]));"
+      }
+    ]
+  ]
+}

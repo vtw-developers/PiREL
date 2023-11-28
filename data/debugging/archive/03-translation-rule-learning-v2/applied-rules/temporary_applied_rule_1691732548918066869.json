@@ -1,0 +1,37 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.binary_operator\"",
+        "\".\"",
+        "\"_str_\"",
+        "\".\""
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      [
+        "\"js.parenthesized_expression\"",
+        [
+          "str",
+          "\"(\""
+        ],
+        [
+          "\"js.binary_expression\"",
+          "\".1\"",
+          "\"_str1_\"",
+          "\".2\""
+        ],
+        [
+          "str",
+          "\")\""
+        ]
+      ],
+      "\"*3\""
+    ]
+  ]
+}

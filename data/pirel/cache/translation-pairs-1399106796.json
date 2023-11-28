@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums[mid] < target <= nums[__ - 1]",
+  "template_origin": "nums[mid] < target <= nums[n - 1]",
+  "templatized_node_ids": [
+    10
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums[mid] < target <= nums[j - 1]",
+        "target": "nums[mid] < target && target <= nums[j - 1];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[k - 1]",
+        "target": "nums[mid] < target && target <= nums[k - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[j - 1]",
+        "target": "nums[mid] < target && target <= nums[j - 1];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[x - 1]",
+        "target": "nums[mid] < target && target <= nums[x - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[j - 1]",
+        "target": "nums[mid] < target && target <= nums[j - 1];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[y - 1]",
+        "target": "nums[mid] < target && target <= nums[y - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[k - 1]",
+        "target": "nums[mid] < target && target <= nums[k - 1];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[x - 1]",
+        "target": "nums[mid] < target && target <= nums[x - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[k - 1]",
+        "target": "nums[mid] < target && target <= nums[k - 1];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[y - 1]",
+        "target": "nums[mid] < target && target <= nums[y - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[x - 1]",
+        "target": "nums[mid] < target && target <= nums[x - 1];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[y - 1]",
+        "target": "nums[mid] < target && target <= nums[y - 1];"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "template": "strs = [chars[int(__) - 2] for __ in digits]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "strs = [chars[int(d) - 2] for d in digits]",
+  "translations": {
+    "strs = [chars[int(i) - 2] for i in digits]": [
+      "var strs = digits.map(i => chars[parseInt(i) - 2]);"
+    ],
+    "strs = [chars[int(j) - 2] for j in digits]": [
+      "var strs = digits.map(function(j) {\n    return chars[parseInt(j) - 2];\n});"
+    ],
+    "strs = [chars[int(k) - 2] for k in digits]": [
+      "var strs = digits.map(function(k) {\n    return chars[parseInt(k) - 2];\n});"
+    ],
+    "strs = [chars[int(x) - 2] for x in digits]": [
+      "var strs = digits.map(x => chars[parseInt(x) - 2]);"
+    ],
+    "strs = [chars[int(y) - 2] for y in digits]": [
+      "var strs = digits.map(function(y) {\n    return chars[parseInt(y) - 2];\n});"
+    ],
+    "strs = [chars[int(z) - 2] for z in digits]": [
+      "var strs = [];\nfor (var i = 0; i < digits.length; i++) {\n    var z = digits[i];\n    strs.push(chars[parseInt(z) - 2]);\n}"
+    ],
+    "strs = [chars[int(a) - 2] for a in digits]": [
+      "var strs = digits.map(a => chars[parseInt(a) - 2]);"
+    ],
+    "strs = [chars[int(b) - 2] for b in digits]": [
+      "var strs = digits.map(function(b) {\n    return chars[parseInt(b) - 2];\n});"
+    ],
+    "strs = [chars[int(c) - 2] for c in digits]": [
+      "var strs = digits.map(function(c) {\n    return chars[parseInt(c) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in digits]": [
+      "var strs = digits.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "strs = [chars[int(digit) - 2] for digit in digits]": [
+      "var strs = digits.map(function(digit) {\n    return chars[parseInt(digit) - 2];\n});"
+    ],
+    "strs = [chars[int(n) - 2] for n in digits]": [
+      "var strs = digits.map(function(n) {\n    return chars[parseInt(n) - 2];\n});"
+    ],
+    "strs = [chars[int(num) - 2] for num in digits]": [
+      "var strs = digits.map(function(num) {\n    return chars[parseInt(num) - 2];\n});"
+    ],
+    "strs = [chars[int(val) - 2] for val in digits]": [
+      "var strs = digits.map(function(val) {\n    return chars[parseInt(val) - 2];\n});"
+    ],
+    "strs = [chars[int(index) - 2] for index in digits]": [
+      "var strs = digits.map(index => chars[parseInt(index) - 2]);"
+    ],
+    "strs = [chars[int(dig) - 2] for dig in digits]": [
+      "var strs = digits.map(function(dig) {\n  return chars[parseInt(dig) - 2];\n});"
+    ],
+    "strs = [chars[int(value) - 2] for value in digits]": [
+      "var strs = digits.map(function(value) {\n    return chars[parseInt(value) - 2];\n});"
+    ],
+    "strs = [chars[int(position) - 2] for position in digits]": [
+      "var strs = digits.map(position => chars[parseInt(position) - 2]);"
+    ],
+    "strs = [chars[int(element) - 2] for element in digits]": [
+      "var strs = digits.map(element => chars[parseInt(element) - 2]);"
+    ],
+    "strs = [chars[int(ind) - 2] for ind in digits]": [
+      "var strs = digits.map(ind => chars[parseInt(ind) - 2]);"
+    ],
+    "strs = [chars[int(xyz) - 2] for xyz in digits]": [
+      "var strs = digits.map(function(xyz) {\n    return chars[parseInt(xyz) - 2];\n});"
+    ],
+    "strs = [chars[int(elem) - 2] for elem in digits]": [
+      "var strs = digits.map(elem => chars[parseInt(elem) - 2]);"
+    ],
+    "strs = [chars[int(item) - 2] for item in digits]": [
+      "var strs = digits.map(function(item) {\n    return chars[parseInt(item) - 2];\n});"
+    ],
+    "strs = [chars[int(m) - 2] for m in digits]": [
+      "var strs = digits.map(m => chars[parseInt(m) - 2]);"
+    ],
+    "strs = [chars[int(e) - 2] for e in digits]": [
+      "var strs = digits.map(function(e) {\n    return chars[parseInt(e) - 2];\n});"
+    ],
+    "strs = [chars[int(f) - 2] for f in digits]": [
+      "var strs = digits.map(function(f) {\n    return chars[parseInt(f) - 2];\n});"
+    ],
+    "strs = [chars[int(g) - 2] for g in digits]": [
+      "var strs = digits.map(function(g) {\n    return chars[parseInt(g) - 2];\n});"
+    ],
+    "strs = [chars[int(pos) - 2] for pos in digits]": [
+      "var strs = digits.map(function(pos) {\n    return chars[parseInt(pos) - 2];\n});"
+    ],
+    "strs = [chars[int(key) - 2] for key in digits]": [
+      "var strs = digits.map(function(key) {\n    return chars[Number(key) - 2];\n});"
+    ],
+    "strs = [chars[int(idx) - 2] for idx in digits]": [
+      "var strs = digits.map(function(idx) {\n    return chars[parseInt(idx) - 2];\n});"
+    ],
+    "strs = [chars[int(count) - 2] for count in digits]": [
+      "var strs = digits.map(function(count) {\n    return chars[parseInt(count) - 2];\n});"
+    ]
+  }
+}

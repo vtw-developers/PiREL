@@ -1,0 +1,172 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "0 if res < -(__**31) or res > __**31 - 1 else res",
+  "template_origin": "0 if res < -(2**31) or res > 2**31 - 1 else res",
+  "templatized_node_ids": [
+    10,
+    16
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 1 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(4**31) or res > 4**31 - 1 else res",
+        "target": "(res < -(Math.pow(4, 31)) || res > Math.pow(4, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 1 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(5**31) or res > 5**31 - 1 else res",
+        "target": "(res < -(Math.pow(5, 31)) || res > Math.pow(5, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 1 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(6**31) or res > 6**31 - 1 else res",
+        "target": "(res < -(Math.pow(6, 31)) || res > Math.pow(6, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 1 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(8**31) or res > 8**31 - 1 else res",
+        "target": "(res < -(Math.pow(8, 31)) || res > Math.pow(8, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 1 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(999**31) or res > 999**31 - 1 else res",
+        "target": "(res < -(Math.pow(999, 31)) || res > Math.pow(999, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(4**31) or res > 4**31 - 1 else res",
+        "target": "(res < -(Math.pow(4, 31)) || res > Math.pow(4, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(5**31) or res > 5**31 - 1 else res",
+        "target": "(res < -(Math.pow(5, 31)) || res > Math.pow(5, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(4**31) or res > 4**31 - 1 else res",
+        "target": "(res < -(Math.pow(4, 31)) || res > Math.pow(4, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(6**31) or res > 6**31 - 1 else res",
+        "target": "(res < -(Math.pow(6, 31)) || res > Math.pow(6, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(4**31) or res > 4**31 - 1 else res",
+        "target": "(res < -(Math.pow(4, 31)) || res > Math.pow(4, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(8**31) or res > 8**31 - 1 else res",
+        "target": "(res < -(Math.pow(8, 31)) || res > Math.pow(8, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(4**31) or res > 4**31 - 1 else res",
+        "target": "(res < -(Math.pow(4, 31)) || res > Math.pow(4, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(999**31) or res > 999**31 - 1 else res",
+        "target": "(res < -(Math.pow(999, 31)) || res > Math.pow(999, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(5**31) or res > 5**31 - 1 else res",
+        "target": "(res < -(Math.pow(5, 31)) || res > Math.pow(5, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(6**31) or res > 6**31 - 1 else res",
+        "target": "(res < -(Math.pow(6, 31)) || res > Math.pow(6, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(5**31) or res > 5**31 - 1 else res",
+        "target": "(res < -(Math.pow(5, 31)) || res > Math.pow(5, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(8**31) or res > 8**31 - 1 else res",
+        "target": "(res < -(Math.pow(8, 31)) || res > Math.pow(8, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(5**31) or res > 5**31 - 1 else res",
+        "target": "(res < -(Math.pow(5, 31)) || res > Math.pow(5, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(999**31) or res > 999**31 - 1 else res",
+        "target": "(res < -(Math.pow(999, 31)) || res > Math.pow(999, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(6**31) or res > 6**31 - 1 else res",
+        "target": "(res < -(Math.pow(6, 31)) || res > Math.pow(6, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(8**31) or res > 8**31 - 1 else res",
+        "target": "(res < -(Math.pow(8, 31)) || res > Math.pow(8, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(6**31) or res > 6**31 - 1 else res",
+        "target": "(res < -(Math.pow(6, 31)) || res > Math.pow(6, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(999**31) or res > 999**31 - 1 else res",
+        "target": "(res < -(Math.pow(999, 31)) || res > Math.pow(999, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(8**31) or res > 8**31 - 1 else res",
+        "target": "(res < -(Math.pow(8, 31)) || res > Math.pow(8, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(999**31) or res > 999**31 - 1 else res",
+        "target": "(res < -(Math.pow(999, 31)) || res > Math.pow(999, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(10**31) or res > 10**31 - 1 else res",
+        "target": "res < -(Math.pow(10, 31)) || res > Math.pow(10, 31) - 1 ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(42**31) or res > 42**31 - 1 else res",
+        "target": "res < -(Math.pow(42, 31)) || res > Math.pow(42, 31) - 1 ? 0 : res;"
+      }
+    ]
+  ]
+}

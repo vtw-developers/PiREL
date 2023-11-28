@@ -1,0 +1,51 @@
+{
+  "sp1": "midVal1 = 0 if a < b else 1",
+  "sp2": "midVal1 = 0 if 5 < 10 else 1",
+  "cand_translation_sp1": "let midVal1 = (a < b) ? 0 : 1;",
+  "raw_translations_sp2": [
+    "midVal1 = 0 if 5 < 10 else 1",
+    "let midVal1 = (5 < 10) ? 0 : 1;"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [
+          "py.subscript"
+        ],
+        "parents": [
+          "\"py.conditional_expression\"",
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.ternary_expression\"",
+          "\"js.variable_declarator\"",
+          "\"js.lexical_declaration\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [
+          "py.subscript"
+        ],
+        "parents": [
+          "\"py.conditional_expression\"",
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.ternary_expression\"",
+          "\"js.variable_declarator\"",
+          "\"js.variable_declaration\""
+        ]
+      }
+    }
+  ]
+}

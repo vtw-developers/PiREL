@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "@cache\ndef __(i, j):\n    some_secret_fn_4071()",
+  "template_origin": "@cache\ndef dfs(i, j):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "@cache\ndef variant1(i, j):\n    some_secret_fn_4071()",
+        "target": "function variant1(i, j) {\n    some_secret_fn_4071();\n}\n\nvariant1 = cache(variant1);"
+      },
+      {
+        "source": "@cache\ndef variant2(x, y):\n    some_secret_fn_4071()",
+        "target": "function variant2(x, y) {\n    some_secret_fn_4071();\n}\nvariant2 = cache(variant2);"
+      }
+    ],
+    [
+      {
+        "source": "@cache\ndef variant1(i, j):\n    some_secret_fn_4071()",
+        "target": "function variant1(i, j) {\n    some_secret_fn_4071();\n}\n\nvariant1 = cache(variant1);"
+      },
+      {
+        "source": "@cache\ndef variant5(arg1, arg2):\n    some_secret_fn_4071()",
+        "target": "function variant5(arg1, arg2) {\n    some_secret_fn_4071();\n}\n\nvariant5 = cache(variant5);"
+      }
+    ],
+    [
+      {
+        "source": "@cache\ndef variant2(x, y):\n    some_secret_fn_4071()",
+        "target": "function variant2(x, y) {\n    some_secret_fn_4071();\n}\nvariant2 = cache(variant2);"
+      },
+      {
+        "source": "@cache\ndef variant5(arg1, arg2):\n    some_secret_fn_4071()",
+        "target": "function variant5(arg1, arg2) {\n    some_secret_fn_4071();\n}\n\nvariant5 = cache(variant5);"
+      }
+    ]
+  ]
+}

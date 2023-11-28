@@ -1,0 +1,23 @@
+{
+  "template": "[matrix[__][j] for j in range(left, right + 1)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[matrix[top][j] for j in range(left, right + 1)]",
+  "translations": {
+    "[matrix[i][j] for j in range(left, right + 1)]": [
+      "matrix.slice(left, right + 1).map(row => row[j]);"
+    ],
+    "[matrix[row][j] for j in range(left, right + 1)]": [
+      "matrix.slice(row, row + 1)[0].slice(left, right + 1);"
+    ],
+    "[matrix[row_index][j] for j in range(left, right + 1)]": [
+      "matrix.map(row => row.slice(left, right + 1));"
+    ],
+    "[matrix[row][col] for col in range(left, right + 1)]": [
+      "matrix.slice(left, right + 1).map(row => row[col]);"
+    ],
+    "[matrix[row_index][col] for col in range(left, right + 1)]": [
+      "let result = [];\nfor (let col = left; col <= right; col++) {\n    result.push(matrix[row_index][col]);\n}"
+    ]
+  }
+}

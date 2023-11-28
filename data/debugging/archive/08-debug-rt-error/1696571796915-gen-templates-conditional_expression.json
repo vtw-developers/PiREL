@@ -1,0 +1,90 @@
+{
+  "0": {
+    "template_id": 0,
+    "template_origin": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+    "context_node_type": "py.conditional_expression",
+    "template_origin_node_type": "py.expression_statement",
+    "is_valid_template": false,
+    "error": "template origin is not type-isomorphic to the context node"
+  },
+  "1": {
+    "template_id": 1,
+    "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+    "context_node_type": "py.assignment",
+    "template_origin_node_type": "py.expression_statement",
+    "is_valid_template": false,
+    "error": "template origin is not type-isomorphic to the context node"
+  },
+  "2": {
+    "template_id": 2,
+    "template_context": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+    "template_context_str_repl": "midVal1 = __ if __ else __",
+    "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+    "templatized_node_ids": {
+      "5": [
+        0,
+        2,
+        0
+      ],
+      "14": [
+        0,
+        2,
+        2
+      ],
+      "23": [
+        0,
+        2,
+        4
+      ]
+    },
+    "templatized_node_ids_context": {},
+    "context_node_type": "expression_statement",
+    "is_valid_template": true,
+    "sub_templates": null,
+    "contexts": [
+      {
+        "source_context": {
+          "siblings": [
+            "\"py.identifier\""
+          ],
+          "parents": [
+            "\"py.assignment\"",
+            "\"py.expression_statement\""
+          ]
+        },
+        "target_context": {
+          "siblings": [
+            "\"js.identifier\""
+          ],
+          "parents": [
+            "\"js.variable_declarator\"",
+            "\"js.lexical_declaration\""
+          ]
+        }
+      },
+      {
+        "source_context": {
+          "siblings": [
+            "\"py.identifier\""
+          ],
+          "parents": [
+            "\"py.assignment\"",
+            "\"py.expression_statement\""
+          ]
+        },
+        "target_context": {
+          "siblings": [
+            "\"js.identifier\""
+          ],
+          "parents": [
+            "\"js.variable_declarator\"",
+            "\"js.variable_declaration\""
+          ]
+        }
+      }
+    ]
+  },
+  "problematic_node_type": "conditional_expression",
+  "problematic_node_id": 10,
+  "num_templates": 3
+}

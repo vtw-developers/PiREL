@@ -1,0 +1,23 @@
+{
+  "template": "[[grid[0][0]] * n for __ in range(m)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[[grid[0][0]] * n for _ in range(m)]",
+  "translations": {
+    "[[grid[0][0]] * n for i in range(m)]": [
+      "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+    ],
+    "[[grid[0][0]] * n for j in range(m)]": [
+      "const result = Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+    ],
+    "[[grid[0][0]] * n for k in range(m)]": [
+      "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+    ],
+    "[[grid[0][0]] * n for x in range(m)]": [
+      "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+    ],
+    "[[grid[0][0]] * n for y in range(m)]": [
+      "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+    ]
+  }
+}

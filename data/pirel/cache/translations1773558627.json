@@ -1,0 +1,47 @@
+{
+  "template": "__ < 1 or num != nums[__ - 1]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "i < 1 or num != nums[i - 1]",
+  "translations": {
+    "num < 1 or num != nums[num - 1]": [
+      "num < 1 || num !== nums[num - 1];"
+    ],
+    "num < 1 or num != nums[nums - 1]": [
+      "num < 1 || num !== nums[nums - 1];"
+    ],
+    "num < 1 or num != nums[num + 1]": [
+      "num < 1 || num !== nums[num + 1];"
+    ],
+    "num < 1 or num != nums[num * 2]": [
+      "num < 1 || num !== nums[num * 2];"
+    ],
+    "num < 1 or num != nums[num // 2]": [
+      "num < 1 || num !== nums[Math.floor(num / 2)];"
+    ],
+    "num < 1 or num != nums[num % 2]": [],
+    "num < 1 or num != nums[num ** 2]": [
+      "num < 1 || num !== nums[Math.pow(num, 2)];"
+    ],
+    "num < 1 or num != nums[num_ - 1]": [],
+    "num < 1 or num != nums[_num - 1]": [
+      "num < 1 || num !== nums[_num - 1];"
+    ],
+    "num < 1 or num != nums[_ - 1]": [
+      "num < 1 || num !== nums[_ - 1];"
+    ],
+    "num < 1 or num != nums[nums_ - 1]": [],
+    "num < 1 or num != nums[_nums - 1]": [
+      "num < 1 || num !== nums[_nums - 1]"
+    ],
+    "num < 1 or num != nums[_nums_ - 1]": [
+      "num < 1 || num !== nums[nums.length - 1]"
+    ],
+    "value < 1 or num != nums[value - 1]": [
+      "value < 1 || num !== nums[value - 1];"
+    ],
+    "index < 1 or num != nums[index - 1]": [
+      "index < 1 || num !== nums[index - 1]"
+    ]
+  }
+}

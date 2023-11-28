@@ -1,0 +1,53 @@
+{
+  "template": "def f_gold(matrix: __[__[int]]) -> None:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(matrix: List[List[int]]) -> None:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(matrix: List[List[int]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: List[List[float]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: List[List[str]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: List[List[bool]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: List[List[object]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: list[list[int]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: list[list[float]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: list[list[str]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: list[list[bool]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: list[list[complex]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: list[list[object]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: list[list[dict]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: list[list[tuple]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: list[list[set]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: List[List[dict]]) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

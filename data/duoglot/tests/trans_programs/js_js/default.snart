@@ -1,0 +1,58 @@
+(match_expand
+  (fragment ("js.for_in_statement" (str "for") (str "(") (str "let") "." (str "of") (nostr) ("js.call_expression" ("js.identifier" (val "range")) ("js.arguments" (str "(") "." (str ")"))) (str ")") ".") "*")
+  (fragment ("js.for_statement" (str "for") (str "(") (nostr) ("js.lexical_declaration" (str "let") ("js.variable_declarator" ".1" (str "=") ("js.number" (val 0))) (str ";")) ("js.expression_statement" ("js.binary_expression" ".1" (str "<") ".2") (str ";")) ("js.update_expression" ".1" (str "++")) (str ")") ".3") "*4"))
+
+(ext_match_expand
+  (fragment "_liststr_" ("js.identifier" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" (nostr) ("js.identifier" "_val1_") "_liststr2_" "*1")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("js.property_identifier" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" (nostr) ("js.property_identifier" "_val1_") "_liststr2_" "*1")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("js.shorthand_property_identifier_pattern" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" (nostr) ("js.shorthand_property_identifier_pattern" "_val1_") "_liststr2_" "*1")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("js.regex_pattern" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" (nostr) ("js.regex_pattern" "_val1_") "_liststr2_" "*1")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("js.string" "*") "_liststr_" "*")
+  (fragment "_liststr1_" (nostr) ("js.string" "*1") "_liststr2_" "*2")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("js.string_fragment" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" (nostr) ("js.string_fragment" "_val1_") "_liststr2_" "*1")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("js.escape_sequence" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" (nostr) ("js.escape_sequence" "_val1_") "_liststr2_" "*1")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("js.number" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" (nostr) ("js.number" "_val1_") "_liststr2_" "*1")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("js.comment" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" "_liststr2_" "*1")
+  (flags))
+
+(ext_match_expand
+  (fragment "_liststr_" ("js.hash_bang_line" "_val_") "_liststr_" "*")
+  (fragment "_liststr1_" "_liststr2_" "*1")
+  (flags))
+
+(ext_match_expand 
+  (fragment "_liststr_" ("_anynt_" "*") "_liststr_" "*")
+  (fragment "_liststr1_" (nostr) ("_anynt1_" "*1") "_liststr2_" "*2")
+  (flags))

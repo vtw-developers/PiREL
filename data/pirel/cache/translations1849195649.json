@@ -1,0 +1,74 @@
+{
+  "template": "strs = [chars[int(d) - __] for d in digits]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "strs = [chars[int(d) - 2] for d in digits]",
+  "translations": {
+    "strs = [chars[int(d) - 1] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 1];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 3] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 3];\n});"
+    ],
+    "strs = [chars[int(d) - 4] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 4];\n});"
+    ],
+    "strs = [chars[int(d) - 5] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 5];\n});"
+    ],
+    "strs = [chars[int(d) - 6] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 6];\n});"
+    ],
+    "strs = [chars[int(d) - 7] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 7];\n});"
+    ],
+    "strs = [chars[int(d) - 8] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 8];\n});"
+    ],
+    "strs = [chars[int(d) - 9] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 9];\n});"
+    ],
+    "strs = [chars[int(d) - 10] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 10];\n});"
+    ],
+    "strs = [chars[int(d) - 0] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 0];\n});"
+    ],
+    "strs = [chars[int(d) + 1] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) + 1];\n});"
+    ],
+    "strs = [chars[int(d) + 2] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) + 2];\n});"
+    ],
+    "strs = [chars[int(d) + 3] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) + 3];\n});"
+    ],
+    "strs = [chars[int(d) * 2] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) * 2];\n});"
+    ],
+    "strs = [chars[int(d) % 2] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) % 2];\n});"
+    ],
+    "strs = [chars[int(d) // 2] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[Math.floor(Number(d) / 2)];\n});"
+    ],
+    "strs = [chars[int(d) / 2] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[Math.floor(parseInt(d) / 2)];\n});"
+    ],
+    "strs = [chars[int(d) + 10] for d in digits]": [
+      "var strs = digits.map(function(d) {\n  return chars[parseInt(d) + 10];\n});"
+    ],
+    "strs = [chars[int(d) % 3] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) % 3];\n});"
+    ],
+    "strs = [chars[int(d) ** 2] for d in digits]": [
+      "var strs = digits.map(d => chars[parseInt(d) ** 2]);"
+    ],
+    "strs = [chars[int(d) + 5] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) + 5];\n});"
+    ]
+  }
+}

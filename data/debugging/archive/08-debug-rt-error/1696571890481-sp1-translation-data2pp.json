@@ -1,0 +1,54 @@
+{
+  "program_pairs": [
+    {
+      "source": "midVal1 = 0 if x - y < m else 1",
+      "target": "let midVal1 = (x - y < m) ? 0 : 1;"
+    },
+    {
+      "source": "midVal1 = 0 if x - y < m else 1",
+      "target": "let midVal1;\nif (x - y < m) {\n    midVal1 = 0;\n} else {\n    midVal1 = 1;\n}"
+    }
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": [
+          "\"py.comparison_operator\"",
+          "\"py.conditional_expression\"",
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.binary_expression\"",
+          "\"js.parenthesized_expression\"",
+          "\"js.ternary_expression\"",
+          "\"js.variable_declarator\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": [
+          "\"py.comparison_operator\"",
+          "\"py.conditional_expression\"",
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.binary_expression\"",
+          "\"js.parenthesized_expression\"",
+          "\"js.ternary_expression\"",
+          "\"js.variable_declarator\""
+        ]
+      }
+    }
+  ]
+}

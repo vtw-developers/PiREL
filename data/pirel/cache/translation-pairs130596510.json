@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for i, num in enumerate(nums[:-__]):\n    some_secret_fn_4071()",
+  "template_origin": "for i, num in enumerate(nums[:-1]):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    12
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for i, num in enumerate(nums[:-1]):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < nums.length - 1; i++) {\n    let num = nums[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i, num in enumerate(nums[:-2]):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < nums.length - 2; i++) {\n    let num = nums[i];\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

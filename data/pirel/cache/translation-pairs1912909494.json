@@ -1,0 +1,532 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for __ in __:\n    some_secret_fn_4071()",
+  "template_origin": "for s in strs:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    2,
+    3
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for item in my_list:\n    some_secret_fn_4071()",
+        "target": "for(let item of my_list) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in my_set:\n    some_secret_fn_4071()",
+        "target": "for (let element of my_set) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in my_list:\n    some_secret_fn_4071()",
+        "target": "for(let item of my_list) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in my_tuple:\n    some_secret_fn_4071()",
+        "target": "for (let element of my_tuple) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in my_list:\n    some_secret_fn_4071()",
+        "target": "for(let item of my_list) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in my_set:\n    some_secret_fn_4071()",
+        "target": "for (let val of my_set) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in my_list:\n    some_secret_fn_4071()",
+        "target": "for(let item of my_list) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let element of iterable) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in my_list:\n    some_secret_fn_4071()",
+        "target": "for(let item of my_list) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in nums:\n    some_secret_fn_4071()",
+        "target": "for (let num of nums) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in my_tuple:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < my_tuple.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for elem in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in my_tuple:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < my_tuple.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in my_string:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in my_tuple:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_tuple.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in my_list:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in my_tuple:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_tuple.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for char in my_string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in my_tuple:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_tuple.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for ch in my_string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in my_tuple:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_tuple.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in lst:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < lst.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in my_tuple:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_tuple.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for char in string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in my_set:\n    some_secret_fn_4071()",
+        "target": "for (let element of my_set) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let item of iterable) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in my_set:\n    some_secret_fn_4071()",
+        "target": "for (let element of my_set) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in items:\n    some_secret_fn_4071()",
+        "target": "for (let item of items) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in my_set:\n    some_secret_fn_4071()",
+        "target": "for (let element of my_set) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for x in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let x of my_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in my_set:\n    some_secret_fn_4071()",
+        "target": "for (let element of my_set) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for _ in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let _ of my_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in my_set:\n    some_secret_fn_4071()",
+        "target": "for (let element of my_set) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in nums:\n    some_secret_fn_4071()",
+        "target": "for (let num of nums) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let item of iterable) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in my_tuple:\n    some_secret_fn_4071()",
+        "target": "for (let element of my_tuple) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let item of iterable) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in my_set:\n    some_secret_fn_4071()",
+        "target": "for (let val of my_set) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let item of iterable) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for x in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let x of my_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let item of iterable) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for _ in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let _ of my_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let item of iterable) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in nums:\n    some_secret_fn_4071()",
+        "target": "for (let num of nums) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in some_list:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < some_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for elem in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in some_list:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < some_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in my_string:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in items:\n    some_secret_fn_4071()",
+        "target": "for (let item of items) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in my_tuple:\n    some_secret_fn_4071()",
+        "target": "for (let element of my_tuple) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in items:\n    some_secret_fn_4071()",
+        "target": "for (let item of items) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in my_set:\n    some_secret_fn_4071()",
+        "target": "for (let val of my_set) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in items:\n    some_secret_fn_4071()",
+        "target": "for (let item of items) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for x in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let x of my_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in items:\n    some_secret_fn_4071()",
+        "target": "for (let item of items) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for _ in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let _ of my_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in items:\n    some_secret_fn_4071()",
+        "target": "for (let item of items) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let element of iterable) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in items:\n    some_secret_fn_4071()",
+        "target": "for (let item of items) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in nums:\n    some_secret_fn_4071()",
+        "target": "for (let num of nums) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in my_tuple:\n    some_secret_fn_4071()",
+        "target": "for (let element of my_tuple) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in my_set:\n    some_secret_fn_4071()",
+        "target": "for (let val of my_set) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in my_tuple:\n    some_secret_fn_4071()",
+        "target": "for (let element of my_tuple) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for x in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let x of my_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in my_tuple:\n    some_secret_fn_4071()",
+        "target": "for (let element of my_tuple) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for _ in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let _ of my_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in my_tuple:\n    some_secret_fn_4071()",
+        "target": "for (let element of my_tuple) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in nums:\n    some_secret_fn_4071()",
+        "target": "for (let num of nums) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for elem in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in my_string:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in my_set:\n    some_secret_fn_4071()",
+        "target": "for (let val of my_set) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for x in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let x of my_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in my_set:\n    some_secret_fn_4071()",
+        "target": "for (let val of my_set) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for _ in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let _ of my_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in my_set:\n    some_secret_fn_4071()",
+        "target": "for (let val of my_set) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let element of iterable) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in my_set:\n    some_secret_fn_4071()",
+        "target": "for (let val of my_set) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in nums:\n    some_secret_fn_4071()",
+        "target": "for (let num of nums) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in my_list:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for char in my_string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in my_list:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for ch in my_string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in my_list:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in lst:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < lst.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in my_list:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for char in string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let x of my_list) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let element of iterable) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let x of my_list) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in nums:\n    some_secret_fn_4071()",
+        "target": "for (let num of nums) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for char in my_string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in lst:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < lst.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let _ of my_list) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let element of iterable) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in my_list:\n    some_secret_fn_4071()",
+        "target": "for (let _ of my_list) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in nums:\n    some_secret_fn_4071()",
+        "target": "for (let num of nums) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for ch in my_string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in lst:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < lst.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for ch in my_string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for char in string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let element of iterable) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in nums:\n    some_secret_fn_4071()",
+        "target": "for (let num of nums) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in lst:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < lst.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for char in string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

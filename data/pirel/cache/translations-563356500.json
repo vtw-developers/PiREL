@@ -1,0 +1,38 @@
+{
+  "template": "sign * tot if __ <= sign * tot <= INT_MAX else INT_MAX",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "sign * tot if INT_MIN <= sign * tot <= INT_MAX else INT_MAX",
+  "translations": {
+    "sign * tot if __ <= sign * tot <= __ else INT_MAX": [
+      "(sign * tot <= __ && __ <= sign * tot) ? sign * tot : INT_MAX;"
+    ],
+    "sign * tot if INT_MIN <= sign * tot <= INT_MAX else INT_MAX": [
+      "sign * tot;\nif (sign * tot >= INT_MIN && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "sign * tot if __ <= sign * tot <= INT_MAX else INT_MAX": [
+      "if (sign * tot <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "sign * tot if __ <= sign * __ <= INT_MAX else INT_MAX": [
+      "if (__ <= sign * __ && sign * __ <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "sign * tot if __ <= __ * tot <= INT_MAX else INT_MAX": [
+      "if (__ <= __ * tot && __ * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "sign * tot if __ <= sign * tot <= INT_MAX else __": [
+      "(sign * tot <= INT_MAX) ? (sign * tot) : __;"
+    ],
+    "sign * tot if x <= sign * tot <= INT_MAX else INT_MAX": [
+      "if (x <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "sign * tot if y <= sign * tot <= INT_MAX else INT_MAX": [
+      "if (y <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "sign * tot if z <= sign * tot <= INT_MAX else INT_MAX": [
+      "if (z <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "sign * tot if a <= sign * tot <= INT_MAX else INT_MAX": [
+      "if (a <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "template": "__ < nums[mid] and __ >= nums[l]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "target < nums[mid] and target >= nums[l]",
+  "translations": {
+    "a < nums[mid] and a >= nums[l]": [
+      "a < nums[mid] && a >= nums[l]"
+    ],
+    "b < nums[mid] and b >= nums[l]": [
+      "b < nums[mid] && b >= nums[l]"
+    ],
+    "c < nums[mid] and c >= nums[l]": [
+      "c < nums[mid] && c >= nums[l]"
+    ],
+    "x < nums[mid] and x >= nums[l]": [],
+    "y < nums[mid] and y >= nums[l]": [
+      "y < nums[mid] && y >= nums[l]"
+    ]
+  }
+}

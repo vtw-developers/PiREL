@@ -1,0 +1,23 @@
+{
+  "template": "for num in __:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for num in nums:\n    some_secret_fn_4071()",
+  "translations": {
+    "for num in my_array:\n    some_secret_fn_4071()": [
+      "for (let num of my_array) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for num in numbers:\n    some_secret_fn_4071()": [
+      "for (let num of numbers) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for num in myList:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < myList.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for num in myString:\n    some_secret_fn_4071()": [
+      "for (let num of myString) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for num in some_list:\n    some_secret_fn_4071()": [
+      "for (let num of some_list) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

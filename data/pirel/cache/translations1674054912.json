@@ -1,0 +1,19 @@
+{
+  "template": "k > i and nums[k] == nums[k + __]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "k > i and nums[k] == nums[k + 1]",
+  "translations": {
+    "k > i and nums[k] == nums[k + 1]": [],
+    "k > i and nums[k] == nums[k + 2]": [],
+    "k > i and nums[k] == nums[k + 3]": [
+      "k > i && nums[k] == nums[k + 3];"
+    ],
+    "k > i and nums[k] == nums[k + 4]": [
+      "k > i && nums[k] == nums[k + 4]"
+    ],
+    "k > i and nums[k] == nums[k + 5]": [
+      "k > i && nums[k] == nums[k + 5]"
+    ]
+  }
+}

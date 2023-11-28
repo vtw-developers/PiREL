@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "stk and heights[stk[-1]] >= __",
+  "template_origin": "stk and heights[stk[-1]] >= h",
+  "templatized_node_ids": [
+    11
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "stk and heights[stk[-1]] >= a",
+        "target": "stk && heights[stk[stk.length - 1]] >= a"
+      },
+      {
+        "source": "stk and heights[stk[-1]] >= c",
+        "target": "stk && heights[stk[stk.length - 1]] >= c"
+      }
+    ],
+    [
+      {
+        "source": "stk and heights[stk[-1]] >= a",
+        "target": "stk && heights[stk[stk.length - 1]] >= a"
+      },
+      {
+        "source": "stk and heights[stk[-1]] >= d",
+        "target": "stk && heights[stk[stk.length - 1]] >= d"
+      }
+    ],
+    [
+      {
+        "source": "stk and heights[stk[-1]] >= a",
+        "target": "stk && heights[stk[stk.length - 1]] >= a"
+      },
+      {
+        "source": "stk and heights[stk[-1]] >= e",
+        "target": "stk && heights[stk[stk.length - 1]] >= e"
+      }
+    ],
+    [
+      {
+        "source": "stk and heights[stk[-1]] >= c",
+        "target": "stk && heights[stk[stk.length - 1]] >= c"
+      },
+      {
+        "source": "stk and heights[stk[-1]] >= d",
+        "target": "stk && heights[stk[stk.length - 1]] >= d"
+      }
+    ],
+    [
+      {
+        "source": "stk and heights[stk[-1]] >= c",
+        "target": "stk && heights[stk[stk.length - 1]] >= c"
+      },
+      {
+        "source": "stk and heights[stk[-1]] >= e",
+        "target": "stk && heights[stk[stk.length - 1]] >= e"
+      }
+    ],
+    [
+      {
+        "source": "stk and heights[stk[-1]] >= d",
+        "target": "stk && heights[stk[stk.length - 1]] >= d"
+      },
+      {
+        "source": "stk and heights[stk[-1]] >= e",
+        "target": "stk && heights[stk[stk.length - 1]] >= e"
+      }
+    ]
+  ]
+}

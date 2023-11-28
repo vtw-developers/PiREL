@@ -1,0 +1,421 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for letter in __:\n    some_secret_fn_4071()",
+  "template_origin": "for letter in s:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    3
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for letter in word:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < word.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in word:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < word.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in text:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < text.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in word:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < word.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in chars:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < chars.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in word:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < word.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in letters:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < letters.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in word:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < word.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in my_string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in word:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < word.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in my_list:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < string.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in text:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < text.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < string.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in chars:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < chars.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < string.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in letters:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < letters.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < string.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in my_string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < string.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in my_list:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in text:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < text.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in chars:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < chars.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in text:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < text.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in letters:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < letters.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in text:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < text.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in my_string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in text:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < text.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in my_list:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in phrase:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < phrase.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in sentence:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < sentence.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in phrase:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < phrase.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in msg:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < msg.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in phrase:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < phrase.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in characters:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < characters.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in phrase:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < phrase.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in str_var:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < str_var.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in sentence:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < sentence.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in msg:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < msg.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in sentence:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < sentence.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in characters:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < characters.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in sentence:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < sentence.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in str_var:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < str_var.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in msg:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < msg.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in characters:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < characters.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in msg:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < msg.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in str_var:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < str_var.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in chars:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < chars.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in letters:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < letters.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in chars:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < chars.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in my_string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in chars:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < chars.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in my_list:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in letters:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < letters.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in my_string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in letters:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < letters.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in my_list:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in msg_text:\n    some_secret_fn_4071()",
+        "target": "for (let letter of msg_text) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let letter of iterable) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in msg_text:\n    some_secret_fn_4071()",
+        "target": "for (let letter of msg_text) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in input_string:\n    some_secret_fn_4071()",
+        "target": "for (let letter of input_string) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in msg_text:\n    some_secret_fn_4071()",
+        "target": "for (let letter of msg_text) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in word_list:\n    some_secret_fn_4071()",
+        "target": "for (let letter of word_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in msg_text:\n    some_secret_fn_4071()",
+        "target": "for (let letter of msg_text) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in myList:\n    some_secret_fn_4071()",
+        "target": "for (let letter of myList) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in characters:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < characters.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in str_var:\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < str_var.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in my_string:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in my_list:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let letter of iterable) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in input_string:\n    some_secret_fn_4071()",
+        "target": "for (let letter of input_string) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let letter of iterable) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in word_list:\n    some_secret_fn_4071()",
+        "target": "for (let letter of word_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in iterable:\n    some_secret_fn_4071()",
+        "target": "for (let letter of iterable) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in myList:\n    some_secret_fn_4071()",
+        "target": "for (let letter of myList) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in input_string:\n    some_secret_fn_4071()",
+        "target": "for (let letter of input_string) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in word_list:\n    some_secret_fn_4071()",
+        "target": "for (let letter of word_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in input_string:\n    some_secret_fn_4071()",
+        "target": "for (let letter of input_string) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in myList:\n    some_secret_fn_4071()",
+        "target": "for (let letter of myList) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in word_list:\n    some_secret_fn_4071()",
+        "target": "for (let letter of word_list) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in myList:\n    some_secret_fn_4071()",
+        "target": "for (let letter of myList) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

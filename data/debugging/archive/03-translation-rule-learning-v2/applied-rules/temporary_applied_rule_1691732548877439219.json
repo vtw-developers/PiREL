@@ -1,0 +1,22 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.parameters\"",
+        "\"*\""
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      [
+        "\"js.formal_parameters\"",
+        "\"*1\""
+      ],
+      "\"*2\""
+    ]
+  ]
+}

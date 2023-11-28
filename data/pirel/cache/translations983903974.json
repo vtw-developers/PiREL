@@ -1,0 +1,38 @@
+{
+  "template": "return sign * tot if INT_MIN <= sign * tot <= __ else __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "return sign * tot if INT_MIN <= sign * tot <= INT_MAX else INT_MAX",
+  "translations": {
+    "return sign * tot if INT_MIN <= sign * tot <= INT_MAX else tot": [
+      "if (INT_MIN <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return tot;\n}"
+    ],
+    "return sign * tot if INT_MIN <= sign * tot <= INT_MAX else sign": [
+      "if (INT_MIN <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return sign;\n}"
+    ],
+    "return sign * tot if INT_MIN <= sign * tot <= INT_MAX else INT_MAX": [
+      "if (INT_MIN <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "return sign * tot if INT_MIN <= sign * tot <= INT_MAX else INT_MIN": [
+      "if (INT_MIN <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MIN;\n}"
+    ],
+    "return sign * tot if INT_MIN <= sign * tot <= INT_MAX else NotImplemented": [
+      "if (INT_MIN <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return NotImplemented;\n}"
+    ],
+    "return sign * tot if INT_MIN <= sign * tot <= x else y": [
+      "if (INT_MIN <= sign * tot && sign * tot <= x) {\n    return sign * tot;\n} else {\n    return y;\n}"
+    ],
+    "return sign * tot if INT_MIN <= sign * tot <= a else b": [
+      "return (sign * tot >= INT_MIN && sign * tot <= a) ? sign * tot : b;"
+    ],
+    "return sign * tot if INT_MIN <= sign * tot <= var else var": [
+      "if (INT_MIN <= sign * tot && sign * tot <= var) {\n    return sign * tot;\n} else {\n    return var;\n}"
+    ],
+    "return sign * tot if INT_MIN <= sign * tot <= min_value else max_value": [
+      "return sign * tot >= INT_MIN && sign * tot <= min_value ? sign * tot : max_value;"
+    ],
+    "return sign * tot if INT_MIN <= sign * tot <= range_end else range_start": [
+      "return (sign * tot >= INT_MIN && sign * tot <= range_end) ? sign * tot : range_start;"
+    ]
+  }
+}

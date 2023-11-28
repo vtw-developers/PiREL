@@ -1,0 +1,72 @@
+{
+  "problematic_node_type": "string_content",
+  "problematic_node_id": 6,
+  "0": {
+    "template_id": 0,
+    "template_origin": "hi",
+    "context_node_type": "py.string_content",
+    "is_valid_template": false,
+    "error": "template origin is not a super-tree of problematic node"
+  },
+  "1": {
+    "template_id": 1,
+    "template": "'hi'",
+    "template_origin": "'hi'",
+    "templatized_node_ids": [],
+    "py_block_replaced": false,
+    "context_node_type": "string",
+    "is_valid_template": true,
+    "sub_templates": {
+      "num_sub_templates": 0
+    }
+  },
+  "2": {
+    "template_id": 2,
+    "template": "('hi')",
+    "template_origin": "('hi')",
+    "templatized_node_ids": [],
+    "py_block_replaced": false,
+    "context_node_type": "argument_list",
+    "is_valid_template": true,
+    "sub_templates": {
+      "num_sub_templates": 0
+    }
+  },
+  "3": {
+    "template_id": 3,
+    "template": "print('hi')",
+    "template_origin": "print('hi')",
+    "templatized_node_ids": [],
+    "py_block_replaced": false,
+    "context_node_type": "call",
+    "is_valid_template": true,
+    "sub_templates": {
+      "num_sub_templates": 0
+    }
+  },
+  "4": {
+    "template_id": 4,
+    "template": "print('hi')",
+    "template_origin": "print('hi')",
+    "templatized_node_ids": [],
+    "py_block_replaced": false,
+    "context_node_type": "expression_statement",
+    "is_valid_template": true,
+    "sub_templates": {
+      "num_sub_templates": 0
+    }
+  },
+  "5": {
+    "template_id": 5,
+    "template": "print('hi')",
+    "template_origin": "print('hi')",
+    "templatized_node_ids": [],
+    "py_block_replaced": false,
+    "context_node_type": "module",
+    "is_valid_template": true,
+    "sub_templates": {
+      "num_sub_templates": 0
+    }
+  },
+  "num_templates": 6
+}

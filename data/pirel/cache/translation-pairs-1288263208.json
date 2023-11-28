@@ -1,0 +1,31 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[__[bottom][j] for j in range(right - 1, left - 1, -1)]",
+  "template_origin": "[matrix[bottom][j] for j in range(right - 1, left - 1, -1)]",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[undefined_token[bottom][j] for j in range(right - 1, left - 1, -1)]",
+        "target": "let result = [];\nfor (let j = right - 1; j >= left; j--) {\n    result.push(undefined_token[bottom][j]);\n}"
+      },
+      {
+        "source": "[placeholder_token[bottom][j] for j in range(right - 1, left - 1, -1)]",
+        "target": "let result = [];\nfor (let j = right - 1; j >= left; j--) {\n    result.push(placeholder_token[bottom][j]);\n}"
+      }
+    ],
+    [
+      {
+        "source": "[missing_token[bottom][j] for j in range(right - 1, left - 1, -1)]",
+        "target": "let result = [];\nfor (let j = right - 1; j >= left - 1; j--) {\n    result.push(missing_token[bottom][j]);\n}"
+      },
+      {
+        "source": "[empty_token[bottom][j] for j in range(right - 1, left - 1, -1)]",
+        "target": "let result = [];\nfor (let j = right - 1; j >= left - 1; j--) {\n    result.push(empty_token[bottom][j]);\n}"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "template": "for s in __:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for s in strs:\n    some_secret_fn_4071()",
+  "translations": {
+    "for s in my_list:\n    some_secret_fn_4071()": [
+      "for (let s of my_list) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in data:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < data.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in items:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < items.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in names:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < names.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in values:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < values.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in elements:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < elements.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in words:\n    some_secret_fn_4071()": [
+      "for (let s of words) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in characters:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < characters.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in fruits:\n    some_secret_fn_4071()": [
+      "for (let s of fruits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in numbers:\n    some_secret_fn_4071()": [
+      "for (let s of numbers) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in iterable:\n    some_secret_fn_4071()": [
+      "for (let s of iterable) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

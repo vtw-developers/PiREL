@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[matrix[bottom][j] for j in range(__ - 1, left - 1, -1)]",
+  "template_origin": "[matrix[bottom][j] for j in range(right - 1, left - 1, -1)]",
+  "templatized_node_ids": [
+    14
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[matrix[bottom][j] for j in range(bottom - 1, left - 1, -1)]",
+        "target": "let result = [];\nfor (let j = bottom - 1; j >= left - 1; j--) {\n    result.push(matrix[bottom][j]);\n}"
+      },
+      {
+        "source": "[matrix[bottom][j] for j in range(top - 1, left - 1, -1)]",
+        "target": "let result = [];\nfor (let j = top - 1; j >= left - 1; j--) {\n    result.push(matrix[bottom][j]);\n}"
+      }
+    ],
+    [
+      {
+        "source": "[matrix[bottom][j] for j in range(right - 1, left - 1, -1)]",
+        "target": "let result = [];\nfor (let j = right - 1; j >= left; j--) {\n    result.push(matrix[bottom][j]);\n}"
+      },
+      {
+        "source": "[matrix[bottom][j] for j in range(n - 1, left - 1, -1)]",
+        "target": "let result = [];\nfor (let j = n - 1; j >= left; j--) {\n    result.push(matrix[bottom][j]);\n}"
+      }
+    ],
+    [
+      {
+        "source": "[matrix[bottom][j] for j in range(right - 1, __ - 1, -1)]",
+        "target": "let result = [];\nfor (let j = right - 1; j >= __; j--) {\n    result.push(matrix[bottom][j]);\n}"
+      },
+      {
+        "source": "[matrix[bottom][j] for j in range(n - 1, left - 1, -1)]",
+        "target": "let result = [];\nfor (let j = n - 1; j >= left; j--) {\n    result.push(matrix[bottom][j]);\n}"
+      }
+    ]
+  ]
+}

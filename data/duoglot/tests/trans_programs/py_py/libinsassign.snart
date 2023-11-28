@@ -1,0 +1,28 @@
+
+(ext_match_expand
+    (fragment "_liststr_" ("py.expression_statement" ("py.assignment" ("py.pattern_list" "*") "_liststr_" ".")) "_liststr_" "*")
+    (fragment 
+      "_liststr1_"
+      (nostr)
+      ("py.expression_statement" ("py.assignment" ("py.pattern_list" "*1" (nostr)) "_liststr2_" ".2")) 
+      (nostr)
+      ("py.expression_statement" ("py.call" ("py.identifier" (val "mylog")) ("py.argument_list" (str "(") ("py.identifier" (val "MYLOG_COUNTER")) (str ",") "*1" (str ")"))) (nostr)) 
+      "_liststr3_"
+      (nostr)
+      "*3")
+    (flags)
+)
+
+(ext_match_expand
+    (fragment "_liststr_" ("py.expression_statement" ("py.assignment" "." "_liststr_" ".")) "_liststr_" "*")
+    (fragment 
+      "_liststr1_"
+      (nostr)
+      ("py.expression_statement" ("py.assignment" ".1" "_liststr2_" ".2")) 
+      (nostr)
+      ("py.expression_statement" ("py.call" ("py.identifier" (val "mylog")) ("py.argument_list" (str "(") ("py.identifier" (val "MYLOG_COUNTER")) (str ",") ".1" (str ")"))) (nostr)) 
+      "_liststr3_"
+      (nostr)
+      "*3")
+    (flags)
+)

@@ -1,0 +1,26 @@
+{
+  "sp1": "def f_gold(arg1: int, target: int) -> int:\n    return target",
+  "sp2": "def f_gold(input_data: 'input_type', target: int) -> int:\n    return target",
+  "cand_translation_sp1": "function f_gold(arg1, target) {\n    return target;\n}",
+  "raw_translations_sp2": [
+    "function f_gold(input_data, target) {\n    return target;\n}"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": [
+          "\"py.parameters\"",
+          "\"py.function_definition\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.formal_parameters\"",
+          "\"js.function_declaration\""
+        ]
+      }
+    }
+  ]
+}

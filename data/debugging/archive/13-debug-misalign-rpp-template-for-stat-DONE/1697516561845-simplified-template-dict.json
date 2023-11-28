@@ -1,0 +1,29 @@
+{
+  "template_id": 0,
+  "template_context": "helper = {}",
+  "template_context_str_repl": "__ = {}",
+  "template_origin": "helper = {}",
+  "templatized_node_ids": {
+    "3": [
+      0,
+      0
+    ]
+  },
+  "templatized_node_ids_context": {},
+  "context_node_type": "expression_statement",
+  "is_valid_template": true,
+  "sub_templates": null,
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ],
+  "template": "__ = {}"
+}

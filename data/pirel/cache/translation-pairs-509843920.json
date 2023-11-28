@@ -1,0 +1,1371 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__ //= 10",
+  "template_origin": "t //= 10",
+  "templatized_node_ids": [
+    3
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "a //= 10",
+        "target": "a = Math.floor(a / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "b //= 10",
+        "target": "b = Math.floor(b / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      },
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      }
+    ],
+    [
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      },
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      }
+    ],
+    [
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      },
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      }
+    ],
+    [
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      },
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      }
+    ],
+    [
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      },
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      }
+    ],
+    [
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      },
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      }
+    ],
+    [
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      },
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      }
+    ],
+    [
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      },
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      }
+    ],
+    [
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      },
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      }
+    ],
+    [
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      },
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      }
+    ],
+    [
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      },
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      }
+    ],
+    [
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      },
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      }
+    ],
+    [
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "c //= 10",
+        "target": "c = Math.floor(c / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      },
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      }
+    ],
+    [
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      },
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      }
+    ],
+    [
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      },
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      }
+    ],
+    [
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      },
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      }
+    ],
+    [
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      },
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      }
+    ],
+    [
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      },
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      }
+    ],
+    [
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      },
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      }
+    ],
+    [
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      },
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      }
+    ],
+    [
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      },
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      }
+    ],
+    [
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      },
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      }
+    ],
+    [
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      },
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      }
+    ],
+    [
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "d //= 10",
+        "target": "d = Math.floor(d / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      },
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      }
+    ],
+    [
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      },
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      }
+    ],
+    [
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      },
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      }
+    ],
+    [
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      },
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      }
+    ],
+    [
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      },
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      }
+    ],
+    [
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      },
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      }
+    ],
+    [
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      },
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      }
+    ],
+    [
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      },
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      }
+    ],
+    [
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      },
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      }
+    ],
+    [
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      },
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      }
+    ],
+    [
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "e //= 10",
+        "target": "e = Math.floor(e / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      },
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      }
+    ],
+    [
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      },
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      }
+    ],
+    [
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      },
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      }
+    ],
+    [
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      },
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      }
+    ],
+    [
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      },
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      }
+    ],
+    [
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      },
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      }
+    ],
+    [
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      },
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      }
+    ],
+    [
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      },
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      }
+    ],
+    [
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      },
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      }
+    ],
+    [
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "g //= 10",
+        "target": "g = Math.floor(g / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      },
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      }
+    ],
+    [
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      },
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      }
+    ],
+    [
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      },
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      }
+    ],
+    [
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      },
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      }
+    ],
+    [
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      },
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      }
+    ],
+    [
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      },
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      }
+    ],
+    [
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      },
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      }
+    ],
+    [
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      },
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      }
+    ],
+    [
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "h //= 10",
+        "target": "h = Math.floor(h / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      },
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      }
+    ],
+    [
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      },
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      }
+    ],
+    [
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      },
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      }
+    ],
+    [
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      },
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      }
+    ],
+    [
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      },
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      }
+    ],
+    [
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      },
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      }
+    ],
+    [
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      },
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      }
+    ],
+    [
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "i //= 10",
+        "target": "i = Math.floor(i / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      },
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      }
+    ],
+    [
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      },
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      }
+    ],
+    [
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      },
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      }
+    ],
+    [
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      },
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      }
+    ],
+    [
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      },
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      }
+    ],
+    [
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      },
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      }
+    ],
+    [
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "j //= 10",
+        "target": "j = Math.floor(j / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      },
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      }
+    ],
+    [
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      },
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      }
+    ],
+    [
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      },
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      }
+    ],
+    [
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      },
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      }
+    ],
+    [
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      },
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      }
+    ],
+    [
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "x //= 10",
+        "target": "x = Math.floor(x / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      },
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      }
+    ],
+    [
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      },
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      }
+    ],
+    [
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      },
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      }
+    ],
+    [
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      },
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      }
+    ],
+    [
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "y //= 10",
+        "target": "y = Math.floor(y / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      },
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      }
+    ],
+    [
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      },
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      }
+    ],
+    [
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      },
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      }
+    ],
+    [
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "z //= 10",
+        "target": "z = Math.floor(z / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      },
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      }
+    ],
+    [
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      },
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      }
+    ],
+    [
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "num //= 10",
+        "target": "num = Math.floor(num / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      },
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      }
+    ],
+    [
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "value //= 10",
+        "target": "value = Math.floor(value / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      },
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      }
+    ],
+    [
+      {
+        "source": "result //= 10",
+        "target": "result = Math.floor(result / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ],
+    [
+      {
+        "source": "data //= 10",
+        "target": "data = Math.floor(data / 10);"
+      },
+      {
+        "source": "value_to_update //= 10",
+        "target": "value_to_update = Math.floor(value_to_update / 10);"
+      }
+    ]
+  ]
+}

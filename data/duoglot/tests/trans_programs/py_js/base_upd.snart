@@ -1,0 +1,212 @@
+; this ruleset contains the following additional rules to base.snart:
+
+; COMMENT (IGNORE)
+(match_expand
+  (fragment ("py.comment" "_val_") "*")
+  (fragment "*1")
+)
+
+; from X import * (IGNORE)
+(match_expand
+  (fragment ("py.import_from_statement" (str "from") ("py.dotted_name" ("py.identifier" "_val_")) (str "import") ("py.wildcard_import" (str "*"))) "*")
+  (fragment "*1")
+)
+
+; from X import Y (IGNORE)
+(match_expand
+  (fragment ("py.import_from_statement" (str "from") ("py.dotted_name" ("py.identifier" "_val_")) (str "import") ("py.dotted_name" ("py.identifier" "_val_"))) "*")
+  (fragment "*1")
+)
+
+; import X (IGNORE)
+(match_expand
+  (fragment ("py.import_statement" (str "import") ("py.dotted_name" ("py.identifier" "_val_"))) "*")
+  (fragment "*1")
+)
+
+;;;;;;;;;;;;;;;;;;;;;;;;
+
+(match_expand
+  (fragment ("py.module" "*"))
+  (fragment ("js.program" "*1")))
+
+(match_expand
+  (fragment ("py.expression_statement" ("py.augmented_assignment" "." "_str_" ".")) "*")
+  (fragment ("js.expression_statement" ("js.augmented_assignment_expression" ".1" "_str1_" ".2")) "*3"))
+
+(match_expand
+  (fragment ("py.expression_statement" "*") "*")
+  (fragment ("js.expression_statement" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.expression_statement" "*") "*")
+  (fragment ("js.lexical_declaration" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.assignment" ("py.pattern_list" "*")  ("py.expression_list" "*")) "*")
+  (fragment ("js.variable_declarator" ("js.array_pattern" "*1")  ("js.array" "*2")) "*3")
+)
+
+(match_expand
+  (fragment ("py.assignment" ("py.pattern_list" "*")  ("py.expression_list" "*")) "*")
+  (fragment ("js.assignment_expression" ("js.array_pattern" "*1")  ("js.array" "*2")) "*3")
+)
+
+(match_expand
+  (fragment ("py.assignment" "*") "*")
+  (fragment ("js.assignment_expression" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.assignment" "*") "*")
+  (fragment ("js.variable_declarator" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.identifier" "_val_") "*")
+  (fragment ("js.identifier" "_val1_") "*1"))
+
+(match_expand
+  (fragment ("py.integer" "_val_") "*")
+  (fragment ("js.number" "_val1_") "*1"))
+
+(match_expand
+  (fragment ("py.float" "_val_") "*")
+  (fragment ("js.number" "_val1_") "*1"))
+
+(match_expand
+  (fragment ("py.if_statement" ("py.parenthesized_expression" ".") "*") "*")
+  (fragment ("js.if_statement" ("js.parenthesized_expression" ".1") "*2") "*3"))
+
+(match_expand
+  (fragment ("py.elif_clause" "." ".") ("py.else_clause" "."))
+  (fragment ("js.else_clause" ("js.if_statement" ("js.parenthesized_expression" ".1") ".2" ("js.else_clause" ".3"))))
+)
+
+(match_expand
+  (fragment ("py.elif_clause" "." ".") "*")
+  (fragment ("js.else_clause" ("js.if_statement"  ("js.parenthesized_expression" ".1") ".2" "*3")))
+)
+
+(match_expand
+  (fragment ("py.else_clause" "."))
+  (fragment ("js.else_clause" ".1")))
+
+(match_expand
+  (fragment ("py.if_statement" "." "*") "*")
+  (fragment ("js.if_statement" ("js.parenthesized_expression" ".1") "*2") "*3"))
+
+(match_expand
+  (fragment ("py.while_statement" ("py.parenthesized_expression" ".") "*") "*")
+  (fragment ("js.while_statement" ("js.parenthesized_expression" ".1") "*2") "*3"))
+
+(match_expand
+  (fragment ("py.while_statement" "." "*") "*")
+  (fragment ("js.while_statement" ("js.parenthesized_expression" ".1") "*2") "*3"))
+
+(match_expand
+  (fragment ("py.return_statement"  ("py.expression_list" "*")) "*")
+  (fragment ("js.return_statement"  ("js.array" "*1")) "*2")
+)
+
+(match_expand
+  (fragment ("py.return_statement" ".") "*")
+  (fragment ("js.return_statement" ".1") "*2"))
+
+(match_expand
+  (fragment ("py.return_statement") "*")
+  (fragment ("js.return_statement") "*1"))
+
+(match_expand
+  (fragment ("py.parenthesized_expression" "*") "*")
+  (fragment ("js.parenthesized_expression" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.argument_list" "*") "*")
+  (fragment ("js.arguments" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.comparison_operator" "." "_str_" ".") "*")
+  (fragment ("js.binary_expression" ".1" "_str1_" ".2") "*3"))
+
+(match_expand
+  (fragment ("py.block" "*") "*")
+  (fragment ("js.statement_block" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.binary_operator" "." "_str_" ".") "*")
+  (fragment ("js.parenthesized_expression" (str "(") ("js.binary_expression" ".1" "_str1_" ".2") (str ")")) "*3"))
+
+(match_expand
+  (fragment ("py.unary_operator" "_str_" ".") "*")
+  (fragment ("js.unary_expression" "_str1_" ".1") "*2"))
+
+(match_expand
+  (fragment ("py.subscript" "." (str "[") (nostr) ".") "*")
+  (fragment ("js.subscript_expression" ".1" (str "[") (nostr) ".2") "*3"))
+
+; note: (fragment ("js.member_expression" ("js.identifier" (val "Number")) (str ".") ("js.property_identifier" (val "MAX_SAFE_INTEGER"))) "*1")
+(match_expand
+  (fragment ("py.attribute" "." ("py.identifier" "_val_")) "*")
+  (fragment ("js.member_expression" ".1" ("js.property_identifier" "_val1_")) "*2"))
+
+(match_expand
+  (fragment ("py.true") "*")
+  (fragment ("js.true") "*1"))
+
+(match_expand
+  (fragment ("py.false") "*")
+  (fragment ("js.false") "*1"))
+
+(match_expand
+  (fragment ("py.string" "*") "*")
+  (fragment ("js.string" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.list" "*") "*")
+  (fragment ("js.array" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.tuple" "*") "*")
+  (fragment ("js.array" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.string_content" "_val_") "*")
+  (fragment ("js.string_fragment" "_val1_") "*1"))
+
+(match_expand
+  (fragment ("py.function_definition" (str "def") "*") "*")
+  (fragment ("js.function_declaration" (str "function") "*1") "*2"))
+
+(match_expand
+  (fragment ("py.parameters" "*") "*")
+  (fragment ("js.formal_parameters" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.none") "*")
+  (fragment ("js.null") "*1"))
+
+(match_expand
+  (fragment ("py.continue_statement") "*")
+  (fragment ("js.continue_statement") "*1"))
+
+(match_expand
+  (fragment ("py.break_statement") "*")
+  (fragment ("js.break_statement") "*1"))
+
+(match_expand
+  (fragment ("py.call" "*") "*")
+  (fragment ("js.call_expression" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.dictionary" "*") "*")
+  (fragment ("js.object" "*1") "*2")
+)
+
+(match_expand
+  (fragment ("py.escape_sequence" "_val_") "*")
+  (fragment ("js.escape_sequence" "_val1_") "*1")
+)
+
+(match_expand
+  (fragment ("py.default_parameter" "."  ".") "*")
+  (fragment ("js.assignment_pattern" ".1"  ".2") "*3")
+)

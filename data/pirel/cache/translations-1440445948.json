@@ -1,0 +1,21 @@
+{
+  "template": "t in m1 or t not in __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "t in m1 or t not in words",
+  "translations": {
+    "t in m1 or t not in m2": [
+      "m1.includes(t) || !m2.includes(t);"
+    ],
+    "t in m1 or t not in m3": [
+      "m1.includes(t) || !m3.includes(t);"
+    ],
+    "t in m1 or t not in m4": [
+      "m1.includes(t) || !m4.includes(t);"
+    ],
+    "t in m1 or t not in m5": [
+      "m1.includes(t) || !m5.includes(t);"
+    ],
+    "t in m1 or t not in m6": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "translation_pairs": [
+    [
+      {
+        "source": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+        "target": "for(let i = 0; i < lst.length; i++) {\n    let v = lst[i];\n    secret_fun_4071();\n}"
+      },
+      {
+        "source": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+        "target": "for(let i = 0; i < my_tuple.length; i++) {\n    let v = my_tuple[i];\n    secret_fun_4071();\n}"
+      }
+    ]
+  ]
+}

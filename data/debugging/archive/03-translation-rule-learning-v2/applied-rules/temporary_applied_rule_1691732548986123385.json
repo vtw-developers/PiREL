@@ -1,0 +1,26 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.comparison_operator\"",
+        "\".\"",
+        "\"_str_\"",
+        "\".\""
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      [
+        "\"js.binary_expression\"",
+        "\".1\"",
+        "\"_str1_\"",
+        "\".2\""
+      ],
+      "\"*3\""
+    ]
+  ]
+}

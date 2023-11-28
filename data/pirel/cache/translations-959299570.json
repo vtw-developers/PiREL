@@ -1,0 +1,44 @@
+{
+  "template": "def f_gold(s: __) -> str:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(s: str) -> str:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(s: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: str) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: float) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: list) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: dict) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: tuple) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: bool) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: object) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: Any) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: set) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: bytes) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: complex) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

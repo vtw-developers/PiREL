@@ -1,0 +1,23 @@
+{
+  "template": "j > i + __ and nums[j] == nums[j - __]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "j > i + 1 and nums[j] == nums[j - 1]",
+  "translations": {
+    "j > i + 1 and nums[j] == nums[j - 1]": [
+      "j > i + 1 && nums[j] == nums[j - 1]"
+    ],
+    "j > i + 2 and nums[j] == nums[j - 2]": [
+      "j > i + 2 && nums[j] == nums[j - 2]"
+    ],
+    "j > i + 3 and nums[j] == nums[j - 3]": [
+      "j > i + 3 && nums[j] === nums[j - 3];"
+    ],
+    "j > i + 4 and nums[j] == nums[j - 4]": [
+      "j > i + 4 && nums[j] == nums[j - 4]"
+    ],
+    "j > i + 5 and nums[j] == nums[j - 5]": [
+      "j > i + 5 && nums[j] == nums[j - 5]"
+    ]
+  }
+}

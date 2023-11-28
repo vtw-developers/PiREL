@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(rowIndex: __) -> List[int]:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(rowIndex: int) -> List[int]:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(rowIndex: int) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(rowIndex: str) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(rowIndex: int) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(rowIndex: float) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(rowIndex: int) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(rowIndex: bool) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(rowIndex: int) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(rowIndex: dict) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(rowIndex: str) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(rowIndex: float) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(rowIndex: str) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(rowIndex: bool) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(rowIndex: str) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(rowIndex: dict) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(rowIndex: float) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(rowIndex: bool) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(rowIndex: float) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(rowIndex: dict) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(rowIndex: bool) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(rowIndex: dict) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(rowIndex) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

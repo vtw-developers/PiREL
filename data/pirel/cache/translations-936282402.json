@@ -1,0 +1,23 @@
+{
+  "template": "sign * __ if INT_MIN <= sign * __ <= INT_MAX else INT_MAX",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "sign * tot if INT_MIN <= sign * tot <= INT_MAX else INT_MAX",
+  "translations": {
+    "sign * var1 if INT_MIN <= sign * var1 <= INT_MAX else INT_MAX": [
+      "sign * var1 >= INT_MIN && sign * var1 <= INT_MAX ? sign * var1 : INT_MAX;"
+    ],
+    "sign * val1 if INT_MIN <= sign * val1 <= INT_MAX else INT_MAX": [
+      "(sign * val1 >= INT_MIN && sign * val1 <= INT_MAX) ? sign * val1 : INT_MAX;"
+    ],
+    "sign * num1 if INT_MIN <= sign * num1 <= INT_MAX else INT_MAX": [
+      "(sign * num1 >= INT_MIN && sign * num1 <= INT_MAX) ? sign * num1 : INT_MAX;"
+    ],
+    "sign * x if INT_MIN <= sign * x <= INT_MAX else INT_MAX": [
+      "let result = (sign * x >= INT_MIN && sign * x <= INT_MAX) ? sign * x : INT_MAX;"
+    ],
+    "sign * value if INT_MIN <= sign * value <= INT_MAX else INT_MAX": [
+      "if (INT_MIN <= sign * value && sign * value <= INT_MAX) {\n    return sign * value;\n} else {\n    return INT_MAX;\n}"
+    ]
+  }
+}

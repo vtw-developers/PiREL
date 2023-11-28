@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "st, __ = intervals[0]",
+  "template_origin": "st, ed = intervals[0]",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "st, _ = intervals[0]",
+        "target": "let [st, _] = intervals[0];"
+      },
+      {
+        "source": "st, x = intervals[0]",
+        "target": "let [st, x] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "st, _ = intervals[0]",
+        "target": "let [st, _] = intervals[0];"
+      },
+      {
+        "source": "st, y = intervals[0]",
+        "target": "let [st, y] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "st, _ = intervals[0]",
+        "target": "let [st, _] = intervals[0];"
+      },
+      {
+        "source": "st, z = intervals[0]",
+        "target": "let [st, z] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "st, _ = intervals[0]",
+        "target": "let [st, _] = intervals[0];"
+      },
+      {
+        "source": "st, a = intervals[0]",
+        "target": "let [st, a] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "st, x = intervals[0]",
+        "target": "let [st, x] = intervals[0];"
+      },
+      {
+        "source": "st, y = intervals[0]",
+        "target": "let [st, y] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "st, x = intervals[0]",
+        "target": "let [st, x] = intervals[0];"
+      },
+      {
+        "source": "st, z = intervals[0]",
+        "target": "let [st, z] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "st, x = intervals[0]",
+        "target": "let [st, x] = intervals[0];"
+      },
+      {
+        "source": "st, a = intervals[0]",
+        "target": "let [st, a] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "st, y = intervals[0]",
+        "target": "let [st, y] = intervals[0];"
+      },
+      {
+        "source": "st, z = intervals[0]",
+        "target": "let [st, z] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "st, y = intervals[0]",
+        "target": "let [st, y] = intervals[0];"
+      },
+      {
+        "source": "st, a = intervals[0]",
+        "target": "let [st, a] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "st, z = intervals[0]",
+        "target": "let [st, z] = intervals[0];"
+      },
+      {
+        "source": "st, a = intervals[0]",
+        "target": "let [st, a] = intervals[0];"
+      }
+    ]
+  ]
+}

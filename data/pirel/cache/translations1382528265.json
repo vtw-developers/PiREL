@@ -1,0 +1,23 @@
+{
+  "template": "l > __ and nums[l] == nums[l + 1]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "l > j and nums[l] == nums[l + 1]",
+  "translations": {
+    "l > Ellipsis and nums[l] == nums[l + 1]": [
+      "l > undefined && nums[l] == nums[l + 1]"
+    ],
+    "l > NotImplemented and nums[l] == nums[l + 1]": [
+      "if (l > NotImplemented && nums[l] == nums[l + 1]) {\n    // code block\n}"
+    ],
+    "l > NotImplemented and nums[l] == NotImplemented[l + 1]": [
+      "l > null && nums[l] == nums[l + 1];"
+    ],
+    "l > NotImplementedType and nums[l] == nums[l + 1]": [
+      "l > NotImplementedType && nums[l] == nums[l + 1];"
+    ],
+    "l > object and nums[l] == nums[l + 1]": [
+      "l > object && nums[l] == nums[l + 1];"
+    ]
+  }
+}

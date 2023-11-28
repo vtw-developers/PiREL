@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[[True] * n for __ in range(n)]",
+  "template_origin": "[[True] * n for _ in range(n)]",
+  "templatized_node_ids": [
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[[True] * n for i in range(n)]",
+        "target": "Array.from({ length: n }, () => Array(n).fill(true));"
+      },
+      {
+        "source": "[[True] * n for x in range(n)]",
+        "target": "Array.from({ length: n }, () => Array(n).fill(true));"
+      }
+    ],
+    [
+      {
+        "source": "[[True] * n for i in range(n)]",
+        "target": "Array.from({ length: n }, () => Array(n).fill(true));"
+      },
+      {
+        "source": "[[True] * n for z in range(n)]",
+        "target": "Array.from({length: n}, () => Array(n).fill(true));"
+      }
+    ],
+    [
+      {
+        "source": "[[True] * n for i in range(n)]",
+        "target": "Array.from({ length: n }, () => Array(n).fill(true));"
+      },
+      {
+        "source": "[[True] * n for a in range(n)]",
+        "target": "Array.from({ length: n }, () => Array(n).fill(true));"
+      }
+    ],
+    [
+      {
+        "source": "[[True] * n for x in range(n)]",
+        "target": "Array.from({ length: n }, () => Array(n).fill(true));"
+      },
+      {
+        "source": "[[True] * n for z in range(n)]",
+        "target": "Array.from({length: n}, () => Array(n).fill(true));"
+      }
+    ],
+    [
+      {
+        "source": "[[True] * n for x in range(n)]",
+        "target": "Array.from({ length: n }, () => Array(n).fill(true));"
+      },
+      {
+        "source": "[[True] * n for a in range(n)]",
+        "target": "Array.from({ length: n }, () => Array(n).fill(true));"
+      }
+    ],
+    [
+      {
+        "source": "[[True] * n for z in range(n)]",
+        "target": "Array.from({length: n}, () => Array(n).fill(true));"
+      },
+      {
+        "source": "[[True] * n for a in range(n)]",
+        "target": "Array.from({ length: n }, () => Array(n).fill(true));"
+      }
+    ]
+  ]
+}

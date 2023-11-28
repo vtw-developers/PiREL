@@ -1,0 +1,23 @@
+{
+  "template": "base, __ = divmod(n, cnt)",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "base, mod = divmod(n, cnt)",
+  "translations": {
+    "base, _ = divmod(n, cnt)": [
+      "let base = Math.floor(n / cnt);"
+    ],
+    "base, x = divmod(n, cnt)": [
+      "var base = Math.floor(n / cnt);\nvar x = n % cnt;"
+    ],
+    "base, y = divmod(n, cnt)": [
+      "let [base, y] = [Math.floor(n / cnt), n % cnt];"
+    ],
+    "base, z = divmod(n, cnt)": [
+      "let [base, z] = [Math.floor(n / cnt), n % cnt];"
+    ],
+    "base, val = divmod(n, cnt)": [
+      "let [base, val] = [Math.floor(n / cnt), n % cnt];"
+    ]
+  }
+}

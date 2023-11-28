@@ -1,0 +1,23 @@
+{
+  "template": "(num >> __ & 1 for num in nums)",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "(num >> i & 1 for num in nums)",
+  "translations": {
+    "(num >> i & 1 for num in nums)": [
+      "nums.map(num => (num >> i) & 1);"
+    ],
+    "(num >> j & 1 for num in nums)": [
+      "nums.map(num => (num >> j) & 1);"
+    ],
+    "(num >> k & 1 for num in nums)": [
+      "nums.map(num => (num >> k) & 1);"
+    ],
+    "(num >> x & 1 for num in nums)": [
+      "nums.map(num => (num >> x) & 1);"
+    ],
+    "(num >> y & 1 for num in nums)": [
+      "nums.map(num => (num >> y) & 1);"
+    ]
+  }
+}

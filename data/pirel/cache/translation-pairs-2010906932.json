@@ -1,0 +1,1811 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(s: __, numRows: int) -> str:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: list, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: dict, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: tuple, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: set, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: float, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bool, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: object, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: Any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytes, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: complex, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: bytearray, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: frozenset, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: any, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: int, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: float) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: bool) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(s: memoryview, numRows: int) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(s: str, numRows: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

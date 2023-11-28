@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "left if __[left] == target else -1",
+  "template_origin": "left if nums[left] == target else -1",
+  "templatized_node_ids": [
+    6
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "left if some_list[left] == target else -1",
+        "target": "some_list[left] == target ? left : -1;"
+      },
+      {
+        "source": "left if lst[left] == target else -1",
+        "target": "lst[left] == target ? left : -1;"
+      }
+    ],
+    [
+      {
+        "source": "left if some_list[left] == target else -1",
+        "target": "some_list[left] == target ? left : -1;"
+      },
+      {
+        "source": "left if arr[left] == target else -1",
+        "target": "arr[left] == target ? left : -1;"
+      }
+    ],
+    [
+      {
+        "source": "left if some_list[left] == target else -1",
+        "target": "some_list[left] == target ? left : -1;"
+      },
+      {
+        "source": "left if my_list[left] == target else -1",
+        "target": "my_list[left] == target ? left : -1;"
+      }
+    ],
+    [
+      {
+        "source": "left if some_list[left] == target else -1",
+        "target": "some_list[left] == target ? left : -1;"
+      },
+      {
+        "source": "left if values[left] == target else -1",
+        "target": "values[left] == target ? left : -1;"
+      }
+    ],
+    [
+      {
+        "source": "left if lst[left] == target else -1",
+        "target": "lst[left] == target ? left : -1;"
+      },
+      {
+        "source": "left if arr[left] == target else -1",
+        "target": "arr[left] == target ? left : -1;"
+      }
+    ],
+    [
+      {
+        "source": "left if lst[left] == target else -1",
+        "target": "lst[left] == target ? left : -1;"
+      },
+      {
+        "source": "left if my_list[left] == target else -1",
+        "target": "my_list[left] == target ? left : -1;"
+      }
+    ],
+    [
+      {
+        "source": "left if lst[left] == target else -1",
+        "target": "lst[left] == target ? left : -1;"
+      },
+      {
+        "source": "left if values[left] == target else -1",
+        "target": "values[left] == target ? left : -1;"
+      }
+    ],
+    [
+      {
+        "source": "left if arr[left] == target else -1",
+        "target": "arr[left] == target ? left : -1;"
+      },
+      {
+        "source": "left if my_list[left] == target else -1",
+        "target": "my_list[left] == target ? left : -1;"
+      }
+    ],
+    [
+      {
+        "source": "left if arr[left] == target else -1",
+        "target": "arr[left] == target ? left : -1;"
+      },
+      {
+        "source": "left if values[left] == target else -1",
+        "target": "values[left] == target ? left : -1;"
+      }
+    ],
+    [
+      {
+        "source": "left if my_list[left] == target else -1",
+        "target": "my_list[left] == target ? left : -1;"
+      },
+      {
+        "source": "left if values[left] == target else -1",
+        "target": "values[left] == target ? left : -1;"
+      }
+    ]
+  ]
+}

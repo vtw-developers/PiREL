@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums[__] <= target <= nums[mid]",
+  "template_origin": "nums[0] <= target <= nums[mid]",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums[0] <= target <= nums[mid]",
+        "target": "nums[0] <= target && target <= nums[mid];"
+      },
+      {
+        "source": "nums[3] <= target <= nums[mid]",
+        "target": "nums[3] <= target && target <= nums[mid];"
+      }
+    ],
+    [
+      {
+        "source": "nums[0] <= target <= nums[mid]",
+        "target": "nums[0] <= target && target <= nums[mid];"
+      },
+      {
+        "source": "nums[4] <= target <= nums[mid]",
+        "target": "nums[4] <= target && target <= nums[mid];"
+      }
+    ],
+    [
+      {
+        "source": "nums[3] <= target <= nums[mid]",
+        "target": "nums[3] <= target && target <= nums[mid];"
+      },
+      {
+        "source": "nums[4] <= target <= nums[mid]",
+        "target": "nums[4] <= target && target <= nums[mid];"
+      }
+    ]
+  ]
+}

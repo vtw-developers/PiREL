@@ -1,0 +1,47 @@
+{
+  "template": "__ * __ if (n & 1) == 0 else __ * __ * x",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "y * y if (n & 1) == 0 else y * y * x",
+  "translations": {
+    "a * b if (n & 1) == 0 else a * b * x": [
+      "n % 2 === 0 ? a * b : a * b * x;"
+    ],
+    "x * x if (n & 1) == 0 else x * x * x": [],
+    "n * x if (n & 1) == 0 else n * x * x": [
+      "if (n % 2 === 0) {\n    return n * x;\n} else {\n    return n * x * x;\n}"
+    ],
+    "a * x if (n & 1) == 0 else a * x * x": [
+      "(a * x) * ((n & 1) === 0 ? 1 : (x * x));"
+    ],
+    "b * x if (n & 1) == 0 else b * x * x": [
+      "((n & 1) === 0) ? (b * x) : (b * x * x);"
+    ],
+    "a * a if (n & 1) == 0 else a * a * x": [
+      "(n % 2 === 0) ? a * a : a * a * x;"
+    ],
+    "b * b if (n & 1) == 0 else b * b * x": [
+      "((n & 1) == 0) ? (b * b) : (b * b * x);"
+    ],
+    "n * n if (n & 1) == 0 else n * n * x": [
+      "n * n : ((n & 1) === 0) ? n * n * x : undefined;"
+    ],
+    "x * b if (n & 1) == 0 else x * b * x": [
+      "(n & 1) == 0 ? x * b : x * b * x;"
+    ],
+    "x * a if (n & 1) == 0 else x * a * a": [
+      "(n & 1) === 0 ? x * a : x * a * a;"
+    ],
+    "x * y if (n & 1) == 0 else x * y * x": [
+      "(n & 1) === 0 ? x * y : x * y * x;"
+    ],
+    "i * j if (n & 1) == 0 else i * j * x": [],
+    "p * q if (n & 1) == 0 else p * q * x": [
+      "(n & 1) === 0 ? p * q : p * q * x;"
+    ],
+    "m * n if (n & 1) == 0 else m * n * x": [
+      "(n % 2 === 0) ? (m * n) : (m * n * x);"
+    ],
+    "num * count if (n & 1) == 0 else num * count * x": []
+  }
+}

@@ -1,0 +1,791 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for __ in s:\n    some_secret_fn_4071()",
+  "template_origin": "for letter in s:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    2
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for x in s:\n    some_secret_fn_4071()",
+        "target": "for (let x of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for elem in s:\n    some_secret_fn_4071()",
+        "target": "for (let elem of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in s:\n    some_secret_fn_4071()",
+        "target": "for (let x of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in s:\n    some_secret_fn_4071()",
+        "target": "for (let item of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in s:\n    some_secret_fn_4071()",
+        "target": "for (let x of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for char in s:\n    some_secret_fn_4071()",
+        "target": "for (let char of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in s:\n    some_secret_fn_4071()",
+        "target": "for (let x of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in s:\n    some_secret_fn_4071()",
+        "target": "for (let i of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in s:\n    some_secret_fn_4071()",
+        "target": "for (let x of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in s:\n    some_secret_fn_4071()",
+        "target": "for (let index of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in s:\n    some_secret_fn_4071()",
+        "target": "for (let x of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in s:\n    some_secret_fn_4071()",
+        "target": "for (let val of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in s:\n    some_secret_fn_4071()",
+        "target": "for (let x of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in s:\n    some_secret_fn_4071()",
+        "target": "for (let element of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in s:\n    some_secret_fn_4071()",
+        "target": "for (let x of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for obj in s:\n    some_secret_fn_4071()",
+        "target": "for (let obj of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in s:\n    some_secret_fn_4071()",
+        "target": "for (let x of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in s:\n    some_secret_fn_4071()",
+        "target": "for (let letter of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in s:\n    some_secret_fn_4071()",
+        "target": "for (let x of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for c in s:\n    some_secret_fn_4071()",
+        "target": "for (let c of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in s:\n    some_secret_fn_4071()",
+        "target": "for (let x of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for character in s:\n    some_secret_fn_4071()",
+        "target": "for (let character of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in s:\n    some_secret_fn_4071()",
+        "target": "for (let x of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in s:\n    some_secret_fn_4071()",
+        "target": "for (let value of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for elem in s:\n    some_secret_fn_4071()",
+        "target": "for (let elem of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in s:\n    some_secret_fn_4071()",
+        "target": "for (let item of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for elem in s:\n    some_secret_fn_4071()",
+        "target": "for (let elem of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for char in s:\n    some_secret_fn_4071()",
+        "target": "for (let char of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for elem in s:\n    some_secret_fn_4071()",
+        "target": "for (let elem of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in s:\n    some_secret_fn_4071()",
+        "target": "for (let i of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for elem in s:\n    some_secret_fn_4071()",
+        "target": "for (let elem of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in s:\n    some_secret_fn_4071()",
+        "target": "for (let index of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for elem in s:\n    some_secret_fn_4071()",
+        "target": "for (let elem of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in s:\n    some_secret_fn_4071()",
+        "target": "for (let val of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for elem in s:\n    some_secret_fn_4071()",
+        "target": "for (let elem of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in s:\n    some_secret_fn_4071()",
+        "target": "for (let element of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for elem in s:\n    some_secret_fn_4071()",
+        "target": "for (let elem of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for obj in s:\n    some_secret_fn_4071()",
+        "target": "for (let obj of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for elem in s:\n    some_secret_fn_4071()",
+        "target": "for (let elem of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in s:\n    some_secret_fn_4071()",
+        "target": "for (let letter of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for elem in s:\n    some_secret_fn_4071()",
+        "target": "for (let elem of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for c in s:\n    some_secret_fn_4071()",
+        "target": "for (let c of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for elem in s:\n    some_secret_fn_4071()",
+        "target": "for (let elem of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for character in s:\n    some_secret_fn_4071()",
+        "target": "for (let character of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for elem in s:\n    some_secret_fn_4071()",
+        "target": "for (let elem of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in s:\n    some_secret_fn_4071()",
+        "target": "for (let value of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in s:\n    some_secret_fn_4071()",
+        "target": "for (let item of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for char in s:\n    some_secret_fn_4071()",
+        "target": "for (let char of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in s:\n    some_secret_fn_4071()",
+        "target": "for (let item of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in s:\n    some_secret_fn_4071()",
+        "target": "for (let i of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in s:\n    some_secret_fn_4071()",
+        "target": "for (let item of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in s:\n    some_secret_fn_4071()",
+        "target": "for (let index of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in s:\n    some_secret_fn_4071()",
+        "target": "for (let item of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in s:\n    some_secret_fn_4071()",
+        "target": "for (let val of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in s:\n    some_secret_fn_4071()",
+        "target": "for (let item of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in s:\n    some_secret_fn_4071()",
+        "target": "for (let element of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in s:\n    some_secret_fn_4071()",
+        "target": "for (let item of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for obj in s:\n    some_secret_fn_4071()",
+        "target": "for (let obj of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in s:\n    some_secret_fn_4071()",
+        "target": "for (let item of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in s:\n    some_secret_fn_4071()",
+        "target": "for (let letter of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in s:\n    some_secret_fn_4071()",
+        "target": "for (let item of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for c in s:\n    some_secret_fn_4071()",
+        "target": "for (let c of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in s:\n    some_secret_fn_4071()",
+        "target": "for (let item of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for character in s:\n    some_secret_fn_4071()",
+        "target": "for (let character of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in s:\n    some_secret_fn_4071()",
+        "target": "for (let item of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in s:\n    some_secret_fn_4071()",
+        "target": "for (let value of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for char in s:\n    some_secret_fn_4071()",
+        "target": "for (let char of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in s:\n    some_secret_fn_4071()",
+        "target": "for (let i of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for char in s:\n    some_secret_fn_4071()",
+        "target": "for (let char of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in s:\n    some_secret_fn_4071()",
+        "target": "for (let index of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for char in s:\n    some_secret_fn_4071()",
+        "target": "for (let char of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in s:\n    some_secret_fn_4071()",
+        "target": "for (let val of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for char in s:\n    some_secret_fn_4071()",
+        "target": "for (let char of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in s:\n    some_secret_fn_4071()",
+        "target": "for (let element of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for char in s:\n    some_secret_fn_4071()",
+        "target": "for (let char of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for obj in s:\n    some_secret_fn_4071()",
+        "target": "for (let obj of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for char in s:\n    some_secret_fn_4071()",
+        "target": "for (let char of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in s:\n    some_secret_fn_4071()",
+        "target": "for (let letter of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for char in s:\n    some_secret_fn_4071()",
+        "target": "for (let char of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for c in s:\n    some_secret_fn_4071()",
+        "target": "for (let c of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for char in s:\n    some_secret_fn_4071()",
+        "target": "for (let char of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for character in s:\n    some_secret_fn_4071()",
+        "target": "for (let character of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for char in s:\n    some_secret_fn_4071()",
+        "target": "for (let char of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in s:\n    some_secret_fn_4071()",
+        "target": "for (let value of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in s:\n    some_secret_fn_4071()",
+        "target": "for (let i of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in s:\n    some_secret_fn_4071()",
+        "target": "for (let index of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in s:\n    some_secret_fn_4071()",
+        "target": "for (let i of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in s:\n    some_secret_fn_4071()",
+        "target": "for (let val of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in s:\n    some_secret_fn_4071()",
+        "target": "for (let i of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in s:\n    some_secret_fn_4071()",
+        "target": "for (let element of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in s:\n    some_secret_fn_4071()",
+        "target": "for (let i of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for obj in s:\n    some_secret_fn_4071()",
+        "target": "for (let obj of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in s:\n    some_secret_fn_4071()",
+        "target": "for (let i of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in s:\n    some_secret_fn_4071()",
+        "target": "for (let letter of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in s:\n    some_secret_fn_4071()",
+        "target": "for (let i of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for c in s:\n    some_secret_fn_4071()",
+        "target": "for (let c of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in s:\n    some_secret_fn_4071()",
+        "target": "for (let i of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for character in s:\n    some_secret_fn_4071()",
+        "target": "for (let character of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in s:\n    some_secret_fn_4071()",
+        "target": "for (let i of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in s:\n    some_secret_fn_4071()",
+        "target": "for (let value of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for index in s:\n    some_secret_fn_4071()",
+        "target": "for (let index of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in s:\n    some_secret_fn_4071()",
+        "target": "for (let val of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for index in s:\n    some_secret_fn_4071()",
+        "target": "for (let index of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in s:\n    some_secret_fn_4071()",
+        "target": "for (let element of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for index in s:\n    some_secret_fn_4071()",
+        "target": "for (let index of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for obj in s:\n    some_secret_fn_4071()",
+        "target": "for (let obj of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for index in s:\n    some_secret_fn_4071()",
+        "target": "for (let index of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in s:\n    some_secret_fn_4071()",
+        "target": "for (let letter of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for index in s:\n    some_secret_fn_4071()",
+        "target": "for (let index of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for c in s:\n    some_secret_fn_4071()",
+        "target": "for (let c of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for index in s:\n    some_secret_fn_4071()",
+        "target": "for (let index of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for character in s:\n    some_secret_fn_4071()",
+        "target": "for (let character of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for index in s:\n    some_secret_fn_4071()",
+        "target": "for (let index of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in s:\n    some_secret_fn_4071()",
+        "target": "for (let value of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in s:\n    some_secret_fn_4071()",
+        "target": "for (let val of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in s:\n    some_secret_fn_4071()",
+        "target": "for (let element of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in s:\n    some_secret_fn_4071()",
+        "target": "for (let val of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for obj in s:\n    some_secret_fn_4071()",
+        "target": "for (let obj of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in s:\n    some_secret_fn_4071()",
+        "target": "for (let val of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in s:\n    some_secret_fn_4071()",
+        "target": "for (let letter of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in s:\n    some_secret_fn_4071()",
+        "target": "for (let val of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for c in s:\n    some_secret_fn_4071()",
+        "target": "for (let c of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in s:\n    some_secret_fn_4071()",
+        "target": "for (let val of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for character in s:\n    some_secret_fn_4071()",
+        "target": "for (let character of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in s:\n    some_secret_fn_4071()",
+        "target": "for (let val of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in s:\n    some_secret_fn_4071()",
+        "target": "for (let value of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in s:\n    some_secret_fn_4071()",
+        "target": "for (let element of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for obj in s:\n    some_secret_fn_4071()",
+        "target": "for (let obj of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in s:\n    some_secret_fn_4071()",
+        "target": "for (let element of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in s:\n    some_secret_fn_4071()",
+        "target": "for (let letter of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in s:\n    some_secret_fn_4071()",
+        "target": "for (let element of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for c in s:\n    some_secret_fn_4071()",
+        "target": "for (let c of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in s:\n    some_secret_fn_4071()",
+        "target": "for (let element of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for character in s:\n    some_secret_fn_4071()",
+        "target": "for (let character of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in s:\n    some_secret_fn_4071()",
+        "target": "for (let element of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in s:\n    some_secret_fn_4071()",
+        "target": "for (let value of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for obj in s:\n    some_secret_fn_4071()",
+        "target": "for (let obj of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for letter in s:\n    some_secret_fn_4071()",
+        "target": "for (let letter of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for obj in s:\n    some_secret_fn_4071()",
+        "target": "for (let obj of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for c in s:\n    some_secret_fn_4071()",
+        "target": "for (let c of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for obj in s:\n    some_secret_fn_4071()",
+        "target": "for (let obj of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for character in s:\n    some_secret_fn_4071()",
+        "target": "for (let character of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for obj in s:\n    some_secret_fn_4071()",
+        "target": "for (let obj of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in s:\n    some_secret_fn_4071()",
+        "target": "for (let value of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in s:\n    some_secret_fn_4071()",
+        "target": "for (let letter of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for c in s:\n    some_secret_fn_4071()",
+        "target": "for (let c of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in s:\n    some_secret_fn_4071()",
+        "target": "for (let letter of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for character in s:\n    some_secret_fn_4071()",
+        "target": "for (let character of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for letter in s:\n    some_secret_fn_4071()",
+        "target": "for (let letter of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in s:\n    some_secret_fn_4071()",
+        "target": "for (let value of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for c in s:\n    some_secret_fn_4071()",
+        "target": "for (let c of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for character in s:\n    some_secret_fn_4071()",
+        "target": "for (let character of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for c in s:\n    some_secret_fn_4071()",
+        "target": "for (let c of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in s:\n    some_secret_fn_4071()",
+        "target": "for (let value of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for character in s:\n    some_secret_fn_4071()",
+        "target": "for (let character of s) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in s:\n    some_secret_fn_4071()",
+        "target": "for (let value of s) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

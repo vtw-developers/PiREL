@@ -1,0 +1,23 @@
+{
+  "template": "for __ in range(numRows):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for i in range(numRows):\n    some_secret_fn_4071()",
+  "translations": {
+    "for i in range(numRows):\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < numRows; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(numRows):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < numRows; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for k in range(numRows):\n    some_secret_fn_4071()": [
+      "for (let k = 0; k < numRows; k++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for x in range(numRows):\n    some_secret_fn_4071()": [
+      "for(let x = 0; x < numRows; x++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for y in range(numRows):\n    some_secret_fn_4071()": [
+      "for (let y = 0; y < numRows; y++) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

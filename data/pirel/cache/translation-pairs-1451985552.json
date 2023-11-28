@@ -1,0 +1,32 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "sign = -__ if s[i] == '-' else __",
+  "template_origin": "sign = -1 if s[i] == '-' else 1",
+  "templatized_node_ids": [
+    6,
+    13
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "sign = -1 if s[i] == '-' else 1",
+        "target": "let sign = (s[i] === '-') ? -1 : 1;"
+      },
+      {
+        "source": "sign = -9999999 if s[i] == '-' else 9999999",
+        "target": "let sign = (s[i] === '-') ? -9999999 : 9999999;"
+      }
+    ],
+    [
+      {
+        "source": "sign = -100 if s[i] == '-' else 100",
+        "target": "let sign = s[i] == '-' ? -100 : 100;"
+      },
+      {
+        "source": "sign = -9999 if s[i] == '-' else 9999",
+        "target": "let sign = s[i] == '-' ? -9999 : 9999;"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "-1 if a * __ < 0 else 1",
+  "template_origin": "-1 if a * b < 0 else 1",
+  "templatized_node_ids": [
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "-1 if a * b < 0 else 1",
+        "target": "(a * b < 0) ? -1 : 1;"
+      },
+      {
+        "source": "-1 if a * c < 0 else 1",
+        "target": "(a * c < 0) ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if a * b < 0 else 1",
+        "target": "(a * b < 0) ? -1 : 1;"
+      },
+      {
+        "source": "-1 if a * d < 0 else 1",
+        "target": "(a * d < 0) ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if a * b < 0 else 1",
+        "target": "(a * b < 0) ? -1 : 1;"
+      },
+      {
+        "source": "-1 if a * f < 0 else 1",
+        "target": "(a * f < 0) ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if a * c < 0 else 1",
+        "target": "(a * c < 0) ? -1 : 1;"
+      },
+      {
+        "source": "-1 if a * d < 0 else 1",
+        "target": "(a * d < 0) ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if a * c < 0 else 1",
+        "target": "(a * c < 0) ? -1 : 1;"
+      },
+      {
+        "source": "-1 if a * f < 0 else 1",
+        "target": "(a * f < 0) ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if a * d < 0 else 1",
+        "target": "(a * d < 0) ? -1 : 1;"
+      },
+      {
+        "source": "-1 if a * f < 0 else 1",
+        "target": "(a * f < 0) ? -1 : 1;"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__ == n or len(t) == 1",
+  "template_origin": "i == n or len(t) == 1",
+  "templatized_node_ids": [
+    4
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "my_function == n or len(t) == 1",
+        "target": "my_function === n || t.length === 1;"
+      },
+      {
+        "source": "a == n or len(t) == 1",
+        "target": "a === n || t.length === 1;"
+      }
+    ],
+    [
+      {
+        "source": "b == n or len(t) == 1",
+        "target": "b == n || t.length == 1"
+      },
+      {
+        "source": "c == n or len(t) == 1",
+        "target": "c == n || t.length == 1"
+      }
+    ]
+  ]
+}

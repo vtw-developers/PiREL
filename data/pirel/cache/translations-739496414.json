@@ -1,0 +1,23 @@
+{
+  "template": "for i, num in enumerate(__):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for i, num in enumerate(nums):\n    some_secret_fn_4071()",
+  "translations": {
+    "for i, num in enumerate(nums):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < nums.length; i++) {\n    let num = nums[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, num in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < my_list.length; i++) {\n    let num = my_list[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, num in enumerate(elements):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < elements.length; i++) {\n    let num = elements[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, num in enumerate(data):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < data.length; i++) {\n    const num = data[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, num in enumerate(items):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < items.length; i++) {\n    let num = items[i];\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

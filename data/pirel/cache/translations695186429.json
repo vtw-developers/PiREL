@@ -1,0 +1,53 @@
+{
+  "template": "[[0] * __ for _ in range(__)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[[0] * n for _ in range(n)]",
+  "translations": {
+    "[[0] * n for _ in range(m)]": [
+      "let result = [];\nfor (let i = 0; i < m; i++) {\n    let innerArray = [];\n    for (let j = 0; j < n; j++) {\n        innerArray.push(0);\n    }\n    result.push(innerArray);\n}"
+    ],
+    "[[0] * length for _ in range(count)]": [
+      "Array.from({ length: count }, () => Array(length).fill(0));"
+    ],
+    "[[0] * size for _ in range(times)]": [
+      "let result = [];\nfor (let i = 0; i < times; i++) {\n    result.push(new Array(size).fill(0));\n}"
+    ],
+    "[[0] * num for _ in range(iterations)]": [
+      "let result = []\nfor (let _ = 0; _ < iterations; _++) {\n    result.push(Array(num).fill(0))\n}"
+    ],
+    "[[0] * length for _ in range(repeats)]": [
+      "Array(repeats).fill(Array(length).fill(0));"
+    ],
+    "[[0] * size for _ in range(steps)]": [
+      "const arr = Array.from({ length: steps }, () => Array(size).fill(0));"
+    ],
+    "[[0] * count for _ in range(repetitions)]": [
+      "Array.from({ length: repetitions }, () => new Array(count).fill(0));"
+    ],
+    "[[0] * num for _ in range(loop)]": [
+      "let result = [];\nfor (let _ = 0; _ < loop; _++) {\n    result.push(Array(num).fill(0));\n}"
+    ],
+    "[[0] * n for _ in range(repetitions)]": [
+      "let result = [];\nfor (let i = 0; i < repetitions; i++) {\n    let subList = Array(n).fill(0);\n    result.push(subList);\n}"
+    ],
+    "[[0] * size for _ in range(iterations)]": [
+      "let result = Array(iterations).fill(0).map(function() {\n    return Array(size).fill(0);\n});"
+    ],
+    "[[0] * m for _ in range(n)]": [
+      "Array.from({ length: n }, () => Array(m).fill(0));"
+    ],
+    "[[0] * size for _ in range(count)]": [
+      "const result = Array.from({ length: count }, () => Array(size).fill(0));"
+    ],
+    "[[0] * count for _ in range(size)]": [
+      "Array.from({ length: size }, () => Array(count).fill(0));"
+    ],
+    "[[0] * x for _ in range(y)]": [
+      "let result = [];\nfor (let i = 0; i < y; i++) {\n    result.push(Array(x).fill(0));\n}"
+    ],
+    "[[0] * y for _ in range(x)]": [
+      "Array(x).fill(null).map(() => Array(y).fill(0));"
+    ]
+  }
+}

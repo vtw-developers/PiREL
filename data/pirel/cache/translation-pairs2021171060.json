@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "bin(int(a, 2) + int(b, 2))[__:]",
+  "template_origin": "bin(int(a, 2) + int(b, 2))[2:]",
+  "templatized_node_ids": [
+    18
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "bin(int(a, 2) + int(b, 2))[1:]",
+        "target": "(Number.parseInt(a, 2) + Number.parseInt(b, 2)).toString(2).substring(1);"
+      },
+      {
+        "source": "bin(int(a, 2) + int(b, 2))[5:]",
+        "target": "(Number.parseInt(a, 2) + Number.parseInt(b, 2)).toString(2).substring(5);"
+      }
+    ]
+  ]
+}

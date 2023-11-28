@@ -1,0 +1,38 @@
+{
+  "template": "str(abs(x))[::-__]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "str(abs(x))[::-1]",
+  "translations": {
+    "str(abs(x))[::-1]": [
+      "String(Math.abs(x)).split('').reverse().join('');"
+    ],
+    "str(abs(x))[::-2]": [
+      "Math.abs(x).toString().split('').reverse().filter((_, i) => i % 2 === 0).join('');"
+    ],
+    "str(abs(x))[::-3]": [
+      "Math.abs(x).toString().split('').reverse().join('').slice(0, -2);"
+    ],
+    "str(abs(x))[::-4]": [
+      "Math.abs(x).toString().split('').reverse().filter((_, i) => (i + 1) % 4 === 0).reverse().join('');"
+    ],
+    "str(abs(x))[::-5]": [
+      "Math.abs(x).toString().split('').reverse().join('').slice(0, -5);"
+    ],
+    "str(abs(x))[::-6]": [
+      "Math.abs(x).toString().split(\"\").reverse().join(\"\").slice(0, 6);"
+    ],
+    "str(abs(x))[::-7]": [
+      "Math.abs(x).toString().split('').reverse().join('').substring(0, 7);"
+    ],
+    "str(abs(x))[::-8]": [
+      "Math.abs(x).toString().split(\"\").reverse().join(\"\").substring(0, 8)"
+    ],
+    "str(abs(x))[::-9]": [
+      "Math.abs(x).toString().split(\"\").reverse().join(\"\").slice(8, 9);"
+    ],
+    "str(abs(x))[::-10]": [
+      "String(Math.abs(x)).split('').reverse().join('').slice(0, 10);"
+    ]
+  }
+}

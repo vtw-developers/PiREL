@@ -1,0 +1,52 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__ >= 65 and __ <= 122",
+  "template_origin": "ch >= 65 and ch <= 122",
+  "templatized_node_ids": [
+    4,
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "a >= 65 and a <= 122",
+        "target": "a >= 65 && a <= 122"
+      },
+      {
+        "source": "c >= 65 and c <= 122",
+        "target": "c >= 65 && c <= 122"
+      }
+    ],
+    [
+      {
+        "source": "a >= 65 and a <= 122",
+        "target": "a >= 65 && a <= 122"
+      },
+      {
+        "source": "y >= 65 and y <= 122",
+        "target": "y >= 65 && y <= 122"
+      }
+    ],
+    [
+      {
+        "source": "b >= 65 and b <= 122",
+        "target": "b >= 65 && b <= 122;"
+      },
+      {
+        "source": "x >= 65 and x <= 122",
+        "target": "x >= 65 && x <= 122;"
+      }
+    ],
+    [
+      {
+        "source": "c >= 65 and c <= 122",
+        "target": "c >= 65 && c <= 122"
+      },
+      {
+        "source": "y >= 65 and y <= 122",
+        "target": "y >= 65 && y <= 122"
+      }
+    ]
+  ]
+}

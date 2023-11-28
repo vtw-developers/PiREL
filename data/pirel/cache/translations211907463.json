@@ -1,0 +1,38 @@
+{
+  "template": "for item in __:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for item in res:\n    some_secret_fn_4071()",
+  "translations": {
+    "for item in my_list:\n    some_secret_fn_4071()": [
+      "for (let item of my_list) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in myList:\n    some_secret_fn_4071()": [
+      "for (let item of myList) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in myDict:\n    some_secret_fn_4071()": [
+      "for (var item in myDict) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in mySet:\n    some_secret_fn_4071()": [
+      "for (let item of mySet) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in myTuple:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < myTuple.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in myString:\n    some_secret_fn_4071()": [
+      "for (let item of myString) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in myIterable:\n    some_secret_fn_4071()": [
+      "for (let item of myIterable) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in myIterator:\n    some_secret_fn_4071()": [
+      "for (let item of myIterator) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in myArray:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < myArray.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in myCustomCollection:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < myCustomCollection.length; i++) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

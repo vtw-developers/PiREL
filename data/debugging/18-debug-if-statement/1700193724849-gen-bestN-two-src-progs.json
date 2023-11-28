@@ -1,0 +1,42 @@
+[
+  [
+    "if condition:\n    secret_fun_4071()",
+    "if 5 > 3:\n    secret_fun_4071()"
+  ],
+  [
+    "if condition:\n    secret_fun_4071()",
+    "if my_func() == \"success\":\n    secret_fun_4071()"
+  ],
+  [
+    "if condition:\n    secret_fun_4071()",
+    "if x > 5:\n    secret_fun_4071()"
+  ],
+  [
+    "if condition:\n    secret_fun_4071()",
+    "if 5 > 3:\n    secret_fun_4071()"
+  ],
+  [
+    "if condition:\n    secret_fun_4071()",
+    "if (2 > 1):\n    secret_fun_4071()"
+  ],
+  [
+    "if condition:\n    secret_fun_4071()",
+    "if 5 > 2:\n    secret_fun_4071()"
+  ],
+  [
+    "if condition:\n    secret_fun_4071()",
+    "if 5 > 2:\n    secret_fun_4071()"
+  ],
+  [
+    "if True:\n    secret_fun_4071()",
+    "if 5 > 3:\n    secret_fun_4071()"
+  ],
+  [
+    "if True:\n    secret_fun_4071()",
+    "if my_func() == \"success\":\n    secret_fun_4071()"
+  ],
+  [
+    "if True:\n    secret_fun_4071()",
+    "if x > 5:\n    secret_fun_4071()"
+  ]
+]

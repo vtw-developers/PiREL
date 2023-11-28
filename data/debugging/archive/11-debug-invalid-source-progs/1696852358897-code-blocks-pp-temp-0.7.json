@@ -1,0 +1,140 @@
+{
+  "generated_codes_stats": [
+    [
+      0,
+      {
+        "generated_code": "def f_gold(x: float, n: int) -> int:\n    return n",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], n: int) -> int:\n    return n",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      1,
+      {
+        "generated_code": "def f_gold('x': 'float', n: int) -> int:\n    return n",
+        "has_parse_error": true,
+        "is_type_isomorphic_to_template": null,
+        "template_origin": "def f_gold(nums: List[int], n: int) -> int:\n    return n",
+        "templatized_nodes_depth_lte_2": null
+      }
+    ],
+    [
+      2,
+      {
+        "generated_code": "def f_gold(arg1: int, n: int) -> int:\n    return n",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], n: int) -> int:\n    return n",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      3,
+      {
+        "generated_code": "def f_gold(5: 10, n: int) -> int:\n    return n",
+        "has_parse_error": true,
+        "is_type_isomorphic_to_template": null,
+        "template_origin": "def f_gold(nums: List[int], n: int) -> int:\n    return n",
+        "templatized_nodes_depth_lte_2": null
+      }
+    ],
+    [
+      4,
+      {
+        "generated_code": "def f_gold(arg1: list, n: int) -> int:\n    return n",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], n: int) -> int:\n    return n",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      5,
+      {
+        "generated_code": "def f_gold(x: float, n: int) -> int:\n    return n",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], n: int) -> int:\n    return n",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      6,
+      {
+        "generated_code": "def f_gold(array: list, n: int) -> int:\n    return n",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], n: int) -> int:\n    return n",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      7,
+      {
+        "generated_code": "def f_gold(string: str, n: int) -> int:\n    return n",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], n: int) -> int:\n    return n",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      8,
+      {
+        "generated_code": "def f_gold(arg1: str, n: int) -> int:\n    return n",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], n: int) -> int:\n    return n",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      9,
+      {
+        "generated_code": "def f_gold(arr: list, n: int) -> int:\n    return n",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], n: int) -> int:\n    return n",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      10,
+      {
+        "generated_code": "def f_gold(data: dict, n: int) -> int:\n    return n",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], n: int) -> int:\n    return n",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      11,
+      {
+        "generated_code": "def f_gold(arg1: str, n: int) -> int:\n    return n",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], n: int) -> int:\n    return n",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      12,
+      {
+        "generated_code": "def f_gold('arg1': 'str', n: int) -> int:\n    return n",
+        "has_parse_error": true,
+        "is_type_isomorphic_to_template": null,
+        "template_origin": "def f_gold(nums: List[int], n: int) -> int:\n    return n",
+        "templatized_nodes_depth_lte_2": null
+      }
+    ]
+  ],
+  "num_progs_satisfy_criteria": 10,
+  "success": true,
+  "two_source_programs": [
+    "def f_gold(x: float, n: int) -> int:\n    return n",
+    "def f_gold(arg1: int, n: int) -> int:\n    return n"
+  ]
+}

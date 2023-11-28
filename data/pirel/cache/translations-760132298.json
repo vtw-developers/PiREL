@@ -1,0 +1,840 @@
+{
+  "template": "strs = [__[int(__) - __] for __ in __]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "strs = [chars[int(d) - 2] for d in digits]",
+  "translations": {
+    "strs = [s[int(i) - 1] for s in strs]": [
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "let strs = strs.map(s => s[parseInt(i) - 1]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "let strs = strs.map(s => s[parseInt(i) - 1]);",
+      "var strs = strs.map(s => s[parseInt(i) - 1]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "let strs = strs.map(s => s[parseInt(i) - 1]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "var strs = strs.map(function (s) {\n    return s[parseInt(i) - 1];\n});",
+      "var strs = strs.map(s => s[parseInt(i) - 1]);",
+      "let strs = strs.map(s => s[parseInt(i) - 1]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "var strs = strs.map(s => s[parseInt(i) - 1]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "var strs = strs.map(s => s[parseInt(i) - 1]);"
+    ],
+    "strs = [word[int(i) - 1] for word in word_list]": [
+      "var strs = word_list.map(function(word) {\n    return word[i - 1];\n});"
+    ],
+    "strs = [s[int(i) - 1] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "var strs = strings.map(s => s[parseInt(i) - 1]);",
+      "let strs = strings.map(s => s[parseInt(i) - 1]);",
+      "let strs = strings.map(s => s[parseInt(i) - 1]);",
+      "var strs = strings.map(function(s) {\n    return s[i - 1];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "let strs = strings.map(s => s[parseInt(i) - 1]);",
+      "let strs = strings.map(s => s[parseInt(i) - 1]);",
+      "var strs = strings.map(s => s[parseInt(i) - 1]);",
+      "var strs = strings.map(s => s[parseInt(i) - 1]);"
+    ],
+    "strs = [strs[int(i) - 1] for strs in strings]": [
+      "let strs = strings.map(strs => strs[i - 1]);",
+      "let strs = strings.map((strs, i) => strs[parseInt(i) - 1]);",
+      "var strs = strings.map(function(strs) {\n    return strs[parseInt(i) - 1];\n});",
+      "let strs = strings.map(strs => strs[parseInt(i) - 1]);",
+      "var strs = strings.map(function(strs) {\n    return strs[parseInt(i) - 1];\n});"
+    ],
+    "strs = [strs[int(str) - 1] for str in strs]": [
+      "var strs = strs.map(function(str) {\n    return strs[parseInt(str) - 1];\n});"
+    ],
+    "strs = [s[int(i) + 1] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) + 1];\n});",
+      "let strs = strings.map((s, i) => s[parseInt(i) + 1]);",
+      "var strs = strings.map(function(s, i) {\n    return s[parseInt(i) + 1];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) + 1];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) + 1];\n});",
+      "var strs = strings.map(function(s, i) {\n    return s.charAt(parseInt(i) + 1);\n});",
+      "var strs = strings.map(function(s) {\n   return s[parseInt(i) + 1];\n});"
+    ],
+    "strs = [s[int(i) * 2] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) * 2];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) * 2];\n});",
+      "let strs = strings.map(s => s[parseInt(i) * 2]);"
+    ],
+    "strs = [s[int(i) % 2] for s in strings]": [
+      "let strs = strings.map((s, i) => s[i % 2]);",
+      "var strs = strings.map(function(s, i) {\n    return s[i % 2];\n});"
+    ],
+    "strs = [s[int(i) + 2] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) + 2];\n});",
+      "let strs = strings.map(s => s[parseInt(i) + 2]);",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) + 2];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) + 2];\n});",
+      "let strs = strings.map(s => s[parseInt(i) + 2]);",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) + 2];\n});"
+    ],
+    "strs = [s[int(i) - 2] for s in strings]": [
+      "var strs = strings.map(s => s[parseInt(i) - 2]);",
+      "var strs = strings.map(s => s[parseInt(i) - 2]);",
+      "var strs = [];\nfor (var _i = 0, strings_1 = strings; _i < strings_1.length; _i++) {\n    var s = strings_1[_i];\n    strs.push(s[parseInt(i) - 2]);\n}",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 2];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 2];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 2];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 2];\n});",
+      "let strs = strings.map(s => s[parseInt(i) - 2]);"
+    ],
+    "strs = [s[int(i) // 2] for s in strings]": [
+      "let strs = strings.map(s => s[Math.floor(i / 2)]);",
+      "let strs = strings.map(s => s[Math.floor(Number(i) / 2)]);"
+    ],
+    "strs = [s[int(i) ** 2] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[Math.pow(parseInt(i), 2)];\n});",
+      "var strs = strings.map(s => s[Math.pow(parseInt(i), 2)]);"
+    ],
+    "strs = [s[int(i) % 3] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) % 3];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) % 3];\n});"
+    ],
+    "strs = [string[int(index) - 1] for string in strings]": [
+      "let strs = strings.map(string => string[Number(index) - 1]);",
+      "var strs = strings.map(function(string) {\n    return string[parseInt(index) - 1];\n});"
+    ],
+    "strs = [list[int(i) - 1] for list in strings]": [
+      "var strs = strings.map(function(list) {\n    return list[i - 1];\n});"
+    ],
+    "strs = [strings[int(i) - 1] for strings in s]": [
+      "var strs = s.map(function(strings) {\n    return strings[parseInt(i) - 1];\n});"
+    ],
+    "strs = [s[int(i) - 1] for s in strings_list]": [
+      "let strs = strings_list.map(s => s[parseInt(i) - 1]);",
+      "var strs = strings_list.map(s => s[parseInt(i) - 1]);"
+    ],
+    "strs = [s[int(i) - 1] for s in strings_array]": [
+      "var strs = strings_array.map(function(s) {\n    return s[parseInt(i) - 1];\n});"
+    ],
+    "strs = [string[int(i) - 1] for string in strings_tuple]": [
+      "var strs = strings_tuple.map(string => string[i - 1]);"
+    ],
+    "strs = [strings[int(i) - 1] for strings in str_list]": [
+      "let strs = str_list.map(strings => strings[parseInt(i) - 1]);"
+    ],
+    "strs = [s[int(i) - 2] for s in strs]": [
+      "let strs = strs.map(s => s[parseInt(i) - 2]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 2];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 2];\n});",
+      "let strs = strs.map(s => s[parseInt(i) - 2]);",
+      "var strs = strs.map(s => s[parseInt(i) - 2]);",
+      "var strs = strs.map(function(s) {\n  return s[parseInt(i) - 2];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 2];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 2];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 2];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 2];\n});",
+      "let strs = strs.map(s => s[parseInt(i) - 2]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 2];\n});"
+    ],
+    "strs = [s[int(i) + 1] for s in strs]": [
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 1];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 1];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 1];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 1];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 1];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 1];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 1];\n});",
+      "let strs = strs.map(s => s[parseInt(i) + 1]);",
+      "let strs = strs.map(s => s[parseInt(i) + 1]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 1];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 1];\n});",
+      "let strs = strs.map(s => s[parseInt(i) + 1]);",
+      "let strs = strs.map(s => s[parseInt(i) + 1]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 1];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 1];\n});"
+    ],
+    "strs = [s[int(i) + 2] for s in strs]": [
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 2];\n});",
+      "var strs = strs.map(s => s[parseInt(i) + 2]);",
+      "let strs = strs.map(s => s[parseInt(i) + 2]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 2];\n});",
+      "let strs = strs.map(s => s[Number(i) + 2]);",
+      "let strs = strs.map(s => s[parseInt(i) + 2]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 2];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 2];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 2];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 2];\n});"
+    ],
+    "strs = [strings[int(i) - 1] for i in indices]": [
+      "var strs = indices.map(i => strings[Number(i) - 1]);",
+      "var strs = indices.map(function(i) {\n  return strings[parseInt(i) - 1];\n});",
+      "var strs = indices.map(i => strings[parseInt(i) - 1]);",
+      "var strs = indices.map(i => strings[parseInt(i) - 1]);",
+      "var strs = indices.map(i => strings[parseInt(i) - 1]);",
+      "const strs = indices.map(i => strings[parseInt(i) - 1]);",
+      "var strs = indices.map(i => strings[parseInt(i) - 1]);",
+      "var strs = indices.map(i => strings[parseInt(i) - 1]);"
+    ],
+    "strs = [strings[int(i) - 1] for s in strings]": [
+      "let strs = strings.map((s) => strings[parseInt(s) - 1]);",
+      "var strs = strings.map((s) => strings[parseInt(s) - 1]);",
+      "var strs = strings.map(function(s) {\n    return strings[parseInt(i) - 1];\n});"
+    ],
+    "strs = [strings[int(i) + 1] for i in indices]": [
+      "var strs = indices.map(function(i) {\n  return strings[parseInt(i) + 1];\n});",
+      "var strs = indices.map(function(i) {\n  return strings[parseInt(i) + 1];\n});",
+      "var strs = indices.map(i => strings[parseInt(i) + 1]);"
+    ],
+    "strs = [string[int(index) - 1] for string in strs]": [
+      "var strs = strs.map(function(string) {\n    return string[parseInt(index) - 1];\n});",
+      "let strs = strs.map(string => string[parseInt(index) - 1]);",
+      "var strs = strs.map(function(string) {\n    return string[parseInt(index) - 1];\n});",
+      "var strs = strs.map(function(string) {\n    return string[parseInt(index) - 1];\n});",
+      "var strs = strs.map(function(string) {\n    return string.charAt(parseInt(index) - 1);\n});",
+      "let strs = strs.map(string => string[parseInt(index) - 1]);"
+    ],
+    "strs = [string[int(index) - 2] for string in strs]": [
+      "var strs = strs.map(function(string) {\n    return string[parseInt(index) - 2];\n});",
+      "var strs = strs.map(function(string) {\n    return string[parseInt(index) - 2];\n});",
+      "var strs = strs.map(function(string) {\n    return string[parseInt(index) - 2];\n});",
+      "var strs = strs.map(function(string) {\n    return string[parseInt(index) - 2];\n});"
+    ],
+    "strs = [string[int(index) + 1] for string in strs]": [
+      "var strs = strs.map(function(string) {\n    return string[parseInt(index) + 1];\n});",
+      "var strs = strs.map(string => string[parseInt(index) + 1]);",
+      "let strs = strs.map(string => string[parseInt(index) + 1]);",
+      "var strs = strs.map(function(string) {\n    return string[parseInt(index) + 1];\n});"
+    ],
+    "strs = [string[int(index) + 2] for string in strs]": [
+      "var strs = strs.map(function(string) {\n    return string[parseInt(index) + 2];\n});",
+      "var strs = strs.map(function(string) {\n    return string[parseInt(index) + 2];\n});",
+      "var strs = strs.map(function(string) {\n    return string[parseInt(index) + 2];\n});"
+    ],
+    "strs = [s[int(i) + 3] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) + 3];\n});",
+      "var strs = [];\nfor (var i = 0; i < strings.length; i++) {\n    var s = strings[i];\n    strs.push(s[parseInt(i) + 3]);\n}",
+      "let strs = strings.map(s => s[parseInt(i) + 3]);"
+    ],
+    "strs = [s[int(i) - 3] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 3];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 3];\n});",
+      "let strs = strings.map(s => s[parseInt(i) - 3]);",
+      "let strs = strings.map(s => s[parseInt(i) - 3]);"
+    ],
+    "strs = [s[int(n) - 1] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[parseInt(n) - 1];\n});"
+    ],
+    "strs = [s[int(i) - 3] for s in strs]": [
+      "let strs = strs.map(s => s[parseInt(i) - 3]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 3];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 3];\n});",
+      "let strs = strs.map(s => s[parseInt(i) - 3]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 3];\n});",
+      "var strs = strs.map(function(s) {\n    return s.charAt(parseInt(i) - 3);\n});",
+      "let strs = strs.map(s => s[parseInt(i) - 3]);"
+    ],
+    "strs = [s[int(i) - 4] for s in strs]": [
+      "let strs = strs.map(s => s[parseInt(i) - 4]);",
+      "let strs = strs.map(s => s[parseInt(i) - 4]);",
+      "var result = [];\nfor (var i = 0; i < strs.length; i++) {\n    result.push(strs[i][parseInt(i) - 4]);\n}",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 4];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 4];\n});",
+      "var strs = strs.map(s => s[parseInt(i) - 4]);",
+      "let strs = strs.map(s => s[parseInt(i) - 4]);"
+    ],
+    "strs = [s[int(i) - 5] for s in strs]": [
+      "var strs = strs.map(s => s[parseInt(i) - 5]);",
+      "let strs = strs.map(s => s[parseInt(i) - 5]);",
+      "var strs = strs.map(s => s[parseInt(i) - 5]);",
+      "var strs = strs.map(s => s[parseInt(i) - 5]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 5];\n});",
+      "let strs = strs.map(s => s[parseInt(i) - 5]);",
+      "var strs = strs.map(s => s[parseInt(i) - 5]);"
+    ],
+    "strs = [s[int(i) - 6] for s in strs]": [
+      "let strs = strs.map(s => s[parseInt(i) - 6]);",
+      "let strs = strs.map(s => s[parseInt(i) - 6]);",
+      "var strs = strs.map(function(s) {\n    return s.charAt(parseInt(i) - 6);\n});",
+      "var strs = strs.map(s => s[Number(i) - 6]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 6];\n});"
+    ],
+    "strs = [s[int(i) - 7] for s in strs]": [
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 7];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 7];\n});",
+      "var strs = strs.map(s => s[parseInt(i) - 7]);",
+      "var strs = strs.map(function(s) {\n    return s.charAt(parseInt(i) - 7);\n});",
+      "let strs = strs.map(s => s[Number(i) - 7]);"
+    ],
+    "strs = [s[int(i) - 8] for s in strs]": [
+      "let strs = strs.map(s => s[parseInt(i) - 8]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i, 10) - 8];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 8];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 8];\n});",
+      "let strs = strs.map(s => s[parseInt(i) - 8]);"
+    ],
+    "strs = [s[int(i) - 9] for s in strs]": [
+      "let strs = strs.map(s => s[parseInt(i) - 9]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 9];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 9];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 9];\n});",
+      "let strs = strs.map(s => s[parseInt(i) - 9]);"
+    ],
+    "strs = [s[int(i) - 10] for s in strs]": [
+      "let strs = strs.map(s => s[parseInt(i) - 10]);",
+      "let strs = strs.map(s => s[Number(i) - 10]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) - 10];\n});",
+      "var strs = strs.map(s => s[parseInt(i) - 10]);",
+      "var strs = strs.map(s => s[parseInt(i) - 10]);"
+    ],
+    "strs = [strings[int(index) - 1] for strings in strs]": [
+      "var strs = strs.map(function(strings) {\n    return strings[parseInt(index) - 1];\n});"
+    ],
+    "strs = [strings[int(index) + 1] for strings in strs]": [
+      "var strs = strs.map(function(strings) {\n    return strings[parseInt(index) + 1];\n});"
+    ],
+    "strs = [strings[int(index) + 2] for strings in strs]": [
+      "var strs = strs.map(function(strings) {\n    return strings[parseInt(index) + 2];\n});"
+    ],
+    "strs = [s[int(i) * 2] for s in strs]": [
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) * 2];\n});",
+      "var strs = strs.map(s => s[parseInt(i) * 2]);",
+      "let strs = strs.map(s => s[parseInt(i) * 2]);",
+      "let strs = strs.map((s, i) => s[i * 2]);",
+      "let strs = strs.map(s => s[parseInt(i) * 2]);",
+      "var strs = strs.map(s => s[parseInt(i) * 2]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) * 2];\n});"
+    ],
+    "strs = [strings[int(index) * 2] for strings in strs]": [
+      "var strs = strs.map(function(strings) {\n  return strings[parseInt(index) * 2];\n});"
+    ],
+    "strs = [s[int(i) - 1] for i in indices]": [
+      "var strs = indices.map(function(i) {\n    return s[parseInt(i) - 1];\n});"
+    ],
+    "strs = [strings[int(i) - 1] for s in strs]": [
+      "var strs = strs.map(function(s) {\n    return strings[parseInt(s) - 1];\n});"
+    ],
+    "strs = [strs[int(i) - 1] for i in strs]": [
+      "var strs = strs.map(i => strs[parseInt(i) - 1]);",
+      "let strs = strs.map(i => strs[parseInt(i) - 1]);",
+      "var strs = strs.map(function(i) {\n    return strs[parseInt(i) - 1];\n});",
+      "var strs = strs.map(function(i) {\n    return strs[parseInt(i) - 1];\n});",
+      "var strs = strs.map(i => strs[parseInt(i) - 1]);",
+      "var strs = strs.map(function(i) {\n    return strs[parseInt(i) - 1];\n});",
+      "var strs = strs.map(function(i) {\n    return strs[parseInt(i) - 1];\n});"
+    ],
+    "strs = [s[int(i) // 2] for s in strs]": [
+      "var strs = strs.map(function(s) {\n    return s[Math.floor(i / 2)];\n});",
+      "var strs = strs.map(function(s) {\n    return s[Math.floor(i / 2)];\n});",
+      "var strs = strs.map(function (s) {\n    return s[Math.floor(i / 2)];\n});",
+      "var strs = strs.map(s => s[Math.floor(i) / 2]);",
+      "var strs = strs.map(function(s) {\n    return s[Math.floor(i / 2)];\n});",
+      "var strs = strs.map(function(s) {\n    return s[Math.floor(i / 2)];\n});",
+      "var strs = strs.map(function(s) {\n    return s[Math.floor(i / 2)];\n});"
+    ],
+    "strs = [s[int(i) ** 2] for s in strs]": [
+      "var strs = strs.map(function(s) {\n    return s[Math.pow(parseInt(i), 2)];\n});",
+      "var strs = strs.map(s => s[Math.pow(parseInt(i), 2)]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) ** 2];\n});",
+      "let strs = strs.map(s => s[Math.pow(parseInt(i), 2)]);",
+      "var strs = strs.map(function(s) {\n    return s[Math.pow(parseInt(i), 2)];\n});",
+      "let strs = strs.map(s => s[Math.pow(parseInt(i), 2)]);"
+    ],
+    "strs = [s[int(i) % 2] for s in strs]": [
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) % 2];\n});",
+      "let strs = strs.map((s, i) => s[i % 2]);",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) % 2];\n});",
+      "var strs = strs.map(function(s) {\n  return s[parseInt(i) % 2];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) % 2];\n});"
+    ],
+    "strs = [words[int(index) - 1] for words in list_of_words]": [
+      "var strs = list_of_words.map(function(words) {\n    return words[parseInt(index) - 1];\n});"
+    ],
+    "strs = [elements[int(idx) - 1] for elements in list_of_elements]": [
+      "var strs = list_of_elements.map(function(elements) {\n    return elements[parseInt(idx) - 1];\n});"
+    ],
+    "strs = [names[int(i) - 1] for names in name_list]": [
+      "var strs = name_list.map(function(names) {\n    return names[parseInt(i) - 1];\n});"
+    ],
+    "strs = [items[int(i) - 1] for items in item_list]": [
+      "var strs = item_list.map(items => items[parseInt(i) - 1]);",
+      "var strs = item_list.map(function(items) {\n  return items[parseInt(i) - 1];\n});"
+    ],
+    "strs = [values[int(i) - 1] for values in value_list]": [
+      "var strs = value_list.map(function(values) {\n    return values[parseInt(i) - 1];\n});"
+    ],
+    "strs = [letters[int(idx) - 1] for letters in letter_list]": [
+      "var strs = letter_list.map(function(letters) {\n    return letters[parseInt(idx) - 1];\n});"
+    ],
+    "strs = [nums[int(index) - 1] for nums in number_list]": [
+      "var strs = number_list.map(function(nums) {\n    return nums[parseInt(index) - 1];\n});"
+    ],
+    "strs = [elements[int(i) - 1] for elements in element_list]": [
+      "var strs = element_list.map(function(elements) {\n    return elements[parseInt(i) - 1];\n});"
+    ],
+    "strs = [strs[int(strs) - 1] for strs in strs]": [
+      "let strs = strs.map(strs => strs[strs - 1]);",
+      "var strs = strs.map(function(strs) {\n    return strs[strs - 1];\n});",
+      "const strs = strs.map((strs) => strs[strs - 1]);",
+      "let strs = strs.map(str => strs[parseInt(str) - 1]);",
+      "var strs = strs.map(function(strs) {\n  return strs[strs - 1];\n});",
+      "let strs = strs.map(strs => strs[strs - 1]);"
+    ],
+    "strs = [strs[int(strs) - 2] for strs in strs]": [
+      "let strs = strs.map(strs => strs[strs - 2]);",
+      "var strs = strs.map(function(strs) {\n    return strs[strs - 2];\n});",
+      "let strs = strs.map((strs) => strs[strs.length - 2]);",
+      "let strs = strs.map(strs => strs[strs - 2]);",
+      "let strs = strs.map(strs => strs[strs - 2]);"
+    ],
+    "strs = [strs[int(strs) - 3] for strs in strs]": [
+      "let strs = strs.map(strs => strs[strs.length - 3]);",
+      "let strs = strs.map(strs => strs[parseInt(strs) - 3]);",
+      "var strs = strs.map(function(strs) {\n    return strs[parseInt(strs) - 3];\n});",
+      "let result = [];\nfor (let strs of strs) {\n    result.push(strs[strs.length - 3]);\n}",
+      "var strs = strs.map(function(strs) {\n    return strs[parseInt(strs) - 3];\n});"
+    ],
+    "strs = [strs[int(strs) - 4] for strs in strs]": [
+      "var strs = strs.map(function(strs) {\n    return strs[strs.length - 4];\n});",
+      "var strs = strs.map(function(strs) {\n    return strs[parseInt(strs) - 4];\n});",
+      "let strs = strs.map(strs => strs[strs.length - 4]);",
+      "var strs = strs.map(function (strs) {\n    return strs[strs.length - 4];\n});",
+      "var strs = strs.map(function (strs) {\n  return strs.charAt(parseInt(strs) - 4);\n});"
+    ],
+    "strs = [strs[int(strs) - 5] for strs in strs]": [
+      "let strs = strs.map(strs => strs[strs - 5]);",
+      "var strs = strs.map(function(strs) {\n    return strs[strs - 5];\n});",
+      "let strs = strs.map(strs => strs[parseInt(strs) - 5]);",
+      "var strs = strs.map(function(strs) {\n    return strs[strs.length - 5];\n});"
+    ],
+    "strs = [strs[int(strs) - 6] for strs in strs]": [
+      "var strs = strs.map(function(strs) {\n    return strs[strs - 6];\n});",
+      "var strs = strs.map(function(strs) {\n    return strs[strs - 6];\n});",
+      "let strs = strs.map((strs) => strs[strs - 6]);"
+    ],
+    "strs = [strs[int(strs) - 7] for strs in strs]": [
+      "let strs = strs.map(strs => strs[parseInt(strs) - 7]);",
+      "var strs = strs.map(function(strs) {\n    return strs[parseInt(strs) - 7];\n});",
+      "var strs = strs.map(function (strs) {\n    return strs[parseInt(strs) - 7];\n});"
+    ],
+    "strs = [strs[int(strs) - 8] for strs in strs]": [
+      "var result = [];\nfor (var i = 0; i < strs.length; i++) {\n    result.push(strs[parseInt(strs[i]) - 8]);\n}\nstrs = result;",
+      "var strs = strs.map(function(strs) {\n    return strs[strs - 8];\n});",
+      "var strs = strs.map(function(strs) {\n    return strs[parseInt(strs) - 8];\n});"
+    ],
+    "strs = [strs[int(strs) - 9] for strs in strs]": [
+      "var strs = strs.map(function(strs) {\n    return strs[parseInt(strs) - 9];\n});",
+      "var strs = strs.map(function(strs) {\n    return strs.charAt(strs.length - 9);\n});"
+    ],
+    "strs = [string_list[int(index) - 1] for string_list in strs]": [
+      "var strs = strs.map(function(string_list) {\n    return string_list[parseInt(index) - 1];\n});",
+      "let strs = strs.map(string_list => string_list[parseInt(index) - 1]);",
+      "var strs = strs.map(function(string_list) {\n    return string_list[parseInt(index) - 1];\n});",
+      "var strs = strs.map(function (string_list) {\n    return string_list[parseInt(index) - 1];\n});"
+    ],
+    "strs = [strings[int(i) - 1] for strings in strs]": [
+      "var strs = strs.map(function(strings) {\n    return strings[parseInt(i) - 1];\n});",
+      "let strs = strs.map(strings => strings[parseInt(i) - 1]);",
+      "var strs = strs.map(strings => strings[parseInt(i) - 1]);",
+      "var strs = strs.map(function(strings) {\n    return strings[parseInt(i) - 1];\n});",
+      "var strs = strs.map(function(strings) {\n    return strings[i - 1];\n});",
+      "let strs = strs.map(strings => strings[parseInt(i) - 1]);",
+      "var strs = strs.map(function(strings) {\n    return strings[parseInt(i) - 1];\n});"
+    ],
+    "strs = [s[int(i) - 1] for s in string_list]": [
+      "var strs = string_list.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "var strs = string_list.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "var strs = string_list.map(function(s) {\n    return s[parseInt(i) - 1];\n});"
+    ],
+    "strs = [string_list[int(i) - 1] for string_list in strings]": [
+      "var strs = strings.map(function(string_list) {\n    return string_list[parseInt(i) - 1];\n});",
+      "var strs = strings.map(function(string_list) {\n    return string_list[parseInt(i) - 1];\n});"
+    ],
+    "strs = [strings[int(i) - 1] for strings in string_list]": [
+      "let strs = string_list.map(strings => strings[parseInt(i) - 1]);",
+      "var strs = string_list.map(function(strings) {\n    return strings[parseInt(i) - 1];\n});",
+      "var strs = string_list.map(function(strings) {\n    return strings[parseInt(i) - 1];\n});"
+    ],
+    "strs = [s[int(index) - 1] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[parseInt(index) - 1];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(index) - 1];\n});"
+    ],
+    "strs = [string_list[int(i) - 1] for string_list in strs]": [
+      "var strs = strs.map(function(string_list) {\n    return string_list[parseInt(i) - 1];\n});"
+    ],
+    "strs = [s[int(i) % 3] for s in strs]": [
+      "let strs = strs.map(s => s[parseInt(i) % 3]);"
+    ],
+    "strs = [words[int(index) - 1] for words in strs]": [
+      "var strs = strs.map(function(words) {\n    return words[parseInt(index) - 1];\n});"
+    ],
+    "strs = [strings[int(idx) - 1] for strings in strs]": [
+      "var strs = strs.map(function(strings) {\n    return strings[Number(idx) - 1];\n});"
+    ],
+    "strs = [texts[int(i) - 1] for texts in strs]": [
+      "var strs = strs.map(function(texts) {\n    return texts[parseInt(i) - 1];\n});"
+    ],
+    "strs = [data[int(i) - 1] for data in strs]": [
+      "let strs = strs.map(data => data[parseInt(i) - 1]);"
+    ],
+    "strs = [s[int(i) - 4] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[Number(i) - 4];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 4];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 4];\n});"
+    ],
+    "strs = [s[int(i) - 5] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[Number(i) - 5];\n});",
+      "var strs = strings.map(s => s[parseInt(i) - 5]);"
+    ],
+    "strs = [s[int(i) - 6] for s in strings]": [
+      "let strs = strings.map(s => s[parseInt(i) - 6]);"
+    ],
+    "strs = [s[int(i) - 7] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s.charAt(parseInt(i) - 7);\n});"
+    ],
+    "strs = [s[int(i) - 8] for s in strings]": [
+      "let strs = strings.map(s => s[parseInt(i) - 8]);"
+    ],
+    "strs = [s[int(i) - 9] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 9];\n});"
+    ],
+    "strs = [s[int(i) - 10] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) - 10];\n});"
+    ],
+    "strs = [strs[int(i) - 1] for s in strs]": [
+      "var strs = strs.map(function(s, i) {\n    return strs[parseInt(i) - 1];\n});",
+      "let strs = strs.map(i => strs[parseInt(i) - 1]);"
+    ],
+    "strs = [strs[int(i) - 2] for s in strs]": [
+      "var strs = strs.map(function(s) {\n    return strs[parseInt(i) - 2];\n});"
+    ],
+    "strs = [strs[int(i) + 1] for s in strs]": [
+      "var strs = strs.map((s, i) => strs[parseInt(i) + 1]);"
+    ],
+    "strs = [strs[int(i) + 2] for s in strs]": [
+      "let strs = strs.map((s, i) => strs[parseInt(i) + 2]);"
+    ],
+    "strs = [string[int(i) - 1] for string in strs]": [
+      "let strs = strs.map(string => string.charAt(parseInt(i) - 1));"
+    ],
+    "strs = [strs[int(strs) - 0] for strs in strs]": [
+      "var strs = strs.map(function(strs) {\n    return strs[parseInt(strs) - 0];\n});",
+      "var strs = strs.map(function(strs) {\n    return strs[strs - 0];\n});",
+      "var strs = strs.map(function(strs) {\n    return strs[parseInt(strs) - 0];\n});",
+      "let strs = strs.map(strs => strs[parseInt(strs) - 0]);"
+    ],
+    "strs = [s[int(i) + 3] for s in strs]": [
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 3];\n});",
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 3];\n});",
+      "let strs = strs.map(s => s[parseInt(i) + 3]);"
+    ],
+    "strs = [s[int(i) + 4] for s in strings]": [
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) + 4];\n});",
+      "var strs = strings.map(function(s) {\n    return s[parseInt(i) + 4];\n});"
+    ],
+    "strs = [s[int(i) + 4] for s in strs]": [
+      "var strs = strs.map(s => s[parseInt(i) + 4]);",
+      "var strs = strs.map(s => s[parseInt(i) + 4]);"
+    ],
+    "strs = [s[int(i) + 5] for s in strs]": [
+      "var strs = strs.map(function(s) {\n    return s[parseInt(i) + 5];\n});"
+    ],
+    "strs = [strings[int(i) + 1] for strings in strs]": [
+      "let strs = strs.map((strings, i) => strings[parseInt(i) + 1]);",
+      "let strs = strs.map(strings => strings[parseInt(i) + 1]);"
+    ],
+    "strs = [strings[int(i) + 3] for strings in strs]": [
+      "const strs = strs.map(strings => strings[parseInt(i) + 3]);"
+    ],
+    "strs = [strings[int(i) + 4] for strings in strs]": [
+      "var strs = strs.map(function(strings) {\n    return strings[parseInt(i) + 4];\n});"
+    ],
+    "strs = [strs[int(i) - 1] for strs in strs]": [
+      "var strs = strs.map(function(strs) {\n    return strs[parseInt(i) - 1];\n});",
+      "let strs = strs.map(strs => strs[parseInt(i) - 1]);",
+      "var strs = strs.map(function(strs) {\n    return strs[parseInt(i) - 1];\n});",
+      "var strs = strs.map(function (strs) {\n    return strs[parseInt(i) - 1];\n});",
+      "let strs = strs.map((strs, i) => strs[parseInt(i) - 1]);"
+    ],
+    "strs = [s[int(pos) - 1] for s in strs]": [
+      "let strs = strs.map(s => s[Number(pos) - 1]);"
+    ],
+    "strs = [words[int(i) - 1] for words in strs]": [
+      "var strs = strs.map(words => words[parseInt(i) - 1]);"
+    ],
+    "strs = [words[int(idx) - 1] for words in strs]": [
+      "var strs = strs.map(function(words) {\n    return words[parseInt(idx) - 1];\n});"
+    ],
+    "strs = [words[int(n) - 1] for words in strs]": [
+      "var strs = strs.map(function(words) {\n    return words[parseInt(n) - 1];\n});"
+    ],
+    "strs = [s_list[int(i) - 1] for s_list in strings]": [
+      "let strs = strings.map(s_list => s_list[parseInt(i) - 1]);"
+    ],
+    "strs = [s_list[int(i) - 1] for s_list in strs]": [
+      "var strs = [];\nfor(var i = 0; i < s_list.length; i++) {\n    strs.push(s_list[i - 1]);\n}"
+    ],
+    "strs = [strings[int(i) - 1] for strings in strings]": [
+      "let strs = strings.map(strings => strings[parseInt(i) - 1]);",
+      "var strs = strings.map(function(strings) {\n    return strings[parseInt(i) - 1];\n});",
+      "let strs = strings.map(strings => strings[parseInt(i) - 1]);"
+    ],
+    "strs = [s_list[int(i) - 1] for s_list in string_list]": [
+      "var strs = string_list.map(function(s_list) {\n    return s_list[parseInt(i) - 1];\n});"
+    ],
+    "strs = [s[int(i) - 1] for s in s_list]": [
+      "let strs = s_list.map(s => s[i - 1]);"
+    ],
+    "strs = [strs[int(i) + 1] for i in strs]": [
+      "var strs = strs.map(function (i) {\n    return strs[parseInt(i) + 1];\n});"
+    ],
+    "strs = [strs[int(i) - 2] for i in strs]": [
+      "var strs = strs.map(function(i) {\n    return strs[parseInt(i) - 2];\n});"
+    ],
+    "strs = [strs[int(i) + 2] for i in strs]": [
+      "var strs = strs.map(function(i) {\n    return strs[parseInt(i) + 2];\n});"
+    ],
+    "strs = [elem[int(idx) - 1] for elem in lst]": [
+      "let strs = lst.map(elem => elem[Number(idx) - 1]);"
+    ],
+    "strs = [item[int(index) - 2] for item in mylist]": [
+      "var strs = mylist.map(function(item) {\n    return item[parseInt(index) - 2];\n});"
+    ],
+    "strs = [strings[int(number) - 3] for strings in data]": [
+      "var strs = data.map(strings => strings[parseInt(number) - 3]);"
+    ],
+    "strs = [words[int(i) - 4] for words in collection]": [
+      "var strs = collection.map(function(words) {\n  return words[parseInt(i) - 4];\n});"
+    ],
+    "strs = [values[int(pos) - 5] for values in array]": [
+      "var strs = array.map(function(values) {\n    return values[parseInt(pos) - 5];\n});"
+    ],
+    "strs = [elements[int(key) - 6] for elements in seq]": [
+      "var strs = seq.map(function(elements) {\n    return elements[key - 6];\n});"
+    ],
+    "strs = [entries[int(n) - 7] for entries in items]": [
+      "var strs = items.map(entries => entries[parseInt(n) - 7]);"
+    ],
+    "strs = [tokens[int(num) - 8] for tokens in container]": [
+      "var strs = container.map(function(tokens) {\n    return tokens[num - 8];\n});"
+    ],
+    "strs = [values[int(p) - 9] for values in structure]": [
+      "let strs = structure.map(values => values[p - 9]);"
+    ],
+    "strs = [items[int(idx) - 10] for items in list]": [
+      "var strs = list.map(function(items) {\n    return items[parseInt(idx) - 10];\n});"
+    ],
+    "strs = [words[int(i) - 1] for words in word_list]": [
+      "var strs = word_list.map(function(words) {\n    return words[parseInt(i) - 1];\n});",
+      "var strs = word_list.map(function(words) {\n    return words[parseInt(i) - 1];\n});",
+      "var strs = word_list.map(function(words) {\n    return words[parseInt(i) - 1];\n});"
+    ],
+    "strs = [data[int(idx) - 2] for data in data_list]": [
+      "var strs = data_list.map(function(data) {\n    return data[parseInt(idx) - 2];\n});"
+    ],
+    "strs = [char_list[int(num) - 1] for char_list in string_list]": [
+      "var strs = string_list.map(function(char_list) {\n    return char_list[Number(num) - 1];\n});"
+    ],
+    "strs = [strings[int(index) - 1] for strings in range_list]": [
+      "let strs = range_list.map(strings => strings[Number(index) - 1]);"
+    ],
+    "strs = [word_list[int(num) - 1] for word_list in index_list]": [
+      "let strs = index_list.map(word_list => word_list[parseInt(num) - 1]);"
+    ],
+    "strs = [word[int(n) - 1] for word in word_list]": [
+      "var strs = word_list.map(word => word[parseInt(n) - 1]);"
+    ],
+    "strs = [s[int(index) - 1] for s in strs]": [
+      "var strs = strs.map(function(s) {\n    return s[parseInt(index) - 1];\n});"
+    ],
+    "strs = [strings[int(index) - 1] for strings in strings]": [
+      "var strs = strings.map(function(strings) {\n    return strings[parseInt(index) - 1];\n});"
+    ],
+    "strs = [string[int(i) - 1] for string in strings]": [
+      "var strs = strings.map(function(string) {\n    return string[parseInt(i) - 1];\n});"
+    ],
+    "strs = [char[int(index) - 1] for char in string]": [
+      "var strs = string.map(function(char) {\n    return char[parseInt(index) - 1];\n});"
+    ],
+    "strs = [word[int(i) - 1] for word in words]": [
+      "var strs = words.map(function(word) {\n    return word[parseInt(i) - 1];\n});"
+    ],
+    "strs = [item[int(idx) - 1] for item in items]": [
+      "let strs = items.map(item => item[parseInt(idx) - 1]);"
+    ],
+    "strs = [element[int(pos) - 1] for element in elements]": [
+      "var strs = elements.map(function(element) {\n    return element[parseInt(pos) - 1];\n});"
+    ],
+    "strs = [value[int(i) - 1] for value in values]": [
+      "let strs = values.map(value => value[i - 1]);"
+    ],
+    "strs = [name[int(i) - 1] for name in names]": [
+      "var strs = names.map(function(name) {\n    return name[parseInt(i) - 1];\n});",
+      "var strs = names.map(function(name) {\n    return name[parseInt(i) - 1];\n});"
+    ],
+    "strs = [item[int(i) - 1] for item in items]": [
+      "var strs = items.map(function(item) {\n    return item[i - 1];\n});"
+    ],
+    "strs = [char[int(i) - 1] for char in characters]": [
+      "let strs = characters.map(char => char[parseInt(i) - 1]);"
+    ],
+    "strs = [x[int(i) - 1] for x in y]": [
+      "var strs = y.map(x => x[Number(i) - 1]);"
+    ],
+    "strs = [x[int(i) - 2] for x in y]": [
+      "var strs = y.map(function(x) {\n    return x[parseInt(i) - 2];\n});"
+    ],
+    "strs = [x[int(i) + 1] for x in y]": [
+      "var strs = y.map(function(x) {\n    return x[int(i) + 1];\n});"
+    ],
+    "strs = [x[int(i) + 1] for x in z]": [
+      "var strs = z.map(x => x[Number(i) + 1]);"
+    ],
+    "strs = [x[int(i) - 1] for x in z]": [
+      "var strs = z.map(function(x) {\n    return x[i - 1];\n});"
+    ],
+    "strs = [x[int(i) - 2] for x in z]": [
+      "var strs = z.map(x => x[parseInt(i) - 2]);"
+    ],
+    "strs = [x[int(i) + 1] for x in w]": [
+      "var strs = w.map(function(x) {\n    return x[parseInt(i) + 1];\n});"
+    ],
+    "strs = [string[int(i) - 1] for string in string_list]": [
+      "var strs = string_list.map(function(string) {\n    return string[parseInt(i) - 1];\n});"
+    ],
+    "strs = [values[int(pos) - 2] for values in data]": [
+      "var strs = data.map(function(values) {\n  return values[parseInt(pos) - 2];\n});"
+    ],
+    "strs = [elements[int(idx) - 3] for elements in collection]": [
+      "var strs = collection.map(function(elements) {\n    return elements[parseInt(idx) - 3];\n});"
+    ],
+    "strs = [values[int(i) - 1] for values in my_data]": [
+      "var strs = my_data.map(function(values) {\n    return values[i - 1];\n});"
+    ],
+    "strs = [chars[int(i) - 1] for chars in char_list]": [
+      "var strs = char_list.map(chars => chars[parseInt(i) - 1]);"
+    ],
+    "strs = [animals[int(i) - 1] for animals in animal_list]": [
+      "var strs = animal_list.map(function(animals) {\n  return animals[parseInt(i) - 1];\n});"
+    ],
+    "strs = [values[int(i) - 1] for values in data_list]": [
+      "var strs = data_list.map(function(values) {\n    return values[parseInt(i) - 1];\n});"
+    ],
+    "strs = [strs[int(i) + 1] for strs in strs]": [
+      "var strs = strs.map(function(str, i) {\n    return strs[parseInt(i) + 1];\n});",
+      "var strs = strs.map(function(strs, i) {\n    return strs[parseInt(i) + 1];\n});"
+    ],
+    "strs = [s[int(i) - 1] for s in lst]": [
+      "var strs = lst.map(function(s) {\n    return s[parseInt(i) - 1];\n});",
+      "var strs = lst.map(function(s) {\n  return s[parseInt(i) - 1];\n});"
+    ],
+    "strs = [string_list[int(index) - 1] for string_list in my_list]": [
+      "var strs = my_list.map(function(string_list) {\n    return string_list[parseInt(index) - 1];\n});"
+    ],
+    "strs = [words[int(num) - 1] for words in word_list]": [
+      "var strs = word_list.map(function(words) {\n    return words[parseInt(num) - 1];\n});"
+    ],
+    "strs = [letters[int(n) - 1] for letters in alphabet]": [
+      "var strs = alphabet.map(function(letters) {\n    return letters[n - 1];\n});"
+    ],
+    "strs = [items[int(x) - 1] for items in item_list]": [
+      "var strs = item_list.map(function(items) {\n    return items[parseInt(x) - 1];\n});"
+    ],
+    "strs = [elements[int(idx) - 1] for elements in collection]": [
+      "var strs = collection.map(function(elements) {\n    return elements[parseInt(idx) - 1];\n});"
+    ],
+    "strs = [values[int(val) - 1] for values in value_list]": [
+      "var strs = value_list.map(values => values[parseInt(val) - 1]);"
+    ],
+    "strs = [options[int(choice) - 1] for options in choice_list]": [
+      "var strs = choice_list.map(function(options) {\n    return options[parseInt(choice) - 1];\n});"
+    ],
+    "strs = [characters[int(index) - 1] for characters in char_list]": [
+      "let strs = char_list.map(characters => characters[parseInt(index) - 1]);"
+    ],
+    "strs = [data[int(i) - 1] for data in data_list]": [
+      "var strs = data_list.map(function(data) {\n    return data[parseInt(i) - 1];\n});"
+    ],
+    "strs = [string_list[int(index) - 1] for string_list in str_list]": [
+      "let strs = str_list.map(string_list => string_list[Number(index) - 1]);"
+    ],
+    "strs = [str_list[int(i) - 1] for str_list in strs]": [
+      "let strs = strs.map(str_list => str_list[parseInt(i) - 1]);"
+    ],
+    "strs = [strings_list[int(i) - 1] for strings_list in strings]": [
+      "var strs = strings.map(function(strings_list) {\n    return strings_list[parseInt(i) - 1];\n});"
+    ],
+    "strs = [s[int(index) - 1] for s in str_list]": [
+      "var strs = str_list.map(function(s) {\n    return s[parseInt(index) - 1];\n});"
+    ],
+    "strs = [str_list[int(i) - 1] for str_list in string_list]": [
+      "var strs = string_list.map(function(str_list) {\n    return str_list[parseInt(i) - 1];\n});"
+    ],
+    "strs = [strs[int(i) - 1] for i in indices]": [
+      "let strs = indices.map(i => strs[parseInt(i) - 1]);"
+    ],
+    "strs = [strings[int(i) + 1] for strs in strings]": [
+      "var strs = [];\nfor (var i = 0; i < strings.length; i++) {\n    strs.push(strings[i + 1]);\n}"
+    ],
+    "strs = [strs[int(__) - 1] for __ in strs]": [
+      "var strs = strs.map(function(__) {\n    return strs[parseInt(__) - 1];\n});"
+    ],
+    "strs = [s[int(i) // 3] for s in strs]": [
+      "var strs = strs.map(function(s) {\n    return s[Math.floor(i / 3)];\n});"
+    ],
+    "strs = [string_list[int(index) - 1] for string_list in strings]": [
+      "var strs = strings.map(function (string_list) {\n    return string_list[parseInt(index) - 1];\n});"
+    ],
+    "strs = [items[int(i) - 1] for items in lists]": [
+      "var strs = lists.map(function(items) {\n    return items[parseInt(i) - 1];\n});"
+    ],
+    "strs = [s[int(index) + 1] for s in string_list]": [
+      "var strs = string_list.map(function(s, index) {\n    return s[parseInt(index) + 1];\n});"
+    ],
+    "strs = [s[int(pos) - 0] for s in str_list]": [
+      "var strs = str_list.map(function (s) {\n    return s[parseInt(pos) - 0];\n});"
+    ],
+    "strs = [s[int(index) - 1] for s in list_of_strings]": [
+      "var strs = list_of_strings.map(function(s) {\n    return s[parseInt(index) - 1];\n});"
+    ],
+    "strs = [strs[int(i) - 1] for strings in strs]": [
+      "var strs = strs.map(function(i) {\n    return strs[parseInt(i) - 1];\n});"
+    ],
+    "strs = [strings[int(i) - 2] for i in indices]": [
+      "var strs = indices.map(i => strings[parseInt(i) - 2]);"
+    ],
+    "strs = [el[int(i) - 1] for el in elements]": [
+      "var strs = elements.map(function(el) {\n    return el[i - 1];\n});"
+    ],
+    "strs = [s[int(x) - 1] for s in strs]": [
+      "var strs = strs.map(s => s[parseInt(x) - 1]);"
+    ],
+    "strs = [s[int(x) + 1] for s in strs]": [
+      "let strs = strs.map(s => s[parseInt(x) + 1]);"
+    ],
+    "strs = [strs[int(x) - 1] for strs in strs]": [
+      "var strs = strs.map(function(strs) {\n    return strs[parseInt(x) - 1];\n});"
+    ],
+    "strs = [strs[int(x) + 1] for strs in strs]": [
+      "let strs = strs.map((strs, x) => strs[x + 1]);"
+    ],
+    "strs = [strs[int(x) - 1] for s in strs]": [
+      "var strs = strs.map(function(x) {\n    return strs[parseInt(x) - 1];\n});"
+    ],
+    "strs = [strs[int(x) + 1] for s in strs]": [
+      "var strs = strs.map(function(x) {\n  return strs[parseInt(x) + 1];\n});"
+    ],
+    "strs = [item[int(index) - 1] for item in items]": [
+      "var strs = items.map(function(item) {\n    return item[parseInt(index) - 1];\n});"
+    ],
+    "strs = [words[int(n) - 1] for words in word_list]": [
+      "var strs = word_list.map(function(words) {\n    return words[parseInt(n) - 1];\n});"
+    ],
+    "strs = [chars[int(n) - 1] for chars in char_list]": [
+      "var strs = char_list.map(function(chars) {\n    return chars[parseInt(n) - 1];\n});"
+    ],
+    "strs = [lst[int(i) - 1] for lst in list_data]": [
+      "var strs = list_data.map(lst => lst[parseInt(i) - 1]);"
+    ]
+  }
+}

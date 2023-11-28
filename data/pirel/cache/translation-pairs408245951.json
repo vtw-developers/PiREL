@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[[False] * 9 for __ in range(9)]",
+  "template_origin": "[[False] * 9 for _ in range(9)]",
+  "templatized_node_ids": [
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[[False] * 9 for i in range(9)]",
+        "target": "Array.from({ length: 9 }, () => Array(9).fill(false));"
+      },
+      {
+        "source": "[[False] * 9 for k in range(9)]",
+        "target": "Array.from({length: 9}, () => Array(9).fill(false));"
+      }
+    ]
+  ]
+}

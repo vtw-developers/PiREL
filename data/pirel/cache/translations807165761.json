@@ -1,0 +1,58 @@
+{
+  "template": "t //= __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "t //= 10",
+  "translations": {
+    "t //= 2": [
+      "t = Math.floor(t / 2);"
+    ],
+    "t //= 3": [
+      "t = Math.floor(t / 3);"
+    ],
+    "t //= 4": [
+      "t = Math.floor(t / 4);"
+    ],
+    "t //= 5": [
+      "t = Math.floor(t / 5);"
+    ],
+    "t //= 6": [
+      "t = Math.floor(t / 6);"
+    ],
+    "t //= 7": [
+      "t = Math.floor(t / 7);"
+    ],
+    "t //= 8": [
+      "t = Math.floor(t / 8);"
+    ],
+    "t //= 9": [
+      "t = Math.floor(t / 9);"
+    ],
+    "t //= 10": [
+      "t = Math.floor(t / 10);"
+    ],
+    "t //= 11": [],
+    "t //= 0": [
+      "t = parseInt(t / 0);"
+    ],
+    "t //= 1": [
+      "t = Math.floor(t / 1);"
+    ],
+    "t //= 100": [
+      "t = Math.floor(t / 100);"
+    ],
+    "t //= 1000000": [
+      "t = Math.floor(t / 1000000);"
+    ],
+    "t //= 999999": [
+      "t = Math.floor(t / 999999);"
+    ],
+    "t //= 20": [
+      "t = Math.floor(t / 20);"
+    ],
+    "t //= 50": [],
+    "t //= 15": [
+      "t = Math.floor(t / 15);"
+    ]
+  }
+}

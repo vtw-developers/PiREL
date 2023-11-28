@@ -1,0 +1,31 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__, mod = divmod(n, cnt)",
+  "template_origin": "base, mod = divmod(n, cnt)",
+  "templatized_node_ids": [
+    4
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "x, mod = divmod(n, cnt)",
+        "target": "let [x, mod] = [Math.floor(n / cnt), n % cnt];"
+      },
+      {
+        "source": "num, mod = divmod(n, cnt)",
+        "target": "let [num, mod] = [Math.floor(n / cnt), n % cnt];"
+      }
+    ],
+    [
+      {
+        "source": "result, mod = divmod(n, cnt)",
+        "target": "let result = Math.floor(n / cnt);\nlet mod = n % cnt;"
+      },
+      {
+        "source": "value, mod = divmod(n, cnt)",
+        "target": "let value = Math.floor(n / cnt);\nlet mod = n % cnt;"
+      }
+    ]
+  ]
+}

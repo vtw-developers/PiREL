@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "i == n or len(__) == 1",
+  "template_origin": "i == n or len(t) == 1",
+  "templatized_node_ids": [
+    10
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "i == n or len(lst) == 1",
+        "target": "i === n || lst.length === 1"
+      },
+      {
+        "source": "i == n or len(string) == 1",
+        "target": "i === n || string.length === 1"
+      }
+    ]
+  ]
+}

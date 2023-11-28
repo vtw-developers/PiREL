@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "s[0] == '0' and len(s) > __",
+  "template_origin": "s[0] == '0' and len(s) > 1",
+  "templatized_node_ids": [
+    14
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "s[0] == '0' and len(s) > 1",
+        "target": "s[0] === '0' && s.length > 1"
+      },
+      {
+        "source": "s[0] == '0' and len(s) > 2",
+        "target": "s[0] === '0' && s.length > 2"
+      }
+    ],
+    [
+      {
+        "source": "s[0] == '0' and len(s) > 1",
+        "target": "s[0] === '0' && s.length > 1"
+      },
+      {
+        "source": "s[0] == '0' and len(s) > 3",
+        "target": "s[0] === '0' && s.length > 3"
+      }
+    ],
+    [
+      {
+        "source": "s[0] == '0' and len(s) > 1",
+        "target": "s[0] === '0' && s.length > 1"
+      },
+      {
+        "source": "s[0] == '0' and len(s) > 5",
+        "target": "s[0] === '0' && s.length > 5"
+      }
+    ],
+    [
+      {
+        "source": "s[0] == '0' and len(s) > 2",
+        "target": "s[0] === '0' && s.length > 2"
+      },
+      {
+        "source": "s[0] == '0' and len(s) > 3",
+        "target": "s[0] === '0' && s.length > 3"
+      }
+    ],
+    [
+      {
+        "source": "s[0] == '0' and len(s) > 2",
+        "target": "s[0] === '0' && s.length > 2"
+      },
+      {
+        "source": "s[0] == '0' and len(s) > 5",
+        "target": "s[0] === '0' && s.length > 5"
+      }
+    ],
+    [
+      {
+        "source": "s[0] == '0' and len(s) > 3",
+        "target": "s[0] === '0' && s.length > 3"
+      },
+      {
+        "source": "s[0] == '0' and len(s) > 5",
+        "target": "s[0] === '0' && s.length > 5"
+      }
+    ]
+  ]
+}

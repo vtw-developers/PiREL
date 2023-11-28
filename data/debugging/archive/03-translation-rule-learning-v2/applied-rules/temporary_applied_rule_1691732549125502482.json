@@ -1,0 +1,55 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.call\"",
+        [
+          "\"py.identifier\"",
+          [
+            "val",
+            "\"len\""
+          ]
+        ],
+        [
+          "\"py.argument_list\"",
+          "\".\""
+        ]
+      ],
+      "\"*\""
+    ],
+    [
+      "fragment",
+      [
+        "\"py.call\"",
+        "\"*\""
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      [
+        "\"js.member_expression\"",
+        "\".1\"",
+        [
+          "\"js.property_identifier\"",
+          [
+            "val",
+            "\"length\""
+          ]
+        ]
+      ],
+      "\"*2\""
+    ],
+    [
+      "fragment",
+      [
+        "\"js.call_expression\"",
+        "\"*1\""
+      ],
+      "\"*2\""
+    ]
+  ]
+}

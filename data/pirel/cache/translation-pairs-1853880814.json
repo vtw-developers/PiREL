@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[__[i][right] for i in range(top + 1, bottom + 1)]",
+  "template_origin": "[matrix[i][right] for i in range(top + 1, bottom + 1)]",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[x[i][right] for i in range(top + 1, bottom + 1)]",
+        "target": "let result = [];\nfor (let i = top + 1; i <= bottom; i++) {\n    result.push(x[i][right]);\n}"
+      },
+      {
+        "source": "[items[i][right] for i in range(top + 1, bottom + 1)]",
+        "target": "let result = [];\nfor (let i = top + 1; i <= bottom; i++) {\n    result.push(items[i][right]);\n}"
+      }
+    ]
+  ]
+}

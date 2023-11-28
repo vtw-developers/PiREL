@@ -1,0 +1,248 @@
+{
+  "template": "for __ in strs:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for s in strs:\n    some_secret_fn_4071()",
+  "translations": {
+    "for i in strs:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for element in strs:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let element of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let element of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in strs:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let s of strs) {\n    some_secret_fn_4071();\n}",
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let s of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for word in strs:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let word of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in strs:\n    some_secret_fn_4071()": [
+      "for (let item of strs) {\n    some_secret_fn_4071();\n}",
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let item of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let item of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let item of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for string in strs:\n    some_secret_fn_4071()": [
+      "for (let string of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let string of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let string of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for x in strs:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let x of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let x of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let x of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let x of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for val in strs:\n    some_secret_fn_4071()": [
+      "for (let val of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let val of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let val of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let val of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let val of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for entry in strs:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let entry of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let entry of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let entry of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for char in strs:\n    some_secret_fn_4071()": [
+      "for (let char of strs) {\n    some_secret_fn_4071();\n}",
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let char of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for value in strs:\n    some_secret_fn_4071()": [
+      "for (let value of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let value of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let value of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let value of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let value of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for text in strs:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for(let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item_str in strs:\n    some_secret_fn_4071()": [
+      "for (let item_str of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for _ in strs:\n    some_secret_fn_4071()": [
+      "for (let _ of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let _ of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for elem in strs:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let elem of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let elem of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for index in strs:\n    some_secret_fn_4071()": [
+      "strs.forEach(function(index) {\n    some_secret_fn_4071();\n});",
+      "for (let index = 0; index < strs.length; index++) {\n    some_secret_fn_4071();\n}",
+      "for (let index = 0; index < strs.length; index++) {\n    some_secret_fn_4071();\n}",
+      "for (let index = 0; index < strs.length; index++) {\n    some_secret_fn_4071();\n}",
+      "for (let index of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item123 in strs:\n    some_secret_fn_4071()": [
+      "for (let item123 of strs) {\n    some_secret_fn_4071();\n}",
+      "for(let item123 of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for term in strs:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let term of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let term of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for str_value in strs:\n    some_secret_fn_4071()": [
+      "for (let str_value of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for my_str in strs:\n    some_secret_fn_4071()": [
+      "for (let my_str of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for token in strs:\n    some_secret_fn_4071()": [
+      "for (let token of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in strings:\n    some_secret_fn_4071()": [
+      "for (let item of strings) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in strings:\n    some_secret_fn_4071()": [
+      "for (let s of strings) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for string_value in strs:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let string_value of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let string_value of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let string_value of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let string_value of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for phrase in strs:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let phrase of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for string_element in strs:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let string_element of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for str_elem in strs:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item_string in strs:\n    some_secret_fn_4071()": [
+      "for (let item_string of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let item_string of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item_123 in strs:\n    some_secret_fn_4071()": [
+      "for (let item_123 of strs) {\n    some_secret_fn_4071();\n}",
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for word_str in strs:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let word_str of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for variable in strs:\n    some_secret_fn_4071()": [
+      "for (let variable of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for word_value in strs:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in __:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < __.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for string in __:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < __.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for element in __:\n    some_secret_fn_4071()": [
+      "for (let element of __) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in __:\n    some_secret_fn_4071()": [
+      "for (let item of __) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for word in __:\n    some_secret_fn_4071()": [
+      "for (let word of __) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item_ in strs:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for string_ in strs:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for obj in strs:\n    some_secret_fn_4071()": [
+      "for (let obj of strs) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for line in strs:\n    some_secret_fn_4071()": [
+      "for (let line of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for my_string in strs:\n    some_secret_fn_4071()": [
+      "for (let my_string of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s_ in strs:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}",
+      "for (let s_ of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for str_ in strs:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for data in strs:\n    some_secret_fn_4071()": [
+      "for (let data of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item_name in strs:\n    some_secret_fn_4071()": [
+      "for(let item_name of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for word_string in strs:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s_str in strs:\n    some_secret_fn_4071()": [
+      "for (let s_str of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item_value in strs:\n    some_secret_fn_4071()": [
+      "for (let item_value of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for y in strs:\n    some_secret_fn_4071()": [
+      "for (let y of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for z in strs:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for word123 in strs:\n    some_secret_fn_4071()": [
+      "for (let word123 of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for string_item in strs:\n    some_secret_fn_4071()": [
+      "for (let string_item of strs) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for var in strs:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < strs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

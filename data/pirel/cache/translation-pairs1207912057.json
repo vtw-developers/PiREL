@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[matrix[top][j] for j in range(left, __ + 1)]",
+  "template_origin": "[matrix[top][j] for j in range(left, right + 1)]",
+  "templatized_node_ids": [
+    15
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[matrix[top][j] for j in range(left, width + 1)]",
+        "target": "let result = [];\nfor (let j = left; j <= width; j++) {\n    result.push(matrix[top][j]);\n}"
+      },
+      {
+        "source": "[matrix[top][j] for j in range(left, n + 1)]",
+        "target": "let result = [];\nfor (let j = left; j <= n; j++) {\n    result.push(matrix[top][j]);\n}"
+      }
+    ]
+  ]
+}

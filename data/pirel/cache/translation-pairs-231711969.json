@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__ == n and right == n",
+  "template_origin": "left == n and right == n",
+  "templatized_node_ids": [
+    4
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "x == n and right == n",
+        "target": "x === n && right === n"
+      },
+      {
+        "source": "y == n and right == n",
+        "target": "y === n && right === n"
+      }
+    ],
+    [
+      {
+        "source": "x == n and right == n",
+        "target": "x === n && right === n"
+      },
+      {
+        "source": "z == n and right == n",
+        "target": "z === n && right === n"
+      }
+    ],
+    [
+      {
+        "source": "x == n and right == n",
+        "target": "x === n && right === n"
+      },
+      {
+        "source": "a == n and right == n",
+        "target": "a === n && right === n"
+      }
+    ],
+    [
+      {
+        "source": "x == n and right == n",
+        "target": "x === n && right === n"
+      },
+      {
+        "source": "b == n and right == n",
+        "target": "b === n && right === n"
+      }
+    ],
+    [
+      {
+        "source": "y == n and right == n",
+        "target": "y === n && right === n"
+      },
+      {
+        "source": "z == n and right == n",
+        "target": "z === n && right === n"
+      }
+    ],
+    [
+      {
+        "source": "y == n and right == n",
+        "target": "y === n && right === n"
+      },
+      {
+        "source": "a == n and right == n",
+        "target": "a === n && right === n"
+      }
+    ],
+    [
+      {
+        "source": "y == n and right == n",
+        "target": "y === n && right === n"
+      },
+      {
+        "source": "b == n and right == n",
+        "target": "b === n && right === n"
+      }
+    ],
+    [
+      {
+        "source": "z == n and right == n",
+        "target": "z === n && right === n"
+      },
+      {
+        "source": "a == n and right == n",
+        "target": "a === n && right === n"
+      }
+    ],
+    [
+      {
+        "source": "z == n and right == n",
+        "target": "z === n && right === n"
+      },
+      {
+        "source": "b == n and right == n",
+        "target": "b === n && right === n"
+      }
+    ],
+    [
+      {
+        "source": "a == n and right == n",
+        "target": "a === n && right === n"
+      },
+      {
+        "source": "b == n and right == n",
+        "target": "b === n && right === n"
+      }
+    ]
+  ]
+}

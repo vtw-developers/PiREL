@@ -1,0 +1,20 @@
+{
+  "sp1": "for count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")",
+  "sp2": "for num, letter in enumerate('python'):\n    if letter == 'o':\n        continue",
+  "cand_translation_sp1": "\"Hello World\".split('').forEach((char, count) => console.log(`${count}: ${char}`));",
+  "raw_translations_sp2": [
+    "'python'.split('').forEach((letter, num) => {\n    if (letter === 'o') {\n        return;\n    }\n});"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

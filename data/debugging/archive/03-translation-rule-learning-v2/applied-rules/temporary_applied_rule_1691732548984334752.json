@@ -1,0 +1,26 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.conditional_expression\"",
+        "\".\"",
+        "\".\"",
+        "\".\""
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      [
+        "\"js.ternary_expression\"",
+        "\".2\"",
+        "\".1\"",
+        "\".3\""
+      ],
+      "\"*4\""
+    ]
+  ]
+}

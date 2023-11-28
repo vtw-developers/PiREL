@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[str(v) for v in res[::-__]]",
+  "template_origin": "[str(v) for v in res[::-1]]",
+  "templatized_node_ids": [
+    13
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[str(v) for v in res[::-3]]",
+        "target": "res.slice().reverse().filter((_, i) => i % 3 === 0).map(v => String(v));"
+      },
+      {
+        "source": "[str(v) for v in res[::-4]]",
+        "target": "res.slice().reverse().filter((_, i) => i % 4 === 0).map(v => String(v));"
+      }
+    ]
+  ]
+}

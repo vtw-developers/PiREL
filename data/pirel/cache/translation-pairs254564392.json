@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "stk and __[stk[-1]] >= h",
+  "template_origin": "stk and heights[stk[-1]] >= h",
+  "templatized_node_ids": [
+    6
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "stk and __[stk[-1]] >= h",
+        "target": "stk && __[stk[stk.length - 1]] >= h"
+      },
+      {
+        "source": "stk and my_dict[stk[-1]] >= h",
+        "target": "stk && my_dict[stk[stk.length - 1]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "stk and __[stk[-1]] >= h",
+        "target": "stk && __[stk[stk.length - 1]] >= h"
+      },
+      {
+        "source": "stk and lst[stk[-1]] >= h",
+        "target": "stk && lst[stk[stk.length - 1]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "stk and __[stk[-1]] >= h",
+        "target": "stk && __[stk[stk.length - 1]] >= h"
+      },
+      {
+        "source": "stk and my_list[stk[-1]] >= h",
+        "target": "stk && my_list[stk[stk.length - 1]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "stk and my_dict[stk[-1]] >= h",
+        "target": "stk && my_dict[stk[stk.length - 1]] >= h"
+      },
+      {
+        "source": "stk and lst[stk[-1]] >= h",
+        "target": "stk && lst[stk[stk.length - 1]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "stk and my_dict[stk[-1]] >= h",
+        "target": "stk && my_dict[stk[stk.length - 1]] >= h"
+      },
+      {
+        "source": "stk and my_list[stk[-1]] >= h",
+        "target": "stk && my_list[stk[stk.length - 1]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "stk and lst[stk[-1]] >= h",
+        "target": "stk && lst[stk[stk.length - 1]] >= h"
+      },
+      {
+        "source": "stk and my_list[stk[-1]] >= h",
+        "target": "stk && my_list[stk[stk.length - 1]] >= h"
+      }
+    ]
+  ]
+}

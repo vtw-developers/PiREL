@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "target > nums[mid] and target <= nums[__]",
+  "template_origin": "target > nums[mid] and target <= nums[r]",
+  "templatized_node_ids": [
+    12
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "target > nums[mid] and target <= nums[left]",
+        "target": "target > nums[mid] && target <= nums[left];"
+      },
+      {
+        "source": "target > nums[mid] and target <= nums[right]",
+        "target": "target > nums[mid] && target <= nums[right];"
+      }
+    ],
+    [
+      {
+        "source": "target > nums[mid] and target <= nums[left]",
+        "target": "target > nums[mid] && target <= nums[left];"
+      },
+      {
+        "source": "target > nums[mid] and target <= nums[start]",
+        "target": "target > nums[mid] && target <= nums[start];"
+      }
+    ],
+    [
+      {
+        "source": "target > nums[mid] and target <= nums[left]",
+        "target": "target > nums[mid] && target <= nums[left];"
+      },
+      {
+        "source": "target > nums[mid] and target <= nums[end]",
+        "target": "target > nums[mid] && target <= nums[end];"
+      }
+    ],
+    [
+      {
+        "source": "target > nums[mid] and target <= nums[right]",
+        "target": "target > nums[mid] && target <= nums[right];"
+      },
+      {
+        "source": "target > nums[mid] and target <= nums[start]",
+        "target": "target > nums[mid] && target <= nums[start];"
+      }
+    ],
+    [
+      {
+        "source": "target > nums[mid] and target <= nums[right]",
+        "target": "target > nums[mid] && target <= nums[right];"
+      },
+      {
+        "source": "target > nums[mid] and target <= nums[end]",
+        "target": "target > nums[mid] && target <= nums[end];"
+      }
+    ],
+    [
+      {
+        "source": "target > nums[mid] and target <= nums[start]",
+        "target": "target > nums[mid] && target <= nums[start];"
+      },
+      {
+        "source": "target > nums[mid] and target <= nums[end]",
+        "target": "target > nums[mid] && target <= nums[end];"
+      }
+    ]
+  ]
+}

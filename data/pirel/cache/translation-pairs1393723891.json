@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums[mid] < nums[r] or nums[mid] < nums[__]",
+  "template_origin": "nums[mid] < nums[r] or nums[mid] < nums[l]",
+  "templatized_node_ids": [
+    16
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums[mid] < nums[r] or nums[mid] < nums[j]",
+        "target": "nums[mid] < nums[r] || nums[mid] < nums[j]"
+      },
+      {
+        "source": "nums[mid] < nums[r] or nums[mid] < nums[k]",
+        "target": "nums[mid] < nums[r] || nums[mid] < nums[k]"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < nums[r] or nums[mid] < nums[j]",
+        "target": "nums[mid] < nums[r] || nums[mid] < nums[j]"
+      },
+      {
+        "source": "nums[mid] < nums[r] or nums[mid] < nums[x]",
+        "target": "nums[mid] < nums[r] || nums[mid] < nums[x]"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < nums[r] or nums[mid] < nums[k]",
+        "target": "nums[mid] < nums[r] || nums[mid] < nums[k]"
+      },
+      {
+        "source": "nums[mid] < nums[r] or nums[mid] < nums[x]",
+        "target": "nums[mid] < nums[r] || nums[mid] < nums[x]"
+      }
+    ]
+  ]
+}

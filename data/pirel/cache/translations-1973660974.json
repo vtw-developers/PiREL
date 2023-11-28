@@ -1,0 +1,105 @@
+{
+  "template": "__ = __ = __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "i = ans = 0",
+  "translations": {
+    "a = b = 10": [
+      "var a = 10;\nvar b = 10;",
+      "var a = 10;\nvar b = 10;"
+    ],
+    "count = total = 0": [
+      "let count = 0;\nlet total = 0;",
+      "let count = 0;\nlet total = 0;"
+    ],
+    "width = height = 100": [
+      "var width = 100;\nvar height = 100;",
+      "var width = 100;\nvar height = 100;"
+    ],
+    "count = total = 100": [
+      "let count = 100;\nlet total = 100;",
+      "let count = 100;\nlet total = 100;"
+    ],
+    "x = y = 10": [
+      "let x = 10;\nlet y = x;",
+      "var x = 10;\nvar y = 10;"
+    ],
+    "count1 = count2 = 0": [
+      "let count1 = 0;\nlet count2 = 0;",
+      "let count1 = 0;\nlet count2 = 0;"
+    ],
+    "age1 = age2 = 25": [
+      "let age1 = 25;\nlet age2 = 25;"
+    ],
+    "width = height = 0": [
+      "let width = 0;\nlet height = 0;"
+    ],
+    "a = b = 0": [
+      "let a = 0;\nlet b = 0;",
+      "let a = 0;\nlet b = 0;"
+    ],
+    "num1 = num2 = 42": [
+      "let num1 = 42;\nlet num2 = 42;",
+      "let num1 = 42;\nlet num2 = 42;"
+    ],
+    "x = y = 0": [
+      "let x = 0;\nlet y = 0;",
+      "var x = 0;\nvar y = 0;"
+    ],
+    "count = count = 0": [
+      "let count = 0;"
+    ],
+    "num1 = num2 = 0": [
+      "let num1 = 0;\nlet num2 = 0;"
+    ],
+    "a = b = 1": [
+      "var a = 1;\nvar b = a;",
+      "var a = 1;\nvar b = 1;"
+    ],
+    "num1 = num2 = 100": [
+      "let num1 = 100;\nlet num2 = 100;"
+    ],
+    "x = y = 5": [
+      "let x = 5;\nlet y = x;"
+    ],
+    "width = height = 1": [
+      "let width = 1;\nlet height = 1;"
+    ],
+    "x = y = 100": [
+      "var x = 100;\nvar y = x;"
+    ],
+    "i = j = 0": [
+      "let i = 0;\nlet j = 0;"
+    ],
+    "count1 = count2 = 7": [
+      "var count1 = 7;\nvar count2 = 7;"
+    ],
+    "count = index = 0": [
+      "let count = 0;\nlet index = 0;"
+    ],
+    "x = y = 1": [
+      "var x = 1;\nvar y = 1;"
+    ],
+    "age = years = 25": [
+      "let age = 25;\nlet years = age;"
+    ],
+    "value1 = value2 = 42": [
+      "let value1 = 42;\nlet value2 = 42;"
+    ],
+    "count = total = 10": [
+      "let count = 10;\nlet total = 10;"
+    ],
+    "a = b = 42": [
+      "var a = 42;\nvar b = a;"
+    ],
+    "count = total = 42": [
+      "let count = 42;\nlet total = 42;"
+    ],
+    "count1 = count2 = 1": [
+      "var count1 = 1;\nvar count2 = 1;"
+    ],
+    "x = y = 42": [
+      "let x = 42;\nlet y = x;"
+    ]
+  }
+}

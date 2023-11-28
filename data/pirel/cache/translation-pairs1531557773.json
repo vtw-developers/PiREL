@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums[mid] < target <= nums[n - __]",
+  "template_origin": "nums[mid] < target <= nums[n - 1]",
+  "templatized_node_ids": [
+    11
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums[mid] < target <= nums[n - 1]",
+        "target": "nums[mid] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[n - 2]",
+        "target": "nums[mid] < target && target <= nums[n - 2];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[n - 1]",
+        "target": "nums[mid] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[n - 3]",
+        "target": "nums[mid] < target && target <= nums[n - 3];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[n - 1]",
+        "target": "nums[mid] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[n - 4]",
+        "target": "nums[mid] < target && target <= nums[n - 4];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[n - 1]",
+        "target": "nums[mid] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[n - 5]",
+        "target": "nums[mid] < target && target <= nums[n - 5];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[n - 2]",
+        "target": "nums[mid] < target && target <= nums[n - 2];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[n - 3]",
+        "target": "nums[mid] < target && target <= nums[n - 3];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[n - 2]",
+        "target": "nums[mid] < target && target <= nums[n - 2];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[n - 4]",
+        "target": "nums[mid] < target && target <= nums[n - 4];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[n - 2]",
+        "target": "nums[mid] < target && target <= nums[n - 2];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[n - 5]",
+        "target": "nums[mid] < target && target <= nums[n - 5];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[n - 3]",
+        "target": "nums[mid] < target && target <= nums[n - 3];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[n - 4]",
+        "target": "nums[mid] < target && target <= nums[n - 4];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[n - 3]",
+        "target": "nums[mid] < target && target <= nums[n - 3];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[n - 5]",
+        "target": "nums[mid] < target && target <= nums[n - 5];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[n - 4]",
+        "target": "nums[mid] < target && target <= nums[n - 4];"
+      },
+      {
+        "source": "nums[mid] < target <= nums[n - 5]",
+        "target": "nums[mid] < target && target <= nums[n - 5];"
+      }
+    ]
+  ]
+}

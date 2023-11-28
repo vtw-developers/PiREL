@@ -1,0 +1,92 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "-__ if s[i] == '-' else __",
+  "template_origin": "-1 if s[i] == '-' else 1",
+  "templatized_node_ids": [
+    4,
+    11
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "-999 if s[i] == '-' else 999",
+        "target": "s[i] === '-' ? -999 : 999;"
+      },
+      {
+        "source": "-1 if s[i] == '-' else 0",
+        "target": "s[i] === '-' ? -1 : 0;"
+      }
+    ],
+    [
+      {
+        "source": "-999 if s[i] == '-' else 999",
+        "target": "s[i] === '-' ? -999 : 999;"
+      },
+      {
+        "source": "-1 if s[i] == '-' else 2",
+        "target": "s[i] === '-' ? -1 : 2;"
+      }
+    ],
+    [
+      {
+        "source": "-10 if s[i] == '-' else 10",
+        "target": "s[i] == '-' ? -10 : 10;"
+      },
+      {
+        "source": "-100 if s[i] == '-' else 100",
+        "target": "s[i] == '-' ? -100 : 100;"
+      }
+    ],
+    [
+      {
+        "source": "-10 if s[i] == '-' else 10",
+        "target": "s[i] == '-' ? -10 : 10;"
+      },
+      {
+        "source": "-1000 if s[i] == '-' else 1000",
+        "target": "s[i] == '-' ? -1000 : 1000;"
+      }
+    ],
+    [
+      {
+        "source": "-10 if s[i] == '-' else 10",
+        "target": "s[i] == '-' ? -10 : 10;"
+      },
+      {
+        "source": "-9999 if s[i] == '-' else 9999",
+        "target": "s[i] == '-' ? -9999 : 9999;"
+      }
+    ],
+    [
+      {
+        "source": "-100 if s[i] == '-' else 100",
+        "target": "s[i] == '-' ? -100 : 100;"
+      },
+      {
+        "source": "-1000 if s[i] == '-' else 1000",
+        "target": "s[i] == '-' ? -1000 : 1000;"
+      }
+    ],
+    [
+      {
+        "source": "-100 if s[i] == '-' else 100",
+        "target": "s[i] == '-' ? -100 : 100;"
+      },
+      {
+        "source": "-9999 if s[i] == '-' else 9999",
+        "target": "s[i] == '-' ? -9999 : 9999;"
+      }
+    ],
+    [
+      {
+        "source": "-1000 if s[i] == '-' else 1000",
+        "target": "s[i] == '-' ? -1000 : 1000;"
+      },
+      {
+        "source": "-9999 if s[i] == '-' else 9999",
+        "target": "s[i] == '-' ? -9999 : 9999;"
+      }
+    ]
+  ]
+}

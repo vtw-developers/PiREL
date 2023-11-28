@@ -1,0 +1,3541 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "n = len(__)",
+  "template_origin": "n = len(digits)",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(abc)",
+        "target": "var n = abc.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(lst)",
+        "target": "var n = lst.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string)",
+        "target": "var n = string.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary)",
+        "target": "var n = dictionary.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_var)",
+        "target": "var n = tuple_var.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(set_var)",
+        "target": "var n = new Set(set_var).size;"
+      },
+      {
+        "source": "n = len(set_variable)",
+        "target": "var n = new Set(set_variable).size;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(array)",
+        "target": "var n = array.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(matrix)",
+        "target": "let n = matrix.length;"
+      },
+      {
+        "source": "n = len(queue)",
+        "target": "let n = queue.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(stack)",
+        "target": "var n = stack.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(var)",
+        "target": "var n = var.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(arr)",
+        "target": "var n = arr.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable)",
+        "target": "var n = iterable.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(object)",
+        "target": "var n = object.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(variable_name)",
+        "target": "var n = variable_name.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      },
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      },
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(string_variable)",
+        "target": "var n = string_variable.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      },
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(list_variable)",
+        "target": "var n = list_variable.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      },
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(tuple_variable)",
+        "target": "var n = tuple_variable.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      },
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(dictionary_variable)",
+        "target": "var n = dictionary_variable.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      },
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(iterable_object)",
+        "target": "var n = iterable_object.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      },
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(file_object)",
+        "target": "var n = file_object.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      },
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(function_name)",
+        "target": "var n = function_name.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      },
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(nums)",
+        "target": "var n = nums.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      },
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(my_list)",
+        "target": "var n = my_list.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      },
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(sequence)",
+        "target": "var n = sequence.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      },
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(data)",
+        "target": "var n = data.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      },
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(items)",
+        "target": "var n = items.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      },
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(elements)",
+        "target": "var n = elements.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(values)",
+        "target": "var n = values.length;"
+      },
+      {
+        "source": "n = len(xyz)",
+        "target": "var n = xyz.length;"
+      }
+    ]
+  ]
+}

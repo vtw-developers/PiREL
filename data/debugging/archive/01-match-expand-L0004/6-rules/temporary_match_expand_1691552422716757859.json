@@ -1,0 +1,7 @@
+{
+  "range_cursor": "\"(\"",
+  "matcher": [
+    "\"py.string_content\"",
+    "\"_val_\""
+  ]
+}

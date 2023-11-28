@@ -1,0 +1,102 @@
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.binary_operator" "." (str "+") ".") "*")
+  (fragment ("js.binary_expression" ".1" (str "+") ".2") "*3")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.binary_operator" "." (str "+") ".") "*")
+  (fragment ("js.binary_expression" ".1" (str "+") ".2") "*3")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.binary_operator" "." (str "-") ".") "*")
+  (fragment ("js.binary_expression" ".1" (str "-") ".2") "*3")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.binary_operator" "." (str "-") ".") "*")
+  (fragment ("js.binary_expression" ".1" (str "-") ".2") "*3")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.binary_operator" ("py.identifier" "_val_") (str "-") ("py.identifier" "_val_")) "*")
+  (fragment ("js.binary_expression" ("js.identifier" "_val1_") (str "-") ("js.identifier" "_val2_")) "*1")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.binary_operator" ("py.identifier" "_val_") (str "-") ("py.identifier" "_val_")) "*")
+  (fragment ("js.binary_expression" ("js.identifier" "_val1_") (str "-") ("js.identifier" "_val2_")) "*1")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.comparison_operator" "." (str "<") ".") "*")
+  (fragment ("js.parenthesized_expression" (str "(") ("js.binary_expression" ".1" (str "<") ".2") (str ")")) "*3")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.conditional_expression" "." (str "if") "." (str "else") ".") "*")
+  (fragment ("js.ternary_expression" ".2" (str "?") ".1" (str ":") ".3") "*4")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.expression_statement" ("py.assignment" ("py.identifier" "_val_") (str "=") ".")) "*")
+  (fragment ("js.lexical_declaration" (str "const") ("js.variable_declarator" ("js.identifier" "_val1_") (str "=") ".1") (str ";")) "*2")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.expression_statement" ("py.assignment" ("py.identifier" "_val_") (str "=") ".")) "*")
+  (fragment ("js.variable_declaration" (str "var") ("js.variable_declarator" ("js.identifier" "_val1_") (str "=") ".1") (str ";")) "*2")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.expression_statement" ("py.assignment" ("py.identifier" "_val_") (str "=") ".")) "*")
+  (fragment ("js.lexical_declaration" (str "let") ("js.variable_declarator" ("js.identifier" "_val1_") (str "=") ".1") (str ";")) "*2")
+)
+
+
+(match_expand
+  (fragment ("py.module" "*"))
+  (fragment ("js.program" "*1"))
+)
+
+(match_expand
+  (fragment ("py.function_definition" (str "def") "*") "*")
+  (fragment ("js.function_declaration" (str "function") "*1") "*2")
+)
+
+(match_expand
+  (fragment ("py.identifier" "_val_") "*")
+  (fragment ("js.identifier" "_val1_") "*1")
+)
+
+(match_expand
+  (fragment ("py.parameters" "*") "*")
+  (fragment ("js.formal_parameters" "*1") "*2")
+)
+
+(match_expand
+  (fragment ("py.block" "*") "*")
+  (fragment ("js.statement_block" "*1") "*2")
+)
+

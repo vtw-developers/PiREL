@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "not __[i]",
+  "template_origin": "not used[i]",
+  "templatized_node_ids": [
+    4
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "not a[i]",
+        "target": "!a[i];"
+      },
+      {
+        "source": "not c[i]",
+        "target": "!c[i];"
+      }
+    ],
+    [
+      {
+        "source": "not a[i]",
+        "target": "!a[i];"
+      },
+      {
+        "source": "not e[i]",
+        "target": "!e[i];"
+      }
+    ],
+    [
+      {
+        "source": "not c[i]",
+        "target": "!c[i];"
+      },
+      {
+        "source": "not e[i]",
+        "target": "!e[i];"
+      }
+    ]
+  ]
+}

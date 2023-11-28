@@ -1,0 +1,38 @@
+{
+  "template": "def f_gold(triangle: __[__[int]]) -> int:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(triangle: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(triangle: List[List[int]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(triangle) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(triangle: List[List[float]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(triangle) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(triangle: List[List[str]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(triangle) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(triangle: List[List[bool]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(triangle) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(triangle: List[List[object]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(triangle) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(triangle: list[list[int]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(triangle) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(triangle: list[list[float]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(triangle) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(triangle: list[list[object]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(triangle) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(triangle: List[List[Any]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(triangle) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(triangle: List[Tuple[int]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(triangle) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

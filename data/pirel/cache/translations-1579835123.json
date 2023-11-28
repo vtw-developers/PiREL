@@ -1,0 +1,68 @@
+{
+  "template": "s[i] == s[__] and dp[i + 1][__ - 1]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "s[i] == s[j] and dp[i + 1][j - 1]",
+  "translations": {
+    "s[i] == s[i] and dp[i + 1][i - 1]": [
+      "s[i] === s[i] && dp[i + 1][i - 1]"
+    ],
+    "s[i] == s[i] and dp[i + 1][i + 1]": [
+      "s[i] === s[i] && dp[i + 1][i + 1];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i + 2]": [
+      "s[i] === s[i] && dp[i + 1][i + 2];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i + 3]": [
+      "s[i] === s[i] && dp[i + 1][i + 3];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i + 4]": [
+      "s[i] === s[i] && dp[i + 1][i + 4];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i + 5]": [
+      "s[i] === s[i] && dp[i + 1][i + 5];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i + 6]": [
+      "s[i] == s[i] && dp[i + 1][i + 6];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i + 7]": [
+      "s[i] == s[i] && dp[i + 1][i + 7];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i + 8]": [
+      "s[i] == s[i] && dp[i + 1][i + 8];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i + 9]": [
+      "s[i] == s[i] && dp[i + 1][i + 9];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i - 2]": [
+      "s[i] === s[i] && dp[i + 1][i - 2]"
+    ],
+    "s[i] == s[i] and dp[i + 1][i * 2]": [
+      "s[i] === s[i] && dp[i + 1][i * 2];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i % 2]": [
+      "s[i] === s[i] && dp[i + 1][i % 2];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i // 2]": [
+      "s[i] === s[i] && dp[i + 1][Math.floor(i / 2)];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i % 3]": [
+      "s[i] === s[i] && dp[i + 1][i % 3]"
+    ],
+    "s[i] == s[i] and dp[i + 1][i // 3]": [
+      "s[i] === s[i] && dp[i + 1][Math.floor(i / 3)];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i - 3]": [
+      "s[i] === s[i] && dp[i + 1][i - 3];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i - 4]": [
+      "s[i] == s[i] && dp[i + 1][i - 4];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i / 2]": [
+      "s[i] === s[i] && dp[i + 1][i / 2];"
+    ],
+    "s[i] == s[i] and dp[i + 1][i ** 2]": [
+      "s[i] === s[i] && dp[i + 1][i ** 2];"
+    ]
+  }
+}

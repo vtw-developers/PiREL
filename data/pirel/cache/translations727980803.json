@@ -1,0 +1,23 @@
+{
+  "template": "j < __ and nums[j] == nums[j - 1]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "j < n and nums[j] == nums[j - 1]",
+  "translations": {
+    "j < n and nums[j] == nums[j - 1]": [
+      "j < n && nums[j] === nums[j - 1]"
+    ],
+    "j < size and nums[j] == nums[j - 1]": [
+      "j < size && nums[j] === nums[j - 1]"
+    ],
+    "j < limit and nums[j] == nums[j - 1]": [
+      "j < limit && nums[j] == nums[j - 1]"
+    ],
+    "j < count and nums[j] == nums[j - 1]": [
+      "j < count && nums[j] === nums[j - 1]"
+    ],
+    "j < max_value and nums[j] == nums[j - 1]": [
+      "j < max_value && nums[j] == nums[j - 1]"
+    ]
+  }
+}

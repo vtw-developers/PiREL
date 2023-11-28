@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-8AVslgtjZOfNAlldlVYTTTbv3UjKv",
+  "object": "chat.completion",
+  "created": 1697516527,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1. Filled with identifiers:\n\n```python\ndef f_gold(nums: list, target: int) -> int:\n    return target\n```\n\n2. Filled with literals:\n\n```python\ndef f_gold('input': 'list', target: int) -> int:\n    return target\n```\n\n3. Filled with anything else:\n\n```python\ndef f_gold(input_data: 'input_type', target: int) -> int:\n    return target\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 1,
+      "message": {
+        "role": "assistant",
+        "content": "Fill with identifiers:\n```python\ndef f_gold(num: int, target: int) -> int:\n    return target\n```\nFill with literals:\n```python\ndef f_gold(5: 'int', target: int) -> int:\n    return target\n```\nFill with expressions:\n```python\ndef f_gold(x: sum([1, 2, 3]), target: int) -> int:\n    return target\n```\nPlease note that the literals and expressions variants might not be semantically correct, but they are syntactically correct."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 2,
+      "message": {
+        "role": "assistant",
+        "content": "Here is how you can fill the holes in the given template with identifiers:\n```python\ndef f_gold(numbers: list, target: int) -> int:\n    return target\n```\n\nHere is how you can fill the holes with literals:\n```python\ndef f_gold('data': 'type', target: int) -> int:\n    return target\n```\n\nAnd here is another variant where holes are filled with other forms:\n```python\ndef f_gold(arg: 'Any', target: int) -> int:\n    return target\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 3,
+      "message": {
+        "role": "assistant",
+        "content": "1. Filled with identifiers:\n```\ndef f_gold(n: int, target: int) -> int:\n    return target\n```\n\n2. Filled with literals:\n```\ndef f_gold('number': 'integer', target: int) -> int:\n    return target\n```\n\n3. Filled with other (data types):\n```\ndef f_gold(n: float, target: int) -> int:\n    return target\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 4,
+      "message": {
+        "role": "assistant",
+        "content": "```python\ndef f_gold(numbers: list, target: int) -> int:\n    return target\n```\n\n```python\ndef f_gold(array: list, target: int) -> int:\n    return target\n```\n\n```python\ndef f_gold(data: list, target: int) -> int:\n    return target\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 509,
+    "completion_tokens": 478,
+    "total_tokens": 987
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "template": "left if nums[left] == target else -__",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "left if nums[left] == target else -1",
+  "translations": {
+    "left if nums[left] == target else -1": [
+      "nums[left] == target ? left : -1;"
+    ],
+    "left if nums[left] == target else -2": [],
+    "left if nums[left] == target else -3": [
+      "nums[left] == target ? left : -3;"
+    ],
+    "left if nums[left] == target else -4": [],
+    "left if nums[left] == target else -5": []
+  }
+}

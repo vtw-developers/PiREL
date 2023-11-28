@@ -1,0 +1,71 @@
+{
+  "template": "[chars[int(d) - 2] for d in __]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[chars[int(d) - 2] for d in digits]",
+  "translations": {
+    "[chars[int(d) - 2] for d in some_list]": [
+      "some_list.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in my_list]": [
+      "my_list.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in nums]": [
+      "let result = nums.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in data]": [
+      "data.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in values]": [
+      "values.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in seq]": [
+      "let result = seq.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in elements]": [
+      "let result = elements.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in digits]": [
+      "var result = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "[chars[int(d) - 2] for d in indices]": [
+      "let result = indices.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in range_list]": [
+      "range_list.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in my_string]": [
+      "let result = [];\nfor (let d of my_string) {\n    result.push(chars[parseInt(d) - 2]);\n}"
+    ],
+    "[chars[int(d) - 2] for d in my_tuple]": [
+      "my_tuple.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in my_dict]": [
+      "let result = my_dict.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in my_set]": [
+      "var result = [];\nfor (var d of my_set) {\n    result.push(chars[parseInt(d) - 2]);\n}"
+    ],
+    "[chars[int(d) - 2] for d in numbers]": [
+      "numbers.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in indexes]": [
+      "indexes.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in sequence]": [
+      "sequence.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in input_data]": [
+      "var result = [];\nfor (var i = 0; i < input_data.length; i++) {\n    var d = input_data[i];\n    result.push(chars[parseInt(d) - 2]);\n}"
+    ],
+    "[chars[int(d) - 2] for d in entries]": [
+      "entries.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in digits_list]": [
+      "digits_list.map((d) => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in chars]": [
+      "let result = chars.map(d => chars[parseInt(d) - 2]);"
+    ]
+  }
+}

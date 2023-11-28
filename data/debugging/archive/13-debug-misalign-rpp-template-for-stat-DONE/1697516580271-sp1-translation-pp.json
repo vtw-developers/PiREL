@@ -1,0 +1,13 @@
+{
+  "good_program_pairs": [
+    {
+      "source": "my_dict = {}",
+      "target": "let my_dict = {};"
+    },
+    {
+      "source": "my_dict = {}",
+      "target": "var my_dict = {};"
+    }
+  ],
+  "success": true
+}

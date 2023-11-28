@@ -1,0 +1,23 @@
+{
+  "template": "[[grid[0][0]] * __ for _ in range(m)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[[grid[0][0]] * n for _ in range(m)]",
+  "translations": {
+    "[[grid[0][0]] * n for _ in range(m)]": [
+      "let result = [];\nfor (let i = 0; i < m; i++) {\n    let row = [];\n    for (let j = 0; j < n; j++) {\n        row.push(grid[0][0]);\n    }\n    result.push(row);\n}"
+    ],
+    "[[grid[0][0]] * grid_width for _ in range(m)]": [
+      "Array.from({ length: m }, () => Array(grid_width).fill(grid[0][0]));"
+    ],
+    "[[grid[0][0]] * columns for _ in range(m)]": [
+      "Array.from({ length: m }, () => Array(columns).fill(grid[0][0]));"
+    ],
+    "[[grid[0][0]] * row_length for _ in range(m)]": [
+      "Array(m).fill(Array(row_length).fill(grid[0][0]))"
+    ],
+    "[[grid[0][0]] * count for _ in range(m)]": [
+      "Array.from({length: m}, () => Array(count).fill(grid[0][0]));"
+    ]
+  }
+}

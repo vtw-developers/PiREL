@@ -1,0 +1,53 @@
+{
+  "template": "for __ in s:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for letter in s:\n    some_secret_fn_4071()",
+  "translations": {
+    "for _ in s:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < s.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for x in s:\n    some_secret_fn_4071()": [
+      "for (let x of s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for elem in s:\n    some_secret_fn_4071()": [
+      "for (let elem of s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in s:\n    some_secret_fn_4071()": [
+      "for (let item of s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for char in s:\n    some_secret_fn_4071()": [
+      "for (let char of s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in s:\n    some_secret_fn_4071()": [
+      "for (let i of s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for index in s:\n    some_secret_fn_4071()": [
+      "for (let index of s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for val in s:\n    some_secret_fn_4071()": [
+      "for (let val of s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for element in s:\n    some_secret_fn_4071()": [
+      "for (let element of s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for obj in s:\n    some_secret_fn_4071()": [
+      "for (let obj of s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for letter in s:\n    some_secret_fn_4071()": [
+      "for (let letter of s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for ch in s:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < s.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for c in s:\n    some_secret_fn_4071()": [
+      "for (let c of s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for character in s:\n    some_secret_fn_4071()": [
+      "for (let character of s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for value in s:\n    some_secret_fn_4071()": [
+      "for (let value of s) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.parenthesized_expression\"",
+        "\"*\""
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      [
+        "\"js.parenthesized_expression\"",
+        "\"*1\""
+      ],
+      "\"*2\""
+    ]
+  ]
+}

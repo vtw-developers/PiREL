@@ -1,0 +1,28 @@
+{
+  "template": "not (0 <= int(s) <= __)",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "not (0 <= int(s) <= 255)",
+  "translations": {
+    "not (0 <= int(s) <= 9)": [],
+    "not (0 <= int(s) <= 99)": [
+      "!(0 <= parseInt(s) <= 99);"
+    ],
+    "not (0 <= int(s) <= 999)": [],
+    "not (0 <= int(s) <= 9999)": [],
+    "not (0 <= int(s) <= 99999)": [],
+    "not (0 <= int(s) <= 999999)": [
+      "!(0 <= parseInt(s) <= 999999)"
+    ],
+    "not (0 <= int(s) <= 9999999)": [
+      "!(0 <= parseInt(s) <= 9999999);"
+    ],
+    "not (0 <= int(s) <= 99999999)": [
+      "!(0 <= parseInt(s) <= 99999999);"
+    ],
+    "not (0 <= int(s) <= 999999999)": [],
+    "not (0 <= int(s) <= 9999999999)": [
+      "!(0 <= parseInt(s) && parseInt(s) <= 9999999999);"
+    ]
+  }
+}

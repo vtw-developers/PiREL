@@ -1,0 +1,21 @@
+{
+  "template": "-1 if a * __ < 0 else 1",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "-1 if a * b < 0 else 1",
+  "translations": {
+    "-1 if a * b < 0 else 1": [
+      "(a * b < 0) ? -1 : 1;"
+    ],
+    "-1 if a * c < 0 else 1": [
+      "(a * c < 0) ? -1 : 1;"
+    ],
+    "-1 if a * d < 0 else 1": [
+      "(a * d < 0) ? -1 : 1;"
+    ],
+    "-1 if a * e < 0 else 1": [],
+    "-1 if a * f < 0 else 1": [
+      "(a * f < 0) ? -1 : 1;"
+    ]
+  }
+}

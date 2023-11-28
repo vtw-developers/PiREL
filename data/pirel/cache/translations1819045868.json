@@ -1,0 +1,23 @@
+{
+  "template": "[['.'] * n for __ in range(n)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[['.'] * n for _ in range(n)]",
+  "translations": {
+    "[['.'] * n for i in range(n)]": [
+      "let result = [];\nfor (let i = 0; i < n; i++) {\n  result.push(Array(n).fill('.'));\n}"
+    ],
+    "[['.'] * n for j in range(n)]": [
+      "const matrix = Array.from({ length: n }, () => Array(n).fill('.'));"
+    ],
+    "[['.'] * n for k in range(n)]": [
+      "let arr = Array(n).fill(\".\").map(() => Array(n).fill(\".\"));"
+    ],
+    "[['.'] * n for x in range(n)]": [
+      "Array.from({length: n}, () => Array(n).fill('.'));"
+    ],
+    "[['.'] * n for y in range(n)]": [
+      "Array.from({ length: n }, () => Array(n).fill('.'));"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "range_cursor": [
+    "anno",
+    [
+      "\"stype\"",
+      "\"\""
+    ],
+    [
+      "\"quote\"",
+      "\"'\""
+    ]
+  ],
+  "matcher": [
+    "\"py.call\"",
+    [
+      "\"py.identifier\"",
+      [
+        "val",
+        "\"print\""
+      ]
+    ],
+    "\".\""
+  ]
+}

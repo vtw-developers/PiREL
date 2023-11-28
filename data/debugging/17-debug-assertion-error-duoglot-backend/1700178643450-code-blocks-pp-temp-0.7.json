@@ -1,0 +1,6033 @@
+{
+  "generated_codes_stats": [
+    [
+      0,
+      {
+        "generated_code": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      1,
+      {
+        "generated_code": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      2,
+      {
+        "generated_code": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      3,
+      {
+        "generated_code": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      4,
+      {
+        "generated_code": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      5,
+      {
+        "generated_code": "for 0 in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+        "has_parse_error": true,
+        "is_type_isomorphic_to_template": null,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      6,
+      {
+        "generated_code": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      7,
+      {
+        "generated_code": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      8,
+      {
+        "generated_code": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      9,
+      {
+        "generated_code": "for 1 in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+        "has_parse_error": true,
+        "is_type_isomorphic_to_template": null,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      10,
+      {
+        "generated_code": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      11,
+      {
+        "generated_code": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      12,
+      {
+        "generated_code": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      13,
+      {
+        "generated_code": "for 0, 'a' in enumerate('abc'):\n    secret_fun_4071()",
+        "has_parse_error": true,
+        "is_type_isomorphic_to_template": null,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      14,
+      {
+        "generated_code": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      15,
+      {
+        "generated_code": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      16,
+      {
+        "generated_code": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      17,
+      {
+        "generated_code": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      18,
+      {
+        "generated_code": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ],
+    [
+      19,
+      {
+        "generated_code": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "for i, v in enumerate(nums):\n    num = target - v\n    if num in helper:\n        return [helper[num], i]\n    helper[v] = i"
+      }
+    ]
+  ],
+  "min_penalty": 360.5,
+  "success": true,
+  "two_source_programs_stats": [
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.07500000000000001,
+      "no_repeating_tokens": true,
+      "pair_penalty": 4320.375000000001,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.07500000000000001,
+      "no_repeating_tokens": true,
+      "pair_penalty": 4320.375000000001,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17285.100000000002,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17287.800000000003,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.07500000000000001,
+      "no_repeating_tokens": true,
+      "pair_penalty": 4320.375000000001,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14401.25,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 20,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1152340,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          null,
+          "terminal_exact_grammar",
+          null
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14401.25,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14401.25,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2881.3,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14401.25,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14401.25,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          null,
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 57617,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          null
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 57626,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          null
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14401.25,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          null
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2881.3,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 30.000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1728150.0000000002,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          null
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": true,
+      "pair_penalty": 288025,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          null
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17285.100000000002,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17287.800000000003,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 30.000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1728150.0000000002,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          null
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 6,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 36,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        null,
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1450.4,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 7274,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14409.25,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2882.5,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14409.25,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14409.25,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": true,
+      "pair_penalty": 288025,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          null
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17285.100000000002,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17287.800000000003,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 30.000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1728150.0000000002,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          null
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 36,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1450.4,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 7274,
+      "program1": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1460,
+      "program1": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 7274,
+      "program1": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 7274,
+      "program1": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2881.3,
+      "program1": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": true,
+      "pair_penalty": 288025,
+      "program1": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          null
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 6.000000000000001,
+      "no_repeating_tokens": true,
+      "pair_penalty": 345900.00000000006,
+      "program1": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          null
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17285.100000000002,
+      "program1": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 57617,
+      "program1": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          null
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14409.25,
+      "program1": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14409.25,
+      "program1": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17287.800000000003,
+      "program1": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 57626,
+      "program1": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          null
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2882.5,
+      "program1": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2882.5,
+      "program1": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14409.25,
+      "program1": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    }
+  ],
+  "valid_tsp_list": [
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 360.5,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.0125,
+      "no_repeating_tokens": true,
+      "pair_penalty": 720.0625,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1440.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1446.8000000000002,
+      "program1": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1450.4,
+      "program1": "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1450.4,
+      "program1": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.4,
+      "no_repeating_tokens": true,
+      "pair_penalty": 1460,
+      "program1": "for i in enumerate(['apple', 'banana', 'cherry']):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for idx, item in enumerate(array):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2880.8500000000004,
+      "program1": "for ind, item in enumerate(data):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2881.3,
+      "program1": "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2881.3,
+      "program1": "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2881.3,
+      "program1": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2882.5,
+      "program1": "for index, value in enumerate([\"apple\", \"banana\", \"cherry\"]):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2882.5,
+      "program1": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "program2": "for x, y in enumerate(['a', 'b', 'c']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.05,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2882.5,
+      "program1": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "program2": "for number, letter in enumerate(['one', 'two', 'three']):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_val",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.07500000000000001,
+      "no_repeating_tokens": true,
+      "pair_penalty": 4320.375000000001,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.07500000000000001,
+      "no_repeating_tokens": true,
+      "pair_penalty": 4320.375000000001,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.07500000000000001,
+      "no_repeating_tokens": true,
+      "pair_penalty": 4320.375000000001,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.3333333333333333,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "terminal_val",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17285.100000000002,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17285.100000000002,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17285.100000000002,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17285.100000000002,
+      "program1": "for i, item in enumerate([1, 2, 3]):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17287.800000000003,
+      "program1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17287.800000000003,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17287.800000000003,
+      "program1": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "program2": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.30000000000000004,
+      "no_repeating_tokens": true,
+      "pair_penalty": 17287.800000000003,
+      "program1": "for i, item in enumerate({'a':1, 'b':2}):\n    secret_fun_4071()",
+      "program2": "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.16666666666666666,
+      "templatized_nodes_match_types": [
+        [
+          "terminal_exact_semantic",
+          "terminal_exact_grammar",
+          "terminal_val"
+        ],
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false,
+        false
+      ]
+    }
+  ]
+}

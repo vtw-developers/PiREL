@@ -1,0 +1,116 @@
+{
+  "template": "for j, __ in enumerate(s):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for j, c in enumerate(s):\n    some_secret_fn_4071()",
+  "translations": {
+    "for j, char in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    const char = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, item in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    const item = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, element in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, letter in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    let letter = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, symbol in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (var j = 0; j < s.length; j++) {\n    var symbol = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, value in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, obj in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    let obj = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, thing in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    const thing = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, data in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    let data = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, character in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    let character = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, x in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    const x = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, token in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    let token = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, _ in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, entry in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    const entry = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    let c = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, i in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (var j = 0; j < s.length; j++) {\n    var i = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, word in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    let word = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, flag in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (var j = 0; j < s.length; j++) {\n    var flag = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, lst in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    let lst = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, tpl in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    let tpl = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, d in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    const d = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, f in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    const f = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, func in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    let func = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, cls in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    let cls = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, val in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    let val = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, item_ in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, index in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let [j, index] of Object.entries(s)) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, element_42 in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    let element_42 = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, elem in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    const elem = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, el in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    const el = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, ele in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (var j = 0; j < s.length; j++) {\n    var ele = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, y in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    const y = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, item_4071 in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    const item_4071 = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, z in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    const z = s[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, _1 in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, _2 in enumerate(s):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < s.length; j++) {\n    const _2 = s[j];\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[[False] * (__ + 1) for _ in range(m + 1)]",
+  "template_origin": "[[False] * (n + 1) for _ in range(m + 1)]",
+  "templatized_node_ids": [
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[[False] * (x + 1) for _ in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(x + 1).fill(false));"
+      },
+      {
+        "source": "[[False] * (y + 1) for _ in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(y + 1).fill(false));"
+      }
+    ],
+    [
+      {
+        "source": "[[False] * (x + 1) for _ in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(x + 1).fill(false));"
+      },
+      {
+        "source": "[[False] * (z + 1) for _ in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(z + 1).fill(false));"
+      }
+    ],
+    [
+      {
+        "source": "[[False] * (y + 1) for _ in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(y + 1).fill(false));"
+      },
+      {
+        "source": "[[False] * (z + 1) for _ in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(z + 1).fill(false));"
+      }
+    ]
+  ]
+}

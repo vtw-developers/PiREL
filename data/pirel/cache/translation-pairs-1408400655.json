@@ -1,0 +1,22 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "len(strs[__]) <= i or strs[__][i] != strs[0][i]",
+  "template_origin": "len(strs[j]) <= i or strs[j][i] != strs[0][i]",
+  "templatized_node_ids": [
+    9,
+    15
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "len(strs[i]) <= i or strs[i][i] != strs[0][i]",
+        "target": "strs[i].length <= i || strs[i][i] !== strs[0][i]"
+      },
+      {
+        "source": "len(strs[__7]) <= i or strs[__8][i] != strs[0][i]",
+        "target": "strs[__7].length <= i || strs[__8][i] !== strs[0][i]"
+      }
+    ]
+  ]
+}

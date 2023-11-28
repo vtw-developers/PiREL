@@ -1,0 +1,52 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "j < n and __[j] == __[j - 1]",
+  "template_origin": "j < n and nums[j] == nums[j - 1]",
+  "templatized_node_ids": [
+    8,
+    11
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "j < n and elements[j] == elements[j - 1]",
+        "target": "j < n && elements[j] == elements[j - 1]"
+      },
+      {
+        "source": "j < n and array[j] == array[j - 1]",
+        "target": "j < n && array[j] == array[j - 1]"
+      }
+    ],
+    [
+      {
+        "source": "j < n and elements[j] == elements[j - 1]",
+        "target": "j < n && elements[j] == elements[j - 1]"
+      },
+      {
+        "source": "j < n and characters[j] == characters[j - 1]",
+        "target": "j < n && characters[j] == characters[j - 1]"
+      }
+    ],
+    [
+      {
+        "source": "j < n and array[j] == array[j - 1]",
+        "target": "j < n && array[j] == array[j - 1]"
+      },
+      {
+        "source": "j < n and characters[j] == characters[j - 1]",
+        "target": "j < n && characters[j] == characters[j - 1]"
+      }
+    ],
+    [
+      {
+        "source": "j < n and sequence[j] == sequence[j - 1]",
+        "target": "j < n && sequence[j] === sequence[j - 1]"
+      },
+      {
+        "source": "j < n and strings[j] == strings[j - 1]",
+        "target": "j < n && strings[j] === strings[j - 1]"
+      }
+    ]
+  ]
+}

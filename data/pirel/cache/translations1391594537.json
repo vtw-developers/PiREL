@@ -1,0 +1,23 @@
+{
+  "template": "[matrix[bottom][__] for __ in range(right - 1, left - 1, -1)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[matrix[bottom][j] for j in range(right - 1, left - 1, -1)]",
+  "translations": {
+    "[matrix[bottom][i] for i in range(right - 1, left - 1, -1)]": [
+      "let result = [];\nfor (let i = right - 1; i >= left - 1; i--) {\n    result.push(matrix[bottom][i]);\n}"
+    ],
+    "[matrix[bottom][j] for j in range(right - 1, left - 1, -1)]": [
+      "let result = [];\nfor (let j = right - 1; j >= left; j--) {\n    result.push(matrix[bottom][j]);\n}"
+    ],
+    "[matrix[bottom][k] for k in range(right - 1, left - 1, -1)]": [
+      "let result = [];\nfor (let k = right - 1; k >= left; k--) {\n    result.push(matrix[bottom][k]);\n}"
+    ],
+    "[matrix[bottom][idx] for idx in range(right - 1, left - 1, -1)]": [
+      "let result = [];\nfor (let idx = right - 1; idx >= left; idx--) {\n    result.push(matrix[bottom][idx]);\n}"
+    ],
+    "[matrix[bottom][x] for x in range(right - 1, left - 1, -1)]": [
+      "const result = [];\nfor (let x = right - 1; x >= left; x--) {\n    result.push(matrix[bottom][x]);\n}"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for __ in range(len(strs[0])):\n    some_secret_fn_4071()",
+  "template_origin": "for i in range(len(strs[0])):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    2
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for _ in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let _ = 0; _ < strs[0].length; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for x in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for(let x=0; x<strs[0].length; x++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let _ = 0; _ < strs[0].length; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < strs[0].length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let _ = 0; _ < strs[0].length; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let index = 0; index < strs[0].length; index++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let _ = 0; _ < strs[0].length; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let num = 0; num < strs[0].length; num++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for(let x=0; x<strs[0].length; x++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < strs[0].length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for(let x=0; x<strs[0].length; x++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let index = 0; index < strs[0].length; index++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for(let x=0; x<strs[0].length; x++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let num = 0; num < strs[0].length; num++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < strs[0].length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let index = 0; index < strs[0].length; index++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < strs[0].length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let num = 0; num < strs[0].length; num++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for index in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let index = 0; index < strs[0].length; index++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in range(len(strs[0])):\n    some_secret_fn_4071()",
+        "target": "for (let num = 0; num < strs[0].length; num++) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

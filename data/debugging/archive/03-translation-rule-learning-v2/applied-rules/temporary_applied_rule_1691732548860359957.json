@@ -1,0 +1,27 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.import_statement\"",
+        [
+          "\"py.dotted_name\"",
+          [
+            "\"py.identifier\"",
+            [
+              "val",
+              "\"math\""
+            ]
+          ]
+        ]
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      "\"*1\""
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[[False] * (n + __) for _ in range(m + __)]",
+  "template_origin": "[[False] * (n + 1) for _ in range(m + 1)]",
+  "templatized_node_ids": [
+    9,
+    17
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[[False] * (n + 1) for _ in range(m + 1)]",
+        "target": "let matrix = Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));"
+      },
+      {
+        "source": "[[False] * (n + 5) for _ in range(m + 5)]",
+        "target": "let matrix = Array.from({ length: m + 5 }, () => Array(n + 5).fill(false));"
+      }
+    ],
+    [
+      {
+        "source": "[[False] * (n + 3) for _ in range(m + 3)]",
+        "target": "Array.from({ length: m + 3 }, () => Array(n + 3).fill(false));"
+      },
+      {
+        "source": "[[False] * (n + 4) for _ in range(m + 4)]",
+        "target": "Array.from({ length: m + 4 }, () => Array(n + 4).fill(false));"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "translation_pairs": [
+    [
+      {
+        "source": "my_dict = {}",
+        "target": "var my_dict = {};"
+      },
+      {
+        "source": "user_data = {}",
+        "target": "var user_data = {};"
+      }
+    ]
+  ]
+}

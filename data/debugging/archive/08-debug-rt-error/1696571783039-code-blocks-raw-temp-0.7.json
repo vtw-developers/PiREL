@@ -1,0 +1,19 @@
+[
+  "var1 = var2",
+  "number = 5",
+  "result = func()",
+  "var1 = var2",
+  "num1 = 100",
+  "result = 2 + 2",
+  "x = y",
+  "num = 10",
+  "my_str = \"Hello World\"",
+  "pi = 3.14",
+  "my_list = [1, 2, 3, 4, 5]",
+  "x = y",
+  "num = 5",
+  "list1 = list2",
+  "x = y",
+  "num = 5",
+  "result = 2 + 3"
+]

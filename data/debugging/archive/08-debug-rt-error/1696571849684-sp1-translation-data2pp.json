@@ -1,0 +1,58 @@
+{
+  "program_pairs": [
+    {
+      "source": "midVal1 = 0 if a < b else 1",
+      "target": "let midVal1 = (a < b) ? 0 : 1;"
+    },
+    {
+      "source": "midVal1 = 0 if a < b else 1",
+      "target": "var midVal1;\nif (a < b) {\n    midVal1 = 0;\n} else {\n    midVal1 = 1;\n}"
+    },
+    {
+      "source": "midVal1 = 0 if a < b else 1",
+      "target": "let midVal1;\nif (a < b) {\n    midVal1 = 0;\n} else {\n    midVal1 = 1;\n}"
+    }
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [
+          "py.subscript"
+        ],
+        "parents": [
+          "\"py.conditional_expression\"",
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.ternary_expression\"",
+          "\"js.variable_declarator\"",
+          "\"js.lexical_declaration\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [
+          "py.subscript"
+        ],
+        "parents": [
+          "\"py.conditional_expression\"",
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.ternary_expression\"",
+          "\"js.variable_declarator\"",
+          "\"js.variable_declaration\""
+        ]
+      }
+    }
+  ]
+}

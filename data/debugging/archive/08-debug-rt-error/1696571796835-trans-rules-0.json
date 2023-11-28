@@ -1,0 +1,5 @@
+[
+  "(match_expand\n  (fragment (\"py.expression_statement\" (\"py.assignment\" (\"py.identifier\" \"_val_\") (str \"=\") \".\")) \"*\")\n  (fragment (\"js.lexical_declaration\" (str \"let\") (\"js.variable_declarator\" (\"js.identifier\" \"_val1_\") (str \"=\") \".1\") (str \";\")) \"*2\")\n)",
+  "(match_expand\n  (fragment (\"py.expression_statement\" (\"py.assignment\" (\"py.identifier\" \"_val_\") (str \"=\") \".\")) \"*\")\n  (fragment (\"js.variable_declaration\" (str \"var\") (\"js.variable_declarator\" (\"js.identifier\" \"_val1_\") (str \"=\") \".1\") (str \";\")) \"*2\")\n)",
+  "(match_expand\n  (fragment (\"py.expression_statement\" (\"py.assignment\" (\"py.identifier\" \"_val_\") (str \"=\") \".\")) \"*\")\n  (fragment (\"js.lexical_declaration\" (str \"const\") (\"js.variable_declarator\" (\"js.identifier\" \"_val1_\") (str \"=\") \".1\") (str \";\")) \"*2\")\n)"
+]

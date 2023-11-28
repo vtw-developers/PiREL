@@ -1,0 +1,23 @@
+{
+  "template": "sign = -1 if __[i] == '-' else 1",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "sign = -1 if s[i] == '-' else 1",
+  "translations": {
+    "sign = -1 if nums[i] == '-' else 1": [
+      "let sign = nums[i] === '-' ? -1 : 1;"
+    ],
+    "sign = -1 if lst[i] == '-' else 1": [
+      "let sign = (lst[i] == '-') ? -1 : 1;"
+    ],
+    "sign = -1 if values[i] == '-' else 1": [
+      "var sign = values[i] == '-' ? -1 : 1;"
+    ],
+    "sign = -1 if items[i] == '-' else 1": [
+      "var sign = (items[i] == '-') ? -1 : 1;"
+    ],
+    "sign = -1 if data[i] == '-' else 1": [
+      "var sign = (data[i] == '-') ? -1 : 1;"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+b = "good"
+c = " good"
+d = "good "
+e = "  good  boy  "
+a = f"hello{b}"

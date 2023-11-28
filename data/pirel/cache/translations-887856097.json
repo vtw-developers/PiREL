@@ -1,0 +1,68 @@
+{
+  "template": "def f_gold(__: int) -> bool:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(x: int) -> bool:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(a: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(b: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(b) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(c: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(c) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(d: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(d) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(e: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(e) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(f: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(f) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(g: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(g) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(h: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(h) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(i: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(i) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(j: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(j) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(x: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(num: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(num) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(n: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(n) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(value: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(value) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(input_value: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(input_value) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(number: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(number) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(param: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(param) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(arg: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(arg) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(val: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(val) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(argument: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(argument) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

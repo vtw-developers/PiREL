@@ -1,0 +1,31 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "([matrix[bottom][j] for j in range(__ - 1, left - 1, -1)])",
+  "template_origin": "([matrix[bottom][j] for j in range(right - 1, left - 1, -1)])",
+  "templatized_node_ids": [
+    15
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "([matrix[bottom][j] for j in range(m - 1, left - 1, -1)])",
+        "target": "matrix.slice(bottom, bottom + 1)[0].slice(left, m).reverse();"
+      },
+      {
+        "source": "([matrix[bottom][j] for j in range(size - 1, left - 1, -1)])",
+        "target": "matrix.slice(bottom, bottom + 1)[0].slice(left, size).reverse();"
+      }
+    ],
+    [
+      {
+        "source": "([matrix[bottom][j] for j in range(end - 1, left - 1, -1)])",
+        "target": "matrix.slice(bottom, bottom + 1)[0].slice(left - 1, end).reverse();"
+      },
+      {
+        "source": "([matrix[bottom][j] for j in range(limit - 1, left - 1, -1)])",
+        "target": "matrix.slice(bottom, bottom + 1)[0].slice(left - 1, limit).reverse();"
+      }
+    ]
+  ]
+}

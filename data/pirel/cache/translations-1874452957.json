@@ -1,0 +1,68 @@
+{
+  "template": "0 if res < -(2**__) or res > 2**__ - 1 else res",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "0 if res < -(2**31) or res > 2**31 - 1 else res",
+  "translations": {
+    "0 if res < -(2**0) or res > 2**0 - 1 else res": [
+      "(res < -(Math.pow(2, 0)) || res > Math.pow(2, 0) - 1) ? 0 : res;"
+    ],
+    "0 if res < -(2**1) or res > 2**1 - 1 else res": [
+      "(res < -(2**1) || res > 2**1 - 1) ? 0 : res;"
+    ],
+    "0 if res < -(2**2) or res > 2**2 - 1 else res": [
+      "(res < -(Math.pow(2, 2)) || res > Math.pow(2, 2) - 1) ? 0 : res;"
+    ],
+    "0 if res < -(2**3) or res > 2**3 - 1 else res": [
+      "(res < -(Math.pow(2, 3)) || res > Math.pow(2, 3) - 1) ? 0 : res;"
+    ],
+    "0 if res < -(2**4) or res > 2**4 - 1 else res": [
+      "(res < -(Math.pow(2, 4)) || res > Math.pow(2, 4) - 1) ? 0 : res;"
+    ],
+    "0 if res < -(2**5) or res > 2**5 - 1 else res": [
+      "var res = ...; // some value\n\nvar result = (res < -(Math.pow(2, 5)) || res > (Math.pow(2, 5) - 1)) ? 0 : res;"
+    ],
+    "0 if res < -(2**6) or res > 2**6 - 1 else res": [
+      "(res < -(Math.pow(2, 6)) || res > Math.pow(2, 6) - 1) ? 0 : res;"
+    ],
+    "0 if res < -(2**7) or res > 2**7 - 1 else res": [
+      "(res < -(Math.pow(2, 7)) || res > Math.pow(2, 7) - 1) ? 0 : res;"
+    ],
+    "0 if res < -(2**8) or res > 2**8 - 1 else res": [
+      "res < -(Math.pow(2, 8)) || res > Math.pow(2, 8) - 1 ? 0 : res;"
+    ],
+    "0 if res < -(2**9) or res > 2**9 - 1 else res": [
+      "(res < -(2 ** 9) || res > 2 ** 9 - 1) ? 0 : res;"
+    ],
+    "0 if res < -(2**10) or res > 2**10 - 1 else res": [
+      "(res < -(2**10) || res > 2**10 - 1) ? 0 : res;"
+    ],
+    "0 if res < -(2**100) or res > 2**100 - 1 else res": [
+      "if (res < Math.pow(-2, 100) || res > Math.pow(2, 100) - 1) {\n    0;\n} else {\n    res;\n}"
+    ],
+    "0 if res < -(2**13) or res > 2**13 - 1 else res": [
+      "(res < -(Math.pow(2, 13)) || res > (Math.pow(2, 13) - 1)) ? 0 : res;"
+    ],
+    "0 if res < -(2**12) or res > 2**12 - 1 else res": [
+      "res < -(Math.pow(2, 12)) || res > Math.pow(2, 12) - 1 ? 0 : res;"
+    ],
+    "0 if res < -(2**15) or res > 2**15 - 1 else res": [
+      "let res = // assign a value to res\nlet result = res < -(2**15) || res > 2**15 - 1 ? 0 : res;"
+    ],
+    "0 if res < -(2**20) or res > 2**20 - 1 else res": [
+      "(res < -(Math.pow(2, 20)) || res > Math.pow(2, 20) - 1) ? 0 : res;"
+    ],
+    "0 if res < -(2**14) or res > 2**14 - 1 else res": [
+      "(res < -(Math.pow(2, 14)) || res > Math.pow(2, 14) - 1) ? 0 : res;"
+    ],
+    "0 if res < -(2**18) or res > 2**18 - 1 else res": [
+      "(res < -(Math.pow(2, 18)) || res > (Math.pow(2, 18) - 1)) ? 0 : res;"
+    ],
+    "0 if res < -(2**11) or res > 2**11 - 1 else res": [
+      "res < -(Math.pow(2, 11)) || res > Math.pow(2, 11) - 1 ? 0 : res;"
+    ],
+    "0 if res < -(2**25) or res > 2**25 - 1 else res": [
+      "res < -(Math.pow(2, 25)) || res > Math.pow(2, 25) - 1 ? 0 : res;"
+    ]
+  }
+}

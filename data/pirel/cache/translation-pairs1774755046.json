@@ -1,0 +1,24 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__ * __ if (n & 1) == 0 else __ * __ * x",
+  "template_origin": "y * y if (n & 1) == 0 else y * y * x",
+  "templatized_node_ids": [
+    4,
+    5,
+    14,
+    15
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "x * y if (n & 1) == 0 else x * y * x",
+        "target": "(n & 1) === 0 ? x * y : x * y * x;"
+      },
+      {
+        "source": "p * q if (n & 1) == 0 else p * q * x",
+        "target": "(n & 1) === 0 ? p * q : p * q * x;"
+      }
+    ]
+  ]
+}

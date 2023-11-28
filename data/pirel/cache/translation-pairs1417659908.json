@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "k > __ and nums[k] == nums[k + 1]",
+  "template_origin": "k > i and nums[k] == nums[k + 1]",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "k > Ellipsis and nums[k] == nums[k + 1]",
+        "target": "k > undefined && nums[k] == nums[k + 1];"
+      },
+      {
+        "source": "k > NotImplementedType and nums[k] == nums[k + 1]",
+        "target": "k > undefined && nums[k] == nums[k + 1];"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[[__] * n for _ in range(n)]",
+  "template_origin": "[[0] * n for _ in range(n)]",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[[0] * n for _ in range(n)]",
+        "target": "Array.from({ length: n }, () => Array(n).fill(0));"
+      },
+      {
+        "source": "[[2] * n for _ in range(n)]",
+        "target": "Array.from({ length: n }, () => Array(n).fill(2));"
+      }
+    ]
+  ]
+}

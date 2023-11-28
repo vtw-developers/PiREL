@@ -1,0 +1,71 @@
+{
+  "template": "def f_gold(digits: __) -> List[str]:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(digits: str) -> List[str]:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(digits: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: tuple) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: float) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: dict) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: bool) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: object) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: bytes) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: set) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: int) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: list) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: Any) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: frozenset) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: complex) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: bytearray) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: any) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: AnyStr) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: Tuple) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: range) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: slice) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: List) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(digits: Callable) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

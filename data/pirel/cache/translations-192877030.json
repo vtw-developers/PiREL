@@ -1,0 +1,23 @@
+{
+  "template": "st, __ = intervals[0]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "st, ed = intervals[0]",
+  "translations": {
+    "st, _ = intervals[0]": [
+      "let [st, _] = intervals[0];"
+    ],
+    "st, x = intervals[0]": [
+      "let [st, x] = intervals[0];"
+    ],
+    "st, y = intervals[0]": [
+      "let [st, y] = intervals[0];"
+    ],
+    "st, z = intervals[0]": [
+      "let [st, z] = intervals[0];"
+    ],
+    "st, a = intervals[0]": [
+      "let [st, a] = intervals[0];"
+    ]
+  }
+}

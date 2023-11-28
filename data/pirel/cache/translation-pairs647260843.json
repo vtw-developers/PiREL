@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "stk and heights[stk[-__]] >= h",
+  "template_origin": "stk and heights[stk[-1]] >= h",
+  "templatized_node_ids": [
+    10
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "stk and heights[stk[-1]] >= h",
+        "target": "stk && heights[stk[stk.length - 1]] >= h"
+      },
+      {
+        "source": "stk and heights[stk[-2]] >= h",
+        "target": "stk && heights[stk[stk.length - 2]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "stk and heights[stk[-1]] >= h",
+        "target": "stk && heights[stk[stk.length - 1]] >= h"
+      },
+      {
+        "source": "stk and heights[stk[-3]] >= h",
+        "target": "stk && heights[stk[stk.length - 3]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "stk and heights[stk[-1]] >= h",
+        "target": "stk && heights[stk[stk.length - 1]] >= h"
+      },
+      {
+        "source": "stk and heights[stk[-4]] >= h",
+        "target": "stk && heights[stk[stk.length - 4]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "stk and heights[stk[-1]] >= h",
+        "target": "stk && heights[stk[stk.length - 1]] >= h"
+      },
+      {
+        "source": "stk and heights[stk[-5]] >= h",
+        "target": "stk && heights[stk[stk.length - 5]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "stk and heights[stk[-2]] >= h",
+        "target": "stk && heights[stk[stk.length - 2]] >= h"
+      },
+      {
+        "source": "stk and heights[stk[-3]] >= h",
+        "target": "stk && heights[stk[stk.length - 3]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "stk and heights[stk[-2]] >= h",
+        "target": "stk && heights[stk[stk.length - 2]] >= h"
+      },
+      {
+        "source": "stk and heights[stk[-4]] >= h",
+        "target": "stk && heights[stk[stk.length - 4]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "stk and heights[stk[-2]] >= h",
+        "target": "stk && heights[stk[stk.length - 2]] >= h"
+      },
+      {
+        "source": "stk and heights[stk[-5]] >= h",
+        "target": "stk && heights[stk[stk.length - 5]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "stk and heights[stk[-3]] >= h",
+        "target": "stk && heights[stk[stk.length - 3]] >= h"
+      },
+      {
+        "source": "stk and heights[stk[-4]] >= h",
+        "target": "stk && heights[stk[stk.length - 4]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "stk and heights[stk[-3]] >= h",
+        "target": "stk && heights[stk[stk.length - 3]] >= h"
+      },
+      {
+        "source": "stk and heights[stk[-5]] >= h",
+        "target": "stk && heights[stk[stk.length - 5]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "stk and heights[stk[-4]] >= h",
+        "target": "stk && heights[stk[stk.length - 4]] >= h"
+      },
+      {
+        "source": "stk and heights[stk[-5]] >= h",
+        "target": "stk && heights[stk[stk.length - 5]] >= h"
+      }
+    ]
+  ]
+}

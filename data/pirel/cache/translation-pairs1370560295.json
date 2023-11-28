@@ -1,0 +1,193 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "0 if __ < -(2**31) or __ > 2**31 - 1 else __",
+  "template_origin": "0 if res < -(2**31) or res > 2**31 - 1 else res",
+  "templatized_node_ids": [
+    6,
+    13,
+    19
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "0 if x < -(2**31) or x > 2**31 - 1 else x",
+        "target": "x < -(2**31) || x > 2**31 - 1 ? 0 : x;"
+      },
+      {
+        "source": "0 if num < -(2**31) or num > 2**31 - 1 else num",
+        "target": "num < -(2**31) || num > 2**31 - 1 ? 0 : num;"
+      }
+    ],
+    [
+      {
+        "source": "0 if x < -(2**31) or x > 2**31 - 1 else x",
+        "target": "x < -(2**31) || x > 2**31 - 1 ? 0 : x;"
+      },
+      {
+        "source": "0 if n < -(2**31) or n > 2**31 - 1 else n",
+        "target": "n < -(2**31) || n > 2**31 - 1 ? 0 : n;"
+      }
+    ],
+    [
+      {
+        "source": "0 if x < -(2**31) or x > 2**31 - 1 else x",
+        "target": "x < -(2**31) || x > 2**31 - 1 ? 0 : x;"
+      },
+      {
+        "source": "0 if limit < -(2**31) or limit > 2**31 - 1 else limit",
+        "target": "limit < -(2**31) || limit > 2**31 - 1 ? 0 : limit;"
+      }
+    ],
+    [
+      {
+        "source": "0 if x < -(2**31) or x > 2**31 - 1 else x",
+        "target": "x < -(2**31) || x > 2**31 - 1 ? 0 : x;"
+      },
+      {
+        "source": "0 if f < -(2**31) or f > 2**31 - 1 else f",
+        "target": "f < -(2**31) || f > 2**31 - 1 ? 0 : f;"
+      }
+    ],
+    [
+      {
+        "source": "0 if num < -(2**31) or num > 2**31 - 1 else num",
+        "target": "num < -(2**31) || num > 2**31 - 1 ? 0 : num;"
+      },
+      {
+        "source": "0 if n < -(2**31) or n > 2**31 - 1 else n",
+        "target": "n < -(2**31) || n > 2**31 - 1 ? 0 : n;"
+      }
+    ],
+    [
+      {
+        "source": "0 if num < -(2**31) or num > 2**31 - 1 else num",
+        "target": "num < -(2**31) || num > 2**31 - 1 ? 0 : num;"
+      },
+      {
+        "source": "0 if limit < -(2**31) or limit > 2**31 - 1 else limit",
+        "target": "limit < -(2**31) || limit > 2**31 - 1 ? 0 : limit;"
+      }
+    ],
+    [
+      {
+        "source": "0 if num < -(2**31) or num > 2**31 - 1 else num",
+        "target": "num < -(2**31) || num > 2**31 - 1 ? 0 : num;"
+      },
+      {
+        "source": "0 if f < -(2**31) or f > 2**31 - 1 else f",
+        "target": "f < -(2**31) || f > 2**31 - 1 ? 0 : f;"
+      }
+    ],
+    [
+      {
+        "source": "0 if val < -(2**31) or val > 2**31 - 1 else val",
+        "target": "val < -(Math.pow(2, 31)) || val > Math.pow(2, 31) - 1 ? 0 : val;"
+      },
+      {
+        "source": "0 if value_1 < -(2**31) or value_1 > 2**31 - 1 else value_1",
+        "target": "value_1 < -(Math.pow(2, 31)) || value_1 > Math.pow(2, 31) - 1 ? 0 : value_1;"
+      }
+    ],
+    [
+      {
+        "source": "0 if val < -(2**31) or val > 2**31 - 1 else val",
+        "target": "val < -(Math.pow(2, 31)) || val > Math.pow(2, 31) - 1 ? 0 : val;"
+      },
+      {
+        "source": "0 if num_1 < -(2**31) or num_1 > 2**31 - 1 else num_1",
+        "target": "num_1 < -(Math.pow(2, 31)) || num_1 > Math.pow(2, 31) - 1 ? 0 : num_1;"
+      }
+    ],
+    [
+      {
+        "source": "0 if n < -(2**31) or n > 2**31 - 1 else n",
+        "target": "n < -(2**31) || n > 2**31 - 1 ? 0 : n;"
+      },
+      {
+        "source": "0 if limit < -(2**31) or limit > 2**31 - 1 else limit",
+        "target": "limit < -(2**31) || limit > 2**31 - 1 ? 0 : limit;"
+      }
+    ],
+    [
+      {
+        "source": "0 if n < -(2**31) or n > 2**31 - 1 else n",
+        "target": "n < -(2**31) || n > 2**31 - 1 ? 0 : n;"
+      },
+      {
+        "source": "0 if f < -(2**31) or f > 2**31 - 1 else f",
+        "target": "f < -(2**31) || f > 2**31 - 1 ? 0 : f;"
+      }
+    ],
+    [
+      {
+        "source": "0 if limit < -(2**31) or limit > 2**31 - 1 else limit",
+        "target": "limit < -(2**31) || limit > 2**31 - 1 ? 0 : limit;"
+      },
+      {
+        "source": "0 if f < -(2**31) or f > 2**31 - 1 else f",
+        "target": "f < -(2**31) || f > 2**31 - 1 ? 0 : f;"
+      }
+    ],
+    [
+      {
+        "source": "0 if value < -(2**31) or value > 2**31 - 1 else value",
+        "target": "value < -(Math.pow(2, 31)) || value > Math.pow(2, 31) - 1 ? 0 : value"
+      },
+      {
+        "source": "0 if value1 < -(2**31) or value1 > 2**31 - 1 else value1",
+        "target": "value1 < -(Math.pow(2, 31)) || value1 > Math.pow(2, 31) - 1 ? 0 : value1"
+      }
+    ],
+    [
+      {
+        "source": "0 if value2 < -(2**31) or value2 > 2**31 - 1 else value2",
+        "target": "(value2 < -(2**31) || value2 > 2**31 - 1) ? 0 : value2;"
+      },
+      {
+        "source": "0 if b < -(2**31) or b > 2**31 - 1 else b",
+        "target": "(b < -(2**31) || b > 2**31 - 1) ? 0 : b;"
+      }
+    ],
+    [
+      {
+        "source": "0 if value2 < -(2**31) or value2 > 2**31 - 1 else value2",
+        "target": "(value2 < -(2**31) || value2 > 2**31 - 1) ? 0 : value2;"
+      },
+      {
+        "source": "0 if g < -(2**31) or g > 2**31 - 1 else g",
+        "target": "(g < -(2**31) || g > 2**31 - 1) ? 0 : g;"
+      }
+    ],
+    [
+      {
+        "source": "0 if b < -(2**31) or b > 2**31 - 1 else b",
+        "target": "(b < -(2**31) || b > 2**31 - 1) ? 0 : b;"
+      },
+      {
+        "source": "0 if g < -(2**31) or g > 2**31 - 1 else g",
+        "target": "(g < -(2**31) || g > 2**31 - 1) ? 0 : g;"
+      }
+    ],
+    [
+      {
+        "source": "0 if c < -(2**31) or c > 2**31 - 1 else c",
+        "target": "(c < -(Math.pow(2, 31)) || c > Math.pow(2, 31) - 1) ? 0 : c;"
+      },
+      {
+        "source": "0 if d < -(2**31) or d > 2**31 - 1 else d",
+        "target": "(d < -(Math.pow(2, 31)) || d > Math.pow(2, 31) - 1) ? 0 : d;"
+      }
+    ],
+    [
+      {
+        "source": "0 if value_1 < -(2**31) or value_1 > 2**31 - 1 else value_1",
+        "target": "value_1 < -(Math.pow(2, 31)) || value_1 > Math.pow(2, 31) - 1 ? 0 : value_1;"
+      },
+      {
+        "source": "0 if num_1 < -(2**31) or num_1 > 2**31 - 1 else num_1",
+        "target": "num_1 < -(Math.pow(2, 31)) || num_1 > Math.pow(2, 31) - 1 ? 0 : num_1;"
+      }
+    ]
+  ]
+}

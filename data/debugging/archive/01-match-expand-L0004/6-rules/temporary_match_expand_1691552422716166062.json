@@ -1,0 +1,7 @@
+{
+  "range_cursor": "\"(\"",
+  "matcher": [
+    "\"py.argument_list\"",
+    "\"*\""
+  ]
+}

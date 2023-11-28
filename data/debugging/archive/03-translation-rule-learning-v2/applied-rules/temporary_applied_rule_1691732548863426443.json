@@ -1,0 +1,42 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.import_from_statement\"",
+        [
+          "str",
+          "\"from\""
+        ],
+        [
+          "\"py.dotted_name\"",
+          [
+            "\"py.identifier\"",
+            [
+              "val",
+              "\"typing\""
+            ]
+          ]
+        ],
+        [
+          "str",
+          "\"import\""
+        ],
+        [
+          "\"py.wildcard_import\"",
+          [
+            "str",
+            "\"*\""
+          ]
+        ]
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      "\"*1\""
+    ]
+  ]
+}

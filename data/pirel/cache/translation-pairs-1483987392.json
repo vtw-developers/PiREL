@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(__: List[int]) -> int:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(height: List[int]) -> int:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(lst: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(numbers: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(numbers) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(lst: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(arr: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(arr) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(lst: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(input_list: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(input_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(lst: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(data: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(data) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(numbers: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(numbers) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(arr: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(arr) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(numbers: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(numbers) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(input_list: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(input_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(numbers: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(numbers) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(data: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(data) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(arr: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(arr) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(input_list: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(input_list) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(arr: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(arr) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(data: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(data) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(input_list: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(input_list) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(data: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(data) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

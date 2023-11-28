@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "### maxPoints \nimport __\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+  "template_origin": "### maxPoints \nimport math\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    4
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "### maxPoints \nimport random\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+        "target": "function maxPoints(points) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "### maxPoints \nimport sys\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(points) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "### maxPoints \nimport random\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+        "target": "function maxPoints(points) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "### maxPoints \nimport json\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(points) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "### maxPoints \nimport random\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+        "target": "function maxPoints(points) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "### maxPoints \nimport itertools\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+        "target": "function maxPoints(points) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "### maxPoints \nimport sys\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(points) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "### maxPoints \nimport json\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(points) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "### maxPoints \nimport sys\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(points) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "### maxPoints \nimport itertools\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+        "target": "function maxPoints(points) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "### maxPoints \nimport json\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(points) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "### maxPoints \nimport itertools\nfrom math import gcd\nfrom collections import Counter\nfrom typing import *\ndef f_gold(points: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+        "target": "function maxPoints(points) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

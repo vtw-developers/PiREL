@@ -1,0 +1,43 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[__ ^ (__ >> 1) for __ in range(1 << n)]",
+  "template_origin": "[i ^ (i >> 1) for i in range(1 << n)]",
+  "templatized_node_ids": [
+    4,
+    7,
+    10
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[x ^ (x >> 1) for x in range(1 << n)]",
+        "target": "const result = [];\nfor (let x = 0; x < (1 << n); x++) {\n    result.push(x ^ (x >> 1));\n}"
+      },
+      {
+        "source": "[y ^ (y >> 1) for y in range(1 << n)]",
+        "target": "const result = [];\nfor (let y = 0; y < (1 << n); y++) {\n    result.push(y ^ (y >> 1));\n}"
+      }
+    ],
+    [
+      {
+        "source": "[x ^ (x >> 1) for x in range(1 << n)]",
+        "target": "const result = [];\nfor (let x = 0; x < (1 << n); x++) {\n    result.push(x ^ (x >> 1));\n}"
+      },
+      {
+        "source": "[b ^ (b >> 1) for b in range(1 << n)]",
+        "target": "const result = [];\nfor (let b = 0; b < (1 << n); b++) {\n    result.push(b ^ (b >> 1));\n}"
+      }
+    ],
+    [
+      {
+        "source": "[y ^ (y >> 1) for y in range(1 << n)]",
+        "target": "const result = [];\nfor (let y = 0; y < (1 << n); y++) {\n    result.push(y ^ (y >> 1));\n}"
+      },
+      {
+        "source": "[b ^ (b >> 1) for b in range(1 << n)]",
+        "target": "const result = [];\nfor (let b = 0; b < (1 << n); b++) {\n    result.push(b ^ (b >> 1));\n}"
+      }
+    ]
+  ]
+}

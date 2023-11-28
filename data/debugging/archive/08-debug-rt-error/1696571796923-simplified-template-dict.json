@@ -1,0 +1,70 @@
+{
+  "template_id": 2,
+  "template_context": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+  "template_context_str_repl": "midVal1 = __ if __ else __",
+  "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+  "templatized_node_ids": {
+    "5": [
+      0,
+      2,
+      0
+    ],
+    "14": [
+      0,
+      2,
+      2
+    ],
+    "23": [
+      0,
+      2,
+      4
+    ]
+  },
+  "templatized_node_ids_context": {},
+  "context_node_type": "expression_statement",
+  "is_valid_template": true,
+  "sub_templates": null,
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [
+          "\"py.identifier\""
+        ],
+        "parents": [
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [
+          "\"js.identifier\""
+        ],
+        "parents": [
+          "\"js.variable_declarator\"",
+          "\"js.lexical_declaration\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [
+          "\"py.identifier\""
+        ],
+        "parents": [
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [
+          "\"js.identifier\""
+        ],
+        "parents": [
+          "\"js.variable_declarator\"",
+          "\"js.variable_declaration\""
+        ]
+      }
+    }
+  ],
+  "template": "midVal1 = __ if __ else __"
+}

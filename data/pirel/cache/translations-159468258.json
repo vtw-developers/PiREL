@@ -1,0 +1,71 @@
+{
+  "template": "[chars[int(__) - 2] for __ in digits]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[chars[int(d) - 2] for d in digits]",
+  "translations": {
+    "[chars[int(x) - 2] for x in digits]": [
+      "digits.map(x => chars[parseInt(x) - 2]);"
+    ],
+    "[chars[int(y) - 2] for y in digits]": [
+      "digits.map(y => chars[parseInt(y) - 2]);"
+    ],
+    "[chars[int(z) - 2] for z in digits]": [
+      "let result = digits.map(z => chars[parseInt(z) - 2]);"
+    ],
+    "[chars[int(a) - 2] for a in digits]": [
+      "let result = digits.map(a => chars[Number(a) - 2]);"
+    ],
+    "[chars[int(b) - 2] for b in digits]": [
+      "digits.map(b => chars[parseInt(b) - 2]);"
+    ],
+    "[chars[int(c) - 2] for c in digits]": [
+      "digits.map(c => chars[parseInt(c) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in digits]": [
+      "digits.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(e) - 2] for e in digits]": [
+      "digits.map(e => chars[parseInt(e) - 2]);"
+    ],
+    "[chars[int(f) - 2] for f in digits]": [
+      "digits.map(f => chars[parseInt(f) - 2]);"
+    ],
+    "[chars[int(g) - 2] for g in digits]": [
+      "digits.map(g => chars[parseInt(g) - 2]);"
+    ],
+    "[chars[int(i) - 2] for i in digits]": [
+      "digits.map(i => chars[parseInt(i) - 2]);"
+    ],
+    "[chars[int(n) - 2] for n in digits]": [
+      "digits.map(n => chars[parseInt(n) - 2]);"
+    ],
+    "[chars[int(num) - 2] for num in digits]": [
+      "digits.map(num => chars[parseInt(num) - 2]);"
+    ],
+    "[chars[int(value) - 2] for value in digits]": [
+      "digits.map(value => chars[parseInt(value) - 2]);"
+    ],
+    "[chars[int(index) - 2] for index in digits]": [
+      "digits.map(index => chars[Number(index) - 2]);"
+    ],
+    "[chars[int(pos) - 2] for pos in digits]": [
+      "digits.map(pos => chars[parseInt(pos) - 2]);"
+    ],
+    "[chars[int(element) - 2] for element in digits]": [
+      "digits.map(element => chars[parseInt(element) - 2]);"
+    ],
+    "[chars[int(item) - 2] for item in digits]": [
+      "digits.map(item => chars[parseInt(item) - 2]);"
+    ],
+    "[chars[int(num_str) - 2] for num_str in digits]": [
+      "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+    ],
+    "[chars[int(val) - 2] for val in digits]": [
+      "digits.map(val => chars[Number(val) - 2]);"
+    ],
+    "[chars[int(digit) - 2] for digit in digits]": [
+      "digits.map(digit => chars[parseInt(digit) - 2]);"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "role": "system",
+    "content": "You are a world-class software engineer.\n\nYour task is to translate Python programs to semantically equivalent JavaScript programs as follows:\n1. Your response should contain ONLY the translated JavaScript program.\n2. If some features in Python programming language cannot be translated into JavaScript, just ignore them and focus on semantic equivalence.\n3. Surround your output with triple backticks (i.e. '```')."
+  },
+  {
+    "role": "user",
+    "content": "Translate the following Python program into a semantically equivalent JavaScript program:\n```\ndef f_gold(s: str) -> int:\n    pass\n```"
+  },
+  {
+    "role": "assistant",
+    "content": "```\nfunction f_gold(s) {\n}\n```"
+  },
+  {
+    "role": "user",
+    "content": "Translate the following Python program into a semantically equivalent JavaScript program:\n```\ndef f_gold(s: str) -> None:\n    pass\n```"
+  },
+  {
+    "role": "assistant",
+    "content": "```\nfunction f_gold(s) {\n    return;\n}\n```"
+  },
+  {
+    "role": "user",
+    "content": "Translate the following Python program into a semantically equivalent JavaScript program:\n```Python\nfor count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")\n```\n\nGenerate all possible translations and put each in a separate code block."
+  }
+]

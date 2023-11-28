@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "i < 1 or num != __[i - 1]",
+  "template_origin": "i < 1 or num != nums[i - 1]",
+  "templatized_node_ids": [
+    9
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "i < 1 or num != c[i - 1]",
+        "target": "i < 1 || num !== c[i - 1]"
+      },
+      {
+        "source": "i < 1 or num != f[i - 1]",
+        "target": "i < 1 || num !== f[i - 1]"
+      }
+    ],
+    [
+      {
+        "source": "i < 1 or num != c[i - 1]",
+        "target": "i < 1 || num !== c[i - 1]"
+      },
+      {
+        "source": "i < 1 or num != g[i - 1]",
+        "target": "i < 1 || num !== g[i - 1]"
+      }
+    ],
+    [
+      {
+        "source": "i < 1 or num != f[i - 1]",
+        "target": "i < 1 || num !== f[i - 1]"
+      },
+      {
+        "source": "i < 1 or num != g[i - 1]",
+        "target": "i < 1 || num !== g[i - 1]"
+      }
+    ]
+  ]
+}

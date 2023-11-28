@@ -1,0 +1,23 @@
+{
+  "template": "__ == n and right == n",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "left == n and right == n",
+  "translations": {
+    "x == n and right == n": [
+      "x === n && right === n"
+    ],
+    "y == n and right == n": [
+      "y === n && right === n"
+    ],
+    "z == n and right == n": [
+      "z === n && right === n"
+    ],
+    "a == n and right == n": [
+      "a === n && right === n"
+    ],
+    "b == n and right == n": [
+      "b === n && right === n"
+    ]
+  }
+}

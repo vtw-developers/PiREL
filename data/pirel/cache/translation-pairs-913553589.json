@@ -1,0 +1,72 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__[0] <= target <= __[mid]",
+  "template_origin": "nums[0] <= target <= nums[mid]",
+  "templatized_node_ids": [
+    4,
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums[0] <= target <= nums[mid]",
+        "target": "nums[0] <= target && target <= nums[mid];"
+      },
+      {
+        "source": "arr[0] <= target <= arr[mid]",
+        "target": "arr[0] <= target && target <= arr[mid];"
+      }
+    ],
+    [
+      {
+        "source": "nums[0] <= target <= nums[mid]",
+        "target": "nums[0] <= target && target <= nums[mid];"
+      },
+      {
+        "source": "data[0] <= target <= data[mid]",
+        "target": "data[0] <= target && target <= data[mid];"
+      }
+    ],
+    [
+      {
+        "source": "nums[0] <= target <= nums[mid]",
+        "target": "nums[0] <= target && target <= nums[mid];"
+      },
+      {
+        "source": "values[0] <= target <= values[mid]",
+        "target": "values[0] <= target && target <= values[mid];"
+      }
+    ],
+    [
+      {
+        "source": "arr[0] <= target <= arr[mid]",
+        "target": "arr[0] <= target && target <= arr[mid];"
+      },
+      {
+        "source": "data[0] <= target <= data[mid]",
+        "target": "data[0] <= target && target <= data[mid];"
+      }
+    ],
+    [
+      {
+        "source": "arr[0] <= target <= arr[mid]",
+        "target": "arr[0] <= target && target <= arr[mid];"
+      },
+      {
+        "source": "values[0] <= target <= values[mid]",
+        "target": "values[0] <= target && target <= values[mid];"
+      }
+    ],
+    [
+      {
+        "source": "data[0] <= target <= data[mid]",
+        "target": "data[0] <= target && target <= data[mid];"
+      },
+      {
+        "source": "values[0] <= target <= values[mid]",
+        "target": "values[0] <= target && target <= values[mid];"
+      }
+    ]
+  ]
+}

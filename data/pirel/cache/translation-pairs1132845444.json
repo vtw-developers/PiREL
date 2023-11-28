@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "t in m1 or t not in __",
+  "template_origin": "t in m1 or t not in words",
+  "templatized_node_ids": [
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "t in m1 or t not in m2",
+        "target": "m1.includes(t) || !m2.includes(t);"
+      },
+      {
+        "source": "t in m1 or t not in m3",
+        "target": "m1.includes(t) || !m3.includes(t);"
+      }
+    ],
+    [
+      {
+        "source": "t in m1 or t not in m2",
+        "target": "m1.includes(t) || !m2.includes(t);"
+      },
+      {
+        "source": "t in m1 or t not in m4",
+        "target": "m1.includes(t) || !m4.includes(t);"
+      }
+    ],
+    [
+      {
+        "source": "t in m1 or t not in m2",
+        "target": "m1.includes(t) || !m2.includes(t);"
+      },
+      {
+        "source": "t in m1 or t not in m5",
+        "target": "m1.includes(t) || !m5.includes(t);"
+      }
+    ],
+    [
+      {
+        "source": "t in m1 or t not in m3",
+        "target": "m1.includes(t) || !m3.includes(t);"
+      },
+      {
+        "source": "t in m1 or t not in m4",
+        "target": "m1.includes(t) || !m4.includes(t);"
+      }
+    ],
+    [
+      {
+        "source": "t in m1 or t not in m3",
+        "target": "m1.includes(t) || !m3.includes(t);"
+      },
+      {
+        "source": "t in m1 or t not in m5",
+        "target": "m1.includes(t) || !m5.includes(t);"
+      }
+    ],
+    [
+      {
+        "source": "t in m1 or t not in m4",
+        "target": "m1.includes(t) || !m4.includes(t);"
+      },
+      {
+        "source": "t in m1 or t not in m5",
+        "target": "m1.includes(t) || !m5.includes(t);"
+      }
+    ]
+  ]
+}

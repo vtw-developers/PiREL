@@ -1,0 +1,49 @@
+{
+  "template": "return sign * tot if __ <= sign * tot <= INT_MAX else INT_MAX",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "return sign * tot if INT_MIN <= sign * tot <= INT_MAX else INT_MAX",
+  "translations": {
+    "return sign * tot if __ <= sign * tot <= __ else INT_MAX": [
+      "if (sign * tot <= __ && sign * tot >= __) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "return sign * tot if __ <= sign * tot <= INT_MAX else __": [
+      "return (__ <= sign * tot && sign * tot <= INT_MAX) ? sign * tot : __;"
+    ],
+    "return sign * tot if tot <= sign * tot <= INT_MAX else INT_MAX": [
+      "return tot <= sign * tot && sign * tot <= INT_MAX ? sign * tot : INT_MAX;"
+    ],
+    "return sign * tot if tot <= sign * tot <= __ else INT_MAX": [
+      "return (sign * tot <= sign * tot && sign * tot <= __) ? INT_MAX : sign * tot;"
+    ],
+    "return sign * tot if __ <= sign * tot <= __ else __": [
+      "return (__ <= sign * tot && sign * tot <= __) ? sign * tot : __;"
+    ],
+    "return __ * tot if __ <= __ * tot <= INT_MAX else INT_MAX": [],
+    "return __ * tot if __ <= sign * tot <= INT_MAX else INT_MAX": [],
+    "return sign * tot if __ <= sign * __ <= INT_MAX else INT_MAX": [
+      "return sign * tot <= INT_MAX ? sign * tot : INT_MAX;"
+    ],
+    "return __ * tot if __ <= __ * tot <= __ else INT_MAX": [
+      "return (__ * tot <= __ * tot) ? (__ * tot) : INT_MAX;"
+    ],
+    "return __ * tot if __ <= __ * tot <= INT_MAX else __": [
+      "return (__ * tot <= INT_MAX) ? (__ * tot) : __;"
+    ],
+    "return sign * tot if x <= sign * tot <= INT_MAX else INT_MAX": [
+      "if (x <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "return sign * tot if y <= sign * tot <= INT_MAX else INT_MAX": [
+      "if (y <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "return sign * tot if z <= sign * tot <= INT_MAX else INT_MAX": [
+      "return (sign * tot <= INT_MAX && z <= sign * tot) ? sign * tot : INT_MAX;"
+    ],
+    "return sign * tot if a <= sign * tot <= INT_MAX else INT_MAX": [
+      "if (a <= sign * tot && sign * tot <= INT_MAX) {\n    return sign * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "return sign * tot if b <= sign * tot <= INT_MAX else INT_MAX": [
+      "return b <= sign * tot && sign * tot <= INT_MAX ? sign * tot : INT_MAX;"
+    ]
+  }
+}

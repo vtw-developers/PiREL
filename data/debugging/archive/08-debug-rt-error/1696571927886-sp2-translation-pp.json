@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "translation_pairs": [
+    [
+      {
+        "source": "midVal1 = 0 if x - y < m else 1",
+        "target": "let midVal1 = (x - y < m) ? 0 : 1;"
+      },
+      {
+        "source": "midVal1 = 0 if 5 - 3 < m else 1",
+        "target": "let midVal1 = (5 - 3 < m) ? 0 : 1;"
+      }
+    ]
+  ]
+}

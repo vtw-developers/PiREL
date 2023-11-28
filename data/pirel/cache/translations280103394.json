@@ -1,0 +1,32 @@
+{
+  "template": "l > j and nums[l] == nums[l + __]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "l > j and nums[l] == nums[l + 1]",
+  "translations": {
+    "l > j and nums[l] == nums[l + 1]": [
+      "l > j && nums[l] === nums[l + 1]",
+      "l > j && nums[l] === nums[l + 1]"
+    ],
+    "l > j and nums[l] == nums[l + 2]": [],
+    "l > j and nums[l] == nums[l + 3]": [
+      "l > j && nums[l] === nums[l + 3]"
+    ],
+    "l > j and nums[l] == nums[l + 4]": [
+      "l > j && nums[l] == nums[l + 4];",
+      "l > j && nums[l] === nums[l + 4];"
+    ],
+    "l > j and nums[l] == nums[l + 5]": [
+      "l > j && nums[l] === nums[l + 5];"
+    ],
+    "l > j and nums[l] == nums[l + 6]": [],
+    "l > j and nums[l] == nums[l + 7]": [
+      "l > j && nums[l] === nums[l + 7];"
+    ],
+    "l > j and nums[l] == nums[l + 8]": [],
+    "l > j and nums[l] == nums[l + 9]": [],
+    "l > j and nums[l] == nums[l + 10]": [
+      "l > j && nums[l] == nums[l + 10];"
+    ]
+  }
+}

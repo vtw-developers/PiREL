@@ -1,0 +1,53 @@
+{
+  "template": "[matrix[top][j] for j in range(left, __ + 1)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[matrix[top][j] for j in range(left, right + 1)]",
+  "translations": {
+    "[matrix[top][j] for j in range(left, right + 1)]": [
+      "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(matrix[top][j]);\n}"
+    ],
+    "[matrix[top][j] for j in range(left, right - 1)]": [
+      "matrix.slice(top, right - 1).map(row => row[j]);"
+    ],
+    "[matrix[top][j] for j in range(left, right * 2)]": [
+      "let result = [];\nfor (let j = left; j < right * 2; j++) {\n    result.push(matrix[top][j]);\n}"
+    ],
+    "[matrix[top][j] for j in range(left, right // 2)]": [
+      "let result = [];\nfor (let j = left; j < right / 2; j++) {\n    result.push(matrix[top][j]);\n}"
+    ],
+    "[matrix[top][j] for j in range(left, right % 3)]": [
+      "matrix.slice(top, top+1).reduce((acc, row) => {\n    for(let j = left; j < right % 3; j++) {\n        acc.push(row[j]);\n    }\n    return acc;\n}, []);"
+    ],
+    "[matrix[top][j] for j in range(left, right ** 2)]": [
+      "let result = [];\nfor (let j = left; j < right ** 2; j++) {\n    result.push(matrix[top][j]);\n}"
+    ],
+    "[matrix[top][j] for j in range(left, right - 2)]": [
+      "let result = [];\nfor (let j = left; j < right - 2; j++) {\n    result.push(matrix[top][j]);\n}"
+    ],
+    "[matrix[top][j] for j in range(left, right + 2)]": [
+      "let result = [];\nfor (let j = left; j <= right + 2; j++) {\n    result.push(matrix[top][j]);\n}"
+    ],
+    "[matrix[top][j] for j in range(left, right + 3)]": [
+      "matrix.slice(top).map(row => row.slice(left, right + 3));"
+    ],
+    "[matrix[top][j] for j in range(left, end + 1)]": [
+      "let result = [];\nfor (let j = left; j <= end; j++) {\n    result.push(matrix[top][j]);\n}"
+    ],
+    "[matrix[top][j] for j in range(left, width + 1)]": [
+      "let result = [];\nfor (let j = left; j <= width; j++) {\n    result.push(matrix[top][j]);\n}"
+    ],
+    "[matrix[top][j] for j in range(left, col + 1)]": [
+      "matrix.slice(top, col + 1);"
+    ],
+    "[matrix[top][j] for j in range(left, n + 1)]": [
+      "let result = [];\nfor (let j = left; j <= n; j++) {\n    result.push(matrix[top][j]);\n}"
+    ],
+    "[matrix[top][j] for j in range(left, maxVal + 1)]": [
+      "matrix.slice(left, maxVal + 1).map(function(row) {\n    return row[j];\n});"
+    ],
+    "[matrix[top][j] for j in range(left, stop + 1)]": [
+      "matrix.slice(top)[0].slice(left, stop + 1);"
+    ]
+  }
+}

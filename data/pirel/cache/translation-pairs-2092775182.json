@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "y * y if (n & 1) == 0 else y * y * __",
+  "template_origin": "y * y if (n & 1) == 0 else y * y * x",
+  "templatized_node_ids": [
+    16
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "y * y if (n & 1) == 0 else y * y * x",
+        "target": "(n & 1) === 0 ? y * y : y * y * x;"
+      },
+      {
+        "source": "y * y if (n & 1) == 0 else y * y * z",
+        "target": "(n & 1) === 0 ? y * y : y * y * z;"
+      }
+    ],
+    [
+      {
+        "source": "y * y if (n & 1) == 0 else y * y * x",
+        "target": "(n & 1) === 0 ? y * y : y * y * x;"
+      },
+      {
+        "source": "y * y if (n & 1) == 0 else y * y * c",
+        "target": "(n & 1) === 0 ? y * y : y * y * c;"
+      }
+    ],
+    [
+      {
+        "source": "y * y if (n & 1) == 0 else y * y * z",
+        "target": "(n & 1) === 0 ? y * y : y * y * z;"
+      },
+      {
+        "source": "y * y if (n & 1) == 0 else y * y * c",
+        "target": "(n & 1) === 0 ? y * y : y * y * c;"
+      }
+    ]
+  ]
+}

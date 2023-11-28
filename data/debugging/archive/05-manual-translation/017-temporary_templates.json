@@ -1,0 +1,106 @@
+{
+  "problematic_node_type": "binary_operator",
+  "problematic_node_id": 21,
+  "0": {
+    "template_id": 0,
+    "template_origin": "i + k // 2 - 1",
+    "context_node_type": "py.binary_operator",
+    "template_origin_node_type": "py.expression_statement",
+    "is_valid_template": false,
+    "error": "template origin is not type-isomorphic to the context node"
+  },
+  "1": {
+    "template_id": 1,
+    "template_origin": "i + k // 2 - 1 < m",
+    "context_node_type": "py.comparison_operator",
+    "template_origin_node_type": "py.expression_statement",
+    "is_valid_template": false,
+    "error": "template origin is not type-isomorphic to the context node"
+  },
+  "2": {
+    "template_id": 2,
+    "template_origin": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+    "context_node_type": "py.conditional_expression",
+    "template_origin_node_type": "py.expression_statement",
+    "is_valid_template": false,
+    "error": "template origin is not type-isomorphic to the context node"
+  },
+  "3": {
+    "template_id": 3,
+    "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+    "context_node_type": "py.assignment",
+    "template_origin_node_type": "py.expression_statement",
+    "is_valid_template": false,
+    "error": "template origin is not type-isomorphic to the context node"
+  },
+  "4": {
+    "template_id": 4,
+    "template": "midVal1 = nums1[i + k // 2 - 1] if __ - __ < m else float('inf')",
+    "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+    "templatized_node_ids": {
+      "16": [
+        0,
+        2,
+        2,
+        0,
+        0
+      ],
+      "21": [
+        0,
+        2,
+        2,
+        0,
+        2
+      ]
+    },
+    "py_block_replaced": false,
+    "context_node_type": "expression_statement",
+    "is_valid_template": true,
+    "sub_templates": null,
+    "contexts": [
+      {
+        "source_context": {
+          "siblings": [],
+          "parents": [
+            "py.comparison_operator",
+            "py.conditional_expression",
+            "py.expression_statement",
+            "py.block"
+          ]
+        },
+        "target_context": {
+          "siblings": [],
+          "parents": [
+            "js.binary_expression",
+            "js.ternary_expression",
+            "js.lexical_declaration",
+            "js.statement_block"
+          ]
+        }
+      },
+      {
+        "source_context": {
+          "siblings": [],
+          "parents": [
+            "py.comparison_operator",
+            "py.conditional_expression",
+            "py.expression_statement",
+            "py.block"
+          ]
+        },
+        "target_context": {
+          "siblings": [
+            "js.binary_expression"
+          ],
+          "parents": [
+            "js.ternary_expression",
+            "js.lexical_declaration",
+            "js.statement_block",
+            "js.function_declaration"
+          ]
+        }
+      }
+    ]
+  },
+  "num_templates": 5
+}

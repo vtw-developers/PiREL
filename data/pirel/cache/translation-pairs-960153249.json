@@ -1,0 +1,2111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__ = len(digits)",
+  "template_origin": "n = len(digits)",
+  "templatized_node_ids": [
+    3
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "n = len(digits)",
+        "target": "var n = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "count = len(digits)",
+        "target": "var count = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "size = len(digits)",
+        "target": "var size = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "length = len(digits)",
+        "target": "var length = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_elements = len(digits)",
+        "target": "var num_elements = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "total = len(digits)",
+        "target": "var total = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      },
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      },
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      },
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      },
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      },
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      },
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      },
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      },
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "quantity = len(digits)",
+        "target": "var quantity = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      },
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      },
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      },
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      },
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      },
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      },
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      },
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "measure = len(digits)",
+        "target": "var measure = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      },
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      },
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      },
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      },
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      },
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      },
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "dimension = len(digits)",
+        "target": "var dimension = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      },
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      },
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      },
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      },
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      },
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num = len(digits)",
+        "target": "var num = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      },
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      },
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      },
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      },
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "value = len(digits)",
+        "target": "var value = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      },
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      },
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      },
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_digits = len(digits)",
+        "target": "var num_digits = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      },
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      },
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_values = len(digits)",
+        "target": "var num_values = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      },
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "elements = len(digits)",
+        "target": "var elements = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      },
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "result = len(digits)",
+        "target": "var result = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      },
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "num_items = len(digits)",
+        "target": "var num_items = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      },
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "number = len(digits)",
+        "target": "var number = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      },
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "number_of_digits = len(digits)",
+        "target": "var number_of_digits = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      },
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "qty = len(digits)",
+        "target": "var qty = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ],
+    [
+      {
+        "source": "x = len(digits)",
+        "target": "var x = digits.length;"
+      },
+      {
+        "source": "size_of_digits = len(digits)",
+        "target": "var size_of_digits = digits.length;"
+      }
+    ]
+  ]
+}

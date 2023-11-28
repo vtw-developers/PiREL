@@ -1,0 +1,545 @@
+{
+  "template": "def __(__: __) -> __:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(s: str) -> int:\n    some_secret_fn_4071()",
+  "translations": {
+    "def foo(x: int) -> int:\n    some_secret_fn_4071()": [
+      "function foo(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def bar(arg: str) -> str:\n    some_secret_fn_4071()": [
+      "function bar(arg) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def baz(lst: list) -> list:\n    some_secret_fn_4071()": [
+      "function baz(lst) {\n    some_secret_fn_4071();\n    return;\n}"
+    ],
+    "def qux(a: float) -> float:\n    some_secret_fn_4071()": [
+      "function qux(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def spam(x: bool) -> bool:\n    some_secret_fn_4071()": [
+      "function spam(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(arg: tuple) -> tuple:\n    some_secret_fn_4071()": [
+      "function eggs(arg) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def ham(x: dict) -> dict:\n    some_secret_fn_4071()": [
+      "function ham(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def cheese(arg: set) -> set:\n    some_secret_fn_4071()": [
+      "function cheese(arg) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def bread(x: bytes) -> bytes:\n    some_secret_fn_4071()": [
+      "function bread(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def butter(arg: str) -> int:\n    some_secret_fn_4071()": [
+      "function butter(arg) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def fn1(x: int) -> int:\n    some_secret_fn_4071()": [
+      "function fn1(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def fn2(y: str) -> str:\n    some_secret_fn_4071()": [
+      "function fn2(y) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def fn3(z: float) -> float:\n    some_secret_fn_4071()": [
+      "function fn3(z) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def fn4(a: list) -> list:\n    some_secret_fn_4071()": [
+      "function fn4(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def fn5(b: dict) -> dict:\n    some_secret_fn_4071()": [
+      "function fn5(b) {\n    some_secret_fn_4071();\n    return;\n}"
+    ],
+    "def fn6(c: bool) -> bool:\n    some_secret_fn_4071()": [
+      "function fn6(c) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def fn7(d: tuple) -> tuple:\n    some_secret_fn_4071()": [
+      "function fn7(d) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def fn8(e: set) -> set:\n    some_secret_fn_4071()": [
+      "function fn8(e) {\n    some_secret_fn_4071();\n    return e;\n}"
+    ],
+    "def fn9(f: bytes) -> bytes:\n    some_secret_fn_4071()": [
+      "function fn9(f) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def fn10(g: object) -> object:\n    some_secret_fn_4071()": [
+      "function fn10(g) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def my_function(x: int) -> str:\n    some_secret_fn_4071()": [
+      "function my_function(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def foo(a: float) -> bool:\n    some_secret_fn_4071()": [
+      "function foo(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def spam(items: list) -> tuple:\n    some_secret_fn_4071()": [
+      "function spam(items) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def baz(x: int) -> int:\n    some_secret_fn_4071()": [
+      "function baz(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def qux(n: int) -> str:\n    some_secret_fn_4071()": [
+      "function qux(n) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def my_func(x: str) -> bool:\n    some_secret_fn_4071()": [
+      "function my_func(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def my_function(x: list) -> int:\n    some_secret_fn_4071()": [
+      "function my_function(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def foo(a: float) -> str:\n    some_secret_fn_4071()": [
+      "function foo(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def bar(value: str) -> float:\n    some_secret_fn_4071()": [
+      "function bar(value) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def foo(x: int) -> str:\n    some_secret_fn_4071()": [
+      "function foo(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def bar(y: float) -> bool:\n    some_secret_fn_4071()": [
+      "function bar(y) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def baz(z: str) -> int:\n    some_secret_fn_4071()": [
+      "function baz(z) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func(b: dict) -> str:\n    some_secret_fn_4071()": [
+      "function func(b) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def hello(c: tuple) -> bool:\n    some_secret_fn_4071()": [
+      "function hello(c) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def world(d: set) -> int:\n    some_secret_fn_4071()": [
+      "function world(d) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def example(f: Any) -> Any:\n    some_secret_fn_4071()": [
+      "function example(f) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func_name(arg1: int) -> int:\n    some_secret_fn_4071()": [
+      "function func_name(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func_name(arg1: str) -> str:\n    some_secret_fn_4071()": [
+      "function func_name(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func_name(arg1: float) -> float:\n    some_secret_fn_4071()": [
+      "function func_name(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func_name(arg1: list) -> list:\n    some_secret_fn_4071()": [
+      "function func_name(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func_name(arg1: dict) -> dict:\n    some_secret_fn_4071()": [
+      "function func_name(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func_name(arg1: tuple) -> tuple:\n    some_secret_fn_4071()": [
+      "function func_name(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func_name(arg1: bool) -> bool:\n    some_secret_fn_4071()": [],
+    "def func_name(arg1: object) -> object:\n    some_secret_fn_4071()": [
+      "function func_name(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func_name(arg1: Any) -> Any:\n    some_secret_fn_4071()": [
+      "function func_name(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def spam(b: dict) -> tuple:\n    some_secret_fn_4071()": [
+      "function spam(b) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(c: bool) -> dict:\n    some_secret_fn_4071()": [
+      "function eggs(c) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def ham(d: tuple) -> float:\n    some_secret_fn_4071()": [
+      "function ham(d) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def cheese(e: set) -> list:\n    some_secret_fn_4071()": [
+      "function cheese(e) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def pineapple(f: tuple) -> str:\n    some_secret_fn_4071()": [
+      "function pineapple(f) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def pizza(g: str) -> bool:\n    some_secret_fn_4071()": [
+      "function pizza(g) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def bar(x: str) -> str:\n    some_secret_fn_4071()": [
+      "function bar(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def baz(x: float) -> float:\n    some_secret_fn_4071()": [
+      "function baz(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def qux(x: bool) -> bool:\n    some_secret_fn_4071()": [
+      "function qux(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def spam(x: list) -> list:\n    some_secret_fn_4071()": [
+      "function spam(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(x: dict) -> dict:\n    some_secret_fn_4071()": [
+      "function eggs(x) {\n    some_secret_fn_4071();\n    return x;\n}"
+    ],
+    "def ham(x: tuple) -> tuple:\n    some_secret_fn_4071()": [
+      "function ham(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def cheese(x: set) -> set:\n    some_secret_fn_4071()": [
+      "function cheese(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def pineapple(x: frozenset) -> frozenset:\n    some_secret_fn_4071()": [
+      "function pineapple(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def banana(x: any) -> any:\n    some_secret_fn_4071()": [
+      "function banana(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def bar(x: float) -> int:\n    some_secret_fn_4071()": [
+      "function bar(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def baz(x: str) -> bool:\n    some_secret_fn_4071()": [
+      "function baz(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def spam(x: dict) -> list:\n    some_secret_fn_4071()": [
+      "function spam(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(x: tuple) -> dict:\n    some_secret_fn_4071()": [
+      "function eggs(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def ham(x: set) -> tuple:\n    some_secret_fn_4071()": [
+      "function ham(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def cheese(x: bool) -> set:\n    some_secret_fn_4071()": [
+      "function cheese(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def pineapple(x: bytes) -> int:\n    some_secret_fn_4071()": [
+      "function pineapple(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def coconut(x: bytearray) -> bytes:\n    some_secret_fn_4071()": [
+      "function coconut(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def foo(bar: str) -> str:\n    some_secret_fn_4071()": [
+      "function foo(bar) {\n    some_secret_fn_4071();\n    return;\n}"
+    ],
+    "def my_function(param: bool) -> float:\n    some_secret_fn_4071()": [
+      "function my_function(param) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def check_prime(num: int) -> bool:\n    some_secret_fn_4071()": [
+      "function check_prime(num) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def reverse_string(string: str) -> str:\n    some_secret_fn_4071()": [
+      "function reverse_string(string) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def baz(z: float) -> bool:\n    some_secret_fn_4071()": [
+      "function baz(z) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def qux(a: list) -> tuple:\n    some_secret_fn_4071()": [
+      "function qux(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def spam(b: dict) -> str:\n    some_secret_fn_4071()": [
+      "function spam(b) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def ham(d: tuple) -> list:\n    some_secret_fn_4071()": [
+      "function ham(d) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def bacon(e: set) -> float:\n    some_secret_fn_4071()": [
+      "function bacon(e) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def cheese(f: bytearray) -> bytearray:\n    some_secret_fn_4071()": [
+      "function cheese(f) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def sandwich(g: bytes) -> bytes:\n    some_secret_fn_4071()": [
+      "function sandwich(g) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def bar(y: str) -> str:\n    some_secret_fn_4071()": [
+      "function bar(y) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def baz(z: float) -> float:\n    some_secret_fn_4071()": [
+      "function baz(z) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def qux(a: bool) -> bool:\n    some_secret_fn_4071()": [
+      "function qux(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def spam(b: list) -> list:\n    some_secret_fn_4071()": [
+      "function spam(b) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(c: dict) -> dict:\n    some_secret_fn_4071()": [
+      "function eggs(c) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def ham(d: tuple) -> tuple:\n    some_secret_fn_4071()": [
+      "function ham(d) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def cheese(e: set) -> set:\n    some_secret_fn_4071()": [
+      "function cheese(e) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def pineapple(f: frozenset) -> frozenset:\n    some_secret_fn_4071()": [
+      "function pineapple(f) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def mango(g: bytes) -> bytes:\n    some_secret_fn_4071()": [
+      "function mango(g) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def bar(y: float) -> float:\n    some_secret_fn_4071()": [
+      "function bar(y) {\n    some_secret_fn_4071();\n    return undefined;\n}"
+    ],
+    "def baz(z: str) -> str:\n    some_secret_fn_4071()": [
+      "function baz(z) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def pineapple(f: int) -> float:\n    some_secret_fn_4071()": [
+      "function pineapple(f) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def banana(g: str) -> bool:\n    some_secret_fn_4071()": [
+      "function banana(g) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def qux(a: list) -> list:\n    some_secret_fn_4071()": [
+      "function qux(a) {\n    some_secret_fn_4071();\n    return;\n}"
+    ],
+    "def spam(b: dict) -> dict:\n    some_secret_fn_4071()": [
+      "function spam(b) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(c: tuple) -> tuple:\n    some_secret_fn_4071()": [],
+    "def ham(d: set) -> set:\n    some_secret_fn_4071()": [
+      "function ham(d) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def cheese(e: bool) -> bool:\n    some_secret_fn_4071()": [
+      "function cheese(e) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def pineapple(f: bytes) -> bytes:\n    some_secret_fn_4071()": [
+      "function pineapple(f) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def banana(g: Any) -> Any:\n    some_secret_fn_4071()": [
+      "function banana(g) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def my_function(x: int) -> int:\n    some_secret_fn_4071()": [
+      "function my_function(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def calc(a: float) -> float:\n    some_secret_fn_4071()": [
+      "function calc(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def process(data: list) -> bool:\n    some_secret_fn_4071()": [
+      "function process(data) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def validate(user_input: str) -> str:\n    some_secret_fn_4071()": [
+      "function validate(user_input) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def analyze(numbers: list) -> float:\n    some_secret_fn_4071()": [
+      "function analyze(numbers) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def convert(value: int) -> str:\n    some_secret_fn_4071()": [
+      "function convert(value) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def execute(instruction: str) -> bool:\n    some_secret_fn_4071()": [
+      "function execute(instruction) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def sum_values(values: list) -> int:\n    some_secret_fn_4071()": [
+      "function sum_values(values) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def baz(x: float) -> bool:\n    some_secret_fn_4071()": [
+      "function baz(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def qux(x: list) -> dict:\n    some_secret_fn_4071()": [
+      "function qux(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def spam(x: tuple) -> set:\n    some_secret_fn_4071()": [
+      "function spam(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(x: bool) -> str:\n    some_secret_fn_4071()": [
+      "function eggs(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def ham(x: dict) -> list:\n    some_secret_fn_4071()": [
+      "function ham(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def cheese(x: set) -> tuple:\n    some_secret_fn_4071()": [
+      "function cheese(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def mango(x: object) -> int:\n    some_secret_fn_4071()": [
+      "function mango(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def bar(y: str) -> int:\n    some_secret_fn_4071()": [
+      "function bar(y) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def baz(z: float) -> int:\n    some_secret_fn_4071()": [
+      "function baz(z) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def qux(a: bool) -> int:\n    some_secret_fn_4071()": [
+      "function qux(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def spam(b: list) -> int:\n    some_secret_fn_4071()": [
+      "function spam(b) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(c: dict) -> int:\n    some_secret_fn_4071()": [
+      "function eggs(c) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def ham(d: tuple) -> int:\n    some_secret_fn_4071()": [
+      "function ham(d) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def cheese(e: set) -> int:\n    some_secret_fn_4071()": [
+      "function cheese(e) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def pineapple(f: str) -> int:\n    some_secret_fn_4071()": [
+      "function pineapple(f) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def coconut(g: int) -> int:\n    some_secret_fn_4071()": [
+      "function coconut(g) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func1(arg1: int) -> int:\n    some_secret_fn_4071()": [
+      "function func1(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func2(arg1: float) -> float:\n    some_secret_fn_4071()": [
+      "function func2(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func3(arg1: str) -> str:\n    some_secret_fn_4071()": [
+      "function func3(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func4(arg1: bool) -> bool:\n    some_secret_fn_4071()": [
+      "function func4(arg1) {\n    some_secret_fn_4071();\n    return;\n}"
+    ],
+    "def func5(arg1: list) -> list:\n    some_secret_fn_4071()": [
+      "function func5(arg1) {\n    some_secret_fn_4071();\n    return;\n}"
+    ],
+    "def func6(arg1: dict) -> dict:\n    some_secret_fn_4071()": [
+      "function func6(arg1) {\n    some_secret_fn_4071();\n    return;\n}"
+    ],
+    "def func7(arg1: tuple) -> tuple:\n    some_secret_fn_4071()": [
+      "function func7(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func8(arg1: set) -> set:\n    some_secret_fn_4071()": [
+      "function func8(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func9(arg1: object) -> object:\n    some_secret_fn_4071()": [
+      "function func9(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def bar(a: str) -> str:\n    some_secret_fn_4071()": [
+      "function bar(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def spam(x: float) -> float:\n    some_secret_fn_4071()": [
+      "function spam(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(a: Any) -> Any:\n    some_secret_fn_4071()": [
+      "function eggs(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def baz(z: bool) -> bool:\n    some_secret_fn_4071()": [
+      "function baz(z) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(c: float) -> float:\n    some_secret_fn_4071()": [
+      "function eggs(c) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def banana(g: object) -> object:\n    some_secret_fn_4071()": [
+      "function banana(g) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def baz(z: bool) -> float:\n    some_secret_fn_4071()": [
+      "function baz(z) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def qux(a: list) -> dict:\n    some_secret_fn_4071()": [
+      "function qux(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def spam(b: tuple) -> set:\n    some_secret_fn_4071()": [
+      "function spam(b) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(c: int) -> bool:\n    some_secret_fn_4071()": [
+      "function eggs(c) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def ham(d: str) -> list:\n    some_secret_fn_4071()": [
+      "function ham(d) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def cheese(e: float) -> tuple:\n    some_secret_fn_4071()": [
+      "function cheese(e) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def pineapple(f: dict) -> str:\n    some_secret_fn_4071()": [
+      "function pineapple(f) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def mango(g: set) -> bool:\n    some_secret_fn_4071()": [
+      "function mango(g) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def fn(a: int) -> int:\n    some_secret_fn_4071()": [
+      "function fn(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def my_function(x: str) -> str:\n    some_secret_fn_4071()": [
+      "function my_function(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func(n: float) -> float:\n    some_secret_fn_4071()": [
+      "function func(n) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def calculate(x: int) -> float:\n    some_secret_fn_4071()": [
+      "function calculate(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def foo(bar: int) -> bool:\n    some_secret_fn_4071()": [
+      "function foo(bar) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def square(n: int) -> int:\n    some_secret_fn_4071()": [
+      "function square(n) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def convert_to_tuple(lst: list) -> tuple:\n    some_secret_fn_4071()": [
+      "function convert_to_tuple(lst) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def factorize(n: int) -> list:\n    some_secret_fn_4071()": [
+      "function factorize(n) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(c: bool) -> float:\n    some_secret_fn_4071()": [
+      "function eggs(c) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def ham(d: int) -> list:\n    some_secret_fn_4071()": [
+      "function ham(d) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def cheese(e: str) -> tuple:\n    some_secret_fn_4071()": [
+      "function cheese(e) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def pineapple(f: set) -> bool:\n    some_secret_fn_4071()": [
+      "function pineapple(f) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def mango(g: dict) -> list:\n    some_secret_fn_4071()": [
+      "function mango(g) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func_name(param_name: int) -> int:\n    some_secret_fn_4071()": [],
+    "def my_function(arg1: str) -> str:\n    some_secret_fn_4071()": [
+      "function my_function(arg1) {\n    some_secret_fn_4071();\n    return;\n}"
+    ],
+    "def calculate_square(number: float) -> float:\n    some_secret_fn_4071()": [
+      "function calculate_square(number) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def foo(bar: bool) -> bool:\n    some_secret_fn_4071()": [
+      "function foo(bar) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def my_function(parameter: list) -> list:\n    some_secret_fn_4071()": [
+      "function my_function(parameter) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def find_maximum(numbers: list) -> int:\n    some_secret_fn_4071()": [
+      "function find_maximum(numbers) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def validate_input(user_input: str) -> bool:\n    some_secret_fn_4071()": [
+      "function validate_input(user_input) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def foo(x: int) -> bool:\n    some_secret_fn_4071()": [
+      "function foo(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def baz(z: float) -> str:\n    some_secret_fn_4071()": [
+      "function baz(z) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def qux(a: list) -> float:\n    some_secret_fn_4071()": [
+      "function qux(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def spam(b: dict) -> list:\n    some_secret_fn_4071()": [
+      "function spam(b) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(c: tuple) -> dict:\n    some_secret_fn_4071()": [
+      "function eggs(c) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def ham(d: set) -> tuple:\n    some_secret_fn_4071()": [
+      "function ham(d) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def cheese(e: bool) -> set:\n    some_secret_fn_4071()": [
+      "function cheese(e) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def pineapple(f: complex) -> bool:\n    some_secret_fn_4071()": [
+      "function pineapple(f) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def banana(g: bytes) -> complex:\n    some_secret_fn_4071()": [
+      "function banana(g) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def baz(z: bool) -> int:\n    some_secret_fn_4071()": [
+      "function baz(z) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def qux(a: str) -> list:\n    some_secret_fn_4071()": [
+      "function qux(a) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(c: set) -> bool:\n    some_secret_fn_4071()": [
+      "function eggs(c) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def cheese(e: list) -> dict:\n    some_secret_fn_4071()": [
+      "function cheese(e) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def pineapple(f: any) -> set:\n    some_secret_fn_4071()": [
+      "function pineapple(f) {\n    some_secret_fn_4071();\n    return new Set();\n}"
+    ],
+    "def apple(g: object) -> str:\n    some_secret_fn_4071()": [
+      "function apple(g) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

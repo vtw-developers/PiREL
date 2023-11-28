@@ -1,0 +1,51 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "-1 if __ * b < 0 else 1",
+  "template_origin": "-1 if a * b < 0 else 1",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "-1 if a * b < 0 else 1",
+        "target": "(a * b < 0) ? -1 : 1;"
+      },
+      {
+        "source": "-1 if x * b < 0 else 1",
+        "target": "(x * b < 0) ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if a * b < 0 else 1",
+        "target": "(a * b < 0) ? -1 : 1;"
+      },
+      {
+        "source": "-1 if i * b < 0 else 1",
+        "target": "(i * b < 0) ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if x * b < 0 else 1",
+        "target": "(x * b < 0) ? -1 : 1;"
+      },
+      {
+        "source": "-1 if i * b < 0 else 1",
+        "target": "(i * b < 0) ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if num * b < 0 else 1",
+        "target": "num * b < 0 ? -1 : 1;"
+      },
+      {
+        "source": "-1 if val * b < 0 else 1",
+        "target": "val * b < 0 ? -1 : 1;"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "template": "return bin(int(a, 2) + int(b, 2))[__:]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "return bin(int(a, 2) + int(b, 2))[2:]",
+  "translations": {
+    "return bin(int(a, 2) + int(b, 2))[2:]": [
+      "return (parseInt(a, 2) + parseInt(b, 2)).toString(2);"
+    ],
+    "return bin(int(a, 2) + int(b, 2))[1:]": [
+      "return (parseInt(a, 2) + parseInt(b, 2)).toString(2).slice(1);"
+    ],
+    "return bin(int(a, 2) + int(b, 2))[3:]": [
+      "return (parseInt(a, 2) + parseInt(b, 2)).toString(2).slice(1);"
+    ],
+    "return bin(int(a, 2) + int(b, 2))[4:]": [
+      "return (parseInt(a, 2) + parseInt(b, 2)).toString(2).slice(4);"
+    ],
+    "return bin(int(a, 2) + int(b, 2))[5:]": [
+      "return (parseInt(a, 2) + parseInt(b, 2)).toString(2).substring(5);"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "sp1": "for a, b in enumerate({'name': 'John', 'age': 30}):\n    return a, b",
+  "sp2": "for i, val in enumerate([x for x in range(10)]):\n    print(f\"Index: {i}, Value: {val}\")",
+  "cand_translation_sp1": "let dictionary = {'name': 'John', 'age': 30};\nlet keys = Object.keys(dictionary);\nfor (let i = 0; i < keys.length; i++) {\n    return [i, keys[i]];\n}",
+  "raw_translations_sp2": [
+    "let array = Array.from({length: 10}, (v, k) => k);\nfor (let i = 0; i < array.length; i++) {\n    console.log(`Index: ${i}, Value: ${array[i]}`);\n}"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

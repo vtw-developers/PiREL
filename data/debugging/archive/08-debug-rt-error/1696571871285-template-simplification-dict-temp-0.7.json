@@ -1,0 +1,434 @@
+{
+  "simplest_template": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+  "simplified_templates_stats": [
+    [
+      0,
+      {
+        "depths_at_templatized_nodes": [
+          2,
+          2
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "0",
+          "1"
+        ]
+      }
+    ],
+    [
+      1,
+      {
+        "depths_at_templatized_nodes": [
+          3,
+          3
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = \"small\" if i + k // 2 - 1 < m else \"big\"",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "\"small\"",
+          "\"big\""
+        ]
+      }
+    ],
+    [
+      2,
+      {
+        "depths_at_templatized_nodes": [
+          3,
+          3
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = [1,2,3] if i + k // 2 - 1 < m else [4,5,6]",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "[1,2,3]",
+          "[4,5,6]"
+        ]
+      }
+    ],
+    [
+      3,
+      {
+        "depths_at_templatized_nodes": [
+          5,
+          5
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = {\"key\": \"value\"} if i + k // 2 - 1 < m else {\"another_key\": \"another_value\"}",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "{\"key\": \"value\"}",
+          "{\"another_key\": \"another_value\"}"
+        ]
+      }
+    ],
+    [
+      4,
+      {
+        "depths_at_templatized_nodes": [
+          2,
+          2
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = i if i + k // 2 - 1 < m else m",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "i",
+          "m"
+        ]
+      }
+    ],
+    [
+      5,
+      {
+        "depths_at_templatized_nodes": [
+          6,
+          6
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = a[i + k // 2 - 1] if i + k // 2 - 1 < m else b[j + k // 2 - 1]",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "a[i + k // 2 - 1]",
+          "b[j + k // 2 - 1]"
+        ]
+      }
+    ],
+    [
+      6,
+      {
+        "depths_at_templatized_nodes": [
+          6,
+          6
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else nums2[j + k // 2 - 1]",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "nums1[i + k // 2 - 1]",
+          "nums2[j + k // 2 - 1]"
+        ]
+      }
+    ],
+    [
+      7,
+      {
+        "depths_at_templatized_nodes": [
+          2,
+          2
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "0",
+          "1"
+        ]
+      }
+    ],
+    [
+      8,
+      {
+        "depths_at_templatized_nodes": [
+          3,
+          3
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = 'Apple' if i + k // 2 - 1 < m else 'Banana'",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "'Apple'",
+          "'Banana'"
+        ]
+      }
+    ],
+    [
+      9,
+      {
+        "depths_at_templatized_nodes": [
+          2,
+          2
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = i if i + k // 2 - 1 < m else j",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "i",
+          "j"
+        ]
+      }
+    ],
+    [
+      10,
+      {
+        "depths_at_templatized_nodes": [
+          2,
+          2
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = 5 if i + k // 2 - 1 < m else 10",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "5",
+          "10"
+        ]
+      }
+    ],
+    [
+      11,
+      {
+        "depths_at_templatized_nodes": [
+          3,
+          3
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = \"True\" if i + k // 2 - 1 < m else \"False\"",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "\"True\"",
+          "\"False\""
+        ]
+      }
+    ],
+    [
+      12,
+      {
+        "depths_at_templatized_nodes": [
+          2,
+          2
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = i if i + k // 2 - 1 < m else k",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "i",
+          "k"
+        ]
+      }
+    ],
+    [
+      13,
+      {
+        "depths_at_templatized_nodes": [
+          3,
+          3
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = [1, 2, 3] if i + k // 2 - 1 < m else [4, 5, 6]",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "[1, 2, 3]",
+          "[4, 5, 6]"
+        ]
+      }
+    ],
+    [
+      14,
+      {
+        "depths_at_templatized_nodes": [
+          5,
+          5
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = {\"key\": \"value\"} if i + k // 2 - 1 < m else {\"anotherKey\": \"anotherValue\"}",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "{\"key\": \"value\"}",
+          "{\"anotherKey\": \"anotherValue\"}"
+        ]
+      }
+    ],
+    [
+      15,
+      {
+        "depths_at_templatized_nodes": [
+          2,
+          2
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = i if i + k // 2 - 1 < m else k",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "i",
+          "k"
+        ]
+      }
+    ],
+    [
+      16,
+      {
+        "depths_at_templatized_nodes": [
+          2,
+          2
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = 1 if i + k // 2 - 1 < m else 2",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    [
+      17,
+      {
+        "depths_at_templatized_nodes": [
+          2,
+          2
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = m if i + k // 2 - 1 < m else i",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "m",
+          "i"
+        ]
+      }
+    ],
+    [
+      18,
+      {
+        "depths_at_templatized_nodes": [
+          2,
+          2
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = k if i + k // 2 - 1 < m else m",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "k",
+          "m"
+        ]
+      }
+    ],
+    [
+      19,
+      {
+        "depths_at_templatized_nodes": [
+          2,
+          2
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "0",
+          "1"
+        ]
+      }
+    ],
+    [
+      20,
+      {
+        "depths_at_templatized_nodes": [
+          2,
+          2
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = 1 if i + k // 2 - 1 < m else 2",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    [
+      21,
+      {
+        "depths_at_templatized_nodes": [
+          3,
+          3
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = \"Hello\" if i + k // 2 - 1 < m else \"World\"",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "\"Hello\"",
+          "\"World\""
+        ]
+      }
+    ],
+    [
+      22,
+      {
+        "depths_at_templatized_nodes": [
+          3,
+          3
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = [1, 2, 3] if i + k // 2 - 1 < m else [4, 5, 6]",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "[1, 2, 3]",
+          "[4, 5, 6]"
+        ]
+      }
+    ],
+    [
+      23,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          4
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = (i + 1) if i + k // 2 - 1 < m else (i + 2)",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "(i + 1)",
+          "(i + 2)"
+        ]
+      }
+    ],
+    [
+      24,
+      {
+        "depths_at_templatized_nodes": [
+          2,
+          2
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "midVal1 = True if i + k // 2 - 1 < m else False",
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "texts_at_templatized_nodes": [
+          "True",
+          "False"
+        ]
+      }
+    ]
+  ],
+  "templatized_node_texts": [
+    "0",
+    "1"
+  ]
+}

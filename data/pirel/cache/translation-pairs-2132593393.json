@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "left <= right and top <= __",
+  "template_origin": "left <= right and top <= bottom",
+  "templatized_node_ids": [
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "left <= right and top <= x",
+        "target": "left <= right && top <= x"
+      },
+      {
+        "source": "left <= right and top <= y",
+        "target": "left <= right && top <= y"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and top <= x",
+        "target": "left <= right && top <= x"
+      },
+      {
+        "source": "left <= right and top <= z",
+        "target": "left <= right && top <= z"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and top <= x",
+        "target": "left <= right && top <= x"
+      },
+      {
+        "source": "left <= right and top <= a",
+        "target": "left <= right && top <= a"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and top <= x",
+        "target": "left <= right && top <= x"
+      },
+      {
+        "source": "left <= right and top <= b",
+        "target": "left <= right && top <= b"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and top <= y",
+        "target": "left <= right && top <= y"
+      },
+      {
+        "source": "left <= right and top <= z",
+        "target": "left <= right && top <= z"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and top <= y",
+        "target": "left <= right && top <= y"
+      },
+      {
+        "source": "left <= right and top <= a",
+        "target": "left <= right && top <= a"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and top <= y",
+        "target": "left <= right && top <= y"
+      },
+      {
+        "source": "left <= right and top <= b",
+        "target": "left <= right && top <= b"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and top <= z",
+        "target": "left <= right && top <= z"
+      },
+      {
+        "source": "left <= right and top <= a",
+        "target": "left <= right && top <= a"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and top <= z",
+        "target": "left <= right && top <= z"
+      },
+      {
+        "source": "left <= right and top <= b",
+        "target": "left <= right && top <= b"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and top <= a",
+        "target": "left <= right && top <= a"
+      },
+      {
+        "source": "left <= right and top <= b",
+        "target": "left <= right && top <= b"
+      }
+    ]
+  ]
+}

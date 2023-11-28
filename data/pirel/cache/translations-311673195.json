@@ -1,0 +1,23 @@
+{
+  "template": "i == __ or len(t) == 1",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "i == n or len(t) == 1",
+  "translations": {
+    "i == NotImplemented or len(t) == 1": [
+      "i === NotImplemented || t.length === 1"
+    ],
+    "i == Ellipsis or len(t) == 1": [
+      "i === undefined || t.length === 1"
+    ],
+    "i == a or len(t) == 1": [
+      "i === a || t.length === 1"
+    ],
+    "i == b or len(t) == 1": [
+      "i == b || t.length == 1;"
+    ],
+    "i == c or len(t) == 1": [
+      "i === c || t.length === 1"
+    ]
+  }
+}

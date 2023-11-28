@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-86Y7BPsOTLXjcBwUdBYmR5azTGsTI",
+  "object": "chat.completion",
+  "created": 1696571797,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1. Filled with identifiers:\n```python\nmidVal1 = val1 if condition else val2\n```\n\n2. Filled with literals:\n```python\nmidVal1 = 7 if True else 3\n```\n\n3. Filled with a mix of literals and expressions:\n```python\nmidVal1 = 1 if (2 < 3) else 0\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 1,
+      "message": {
+        "role": "assistant",
+        "content": "Filled with identifiers:\n```python\nmidVal1 = val1 if condition else val2\n```\n\nFilled with literals:\n```python\nmidVal1 = 10 if True else 20\n```\n\nFilled with mixed literals and identifiers:\n```python\nmidVal1 = 'Success' if flag else 'Failure'\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 2,
+      "message": {
+        "role": "assistant",
+        "content": "1. Filled with identifiers:\n```\nmidVal1 = value1 if condition else value2\n```\n2. Filled with literals:\n```\nmidVal1 = \"Yes\" if True else \"No\"\n```\n3. Filled with mixed literals and identifiers:\n```\nmidVal1 = 5 if check_value else 0\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 3,
+      "message": {
+        "role": "assistant",
+        "content": "Variant with identifiers:\n```python\nmidVal1 = val1 if condition1 else val2\n```\n\nVariant with literals:\n```python\nmidVal1 = 10 if True else 20\n```\n\nVariant with mixed literals and identifiers:\n```python\nmidVal1 = 0 if is_empty else item\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 4,
+      "message": {
+        "role": "assistant",
+        "content": "1. Filled with identifiers:\n```python\nmidVal1 = val1 if condition else val2\n```\n\n2. Filled with literals:\n```python\nmidVal1 = 5 if True else 10\n```\n\n3. Filled with function calls:\n```python\nmidVal1 = function1() if checkFunction() else function2()\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 501,
+    "completion_tokens": 361,
+    "total_tokens": 862
+  }
+}

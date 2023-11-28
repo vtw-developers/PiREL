@@ -1,0 +1,23 @@
+{
+  "template": "def f_gold(__: str, s2: str) -> bool:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(s1: str, s2: str) -> bool:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(x: str, s2: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(x, s2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(a: str, s2: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(a, s2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(word: str, s2: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(word, s2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(string: str, s2: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(string, s2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(text: str, s2: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(text, s2) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "good_program_pairs": [
+    {
+      "source": "midVal1 = 0 if x - y < m else 1",
+      "target": "let midVal1 = (x - y < m) ? 0 : 1;"
+    }
+  ],
+  "success": true
+}

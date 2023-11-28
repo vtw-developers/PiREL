@@ -1,0 +1,42 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "i > __ and s[i - 2] != '0' and (int(s[i - 2]) * 10 + int(s[i - __]) <= 26)",
+  "template_origin": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 10 + int(s[i - 1]) <= 26)",
+  "templatized_node_ids": [
+    6,
+    35
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "i > 0 and s[i - 1] != '0' and (int(s[i - 2]) * 10 + int(s[i - 2]) <= 26)",
+        "target": "i > 0 && s[i - 1] !== '0' && (parseInt(s[i - 2]) * 10 + parseInt(s[i - 2]) <= 26)"
+      },
+      {
+        "source": "i > 1 and s[i - 1] != '0' and (int(s[i - 2]) * 10 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 1] !== '0' && (parseInt(s[i - 2]) * 10 + parseInt(s[i - 1]) <= 26)"
+      }
+    ],
+    [
+      {
+        "source": "i > 0 and s[i - 1] != '0' and (int(s[i - 2]) * 10 + int(s[i - 2]) <= 26)",
+        "target": "i > 0 && s[i - 1] !== '0' && (parseInt(s[i - 2]) * 10 + parseInt(s[i - 2]) <= 26)"
+      },
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 1]) * 10 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 1]) * 10 + parseInt(s[i - 1]) <= 26)"
+      }
+    ],
+    [
+      {
+        "source": "i > 1 and s[i - 1] != '0' and (int(s[i - 2]) * 10 + int(s[i - 2]) <= 26)",
+        "target": "i > 1 && s[i - 1] !== '0' && (parseInt(s[i - 2]) * 10 + parseInt(s[i - 2]) <= 26)"
+      },
+      {
+        "source": "i > 0 and s[i - 2] != '0' and (int(s[i - 1]) * 10 + int(s[i - 1]) <= 26)",
+        "target": "i > 0 && s[i - 2] !== '0' && (parseInt(s[i - 1]) * 10 + parseInt(s[i - 1]) <= 26)"
+      }
+    ]
+  ]
+}

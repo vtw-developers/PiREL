@@ -1,0 +1,16 @@
+[
+  "def f_gold(arg1: int, target: int) -> int:\n    return target",
+  "def f_gold('arg': 'int', target: int) -> int:\n    return target",
+  "def f_gold(numbers: list, target: int) -> int:\n    return target",
+  "def f_gold('numbers': 'list', target: int) -> int:\n    return target",
+  "def f_gold(num_list: list, target: int) -> int:\n    return target",
+  "def f_gold(arr: tuple, target: int) -> int:\n    return target",
+  "def f_gold(numbers: set, target: int) -> int:\n    return target",
+  "def f_gold(array: list, target: int) -> int:\n    return target",
+  "def f_gold(nums: list, target: int) -> int:\n    return target",
+  "def f_gold('array': 'list', target: int) -> int:\n    return target",
+  "def f_gold('nums': 'list', target: int) -> int:\n    return target",
+  "def f_gold(nums: list, target: int) -> int:\n    return target",
+  "def f_gold(matrix: list, target: int) -> int:\n    return target",
+  "def f_gold(array: list, target: int) -> int:\n    return target"
+]

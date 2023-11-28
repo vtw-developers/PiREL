@@ -1,0 +1,23 @@
+{
+  "template": "for i in range(len(s) - __, -__, -__):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for i in range(len(s) - 1, -1, -1):\n    some_secret_fn_4071()",
+  "translations": {
+    "for i in range(len(s) - 1, -1, -1):\n    some_secret_fn_4071()": [
+      "for (let i = s.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(len(s) - 2, -2, -2):\n    some_secret_fn_4071()": [
+      "for (let i = s.length - 2; i >= -2; i -= 2) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(len(s) - 3, -3, -3):\n    some_secret_fn_4071()": [
+      "for (let i = s.length - 3; i >= -3; i -= 3) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(len(s) - 4, -4, -4):\n    some_secret_fn_4071()": [
+      "for (let i = s.length - 4; i >= -4; i -= 4) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(len(s) - 5, -5, -5):\n    some_secret_fn_4071()": [
+      "for (let i = s.length - 5; i >= -5; i -= 5) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

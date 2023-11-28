@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for __ in range(len(q)):\n    some_secret_fn_4071()",
+  "template_origin": "for _ in range(len(q)):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    2
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for _ in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let _ = 0; _ < q.length; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let index = 0; index < q.length; index++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let _ = 0; _ < q.length; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < q.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let _ = 0; _ < q.length; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let num = 0; num < q.length; num++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let _ = 0; _ < q.length; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for count in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let count = 0; count < q.length; count++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for index in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let index = 0; index < q.length; index++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < q.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for index in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let index = 0; index < q.length; index++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let num = 0; num < q.length; num++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for index in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let index = 0; index < q.length; index++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for count in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let count = 0; count < q.length; count++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < q.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let num = 0; num < q.length; num++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < q.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for count in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let count = 0; count < q.length; count++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for num in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let num = 0; num < q.length; num++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for count in range(len(q)):\n    some_secret_fn_4071()",
+        "target": "for (let count = 0; count < q.length; count++) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

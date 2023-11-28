@@ -1,0 +1,20 @@
+{
+  "sp1": "my_dict = {}",
+  "sp2": "user_data = {}",
+  "cand_translation_sp1": "let my_dict = {};",
+  "raw_translations_sp2": [
+    "let user_data = {};"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

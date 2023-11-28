@@ -1,0 +1,4 @@
+[
+  "(match_expand\n  (fragment (\"py.binary_operator\" \".\" (str \"+\") \".\") \"*\")\n  (fragment (\"js.binary_expression\" \".1\" (str \"+\") \".2\") \"*3\")\n)",
+  "(match_expand\n  (fragment (\"py.binary_operator\" \".\" (str \"+\") \".\") \"*\")\n  (fragment (\"js.binary_expression\" \".1\" (str \"+\") \".2\") \"*3\")\n)"
+]

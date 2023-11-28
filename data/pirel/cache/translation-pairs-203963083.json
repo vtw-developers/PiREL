@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for __ in range(i + 1, n):\n    some_secret_fn_4071()",
+  "template_origin": "for j in range(i + 1, n):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    2
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for _ in range(i + 1, n):\n    some_secret_fn_4071()",
+        "target": "for (let _ = i + 1; _ < n; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for x in range(i + 1, n):\n    some_secret_fn_4071()",
+        "target": "for (let x = i + 1; x < n; x++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in range(i + 1, n):\n    some_secret_fn_4071()",
+        "target": "for (let _ = i + 1; _ < n; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in range(i + 1, n):\n    some_secret_fn_4071()",
+        "target": "for (let item = i + 1; item < n; item++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in range(i + 1, n):\n    some_secret_fn_4071()",
+        "target": "for (let _ = i + 1; _ < n; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for counter in range(i + 1, n):\n    some_secret_fn_4071()",
+        "target": "for (let counter = i + 1; counter < n; counter++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in range(i + 1, n):\n    some_secret_fn_4071()",
+        "target": "for (let x = i + 1; x < n; x++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in range(i + 1, n):\n    some_secret_fn_4071()",
+        "target": "for (let item = i + 1; item < n; item++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in range(i + 1, n):\n    some_secret_fn_4071()",
+        "target": "for (let x = i + 1; x < n; x++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for counter in range(i + 1, n):\n    some_secret_fn_4071()",
+        "target": "for (let counter = i + 1; counter < n; counter++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in range(i + 1, n):\n    some_secret_fn_4071()",
+        "target": "for (let item = i + 1; item < n; item++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for counter in range(i + 1, n):\n    some_secret_fn_4071()",
+        "target": "for (let counter = i + 1; counter < n; counter++) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

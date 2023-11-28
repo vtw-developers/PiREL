@@ -1,0 +1,68 @@
+{
+  "template": "for i in range(__, numRows + __):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for i in range(1, numRows + 1):\n    some_secret_fn_4071()",
+  "translations": {
+    "for i in range(0, numRows + 1):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i <= numRows; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(1, numRows + 2):\n    some_secret_fn_4071()": [
+      "for (let i = 1; i <= numRows + 2; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(10, numRows + 10):\n    some_secret_fn_4071()": [
+      "for (var i = 10; i < numRows + 10; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(100, numRows + 100):\n    some_secret_fn_4071()": [
+      "for (let i = 100; i < numRows + 100; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(0, numRows + 2):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < numRows + 2; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(0, numRows + 3):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < numRows + 3; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(0, numRows + 4):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < numRows + 4; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(0, numRows + 5):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < numRows + 5; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(0, numRows + 6):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < numRows + 6; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(0, numRows + 7):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < numRows + 7; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(0, numRows + 8):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < numRows + 8; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(0, numRows + 9):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < numRows + 9; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(0, numRows + 10):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < numRows + 10; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(5, numRows + 5):\n    some_secret_fn_4071()": [
+      "for (let i = 5; i < numRows + 5; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(1000, numRows + 1000):\n    some_secret_fn_4071()": [
+      "for (let i = 1000; i < numRows + 1000; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(42, numRows + 42):\n    some_secret_fn_4071()": [
+      "for (let i = 42; i < numRows + 42; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(999, numRows + 999):\n    some_secret_fn_4071()": [
+      "for (let i = 999; i < numRows + 999; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(7, numRows + 7):\n    some_secret_fn_4071()": [
+      "for (let i = 7; i < numRows + 7; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(20, numRows + 20):\n    some_secret_fn_4071()": [
+      "for (let i = 20; i < numRows + 20; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(100, numRows + 99):\n    some_secret_fn_4071()": [
+      "for (let i = 100; i < numRows + 99; i++) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

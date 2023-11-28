@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "(num >> i & __ for num in nums)",
+  "template_origin": "(num >> i & 1 for num in nums)",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "(num >> i & 1 for num in nums)",
+        "target": "nums.map(num => (num >> i) & 1);"
+      },
+      {
+        "source": "(num >> i & 42 for num in nums)",
+        "target": "nums.map(num => (num >> i) & 42);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> i & 1 for num in nums)",
+        "target": "nums.map(num => (num >> i) & 1);"
+      },
+      {
+        "source": "(num >> i & 3 for num in nums)",
+        "target": "nums.map(num => (num >> i) & 3);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> i & 42 for num in nums)",
+        "target": "nums.map(num => (num >> i) & 42);"
+      },
+      {
+        "source": "(num >> i & 3 for num in nums)",
+        "target": "nums.map(num => (num >> i) & 3);"
+      }
+    ]
+  ]
+}

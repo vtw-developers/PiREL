@@ -1,0 +1,50 @@
+{
+  "sp1": "midVal1 = 0 if x - y < m else 1",
+  "sp2": "midVal1 = 0 if 5 - 3 < m else 1",
+  "cand_translation_sp1": "let midVal1 = (x - y < m) ? 0 : 1;",
+  "raw_translations_sp2": [
+    "let midVal1 = (5 - 3 < m) ? 0 : 1;"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": [
+          "\"py.comparison_operator\"",
+          "\"py.conditional_expression\"",
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.binary_expression\"",
+          "\"js.parenthesized_expression\"",
+          "\"js.ternary_expression\"",
+          "\"js.variable_declarator\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": [
+          "\"py.comparison_operator\"",
+          "\"py.conditional_expression\"",
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.binary_expression\"",
+          "\"js.parenthesized_expression\"",
+          "\"js.ternary_expression\"",
+          "\"js.variable_declarator\""
+        ]
+      }
+    }
+  ]
+}

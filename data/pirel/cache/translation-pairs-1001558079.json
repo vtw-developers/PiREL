@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(__: int, b: int) -> int:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(a: int, b: int) -> int:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(x: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x, b) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(y: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(y, b) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x, b) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(z: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(z, b) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x, b) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(a: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(a, b) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x, b) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(num: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(num, b) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(y: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(y, b) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(z: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(z, b) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(y: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(y, b) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(a: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(a, b) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(y: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(y, b) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(num: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(num, b) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(z: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(z, b) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(a: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(a, b) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(z: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(z, b) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(num: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(num, b) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(a: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(a, b) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(num: int, b: int) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(num, b) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

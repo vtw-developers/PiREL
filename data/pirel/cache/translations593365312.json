@@ -1,0 +1,23 @@
+{
+  "template": "for j in range(__, n + 1):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for j in range(i, n + 1):\n    some_secret_fn_4071()",
+  "translations": {
+    "for j in range(n, n + 1):\n    some_secret_fn_4071()": [
+      "for (let j = n; j < n + 1; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(m, n + 1):\n    some_secret_fn_4071()": [
+      "for (let j = m; j <= n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(start, n + 1):\n    some_secret_fn_4071()": [
+      "for (let j = start; j <= n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(n, n + 2):\n    some_secret_fn_4071()": [
+      "for (let j = n; j < n + 2; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(n, n + 5):\n    some_secret_fn_4071()": [
+      "for (var j = n; j < n + 5; j++) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "target > nums[__] and target <= nums[r]",
+  "template_origin": "target > nums[mid] and target <= nums[r]",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "target > nums[i] and target <= nums[r]",
+        "target": "target > nums[i] && target <= nums[r]"
+      },
+      {
+        "source": "target > nums[j] and target <= nums[r]",
+        "target": "target > nums[j] && target <= nums[r]"
+      }
+    ],
+    [
+      {
+        "source": "target > nums[i] and target <= nums[r]",
+        "target": "target > nums[i] && target <= nums[r]"
+      },
+      {
+        "source": "target > nums[y] and target <= nums[r]",
+        "target": "target > nums[y] && target <= nums[r]"
+      }
+    ],
+    [
+      {
+        "source": "target > nums[j] and target <= nums[r]",
+        "target": "target > nums[j] && target <= nums[r]"
+      },
+      {
+        "source": "target > nums[y] and target <= nums[r]",
+        "target": "target > nums[y] && target <= nums[r]"
+      }
+    ]
+  ]
+}

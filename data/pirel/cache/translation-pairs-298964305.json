@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for i in range(len(__) - 1, -1, -1):\n    some_secret_fn_4071()",
+  "template_origin": "for i in range(len(s) - 1, -1, -1):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    10
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for i in range(len(nums) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = nums.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(len(items) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = items.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(len(nums) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = nums.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(len(data) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = data.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(len(nums) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = nums.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(len(names) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = names.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(len(nums) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = nums.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(len(values) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = values.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(len(items) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = items.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(len(data) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = data.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(len(items) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = items.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(len(names) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = names.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(len(items) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = items.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(len(values) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = values.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(len(data) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = data.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(len(names) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = names.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(len(data) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = data.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(len(values) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = values.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(len(names) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = names.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(len(values) - 1, -1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let i = values.length - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

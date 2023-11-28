@@ -1,0 +1,611 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[chars[int(d) - 2] for d in __]",
+  "template_origin": "[chars[int(d) - 2] for d in digits]",
+  "templatized_node_ids": [
+    13
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in some_list]",
+        "target": "some_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in my_list]",
+        "target": "my_list.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in some_list]",
+        "target": "some_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in data]",
+        "target": "data.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in some_list]",
+        "target": "some_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in values]",
+        "target": "values.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in some_list]",
+        "target": "some_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in range_list]",
+        "target": "range_list.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in some_list]",
+        "target": "some_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in my_tuple]",
+        "target": "my_tuple.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in some_list]",
+        "target": "some_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in numbers]",
+        "target": "numbers.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in some_list]",
+        "target": "some_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in indexes]",
+        "target": "indexes.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in some_list]",
+        "target": "some_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in sequence]",
+        "target": "sequence.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in some_list]",
+        "target": "some_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in entries]",
+        "target": "entries.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in my_list]",
+        "target": "my_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in data]",
+        "target": "data.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in my_list]",
+        "target": "my_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in values]",
+        "target": "values.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in my_list]",
+        "target": "my_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in range_list]",
+        "target": "range_list.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in my_list]",
+        "target": "my_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in my_tuple]",
+        "target": "my_tuple.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in my_list]",
+        "target": "my_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in numbers]",
+        "target": "numbers.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in my_list]",
+        "target": "my_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in indexes]",
+        "target": "indexes.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in my_list]",
+        "target": "my_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in sequence]",
+        "target": "sequence.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in my_list]",
+        "target": "my_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in entries]",
+        "target": "entries.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in nums]",
+        "target": "let result = nums.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in seq]",
+        "target": "let result = seq.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in nums]",
+        "target": "let result = nums.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in elements]",
+        "target": "let result = elements.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in nums]",
+        "target": "let result = nums.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in indices]",
+        "target": "let result = indices.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in nums]",
+        "target": "let result = nums.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in my_dict]",
+        "target": "let result = my_dict.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in nums]",
+        "target": "let result = nums.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in chars]",
+        "target": "let result = chars.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in data]",
+        "target": "data.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in values]",
+        "target": "values.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in data]",
+        "target": "data.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in range_list]",
+        "target": "range_list.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in data]",
+        "target": "data.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in my_tuple]",
+        "target": "my_tuple.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in data]",
+        "target": "data.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in numbers]",
+        "target": "numbers.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in data]",
+        "target": "data.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in indexes]",
+        "target": "indexes.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in data]",
+        "target": "data.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in sequence]",
+        "target": "sequence.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in data]",
+        "target": "data.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in entries]",
+        "target": "entries.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in values]",
+        "target": "values.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in range_list]",
+        "target": "range_list.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in values]",
+        "target": "values.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in my_tuple]",
+        "target": "my_tuple.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in values]",
+        "target": "values.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in numbers]",
+        "target": "numbers.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in values]",
+        "target": "values.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in indexes]",
+        "target": "indexes.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in values]",
+        "target": "values.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in sequence]",
+        "target": "sequence.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in values]",
+        "target": "values.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in entries]",
+        "target": "entries.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in seq]",
+        "target": "let result = seq.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in elements]",
+        "target": "let result = elements.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in seq]",
+        "target": "let result = seq.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in indices]",
+        "target": "let result = indices.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in seq]",
+        "target": "let result = seq.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in my_dict]",
+        "target": "let result = my_dict.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in seq]",
+        "target": "let result = seq.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in chars]",
+        "target": "let result = chars.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in elements]",
+        "target": "let result = elements.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in indices]",
+        "target": "let result = indices.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in elements]",
+        "target": "let result = elements.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in my_dict]",
+        "target": "let result = my_dict.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in elements]",
+        "target": "let result = elements.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in chars]",
+        "target": "let result = chars.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in indices]",
+        "target": "let result = indices.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in my_dict]",
+        "target": "let result = my_dict.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in indices]",
+        "target": "let result = indices.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in chars]",
+        "target": "let result = chars.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in range_list]",
+        "target": "range_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in my_tuple]",
+        "target": "my_tuple.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in range_list]",
+        "target": "range_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in numbers]",
+        "target": "numbers.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in range_list]",
+        "target": "range_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in indexes]",
+        "target": "indexes.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in range_list]",
+        "target": "range_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in sequence]",
+        "target": "sequence.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in range_list]",
+        "target": "range_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in entries]",
+        "target": "entries.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in my_tuple]",
+        "target": "my_tuple.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in numbers]",
+        "target": "numbers.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in my_tuple]",
+        "target": "my_tuple.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in indexes]",
+        "target": "indexes.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in my_tuple]",
+        "target": "my_tuple.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in sequence]",
+        "target": "sequence.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in my_tuple]",
+        "target": "my_tuple.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in entries]",
+        "target": "entries.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in my_dict]",
+        "target": "let result = my_dict.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in chars]",
+        "target": "let result = chars.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in numbers]",
+        "target": "numbers.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in indexes]",
+        "target": "indexes.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in numbers]",
+        "target": "numbers.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in sequence]",
+        "target": "sequence.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in numbers]",
+        "target": "numbers.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in entries]",
+        "target": "entries.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in indexes]",
+        "target": "indexes.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in sequence]",
+        "target": "sequence.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in indexes]",
+        "target": "indexes.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in entries]",
+        "target": "entries.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in sequence]",
+        "target": "sequence.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in entries]",
+        "target": "entries.map(d => chars[parseInt(d) - 2]);"
+      }
+    ]
+  ]
+}

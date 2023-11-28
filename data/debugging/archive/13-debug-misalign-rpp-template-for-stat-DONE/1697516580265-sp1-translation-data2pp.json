@@ -1,0 +1,24 @@
+{
+  "program_pairs": [
+    {
+      "source": "my_dict = {}",
+      "target": "let my_dict = {};"
+    },
+    {
+      "source": "my_dict = {}",
+      "target": "var my_dict = {};"
+    }
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

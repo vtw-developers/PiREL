@@ -1,0 +1,51 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for j in range(__ + 1):\n    some_secret_fn_4071()",
+  "template_origin": "for j in range(i + 1):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for j in range(__ + 1):\n    some_secret_fn_4071()",
+        "target": "for (var j = 0; j <= __; j++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(y + 1):\n    some_secret_fn_4071()",
+        "target": "for (var j = 0; j <= y; j++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for j in range(x + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = 0; j <= x; j++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(z + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = 0; j <= z; j++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for j in range(x + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = 0; j <= x; j++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(n + 1):\n    some_secret_fn_4071()",
+        "target": "for(let j = 0; j <= n; j++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for j in range(z + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = 0; j <= z; j++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(n + 1):\n    some_secret_fn_4071()",
+        "target": "for(let j = 0; j <= n; j++) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

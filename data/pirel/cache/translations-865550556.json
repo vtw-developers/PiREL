@@ -1,0 +1,134 @@
+{
+  "template": "def f_gold(__: str) -> List[str]:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(digits: str) -> List[str]:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(arg1: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(input_str: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(input_str) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(text: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(text) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(string: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(string) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(word: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(word) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(value: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(value) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(data: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(data) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(input_string: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(input_string) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(my_string: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(my_string) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(name: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(name) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(text_input: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(text_input) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(input: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(input) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(param: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(param) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(arg1: int) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(arg1: str) -> List[int]:\n    some_secret_fn_4071()": [
+      "function f_gold(arg1) {\n    some_secret_fn_4071();\n    return [];\n}"
+    ],
+    "def f_gold(arg1: float) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(arg1: bool) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(arg1: str) -> List[bool]:\n    some_secret_fn_4071()": [
+      "function f_gold(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(arg1: str) -> List[Any]:\n    some_secret_fn_4071()": [
+      "function f_gold(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(str_param: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(str_param) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(message: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(message) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(some_string: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(some_string) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(str_value: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(str_value) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(x: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(arg: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(arg) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(var1: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(var1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(str_var: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(str_var) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(argument: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(argument) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(val: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(val) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(__: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(__) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(string_param: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(string_param) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(txt: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(txt) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(content: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(content) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(item: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(item) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(arg1: str) -> List[float]:\n    some_secret_fn_4071()": [
+      "function f_gold(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(arg1: str) -> List[object]:\n    some_secret_fn_4071()": [
+      "function f_gold(arg1) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(input_param: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(input_param) {\n    some_secret_fn_4071();\n    return;\n}"
+    ],
+    "def f_gold(inp: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(inp) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(my_str: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(my_str) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(user_input: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(user_input) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(string_input: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function f_gold(string_input) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

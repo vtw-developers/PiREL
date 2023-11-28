@@ -1,0 +1,9 @@
+24b530ca158d2782ea9046e756057a412e16b52f
+
+Make the semicolon queryable (#135) 
+* make semicolon queryable
+* regenerate parser
+* add tests
+* use SEMICOLON instead of repeating the semicolon literal everywhere
+
+resolritter committed on Nov 12

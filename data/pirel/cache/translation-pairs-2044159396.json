@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < __ else float('inf')",
+  "template_origin": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+  "templatized_node_ids": [
+    20
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < index else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < index ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < m ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < index else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < index ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < size else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < size ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < index else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < index ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < limit else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < limit ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < m ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < size else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < size ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < m ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < limit else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < limit ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < size else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < size ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < limit else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < limit ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      }
+    ]
+  ]
+}

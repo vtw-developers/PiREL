@@ -1,0 +1,21 @@
+```
+(match_expand
+  (fragment ("py.module" "*"))
+  (fragment ("js.program" "*1")))
+
+(match_expand
+  (fragment ("py.function_definition" (str "def") "*") "*")
+  (fragment ("js.function_declaration" (str "function") "*1") "*2"))
+
+(match_expand
+  (fragment ("py.identifier" "_val_") "*")
+  (fragment ("js.identifier" "_val1_") "*1"))
+
+(match_expand
+  (fragment ("py.parameters" "*") "*")
+  (fragment ("js.formal_parameters" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.block" "*") "*")
+  (fragment ("js.statement_block" "*1") "*2"))
+```

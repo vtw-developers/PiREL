@@ -1,0 +1,36 @@
+{
+  "template": "__ * tot if INT_MIN <= __ * tot <= INT_MAX else INT_MAX",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "sign * tot if INT_MIN <= sign * tot <= INT_MAX else INT_MAX",
+  "translations": {
+    "int_1 * tot if INT_MIN <= int_1 * tot <= INT_MAX else INT_MAX": [
+      "if (int_1 * tot >= INT_MIN && int_1 * tot <= INT_MAX) {\n    return int_1 * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "num_1 * tot if INT_MIN <= num_1 * tot <= INT_MAX else INT_MAX": [],
+    "value_1 * tot if INT_MIN <= value_1 * tot <= INT_MAX else INT_MAX": [
+      "((value_1 * tot >= INT_MIN && value_1 * tot <= INT_MAX) ? (value_1 * tot) : INT_MAX)"
+    ],
+    "x_1 * tot if INT_MIN <= x_1 * tot <= INT_MAX else INT_MAX": [
+      "if (INT_MIN <= x_1 * tot && x_1 * tot <= INT_MAX) {\n    return x_1 * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "abc_1 * tot if INT_MIN <= abc_1 * tot <= INT_MAX else INT_MAX": [
+      "let result = abc_1 * tot;\nresult = (result >= INT_MIN && result <= INT_MAX) ? result : INT_MAX;"
+    ],
+    "value_2 * tot if INT_MIN <= value_2 * tot <= INT_MAX else INT_MAX": [
+      "if (INT_MIN <= value_2 * tot && value_2 * tot <= INT_MAX) {\n    return value_2 * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "x_2 * tot if INT_MIN <= x_2 * tot <= INT_MAX else INT_MAX": [
+      "if (x_2 * tot >= INT_MIN && x_2 * tot <= INT_MAX) {\n    result = x_2 * tot;\n} else {\n    result = INT_MAX;\n}"
+    ],
+    "abc_2 * tot if INT_MIN <= abc_2 * tot <= INT_MAX else INT_MAX": [
+      "if (abc_2 * tot >= INT_MIN && abc_2 * tot <= INT_MAX) {\n    return abc_2 * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "num_2 * tot if INT_MIN <= num_2 * tot <= INT_MAX else INT_MAX": [
+      "if (num_2 * tot >= INT_MIN && num_2 * tot <= INT_MAX) {\n    return num_2 * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "int_2 * tot if INT_MIN <= int_2 * tot <= INT_MAX else INT_MAX": [
+      "if (INT_MIN <= int_2 * tot && int_2 * tot <= INT_MAX) {\n    return int_2 * tot;\n} else {\n    return INT_MAX;\n}"
+    ]
+  }
+}

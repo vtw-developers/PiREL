@@ -1,0 +1,7 @@
+# ignore all
+*
+
+# except
+!.gitignore
+!format.sh
+!clean

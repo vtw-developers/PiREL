@@ -1,0 +1,23 @@
+{
+  "template": "ch >= __ and ch <= 122",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "ch >= 65 and ch <= 122",
+  "translations": {
+    "ch >= 97 and ch <= 122": [
+      "ch >= 97 && ch <= 122"
+    ],
+    "ch >= 65 and ch <= 122": [
+      "ch >= 65 && ch <= 122"
+    ],
+    "ch >= 48 and ch <= 57": [
+      "ch >= 48 && ch <= 57"
+    ],
+    "ch >= 33 and ch <= 126": [
+      "ch >= 33 && ch <= 126"
+    ],
+    "ch >= 65 and ch <= 90": [
+      "ch >= 65 && ch <= 90"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__ < 1 or num != nums[__ - 1]",
+  "template_origin": "i < 1 or num != nums[i - 1]",
+  "templatized_node_ids": [
+    4,
+    11
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "num < 1 or num != nums[_nums - 1]",
+        "target": "num < 1 || num !== nums[_nums - 1]"
+      },
+      {
+        "source": "index < 1 or num != nums[index - 1]",
+        "target": "index < 1 || num !== nums[index - 1]"
+      }
+    ]
+  ]
+}

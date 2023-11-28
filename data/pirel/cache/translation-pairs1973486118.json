@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for price in __[1:]:\n    some_secret_fn_4071()",
+  "template_origin": "for price in prices[1:]:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    4
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for price in lst[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < lst.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for price in my_list[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for price in lst[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < lst.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for price in prices[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < prices.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for price in lst[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < lst.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for price in data[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < data.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for price in lst[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < lst.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for price in items[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < items.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for price in my_list[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for price in prices[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < prices.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for price in my_list[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for price in data[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < data.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for price in my_list[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < my_list.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for price in items[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < items.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for price in prices[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < prices.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for price in data[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < data.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for price in prices[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < prices.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for price in items[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < items.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for price in data[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < data.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for price in items[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < items.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

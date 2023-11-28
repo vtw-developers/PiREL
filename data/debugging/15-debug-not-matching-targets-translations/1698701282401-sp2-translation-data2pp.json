@@ -1,0 +1,20 @@
+{
+  "sp1": "for a, b in enumerate({'name': 'John', 'age': 30}):\n    return a, b",
+  "sp2": "for count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")",
+  "cand_translation_sp1": "let object = {'name': 'John', 'age': 30};\nfor (let key in object) {\n    let a = object[key];\n    let b = key;\n    return [a, b];\n}",
+  "raw_translations_sp2": [
+    "let str = \"Hello World\";\nfor (let i in str) {\n    let count = i;\n    let char = str[i];\n    console.log(count + \": \" + char);\n}"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

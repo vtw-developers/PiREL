@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[matrix[i][right] for i in range(__ + 1, bottom + 1)]",
+  "template_origin": "[matrix[i][right] for i in range(top + 1, bottom + 1)]",
+  "templatized_node_ids": [
+    14
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[matrix[i][right] for i in range(row + 1, bottom + 1)]",
+        "target": "matrix.slice(row + 1, bottom + 1).map(row => row[right]);"
+      },
+      {
+        "source": "[matrix[i][right] for i in range(count + 1, bottom + 1)]",
+        "target": "matrix.slice(count + 1, bottom + 1).map(row => row[right]);"
+      }
+    ]
+  ]
+}

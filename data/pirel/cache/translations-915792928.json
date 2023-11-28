@@ -1,0 +1,23 @@
+{
+  "template": "[[False] * (__ + 1) for _ in range(m + 1)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[[False] * (n + 1) for _ in range(m + 1)]",
+  "translations": {
+    "[[False] * (n + 1) for _ in range(m + 1)]": [
+      "let arr = Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));"
+    ],
+    "[[False] * (k + 1) for _ in range(m + 1)]": [
+      "let result = Array(m + 1).fill().map(() => Array(k + 1).fill(false));"
+    ],
+    "[[False] * (x + 1) for _ in range(m + 1)]": [
+      "Array.from({ length: m + 1 }, () => Array(x + 1).fill(false));"
+    ],
+    "[[False] * (y + 1) for _ in range(m + 1)]": [
+      "Array.from({ length: m + 1 }, () => Array(y + 1).fill(false));"
+    ],
+    "[[False] * (z + 1) for _ in range(m + 1)]": [
+      "Array.from({ length: m + 1 }, () => Array(z + 1).fill(false));"
+    ]
+  }
+}

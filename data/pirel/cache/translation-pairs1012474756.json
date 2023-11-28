@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[__[top][j] for j in range(left, right + 1)]",
+  "template_origin": "[matrix[top][j] for j in range(left, right + 1)]",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[placeholder[top][j] for j in range(left, right + 1)]",
+        "target": "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(placeholder[top][j]);\n}"
+      },
+      {
+        "source": "[missing[top][j] for j in range(left, right + 1)]",
+        "target": "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(missing[top][j]);\n}"
+      }
+    ],
+    [
+      {
+        "source": "[placeholder[top][j] for j in range(left, right + 1)]",
+        "target": "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(placeholder[top][j]);\n}"
+      },
+      {
+        "source": "[val[top][j] for j in range(left, right + 1)]",
+        "target": "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(val[top][j]);\n}"
+      }
+    ],
+    [
+      {
+        "source": "[placeholder[top][j] for j in range(left, right + 1)]",
+        "target": "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(placeholder[top][j]);\n}"
+      },
+      {
+        "source": "[elem[top][j] for j in range(left, right + 1)]",
+        "target": "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(elem[top][j]);\n}"
+      }
+    ],
+    [
+      {
+        "source": "[missing[top][j] for j in range(left, right + 1)]",
+        "target": "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(missing[top][j]);\n}"
+      },
+      {
+        "source": "[val[top][j] for j in range(left, right + 1)]",
+        "target": "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(val[top][j]);\n}"
+      }
+    ],
+    [
+      {
+        "source": "[missing[top][j] for j in range(left, right + 1)]",
+        "target": "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(missing[top][j]);\n}"
+      },
+      {
+        "source": "[elem[top][j] for j in range(left, right + 1)]",
+        "target": "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(elem[top][j]);\n}"
+      }
+    ],
+    [
+      {
+        "source": "[val[top][j] for j in range(left, right + 1)]",
+        "target": "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(val[top][j]);\n}"
+      },
+      {
+        "source": "[elem[top][j] for j in range(left, right + 1)]",
+        "target": "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(elem[top][j]);\n}"
+      }
+    ]
+  ]
+}

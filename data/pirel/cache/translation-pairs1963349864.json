@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "return bin(int(a, 2) + int(b, 2))[__:]",
+  "template_origin": "return bin(int(a, 2) + int(b, 2))[2:]",
+  "templatized_node_ids": [
+    18
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "return bin(int(a, 2) + int(b, 2))[1:]",
+        "target": "return (parseInt(a, 2) + parseInt(b, 2)).toString(2).slice(1);"
+      },
+      {
+        "source": "return bin(int(a, 2) + int(b, 2))[3:]",
+        "target": "return (parseInt(a, 2) + parseInt(b, 2)).toString(2).slice(1);"
+      }
+    ],
+    [
+      {
+        "source": "return bin(int(a, 2) + int(b, 2))[1:]",
+        "target": "return (parseInt(a, 2) + parseInt(b, 2)).toString(2).slice(1);"
+      },
+      {
+        "source": "return bin(int(a, 2) + int(b, 2))[4:]",
+        "target": "return (parseInt(a, 2) + parseInt(b, 2)).toString(2).slice(4);"
+      }
+    ],
+    [
+      {
+        "source": "return bin(int(a, 2) + int(b, 2))[3:]",
+        "target": "return (parseInt(a, 2) + parseInt(b, 2)).toString(2).slice(1);"
+      },
+      {
+        "source": "return bin(int(a, 2) + int(b, 2))[4:]",
+        "target": "return (parseInt(a, 2) + parseInt(b, 2)).toString(2).slice(4);"
+      }
+    ]
+  ]
+}

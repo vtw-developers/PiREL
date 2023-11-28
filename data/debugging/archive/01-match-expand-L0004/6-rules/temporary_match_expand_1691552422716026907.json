@@ -1,0 +1,14 @@
+{
+  "range_cursor": "\"(\"",
+  "matcher": [
+    "\"py.call\"",
+    [
+      "\"py.identifier\"",
+      [
+        "val",
+        "\"print\""
+      ]
+    ],
+    "\".\""
+  ]
+}

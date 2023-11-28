@@ -1,0 +1,17 @@
+[
+  "midVal1 = val1 if condition else val2",
+  "midVal1 = 7 if True else 3",
+  "midVal1 = 1 if (2 < 3) else 0",
+  "midVal1 = val1 if condition else val2",
+  "midVal1 = 10 if True else 20",
+  "midVal1 = 'Success' if flag else 'Failure'",
+  "midVal1 = value1 if condition else value2",
+  "midVal1 = \"Yes\" if True else \"No\"",
+  "midVal1 = 5 if check_value else 0",
+  "midVal1 = val1 if condition1 else val2",
+  "midVal1 = 10 if True else 20",
+  "midVal1 = 0 if is_empty else item",
+  "midVal1 = val1 if condition else val2",
+  "midVal1 = 5 if True else 10",
+  "midVal1 = function1() if checkFunction() else function2()"
+]

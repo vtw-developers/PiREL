@@ -1,0 +1,20 @@
+{
+  "sp1": "for count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")",
+  "sp2": "for idx, val in enumerate(nums):\n    if val > 5:\n        break",
+  "cand_translation_sp1": "let str = \"Hello World\";\nfor (let count = 0; count < str.length; count++) {\n    console.log(`${count}: ${str.charAt(count)}`);\n}",
+  "raw_translations_sp2": [
+    "let nums = [/* array content goes here */];\nfor (let idx = 0; idx < nums.length; idx++) {\n    if (nums[idx] > 5) {\n        break;\n    }\n}"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

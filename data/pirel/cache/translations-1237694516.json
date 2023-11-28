@@ -1,0 +1,44 @@
+{
+  "template": "for i in range(1, __ + 1):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for i in range(1, numRows + 1):\n    some_secret_fn_4071()",
+  "translations": {
+    "for i in range(1, some_variable + 1):\n    some_secret_fn_4071()": [
+      "for (let i = 1; i <= some_variable; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(1, __ + 1):\n    some_secret_fn_4071()": [
+      "for (let i = 1; i <= __; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(1, __ + 1):\n    SomeUndefinedToken_1()": [
+      "for (let i = 1; i <= __; i++) {\n    SomeUndefinedToken_1();\n}"
+    ],
+    "for i in range(1, __ + 1):\n    SomeUndefinedToken_2()": [
+      "for (let i = 1; i <= __; i++) {\n    SomeUndefinedToken_2();\n}"
+    ],
+    "for i in range(1, __ + 1):\n    SomeUndefinedToken_3()": [
+      "for (let i = 1; i <= __; i++) {\n    SomeUndefinedToken_3();\n}"
+    ],
+    "for i in range(1, __ + 1):\n    SomeUndefinedToken_4()": [
+      "for (var i = 1; i <= __; i++) {\n    SomeUndefinedToken_4();\n}"
+    ],
+    "for i in range(1, __ + 1):\n    SomeUndefinedToken_5()": [
+      "for (let i = 1; i <= __; i++) {\n    SomeUndefinedToken_5();\n}"
+    ],
+    "for i in range(1, __ + 1):\n    SomeUndefinedToken_6()": [
+      "for (let i = 1; i <= __; i++) {\n    SomeUndefinedToken_6();\n}"
+    ],
+    "for i in range(1, __ + 1):\n    SomeUndefinedToken_7()": [
+      "for (let i = 1; i <= __; i++) {\n    SomeUndefinedToken_7();\n}"
+    ],
+    "for i in range(1, __ + 1):\n    SomeUndefinedToken_8()": [
+      "for (var i = 1; i <= __; i++) {\n    SomeUndefinedToken_8();\n}"
+    ],
+    "for i in range(1, __ + 1):\n    SomeUndefinedToken_9()": [
+      "for (let i = 1; i <= __; i++) {\n    SomeUndefinedToken_9();\n}"
+    ],
+    "for i in range(1, __ + 1):\n    SomeUndefinedToken_10()": [
+      "for (let i = 1; i <= __; i++) {\n    SomeUndefinedToken_10();\n}"
+    ]
+  }
+}

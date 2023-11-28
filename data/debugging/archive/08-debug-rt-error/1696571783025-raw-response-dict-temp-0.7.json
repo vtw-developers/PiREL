@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-86Y6r9i8N5pgRjkOtaPONfBNpDJa1",
+  "object": "chat.completion",
+  "created": 1696571777,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1. Variant where holes are filled with identifiers:\n```python\nvar1 = var2\n```\n\n2. Variant where holes are filled with literals:\n```python\nnumber = 5\n```\n\n3. Variant where holes are filled with a function call:\n```python\nresult = func()\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 1,
+      "message": {
+        "role": "assistant",
+        "content": "Variant with identifiers:\n```python\nvar1 = var2\n```\n\nVariant with literals:\n```python\nnum1 = 100\n```\n\nVariant with expressions:\n```python\nresult = 2 + 2\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 2,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nx = y\n```\n\n```python\nnum = 10\n```\n\n```python\nmy_str = \"Hello World\"\n```\n\n```python\npi = 3.14\n```\n\n```python\nmy_list = [1, 2, 3, 4, 5]\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 3,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nx = y\n```\n\n```python\nnum = 5\n```\n\n```python\nlist1 = list2\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 4,
+      "message": {
+        "role": "assistant",
+        "content": "Variant 1: Filling holes with identifiers\n```\nx = y\n```\n\nVariant 2: Filling holes with literals\n```\nnum = 5\n```\n\nVariant 3: Filling holes with expressions\n```\nresult = 2 + 3\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 495,
+    "completion_tokens": 259,
+    "total_tokens": 754
+  }
+}

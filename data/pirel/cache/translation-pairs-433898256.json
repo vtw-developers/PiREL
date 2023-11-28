@@ -1,0 +1,142 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "group if i == numRows else __ * numRows - __ * i",
+  "template_origin": "group if i == numRows else 2 * numRows - 2 * i",
+  "templatized_node_ids": [
+    9,
+    12
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "group if i == numRows else 0 * numRows - 0 * i",
+        "target": "i == numRows ? group : 0 * numRows - 0 * i;"
+      },
+      {
+        "source": "group if i == numRows else 3 * numRows - 3 * i",
+        "target": "i == numRows ? group : 3 * numRows - 3 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 0 * numRows - 0 * i",
+        "target": "i == numRows ? group : 0 * numRows - 0 * i;"
+      },
+      {
+        "source": "group if i == numRows else 5 * numRows - 5 * i",
+        "target": "i == numRows ? group : 5 * numRows - 5 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 0 * numRows - 0 * i",
+        "target": "i == numRows ? group : 0 * numRows - 0 * i;"
+      },
+      {
+        "source": "group if i == numRows else 6 * numRows - 6 * i",
+        "target": "i == numRows ? group : 6 * numRows - 6 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 0 * numRows - 0 * i",
+        "target": "i == numRows ? group : 0 * numRows - 0 * i;"
+      },
+      {
+        "source": "group if i == numRows else 9 * numRows - 9 * i",
+        "target": "i == numRows ? group : 9 * numRows - 9 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 1 * numRows - 1 * i",
+        "target": "i === numRows ? group : 1 * numRows - 1 * i"
+      },
+      {
+        "source": "group if i == numRows else 4 * numRows - 4 * i",
+        "target": "i === numRows ? group : 4 * numRows - 4 * i"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 1 * numRows - 1 * i",
+        "target": "i === numRows ? group : 1 * numRows - 1 * i"
+      },
+      {
+        "source": "group if i == numRows else 7 * numRows - 7 * i",
+        "target": "i === numRows ? group : 7 * numRows - 7 * i"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 3 * numRows - 3 * i",
+        "target": "i == numRows ? group : 3 * numRows - 3 * i;"
+      },
+      {
+        "source": "group if i == numRows else 5 * numRows - 5 * i",
+        "target": "i == numRows ? group : 5 * numRows - 5 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 3 * numRows - 3 * i",
+        "target": "i == numRows ? group : 3 * numRows - 3 * i;"
+      },
+      {
+        "source": "group if i == numRows else 6 * numRows - 6 * i",
+        "target": "i == numRows ? group : 6 * numRows - 6 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 3 * numRows - 3 * i",
+        "target": "i == numRows ? group : 3 * numRows - 3 * i;"
+      },
+      {
+        "source": "group if i == numRows else 9 * numRows - 9 * i",
+        "target": "i == numRows ? group : 9 * numRows - 9 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 4 * numRows - 4 * i",
+        "target": "i === numRows ? group : 4 * numRows - 4 * i"
+      },
+      {
+        "source": "group if i == numRows else 7 * numRows - 7 * i",
+        "target": "i === numRows ? group : 7 * numRows - 7 * i"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 5 * numRows - 5 * i",
+        "target": "i == numRows ? group : 5 * numRows - 5 * i;"
+      },
+      {
+        "source": "group if i == numRows else 6 * numRows - 6 * i",
+        "target": "i == numRows ? group : 6 * numRows - 6 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 5 * numRows - 5 * i",
+        "target": "i == numRows ? group : 5 * numRows - 5 * i;"
+      },
+      {
+        "source": "group if i == numRows else 9 * numRows - 9 * i",
+        "target": "i == numRows ? group : 9 * numRows - 9 * i;"
+      }
+    ],
+    [
+      {
+        "source": "group if i == numRows else 6 * numRows - 6 * i",
+        "target": "i == numRows ? group : 6 * numRows - 6 * i;"
+      },
+      {
+        "source": "group if i == numRows else 9 * numRows - 9 * i",
+        "target": "i == numRows ? group : 9 * numRows - 9 * i;"
+      }
+    ]
+  ]
+}

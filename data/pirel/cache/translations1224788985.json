@@ -1,0 +1,23 @@
+{
+  "template": "([__[bottom][j] for j in range(right - 1, left - 1, -1)])",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "([matrix[bottom][j] for j in range(right - 1, left - 1, -1)])",
+  "translations": {
+    "([x[bottom][j] for j in range(right - 1, left - 1, -1)])": [
+      "let result = [];\nfor (let j = right - 1; j >= left; j--) {\n    result.push(x[bottom][j]);\n}"
+    ],
+    "([y[bottom][j] for j in range(right - 1, left - 1, -1)])": [
+      "for (let j = right - 1; j >= left; j--) {\n    y[bottom][j];\n}"
+    ],
+    "([z[bottom][j] for j in range(right - 1, left - 1, -1)])": [
+      "let result = [];\nfor (let j = right - 1; j >= left; j--) {\n    result.push(z[bottom][j]);\n}"
+    ],
+    "([a[bottom][j] for j in range(right - 1, left - 1, -1)])": [
+      "let result = [];\nfor(let j = right - 1; j >= left; j--) {\n    result.push(a[bottom][j]);\n}"
+    ],
+    "([b[bottom][j] for j in range(right - 1, left - 1, -1)])": [
+      "for (let j = right - 1; j >= left; j--) {\n    b[bottom][j];\n}"
+    ]
+  }
+}

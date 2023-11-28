@@ -1,0 +1,17 @@
+{
+  "good_program_pairs": [
+    {
+      "source": "for count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")",
+      "target": "let str = \"Hello World\";\nfor (let count = 0; count < str.length; count++) {\n    console.log(`${count}: ${str.charAt(count)}`);\n}"
+    },
+    {
+      "source": "for count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")",
+      "target": "let str = \"Hello World\";\nfor (let count in str) {\n    console.log(`${count}: ${str[count]}`);\n}"
+    },
+    {
+      "source": "for count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")",
+      "target": "let str = \"Hello World\";\nstr.split('').forEach((char, count) => {\n    console.log(`${count}: ${char}`);\n});"
+    }
+  ],
+  "success": true
+}

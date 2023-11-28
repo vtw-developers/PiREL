@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[[grid[0][0]] * n for __ in range(m)]",
+  "template_origin": "[[grid[0][0]] * n for _ in range(m)]",
+  "templatized_node_ids": [
+    12
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[[grid[0][0]] * n for i in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+      },
+      {
+        "source": "[[grid[0][0]] * n for k in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+      }
+    ],
+    [
+      {
+        "source": "[[grid[0][0]] * n for i in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+      },
+      {
+        "source": "[[grid[0][0]] * n for x in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+      }
+    ],
+    [
+      {
+        "source": "[[grid[0][0]] * n for i in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+      },
+      {
+        "source": "[[grid[0][0]] * n for y in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+      }
+    ],
+    [
+      {
+        "source": "[[grid[0][0]] * n for k in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+      },
+      {
+        "source": "[[grid[0][0]] * n for x in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+      }
+    ],
+    [
+      {
+        "source": "[[grid[0][0]] * n for k in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+      },
+      {
+        "source": "[[grid[0][0]] * n for y in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+      }
+    ],
+    [
+      {
+        "source": "[[grid[0][0]] * n for x in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+      },
+      {
+        "source": "[[grid[0][0]] * n for y in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+      }
+    ]
+  ]
+}

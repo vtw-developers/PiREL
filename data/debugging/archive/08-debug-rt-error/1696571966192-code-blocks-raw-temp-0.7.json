@@ -1,0 +1,18 @@
+[
+  "a = 5\nb = 3\nm = 10\nmidVal1 = 1 if a + b - 1 < m else 2",
+  "m = 10\nmidVal1 = 1 if 2 + 3 - 1 < m else 2",
+  "a = 5\nm = 10\nmidVal1 = 1 if (a*2) + a - 1 < m else 2",
+  "a = 5\nb = 3\nm = 10\nmidVal1 = 1 if a + b - 1 < m else 2",
+  "m = 10\nmidVal1 = 1 if 2 + 3 - 1 < m else 2",
+  "m = 10\nmidVal1 = 1 if (2*2) + (3/1) - 1 < m else 2",
+  "a = 5\nb = 3\nm = 10\nmidVal1 = 1 if a + b - 1 < m else 2",
+  "m = 10\nmidVal1 = 1 if 5 + 3 - 1 < m else 2",
+  "m = 10\nmidVal1 = 1 if (2*3) + (4*2) - 1 < m else 2",
+  "midVal1 = 1 if x + y - 1 < m else 2",
+  "midVal1 = 1 if 3 + 5 - 1 < m else 2",
+  "midVal1 = 1 if x + 5 - 1 < m else 2",
+  "x = 3\ny = 4\nm = 10\nmidVal1 = 1 if x + y - 1 < m else 2",
+  "index1 = 2\nindex2 = 5\nm = 10\nmidVal1 = 1 if index1 + index2 - 1 < m else 2",
+  "m = 10\nmidVal1 = 1 if 3 + 4 - 1 < m else 2",
+  "m = 10\nmidVal1 = 1 if 2 + 5 - 1 < m else 2"
+]

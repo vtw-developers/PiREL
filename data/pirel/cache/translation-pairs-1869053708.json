@@ -1,0 +1,671 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(x: __) -> bool:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(x: int) -> bool:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(x: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: float) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: bool) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: list) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: dict) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: tuple) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: set) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: object) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: Any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: bytes) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: int) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: float) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: float) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: bool) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: float) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: list) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: float) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: dict) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: float) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: tuple) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: float) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: set) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: float) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: object) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: float) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: Any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: float) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: bytes) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: float) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: bool) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: list) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: dict) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: tuple) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: set) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: object) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: Any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: bytes) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: bool) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: list) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: bool) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: dict) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: bool) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: tuple) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: bool) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: set) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: bool) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: object) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: bool) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: Any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: bool) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: bytes) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: bool) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: list) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: dict) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: list) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: tuple) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: list) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: set) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: list) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: object) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: list) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: Any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: list) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: bytes) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: list) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: dict) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: tuple) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: dict) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: set) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: dict) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: object) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: dict) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: Any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: dict) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: bytes) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: dict) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: tuple) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: set) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: tuple) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: object) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: tuple) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: Any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: tuple) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: bytes) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: tuple) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: set) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: object) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: set) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: Any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: set) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: bytes) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: set) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: object) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: Any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: object) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: bytes) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: object) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: Any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: bytes) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: Any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(x: bytes) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(x: any) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(x) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

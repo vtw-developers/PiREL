@@ -1,0 +1,23 @@
+{
+  "template": "k > __ and nums[k] == nums[k + 1]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "k > i and nums[k] == nums[k + 1]",
+  "translations": {
+    "k > k and nums[k] == nums[k + 1]": [
+      "k > k && nums[k] === nums[k + 1]"
+    ],
+    "k > NotImplemented and nums[k] == nums[k + 1]": [
+      "k > undefined && nums[k] == nums[k + 1]"
+    ],
+    "k > Ellipsis and nums[k] == nums[k + 1]": [
+      "k > undefined && nums[k] == nums[k + 1];"
+    ],
+    "k > NotImplementedType and nums[k] == nums[k + 1]": [
+      "k > undefined && nums[k] == nums[k + 1];"
+    ],
+    "k > NotImplemented and nums[k] == NotImplemented[k + 1]": [
+      "k > undefined && nums[k] == undefined[k + 1];"
+    ]
+  }
+}

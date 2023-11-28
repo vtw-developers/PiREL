@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for __ in nums[1:]:\n    some_secret_fn_4071()",
+  "template_origin": "for num in nums[1:]:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    2
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for _ in nums[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < nums.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in nums[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < nums.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in nums[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < nums.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in nums[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < nums.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in nums[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < nums.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in nums[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < nums.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in nums[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < nums.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in nums[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < nums.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in nums[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < nums.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in nums[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < nums.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in nums[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < nums.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for value in nums[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < nums.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

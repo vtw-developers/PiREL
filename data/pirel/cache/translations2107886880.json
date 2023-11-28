@@ -1,0 +1,23 @@
+{
+  "template": "__ if nums[__] == target else -1",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "left if nums[left] == target else -1",
+  "translations": {
+    "target if nums[__] == target else -1": [
+      "nums[__] === target ? target : -1;"
+    ],
+    "__ if nums[__] == __ else -1": [
+      "(nums[__] == __) ? __ : -1;"
+    ],
+    "i if nums[i] == target else -1": [
+      "nums[i] == target ? i : -1;"
+    ],
+    "j if nums[j] == target else -1": [
+      "nums[j] == target ? j : -1;"
+    ],
+    "x if nums[x] == target else -1": [
+      "nums[x] == target ? x : -1;"
+    ]
+  }
+}

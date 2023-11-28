@@ -1,0 +1,42 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__[0] == '0' and len(__) > 1",
+  "template_origin": "s[0] == '0' and len(s) > 1",
+  "templatized_node_ids": [
+    5,
+    13
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "x[0] == '0' and len(x) > 1",
+        "target": "x[0] === '0' && x.length > 1;"
+      },
+      {
+        "source": "lst[0] == '0' and len(lst) > 1",
+        "target": "lst[0] === '0' && lst.length > 1;"
+      }
+    ],
+    [
+      {
+        "source": "x[0] == '0' and len(x) > 1",
+        "target": "x[0] === '0' && x.length > 1;"
+      },
+      {
+        "source": "my_list[0] == '0' and len(my_list) > 1",
+        "target": "my_list[0] === '0' && my_list.length > 1;"
+      }
+    ],
+    [
+      {
+        "source": "lst[0] == '0' and len(lst) > 1",
+        "target": "lst[0] === '0' && lst.length > 1;"
+      },
+      {
+        "source": "my_list[0] == '0' and len(my_list) > 1",
+        "target": "my_list[0] === '0' && my_list.length > 1;"
+      }
+    ]
+  ]
+}

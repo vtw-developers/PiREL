@@ -1,0 +1,23 @@
+{
+  "template": "s[__] == s[j] and dp[__ + 1][j - 1]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "s[i] == s[j] and dp[i + 1][j - 1]",
+  "translations": {
+    "s[i] == s[j] and dp[i + 1][j - 1]": [
+      "s[i] === s[j] && dp[i + 1][j - 1];"
+    ],
+    "s[k] == s[j] and dp[k + 1][j - 1]": [
+      "s[k] === s[j] && dp[k + 1][j - 1]"
+    ],
+    "s[index] == s[j] and dp[index + 1][j - 1]": [
+      "s[index] === s[j] && dp[index + 1][j - 1]"
+    ],
+    "s[a] == s[j] and dp[a + 1][j - 1]": [
+      "s[a] === s[j] && dp[a + 1][j - 1]"
+    ],
+    "s[m] == s[j] and dp[m + 1][j - 1]": [
+      "s[m] === s[j] && dp[m + 1][j - 1]"
+    ]
+  }
+}

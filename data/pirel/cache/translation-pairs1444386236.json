@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(__: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(board: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(lst: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst, word) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(matrix: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(matrix, word) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(lst: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst, word) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(arr: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(arr, word) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(lst: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst, word) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(grid: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(grid, word) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(lst: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst, word) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(data: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(data, word) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(matrix: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(matrix, word) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(arr: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(arr, word) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(matrix: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(matrix, word) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(grid: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(grid, word) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(matrix: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(matrix, word) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(data: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(data, word) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(arr: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(arr, word) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(grid: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(grid, word) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(arr: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(arr, word) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(data: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(data, word) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(grid: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(grid, word) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(data: List[List[str]], word: str) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(data, word) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

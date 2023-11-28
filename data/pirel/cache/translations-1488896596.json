@@ -1,0 +1,23 @@
+{
+  "template": "@__\ndef dfs(i, j):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "@cache\ndef dfs(i, j):\n    some_secret_fn_4071()",
+  "translations": {
+    "@decorator\ndef dfs(i, j):\n    some_secret_fn_4071()": [
+      "function dfs(i, j) {\n    some_secret_fn_4071();\n}\n\ndfs = decorator(dfs);"
+    ],
+    "@staticmethod\ndef dfs(i, j):\n    some_secret_fn_4071()": [
+      "class ClassName {\n    static dfs(i, j) {\n        some_secret_fn_4071();\n    }\n}"
+    ],
+    "@classmethod\ndef dfs(i, j):\n    some_secret_fn_4071()": [
+      "class ClassName {\n    static dfs(i, j) {\n        some_secret_fn_4071();\n    }\n}"
+    ],
+    "@property\ndef dfs(i, j):\n    some_secret_fn_4071()": [
+      "Object.defineProperty(this, \"dfs\", {\n    get: function () {\n        some_secret_fn_4071();\n    }\n});"
+    ],
+    "@abstractmethod\ndef dfs(i, j):\n    some_secret_fn_4071()": [
+      "function dfs(i, j) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

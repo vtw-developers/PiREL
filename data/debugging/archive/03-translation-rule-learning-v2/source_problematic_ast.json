@@ -1,0 +1,30 @@
+[
+  "py.typed_parameter",
+  17,
+  [
+    "py.identifier",
+    18,
+    "\"nums1\""
+  ],
+  "\":\"",
+  [
+    "py.type",
+    19,
+    [
+      "py.subscript",
+      20,
+      [
+        "py.identifier",
+        21,
+        "\"List\""
+      ],
+      "\"[\"",
+      [
+        "py.identifier",
+        22,
+        "\"int\""
+      ],
+      "\"]\""
+    ]
+  ]
+]

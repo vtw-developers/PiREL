@@ -1,0 +1,21 @@
+{
+  "template": "words[::-__]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "words[::-1]",
+  "translations": {
+    "words[::-1]": [
+      "words.reverse();"
+    ],
+    "words[::-2]": [
+      "words.slice().reverse().filter((_, i) => i % 2 === 0);"
+    ],
+    "words[::-3]": [
+      "words.slice().reverse().filter((_, i) => i % 3 === 0);"
+    ],
+    "words[::-4]": [
+      "words.slice().reverse().filter((_, index) => index % 4 === 0);"
+    ],
+    "words[::-5]": []
+  }
+}

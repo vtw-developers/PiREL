@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "j < n and nums[j] == nums[j - __]",
+  "template_origin": "j < n and nums[j] == nums[j - 1]",
+  "templatized_node_ids": [
+    14
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "j < n and nums[j] == nums[j - 2]",
+        "target": "j < n && nums[j] === nums[j - 2]"
+      },
+      {
+        "source": "j < n and nums[j] == nums[j - 3]",
+        "target": "j < n && nums[j] === nums[j - 3]"
+      }
+    ]
+  ]
+}

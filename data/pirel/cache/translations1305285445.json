@@ -1,0 +1,23 @@
+{
+  "template": "__ <= right and top <= bottom",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "left <= right and top <= bottom",
+  "translations": {
+    "a <= right and top <= bottom": [
+      "a <= right && top <= bottom;"
+    ],
+    "x <= right and top <= bottom": [
+      "x <= right && top <= bottom"
+    ],
+    "value <= right and top <= bottom": [
+      "value <= right && top <= bottom"
+    ],
+    "condition <= right and top <= bottom": [
+      "condition <= right && top <= bottom"
+    ],
+    "test <= right and top <= bottom": [
+      "test <= right && top <= bottom"
+    ]
+  }
+}

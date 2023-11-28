@@ -1,0 +1,51 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "sign = -1 if a * b < __ else 1",
+  "template_origin": "sign = -1 if a * b < 0 else 1",
+  "templatized_node_ids": [
+    11
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "sign = -1 if a * b < 0 else 1",
+        "target": "let sign = (a * b < 0) ? -1 : 1;"
+      },
+      {
+        "source": "sign = -1 if a * b < 1 else 1",
+        "target": "let sign = (a * b < 1) ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "sign = -1 if a * b < 2 else 1",
+        "target": "var sign = (a * b < 2) ? -1 : 1;"
+      },
+      {
+        "source": "sign = -1 if a * b < 100 else 1",
+        "target": "var sign = (a * b < 100) ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "sign = -1 if a * b < 2 else 1",
+        "target": "var sign = (a * b < 2) ? -1 : 1;"
+      },
+      {
+        "source": "sign = -1 if a * b < 10 else 1",
+        "target": "var sign = (a * b < 10) ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "sign = -1 if a * b < 100 else 1",
+        "target": "var sign = (a * b < 100) ? -1 : 1;"
+      },
+      {
+        "source": "sign = -1 if a * b < 10 else 1",
+        "target": "var sign = (a * b < 10) ? -1 : 1;"
+      }
+    ]
+  ]
+}

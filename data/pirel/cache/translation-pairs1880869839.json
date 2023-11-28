@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "left if nums[left] == __ else -1",
+  "template_origin": "left if nums[left] == target else -1",
+  "templatized_node_ids": [
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "left if nums[left] == FileNotFoundError else -1",
+        "target": "nums[left] == FileNotFoundError ? left : -1;"
+      },
+      {
+        "source": "left if nums[left] == x else -1",
+        "target": "nums[left] == x ? left : -1;"
+      }
+    ]
+  ]
+}

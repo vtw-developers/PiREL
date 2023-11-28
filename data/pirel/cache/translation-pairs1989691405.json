@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * __ + int(s[i - 1]) <= 26)",
+  "template_origin": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 10 + int(s[i - 1]) <= 26)",
+  "templatized_node_ids": [
+    27
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 1 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 1 + parseInt(s[i - 1]) <= 26)"
+      },
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 2 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 2 + parseInt(s[i - 1]) <= 26)"
+      }
+    ],
+    [
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 1 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 1 + parseInt(s[i - 1]) <= 26)"
+      },
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 3 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 3 + parseInt(s[i - 1]) <= 26)"
+      }
+    ],
+    [
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 1 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 1 + parseInt(s[i - 1]) <= 26)"
+      },
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 4 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 4 + parseInt(s[i - 1]) <= 26)"
+      }
+    ],
+    [
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 1 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 1 + parseInt(s[i - 1]) <= 26)"
+      },
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 5 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 5 + parseInt(s[i - 1]) <= 26)"
+      }
+    ],
+    [
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 2 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 2 + parseInt(s[i - 1]) <= 26)"
+      },
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 3 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 3 + parseInt(s[i - 1]) <= 26)"
+      }
+    ],
+    [
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 2 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 2 + parseInt(s[i - 1]) <= 26)"
+      },
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 4 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 4 + parseInt(s[i - 1]) <= 26)"
+      }
+    ],
+    [
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 2 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 2 + parseInt(s[i - 1]) <= 26)"
+      },
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 5 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 5 + parseInt(s[i - 1]) <= 26)"
+      }
+    ],
+    [
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 3 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 3 + parseInt(s[i - 1]) <= 26)"
+      },
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 4 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 4 + parseInt(s[i - 1]) <= 26)"
+      }
+    ],
+    [
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 3 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 3 + parseInt(s[i - 1]) <= 26)"
+      },
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 5 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 5 + parseInt(s[i - 1]) <= 26)"
+      }
+    ],
+    [
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 4 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 4 + parseInt(s[i - 1]) <= 26)"
+      },
+      {
+        "source": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 5 + int(s[i - 1]) <= 26)",
+        "target": "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 5 + parseInt(s[i - 1]) <= 26)"
+      }
+    ]
+  ]
+}

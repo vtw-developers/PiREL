@@ -1,0 +1,31 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "str(abs(x))[::-__]",
+  "template_origin": "str(abs(x))[::-1]",
+  "templatized_node_ids": [
+    12
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "str(abs(x))[::-3]",
+        "target": "Math.abs(x).toString().split('').reverse().join('').slice(0, -2);"
+      },
+      {
+        "source": "str(abs(x))[::-5]",
+        "target": "Math.abs(x).toString().split('').reverse().join('').slice(0, -5);"
+      }
+    ],
+    [
+      {
+        "source": "str(abs(x))[::-6]",
+        "target": "Math.abs(x).toString().split(\"\").reverse().join(\"\").slice(0, 6);"
+      },
+      {
+        "source": "str(abs(x))[::-9]",
+        "target": "Math.abs(x).toString().split(\"\").reverse().join(\"\").slice(8, 9);"
+      }
+    ]
+  ]
+}

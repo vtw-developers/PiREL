@@ -1,0 +1,23 @@
+{
+  "template": "[str(v) for v in __[::-1]]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[str(v) for v in res[::-1]]",
+  "translations": {
+    "[str(v) for v in my_list[::-1]]": [
+      "my_list.map(v => String(v)).reverse();"
+    ],
+    "[str(v) for v in values[::-1]]": [
+      "values.slice().reverse().map(v => String(v));"
+    ],
+    "[str(v) for v in lst[::-1]]": [
+      "lst.slice().reverse().map(v => String(v));"
+    ],
+    "[str(v) for v in reversed_list[::-1]]": [
+      "reversed_list.slice().reverse().map(v => String(v));"
+    ],
+    "[str(v) for v in reversed_values[::-1]]": [
+      "reversed_values.slice().reverse().map(v => String(v));"
+    ]
+  }
+}

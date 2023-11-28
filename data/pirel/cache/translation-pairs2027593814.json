@@ -1,0 +1,112 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__[mid] < target <= __[n - 1]",
+  "template_origin": "nums[mid] < target <= nums[n - 1]",
+  "templatized_node_ids": [
+    4,
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums[mid] < target <= nums[n - 1]",
+        "target": "nums[mid] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "arr[mid] < target <= arr[n - 1]",
+        "target": "arr[mid] < target && target <= arr[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[n - 1]",
+        "target": "nums[mid] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "items[mid] < target <= items[n - 1]",
+        "target": "items[mid] < target && target <= items[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[n - 1]",
+        "target": "nums[mid] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "lst[mid] < target <= lst[n - 1]",
+        "target": "lst[mid] < target && target <= lst[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < target <= nums[n - 1]",
+        "target": "nums[mid] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "values[mid] < target <= values[n - 1]",
+        "target": "values[mid] < target && target <= values[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "arr[mid] < target <= arr[n - 1]",
+        "target": "arr[mid] < target && target <= arr[n - 1];"
+      },
+      {
+        "source": "items[mid] < target <= items[n - 1]",
+        "target": "items[mid] < target && target <= items[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "arr[mid] < target <= arr[n - 1]",
+        "target": "arr[mid] < target && target <= arr[n - 1];"
+      },
+      {
+        "source": "lst[mid] < target <= lst[n - 1]",
+        "target": "lst[mid] < target && target <= lst[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "arr[mid] < target <= arr[n - 1]",
+        "target": "arr[mid] < target && target <= arr[n - 1];"
+      },
+      {
+        "source": "values[mid] < target <= values[n - 1]",
+        "target": "values[mid] < target && target <= values[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "items[mid] < target <= items[n - 1]",
+        "target": "items[mid] < target && target <= items[n - 1];"
+      },
+      {
+        "source": "lst[mid] < target <= lst[n - 1]",
+        "target": "lst[mid] < target && target <= lst[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "items[mid] < target <= items[n - 1]",
+        "target": "items[mid] < target && target <= items[n - 1];"
+      },
+      {
+        "source": "values[mid] < target <= values[n - 1]",
+        "target": "values[mid] < target && target <= values[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "lst[mid] < target <= lst[n - 1]",
+        "target": "lst[mid] < target && target <= lst[n - 1];"
+      },
+      {
+        "source": "values[mid] < target <= values[n - 1]",
+        "target": "values[mid] < target && target <= values[n - 1];"
+      }
+    ]
+  ]
+}

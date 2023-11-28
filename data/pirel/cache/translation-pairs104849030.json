@@ -1,0 +1,22 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "i > 0 and __[i] == __[i - 1]",
+  "template_origin": "i > 0 and nums[i] == nums[i - 1]",
+  "templatized_node_ids": [
+    8,
+    11
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "i > 0 and a[i] == a[i - 1]",
+        "target": "i > 0 && a[i] === a[i - 1]"
+      },
+      {
+        "source": "i > 0 and b[i] == b[i - 1]",
+        "target": "i > 0 && b[i] === b[i - 1]"
+      }
+    ]
+  ]
+}

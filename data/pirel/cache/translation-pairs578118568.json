@@ -1,0 +1,42 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[str(__) for __ in res[::-1]]",
+  "template_origin": "[str(v) for v in res[::-1]]",
+  "templatized_node_ids": [
+    6,
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[str(item) for item in res[::-1]]",
+        "target": "res.slice().reverse().map(item => String(item));"
+      },
+      {
+        "source": "[str(val) for val in res[::-1]]",
+        "target": "res.slice().reverse().map(val => String(val));"
+      }
+    ],
+    [
+      {
+        "source": "[str(item) for item in res[::-1]]",
+        "target": "res.slice().reverse().map(item => String(item));"
+      },
+      {
+        "source": "[str(elem) for elem in res[::-1]]",
+        "target": "res.slice().reverse().map(elem => String(elem));"
+      }
+    ],
+    [
+      {
+        "source": "[str(val) for val in res[::-1]]",
+        "target": "res.slice().reverse().map(val => String(val));"
+      },
+      {
+        "source": "[str(elem) for elem in res[::-1]]",
+        "target": "res.slice().reverse().map(elem => String(elem));"
+      }
+    ]
+  ]
+}

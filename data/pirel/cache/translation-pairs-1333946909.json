@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for j in range(i, __ + 1):\n    some_secret_fn_4071()",
+  "template_origin": "for j in range(i, n + 1):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for j in range(i, k + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = i; j <= k; j++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(i, n + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = i; j <= n; j++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for j in range(i, k + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = i; j <= k; j++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(i, x + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = i; j <= x; j++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for j in range(i, k + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = i; j <= k; j++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(i, y + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = i; j <= y; j++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for j in range(i, n + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = i; j <= n; j++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(i, x + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = i; j <= x; j++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for j in range(i, n + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = i; j <= n; j++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(i, y + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = i; j <= y; j++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for j in range(i, x + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = i; j <= x; j++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(i, y + 1):\n    some_secret_fn_4071()",
+        "target": "for (let j = i; j <= y; j++) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

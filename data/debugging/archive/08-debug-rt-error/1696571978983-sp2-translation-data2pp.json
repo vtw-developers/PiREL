@@ -1,0 +1,55 @@
+{
+  "sp1": "midVal1 = 1 if x + y - 1 < m else 2",
+  "sp2": "midVal1 = 1 if 3 + 5 - 1 < m else 2",
+  "cand_translation_sp1": "let midVal1 = (x + y - 1 < m) ? 1 : 2;",
+  "raw_translations_sp2": [
+    "midVal1 = 1 if 3 + 5 - 1 < m else 2",
+    "let midVal1 = (3 + 5 - 1 < m) ? 1 : 2;"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": [
+          "\"py.binary_operator\"",
+          "\"py.comparison_operator\"",
+          "\"py.conditional_expression\"",
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.binary_expression\"",
+          "\"js.binary_expression\"",
+          "\"js.parenthesized_expression\"",
+          "\"js.ternary_expression\"",
+          "\"js.variable_declarator\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": [
+          "\"py.binary_operator\"",
+          "\"py.comparison_operator\"",
+          "\"py.conditional_expression\"",
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.binary_expression\"",
+          "\"js.binary_expression\"",
+          "\"js.parenthesized_expression\"",
+          "\"js.ternary_expression\"",
+          "\"js.variable_declarator\""
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "range_cursor": [
+    "anno",
+    [
+      "\"stype\"",
+      "\"\""
+    ],
+    [
+      "\"quote\"",
+      "\"'\""
+    ]
+  ],
+  "matcher": [
+    "\"py.expression_statement\"",
+    "\"*\""
+  ]
+}

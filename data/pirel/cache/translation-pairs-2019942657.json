@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "i < 1 or __ != nums[i - 1]",
+  "template_origin": "i < 1 or num != nums[i - 1]",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "i < 1 or key != nums[i - 1]",
+        "target": "i < 1 || key !== nums[i - 1]"
+      },
+      {
+        "source": "i < 1 or value != nums[i - 1]",
+        "target": "i < 1 || value !== nums[i - 1]"
+      }
+    ],
+    [
+      {
+        "source": "i < 1 or key != nums[i - 1]",
+        "target": "i < 1 || key !== nums[i - 1]"
+      },
+      {
+        "source": "i < 1 or item != nums[i - 1]",
+        "target": "i < 1 || item !== nums[i - 1]"
+      }
+    ],
+    [
+      {
+        "source": "i < 1 or value != nums[i - 1]",
+        "target": "i < 1 || value !== nums[i - 1]"
+      },
+      {
+        "source": "i < 1 or item != nums[i - 1]",
+        "target": "i < 1 || item !== nums[i - 1]"
+      }
+    ]
+  ]
+}

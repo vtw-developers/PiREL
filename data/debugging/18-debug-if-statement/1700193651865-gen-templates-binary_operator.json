@@ -1,0 +1,206 @@
+{
+  "0": {
+    "template_id": 0,
+    "template_origin": "target - v",
+    "context_node_type": "py.binary_operator",
+    "template_origin_node_type": "py.expression_statement",
+    "is_valid_template": false,
+    "error": "template origin is not type-isomorphic to the context node"
+  },
+  "1": {
+    "template_id": 1,
+    "template_origin": "num = target - v",
+    "context_node_type": "py.assignment",
+    "template_origin_node_type": "py.expression_statement",
+    "is_valid_template": false,
+    "error": "template origin is not type-isomorphic to the context node"
+  },
+  "2": {
+    "template_id": 2,
+    "template_context": "num = target - v",
+    "template_context_str_repl": "num = __ - __",
+    "template_origin": "num = target - v",
+    "templatized_node_ids": {
+      "5": [
+        0,
+        2,
+        0
+      ],
+      "6": [
+        0,
+        2,
+        2
+      ]
+    },
+    "templatized_node_ids_context": {},
+    "context_node_type": "expression_statement",
+    "is_valid_template": true,
+    "is_insert_secret_fn": false,
+    "sub_templates": null,
+    "contexts": [
+      {
+        "source_context": {
+          "siblings": [
+            "\"py.identifier\""
+          ],
+          "parents": [
+            "\"py.assignment\"",
+            "\"py.expression_statement\""
+          ]
+        },
+        "target_context": {
+          "siblings": [
+            "\"js.identifier\""
+          ],
+          "parents": [
+            "\"js.variable_declarator\"",
+            "\"js.lexical_declaration\""
+          ]
+        }
+      },
+      {
+        "source_context": {
+          "siblings": [
+            "\"py.identifier\""
+          ],
+          "parents": [
+            "\"py.assignment\"",
+            "\"py.expression_statement\""
+          ]
+        },
+        "target_context": {
+          "siblings": [
+            "\"js.identifier\""
+          ],
+          "parents": [
+            "\"js.variable_declarator\"",
+            "\"js.variable_declaration\""
+          ]
+        }
+      },
+      {
+        "source_context": {
+          "siblings": [
+            "\"py.identifier\""
+          ],
+          "parents": [
+            "\"py.assignment\"",
+            "\"py.expression_statement\""
+          ]
+        },
+        "target_context": {
+          "siblings": [
+            "\"js.identifier\""
+          ],
+          "parents": [
+            "\"js.variable_declarator\"",
+            "\"js.lexical_declaration\""
+          ]
+        }
+      },
+      {
+        "source_context": {
+          "siblings": [
+            "\"py.identifier\""
+          ],
+          "parents": [
+            "\"py.assignment\"",
+            "\"py.expression_statement\""
+          ]
+        },
+        "target_context": {
+          "siblings": [
+            "\"js.identifier\""
+          ],
+          "parents": [
+            "\"js.variable_declarator\"",
+            "\"js.variable_declaration\""
+          ]
+        }
+      },
+      {
+        "source_context": {
+          "siblings": [
+            "\"py.identifier\""
+          ],
+          "parents": [
+            "\"py.assignment\"",
+            "\"py.expression_statement\""
+          ]
+        },
+        "target_context": {
+          "siblings": [
+            "\"js.identifier\""
+          ],
+          "parents": [
+            "\"js.variable_declarator\"",
+            "\"js.lexical_declaration\""
+          ]
+        }
+      },
+      {
+        "source_context": {
+          "siblings": [
+            "\"py.identifier\""
+          ],
+          "parents": [
+            "\"py.assignment\"",
+            "\"py.expression_statement\""
+          ]
+        },
+        "target_context": {
+          "siblings": [
+            "\"js.identifier\""
+          ],
+          "parents": [
+            "\"js.variable_declarator\"",
+            "\"js.variable_declaration\""
+          ]
+        }
+      },
+      {
+        "source_context": {
+          "siblings": [
+            "\"py.identifier\""
+          ],
+          "parents": [
+            "\"py.assignment\"",
+            "\"py.expression_statement\""
+          ]
+        },
+        "target_context": {
+          "siblings": [
+            "\"js.identifier\""
+          ],
+          "parents": [
+            "\"js.variable_declarator\"",
+            "\"js.lexical_declaration\""
+          ]
+        }
+      },
+      {
+        "source_context": {
+          "siblings": [
+            "\"py.identifier\""
+          ],
+          "parents": [
+            "\"py.assignment\"",
+            "\"py.expression_statement\""
+          ]
+        },
+        "target_context": {
+          "siblings": [
+            "\"js.identifier\""
+          ],
+          "parents": [
+            "\"js.variable_declarator\"",
+            "\"js.variable_declaration\""
+          ]
+        }
+      }
+    ]
+  },
+  "problematic_node_type": "binary_operator",
+  "problematic_node_id": 40,
+  "num_templates": 3
+}

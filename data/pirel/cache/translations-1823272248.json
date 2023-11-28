@@ -1,0 +1,53 @@
+{
+  "template": "[i ^ (i >> __) for i in range(__ << n)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[i ^ (i >> 1) for i in range(1 << n)]",
+  "translations": {
+    "[i ^ (i >> 1) for i in range(10 << n)]": [
+      "var result = [];\nfor (var i = 0; i < 10 << n; i++) {\n    result.push(i ^ (i >> 1));\n}"
+    ],
+    "[i ^ (i >> 2) for i in range(10 << n)]": [
+      "let result = [];\nfor (let i = 0; i < (10 << n); i++) {\n    result.push(i ^ (i >> 2));\n}"
+    ],
+    "[i ^ (i >> 3) for i in range(10 << n)]": [
+      "var result = [];\nfor (var i = 0; i < (10 << n); i++) {\n    result.push(i ^ (i >> 3));\n}"
+    ],
+    "[i ^ (i >> 4) for i in range(10 << n)]": [
+      "var result = [];\nfor (var i = 0; i < (10 << n); i++) {\n    result.push(i ^ (i >> 4));\n}"
+    ],
+    "[i ^ (i >> 5) for i in range(10 << n)]": [
+      "const result = [];\nfor (let i = 0; i < (10 << n); i++) {\n    result.push(i ^ (i >> 5));\n}"
+    ],
+    "[i ^ (i >> 6) for i in range(10 << n)]": [
+      "let result = [];\nfor (let i = 0; i < (10 << n); i++) {\n    result.push(i ^ (i >> 6));\n}"
+    ],
+    "[i ^ (i >> 7) for i in range(10 << n)]": [
+      "const result = [];\nconst n = 3; // Replace with desired value\n\nfor (let i = 0; i < (10 << n); i++) {\n    result.push(i ^ (i >> 7));\n}\n\nconsole.log(result);"
+    ],
+    "[i ^ (i >> 8) for i in range(10 << n)]": [
+      "var result = [];\nvar n = 0; // replace with desired value\n\nfor (var i = 0; i < (10 << n); i++) {\n    result.push(i ^ (i >> 8));\n}"
+    ],
+    "[i ^ (i >> 9) for i in range(10 << n)]": [
+      "let result = [];\nfor (let i = 0; i < (10 << n); i++) {\n    result.push(i ^ (i >> 9));\n}"
+    ],
+    "[i ^ (i >> 10) for i in range(10 << n)]": [
+      "var result = [];\nfor (var i = 0; i < (10 << n); i++) {\n    result.push(i ^ (i >> 10));\n}"
+    ],
+    "[i ^ (i >> 0) for i in range(0 << n)]": [
+      "const result = [];\nfor (let i = 0; i < (0 << n); i++) {\n    result.push(i ^ (i >> 0));\n}"
+    ],
+    "[i ^ (i >> 1) for i in range(1 << n)]": [
+      "const result = [];\nfor (let i = 0; i < (1 << n); i++) {\n    result.push(i ^ (i >> 1));\n}"
+    ],
+    "[i ^ (i >> 2) for i in range(2 << n)]": [
+      "var result = [];\nfor (var i = 0; i < (2 << n); i++) {\n    result.push(i ^ (i >> 2));\n}"
+    ],
+    "[i ^ (i >> 3) for i in range(3 << n)]": [
+      "var result = [];\nfor (var i = 0; i < (3 << n); i++) {\n    result.push(i ^ (i >> 3));\n}"
+    ],
+    "[i ^ (i >> 4) for i in range(4 << n)]": [
+      "var result = [];\nfor (var i = 0; i < 4 << n; i++) {\n    result.push(i ^ (i >> 4));\n}"
+    ]
+  }
+}

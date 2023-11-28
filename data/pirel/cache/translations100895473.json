@@ -1,0 +1,23 @@
+{
+  "template": "nums[mid] < __ <= nums[n - 1]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "nums[mid] < target <= nums[n - 1]",
+  "translations": {
+    "nums[mid] < x <= nums[n - 1]": [
+      "nums[mid] < x && x <= nums[n - 1]"
+    ],
+    "nums[mid] < y <= nums[n - 1]": [
+      "nums[mid] < y && y <= nums[n - 1]"
+    ],
+    "nums[mid] < z <= nums[n - 1]": [
+      "nums[mid] < z && z <= nums[n - 1];"
+    ],
+    "nums[mid] < foo <= nums[n - 1]": [
+      "nums[mid] < foo && foo <= nums[n - 1]"
+    ],
+    "nums[mid] < bar <= nums[n - 1]": [
+      "nums[mid] < bar && bar <= nums[n - 1];"
+    ]
+  }
+}

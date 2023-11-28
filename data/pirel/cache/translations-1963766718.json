@@ -1,0 +1,38 @@
+{
+  "template": "return [i ^ (i >> 1) for i in range(1 << __)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "return [i ^ (i >> 1) for i in range(1 << n)]",
+  "translations": {
+    "return [i ^ (i >> 1) for i in range(1 << x)]": [
+      "function calculate(x) {\n    var result = [];\n    for (var i = 0; i < (1 << x); i++) {\n        result.push(i ^ (i >> 1));\n    }\n    return result;\n}"
+    ],
+    "return [i ^ (i >> 1) for i in range(1 << y)]": [
+      "function f_gold(y) {\n    const result = [];\n    for (let i = 0; i < (1 << y); i++) {\n        result.push(i ^ (i >> 1));\n    }\n    return result;\n}"
+    ],
+    "return [i ^ (i >> 1) for i in range(1 << z)]": [
+      "function calculateValues(z) {\n    var results = [];\n    for (var i = 0; i < (1 << z); i++) {\n        results.push(i ^ (i >> 1));\n    }\n    return results;\n}\n\nvar z = 10;\nvar result = calculateValues(z);\nconsole.log(result);"
+    ],
+    "return [i ^ (i >> 1) for i in range(1 << a)]": [
+      "let result = [];\nfor (let i = 0; i < (1 << a); i++) {\n    result.push(i ^ (i >> 1));\n}\nreturn result;"
+    ],
+    "return [i ^ (i >> 1) for i in range(1 << b)]": [
+      "function compute(b) {\n    let result = [];\n    for (let i = 0; i < Math.pow(2, b); i++) {\n        result.push(i ^ (i >> 1));\n    }\n    return result;\n}"
+    ],
+    "return [i ^ (i >> 1) for i in range(1 << c)]": [
+      "function f_gold(c) {\n    const result = [];\n    for (let i = 0; i < (1 << c); i++) {\n        result.push(i ^ (i >> 1));\n    }\n    return result;\n}"
+    ],
+    "return [i ^ (i >> 1) for i in range(1 << d)]": [
+      "function f_gold(d) {\n    let result = [];\n    for (let i = 0; i < 1 << d; i++) {\n        result.push(i ^ (i >> 1));\n    }\n    return result;\n}"
+    ],
+    "return [i ^ (i >> 1) for i in range(1 << e)]": [
+      "function bitwiseXor(e) {\n    let result = [];\n    for (let i = 0; i < Math.pow(2, e); i++) {\n        result.push(i ^ (i >> 1));\n    }\n    return result;\n}\n\nlet e = 5;\nconsole.log(bitwiseXor(e));"
+    ],
+    "return [i ^ (i >> 1) for i in range(1 << f)]": [
+      "function compute(f) {\n    var result = [];\n    for (var i = 0; i < (1 << f); i++) {\n        result.push(i ^ (i >> 1));\n    }\n    return result;\n}\n\nvar f = 5;\nconsole.log(compute(f));"
+    ],
+    "return [i ^ (i >> 1) for i in range(1 << g)]": [
+      "function calculate(g) {\n  let result = [];\n  for (let i = 0; i < (1 << g); i++) {\n    result.push(i ^ (i >> 1));\n  }\n  return result;\n}\n\nconsole.log(calculate(g));"
+    ]
+  }
+}

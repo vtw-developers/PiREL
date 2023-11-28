@@ -1,0 +1,9 @@
+{
+  "good_program_pairs": [
+    {
+      "source": "midVal1 = 0 if a < b else 1",
+      "target": "let midVal1 = (a < b) ? 0 : 1;"
+    }
+  ],
+  "success": true
+}

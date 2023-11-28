@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "translation_pairs": [
+    [
+      {
+        "source": "midVal1 = 1 if x + y - 1 < m else 2",
+        "target": "let midVal1 = (x + y - 1 < m) ? 1 : 2;"
+      },
+      {
+        "source": "midVal1 = 1 if 3 + 5 - 1 < m else 2",
+        "target": "let midVal1 = (3 + 5 - 1 < m) ? 1 : 2;"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "template": "[['.'] * __ for _ in range(__)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[['.'] * n for _ in range(n)]",
+  "translations": {
+    "[['.'] * x for _ in range(y)]": [
+      "Array.from({ length: y }, () => Array(x).fill('.'));"
+    ],
+    "[['.'] * i for _ in range(j)]": [
+      "Array.from({ length: j }, (_, index) => Array(index + 1).fill('.'));"
+    ],
+    "[['.'] * size for _ in range(count)]": [
+      "Array.from({ length: count }, () => Array(size).fill('.'));"
+    ],
+    "[['.'] * n for _ in range(m)]": [
+      "Array.from({ length: m }, () => new Array(n).fill('.'));"
+    ],
+    "[['.'] * length for _ in range(times)]": [
+      "Array(times).fill(Array(length).fill('.'));"
+    ]
+  }
+}

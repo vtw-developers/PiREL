@@ -1,0 +1,19 @@
+{
+  "template": "not __[i]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "not used[i]",
+  "translations": {
+    "not a[i]": [
+      "!a[i];"
+    ],
+    "not b[i]": [],
+    "not c[i]": [
+      "!c[i];"
+    ],
+    "not d[i]": [],
+    "not e[i]": [
+      "!e[i];"
+    ]
+  }
+}

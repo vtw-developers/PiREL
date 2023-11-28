@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "j >= __ or t",
+  "template_origin": "j >= 0 or t",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "j >= 5 or t",
+        "target": "j >= 5 || t;"
+      },
+      {
+        "source": "j >= 0 or t",
+        "target": "j >= 0 || t;"
+      }
+    ],
+    [
+      {
+        "source": "j >= 5 or t",
+        "target": "j >= 5 || t;"
+      },
+      {
+        "source": "j >= 100 or t",
+        "target": "j >= 100 || t;"
+      }
+    ],
+    [
+      {
+        "source": "j >= 0 or t",
+        "target": "j >= 0 || t;"
+      },
+      {
+        "source": "j >= 100 or t",
+        "target": "j >= 100 || t;"
+      }
+    ]
+  ]
+}

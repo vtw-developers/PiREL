@@ -1,0 +1,27 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.if_statement\"",
+        "\".\"",
+        "\"*\""
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      [
+        "\"js.if_statement\"",
+        [
+          "\"js.parenthesized_expression\"",
+          "\".1\""
+        ],
+        "\"*2\""
+      ],
+      "\"*3\""
+    ]
+  ]
+}

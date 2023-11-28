@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "return y * y if (n & 1) == __ else y * y * x",
+  "template_origin": "return y * y if (n & 1) == 0 else y * y * x",
+  "templatized_node_ids": [
+    11
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * x",
+        "target": "return (n & 1) === 0 ? y * y : y * y * x;"
+      },
+      {
+        "source": "return y * y if (n & 1) == 2 else y * y * x",
+        "target": "return (n & 1) === 2 ? y * y : y * y * x;"
+      }
+    ]
+  ]
+}

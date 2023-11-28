@@ -1,0 +1,47 @@
+{
+  "range_cursor": [
+    "py.expression_statement",
+    1,
+    [
+      "py.call",
+      2,
+      [
+        "py.identifier",
+        3,
+        "\"print\""
+      ],
+      [
+        "py.argument_list",
+        4,
+        "\"(\"",
+        [
+          "py.string",
+          5,
+          [
+            "anno",
+            [
+              "\"stype\"",
+              "\"\""
+            ],
+            [
+              "\"quote\"",
+              "\"'\""
+            ]
+          ],
+          "\"\\\"\"",
+          [
+            "py.string_content",
+            6,
+            "\"hi\""
+          ],
+          "\"\\\"\""
+        ],
+        "\")\""
+      ]
+    ]
+  ],
+  "matcher": [
+    "\"py.string\"",
+    "\"*\""
+  ]
+}

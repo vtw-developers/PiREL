@@ -1,0 +1,56 @@
+{
+  "0": {
+    "template_id": 0,
+    "template_context": "for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+    "template_context_str_repl": "for __ in __:\n        __",
+    "template_origin": "for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+    "templatized_node_ids": {
+      "2": [
+        1
+      ],
+      "5": [
+        3
+      ],
+      "9": [
+        5
+      ]
+    },
+    "templatized_node_ids_context": {},
+    "context_node_type": "for_statement",
+    "is_valid_template": true,
+    "sub_templates": null,
+    "contexts": [
+      {
+        "source_context": {
+          "siblings": [
+            "\"py.expression_statement\""
+          ],
+          "parents": []
+        },
+        "target_context": {
+          "siblings": [
+            "\"js.variable_declaration\""
+          ],
+          "parents": []
+        }
+      },
+      {
+        "source_context": {
+          "siblings": [
+            "\"py.expression_statement\""
+          ],
+          "parents": []
+        },
+        "target_context": {
+          "siblings": [
+            "\"js.lexical_declaration\""
+          ],
+          "parents": []
+        }
+      }
+    ]
+  },
+  "problematic_node_type": "for_statement",
+  "problematic_node_id": 28,
+  "num_templates": 1
+}

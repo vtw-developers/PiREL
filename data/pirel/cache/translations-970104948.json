@@ -1,0 +1,23 @@
+{
+  "template": "[str(__) for __ in res[::-1]]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[str(v) for v in res[::-1]]",
+  "translations": {
+    "[str(x) for x in res[::-1]]": [
+      "res.reverse().map(x => String(x));"
+    ],
+    "[str(i) for i in res[::-1]]": [
+      "res.map(i => String(i)).reverse();"
+    ],
+    "[str(item) for item in res[::-1]]": [
+      "res.slice().reverse().map(item => String(item));"
+    ],
+    "[str(val) for val in res[::-1]]": [
+      "res.slice().reverse().map(val => String(val));"
+    ],
+    "[str(elem) for elem in res[::-1]]": [
+      "res.slice().reverse().map(elem => String(elem));"
+    ]
+  }
+}

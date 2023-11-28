@@ -1,0 +1,17 @@
+{
+  "good_program_pairs": [
+    {
+      "source": "for a, b in enumerate({'name': 'John', 'age': 30}):\n    return a, b",
+      "target": "let object = {'name': 'John', 'age': 30};\nfor (let key in object) {\n    let a = object[key];\n    let b = key;\n    return [a, b];\n}"
+    },
+    {
+      "source": "for a, b in enumerate({'name': 'John', 'age': 30}):\n    return a, b",
+      "target": "var object = {'name': 'John', 'age': 30};\nObject.keys(object).forEach(function(key, index) {\n    var a = index;\n    var b = key;\n    return [a, b];\n});"
+    },
+    {
+      "source": "for a, b in enumerate({'name': 'John', 'age': 30}):\n    return a, b",
+      "target": "const object = {'name': 'John', 'age': 30};\nObject.entries(object).forEach(([key, value], index) => {\n    let a = index;\n    let b = key;\n    return [a, b];\n});"
+    }
+  ],
+  "success": true
+}

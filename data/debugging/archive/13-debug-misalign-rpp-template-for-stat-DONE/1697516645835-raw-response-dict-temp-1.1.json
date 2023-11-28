@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-8AVuXFR9QTqn7vOfjDawe3krGDty1",
+  "object": "chat.completion",
+  "created": 1697516637,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1. Example based on identifiers:\n\n```python\nfor i in lst:\n    print(i)\n```\n\n2. Example based on literals:\n\n```python\nfor _ in []:\n    None\n```\n\n3. Example based on callables:\n\n```python\nfor f in funcs:\n    f()\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 1,
+      "message": {
+        "role": "assistant",
+        "content": "Here are three different variants:\n\nVariant 1: Identifiers\n```python\nfor item in iterable:\n    print(item)\n```\n\nVariant 2: Literals\n```python\nfor i in [1, 2, 3, 4]:\n        print(i)\n```\n\nVariant 3: Objects\n```python\nfor letter in 'Hello':\n        print(letter)\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 2,
+      "message": {
+        "role": "assistant",
+        "content": "Filled with identifiers:\n\n```python\nfor i in range(5):\n    print(i)\n```\n\nFilled with literals:\n\n```python\nfor 'char' in 'string':\n    print('char')\n```\n\nFilled with other (mixture of identifiers and literals):\n\n```python\nfor i in [1,2,3,4]:\n    print(i)\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 3,
+      "message": {
+        "role": "assistant",
+        "content": "Variant 1 (identifiers):\n```python\nfor number in numbers:\n        print(number)\n```\n\nVariant 2 (literals):\n```python\nfor 'value' in ['value1', 'value2']:\n        print('value')\n```\n\nVariant 3 (any suitable mix):\n```python\nfor i in 'Hello':\n        print(i)\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 4,
+      "message": {
+        "role": "assistant",
+        "content": "Filled with identifiers:\n\n```python\nfor i in list_var:\n    print(i)\n```\n\nFilled with literals:\n\n```python\nfor i in [1, 2, 3, 4, 5]:\n    print(i)\n```\n\nFilled with a mix of literals and identifiers:\n\n```python\nfor i in range(10):\n    print(i)\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 499,
+    "completion_tokens": 358,
+    "total_tokens": 857
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.typed_parameter\"",
+        [
+          "\"py.identifier\"",
+          "\"_val_\""
+        ],
+        [
+          "str",
+          "\":\""
+        ],
+        [
+          "\"py.type\"",
+          "\".\""
+        ]
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      [
+        "\"js.identifier\"",
+        "\"_val1_\""
+      ],
+      "\"*2\""
+    ]
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "left < right and __ < bottom",
+  "template_origin": "left < right and top < bottom",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "left < right and x < bottom",
+        "target": "left < right && x < bottom"
+      },
+      {
+        "source": "left < right and y < bottom",
+        "target": "left < right && y < bottom"
+      }
+    ],
+    [
+      {
+        "source": "left < right and x < bottom",
+        "target": "left < right && x < bottom"
+      },
+      {
+        "source": "left < right and z < bottom",
+        "target": "left < right && z < bottom"
+      }
+    ],
+    [
+      {
+        "source": "left < right and x < bottom",
+        "target": "left < right && x < bottom"
+      },
+      {
+        "source": "left < right and b < bottom",
+        "target": "left < right && b < bottom"
+      }
+    ],
+    [
+      {
+        "source": "left < right and y < bottom",
+        "target": "left < right && y < bottom"
+      },
+      {
+        "source": "left < right and z < bottom",
+        "target": "left < right && z < bottom"
+      }
+    ],
+    [
+      {
+        "source": "left < right and y < bottom",
+        "target": "left < right && y < bottom"
+      },
+      {
+        "source": "left < right and b < bottom",
+        "target": "left < right && b < bottom"
+      }
+    ],
+    [
+      {
+        "source": "left < right and z < bottom",
+        "target": "left < right && z < bottom"
+      },
+      {
+        "source": "left < right and b < bottom",
+        "target": "left < right && b < bottom"
+      }
+    ]
+  ]
+}

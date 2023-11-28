@@ -1,0 +1,26 @@
+[
+  {
+    "role": "system",
+    "content": "You are a world-class software engineer.\n\nYour task is to generate SYNTACTICALLY VALID Python programs as follows:\n1. I will give you a template\n2. A template is a Python program with holes\n3. A hole is a missing part of a program. Usually, it is a missing identifier or a literal value\n4. A hole is denoted with double underscores (i.e. `__`)\n5. Your task is to fill in every hole in such a way that the resulting program is a SYNTACTICALLY VALID Python program\n6. You should modify ONLY holes (double underscores `__`). DO NOT change other parts of the template\n7. Your output should contain ONLY the Python program with its holes filled in\n8. Surround the code blocks with triple backticks (```)"
+  },
+  {
+    "role": "user",
+    "content": "Fill in the holes in the following Python program:\n```\ndef fgold(__: __):\n    pass\n```\nRemember:\n1. A hole is denoted with double underscores `__`.\n2. Generate a syntactically valid Python program.\n3. Replace `__` with literal or identifier, and DO NOT change the rest of the code."
+  },
+  {
+    "role": "assistant",
+    "content": "```\ndef fgold(arg1: int):\n    pass\n```"
+  },
+  {
+    "role": "user",
+    "content": "Fill in the holes in the following Python program:\n```\nfor __ in range(len(__)):\n    print(__)\n```\nRemember:\n1. A hole is denoted with double underscores `__`.\n2. Generate a syntactically valid Python program.\n3. Replace `__` with literal or identifier, and DO NOT change the rest of the code."
+  },
+  {
+    "role": "assistant",
+    "content": "```\nfor i in range(len(nums)):\n    print(i)\n```"
+  },
+  {
+    "role": "user",
+    "content": "Remember:\nA hole is denoted with double underscores `__`.\nGenerate a syntactically valid Python program.\nReplace `__` only, and DO NOT change the rest of the code.\n\nFill in the hole in the following Python program:\n```\nfor __ in enumerate(__):\n    __\n```\n\n1. Provide literal or identifier different variants where holes are filled with identifiers.\n2. Provide literal or identifier different variants where holes are filled with literals.\n3. Provide literal or identifier different variants where holes are filled with anything else if identifers and literals are not suitable.\n4. Provide literal or identifier different variants where holes are filled with different language elements like function calls, continue statement, break statement, return statement, if statement, lists, dictionaries, objects, etc. where possible.\n5. Put each variant in a separate code block.\n6. Code block should contain only the filled template."
+  }
+]

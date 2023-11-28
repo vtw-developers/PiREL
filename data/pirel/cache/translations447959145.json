@@ -1,0 +1,62 @@
+{
+  "template": "-y if __ < 0 else y",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "-y if x < 0 else y",
+  "translations": {
+    "-y if x < 0 else y": [
+      "x < 0 ? -y : y;"
+    ],
+    "-y if i < 0 else y": [
+      "i < 0 ? -y : y;"
+    ],
+    "-y if n < 0 else y": [
+      "n < 0 ? -y : y;"
+    ],
+    "-y if value < 0 else y": [
+      "value < 0 ? -y : y;"
+    ],
+    "-y if num < 0 else y": [],
+    "-y if a < 0 else y": [
+      "a < 0 ? -y : y;"
+    ],
+    "-y if val < 0 else y": [],
+    "-y if index < 0 else y": [
+      "index < 0 ? -y : y;"
+    ],
+    "-y if count < 0 else y": [
+      "count < 0 ? -y : y;"
+    ],
+    "-y if result < 0 else y": [
+      "result < 0 ? -y : y;"
+    ],
+    "-y if temp < 0 else y": [],
+    "-y if z < 0 else y": [
+      "z < 0 ? -y : y;"
+    ],
+    "-x if x < 0 else y": [
+      "x < 0 ? -x : y;"
+    ],
+    "-x if x < 0 else z": [
+      "x < 0 ? -x : z;"
+    ],
+    "-a if a < 0 else y": [
+      "a < 0 ? -a : y;"
+    ],
+    "-a if a < 0 else z": [
+      "a < 0 ? -a : z;"
+    ],
+    "-i if i < 0 else y": [
+      "i < 0 ? -i : y;"
+    ],
+    "-i if i < 0 else z": [
+      "i < 0 ? -i : z;"
+    ],
+    "-num if num < 0 else y": [
+      "num < 0 ? -num : y;"
+    ],
+    "-num if num < 0 else z": [
+      "num < 0 ? -num : z;"
+    ]
+  }
+}

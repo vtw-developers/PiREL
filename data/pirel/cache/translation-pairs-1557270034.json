@@ -1,0 +1,52 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "return sign * __ if INT_MIN <= sign * __ <= INT_MAX else INT_MAX",
+  "template_origin": "return sign * tot if INT_MIN <= sign * tot <= INT_MAX else INT_MAX",
+  "templatized_node_ids": [
+    5,
+    10
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "return sign * x if INT_MIN <= sign * x <= INT_MAX else INT_MAX",
+        "target": "if (INT_MIN <= sign * x && sign * x <= INT_MAX) {\n    return sign * x;\n} else {\n    return INT_MAX;\n}"
+      },
+      {
+        "source": "return sign * z if INT_MIN <= sign * z <= INT_MAX else INT_MAX",
+        "target": "if (INT_MIN <= sign * z && sign * z <= INT_MAX) {\n    return sign * z;\n} else {\n    return INT_MAX;\n}"
+      }
+    ],
+    [
+      {
+        "source": "return sign * x if INT_MIN <= sign * x <= INT_MAX else INT_MAX",
+        "target": "if (INT_MIN <= sign * x && sign * x <= INT_MAX) {\n    return sign * x;\n} else {\n    return INT_MAX;\n}"
+      },
+      {
+        "source": "return sign * b if INT_MIN <= sign * b <= INT_MAX else INT_MAX",
+        "target": "if (INT_MIN <= sign * b && sign * b <= INT_MAX) {\n    return sign * b;\n} else {\n    return INT_MAX;\n}"
+      }
+    ],
+    [
+      {
+        "source": "return sign * y if INT_MIN <= sign * y <= INT_MAX else INT_MAX",
+        "target": "return (sign * y >= INT_MIN && sign * y <= INT_MAX) ? sign * y : INT_MAX;"
+      },
+      {
+        "source": "return sign * a if INT_MIN <= sign * a <= INT_MAX else INT_MAX",
+        "target": "return (sign * a >= INT_MIN && sign * a <= INT_MAX) ? sign * a : INT_MAX;"
+      }
+    ],
+    [
+      {
+        "source": "return sign * z if INT_MIN <= sign * z <= INT_MAX else INT_MAX",
+        "target": "if (INT_MIN <= sign * z && sign * z <= INT_MAX) {\n    return sign * z;\n} else {\n    return INT_MAX;\n}"
+      },
+      {
+        "source": "return sign * b if INT_MIN <= sign * b <= INT_MAX else INT_MAX",
+        "target": "if (INT_MIN <= sign * b && sign * b <= INT_MAX) {\n    return sign * b;\n} else {\n    return INT_MAX;\n}"
+      }
+    ]
+  ]
+}

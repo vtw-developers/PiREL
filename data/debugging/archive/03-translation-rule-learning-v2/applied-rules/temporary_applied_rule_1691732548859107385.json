@@ -1,0 +1,18 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.comment\"",
+        "\"_val_\""
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      "\"*1\""
+    ]
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "simplest_template": "def f_gold(nums: List[int], target: int) -> int:\n    return target",
+  "simplified_templates_stats": [
+    [
+      0,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          4
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], target: int) -> int:\n    return target",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "target: int",
+          "int",
+          "return target"
+        ]
+      }
+    ],
+    [
+      1,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          4,
+          4
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], length: int) -> List[int]:\n    return nums",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "length: int",
+          "List[int]",
+          "return nums"
+        ]
+      }
+    ],
+    [
+      2,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          5
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], idx: int) -> int:\n    return nums[idx]",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "idx: int",
+          "int",
+          "return nums[idx]"
+        ]
+      }
+    ],
+    [
+      3,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          7
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], max_num: int) -> bool:\n    return max(nums) == max_num",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "max_num: int",
+          "bool",
+          "return max(nums) == max_num"
+        ]
+      }
+    ],
+    [
+      4,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          7
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], min_num: int) -> bool:\n    return min(nums) == min_num",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "min_num: int",
+          "bool",
+          "return min(nums) == min_num"
+        ]
+      }
+    ],
+    [
+      5,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          4
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], target: int) -> int:\n    return target",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "target: int",
+          "int",
+          "return target"
+        ]
+      }
+    ],
+    [
+      6,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          4,
+          4
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], length: int) -> List[int]:\n    return nums",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "length: int",
+          "List[int]",
+          "return nums"
+        ]
+      }
+    ],
+    [
+      7,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          4,
+          8
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], index: int) -> Optional[int]:\n    return nums[index] if index < len(nums) else None",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "index: int",
+          "Optional[int]",
+          "return nums[index] if index < len(nums) else None"
+        ]
+      }
+    ],
+    [
+      8,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          5
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], value: int) -> bool:\n    return value in nums",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "value: int",
+          "bool",
+          "return value in nums"
+        ]
+      }
+    ],
+    [
+      9,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          6
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], default: int) -> int:\n    return nums[0] if nums else default",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "default: int",
+          "int",
+          "return nums[0] if nums else default"
+        ]
+      }
+    ],
+    [
+      10,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          5
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], target: int) -> bool:\n    return target in nums",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "target: int",
+          "bool",
+          "return target in nums"
+        ]
+      }
+    ],
+    [
+      11,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          5
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], index: int) -> int:\n    return nums[index]",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "index: int",
+          "int",
+          "return nums[index]"
+        ]
+      }
+    ],
+    [
+      12,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          4,
+          6
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], n: int) -> List[int]:\n    return nums[:n]",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "n: int",
+          "List[int]",
+          "return nums[:n]"
+        ]
+      }
+    ],
+    [
+      13,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          4,
+          7
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], value: int) -> List[int]:\n    return [i for i in nums if i > value]",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "value: int",
+          "List[int]",
+          "return [i for i in nums if i > value]"
+        ]
+      }
+    ],
+    [
+      14,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          4,
+          6
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], multiplier: int) -> List[int]:\n    return [i * multiplier for i in nums]",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "multiplier: int",
+          "List[int]",
+          "return [i * multiplier for i in nums]"
+        ]
+      }
+    ],
+    [
+      15,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          6
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], target: int) -> int:\n    return nums.count(target)",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "target: int",
+          "int",
+          "return nums.count(target)"
+        ]
+      }
+    ],
+    [
+      16,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          5
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], index: int) -> int:\n    return nums[index]",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "index: int",
+          "int",
+          "return nums[index]"
+        ]
+      }
+    ],
+    [
+      17,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          5
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], value: int) -> bool:\n    return value in nums",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "value: int",
+          "bool",
+          "return value in nums"
+        ]
+      }
+    ],
+    [
+      18,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          4,
+          6
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], length: int) -> List[int]:\n    return nums[:length]",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "length: int",
+          "List[int]",
+          "return nums[:length]"
+        ]
+      }
+    ],
+    [
+      19,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          4,
+          8
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], reverse: bool) -> List[int]:\n    return nums[::-1] if reverse else nums",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "reverse: bool",
+          "List[int]",
+          "return nums[::-1] if reverse else nums"
+        ]
+      }
+    ],
+    [
+      20,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          6
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], target: int) -> int:\n    return nums.count(target)",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "target: int",
+          "int",
+          "return nums.count(target)"
+        ]
+      }
+    ],
+    [
+      21,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          5
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], index: int) -> int:\n    return nums[index]",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "index: int",
+          "int",
+          "return nums[index]"
+        ]
+      }
+    ],
+    [
+      22,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          3,
+          5
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], value: int) -> bool:\n    return value in nums",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "value: int",
+          "bool",
+          "return value in nums"
+        ]
+      }
+    ],
+    [
+      23,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          4,
+          6
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], n: int) -> List[int]:\n    return nums[:n]",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "n: int",
+          "List[int]",
+          "return nums[:n]"
+        ]
+      }
+    ],
+    [
+      24,
+      {
+        "depths_at_templatized_nodes": [
+          4,
+          4,
+          5
+        ],
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template_origin": true,
+        "simplified_template": "def f_gold(nums: List[int], n: int) -> List[int]:\n    return nums * n",
+        "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+        "texts_at_templatized_nodes": [
+          "n: int",
+          "List[int]",
+          "return nums * n"
+        ]
+      }
+    ]
+  ],
+  "templatized_node_texts": [
+    "target: int",
+    "int",
+    "return target"
+  ]
+}

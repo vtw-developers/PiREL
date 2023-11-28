@@ -1,0 +1,800 @@
+{
+  "template": "from __ import Counter",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "from collections import Counter",
+  "translations": {
+    "from collections import Counter": [
+      "const Counter = require('collections/counter');",
+      "const Counter = require('collections/counter');",
+      "// JavaScript does not have a built-in Counter class like Python\n// You can create a similar functionality using an object literal\n\nconst Counter = (iterable) => {\n    let counts = {};\n    \n    for (let item of iterable) {\n        counts[item] = counts[item] ? counts[item] + 1 : 1;\n    }\n    \n    return counts;\n};",
+      "const Counter = require('collections/counter');",
+      "const Counter = require('collections/counter');",
+      "// JavaScript does not have a built-in module equivalent to Python's collections module.\n// However, you can create your own Counter-like functionality using an object.\n\n// Define a function to count the occurrences of each element in an array\nfunction counter(arr) {\n    let count = {};\n    for (let i = 0; i < arr.length; i++) {\n        let element = arr[i];\n        count[element] = (count[element] || 0) + 1;\n    }\n    return count;\n}\n\n// Usage example\nlet arr = [1, 2, 3, 1, 2, 1];\nlet count = counter(arr);\nconsole.log(count);",
+      "const Counter = require('collections/counter');",
+      "const Counter = require('collections/counter');",
+      "// JavaScript does not have a built-in equivalent for the Counter class in Python.\n// You can implement a similar functionality using an object.\n\nconst Counter = function(iterable) {\n  const counter = {};\n\n  for (const element of iterable) {\n    counter[element] = (counter[element] || 0) + 1;\n  }\n\n  return counter;\n};",
+      "const Counter = require('collections/counter');",
+      "const Counter = require('collections/counter');",
+      "const Counter = require('collections/counter');"
+    ],
+    "from math import Counter": [
+      "const Counter = require('mathjs').Counter;",
+      "// There is no direct equivalent in JavaScript for the specific import statement from the math module.\n// However, you can achieve similar functionality using the built-in JavaScript Math object.\n\n// JavaScript equivalent\n// There is no need for an import statement in JavaScript to use the Math object.\n\n// You can use the Math object directly in your JavaScript code.",
+      "// JavaScript does not have a built-in Counter class like Python's math.Counter\n// So we need to implement it ourselves\n\nclass Counter {\n    constructor() {\n        this.counts = {};\n    }\n\n    update(item) {\n        if (item in this.counts) {\n            this.counts[item]++;\n        } else {\n            this.counts[item] = 1;\n        }\n    }\n\n    getCount(item) {\n        return this.counts[item] || 0;\n    }\n}\n\n// Usage:\n// const counter = new Counter();\n// counter.update(item);\n// const count = counter.getCount(item);",
+      "const Counter = require('math').Counter;",
+      "// JavaScript does not have a built-in Counter class like Python.\n// However, you can create a similar functionality using an object.\n\n// Create a Counter-like object in JavaScript.\nclass Counter {\n    constructor() {\n        this.counts = {};\n    }\n\n    update(item) {\n        if (this.counts[item]) {\n            this.counts[item]++;\n        } else {\n            this.counts[item] = 1;\n        }\n    }\n}\n\n// Usage:\nconst counter = new Counter();\ncounter.update(\"a\");\ncounter.update(\"b\");\ncounter.update(\"a\");\n\nconsole.log(counter.counts); // Output: { a: 2, b: 1 }",
+      "const Counter = require('math');",
+      "// No direct equivalent in JavaScript\n// Ignore this line and proceed with the rest of the code",
+      "const Counter = require('math');",
+      "// JavaScript does not have a direct equivalent to Python's Counter class in the math module.\n// To achieve similar functionality, we can create our own Counter-like object using a JavaScript Map.\n\n// Initialize the Counter-like object\nlet Counter = new Map();\n\n// Usage example:\nCounter.set('a', 2);  // Counter: {'a': 2}\nCounter.set('b', 3);  // Counter: {'a': 2, 'b': 3}\n\n// Access the count of a specific element\nlet countA = Counter.get('a');  // countA: 2\n\n// Iterate over the elements and their counts\nfor (let [element, count] of Counter) {\n    console.log(element, count);\n}",
+      "const Counter = require('mathjs').fixes.Counter;",
+      "const Counter = require('mathjs').Counter;"
+    ],
+    "from random import Counter": [
+      "const Counter = require('random');",
+      "const Counter = require('random');",
+      "const Counter = require('random');",
+      "const Counter = require('random');",
+      "const Counter = require('random');",
+      "const Counter = require('random');",
+      "const Counter = require('random');",
+      "const Counter = require('random');",
+      "const Counter = require('random');",
+      "const Counter = require('random');",
+      "const Counter = require('random');",
+      "const Counter = require('random');"
+    ],
+    "from itertools import Counter": [
+      "const Counter = require('itertools').Counter;",
+      "const Counter = require('itertools').Counter;",
+      "const Counter = require('itertools').Counter;",
+      "// JavaScript does not have a built-in equivalent for the itertools module in Python.\n// So we cannot directly translate this line of code into JavaScript.\n// However, we can achieve similar functionality in JavaScript using other approaches.",
+      "const Counter = require('itertools').Counter;",
+      "const Counter = require('itertools').Counter;",
+      "const Counter = require('itertools').Counter;",
+      "const Counter = require('itertools').Counter;",
+      "const Counter = require('itertools').Counter;",
+      "const Counter = require('itertools').Counter;",
+      "const Counter = require('itertools').Counter;",
+      "const Counter = require('itertools').Counter;"
+    ],
+    "from functools import Counter": [
+      "const Counter = require('lodash/counter');",
+      "const Counter = require('functools').Counter;",
+      "const Counter = require('functools').Counter;",
+      "// JavaScript does not have a direct equivalent of the Counter class in Python.\n// However, you can achieve similar functionality using an object and a loop.\n\n// Create an object to store the counts\nvar counter = {};\n\n// Loop through the elements and update the counts\nfor (var i = 0; i < elements.length; i++) {\n    var element = elements[i];\n    counter[element] = counter[element] ? counter[element] + 1 : 1;\n}",
+      "const Counter = require('functools').Counter;",
+      "const Counter = require('counter');",
+      "const Counter = require('functools').Counter;",
+      "// There is no direct equivalent of functools.Counter in JavaScript.\n// You can create a similar functionality using an object.\n\n// JavaScript equivalent of functools.Counter\nfunction Counter(iterable) {\n    var counter = {};\n    for (var i = 0; i < iterable.length; i++) {\n        var item = iterable[i];\n        counter[item] = (counter[item] || 0) + 1;\n    }\n    return counter;\n}",
+      "const Counter = require('lodash/counter');",
+      "const Counter = require('functools').Counter;",
+      "const Counter = require('functools').Counter;",
+      "const Counter = require('functools').Counter;"
+    ],
+    "from typing import Counter": [
+      "// There is no direct equivalent for the 'typing' module in JavaScript.\n// You can simply omit the import statement in JavaScript.",
+      "// JavaScript does not have a direct equivalent for the `typing` module in Python.\n// You can omit the import statement in JavaScript.",
+      "// JavaScript does not have a direct equivalent for the Counter class in Python's typing module.",
+      "// There is no direct equivalent for the 'typing' module in JavaScript.\n// You can remove the import statement as it is not necessary.",
+      "// No direct equivalent in JavaScript for the 'typing' module",
+      "// There is no direct equivalent import statement in JavaScript.\n// You can assume that the required functionality is already available and skip this line.",
+      "// There is no direct equivalent to the `typing.Counter` module in JavaScript.\n// You can define your own counter function or use a library like `lodash` or `underscore` instead.",
+      "// No equivalent in JavaScript",
+      "// The 'typing' module is not available in JavaScript,\n// so we can simply omit the import statement.",
+      "// There is no equivalent import statement in JavaScript for the 'typing' module in Python.\n// So, we can ignore this import statement in the JavaScript program.",
+      "// No equivalent in JavaScript, so we can just ignore it"
+    ],
+    "from os import Counter": [
+      "const Counter = require('os').Counter;",
+      "const Counter = require('os').Counter;",
+      "const Counter = require('os').Counter;",
+      "const Counter = require('os').Counter;",
+      "const Counter = require('os').Counter;",
+      "const Counter = require('os');",
+      "const Counter = require('os').Counter;",
+      "const Counter = require('os').Counter;",
+      "const Counter = require('os').Counter;",
+      "const Counter = require('os').Counter;",
+      "const Counter = require('os').Counter;",
+      "const Counter = require('os').Counter;"
+    ],
+    "from datetime import Counter": [
+      "// There is no direct equivalent of the Counter class in JavaScript.\n// You can use a plain JavaScript object as a substitute.\nconst Counter = {};",
+      "// JavaScript does not have a built-in Counter class like Python.\n// You can manually implement a similar functionality using an object.\n\nclass Counter {\n    constructor() {\n        this.counts = {};\n    }\n    \n    update(item) {\n        if (item in this.counts) {\n            this.counts[item] += 1;\n        } else {\n            this.counts[item] = 1;\n        }\n    }\n    \n    getCount(item) {\n        if (item in this.counts) {\n            return this.counts[item];\n        } else {\n            return 0;\n        }\n    }\n}\n\n// Example usage:\nconst counter = new Counter();\ncounter.update(\"apple\");\ncounter.update(\"banana\");\ncounter.update(\"apple\");\nconsole.log(counter.getCount(\"apple\"));  // Output: 2\nconsole.log(counter.getCount(\"banana\")); // Output: 1\nconsole.log(counter.getCount(\"orange\")); // Output: 0",
+      "// JavaScript does not have a built-in Counter class like Python.\n// You can implement a similar functionality using objects or Map in JavaScript.\n\n// Example implementation using objects:\nconst Counter = {\n    countElements: function(arr) {\n        const counts = {};\n        for (let i = 0; i < arr.length; i++) {\n            const element = arr[i];\n            counts[element] = counts[element] ? counts[element] + 1 : 1;\n        }\n        return counts;\n    }\n};",
+      "// JavaScript does not have a direct equivalent for the `Counter` class in Python.\n// You can achieve similar functionality by using an object to count the occurrences of elements.\n\n// Create an empty object to serve as our \"counter\"\nconst counter = {};\n\n// Use the object to count the occurrences of elements\nfunction countElement(element) {\n    if (counter[element]) {\n        counter[element]++;\n    } else {\n        counter[element] = 1;\n    }\n}\n\n// Example usage\ncountElement(\"apple\");\ncountElement(\"banana\");\ncountElement(\"apple\");\n\nconsole.log(counter); // Output: { apple: 2, banana: 1 }",
+      "// JavaScript does not have a direct equivalent to Python's Counter class in the datetime module.\n// You can implement a similar functionality using an object or a Map in JavaScript.\n\n// Example using an object:\nconst Counter = {};\n\n// Example using a Map:\nconst Counter = new Map();",
+      "// JavaScript does not have a built-in Counter class like Python's datetime.Counter.\n// To achieve similar functionality, we can create our own custom counter class.\n\nclass Counter {\n    constructor() {\n        this.counter = {};\n    }\n  \n    update(element) {\n        if (this.counter.hasOwnProperty(element)) {\n            this.counter[element] += 1;\n        } else {\n            this.counter[element] = 1;\n        }\n    }\n  \n    getCount(element) {\n        return this.counter[element] || 0;\n    }\n}\n\n// Usage:\nconst counter = new Counter();\ncounter.update('a');\ncounter.update('b');\ncounter.update('a');\nconsole.log(counter.getCount('a')); // Output: 2\nconsole.log(counter.getCount('b')); // Output: 1\nconsole.log(counter.getCount('c')); // Output: 0",
+      "// JavaScript does not have a built-in Counter class like Python.\n// You can create your own implementation of a counter using an object.\n\nclass Counter {\n    constructor() {\n        this.counts = {};\n    }\n  \n    add(item) {\n        this.counts[item] = (this.counts[item] || 0) + 1;\n    }\n  \n    getCount(item) {\n        return this.counts[item] || 0;\n    }\n}\n\n// Usage:\nconst counter = new Counter();\ncounter.add('item1');\ncounter.add('item2');\nconsole.log(counter.getCount('item1')); // Output: 1\nconsole.log(counter.getCount('item2')); // Output: 1\nconsole.log(counter.getCount('item3')); // Output: 0",
+      "// There is no direct equivalent for importing Counter from datetime in JavaScript\n// You can implement a similar functionality using a JavaScript object\n\nconst Counter = {};\n\n// Usage example:\nCounter['a'] = 1;\nCounter['b'] = 2;\n\nconsole.log(Counter); // { a: 1, b: 2 }",
+      "// JavaScript does not have a built-in Counter class like Python.\n// To achieve the same functionality, we can create our own Counter class.\n\nclass Counter {\n    constructor() {\n        this.counter = {};\n    }\n\n    update(item) {\n        this.counter[item] = this.counter[item] ? this.counter[item] + 1 : 1;\n    }\n\n    most_common(n) {\n        const sortedItems = Object.entries(this.counter).sort((a, b) => b[1] - a[1]);\n        return sortedItems.slice(0, n).map(([item]) => item);\n    }\n}",
+      "// JavaScript does not have a built-in Counter class like Python\n// Therefore, we need to create our own implementation of Counter in JavaScript\n\nclass Counter {\n    constructor() {\n        this.counts = {};\n    }\n    \n    update(item) {\n        if (this.counts[item]) {\n            this.counts[item]++;\n        } else {\n            this.counts[item] = 1;\n        }\n    }\n    \n    mostCommon() {\n        let mostCommonItem = null;\n        let maxCount = 0;\n        \n        for (let item in this.counts) {\n            if (this.counts[item] > maxCount) {\n                mostCommonItem = item;\n                maxCount = this.counts[item];\n            }\n        }\n        \n        return mostCommonItem;\n    }\n}\n\n// Usage:\nconst counter = new Counter();\ncounter.update(\"apple\");\ncounter.update(\"banana\");\ncounter.update(\"apple\");\nconsole.log(counter.mostCommon()); // Output: \"apple\"",
+      "const Counter = require('datetime-counter');",
+      "// JavaScript does not have a built-in Counter class like Python, so we cannot directly translate this line of code.\n// However, if you want to achieve similar functionality, you can create a similar object in JavaScript using a plain JavaScript object or Map.\n\n// Using a JavaScript object:\nconst Counter = {};\n\n// Using a Map:\nconst Counter = new Map();"
+    ],
+    "from sys import Counter": [
+      "const Counter = require('sys').Counter;",
+      "const Counter = require('sys').Counter;",
+      "const Counter = require('sys').Counter;",
+      "const Counter = require('sys').Counter;",
+      "const Counter = require('sys').Counter;",
+      "const Counter = require('sys').Counter;",
+      "const Counter = require('sys').Counter;",
+      "const Counter = require('sys').Counter;",
+      "const Counter = require('sys').Counter;",
+      "const Counter = require('sys').Counter;",
+      "const Counter = require('sys').Counter;",
+      "const Counter = require('sys');"
+    ],
+    "from json import Counter": [
+      "const Counter = require('json').Counter;",
+      "const Counter = require('json').Counter;",
+      "const Counter = require('json-counter');",
+      "const Counter = require('json').Counter;",
+      "const Counter = require('json-counter');",
+      "const Counter = require('json').Counter;",
+      "const Counter = require('json').Counter;",
+      "const Counter = require('json').Counter;",
+      "const Counter = require('json')",
+      "const Counter = require('json').Counter;"
+    ],
+    "from pandas import Counter": [
+      "const Counter = require('pandas').Counter;",
+      "// There is no direct equivalent for importing specific functions or classes from a library in JavaScript.\n// You can manually import and use the required functionality instead.\n\n// Assuming you have already imported the pandas library in JavaScript\n// and it provides a Counter class, you can use it as follows:\n\nconst Counter = require('pandas').Counter;",
+      "// Assuming the Counter class is available in the JavaScript environment\nconst Counter = require('pandas').Counter;",
+      "const Counter = require('pandas').Counter;",
+      "const Counter = require('pandas').Counter;",
+      "const Counter = require('pandas').Counter;",
+      "const Counter = require('pandas').Counter;",
+      "const Counter = require('pandas').Counter;",
+      "const Counter = require('pandas').Counter;",
+      "const Counter = require('pandas').Counter;",
+      "const Counter = require('pandas').Counter;",
+      "const Counter = require('pandas').Counter;"
+    ],
+    "from numpy import Counter": [
+      "const Counter = require('numpy').Counter;",
+      "const Counter = require('numpy').Counter;",
+      "const Counter = require('numpy').Counter;",
+      "const Counter = require('numpy').Counter;",
+      "const Counter = require('numpy').Counter;",
+      "const Counter = require('numpy').Counter;",
+      "const Counter = require('numpy').Counter;",
+      "// JavaScript does not have a direct equivalent of the Counter class in Python's numpy module.\n// To achieve similar functionality, you can implement a similar logic using JavaScript's built-in objects and functions.\n\n// Create a function that takes an array and returns an object with the count of each element\nfunction counter(arr) {\n    var counts = {};\n    for (var i = 0; i < arr.length; i++) {\n        var element = arr[i];\n        counts[element] = counts[element] ? counts[element] + 1 : 1;\n    }\n    return counts;\n}\n\n// Usage\nvar arr = [1, 2, 3, 2, 1, 3, 3, 4];\nvar counts = counter(arr);\nconsole.log(counts);",
+      "const Counter = require('numpy')['Counter'];",
+      "const Counter = require('numpy').Counter;",
+      "const Counter = require('numpy').Counter;",
+      "const Counter = require('numpy').Counter;"
+    ],
+    "from scipy import Counter": [
+      "const Counter = require('scipy').Counter;",
+      "const Counter = require('scipy').Counter;",
+      "const Counter = require('scipy').Counter;",
+      "// JavaScript does not have a built-in equivalent for the Counter class in scipy.\n// You can use the following JavaScript code as an alternative:\n\nfunction Counter(arr) {\n    const counter = {};\n\n    arr.forEach(element => {\n        counter[element] = (counter[element] || 0) + 1;\n    });\n\n    return counter;\n}"
+    ],
+    "from sklearn import Counter": [
+      "// JavaScript does not have a direct equivalent to sklearn.Counter\n// You will need to use a library that provides similar functionality\n\n// Assuming you are using the 'lodash' library\nconst _ = require('lodash');\n\n// You can use the 'countBy' function from lodash to achieve similar functionality\nconst Counter = (array) => _.countBy(array);\n\n// Usage:\nconst myList = [1, 2, 3, 1, 2, 1];\nconst counter = Counter(myList);\nconsole.log(counter);",
+      "// This Python program imports the 'Counter' module from the 'sklearn' package.\n// Since there is no direct equivalent of 'Counter' module in JavaScript,\n// we cannot provide a semantically equivalent translation.\n\n// However, you can use alternative JavaScript libraries or implement\n// the functionality of 'Counter' module manually in JavaScript.",
+      "const Counter = require('sklearn').Counter;",
+      "// There is no direct equivalent of sklearn.Counter in JavaScript.\n// You will need to use a different approach to achieve the same functionality.\n// You can write your own Counter-like function in JavaScript or use a library like lodash.\n// Here's an example using lodash:\n\n// Install lodash using npm:\n// npm install lodash\n\n// Import lodash\nconst _ = require('lodash');\n\n// Use the countBy function from lodash to achieve similar functionality as Counter in Python\nconst data = [1, 2, 3, 1, 2, 1];\nconst counter = _.countBy(data);\n\nconsole.log(counter);",
+      "// JavaScript does not have a direct equivalent to the sklearn module in Python. \n// Therefore, it is not possible to translate this Python program into a semantically equivalent JavaScript program."
+    ],
+    "from mymodule import Counter": [
+      "const Counter = require('./mymodule');",
+      "import { Counter } from './mymodule';",
+      "const Counter = require('./mymodule');",
+      "const Counter = require('mymodule').Counter;",
+      "const Counter = require('./mymodule');",
+      "const Counter = require('./mymodule');",
+      "const Counter = require('./mymodule');",
+      "const Counter = require('./mymodule');",
+      "const Counter = require('./mymodule');",
+      "const Counter = require('./mymodule');",
+      "const Counter = require('./mymodule');",
+      "const Counter = require('./mymodule');"
+    ],
+    "from data import Counter": [
+      "const Counter = require('./data');",
+      "const Counter = require('./data');",
+      "const Counter = require('./data');",
+      "const Counter = require('./data');",
+      "const Counter = require('./data');",
+      "// Assuming 'data' is a JavaScript module that exports an object with a 'Counter' property\nimport { Counter } from './data';",
+      "const Counter = require('./data');",
+      "const Counter = require('./data');",
+      "const Counter = require('./data');",
+      "const Counter = require('./data');",
+      "const Counter = require('./data.js');",
+      "const Counter = require('./data');"
+    ],
+    "from utils import Counter": [
+      "// Assuming that the 'Counter' class is defined in the 'utils' module\nconst Counter = require('./utils').Counter;",
+      "const Counter = require('./utils');",
+      "const Counter = require('./utils');",
+      "// Assuming there is a file named utils.js that exports a class named Counter\n\nconst Counter = require('./utils').Counter;",
+      "const Counter = require('./utils');",
+      "// JavaScript does not have an equivalent module or package system like Python's `import` statement.\n// You would need to manually include the required JavaScript files or define the required functionality.\n\n// Assuming `utils.js` file contains the definition of `Counter` class or function\n// You would need to include `utils.js` file before using `Counter` in your JavaScript code.",
+      "const Counter = require('./utils');",
+      "const Counter = require('./utils');",
+      "const Counter = require('./utils');",
+      "const Counter = require('./utils');",
+      "const Counter = require('./utils');",
+      "// No equivalent statement in JavaScript"
+    ],
+    "from tools import Counter": [
+      "const Counter = require('./tools/Counter');",
+      "// Assuming the 'tools' module has been imported and contains a 'Counter' class\n\nconst Counter = require('./tools').Counter;",
+      "const Counter = require('./tools');",
+      "// Assuming there is a file named \"tools.js\" which contains the implementation of Counter class\n\nconst Counter = require('./tools');\n\n// Rest of the JavaScript code goes here...",
+      "// JavaScript does not have a direct equivalent of Python's `import` statement.\n// Assuming that the `Counter` class is exported from the `tools` module,\n// you can achieve similar functionality in JavaScript using the `require` function.\n\nconst Counter = require('./tools').Counter;",
+      "// JavaScript does not have an equivalent built-in module like Python's Counter.\n// You will need to implement your own Counter class or find a third-party library that provides similar functionality.\n// Therefore, the translation will depend on the specific implementation or library you choose.\n// Here's an example of how you can implement a basic Counter class in JavaScript:\n\nclass Counter {\n    constructor() {\n        this.counter = {};\n    }\n\n    update(key) {\n        this.counter[key] = this.counter[key] ? this.counter[key] + 1 : 1;\n    }\n\n    getCount(key) {\n        return this.counter[key] || 0;\n    }\n}\n\n// Usage:\nconst counter = new Counter();\ncounter.update('a');\ncounter.update('b');\ncounter.update('a');\nconsole.log(counter.getCount('a')); // Output: 2\nconsole.log(counter.getCount('b')); // Output: 1\nconsole.log(counter.getCount('c')); // Output: 0\n\n// You can then use the Counter class in your JavaScript program similar to how you would use the Counter class in Python.",
+      "const Counter = require('./tools').Counter;",
+      "// Assuming 'tools' is a module or library that contains the 'Counter' function\nconst Counter = require('tools').Counter;",
+      "const Counter = require('./tools').Counter;",
+      "const Counter = require('./tools');",
+      "// JavaScript does not have a direct equivalent for importing modules like Python.\n// Assuming that the \"tools\" module has been properly included in the HTML file, you can access its functions and classes directly.\n\n// Assuming the \"Counter\" class is being imported from the \"tools\" module, you can use it like this:\n\nconst Counter = require('tools').Counter;",
+      "// JavaScript does not have a direct equivalent of the Counter class in Python.\n// You will need to manually implement the functionality of the Counter class in JavaScript or use a third-party library that provides similar functionality.\n// Assuming you have implemented a Counter class in JavaScript, you can import it like this:\n\nconst Counter = require('./tools/Counter');"
+    ],
+    "from helpers import Counter": [
+      "// JavaScript does not have a direct equivalent to Python's import statement.\n// Assuming that the \"helpers\" module exports a Counter object, you can manually define a Counter object in JavaScript.\n\nclass Counter {\n    constructor() {\n        this.count = 0;\n    }\n\n    increment() {\n        this.count++;\n    }\n\n    decrement() {\n        this.count--;\n    }\n\n    reset() {\n        this.count = 0;\n    }\n}\n\n// Usage example:\nconst counter = new Counter();\ncounter.increment();\nconsole.log(counter.count);",
+      "const Counter = require('./helpers');",
+      "const Counter = require('./helpers');",
+      "const Counter = require('./helpers').Counter;",
+      "// Import Counter from the helpers module\nconst Counter = require('./helpers').Counter;",
+      "// Assuming the \"Counter\" class is defined in the \"helpers\" module\nconst Counter = require('./helpers').Counter;",
+      "const Counter = require('./helpers');",
+      "const Counter = require('./helpers').Counter;",
+      "const Counter = require('./helpers');",
+      "const Counter = require('./helpers');",
+      "// The import statement in JavaScript works differently than in Python.\n// Assuming that the \"Counter\" class is defined in the \"helpers\" module,\n// you can import it in JavaScript as follows:\n\nconst Counter = require('./helpers').Counter;",
+      "// Assuming Counter is a class defined in the 'helpers' module\nconst Counter = require('./helpers').Counter;"
+    ],
+    "from custom import Counter": [
+      "const Counter = require('./custom');",
+      "const Counter = require('./custom');",
+      "const Counter = require('./custom');",
+      "const Counter = require('./custom');",
+      "const Counter = require('./custom').Counter;",
+      "const Counter = require('./custom').Counter;",
+      "// JavaScript does not have a direct equivalent for importing modules with specific names.\n// You will need to manually import the \"custom\" module and use its functionality in JavaScript.\n\n// Assuming the \"custom\" module has a Counter class defined:\n\n// Import the Counter class from the \"custom\" module\nconst Counter = require('./custom').Counter;\n\n// Usage of the Counter class:\nconst counter = new Counter();",
+      "const Counter = require('./custom');",
+      "const Counter = require('./custom');",
+      "const Counter = require('./custom');",
+      "const Counter = require('./custom');",
+      "const Counter = require('./custom');"
+    ],
+    "from metrics import Counter": [
+      "import { Counter } from './metrics';",
+      "const Counter = require('./metrics');",
+      "const Counter = require('./metrics').Counter;",
+      "const Counter = require('./metrics');",
+      "const Counter = require('./metrics');\n\n// Rest of the JavaScript program",
+      "const Counter = require('./metrics');",
+      "const Counter = require('./metrics');",
+      "const Counter = require('./metrics');",
+      "import { Counter } from './metrics';",
+      "// Assuming metrics.js file exists and exports Counter class\nconst Counter = require('./metrics').Counter;",
+      "const Counter = require('./metrics');"
+    ],
+    "from analysis import Counter": [
+      "const Counter = require('./analysis');",
+      "const Counter = require('./analysis');",
+      "const Counter = require('./analysis');",
+      "const Counter = require('./analysis');",
+      "const Counter = require('./analysis');",
+      "const Counter = require('./analysis');",
+      "const Counter = require('./analysis');",
+      "const Counter = require('./analysis');",
+      "import { Counter } from './analysis';",
+      "const Counter = require('./analysis');",
+      "const Counter = require('./analysis');",
+      "const Counter = require('./analysis');"
+    ],
+    "from datastructures import Counter": [
+      "const Counter = require('datastructures').Counter;",
+      "const Counter = require('./datastructures');\n\n// Rest of the JavaScript program",
+      "// Assuming the Counter class is defined in datastructures.js\n\nconst Counter = require(\"./datastructures\").Counter;",
+      "const Counter = require('./datastructures');",
+      "const Counter = require('./datastructures').Counter;",
+      "// JavaScript does not have a direct equivalent of the Counter class in Python.\n// You will need to create your own implementation of a counter or use a library that provides similar functionality.\n// Here's an example of how you can implement a simple counter object in JavaScript:\n\nclass Counter {\n    constructor() {\n        this.counter = {};\n    }\n\n    increment(key) {\n        if (this.counter[key]) {\n            this.counter[key]++;\n        } else {\n            this.counter[key] = 1;\n        }\n    }\n\n    decrement(key) {\n        if (this.counter[key]) {\n            this.counter[key]--;\n            if (this.counter[key] === 0) {\n                delete this.counter[key];\n            }\n        }\n    }\n\n    getCount(key) {\n        return this.counter[key] || 0;\n    }\n\n    getKeys() {\n        return Object.keys(this.counter);\n    }\n}\n\n// Usage example:\n\nconst counter = new Counter();\ncounter.increment('a');\ncounter.increment('b');\ncounter.increment('a');\nconsole.log(counter.getCount('a'));  // Output: 2\nconsole.log(counter.getCount('b'));  // Output: 1\nconsole.log(counter.getKeys());      // Output: ['a', 'b']",
+      "const Counter = require('./datastructures');",
+      "const Counter = require('datastructures').Counter;",
+      "const Counter = require('./datastructures');",
+      "const Counter = require('./datastructures').Counter;",
+      "const Counter = require('datastructures').Counter;",
+      "const Counter = require('./datastructures');"
+    ],
+    "from my_module import Counter": [
+      "import { Counter } from \"./my_module\";",
+      "const Counter = require('./my_module');",
+      "const Counter = require('./my_module');",
+      "const Counter = require('./my_module');",
+      "const Counter = require('./my_module');",
+      "const Counter = require('my_module').Counter;",
+      "const Counter = require('./my_module');",
+      "import { Counter } from './my_module';",
+      "const Counter = require('./my_module');",
+      "const Counter = require('./my_module');",
+      "const Counter = require('./my_module');",
+      "const Counter = require('./my_module');"
+    ],
+    "from data_structures import Counter": [
+      "const Counter = require('./data_structures').Counter;",
+      "const Counter = require('./data_structures').Counter;",
+      "const Counter = require('./data_structures').Counter;",
+      "// Assuming the Counter class is defined in a separate JavaScript file\n\n// Import the Counter class from the data_structures module\nconst Counter = require('./data_structures').Counter;",
+      "// Assuming the data_structures module is imported correctly in JavaScript\nconst Counter = require('data_structures').Counter;",
+      "const Counter = require('./data_structures');",
+      "const Counter = require('./data_structures');\n\n// Rest of the JavaScript code",
+      "// Assuming the \"Counter\" class is already defined in the \"data_structures\" module\nimport { Counter } from './data_structures';",
+      "const Counter = require('./data_structures').Counter;",
+      "const Counter = require('./data_structures/Counter');",
+      "const Counter = require('./data_structures');"
+    ],
+    "from external_lib import Counter": [
+      "const Counter = require('external_lib').Counter;",
+      "// Assuming the external_lib module is available in JavaScript\nconst Counter = require('external_lib').Counter;",
+      "const Counter = require('external_lib').Counter;",
+      "const Counter = require('external_lib').Counter;",
+      "// Assuming the external library 'external_lib' is available as a JavaScript module\nimport { Counter } from 'external_lib';"
+    ],
+    "from custom_module import Counter": [
+      "const Counter = require('./custom_module');",
+      "const Counter = require('./custom_module');",
+      "const Counter = require('./custom_module');",
+      "const Counter = require('./custom_module');",
+      "const Counter = require('./custom_module');",
+      "const Counter = require('./custom_module');",
+      "const Counter = require('./custom_module');",
+      "const Counter = require('./custom_module');",
+      "const Counter = require('./custom_module');",
+      "const Counter = require('./custom_module');",
+      "const Counter = require('./custom_module');\n\n// Rest of the JavaScript program"
+    ],
+    "from utilities import Counter": [
+      "// Assuming the utilities module is available and the Counter class is exported from it\n\nconst Counter = require('./utilities').Counter;",
+      "const Counter = require('./utilities');",
+      "const Counter = require('./utilities');",
+      "const Counter = require('./utilities');",
+      "const Counter = require('./utilities');",
+      "const Counter = require('./utilities');",
+      "const Counter = require('./utilities');",
+      "// JavaScript does not have a direct equivalent of Python's `import` statement.\n// Assuming that the `Counter` class is exported from the `utilities` module,\n// you can import it as follows in JavaScript:\n\nconst Counter = require('./utilities').Counter;"
+    ],
+    "from algorithms import Counter": [
+      "const Counter = require('algorithms').Counter;",
+      "const Counter = require('algorithms').Counter;",
+      "const Counter = require('algorithms').Counter;",
+      "const Counter = require('algorithms').Counter;",
+      "const Counter = require('./algorithms').Counter;",
+      "const Counter = require('algorithms').Counter;",
+      "const Counter = require('algorithms').Counter;",
+      "// The JavaScript equivalent of the Python `Counter` class is not built-in.\n// You would need to implement it yourself or use a library that provides similar functionality.\n// Here is a basic implementation of the `Counter` class in JavaScript:\n\nclass Counter {\n    constructor() {\n        this.counter = {};\n    }\n\n    update(items) {\n        for (const item of items) {\n            this.counter[item] = (this.counter[item] || 0) + 1;\n        }\n    }\n\n    getCount(item) {\n        return this.counter[item] || 0;\n    }\n\n    getUniqueItems() {\n        return Object.keys(this.counter);\n    }\n}\n\n// Usage:\nconst counter = new Counter();\ncounter.update(['a', 'b', 'c', 'a']);\nconsole.log(counter.getCount('a')); // Output: 2\nconsole.log(counter.getUniqueItems()); // Output: ['a', 'b', 'c']",
+      "const Counter = require('./algorithms');",
+      "const Counter = require('algorithms').Counter;",
+      "const Counter = require('algorithms').Counter;",
+      "const Counter = require('algorithms').Counter;"
+    ],
+    "from string import Counter": [
+      "const Counter = require('string-counter');",
+      "const Counter = require('string-counter');",
+      "const Counter = require('string-counter');",
+      "// JavaScript does not have an exact equivalent of Python's Counter class.\n// You can achieve similar functionality by creating your own counter object.\n\n// Here's an example implementation of a counter object in JavaScript:\n\nclass Counter {\n    constructor() {\n        this.counts = {};\n    }\n\n    update(item) {\n        this.counts[item] = (this.counts[item] || 0) + 1;\n    }\n\n    getCount(item) {\n        return this.counts[item] || 0;\n    }\n}\n\n// Usage:\nlet counter = new Counter();\ncounter.update(\"a\");\ncounter.update(\"b\");\ncounter.update(\"a\");\n\nconsole.log(counter.getCount(\"a\")); // Output: 2\nconsole.log(counter.getCount(\"b\")); // Output: 1\nconsole.log(counter.getCount(\"c\")); // Output: 0",
+      "const Counter = require('string-counter');",
+      "const Counter = require('string-counter');",
+      "const Counter = require('string-counter');",
+      "const Counter = require('string-counter');",
+      "const Counter = require('string-counter');",
+      "const Counter = require('string-counter');",
+      "// There is no direct equivalent in JavaScript for importing specific functions from a module.\n// However, you can achieve similar functionality by manually including the code from the imported module.\n\n// Here is an example of how you can include the \"Counter\" functionality in JavaScript:\n\nfunction Counter(iterable) {\n    // Implementation of Counter functionality\n    // ...\n}\n\n// Usage:\nvar myCounter = new Counter(myIterable);"
+    ],
+    "from matplotlib import Counter": [
+      "// JavaScript does not have a direct equivalent for the `Counter` class in Python's `matplotlib` module.\n// So, the import statement can be ignored in the JavaScript translation."
+    ],
+    "from statistics import Counter": [
+      "// JavaScript does not have a built-in statistics module.\n// You can use a third-party library like 'lodash' or 'mathjs' to perform similar operations.\n// Here is an example using 'lodash' library:\n\nconst _ = require('lodash');\n\n// Rest of the code...",
+      "const Counter = require('statistics').Counter;",
+      "const Counter = require('statistics').Counter;",
+      "const Counter = require('statistics').Counter;",
+      "const Counter = require('statistics').Counter;",
+      "const Counter = require('statistics').Counter;",
+      "const Counter = require('statistics').Counter;",
+      "const Counter = require('statistics').Counter;",
+      "const Counter = require('statistics').Counter;",
+      "const Counter = require('statistics').Counter;",
+      "const Counter = require('statistics').Counter;",
+      "const Counter = require('statistics');"
+    ],
+    "from stats import Counter": [
+      "const Counter = require('./stats');",
+      "const Counter = require('./stats');\n\n// Rest of the code...",
+      "const Counter = require('./stats').Counter;",
+      "const Counter = require('./stats');\n\n// rest of the code",
+      "const Counter = require('stats').Counter;",
+      "const Counter = require('./stats');",
+      "const Counter = require('./stats');",
+      "const Counter = require('./stats').Counter;",
+      "const Counter = require('./stats');\n\n// Rest of the JavaScript code",
+      "const Counter = require('stats').Counter;"
+    ],
+    "from custommodule import Counter": [
+      "const Counter = require('./custommodule');",
+      "const Counter = require('./custommodule');",
+      "const Counter = require('./custommodule');",
+      "const Counter = require('./custommodule');",
+      "const Counter = require('./custommodule');",
+      "const Counter = require('./custommodule');",
+      "const Counter = require('./custommodule');"
+    ],
+    "from io import Counter": [
+      "// JavaScript does not have a direct equivalent to the Counter class in Python's collections module.\n// You can use an object to achieve similar functionality.\n\nconst Counter = function(iterable) {\n    const counts = {};\n\n    for (let item of iterable) {\n        counts[item] = (counts[item] || 0) + 1;\n    }\n\n    return counts;\n};",
+      "// JavaScript does not have a built-in Counter class like Python's Counter.\n// You will need to implement your own Counter class or find a library that provides similar functionality.",
+      "// The `Counter` class from the `io` module in Python is not available in JavaScript.\n// Therefore, we cannot translate this line of code into JavaScript."
+    ],
+    "from structures import Counter": [
+      "// Assuming that the 'structures' module is imported properly\n\nconst Counter = require('structures').Counter;",
+      "const Counter = require('./structures');",
+      "const Counter = require('./structures');",
+      "const Counter = require('./structures/Counter');",
+      "const Counter = require('./structures').Counter;",
+      "// Assuming `Counter` is a module or class defined in a separate file called `structures.js`\n\nconst Counter = require('./structures');\n\n// Rest of the JavaScript code goes here",
+      "// Assuming the \"structures\" module has a Counter class defined\nconst Counter = require('./structures').Counter;",
+      "const Counter = require('./structures');"
+    ],
+    "from my_package import Counter": [
+      "const Counter = require('my_package');",
+      "const Counter = require('my_package').Counter;",
+      "const Counter = require('my_package').Counter;",
+      "const Counter = require('./my_package');",
+      "const Counter = require('my_package');",
+      "const Counter = require('my_package').Counter;"
+    ],
+    "from modules import Counter": [
+      "const Counter = require('./modules');",
+      "const Counter = require('./modules');",
+      "const Counter = require('./modules');",
+      "const Counter = require('./modules');",
+      "const Counter = require('modules');",
+      "const Counter = require('modules');",
+      "// JavaScript does not have a direct equivalent of Python's import statement\n// Assuming that the \"Counter\" module has been properly exported in a separate JavaScript file,\n// you can import it using the \"require\" function in Node.js or using the \"import\" statement in modern JavaScript environments\n\n// Using require (Node.js)\nconst Counter = require('./modules/Counter');\n\n// Using import (modern JavaScript)\nimport Counter from './modules/Counter';",
+      "const Counter = require('modules');",
+      "const Counter = require('./modules');",
+      "const Counter = require('./modules/Counter');"
+    ],
+    "from library import Counter": [
+      "const Counter = require('./library');",
+      "const Counter = require('library');"
+    ],
+    "from packages import Counter": [
+      "const Counter = require('packages');",
+      "const Counter = require('packages').Counter;",
+      "const Counter = require('packages').Counter;"
+    ],
+    "from components import Counter": [
+      "const Counter = require('./components');"
+    ],
+    "from module_name import Counter": [
+      "import { Counter } from 'module_name';"
+    ],
+    "from lib import Counter": [
+      "import Counter from './lib';",
+      "const Counter = require('./lib');",
+      "const Counter = require('./lib/Counter');",
+      "const Counter = require('./lib');",
+      "const Counter = require('./lib');",
+      "import { Counter } from './lib';",
+      "const Counter = require('./lib');",
+      "const Counter = require('./lib');\n\n// Rest of the JavaScript program",
+      "const Counter = require('./lib');",
+      "// JavaScript does not have a direct equivalent of the `import` statement in Python.\n// Assuming that `lib` is a JavaScript module that exports the `Counter` class,\n// the equivalent JavaScript code would be:\n\nconst Counter = require('./lib').Counter;",
+      "const Counter = require('./lib/Counter');"
+    ],
+    "from pathlib import Counter": [
+      "// JavaScript does not have a built-in Counter class like Python's Counter.\n// You can create a similar functionality using a plain JavaScript object.\n\nclass Counter {\n    constructor() {\n        this.counts = {};\n    }\n\n    update(item) {\n        if (this.counts[item]) {\n            this.counts[item]++;\n        } else {\n            this.counts[item] = 1;\n        }\n    }\n\n    most_common() {\n        let items = Object.entries(this.counts);\n        items.sort((a, b) => b[1] - a[1]);\n        return items;\n    }\n}",
+      "const Counter = require('path').Counter;",
+      "// JavaScript does not have a built-in module like Python's pathlib.\n// You can use a library like 'path' or 'fs' in JavaScript for similar functionality,\n// but there is no direct equivalent to Python's pathlib module.\n// Since the program only imports the Counter class from the pathlib module,\n// you can simply omit the import statement in JavaScript.\n\n// JavaScript code without the import statement:\n\n// ... (rest of the code)",
+      "// JavaScript does not have a built-in Counter class like Python's Counter in the pathlib module.\n// We need to implement our own Counter class or use a third-party library.\n\n// Here's an example of implementing a simple Counter class in JavaScript:\n\nclass Counter {\n    constructor() {\n        this.counter = {};\n    }\n\n    update(element) {\n        this.counter[element] = (this.counter[element] || 0) + 1;\n    }\n\n    most_common() {\n        let items = Object.entries(this.counter);\n        items.sort((a, b) => b[1] - a[1]);\n        return items;\n    }\n}\n\n// Now you can use the Counter class in JavaScript:\n\n// Example usage:\nlet counter = new Counter();\ncounter.update('a');\ncounter.update('b');\ncounter.update('a');\nconsole.log(counter.most_common()); // [['a', 2], ['b', 1]]",
+      "// JavaScript does not have a built-in `Counter` class like Python. \n// Therefore, we cannot directly translate this import statement.\n// However, we can implement a similar functionality in JavaScript using an object.\n\n// JavaScript equivalent\nconst Counter = {};\n\n// Usage:\n// Counter is an object where keys represent unique elements and values represent their frequencies.\n// To increment the count of an element, use `Counter[element] = (Counter[element] || 0) + 1`\n\n// Example:\n// Counter['a'] = 1\n// Counter['b'] = 2"
+    ],
+    "from datastructure import Counter": [
+      "const Counter = require('./datastructure').Counter;"
+    ],
+    "from heapq import Counter": [
+      "const Counter = require('heapq').Counter;",
+      "const Counter = require('heapq').Counter;",
+      "const Counter = require('heapq');",
+      "const Counter = require('heapq');",
+      "const Counter = require('heapq');",
+      "const Counter = require('heapq');",
+      "const Counter = require('heapq').Counter;",
+      "const Counter = require('heapq');",
+      "const Counter = require('heapq');"
+    ],
+    "from queue import Counter": [
+      "// JavaScript does not have a built-in Counter class like Python's queue module.\n// You can implement a similar functionality using an object.\n\nconst Counter = (arr) => {\n  const counter = {};\n\n  for (let i = 0; i < arr.length; i++) {\n    if (counter[arr[i]]) {\n      counter[arr[i]]++;\n    } else {\n      counter[arr[i]] = 1;\n    }\n  }\n\n  return counter;\n};",
+      "// JavaScript does not have a built-in Counter class like Python's queue.Counter.\n// So, we can't provide a direct translation.\n// However, we can simulate the Counter functionality using an object in JavaScript.\n\n// Python:\n// from queue import Counter\n\n// JavaScript:\n// Simulating Counter functionality using an object\nfunction Counter(iterable) {\n    let counter = {};\n    for (let item of iterable) {\n        counter[item] = (counter[item] || 0) + 1;\n    }\n    return counter;\n}",
+      "// JavaScript does not have a built-in Queue module like Python.\n// We can use an external library such as 'collections.js' to achieve similar functionality.\n// Here is an example of how we can import and use a Counter class from 'collections.js'.\n\nconst { Counter } = require('collections.js');",
+      "// JavaScript does not have a built-in 'queue' module.\n// However, we can use an external library like 'collections-js' to achieve similar functionality.\n\nconst { Counter } = require('collections-js');",
+      "// JavaScript does not have a built-in Counter class like Python's queue.Counter.\n// You can implement a similar functionality using JavaScript's Map object.\n\n// Create a Map object to act as a counter\nconst counter = new Map();\n\n// Use the Map object to store the count of each element in the list\nfunction countElements(elements) {\n    elements.forEach(element => {\n        counter.set(element, (counter.get(element) || 0) + 1);\n    });\n}\n\n// Usage example:\nconst elements = [1, 2, 3, 1, 2, 1];\ncountElements(elements);\n\n// Print the counter\nconsole.log(counter);",
+      "const Counter = require('queue');"
+    ],
+    "from libs import Counter": [
+      "const Counter = require('./libs/Counter');",
+      "const Counter = require('./libs');",
+      "// JavaScript does not have a direct equivalent to Python's import statement.\n// Assuming that the Counter module is available in the \"libs\" object, we can use the following code:\n\nconst Counter = libs.Counter;",
+      "// Assuming that the Counter module is available in JavaScript\nimport { Counter } from './libs';",
+      "// Assuming the \"Counter\" class is exported as a default export in the \"libs\" module\n\nimport Counter from './libs';\n\n// Code using the Counter class goes here",
+      "const Counter = require('./libs');",
+      "// Assuming the Counter module is available in JavaScript\nconst Counter = require('libs/Counter');",
+      "// Assuming the Counter module is available in JavaScript\n// Importing the Counter module\nconst Counter = require('libs/Counter');",
+      "// JavaScript does not have a direct equivalent to Python's `import` statement.\n// To achieve the same effect, you can manually include the required code from libs.js\n\n// Assuming Counter is a class defined in libs.js\n// You can include the contents of libs.js here:\n\n// libs.js\n// ... contents of libs.js ...\n\n// Then, you can use the Counter class in your JavaScript code:\n\n// JavaScript code\n// ... your JavaScript code here ...",
+      "const Counter = require('./libs/Counter');",
+      "const Counter = require('./libs/Counter');"
+    ],
+    "from stuff import Counter": [
+      "const Counter = require('./stuff');"
+    ],
+    "from another_module import Counter": [
+      "const Counter = require('./another_module');",
+      "import { Counter } from './another_module';"
+    ],
+    "from container import Counter": [
+      "const Counter = require('./container');"
+    ],
+    "from external import Counter": [
+      "const Counter = require('external').Counter;",
+      "const Counter = require('./external');",
+      "const Counter = require('external');",
+      "const Counter = require('external');",
+      "const Counter = require('external');",
+      "const Counter = require('external');",
+      "const Counter = require('./external');",
+      "const Counter = require('external');",
+      "const Counter = require('external');",
+      "const Counter = require('external');",
+      "const Counter = require('./external');"
+    ],
+    "from re import Counter": [
+      "const Counter = require('re');"
+    ],
+    "from data_utils import Counter": [
+      "const Counter = require('./data_utils');"
+    ],
+    "from dataclasses import Counter": [
+      "// JavaScript does not have a direct equivalent of Python's Counter class from the dataclasses module.\n// You can implement similar functionality using an object.\n\n// Initialize an empty object to act as a counter\nconst Counter = {};\n\n// Function to increment the count for a given key\nfunction increment(key) {\n    if (Counter[key]) {\n        Counter[key]++;\n    } else {\n        Counter[key] = 1;\n    }\n}\n\n// Example usage\nincrement('apple');\nincrement('banana');\nincrement('apple');\nconsole.log(Counter); // Output: { apple: 2, banana: 1 }",
+      "// Counter is not available in JavaScript, so we cannot provide a direct translation.\n// You would need to use an alternative approach to achieve the desired functionality."
+    ],
+    "from data_analysis import Counter": [
+      "const Counter = require('./data_analysis');"
+    ],
+    "from helper import Counter": [
+      "const Counter = require('./helper');",
+      "const Counter = require('./helper');"
+    ],
+    "from common import Counter": [
+      "const Counter = require('./common').Counter;",
+      "const Counter = require('./common');"
+    ],
+    "from time import Counter": [
+      "// JavaScript does not have a direct equivalent import statement like Python.\n// Assuming the Counter class is defined in a separate JavaScript file, you can use the require() function to import it.\nconst Counter = require('./Counter');",
+      "const Counter = require('time');",
+      "const Counter = require('time').Counter;",
+      "const Counter = require('time');",
+      "const Counter = require('time');"
+    ],
+    "from custompackage import Counter": [
+      "import { Counter } from './custompackage';"
+    ],
+    "from mypackage import Counter": [
+      "const Counter = require('mypackage').Counter;",
+      "import { Counter } from './mypackage';",
+      "const Counter = require('mypackage').Counter;",
+      "import { Counter } from './mypackage';",
+      "const Counter = require('./mypackage');",
+      "const Counter = require('./mypackage');",
+      "const Counter = require('mypackage').Counter;",
+      "const Counter = require('mypackage').Counter;"
+    ],
+    "from customlib import Counter": [
+      "const Counter = require('customlib');",
+      "const Counter = require('./customlib');\n\n// Rest of the JavaScript code here..."
+    ],
+    "from thirdparty import Counter": [
+      "const Counter = require('thirdparty').Counter;",
+      "const Counter = require('thirdparty').Counter;",
+      "const Counter = require('thirdparty').Counter;"
+    ],
+    "from mylib import Counter": [
+      "const Counter = require('./mylib');",
+      "const Counter = require('mylib').Counter;",
+      "const Counter = require('./mylib');"
+    ],
+    "from custommodules import Counter": [
+      "const Counter = require('./custommodules');"
+    ],
+    "from package import Counter": [
+      "const Counter = require('package').Counter;",
+      "const Counter = require('package');",
+      "const Counter = require('package').Counter;",
+      "const Counter = require('package').Counter;",
+      "const Counter = require('./package');",
+      "const Counter = require('package').Counter;"
+    ],
+    "from models import Counter": [
+      "import { Counter } from './models';",
+      "import { Counter } from './models';",
+      "const Counter = require('./models');",
+      "const Counter = require('./models');"
+    ],
+    "from analytics import Counter": [
+      "const Counter = require('./analytics');",
+      "const Counter = require('./analytics');",
+      "import { Counter } from './analytics';",
+      "const Counter = require('./analytics');",
+      "const Counter = require('./analytics');",
+      "import { Counter } from './analytics';"
+    ],
+    "from urllib import Counter": [
+      "const Counter = require('urllib').Counter;",
+      "const Counter = require('urllib').Counter;",
+      "// JavaScript does not have a built-in Counter class like Python's Counter.\n// You can implement the functionality of the Counter class using plain JavaScript objects or Map.\n\n// Option 1: Using plain JavaScript objects\nconst Counter = function(arr) {\n    const counter = {};\n    for (let elem of arr) {\n        counter[elem] = (counter[elem] || 0) + 1;\n    }\n    return counter;\n};\n\n// Option 2: Using Map\nconst Counter = function(arr) {\n    const counter = new Map();\n    for (let elem of arr) {\n        counter.set(elem, (counter.get(elem) || 0) + 1);\n    }\n    return counter;\n};",
+      "const Counter = require('urllib').Counter;",
+      "const Counter = require('urllib').Counter;",
+      "const Counter = require('urllib').Counter;",
+      "const Counter = require('urllib').Counter;"
+    ],
+    "from itertools import __": [
+      "const __ = require('itertools');",
+      "// JavaScript does not have an equivalent built-in module like itertools in Python.\n// Therefore, we can just omit this line in the JavaScript translation."
+    ],
+    "from math import __": [
+      "// There is no direct equivalent to Python's 'import' statement in JavaScript.\n// However, you can access Math functions directly without importing anything.",
+      "// JavaScript does not have a direct equivalent of the '__' import from Python.\n// You can import specific functions from the 'Math' object in JavaScript.\n// For example, to import the 'abs' function:\n// import { abs } from 'math';"
+    ],
+    "from random import __": [
+      "const __ = require('random');",
+      "// JavaScript does not have an equivalent import statement for importing specific functions or variables from a module.\n// In JavaScript, you would typically import the entire module and access the specific functions or variables using dot notation.\n\n// Assuming you want to import the entire 'random' module in JavaScript:\nconst random = require('random');"
+    ],
+    "from datetime import __": [
+      "const __ = require('datetime');",
+      "const __ = require('datetime');"
+    ],
+    "from functools import __": [
+      "const __ = require('functools');"
+    ],
+    "from typing import __": [
+      "// There is no direct equivalent of the `typing` module in JavaScript, so we can simply ignore this import statement.",
+      "// JavaScript does not have a direct equivalent for the 'typing' module in Python.\n// You can omit this import statement in JavaScript."
+    ],
+    "from os import __": [
+      "const __ = require('os');",
+      "const __ = require('os');"
+    ],
+    "from sys import __": [
+      "const __ = require('sys');",
+      "const __ = require('sys');"
+    ],
+    "from json import __": [
+      "// JavaScript does not support importing specific functions from a module\n// Therefore, we will just import the entire json module\nconst json = require('json');",
+      "const __ = require('json');"
+    ],
+    "from __builtin__ import Counter": [
+      "const Counter = require('__builtin__').Counter;"
+    ],
+    "from builtins import Counter": [
+      "// JavaScript does not have a direct equivalent to the 'builtins' module in Python.\n// However, you can achieve the same functionality by using the 'counter' package from npm.\n// Before using the 'counter' package, you need to install it by running the following command:\n// npm install counter\n\nconst Counter = require('counter');",
+      "// There is no direct equivalent of the `Counter` class in JavaScript.\n// You can achieve similar functionality using plain JavaScript objects.\n\n// Create a function that mimics the behavior of the `Counter` class\nfunction Counter(iterable) {\n    const counter = {};\n\n    // Loop through the iterable and count the occurrences of each element\n    for (let item of iterable) {\n        counter[item] = (counter[item] || 0) + 1;\n    }\n\n    return counter;\n}",
+      "// JavaScript does not have a direct equivalent of Python's built-in Counter module.\n// You can use a JavaScript object to achieve similar functionality.\n\nconst Counter = (arr) => {\n  const counter = {};\n  arr.forEach((item) => {\n    counter[item] = (counter[item] || 0) + 1;\n  });\n  return counter;\n};"
+    ],
+    "from sympy import Counter": [
+      "const Counter = require('sympy').Counter;"
+    ],
+    "from custom_lib import Counter": [
+      "const Counter = require('./custom_lib').Counter;"
+    ],
+    "from algo import Counter": [
+      "import { Counter } from './algo';"
+    ],
+    "from operator import Counter": [
+      "const Counter = require('operator').Counter;",
+      "const Counter = require('operator').Counter;"
+    ],
+    "from database import Counter": [
+      "const Counter = require('./database');",
+      "const Counter = require('./database');"
+    ],
+    "from toolbox import Counter": [
+      "const Counter = require('./toolbox');"
+    ],
+    "from multiprocessing import Counter": [
+      "// JavaScript does not have a built-in multiprocessing module like Python.\n// You can either omit the import statement or find an equivalent JavaScript library for multiprocessing.",
+      "// JavaScript does not have a built-in module for multiprocessing.\n// So, we cannot translate this line to JavaScript.",
+      "const Counter = require('multiprocessing').Counter;"
+    ],
+    "from custom_modules import Counter": [
+      "const Counter = require('./custom_modules');"
+    ],
+    "from algo_module import Counter": [
+      "const Counter = require('algo_module');"
+    ],
+    "from myutils import Counter": [
+      "const Counter = require('./myutils').Counter;"
+    ],
+    "from utils import counter": [
+      "const counter = require('./utils');"
+    ],
+    "from collections import counter": [
+      "// JavaScript does not have a built-in \"counter\" module.\n// So, we can ignore this import statement."
+    ],
+    "from mymodule import counter": [
+      "const counter = require('./mymodule');"
+    ],
+    "from module import Counter": [
+      "const Counter = require('./module');",
+      "const Counter = require('./module');"
+    ],
+    "from utils import count": [
+      "const count = require('./utils');"
+    ],
+    "from classes import Counter": [
+      "const Counter = require('./classes');"
+    ],
+    "from core import Counter": [
+      "const Counter = require('./core');"
+    ],
+    "from custom_mod import Counter": [
+      "const Counter = require('./custom_mod');"
+    ],
+    "from external_library import Counter": [
+      "// JavaScript does not have an equivalent module for the Counter class in Python's collections module\n// So, we cannot directly translate this import statement to JavaScript\n\n// However, you can manually implement the Counter class in JavaScript or find a suitable alternative library that provides similar functionality.",
+      "const Counter = require('external_library');"
+    ],
+    "from zipfile import Counter": [
+      "const Counter = require('zipfile').Counter;"
+    ],
+    "from counting import Counter": [
+      "const Counter = require('./counting');"
+    ],
+    "from measures import Counter": [
+      "import { Counter } from './measures';"
+    ],
+    "from __main__ import Counter": [
+      "const Counter = require('./__main__');"
+    ],
+    "from ext import Counter": [
+      "const Counter = require('./ext');"
+    ],
+    "from datastructs import Counter": [
+      "// Assuming the \"datastructs\" module is imported correctly in JavaScript\nconst Counter = require('datastructs').Counter;"
+    ],
+    "from datatypes import Counter": [
+      "// JavaScript does not have a built-in module named \"datatypes\", so we cannot directly translate this import statement.\n// We can assume that the \"Counter\" class is defined in the \"datatypes\" module.\n// To achieve the same functionality in JavaScript, we need to define the \"Counter\" class ourselves.\n\nclass Counter {\n  constructor() {\n    // implementation of the Counter class\n  }\n}\n\n// Now we can use the Counter class in our JavaScript program."
+    ],
+    "from mylibrary import Counter": [
+      "const Counter = require('./mylibrary').Counter;"
+    ],
+    "from external_module import Counter": [
+      "import { Counter } from 'external_module';"
+    ],
+    "from urllib import __": [
+      "const __ = require('urllib');"
+    ],
+    "from algorithm import Counter": [
+      "const Counter = require('./algorithm');"
+    ],
+    "from custom_package import Counter": [
+      "const Counter = require('custom_package');"
+    ],
+    "from utils_module import Counter": [
+      "const Counter = require('./utils_module');"
+    ],
+    "from externalmodule import Counter": [
+      "const Counter = require('externalmodule');"
+    ],
+    "from count_utils import Counter": [
+      "const Counter = require('./count_utils');"
+    ]
+  }
+}

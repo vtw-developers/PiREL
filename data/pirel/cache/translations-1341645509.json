@@ -1,0 +1,23 @@
+{
+  "template": "__ >= 65 and __ <= 122",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "ch >= 65 and ch <= 122",
+  "translations": {
+    "a >= 65 and a <= 122": [
+      "a >= 65 && a <= 122"
+    ],
+    "b >= 65 and b <= 122": [
+      "b >= 65 && b <= 122;"
+    ],
+    "c >= 65 and c <= 122": [
+      "c >= 65 && c <= 122"
+    ],
+    "x >= 65 and x <= 122": [
+      "x >= 65 && x <= 122;"
+    ],
+    "y >= 65 and y <= 122": [
+      "y >= 65 && y <= 122"
+    ]
+  }
+}

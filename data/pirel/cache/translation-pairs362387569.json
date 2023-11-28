@@ -1,0 +1,52 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(board: __[__[str]]) -> None:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(board: List[List[str]]) -> None:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    8,
+    10
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(board: List[List[dict]]) -> None:\n    some_secret_fn_4071()",
+        "target": "function f_gold(board) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(board: list[list[str]]) -> None:\n    some_secret_fn_4071()",
+        "target": "function f_gold(board) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(board: List[List[tuple]]) -> None:\n    some_secret_fn_4071()",
+        "target": "function f_gold(board) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(board: list[list[str]]) -> None:\n    some_secret_fn_4071()",
+        "target": "function f_gold(board) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(board: List[List[set]]) -> None:\n    some_secret_fn_4071()",
+        "target": "function f_gold(board) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(board: list[list[str]]) -> None:\n    some_secret_fn_4071()",
+        "target": "function f_gold(board) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(board: List[List[Any]]) -> None:\n    some_secret_fn_4071()",
+        "target": "function f_gold(board) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(board: list[list[str]]) -> None:\n    some_secret_fn_4071()",
+        "target": "function f_gold(board) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

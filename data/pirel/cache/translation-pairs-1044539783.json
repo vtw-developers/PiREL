@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__ < right and top < bottom",
+  "template_origin": "left < right and top < bottom",
+  "templatized_node_ids": [
+    4
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "a < right and top < bottom",
+        "target": "a < right && top < bottom"
+      },
+      {
+        "source": "b < right and top < bottom",
+        "target": "b < right && top < bottom"
+      }
+    ],
+    [
+      {
+        "source": "a < right and top < bottom",
+        "target": "a < right && top < bottom"
+      },
+      {
+        "source": "c < right and top < bottom",
+        "target": "c < right && top < bottom"
+      }
+    ],
+    [
+      {
+        "source": "a < right and top < bottom",
+        "target": "a < right && top < bottom"
+      },
+      {
+        "source": "d < right and top < bottom",
+        "target": "d < right && top < bottom"
+      }
+    ],
+    [
+      {
+        "source": "a < right and top < bottom",
+        "target": "a < right && top < bottom"
+      },
+      {
+        "source": "e < right and top < bottom",
+        "target": "e < right && top < bottom"
+      }
+    ],
+    [
+      {
+        "source": "b < right and top < bottom",
+        "target": "b < right && top < bottom"
+      },
+      {
+        "source": "c < right and top < bottom",
+        "target": "c < right && top < bottom"
+      }
+    ],
+    [
+      {
+        "source": "b < right and top < bottom",
+        "target": "b < right && top < bottom"
+      },
+      {
+        "source": "d < right and top < bottom",
+        "target": "d < right && top < bottom"
+      }
+    ],
+    [
+      {
+        "source": "b < right and top < bottom",
+        "target": "b < right && top < bottom"
+      },
+      {
+        "source": "e < right and top < bottom",
+        "target": "e < right && top < bottom"
+      }
+    ],
+    [
+      {
+        "source": "c < right and top < bottom",
+        "target": "c < right && top < bottom"
+      },
+      {
+        "source": "d < right and top < bottom",
+        "target": "d < right && top < bottom"
+      }
+    ],
+    [
+      {
+        "source": "c < right and top < bottom",
+        "target": "c < right && top < bottom"
+      },
+      {
+        "source": "e < right and top < bottom",
+        "target": "e < right && top < bottom"
+      }
+    ],
+    [
+      {
+        "source": "d < right and top < bottom",
+        "target": "d < right && top < bottom"
+      },
+      {
+        "source": "e < right and top < bottom",
+        "target": "e < right && top < bottom"
+      }
+    ]
+  ]
+}

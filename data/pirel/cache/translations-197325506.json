@@ -1,0 +1,108 @@
+{
+  "template": "not used[__]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "not used[i]",
+  "translations": {
+    "not used[NotImplemented]": [
+      "// not used[NotImplemented]"
+    ],
+    "not used[_]": [
+      "// This line of code is not doing anything in Python.\n// It can be safely ignored in the JavaScript translation.",
+      "// Ignore this line in JavaScript",
+      "// Ignore the 'not used[_]' statement in Python, as it is not necessary in JavaScript.",
+      "// This line of code has no effect in Python, so it can be ignored in the JavaScript translation."
+    ],
+    "not used[_1]": [
+      "// JavaScript does not have an equivalent syntax for unused variables.\n// You can simply remove the line \"not used[_1]\" from the JavaScript program."
+    ],
+    "not used[x]": [
+      "// In JavaScript, we don't have the 'not used' syntax.\n// So, we can just omit it.\n\n[x];",
+      "// The Python code `not used[x]` seems to be a syntax error.\n// Assuming `used` is an array and `x` is an index, you can achieve the same behavior in JavaScript using the following code:\n\nif (!used[x]) {\n    // code when `used[x]` is falsy\n}",
+      "// JavaScript does not have an equivalent syntax for Python's `not` keyword\n// Assuming `used` is an array, the following JavaScript code would be semantically equivalent to the given Python code:\nused[x];",
+      "unused[x];"
+    ],
+    "not used[item]": [
+      "// JavaScript does not have a direct equivalent for this Python statement.\n// If you want to achieve the same effect, you can simply comment out the statement.\n// not used[item];"
+    ],
+    "not used[val]": [
+      "// JavaScript does not have an equivalent syntax for accessing an element from a list without using it"
+    ],
+    "not used[placeholder]": [
+      "// This line of code is not used and can be ignored in the translation.",
+      "// Ignoring unused variable"
+    ],
+    "not used[var]": [
+      "// JavaScript does not have the concept of unused variables, so we can simply remove the line"
+    ],
+    "not used[_unused]": [
+      "// JavaScript does not have an equivalent syntax for this Python statement.\n// We can simply remove it."
+    ],
+    "not used[obj]": [
+      "\"not used\"[obj];"
+    ],
+    "not used[element]": [
+      "unused[element];"
+    ],
+    "not used[not_used_variable]": [
+      "not_used[not_used_variable];",
+      "// JavaScript does not have the concept of unused variables, so we can simply remove this line"
+    ],
+    "not used[value]": [
+      "// This line of code is invalid in JavaScript because it tries to access an undefined variable.\n// In JavaScript, you cannot use square brackets to access an element of an undefined variable.\n// If you want to check if a variable is defined or not, you can use the typeof operator.\n// For example:\nif (typeof value !== 'undefined') {\n    // do something with value\n}"
+    ],
+    "not used[_42]": [
+      "// Ignoring the not used[_42] expression since it has no effect in the program"
+    ],
+    "not used[_temp]": [
+      "// This line of code is not valid in JavaScript and can be ignored as it is not used."
+    ],
+    "not used[abc]": [
+      "// This line of code is not valid in JavaScript, so it can be ignored."
+    ],
+    "not used[undefined]": [
+      "// JavaScript does not have the concept of undefined lists, so we can simply remove this line of code."
+    ],
+    "not used[_hole]": [
+      "// Ignoring the statement as it is not valid JavaScript"
+    ],
+    "not used[foo]": [],
+    "not used[bar]": [
+      "var bar;\nnot used[bar];"
+    ],
+    "not used[a]": [
+      "// This line of code cannot be translated into JavaScript as it is not a valid syntax in JavaScript\n// Depending on the context, you can either remove this line or comment it out in the JavaScript program"
+    ],
+    "not used[b]": [],
+    "not used[c]": [
+      "// Ignoring the expression `not used[c]` as it is not semantically meaningful in JavaScript"
+    ],
+    "not used[d]": [
+      "// In JavaScript, variables can be declared without being used,\n// so you can simply omit the line\n\n// not used[d]"
+    ],
+    "not used[e]": [
+      "// This line of code cannot be translated into a semantically equivalent JavaScript program because it is syntactically incorrect."
+    ],
+    "not used[f]": [
+      "// Ignoring the expression as it is not used in JavaScript"
+    ],
+    "not used[g]": [
+      "// This line of code is not used in the program."
+    ],
+    "not used[h]": [
+      "// Ignoring the line as it is not used in the program"
+    ],
+    "not used[i]": [
+      "// JavaScript does not have a direct equivalent of Python's \"not\" operator\n// Assuming \"not used[i]\" is a condition\nif (!used[i]) {\n    // code to execute if condition is true\n}"
+    ],
+    "not used[j]": [
+      "used[j];"
+    ],
+    "not used[my_var]": [
+      "// This line of code cannot be directly translated to JavaScript as it is not a valid JavaScript syntax. \n// In JavaScript, we cannot access a non-existent element in an array directly.\n// If you want to check if an element does not exist in an array, you can use the `includes` method.\n\n// For example:\n// if (!used.includes(my_var)) {\n//     // Code here...\n// }"
+    ],
+    "not used[_token_]": [
+      "// Ignoring the Python-specific syntax that is not applicable in JavaScript\n\nnot used[_token_];"
+    ]
+  }
+}

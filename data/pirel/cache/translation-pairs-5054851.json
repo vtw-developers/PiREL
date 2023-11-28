@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "sign = -1 if __[i] == '-' else 1",
+  "template_origin": "sign = -1 if s[i] == '-' else 1",
+  "templatized_node_ids": [
+    9
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "sign = -1 if items[i] == '-' else 1",
+        "target": "var sign = (items[i] == '-') ? -1 : 1;"
+      },
+      {
+        "source": "sign = -1 if data[i] == '-' else 1",
+        "target": "var sign = (data[i] == '-') ? -1 : 1;"
+      }
+    ]
+  ]
+}

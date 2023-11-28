@@ -1,0 +1,48 @@
+{
+  "template": "not __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "not res",
+  "translations": {
+    "not a": [
+      "!a;"
+    ],
+    "not b": [
+      "!b;"
+    ],
+    "not c": [],
+    "not x": [
+      "!x;"
+    ],
+    "not y": [
+      "!y;"
+    ],
+    "not z": [
+      "!z;"
+    ],
+    "not var": [
+      "!var;"
+    ],
+    "not value": [
+      "!value;"
+    ],
+    "not result": [
+      "!result;"
+    ],
+    "not obj": [
+      "!obj;"
+    ],
+    "not foo": [
+      "!foo;"
+    ],
+    "not bar": [],
+    "not spam": [
+      "!spam;"
+    ],
+    "not eggs": [],
+    "not baz": [
+      "!baz;"
+    ],
+    "not qux": []
+  }
+}

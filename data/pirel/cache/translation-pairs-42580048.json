@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(candidates: __[int], target: int) -> List[List[int]]:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(candidates: List[int], target: int) -> List[List[int]]:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(candidates: List[int], target: int) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(candidates, target) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(candidates: list[int], target: int) -> list[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(candidates, target) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(candidates: List[int], target: int) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(candidates, target) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(candidates: list[int], target: int) -> list[list[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(candidates, target) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(candidates: list[int], target: int) -> list[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(candidates, target) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(candidates: List[float], target: int) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(candidates, target) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(candidates: list[int], target: int) -> list[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(candidates, target) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(candidates: List[str], target: int) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(candidates, target) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(candidates: list[int], target: int) -> list[list[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(candidates, target) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(candidates: List[float], target: int) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(candidates, target) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(candidates: list[int], target: int) -> list[list[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(candidates, target) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(candidates: List[str], target: int) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(candidates, target) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

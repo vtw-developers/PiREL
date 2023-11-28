@@ -1,0 +1,113 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "len(__[j]) <= i or __[j][i] != __[0][i]",
+  "template_origin": "len(strs[j]) <= i or strs[j][i] != strs[0][i]",
+  "templatized_node_ids": [
+    8,
+    14,
+    19
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "len(arr[j]) <= i or arr[j][i] != arr[0][i]",
+        "target": "arr[j].length <= i || arr[j][i] !== arr[0][i]"
+      },
+      {
+        "source": "len(lst[j]) <= i or lst[j][i] != lst[0][i]",
+        "target": "lst[j].length <= i || lst[j][i] !== lst[0][i]"
+      }
+    ],
+    [
+      {
+        "source": "len(arr[j]) <= i or arr[j][i] != arr[0][i]",
+        "target": "arr[j].length <= i || arr[j][i] !== arr[0][i]"
+      },
+      {
+        "source": "len(data[j]) <= i or data[j][i] != data[0][i]",
+        "target": "data[j].length <= i || data[j][i] !== data[0][i]"
+      }
+    ],
+    [
+      {
+        "source": "len(arr[j]) <= i or arr[j][i] != arr[0][i]",
+        "target": "arr[j].length <= i || arr[j][i] !== arr[0][i]"
+      },
+      {
+        "source": "len(matrix[j]) <= i or matrix[j][i] != matrix[0][i]",
+        "target": "matrix[j].length <= i || matrix[j][i] !== matrix[0][i]"
+      }
+    ],
+    [
+      {
+        "source": "len(arr[j]) <= i or arr[j][i] != arr[0][i]",
+        "target": "arr[j].length <= i || arr[j][i] !== arr[0][i]"
+      },
+      {
+        "source": "len(items[j]) <= i or items[j][i] != items[0][i]",
+        "target": "items[j].length <= i || items[j][i] !== items[0][i]"
+      }
+    ],
+    [
+      {
+        "source": "len(lst[j]) <= i or lst[j][i] != lst[0][i]",
+        "target": "lst[j].length <= i || lst[j][i] !== lst[0][i]"
+      },
+      {
+        "source": "len(data[j]) <= i or data[j][i] != data[0][i]",
+        "target": "data[j].length <= i || data[j][i] !== data[0][i]"
+      }
+    ],
+    [
+      {
+        "source": "len(lst[j]) <= i or lst[j][i] != lst[0][i]",
+        "target": "lst[j].length <= i || lst[j][i] !== lst[0][i]"
+      },
+      {
+        "source": "len(matrix[j]) <= i or matrix[j][i] != matrix[0][i]",
+        "target": "matrix[j].length <= i || matrix[j][i] !== matrix[0][i]"
+      }
+    ],
+    [
+      {
+        "source": "len(lst[j]) <= i or lst[j][i] != lst[0][i]",
+        "target": "lst[j].length <= i || lst[j][i] !== lst[0][i]"
+      },
+      {
+        "source": "len(items[j]) <= i or items[j][i] != items[0][i]",
+        "target": "items[j].length <= i || items[j][i] !== items[0][i]"
+      }
+    ],
+    [
+      {
+        "source": "len(data[j]) <= i or data[j][i] != data[0][i]",
+        "target": "data[j].length <= i || data[j][i] !== data[0][i]"
+      },
+      {
+        "source": "len(matrix[j]) <= i or matrix[j][i] != matrix[0][i]",
+        "target": "matrix[j].length <= i || matrix[j][i] !== matrix[0][i]"
+      }
+    ],
+    [
+      {
+        "source": "len(data[j]) <= i or data[j][i] != data[0][i]",
+        "target": "data[j].length <= i || data[j][i] !== data[0][i]"
+      },
+      {
+        "source": "len(items[j]) <= i or items[j][i] != items[0][i]",
+        "target": "items[j].length <= i || items[j][i] !== items[0][i]"
+      }
+    ],
+    [
+      {
+        "source": "len(matrix[j]) <= i or matrix[j][i] != matrix[0][i]",
+        "target": "matrix[j].length <= i || matrix[j][i] !== matrix[0][i]"
+      },
+      {
+        "source": "len(items[j]) <= i or items[j][i] != items[0][i]",
+        "target": "items[j].length <= i || items[j][i] !== items[0][i]"
+      }
+    ]
+  ]
+}

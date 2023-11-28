@@ -1,0 +1,218 @@
+{
+  "template": "[__[int(d) - 2] for d in digits]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[chars[int(d) - 2] for d in digits]",
+  "translations": {
+    "[nums[int(d) - 2] for d in digits]": [
+      "digits.map(d => nums[parseInt(d) - 2]);",
+      "digits.map(d => nums[parseInt(d) - 2]);",
+      "digits.map(d => nums[parseInt(d) - 2]);"
+    ],
+    "[vals[int(d) - 2] for d in digits]": [
+      "var result = [];\nfor (var i = 0; i < digits.length; i++) {\n    result.push(vals[parseInt(digits[i]) - 2]);\n}"
+    ],
+    "[items[int(d) - 2] for d in digits]": [
+      "let result = digits.map(d => items[parseInt(d) - 2]);",
+      "digits.map(d => items[parseInt(d) - 2]);",
+      "digits.map(d => items[parseInt(d) - 2]);"
+    ],
+    "[data[int(d) - 2] for d in digits]": [
+      "digits.map(d => data[parseInt(d) - 2]);",
+      "digits.map(d => data[parseInt(d) - 2]);",
+      "let result = digits.map(d => data[parseInt(d) - 2]);"
+    ],
+    "[values[int(d) - 2] for d in digits]": [
+      "digits.map(d => values[parseInt(d) - 2]);",
+      "digits.map(d => values[parseInt(d) - 2]);",
+      "digits.map(d => values[parseInt(d) - 2]);"
+    ],
+    "[array[int(d) - 2] for d in digits]": [
+      "digits.map(d => array[parseInt(d) - 2]);",
+      "digits.map(d => array[parseInt(d) - 2]);"
+    ],
+    "[elements[int(d) - 2] for d in digits]": [
+      "digits.map(d => elements[parseInt(d) - 2]);",
+      "var result = [];\nfor (var i = 0; i < digits.length; i++) {\n    result.push(elements[parseInt(digits[i]) - 2]);\n}",
+      "digits.map(d => elements[parseInt(d) - 2]);"
+    ],
+    "[letters[int(d) - 2] for d in digits]": [
+      "digits.map(d => letters[parseInt(d) - 2]);",
+      "digits.map(d => letters[Number(d) - 2]);"
+    ],
+    "[characters[int(d) - 2] for d in digits]": [
+      "digits.map(d => characters[parseInt(d) - 2]);",
+      "digits.map(d => characters[Number(d) - 2]);"
+    ],
+    "[indices[int(d) - 2] for d in digits]": [
+      "digits.map(d => indices[parseInt(d) - 2]);",
+      "digits.map(d => indices[parseInt(d) - 2]);"
+    ],
+    "[elem[int(d) - 2] for d in digits]": [
+      "digits.map(d => elem[parseInt(d) - 2]);"
+    ],
+    "[items_list[int(d) - 2] for d in digits]": [
+      "let result = digits.map(d => items_list[parseInt(d) - 2]);",
+      "digits.map(d => items_list[parseInt(d) - 2]);"
+    ],
+    "[element[int(d) - 2] for d in digits]": [
+      "digits.map(d => element[parseInt(d) - 2]);"
+    ],
+    "[num_list[int(d) - 2] for d in digits]": [
+      "digits.map(d => num_list[parseInt(d) - 2]);",
+      "digits.map(d => num_list[parseInt(d) - 2]);"
+    ],
+    "[index[int(d) - 2] for d in digits]": [
+      "digits.map(d => index[parseInt(d) - 2]);"
+    ],
+    "[result[int(d) - 2] for d in digits]": [
+      "digits.map(d => result[parseInt(d) - 2]);"
+    ],
+    "[__[int(d) - 2] for d in __]": [
+      "__map((d) => __[parseInt(d) - 2]);",
+      "___.map(d => __[parseInt(d) - 2]);"
+    ],
+    "[__[int(d) - 2] for __ in digits]": [
+      "digits.map(__ => __[parseInt(d) - 2]);",
+      "digits.map(__ => __[Number(d) - 2]);"
+    ],
+    "[__[int(d) - 2] for __ in __]": [
+      "__array = __.map(__ => __[parseInt(d) - 2]);",
+      "__array = __.map(__ => __[Number(d) - 2]);"
+    ],
+    "[variable[int(d) - 2] for d in digits]": [
+      "digits.map(d => variable[parseInt(d) - 2]);",
+      "digits.map(d => variable[parseInt(d) - 2]);"
+    ],
+    "[my_list[int(d) - 2] for d in digits]": [
+      "let result = digits.map(d => my_list[parseInt(d) - 2]);",
+      "digits.map(d => my_list[parseInt(d) - 2]);",
+      "digits.map(d => my_list[parseInt(d) - 2]);"
+    ],
+    "[sequence[int(d) - 2] for d in digits]": [
+      "digits.map(d => sequence[parseInt(d) - 2]);",
+      "digits.map(d => sequence[Number(d) - 2]);"
+    ],
+    "[numbers[int(d) - 2] for d in digits]": [
+      "digits.map(d => numbers[parseInt(d) - 2]);"
+    ],
+    "[data_list[int(d) - 2] for d in digits]": [
+      "digits.map(d => data_list[parseInt(d) - 2]);"
+    ],
+    "[array_data[int(d) - 2] for d in digits]": [
+      "digits.map(d => array_data[parseInt(d) - 2]);"
+    ],
+    "[digits[int(d) - 2] for d in digits]": [
+      "digits.map(d => digits[parseInt(d) - 2]);",
+      "digits.map(d => digits[parseInt(d) - 2]);",
+      "digits.map(d => digits[parseInt(d) - 2]);"
+    ],
+    "[__[int(d) - 2] for d in digits]": [
+      "digits.map(d => digits[parseInt(d) - 2]);",
+      "digits.map(d => __[d - 2]);"
+    ],
+    "[list[int(d) - 2] for d in digits]": [
+      "digits.map(d => parseInt(d) - 2);"
+    ],
+    "[values_list[int(d) - 2] for d in digits]": [
+      "digits.map(d => values_list[Number(d) - 2]);",
+      "digits.map(d => values_list[parseInt(d) - 2]);",
+      "digits.map(d => values_list[parseInt(d) - 2]);"
+    ],
+    "[output[int(d) - 2] for d in digits]": [
+      "digits.map(d => output[parseInt(d) - 2]);",
+      "digits.map(d => output[parseInt(d) - 2]);"
+    ],
+    "[digit[int(d) - 2] for d in digits]": [
+      "digits.map(d => digit[parseInt(d) - 2]);",
+      "digits.map(d => digit[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 2] for d in digits]": [
+      "digits.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[abs[int(d) - 2] for d in digits]": [
+      "var result = [];\nfor (var i = 0; i < digits.length; i++) {\n    result.push(Math.abs(parseInt(digits[i]) - 2));\n}"
+    ],
+    "[str[int(d) - 2] for d in digits]": [
+      "digits.map(d => str[parseInt(d) - 2]);"
+    ],
+    "[float[int(d) - 2] for d in digits]": [
+      "digits.map(d => parseFloat(d) - 2);"
+    ],
+    "[bool[int(d) - 2] for d in digits]": [
+      "digits.map(d => Boolean(parseInt(d) - 2));"
+    ],
+    "[sum[int(d) - 2] for d in digits]": [
+      "digits.map(d => sum[d - 2]);"
+    ],
+    "[_[int(d) - 2] for d in digits]": [
+      "digits.map(d => _[parseInt(d) - 2]);"
+    ],
+    "[object[int(d) - 2] for d in digits]": [
+      "digits.map(d => object[parseInt(d) - 2]);"
+    ],
+    "[dict[int(d) - 2] for d in digits]": [
+      "digits.map(d => dict[d - 2]);"
+    ],
+    "[len[int(d) - 2] for d in digits]": [
+      "digits.map(d => parseInt(d) - 2).map(len);"
+    ],
+    "[__[str(d) - 2] for d in digits]": [
+      "digits.map(d => String(d - 2));"
+    ],
+    "[x[int(d) - 2] for d in digits]": [
+      "let result = digits.map(d => x[parseInt(d) - 2]);"
+    ],
+    "[arr[int(d) - 2] for d in digits]": [
+      "digits.map(d => arr[parseInt(d) - 2]);"
+    ],
+    "[strings[int(d) - 2] for d in digits]": [
+      "digits.map(d => strings[parseInt(d) - 2]);"
+    ],
+    "[d[int(d) - 2] for d in digits]": [
+      "digits.map(d => parseInt(d) - 2).map(d => d[int(d)]);"
+    ],
+    "[int[int(d) - 2] for d in digits]": [
+      "digits.map(d => parseInt(d) - 2);"
+    ],
+    "[numbers_list[int(d) - 2] for d in digits]": [
+      "digits.map(d => numbers_list[parseInt(d) - 2]);"
+    ],
+    "[digits[int(d) + 2] for d in digits]": [
+      "digits.map(d => digits[parseInt(d) + 2]);"
+    ],
+    "[digit[int(d) + 2] for d in digits]": [
+      "digits.map(d => digit[parseInt(d) + 2]);"
+    ],
+    "[digits[int(d) * 2] for d in digits]": [
+      "digits.map(d => digits[parseInt(d) * 2]);"
+    ],
+    "[digit[int(d) * 2] for d in digits]": [
+      "digits.map(d => digit[parseInt(d) * 2]);"
+    ],
+    "[function_name[int(d) - 2] for d in digits]": [
+      "digits.map(d => function_name[parseInt(d) - 2]);"
+    ],
+    "[object_name[int(d) - 2] for d in digits]": [
+      "digits.map(d => object_name[parseInt(d) - 2]);"
+    ],
+    "[expression[int(d) - 2] for d in digits]": [
+      "digits.map(d => expression[parseInt(d) - 2]);"
+    ],
+    "[my_dict[int(d) - 2] for d in digits]": [
+      "digits.map(d => my_dict[parseInt(d) - 2]);"
+    ],
+    "[my_tuple[int(d) - 2] for d in digits]": [
+      "digits.map(d => my_tuple[parseInt(d) - 2]);"
+    ],
+    "[my_set[int(d) - 2] for d in digits]": [
+      "digits.map(d => my_set[parseInt(d) - 2]);"
+    ],
+    "[my_string[int(d) - 2] for d in digits]": [
+      "let result = digits.map(d => my_string[parseInt(d) - 2]);"
+    ],
+    "[my_variable[int(d) - 2] for d in digits]": [
+      "digits.map(d => my_variable[parseInt(d) - 2]);"
+    ]
+  }
+}

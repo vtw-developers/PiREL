@@ -1,0 +1,30 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.function_definition\"",
+        [
+          "str",
+          "\"def\""
+        ],
+        "\"*\""
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      [
+        "\"js.function_declaration\"",
+        [
+          "str",
+          "\"function\""
+        ],
+        "\"*1\""
+      ],
+      "\"*2\""
+    ]
+  ]
+}

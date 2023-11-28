@@ -1,0 +1,14 @@
+/*.c
+/*.so
+/*.html
+/*--old
+
+## everything below was added by @satbek
+# generated artifacts (not important)
+/out/
+
+# temporary files
+/temporary*
+
+# json files formatter
+/format.sh

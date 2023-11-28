@@ -1,0 +1,160 @@
+{
+  "generated_codes_stats": [
+    [
+      0,
+      {
+        "generated_code": "midVal1 = val1 if condition else val2",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      1,
+      {
+        "generated_code": "midVal1 = 7 if True else 3",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      2,
+      {
+        "generated_code": "midVal1 = 1 if (2 < 3) else 0",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": false
+      }
+    ],
+    [
+      3,
+      {
+        "generated_code": "midVal1 = val1 if condition else val2",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      4,
+      {
+        "generated_code": "midVal1 = 10 if True else 20",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      5,
+      {
+        "generated_code": "midVal1 = 'Success' if flag else 'Failure'",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": false
+      }
+    ],
+    [
+      6,
+      {
+        "generated_code": "midVal1 = value1 if condition else value2",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      7,
+      {
+        "generated_code": "midVal1 = \"Yes\" if True else \"No\"",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": false
+      }
+    ],
+    [
+      8,
+      {
+        "generated_code": "midVal1 = 5 if check_value else 0",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      9,
+      {
+        "generated_code": "midVal1 = val1 if condition1 else val2",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      10,
+      {
+        "generated_code": "midVal1 = 10 if True else 20",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      11,
+      {
+        "generated_code": "midVal1 = 0 if is_empty else item",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      12,
+      {
+        "generated_code": "midVal1 = val1 if condition else val2",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      13,
+      {
+        "generated_code": "midVal1 = 5 if True else 10",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      14,
+      {
+        "generated_code": "midVal1 = function1() if checkFunction() else function2()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "templatized_nodes_depth_lte_2": false
+      }
+    ]
+  ],
+  "num_progs_satisfy_criteria": 11,
+  "success": true,
+  "two_source_programs": [
+    "midVal1 = val1 if condition else val2",
+    "midVal1 = 7 if True else 3"
+  ]
+}

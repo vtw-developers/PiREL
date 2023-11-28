@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(strs: __[str]) -> str:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(strs: List[str]) -> str:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(strs: list[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(strs: tuple[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(strs: list[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(strs: set[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(strs: list[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(strs: frozenset[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(strs: list[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(strs: Sequence[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(strs: tuple[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(strs: set[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(strs: tuple[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(strs: frozenset[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(strs: tuple[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(strs: Sequence[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(strs: set[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(strs: frozenset[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(strs: set[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(strs: Sequence[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(strs: frozenset[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(strs: Sequence[str]) -> str:\n    some_secret_fn_4071()",
+        "target": "function f_gold(strs) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

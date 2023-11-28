@@ -1,0 +1,36 @@
+{
+  "template": "t in __ or t not in words",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "t in m1 or t not in words",
+  "translations": {
+    "t in my_list or t not in words": [
+      "my_list.includes(t) || !words.includes(t);"
+    ],
+    "t in data or t not in words": [
+      "!(data.includes(t) || !words.includes(t))"
+    ],
+    "t in my_variable or t not in words": [],
+    "t in my_set or t not in words": [
+      "my_set.has(t) || !words.includes(t)"
+    ],
+    "t in my_dict or t not in words": [
+      "!(t in my_dict) || !(t in words)"
+    ],
+    "t in my_tuple or t not in words": [
+      "my_tuple.includes(t) || !words.includes(t);"
+    ],
+    "t in my_string or t not in words": [
+      "my_string.includes(t) || !words.includes(t)"
+    ],
+    "t in my_iterable or t not in words": [
+      "!my_iterable.includes(t) || !words.includes(t)"
+    ],
+    "t in my_collection or t not in words": [
+      "my_collection.includes(t) || !words.includes(t);"
+    ],
+    "t in values or t not in words": [
+      "values.includes(t) || !words.includes(t);"
+    ]
+  }
+}

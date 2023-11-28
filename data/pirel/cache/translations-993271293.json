@@ -1,0 +1,38 @@
+{
+  "template": "[[grid[0][0]] * n for _ in range(__)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[[grid[0][0]] * n for _ in range(m)]",
+  "translations": {
+    "[[grid[0][0]] * n for _ in range(n)]": [
+      "Array(n).fill(Array(n).fill(grid[0][0]));"
+    ],
+    "[[grid[0][0]] * n for _ in range(m)]": [
+      "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+    ],
+    "[[grid[0][0]] * n for x in range(m)]": [
+      "let result = Array(m).fill(Array(n).fill(grid[0][0]));"
+    ],
+    "[[grid[0][0]] * n for _ in range(a)]": [
+      "let result = [];\nfor (let _ = 0; _ < a; _++) {\n    result.push(Array(n).fill(grid[0][0]));\n}"
+    ],
+    "[[grid[0][0]] * n for _ in range(b)]": [
+      "let result = [];\nfor (let i = 0; i < b; i++) {\n    let row = [];\n    for (let j = 0; j < n; j++) {\n        row.push(grid[0][0]);\n    }\n    result.push(row);\n}"
+    ],
+    "[[grid[0][0]] * n for _ in range(x)]": [
+      "let result = [];\nfor (let _ = 0; _ < x; _++) {\n    let innerArray = [];\n    for (let i = 0; i < n; i++) {\n        innerArray.push(grid[0][0]);\n    }\n    result.push(innerArray);\n}"
+    ],
+    "[[grid[0][0]] * n for _ in range(y)]": [
+      "Array.from({ length: y }, () => Array(n).fill(grid[0][0]));"
+    ],
+    "[[grid[0][0]] * n for row in range(m)]": [
+      "Array.from({length: m}, () => new Array(n).fill(grid[0][0]));"
+    ],
+    "[[grid[0][0]] * n for i in range(m)]": [
+      "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+    ],
+    "[[grid[0][0]] * n for j in range(m)]": [
+      "Array.from({ length: m }, () => Array(n).fill(grid[0][0]));"
+    ]
+  }
+}

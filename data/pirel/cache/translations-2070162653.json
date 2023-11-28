@@ -1,0 +1,28 @@
+{
+  "template": "nums[mid] < nums[__] or nums[mid] < nums[l]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "nums[mid] < nums[r] or nums[mid] < nums[l]",
+  "translations": {
+    "nums[mid] < nums[i] or nums[mid] < nums[l]": [],
+    "nums[mid] < nums[j] or nums[mid] < nums[l]": [
+      "nums[mid] < nums[j] || nums[mid] < nums[l];"
+    ],
+    "nums[mid] < nums[k] or nums[mid] < nums[l]": [
+      "nums[mid] < nums[k] || nums[mid] < nums[l]"
+    ],
+    "nums[mid] < nums[m] or nums[mid] < nums[l]": [],
+    "nums[mid] < nums[n] or nums[mid] < nums[l]": [],
+    "nums[mid] < nums[o] or nums[mid] < nums[l]": [],
+    "nums[mid] < nums[p] or nums[mid] < nums[l]": [
+      "nums[mid] < nums[p] || nums[mid] < nums[l];"
+    ],
+    "nums[mid] < nums[q] or nums[mid] < nums[l]": [
+      "nums[mid] < nums[q] || nums[mid] < nums[l]"
+    ],
+    "nums[mid] < nums[r] or nums[mid] < nums[l]": [
+      "nums[mid] < nums[r] || nums[mid] < nums[l];"
+    ],
+    "nums[mid] < nums[s] or nums[mid] < nums[l]": []
+  }
+}

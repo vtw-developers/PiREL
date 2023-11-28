@@ -1,0 +1,23 @@
+{
+  "template": "__, y = divmod(mid, n)",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "x, y = divmod(mid, n)",
+  "translations": {
+    "_, y = divmod(mid, n)": [
+      "let [, y] = divmod(mid, n);"
+    ],
+    "temp, y = divmod(mid, n)": [
+      "let [temp, y] = [Math.floor(mid / n), mid % n];"
+    ],
+    "result, y = divmod(mid, n)": [
+      "let [result, y] = [Math.floor(mid / n), mid % n];"
+    ],
+    "quotient, y = divmod(mid, n)": [
+      "let quotient = Math.floor(mid / n);\nlet y = mid % n;"
+    ],
+    "value, y = divmod(mid, n)": [
+      "let [value, y] = [Math.floor(mid / n), mid % n];"
+    ]
+  }
+}

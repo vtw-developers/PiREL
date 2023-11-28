@@ -1,0 +1,42 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__[i] or (i > 0 and nums[i] == nums[i - 1] and not __[i - 1])",
+  "template_origin": "used[i] or (i > 0 and nums[i] == nums[i - 1] and not used[i - 1])",
+  "templatized_node_ids": [
+    4,
+    23
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums[i] or (i > 0 and nums[i] == nums[i - 1] and not nums[i - 1])",
+        "target": "nums[i] || (i > 0 && nums[i] === nums[i - 1] && !nums[i - 1]);"
+      },
+      {
+        "source": "lst[i] or (i > 0 and lst[i] == lst[i - 1] and not lst[i - 1])",
+        "target": "lst[i] || (i > 0 && lst[i] === lst[i - 1] && !lst[i - 1]);"
+      }
+    ],
+    [
+      {
+        "source": "nums[i] or (i > 0 and nums[i] == nums[i - 1] and not nums[i - 1])",
+        "target": "nums[i] || (i > 0 && nums[i] === nums[i - 1] && !nums[i - 1]);"
+      },
+      {
+        "source": "elements[i] or (i > 0 and elements[i] == elements[i - 1] and not elements[i - 1])",
+        "target": "elements[i] || (i > 0 && elements[i] === elements[i - 1] && !elements[i - 1]);"
+      }
+    ],
+    [
+      {
+        "source": "lst[i] or (i > 0 and lst[i] == lst[i - 1] and not lst[i - 1])",
+        "target": "lst[i] || (i > 0 && lst[i] === lst[i - 1] && !lst[i - 1]);"
+      },
+      {
+        "source": "elements[i] or (i > 0 and elements[i] == elements[i - 1] and not elements[i - 1])",
+        "target": "elements[i] || (i > 0 && elements[i] === elements[i - 1] && !elements[i - 1]);"
+      }
+    ]
+  ]
+}

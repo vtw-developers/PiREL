@@ -1,0 +1,3 @@
+[
+  "(match_expand\n  (fragment (\"py.comparison_operator\" \".\" (str \"<\") \".\") \"*\")\n  (fragment (\"js.parenthesized_expression\" (str \"(\") (\"js.binary_expression\" \".1\" (str \"<\") \".2\") (str \")\")) \"*3\")\n)"
+]

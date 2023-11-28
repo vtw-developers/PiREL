@@ -1,0 +1,23 @@
+{
+  "template": "def __(digits: str) -> List[str]:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(digits: str) -> List[str]:\n    some_secret_fn_4071()",
+  "translations": {
+    "def variant1(digits: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function variant1(digits) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def variant2(numbers: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function variant2(numbers) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def variant3(sequence: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function variant3(sequence) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def variant4(chars: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function variant4(chars) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def variant5(values: str) -> List[str]:\n    some_secret_fn_4071()": [
+      "function variant5(values) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

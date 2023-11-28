@@ -1,0 +1,72 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "left == __ and right == __",
+  "template_origin": "left == n and right == n",
+  "templatized_node_ids": [
+    5,
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "left == x and right == x",
+        "target": "left === x && right === x"
+      },
+      {
+        "source": "left == y and right == y",
+        "target": "left === y && right === y"
+      }
+    ],
+    [
+      {
+        "source": "left == x and right == x",
+        "target": "left === x && right === x"
+      },
+      {
+        "source": "left == z and right == z",
+        "target": "left === z && right === z"
+      }
+    ],
+    [
+      {
+        "source": "left == x and right == x",
+        "target": "left === x && right === x"
+      },
+      {
+        "source": "left == b and right == b",
+        "target": "left === b && right === b"
+      }
+    ],
+    [
+      {
+        "source": "left == y and right == y",
+        "target": "left === y && right === y"
+      },
+      {
+        "source": "left == z and right == z",
+        "target": "left === z && right === z"
+      }
+    ],
+    [
+      {
+        "source": "left == y and right == y",
+        "target": "left === y && right === y"
+      },
+      {
+        "source": "left == b and right == b",
+        "target": "left === b && right === b"
+      }
+    ],
+    [
+      {
+        "source": "left == z and right == z",
+        "target": "left === z && right === z"
+      },
+      {
+        "source": "left == b and right == b",
+        "target": "left === b && right === b"
+      }
+    ]
+  ]
+}

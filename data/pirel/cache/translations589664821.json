@@ -1,0 +1,53 @@
+{
+  "template": "def f_gold(obstacleGrid: __[__[int]]) -> int:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(obstacleGrid: List[List[int]]) -> int:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(obstacleGrid: List[List[int]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(obstacleGrid: List[List[float]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(obstacleGrid: List[List[str]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(obstacleGrid: List[List[bool]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(obstacleGrid: List[List[object]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(obstacleGrid: List[List[dict]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(obstacleGrid: List[List[tuple]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(obstacleGrid: List[List[set]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(obstacleGrid: List[List[bytes]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(obstacleGrid: List[list[int]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(obstacleGrid: list[list[int]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(obstacleGrid: List[List[Callable]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(obstacleGrid: List[List[Dict]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(obstacleGrid: List[List[Tuple]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(obstacleGrid: List[List[Union]]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(obstacleGrid) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

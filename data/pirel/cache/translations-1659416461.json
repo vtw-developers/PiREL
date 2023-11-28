@@ -1,0 +1,23 @@
+{
+  "template": "def f_gold(matrix: List[List[__]], target: int) -> bool:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(matrix: List[List[int]], target: int) -> bool:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(matrix: List[List[int]], target: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix, target) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: List[List[float]], target: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix, target) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: List[List[str]], target: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix, target) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: List[List[bool]], target: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix, target) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(matrix: List[List[object]], target: int) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(matrix, target) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

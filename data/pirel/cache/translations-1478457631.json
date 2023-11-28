@@ -1,0 +1,199 @@
+{
+  "template": "### isNumber \nimport __\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "### isNumber \nimport re\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()",
+  "translations": {
+    "# Variant 1\nimport math\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 1\nimport math;\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 2\nimport random\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 2\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 3\nimport sys\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 3\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 6\nimport datetime\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 6\nimport datetime;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 7\nimport os\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 7\nconst os = require('os');\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 8\nimport itertools\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 8\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 9\nimport json\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 9\nimport json;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 10\nimport time\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 10\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 4\nimport datetime\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 4\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 5\nimport collections\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 5\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 6\nimport urllib\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 6\nimport urllib;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 7\nimport itertools\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 7\nimport * as itertools from 'itertools';\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 8\nimport json\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 8\nimport json;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 9\nimport functools\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 9\nconst functools = require('functools');\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 10\nimport os\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 10\nconst os = require('os');\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 4\nimport os\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 4\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 5\nimport datetime\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 5\nconst datetime = require('datetime');\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 6\nimport json\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 6\nimport json;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 7\nimport numpy\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 7\nimport * as numpy from 'numpy';\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 8\nimport pandas\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 8\nimport * as pandas from 'pandas';\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 9\nimport requests\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 9\nconst requests = require('requests');\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 10\nimport unittest\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 10\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 2\nimport sys\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 2\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 3\nimport os\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 3\nconst os = require('os');\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 4\nimport random\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 4\nimport { some_secret_fn_4071 } from './some_module.js';\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 9\nimport re\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 9\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 10\nimport requests\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 10\nconst requests = require('requests');\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 4\nimport sys\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 4\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 5\nimport os\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 5\nimport * as os from \"os\";\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 6\nimport random\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 6\nimport { some_secret_fn_4071 } from './some_secret_fn_4071.js';\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 7\nimport time\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 7\nimport { some_secret_fn_4071 } from './some_secret_fn_4071.js';\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 8\nimport datetime\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 8\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 9\nimport statistics\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 9\nimport statistics;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 10\nimport json\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 10\nimport json;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### isNumber \nimport math\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}",
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### isNumber \nimport os\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// isNumber \nimport os;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}",
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### isNumber \nimport sys\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// isNumber\nimport sys;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}",
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### isNumber \nimport random\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// isNumber\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}",
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### isNumber \nimport time\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### isNumber \nimport urllib\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "const urllib = require('urllib');\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### isNumber \nimport json\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// isNumber \nimport json;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### isNumber \nimport requests\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### isNumber \nimport datetime\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// isNumber\nimport datetime;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}",
+      "function f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### isNumber \nimport numpy\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// isNumber\nimport * as numpy from 'numpy';\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 3\nimport random\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 3\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 6\nimport time\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 6\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 8\nimport re\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 8\nimport { some_secret_fn_4071 } from './some_module.js';\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 9\nimport itertools\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 9\nimport itertools;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 10\nimport collections\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 10\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### isNumber \nimport itertools\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// isNumber \nimport itertools;\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### isNumber \nimport functools\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// isNumber \nimport functools;\nfrom typing import *;\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### isNumber \nimport collections\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// isNumber \nimport collections;\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 7\nimport re\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 7\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 8\nimport urllib\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 8\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 6\nimport re\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 6\nimport re;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 3\nimport math\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 3\nimport * as math from 'math';\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 5\nimport sys\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 5\nimport sys;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 6\nimport os\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 6\nimport os;\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 10\nimport urllib\nfrom typing import *\n\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 10\nconst urllib = require('urllib');\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 7\nimport requests\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 7\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 8\nimport numpy\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 8\nconst numpy = require('numpy');\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 9\nimport pandas\nfrom typing import *\ndef f_gold(s):\n    some_secret_fn_4071()": [
+      "// Variant 9\nimport pandas from 'pandas';\n\nfunction f_gold(s) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

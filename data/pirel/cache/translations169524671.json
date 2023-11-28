@@ -1,0 +1,57 @@
+{
+  "template": "__ if i == numRows else 2 * numRows - 2 * i",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "group if i == numRows else 2 * numRows - 2 * i",
+  "translations": {
+    "x if i == numRows else 2 * numRows - 2 * i": [
+      "i == numRows ? x : 2 * numRows - 2 * i;"
+    ],
+    "y if i == numRows else 2 * numRows - 2 * i": [
+      "i == numRows ? y : 2 * numRows - 2 * i;"
+    ],
+    "z if i == numRows else 2 * numRows - 2 * i": [
+      "i == numRows ? z : 2 * numRows - 2 * i;"
+    ],
+    "a if i == numRows else 2 * numRows - 2 * i": [
+      "i === numRows ? a : 2 * numRows - 2 * i"
+    ],
+    "b if i == numRows else 2 * numRows - 2 * i": [
+      "i == numRows ? b : 2 * numRows - 2 * i;"
+    ],
+    "c if i == numRows else 2 * numRows - 2 * i": [],
+    "d if i == numRows else 2 * numRows - 2 * i": [
+      "i === numRows ? d : 2 * numRows - 2 * i;"
+    ],
+    "e if i == numRows else 2 * numRows - 2 * i": [],
+    "f if i == numRows else 2 * numRows - 2 * i": [
+      "i == numRows ? f : 2 * numRows - 2 * i;"
+    ],
+    "g if i == numRows else 2 * numRows - 2 * i": [
+      "i == numRows ? g : 2 * numRows - 2 * i"
+    ],
+    "i if i == numRows else 2 * numRows - 2 * i": [
+      "i === numRows ? i : 2 * numRows - 2 * i;"
+    ],
+    "j if i == numRows else 2 * numRows - 2 * i": [
+      "i == numRows ? j : 2 * numRows - 2 * i;"
+    ],
+    "n if i == numRows else 2 * numRows - 2 * i": [
+      "i == numRows ? n : 2 * numRows - 2 * i;"
+    ],
+    "num if i == numRows else 2 * numRows - 2 * i": [
+      "i == numRows ? num : 2 * numRows - 2 * i;"
+    ],
+    "val if i == numRows else 2 * numRows - 2 * i": [],
+    "idx if i == numRows else 2 * numRows - 2 * i": [
+      "i == numRows ? idx : 2 * numRows - 2 * i;"
+    ],
+    "count if i == numRows else 2 * numRows - 2 * i": [
+      "i === numRows ? count : 2 * numRows - 2 * i;"
+    ],
+    "element if i == numRows else 2 * numRows - 2 * i": [
+      "i == numRows ? element : 2 * numRows - 2 * i;"
+    ],
+    "temp if i == numRows else 2 * numRows - 2 * i": []
+  }
+}

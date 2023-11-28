@@ -1,0 +1,23 @@
+{
+  "template": "### findSubstring \nfrom __ import Counter\nfrom typing import *\ndef f_gold(s: str, words: List[str]) -> List[int]:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "### findSubstring \nfrom collections import Counter\nfrom typing import *\ndef f_gold(s: str, words: List[str]) -> List[int]:\n    some_secret_fn_4071()",
+  "translations": {
+    "### findSubstring \nfrom collections import Counter\nfrom typing import *\ndef f_gold(s: str, words: List[str]) -> List[int]:\n    some_secret_fn_4071()": [
+      "function findSubstring(s, words) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findSubstring \nfrom __ import Counter\nfrom typing import *\ndef f_gold(s: str, words: List[str]) -> List[int]:\n    some_secret_fn_4071()": [
+      "function f_gold(s, words) {\n    some_secret_fn_4071();\n}"
+    ],
+    "### findSubstring \nfrom itertools import Counter\nfrom typing import *\ndef f_gold(s: str, words: List[str]) -> List[int]:\n    some_secret_fn_4071()": [
+      "function findSubstring(s, words) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 1\nfrom collections import Counter\nfrom typing import *\n\n\ndef f_gold(s: str, words: List[str]) -> List[int]:\n    some_secret_fn_4071()": [
+      "// Variant 1\nfunction f_gold(s, words) {\n    some_secret_fn_4071();\n}"
+    ],
+    "# Variant 2\nfrom __ import Counter\nfrom typing import *\n\n\ndef f_gold(s: str, words: List[str]) -> List[int]:\n    some_secret_fn_4071()": [
+      "// Variant 2\nfunction f_gold(s, words) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "range_cursor": [
+    "py.identifier",
+    3,
+    "\"print\""
+  ],
+  "matcher": [
+    "\"py.identifier\"",
+    [
+      "val",
+      "\"print\""
+    ]
+  ]
+}

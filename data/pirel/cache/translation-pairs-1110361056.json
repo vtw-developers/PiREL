@@ -1,0 +1,42 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__ if nums[__] == target else -1",
+  "template_origin": "left if nums[left] == target else -1",
+  "templatized_node_ids": [
+    3,
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "i if nums[i] == target else -1",
+        "target": "nums[i] == target ? i : -1;"
+      },
+      {
+        "source": "j if nums[j] == target else -1",
+        "target": "nums[j] == target ? j : -1;"
+      }
+    ],
+    [
+      {
+        "source": "i if nums[i] == target else -1",
+        "target": "nums[i] == target ? i : -1;"
+      },
+      {
+        "source": "x if nums[x] == target else -1",
+        "target": "nums[x] == target ? x : -1;"
+      }
+    ],
+    [
+      {
+        "source": "j if nums[j] == target else -1",
+        "target": "nums[j] == target ? j : -1;"
+      },
+      {
+        "source": "x if nums[x] == target else -1",
+        "target": "nums[x] == target ? x : -1;"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "template": "for item in __:\n    some_secret_fn_4071()",
+  "lang": "py",
+  "temperature": 0.7,
+  "code_blocks": [
+    "for item in range(10):\n    some_secret_fn_4071()",
+    "for item in [1, 2, 3, 4, 5]:\n    some_secret_fn_4071()",
+    "for item in (\"apple\", \"banana\", \"cherry\"):\n    some_secret_fn_4071()",
+    "for item in {\"a\": 1, \"b\": 2, \"c\": 3}:\n    some_secret_fn_4071()",
+    "for item in {1, 2, 3, 4, 5}:\n    some_secret_fn_4071()",
+    "for item in range(5, 10):\n    some_secret_fn_4071()",
+    "for item in [\"cat\", \"dog\", \"bird\"]:\n    some_secret_fn_4071()",
+    "for item in {\"apple\", \"banana\", \"cherry\"}:\n    some_secret_fn_4071()",
+    "for item in {\"a\", \"b\", \"c\", \"d\", \"e\"}:\n    some_secret_fn_4071()",
+    "for item in range(1, 6):\n    some_secret_fn_4071()",
+    "# Variant 1\nfor item in my_list:\n    some_secret_fn_4071()\n\n# Variant 2\nfor item in range(10):\n    some_secret_fn_4071()\n\n# Variant 3\nfor item in ['apple', 'banana', 'cherry']:\n    some_secret_fn_4071()\n\n# Variant 4\nfor item in my_dict.values():\n    some_secret_fn_4071()\n\n# Variant 5\nfor item in (x for x in range(5)):\n    some_secret_fn_4071()\n\n# Variant 6\nfor item in set([1, 2, 3]):\n    some_secret_fn_4071()\n\n# Variant 7\nfor item in 'hello':\n    some_secret_fn_4071()\n\n# Variant 8\nfor item in (True, False):\n    some_secret_fn_4071()\n\n# Variant 9\nfor item in zip([1, 2, 3], [4, 5, 6]):\n    some_secret_fn_4071()\n\n# Variant 10\nfor item in reversed(range(5)):\n    some_secret_fn_4071()",
+    "# Variant 1\nfor item in range(10):\n    some_secret_fn_4071()\n\n# Variant 2\nfor item in [1, 2, 3, 4, 5]:\n    some_secret_fn_4071()\n\n# Variant 3\nfor item in {'a', 'b', 'c'}:\n    some_secret_fn_4071()\n\n# Variant 4\nfor item in (1, 2, 3):\n    some_secret_fn_4071()\n\n# Variant 5\nfor item in []:\n    some_secret_fn_4071()\n\n# Variant 6\nfor item in \"hello\":\n    some_secret_fn_4071()\n\n# Variant 7\nfor item in {'a': 1, 'b': 2}:\n    some_secret_fn_4071()\n\n# Variant 8\nfor item in (x for x in range(5)):\n    some_secret_fn_4071()\n\n# Variant 9\nfor item in range(1, 11, 2):\n    some_secret_fn_4071()\n\n# Variant 10\nfor item in [True, False]:\n    some_secret_fn_4071()",
+    "# Variant 1\nfor item in my_list:\n    some_secret_fn_4071()\n\n# Variant 2\nfor item in range(10):\n    some_secret_fn_4071()\n\n# Variant 3\nfor item in [1, 2, 3]:\n    some_secret_fn_4071()\n\n# Variant 4\nfor item in {'a': 1, 'b': 2}:\n    some_secret_fn_4071()\n\n# Variant 5\nfor item in (x for x in range(5)):\n    some_secret_fn_4071()\n\n# Variant 6\nfor item in \"Hello\":\n    some_secret_fn_4071()\n\n# Variant 7\nfor item in set([1, 2, 3]):\n    some_secret_fn_4071()\n\n# Variant 8\nfor item in zip([1, 2, 3], ['a', 'b', 'c']):\n    some_secret_fn_4071()\n\n# Variant 9\nfor item in (x for x in range(10) if x % 2 == 0):\n    some_secret_fn_4071()\n\n# Variant 10\nfor item in reversed([1, 2, 3]):\n    some_secret_fn_4071()",
+    "# Variant 1\nfor item in my_list:\n    some_secret_fn_4071()\n\n# Variant 2\nfor item in range(10):\n    some_secret_fn_4071()\n\n# Variant 3\nfor item in \"Hello, World!\":\n    some_secret_fn_4071()\n\n# Variant 4\nfor item in [1, 2, 3, 4, 5]:\n    some_secret_fn_4071()\n\n# Variant 5\nfor item in (1, 2, 3):\n    some_secret_fn_4071()\n\n# Variant 6\nfor item in {1: 'one', 2: 'two', 3: 'three'}:\n    some_secret_fn_4071()\n\n# Variant 7\nfor item in set([1, 2, 3]):\n    some_secret_fn_4071()\n\n# Variant 8\nfor item in range(100, 200, 10):\n    some_secret_fn_4071()\n\n# Variant 9\nfor item in [True, False, True]:\n    some_secret_fn_4071()\n\n# Variant 10\nfor item in \"abc\":\n    some_secret_fn_4071()"
+  ],
+  "num_code_blocks": 14
+}

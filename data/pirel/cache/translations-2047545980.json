@@ -1,0 +1,36 @@
+{
+  "template": "[__[top][j] for j in range(left, right + 1)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[matrix[top][j] for j in range(left, right + 1)]",
+  "translations": {
+    "[UNDEFINED[top][j] for j in range(left, right + 1)]": [
+      "Array.from({length: right - left + 1}, (_, j) => UNDEFINED[top][j + left]);"
+    ],
+    "[object[top][j] for j in range(left, right + 1)]": [
+      "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(object[top][j]);\n}"
+    ],
+    "[undefined[top][j] for j in range(left, right + 1)]": [
+      "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(undefined[top][j]);\n}"
+    ],
+    "[hole[top][j] for j in range(left, right + 1)]": [
+      "hole[top].slice(left, right + 1);"
+    ],
+    "[blank[top][j] for j in range(left, right + 1)]": [],
+    "[placeholder[top][j] for j in range(left, right + 1)]": [
+      "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(placeholder[top][j]);\n}"
+    ],
+    "[missing[top][j] for j in range(left, right + 1)]": [
+      "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(missing[top][j]);\n}"
+    ],
+    "[var1[top][j] for j in range(left, right + 1)]": [
+      "var result = [];\nfor (var j = left; j <= right; j++) {\n    result.push(var1[top][j]);\n}"
+    ],
+    "[val[top][j] for j in range(left, right + 1)]": [
+      "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(val[top][j]);\n}"
+    ],
+    "[elem[top][j] for j in range(left, right + 1)]": [
+      "let result = [];\nfor (let j = left; j <= right; j++) {\n    result.push(elem[top][j]);\n}"
+    ]
+  }
+}

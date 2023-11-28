@@ -1,0 +1,1101 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "strs = [chars[int(d) - 2] for d in __]",
+  "template_origin": "strs = [chars[int(d) - 2] for d in digits]",
+  "templatized_node_ids": [
+    15
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in chars]",
+        "target": "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_list]",
+        "target": "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in chars]",
+        "target": "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers]",
+        "target": "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in chars]",
+        "target": "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits]",
+        "target": "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in chars]",
+        "target": "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in num_list]",
+        "target": "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in chars]",
+        "target": "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers_list]",
+        "target": "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in chars]",
+        "target": "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in values]",
+        "target": "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in chars]",
+        "target": "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in indices]",
+        "target": "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in chars]",
+        "target": "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in nums]",
+        "target": "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in chars]",
+        "target": "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in keys]",
+        "target": "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in chars]",
+        "target": "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in sequence]",
+        "target": "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in chars]",
+        "target": "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in strs]",
+        "target": "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in chars]",
+        "target": "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in lst]",
+        "target": "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in chars]",
+        "target": "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in elements]",
+        "target": "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in chars]",
+        "target": "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits_list]",
+        "target": "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_list]",
+        "target": "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers]",
+        "target": "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_list]",
+        "target": "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits]",
+        "target": "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_list]",
+        "target": "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in num_list]",
+        "target": "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_list]",
+        "target": "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers_list]",
+        "target": "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_list]",
+        "target": "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in values]",
+        "target": "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_list]",
+        "target": "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in indices]",
+        "target": "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_list]",
+        "target": "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in nums]",
+        "target": "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_list]",
+        "target": "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in keys]",
+        "target": "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_list]",
+        "target": "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in sequence]",
+        "target": "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_list]",
+        "target": "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in strs]",
+        "target": "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_list]",
+        "target": "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in lst]",
+        "target": "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_list]",
+        "target": "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in elements]",
+        "target": "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_list]",
+        "target": "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits_list]",
+        "target": "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers]",
+        "target": "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits]",
+        "target": "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers]",
+        "target": "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in num_list]",
+        "target": "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers]",
+        "target": "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers_list]",
+        "target": "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers]",
+        "target": "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in values]",
+        "target": "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers]",
+        "target": "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in indices]",
+        "target": "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers]",
+        "target": "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in nums]",
+        "target": "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers]",
+        "target": "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in keys]",
+        "target": "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers]",
+        "target": "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in sequence]",
+        "target": "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers]",
+        "target": "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in strs]",
+        "target": "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers]",
+        "target": "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in lst]",
+        "target": "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers]",
+        "target": "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in elements]",
+        "target": "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers]",
+        "target": "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits_list]",
+        "target": "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits]",
+        "target": "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in num_list]",
+        "target": "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits]",
+        "target": "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers_list]",
+        "target": "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits]",
+        "target": "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in values]",
+        "target": "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits]",
+        "target": "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in indices]",
+        "target": "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits]",
+        "target": "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in nums]",
+        "target": "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits]",
+        "target": "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in keys]",
+        "target": "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits]",
+        "target": "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in sequence]",
+        "target": "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits]",
+        "target": "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in strs]",
+        "target": "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits]",
+        "target": "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in lst]",
+        "target": "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits]",
+        "target": "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in elements]",
+        "target": "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits]",
+        "target": "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits_list]",
+        "target": "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in num_list]",
+        "target": "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers_list]",
+        "target": "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in num_list]",
+        "target": "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in values]",
+        "target": "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in num_list]",
+        "target": "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in indices]",
+        "target": "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in num_list]",
+        "target": "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in nums]",
+        "target": "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in num_list]",
+        "target": "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in keys]",
+        "target": "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in num_list]",
+        "target": "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in sequence]",
+        "target": "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in num_list]",
+        "target": "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in strs]",
+        "target": "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in num_list]",
+        "target": "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in lst]",
+        "target": "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in num_list]",
+        "target": "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in elements]",
+        "target": "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in num_list]",
+        "target": "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits_list]",
+        "target": "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers_list]",
+        "target": "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in values]",
+        "target": "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers_list]",
+        "target": "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in indices]",
+        "target": "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers_list]",
+        "target": "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in nums]",
+        "target": "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers_list]",
+        "target": "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in keys]",
+        "target": "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers_list]",
+        "target": "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in sequence]",
+        "target": "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers_list]",
+        "target": "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in strs]",
+        "target": "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers_list]",
+        "target": "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in lst]",
+        "target": "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers_list]",
+        "target": "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in elements]",
+        "target": "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in numbers_list]",
+        "target": "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits_list]",
+        "target": "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in data]",
+        "target": "let strs = data.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digit_string]",
+        "target": "let strs = digit_string.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in values]",
+        "target": "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in indices]",
+        "target": "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in values]",
+        "target": "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in nums]",
+        "target": "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in values]",
+        "target": "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in keys]",
+        "target": "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in values]",
+        "target": "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in sequence]",
+        "target": "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in values]",
+        "target": "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in strs]",
+        "target": "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in values]",
+        "target": "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in lst]",
+        "target": "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in values]",
+        "target": "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in elements]",
+        "target": "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in values]",
+        "target": "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits_list]",
+        "target": "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in indices]",
+        "target": "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in nums]",
+        "target": "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in indices]",
+        "target": "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in keys]",
+        "target": "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in indices]",
+        "target": "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in sequence]",
+        "target": "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in indices]",
+        "target": "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in strs]",
+        "target": "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in indices]",
+        "target": "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in lst]",
+        "target": "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in indices]",
+        "target": "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in elements]",
+        "target": "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in indices]",
+        "target": "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits_list]",
+        "target": "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in number_list]",
+        "target": "var strs = number_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in number_string]",
+        "target": "var strs = number_string.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in number_list]",
+        "target": "var strs = number_list.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in input_data]",
+        "target": "var strs = input_data.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in number_string]",
+        "target": "var strs = number_string.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in input_data]",
+        "target": "var strs = input_data.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in nums]",
+        "target": "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in keys]",
+        "target": "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in nums]",
+        "target": "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in sequence]",
+        "target": "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in nums]",
+        "target": "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in strs]",
+        "target": "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in nums]",
+        "target": "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in lst]",
+        "target": "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in nums]",
+        "target": "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in elements]",
+        "target": "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in nums]",
+        "target": "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits_list]",
+        "target": "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in keys]",
+        "target": "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in sequence]",
+        "target": "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in keys]",
+        "target": "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in strs]",
+        "target": "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in keys]",
+        "target": "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in lst]",
+        "target": "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in keys]",
+        "target": "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in elements]",
+        "target": "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in keys]",
+        "target": "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits_list]",
+        "target": "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in sequence]",
+        "target": "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in strs]",
+        "target": "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in sequence]",
+        "target": "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in lst]",
+        "target": "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in sequence]",
+        "target": "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in elements]",
+        "target": "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in sequence]",
+        "target": "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits_list]",
+        "target": "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in strs]",
+        "target": "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in lst]",
+        "target": "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in strs]",
+        "target": "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in elements]",
+        "target": "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in strs]",
+        "target": "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits_list]",
+        "target": "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in lst]",
+        "target": "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in elements]",
+        "target": "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in lst]",
+        "target": "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits_list]",
+        "target": "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "strs = [chars[int(d) - 2] for d in elements]",
+        "target": "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "strs = [chars[int(d) - 2] for d in digits_list]",
+        "target": "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ]
+  ]
+}

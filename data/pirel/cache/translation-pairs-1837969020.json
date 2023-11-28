@@ -1,0 +1,31 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for i, h in enumerate(__):\n    some_secret_fn_4071()",
+  "template_origin": "for i, h in enumerate(heights):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for i, h in enumerate(lst):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < lst.length; i++) {\n    let h = lst[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i, h in enumerate(elements):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < elements.length; i++) {\n    let h = elements[i];\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i, h in enumerate(items):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < items.length; i++) {\n    const h = items[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i, h in enumerate(data):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < data.length; i++) {\n    const h = data[i];\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

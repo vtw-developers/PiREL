@@ -1,0 +1,312 @@
+{
+  "template": "for s in path.__('/'):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for s in path.split('/'):\n    some_secret_fn_4071()",
+  "translations": {
+    "for s in path.walk('/'):\n    some_secret_fn_4071()": [
+      "path.walk('/', function(s){\n    some_secret_fn_4071();\n});",
+      "path.walk('/', function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.iterdir('/'):\n    some_secret_fn_4071()": [
+      "for (const s of path.iterdir('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.listdir('/'):\n    some_secret_fn_4071()": [
+      "var pathList = path.listdir('/');\nfor (var i = 0; i < pathList.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.scandir('/'):\n    some_secret_fn_4071()": [
+      "const path = require('path');\n\nconst dir = path.join(__dirname, '/');\nconst files = fs.readdirSync(dir);\n\nfor (let i = 0; i < files.length; i++) {\n    const file = files[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.glob('/'):\n    some_secret_fn_4071()": [
+      "path.glob('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.rglob('/'):\n    some_secret_fn_4071()": [
+      "for (const s of path.rglob('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.on('/'):\n    some_secret_fn_4071()": [
+      "const path = ['/'];\nfor (let s of path) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.walkdir('/'):\n    some_secret_fn_4071()": [
+      "path.walkdir('/', function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.walk_path('/'):\n    some_secret_fn_4071()": [
+      "var path = require('path');\n\npath.walk_path('/', function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.directory('/'):\n    some_secret_fn_4071()": [
+      "var path = require('path');\n\nvar directoryList = path.directory('/');\n\nfor (var i = 0; i < directoryList.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.join('/'):\n    some_secret_fn_4071()": [
+      "var _path = require('path');\nvar _s = _path.join('/');\n\nfor (var _i = 0; _i < _s.length; _i++) {\n    some_secret_fn_4071();\n}",
+      "var path = require('path');\n\nfor (var s in path.join('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.scan('/'):\n    some_secret_fn_4071()": [
+      "path.scan('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.traverse('/'):\n    some_secret_fn_4071()": [
+      "path.traverse('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.explore('/'):\n    some_secret_fn_4071()": [
+      "path.explore('/').forEach(s => {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.navigate('/'):\n    some_secret_fn_4071()": [
+      "path.navigate('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.search('/'):\n    some_secret_fn_4071()": [
+      "var _iteratorNormalCompletion = true;\nvar _didIteratorError = false;\nvar _iteratorError = undefined;\n\ntry {\n    for (var _iterator = path.search('/')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n        var s = _step.value;\n\n        some_secret_fn_4071();\n    }\n} catch (err) {\n    _didIteratorError = true;\n    _iteratorError = err;\n} finally {\n    try {\n        if (!_iteratorNormalCompletion && _iterator.return != null) {\n            _iterator.return();\n        }\n    } finally {\n        if (_didIteratorError) {\n            throw _iteratorError;\n        }\n    }\n}"
+    ],
+    "for s in path.files('/'):\n    some_secret_fn_4071()": [
+      "path.files('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.dirs('/'):\n    some_secret_fn_4071()": [
+      "var dirs = path.dirs('/');\nfor (var i = 0; i < dirs.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.find('/'):\n    some_secret_fn_4071()": [
+      "var path = '/'; \nfor (var i = 0; i < path.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.open('/'):\n    some_secret_fn_4071()": [
+      "var fs = require('fs');\nvar path = require('path');\n\nvar files = fs.readdirSync('/');\nfor (var i = 0; i < files.length; i++) {\n  var s = files[i];\n  some_secret_fn_4071();\n}",
+      "const fs = require('fs');\nconst path = '/';\n\nfs.readdirSync(path).forEach((s) => {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.read('/'):\n    some_secret_fn_4071()": [
+      "var path = require('path');\n\npath.read('/').forEach(function(s) {\n    some_secret_fn_4071();\n});",
+      "path.read('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.load('/'):\n    some_secret_fn_4071()": [
+      "path.load('/').forEach(function(s) {\n    some_secret_fn_4071();\n});",
+      "var pathList = path.load('/');\nfor (var i = 0; i < pathList.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.call('/'):\n    some_secret_fn_4071()": [
+      "var path = path.call('/');\nfor (var i = 0; i < path.length; i++) {\n    some_secret_fn_4071();\n}",
+      "var path = ['/'];\n\nfor (var i = 0; i < path.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.process('/'):\n    some_secret_fn_4071()": [
+      "path.process('/').forEach(function(s) {\n    some_secret_fn_4071();\n});",
+      "var processResult = path.process('/');\n\nfor (var i = 0; i < processResult.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.execute('/'):\n    some_secret_fn_4071()": [
+      "for (let s of path.execute('/')) {\n    some_secret_fn_4071();\n}",
+      "path.execute('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.get('/'):\n    some_secret_fn_4071()": [
+      "var path = require('path');\nvar s_list = path.get('/');\nfor (var i = 0; i < s_list.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.as_posix('/'):\n    some_secret_fn_4071()": [
+      "var path = require('path');\nvar s_list = path.posix('/').split('');\nfor (var i = 0; i < s_list.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.cwd('/'):\n    some_secret_fn_4071()": [
+      "const path = require('path');\n\nfor (const s of path.resolve('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.parent('/'):\n    some_secret_fn_4071()": [
+      "const path = require('path');\nconst parent = path.parent('/');\n\nfor (let s of parent) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.resolve('/'):\n    some_secret_fn_4071()": [
+      "let path = require('path');\n\nfor (let s of path.resolve('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.expanduser('/'):\n    some_secret_fn_4071()": [
+      "let s;\nfor (s of path.expanduser('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.is_dir('/'):\n    some_secret_fn_4071()": [
+      "path.isDir('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.is_file('/'):\n    some_secret_fn_4071()": [
+      "path.is_file('/').forEach(s => {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.is_absolute('/'):\n    some_secret_fn_4071()": [
+      "Array.from(path.is_absolute('/')).forEach(s => {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.joinpath('/'):\n    some_secret_fn_4071()": [
+      "for (var s of path.joinpath('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.exists('/'):\n    some_secret_fn_4071()": [
+      "const fs = require('fs');\n\nfs.readdir('/', (err, files) => {\n    if (err) {\n        console.error(err);\n        return;\n    }\n\n    for (let i = 0; i < files.length; i++) {\n        some_secret_fn_4071();\n    }\n});",
+      "var s_list = path.exists('/');\nfor (var i = 0; i < s_list.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.mkdir('/'):\n    some_secret_fn_4071()": [
+      "path.mkdir('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.rmdir('/'):\n    some_secret_fn_4071()": [
+      "path.rmdir('/', function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.rename('/'):\n    some_secret_fn_4071()": [
+      "path.rename('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.stat('/'):\n    some_secret_fn_4071()": [
+      "var path = require('path');\nvar sList = path.stat('/');\n\nfor (var i = 0; i < sList.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.basename('/'):\n    some_secret_fn_4071()": [
+      "var s = path.basename('/');\nsome_secret_fn_4071();"
+    ],
+    "for s in path.dirname('/'):\n    some_secret_fn_4071()": [
+      "var s;\nfor (s of path.dirname('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.isfile('/'):\n    some_secret_fn_4071()": [
+      "var path = require('path');\n\nvar files = path.isFile('/');\nfor (var i = 0; i < files.length; i++) {\n    some_secret_fn_4071();\n}",
+      "var fileList = path.isfile('/');\nfor (var i = 0; i < fileList.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.isdir('/'):\n    some_secret_fn_4071()": [
+      "var s_list = path.isdir('/');\nfor (var i = 0; i < s_list.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.split('/'):\n    some_secret_fn_4071()": [
+      "var path_split = path.split('/');\nfor (var i = 0; i < path_split.length; i++) {\n    some_secret_fn_4071();\n}",
+      "var pathArray = path.split('/');\nfor (var i = 0; i < pathArray.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.isabs('/'):\n    some_secret_fn_4071()": [
+      "var s;\nfor (s of path.isabs('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.realpath('/'):\n    some_secret_fn_4071()": [
+      "var path = require('path');\nvar s_list = path.resolve('/');\n\nfor (var i = 0; i < s_list.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.abspath('/'):\n    some_secret_fn_4071()": [
+      "var s;\nvar path = require('path');\nvar absPath = path.resolve('/');\nfor (var i = 0; i < absPath.length; i++) {\n    s = absPath[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__getattribute__('/'):\n    some_secret_fn_4071()": [
+      "var sList = path['/'];\nfor (var i = 0; i < sList.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__setattr__('/'):\n    some_secret_fn_4071()": [
+      "for (var s of path.__setattr__('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__delattr__('/'):\n    some_secret_fn_4071()": [
+      "var path = {};\nfor (var s in path.__delattr__('/')) {\n    some_secret_fn_4071();\n}",
+      "const path = require('path');\n\nfor (let s in path) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__len__('/'):\n    some_secret_fn_4071()": [
+      "var path = '/';\nfor (var s = 0; s < path.length; s++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__getitem__('/'):\n    some_secret_fn_4071()": [
+      "var path = '/';\nfor (var s in path) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__setitem__('/'):\n    some_secret_fn_4071()": [
+      "for (let s in path.__setitem__('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__delitem__('/'):\n    some_secret_fn_4071()": [
+      "for (let s in path.__delitem__('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__iter__('/'):\n    some_secret_fn_4071()": [
+      "for (let s of path.__iter__('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__contains__('/'):\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < path.length; i++) {\n    if (path[i].includes('/')) {\n        some_secret_fn_4071();\n    }\n}"
+    ],
+    "for s in path.__reversed__('/'):\n    some_secret_fn_4071()": [
+      "var reversedPath = path.reverse('/');\nfor (var i = 0; i < reversedPath.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.traverse_path('/'):\n    some_secret_fn_4071()": [
+      "path.traverse_path('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.chdir('/'):\n    some_secret_fn_4071()": [
+      "const path = require('path');\n\nfor (const s of path.chdir('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.makedirs('/'):\n    some_secret_fn_4071()": [
+      "path.makedirs('/').forEach(s => {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.islink('/'):\n    some_secret_fn_4071()": [
+      "path.islink('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.splitext('/'):\n    some_secret_fn_4071()": [
+      "var path = require('path');\n\npath.splitext('/').forEach(function (s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.iter('/'):\n    some_secret_fn_4071()": [
+      "path.iter('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.list('/'):\n    some_secret_fn_4071()": [
+      "var _iteratorNormalCompletion = true;\nvar _didIteratorError = false;\nvar _iteratorError = undefined;\n\ntry {\n    for (var _iterator = path.list('/')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n        var s = _step.value;\n        some_secret_fn_4071();\n    }\n} catch (err) {\n    _didIteratorError = true;\n    _iteratorError = err;\n} finally {\n    try {\n        if (!_iteratorNormalCompletion && _iterator.return != null) {\n            _iterator.return();\n        }\n    } finally {\n        if (_didIteratorError) {\n            throw _iteratorError;\n        }\n    }\n}"
+    ],
+    "for s in path.inspect('/'):\n    some_secret_fn_4071()": [
+      "var path = path.inspect('/');\nfor (var s of path) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.expand('/'):\n    some_secret_fn_4071()": [
+      "var s;\nfor (s of path.expand('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.norm('/'):\n    some_secret_fn_4071()": [
+      "path.norm('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.__add__('/'):\n    some_secret_fn_4071()": [
+      "var path = path.concat('/');\nfor (var i = 0; i < path.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__mul__('/'):\n    some_secret_fn_4071()": [
+      "var _path = path.__mul__('/');\nfor (var _i = 0; _i < _path.length; _i++) {\n    var s = _path[_i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__sub__('/'):\n    some_secret_fn_4071()": [
+      "path.__sub__('/').forEach(s => {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.__divmod__('/'):\n    some_secret_fn_4071()": [
+      "var _iteratorNormalCompletion = true;\nvar _didIteratorError = false;\nvar _iteratorError = undefined;\n\ntry {\n    for (var _iterator = path.__divmod__('/')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n        var s = _step.value;\n        some_secret_fn_4071();\n    }\n} catch (err) {\n    _didIteratorError = true;\n    _iteratorError = err;\n} finally {\n    try {\n        if (!_iteratorNormalCompletion && _iterator.return != null) {\n            _iterator.return();\n        }\n    } finally {\n        if (_didIteratorError) {\n            throw _iteratorError;\n        }\n    }\n}",
+      "path.__divmod__('/').forEach(s => {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.__call__('/'):\n    some_secret_fn_4071()": [
+      "var _iteratorNormalCompletion = true;\nvar _didIteratorError = false;\nvar _iteratorError = undefined;\n\ntry {\n    for (var _iterator = path.__call__('/')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n        var s = _step.value;\n\n        some_secret_fn_4071();\n    }\n} catch (err) {\n    _didIteratorError = true;\n    _iteratorError = err;\n} finally {\n    try {\n        if (!_iteratorNormalCompletion && _iterator.return != null) {\n            _iterator.return();\n        }\n    } finally {\n        if (_didIteratorError) {\n            throw _iteratorError;\n        }\n    }\n}",
+      "var path_call = path('/');\n\nfor (var i = 0; i < path_call.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__str__('/'):\n    some_secret_fn_4071()": [
+      "var path_str = path.toString('/');\nfor (var i = 0; i < path_str.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__class__('/'):\n    some_secret_fn_4071()": [
+      "var _iteratorNormalCompletion = true;\nvar _didIteratorError = false;\nvar _iteratorError = undefined;\n\ntry {\n    for (var _iterator = path.__class__('/')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n        var s = _step.value;\n\n        some_secret_fn_4071();\n    }\n} catch (err) {\n    _didIteratorError = true;\n    _iteratorError = err;\n} finally {\n    try {\n        if (!_iteratorNormalCompletion && _iterator.return != null) {\n            _iterator.return();\n        }\n    } finally {\n        if (_didIteratorError) {\n            throw _iteratorError;\n        }\n    }\n}",
+      "for (let s of new path.__class__('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__name__('/'):\n    some_secret_fn_4071()": [
+      "let sArr = path.__name__.split('/');\nfor (let i = 0; i < sArr.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__init__('/'):\n    some_secret_fn_4071()": [
+      "path.__init__('/').forEach(s => {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.__dir__('/'):\n    some_secret_fn_4071()": [
+      "var path = {\n    __dir__: function (s) {\n        return [];\n    }\n};\n\nvar dir = path.__dir__('/');\nfor (var i = 0; i < dir.length; i++) {\n    some_secret_fn_4071();\n}",
+      "var path = require('path');\n\nvar dirList = path.__dir__('/');\nfor (var i = 0; i < dirList.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__repr__('/'):\n    some_secret_fn_4071()": [
+      "let path_repr = path.__repr__('/');\nfor (let i = 0; i < path_repr.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__hash__('/'):\n    some_secret_fn_4071()": [
+      "path.__hash__('').forEach(function (s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.normpath('/'):\n    some_secret_fn_4071()": [
+      "var path = require('path');\n\nvar s = path.normalize('/');\nsome_secret_fn_4071();"
+    ],
+    "for s in path.getsize('/'):\n    some_secret_fn_4071()": [
+      "var sizes = path.getsize('/');\nfor (var i = 0; i < sizes.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.discover('/'):\n    some_secret_fn_4071()": [
+      "var path_discover = path.discover('/');\nfor (var i = 0; i < path_discover.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.absolute('/'):\n    some_secret_fn_4071()": [
+      "var s_list = path.absolute('/');\nfor (var i = 0; i < s_list.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.home('/'):\n    some_secret_fn_4071()": [
+      "var path = require('path');\n\nfor (var s of path.home('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.is_symlink('/'):\n    some_secret_fn_4071()": [
+      "path.is_symlink('/').forEach(s => {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.enumerate('/'):\n    some_secret_fn_4071()": [
+      "var path = require('path');\n\npath.enumerate('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.create('/'):\n    some_secret_fn_4071()": [
+      "var s;\nvar _iteratorNormalCompletion = true;\nvar _didIteratorError = false;\nvar _iteratorError = undefined;\ntry {\n    for (var _iterator = path.create('/')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n        s = _step.value;\n        some_secret_fn_4071();\n    }\n} catch (err) {\n    _didIteratorError = true;\n    _iteratorError = err;\n} finally {\n    try {\n        if (!_iteratorNormalCompletion && _iterator.return != null) {\n            _iterator.return();\n        }\n    } finally {\n        if (_didIteratorError) {\n            throw _iteratorError;\n        }\n    }\n}"
+    ],
+    "for s in path.write('/'):\n    some_secret_fn_4071()": [
+      "var path = path.write('/');\nfor (var s in path) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.remove('/'):\n    some_secret_fn_4071()": [
+      "var s_list = path.remove('/');\nfor (var i = 0; i < s_list.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.delete('/'):\n    some_secret_fn_4071()": [
+      "path.delete('/').forEach(function(s) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.__doc__('/'):\n    some_secret_fn_4071()": [
+      "const doc = path.__doc__('/');\nfor (let s of doc) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__bases__('/'):\n    some_secret_fn_4071()": [
+      "path.__bases__.forEach(s => {\n    some_secret_fn_4071();\n});"
+    ],
+    "for s in path.__bool__('/'):\n    some_secret_fn_4071()": [
+      "var _iteratorNormalCompletion = true;\nvar _didIteratorError = false;\nvar _iteratorError = undefined;\n\ntry {\n    for (var _iterator = path.__bool__('/')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n        s = _step.value;\n\n        some_secret_fn_4071();\n    }\n} catch (err) {\n    _didIteratorError = true;\n    _iteratorError = err;\n} finally {\n    try {\n        if (!_iteratorNormalCompletion && _iterator.return != null) {\n            _iterator.return();\n        }\n    } finally {\n        if (_didIteratorError) {\n            throw _iteratorError;\n        }\n    }\n}"
+    ],
+    "for s in path.__dict__('/'):\n    some_secret_fn_4071()": [
+      "for (let s in path.__dict__('/')) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.__docformat__('/'):\n    some_secret_fn_4071()": [
+      "for (let s of path.__docformat__('/')) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

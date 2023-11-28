@@ -1,0 +1,23 @@
+{
+  "template": "len(res) > 1 and res[-1] == __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "len(res) > 1 and res[-1] == 0",
+  "translations": {
+    "len(res) > 1 and res[-1] == 0": [
+      "res.length > 1 && res[res.length - 1] == 0"
+    ],
+    "len(res) > 1 and res[-1] == 1": [
+      "res.length > 1 && res[res.length - 1] == 1;"
+    ],
+    "len(res) > 1 and res[-1] == 42": [
+      "res.length > 1 && res[res.length - 1] == 42"
+    ],
+    "len(res) > 1 and res[-1] == 2": [
+      "res.length > 1 && res[res.length - 1] === 2"
+    ],
+    "len(res) > 1 and res[-1] == 3": [
+      "res.length > 1 && res[res.length - 1] == 3;"
+    ]
+  }
+}

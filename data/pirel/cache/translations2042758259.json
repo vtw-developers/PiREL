@@ -1,0 +1,21 @@
+{
+  "template": "used[__] or (__ > 0 and nums[__] == nums[__ - 1] and not used[__ - 1])",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "used[i] or (i > 0 and nums[i] == nums[i - 1] and not used[i - 1])",
+  "translations": {
+    "used[i] or (i > 0 and nums[i] == nums[i - 1] and not used[i - 1])": [
+      "used[i] || (i > 0 && nums[i] === nums[i - 1] && !used[i - 1]);"
+    ],
+    "used[j] or (j > 0 and nums[j] == nums[j - 1] and not used[j - 1])": [],
+    "used[x] or (x > 0 and nums[x] == nums[x - 1] and not used[x - 1])": [
+      "used[x] || (x > 0 && nums[x] == nums[x - 1] && !used[x - 1]);"
+    ],
+    "used[a] or (a > 0 and nums[a] == nums[a - 1] and not used[a - 1])": [
+      "used[a] || (a > 0 && nums[a] == nums[a - 1] && !used[a - 1]);"
+    ],
+    "used[b] or (b > 0 and nums[b] == nums[b - 1] and not used[b - 1])": [
+      "used[b] || (b > 0 && nums[b] == nums[b - 1] && !used[b - 1]);"
+    ]
+  }
+}

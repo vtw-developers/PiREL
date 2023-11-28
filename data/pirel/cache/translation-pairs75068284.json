@@ -1,0 +1,101 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "ch >= __ and ch <= 122",
+  "template_origin": "ch >= 65 and ch <= 122",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "ch >= 97 and ch <= 122",
+        "target": "ch >= 97 && ch <= 122"
+      },
+      {
+        "source": "ch >= 65 and ch <= 122",
+        "target": "ch >= 65 && ch <= 122"
+      }
+    ],
+    [
+      {
+        "source": "ch >= 97 and ch <= 122",
+        "target": "ch >= 97 && ch <= 122"
+      },
+      {
+        "source": "ch >= 48 and ch <= 57",
+        "target": "ch >= 48 && ch <= 57"
+      }
+    ],
+    [
+      {
+        "source": "ch >= 97 and ch <= 122",
+        "target": "ch >= 97 && ch <= 122"
+      },
+      {
+        "source": "ch >= 33 and ch <= 126",
+        "target": "ch >= 33 && ch <= 126"
+      }
+    ],
+    [
+      {
+        "source": "ch >= 97 and ch <= 122",
+        "target": "ch >= 97 && ch <= 122"
+      },
+      {
+        "source": "ch >= 65 and ch <= 90",
+        "target": "ch >= 65 && ch <= 90"
+      }
+    ],
+    [
+      {
+        "source": "ch >= 65 and ch <= 122",
+        "target": "ch >= 65 && ch <= 122"
+      },
+      {
+        "source": "ch >= 48 and ch <= 57",
+        "target": "ch >= 48 && ch <= 57"
+      }
+    ],
+    [
+      {
+        "source": "ch >= 65 and ch <= 122",
+        "target": "ch >= 65 && ch <= 122"
+      },
+      {
+        "source": "ch >= 33 and ch <= 126",
+        "target": "ch >= 33 && ch <= 126"
+      }
+    ],
+    [
+      {
+        "source": "ch >= 48 and ch <= 57",
+        "target": "ch >= 48 && ch <= 57"
+      },
+      {
+        "source": "ch >= 33 and ch <= 126",
+        "target": "ch >= 33 && ch <= 126"
+      }
+    ],
+    [
+      {
+        "source": "ch >= 48 and ch <= 57",
+        "target": "ch >= 48 && ch <= 57"
+      },
+      {
+        "source": "ch >= 65 and ch <= 90",
+        "target": "ch >= 65 && ch <= 90"
+      }
+    ],
+    [
+      {
+        "source": "ch >= 33 and ch <= 126",
+        "target": "ch >= 33 && ch <= 126"
+      },
+      {
+        "source": "ch >= 65 and ch <= 90",
+        "target": "ch >= 65 && ch <= 90"
+      }
+    ]
+  ]
+}

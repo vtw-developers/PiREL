@@ -1,0 +1,23 @@
+{
+  "template": "[[0] * n for __ in range(n)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[[0] * n for _ in range(n)]",
+  "translations": {
+    "[[0] * n for i in range(n)]": [
+      "let arr = [];\nfor (let i = 0; i < n; i++) {\n    arr.push(Array(n).fill(0));\n}"
+    ],
+    "[[0] * n for j in range(n)]": [
+      "let arr = Array(n).fill(Array(n).fill(0));"
+    ],
+    "[[0] * n for k in range(n)]": [
+      "Array.from({ length: n }, () => Array(n).fill(0));"
+    ],
+    "[[0] * n for x in range(n)]": [
+      "const result = Array.from({ length: n }, () => Array(n).fill(0));"
+    ],
+    "[[0] * n for y in range(n)]": [
+      "Array.from({length: n}, () => Array(n).fill(0));"
+    ]
+  }
+}

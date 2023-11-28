@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(__: List[int]) -> bool:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(nums: List[int]) -> bool:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(nums: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(values: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(values) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(nums: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(lst: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(nums: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(arr: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(arr) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(nums: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(numbers: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(numbers) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(values: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(values) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(lst: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(values: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(values) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(arr: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(arr) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(values: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(values) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(numbers: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(numbers) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(lst: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(arr: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(arr) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(lst: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(numbers: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(numbers) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(arr: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(arr) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(numbers: List[int]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(numbers) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

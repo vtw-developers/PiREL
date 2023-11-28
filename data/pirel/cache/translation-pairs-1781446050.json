@@ -1,0 +1,261 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "0 if res < -(2**31) or res > 2**31 - __ else res",
+  "template_origin": "0 if res < -(2**31) or res > 2**31 - 1 else res",
+  "templatized_node_ids": [
+    18
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 1 else res",
+        "target": "res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 1 ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 123456789 else res",
+        "target": "res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 123456789 ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 1 else res",
+        "target": "res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 1 ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 9999999999 else res",
+        "target": "res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 9999999999 ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 3 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 3)) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 9 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 9)) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 3 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 3)) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 999 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 999)) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 3 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 3)) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 10000 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 10000)) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 4 else res",
+        "target": "(res < -(2**31) || res > 2**31 - 4) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 5 else res",
+        "target": "(res < -(2**31) || res > 2**31 - 5) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 4 else res",
+        "target": "(res < -(2**31) || res > 2**31 - 4) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 1000000 else res",
+        "target": "(res < -(2**31) || res > 2**31 - 1000000) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 5 else res",
+        "target": "(res < -(2**31) || res > 2**31 - 5) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 1000000 else res",
+        "target": "(res < -(2**31) || res > 2**31 - 1000000) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 7 else res",
+        "target": "res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 7) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 42 else res",
+        "target": "res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 42) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 7 else res",
+        "target": "res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 7) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 3141592653 else res",
+        "target": "res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 3141592653) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 8 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 8) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 10 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 10) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 8 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 8) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 0 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 8 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 8) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 987654321 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 987654321) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 8 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 8) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 100 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 100) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 9 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 9)) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 999 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 999)) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 9 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 9)) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 10000 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 10000)) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 10 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 10) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 0 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 1) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 10 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 10) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 987654321 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 987654321) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 10 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 10) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 100 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 100) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 0 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 987654321 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 987654321) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 0 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 1) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 100 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 100) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 999 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 999)) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 10000 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 10000)) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 42 else res",
+        "target": "res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 42) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 3141592653 else res",
+        "target": "res < -(Math.pow(2, 31)) || res > (Math.pow(2, 31) - 3141592653) ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 123456789 else res",
+        "target": "res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 123456789 ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 9999999999 else res",
+        "target": "res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 9999999999 ? 0 : res;"
+      }
+    ],
+    [
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 987654321 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 987654321) ? 0 : res;"
+      },
+      {
+        "source": "0 if res < -(2**31) or res > 2**31 - 100 else res",
+        "target": "(res < -(Math.pow(2, 31)) || res > Math.pow(2, 31) - 100) ? 0 : res;"
+      }
+    ]
+  ]
+}

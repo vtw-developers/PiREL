@@ -1,0 +1,68 @@
+{
+  "template": "def f_gold(__: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(token: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(token, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(hole: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(hole, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(fill_me_in: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(fill_me_in, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(missing_arg: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(missing_arg, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(undefined: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(undefined, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(placeholder: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(placeholder, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(blank: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(blank, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(fill_this: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(fill_this, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(empty: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(empty, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(dummy: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(dummy, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(string: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(string, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(text: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(text, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(word: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(word, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(input_str: str, numRows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(input_str, numRows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: str, rows: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s, rows) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: str, count: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s, count) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: str, n: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s, n) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: str, x: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s, x) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: str, num: int) -> str:\n    some_secret_fn_4071()": [
+      "function f_gold(s, num) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

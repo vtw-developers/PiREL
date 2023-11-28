@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "not (__ <= int(s) <= 255)",
+  "template_origin": "not (0 <= int(s) <= 255)",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "not (0 <= int(s) <= 255)",
+        "target": "!(0 <= parseInt(s) && parseInt(s) <= 255)"
+      },
+      {
+        "source": "not (42 <= int(s) <= 255)",
+        "target": "!(42 <= parseInt(s) && parseInt(s) <= 255)"
+      }
+    ],
+    [
+      {
+        "source": "not (0 <= int(s) <= 255)",
+        "target": "!(0 <= parseInt(s) && parseInt(s) <= 255)"
+      },
+      {
+        "source": "not (1 <= int(s) <= 255)",
+        "target": "!(1 <= parseInt(s) && parseInt(s) <= 255)"
+      }
+    ],
+    [
+      {
+        "source": "not (42 <= int(s) <= 255)",
+        "target": "!(42 <= parseInt(s) && parseInt(s) <= 255)"
+      },
+      {
+        "source": "not (1 <= int(s) <= 255)",
+        "target": "!(1 <= parseInt(s) && parseInt(s) <= 255)"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "template": "def f_gold(__: str, p: str) -> bool:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(s: str, p: str) -> bool:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(xyz: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(xyz, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(abc: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(abc, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(foo: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(foo, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(bar: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(bar, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(spam: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(spam, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(eggs: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(eggs, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(baz: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(baz, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(qux: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(qux, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(waldo: str, p: str) -> bool:\n    some_secret_fn_4071()": [],
+    "def f_gold(corge: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(corge, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(arg: str, p: str) -> bool:\n    some_secret_fn_4071()": [],
+    "def f_gold(my_str: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(my_str, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(string: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(string, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(input_str: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(input_str, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(text: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(text, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(word: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(word, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(s: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(s, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(var: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(var, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(qwerty: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(qwerty, p) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(token: str, p: str) -> bool:\n    some_secret_fn_4071()": [
+      "function f_gold(token, p) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

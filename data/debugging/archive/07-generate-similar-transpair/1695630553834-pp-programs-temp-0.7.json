@@ -1,0 +1,11 @@
+[
+  "midVal1 = 0 if n + p - 1 < m else 1",
+  "midVal1 = 0 if 2 + 3 - 1 < m else 1",
+  "midVal1 = 0 if (n*p) + (m//p) - 1 < m else 1",
+  "midVal1 = 0 if var1 + var2 - 1 < m else 1",
+  "midVal1 = 0 if 5 + 3 - 1 < m else 1",
+  "midVal1 = 0 if var1 + 3 - 1 < m else 1",
+  "midVal1 = 0 if x + y - 1 < m else 1",
+  "midVal1 = 0 if (2+2) + (3*3) - 1 < m else 1",
+  "midVal1 = 0 if (2*2) + (3*3) - 1 < m else 1"
+]

@@ -1,0 +1,23 @@
+{
+  "template": "j >= 0 or __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "j >= 0 or t",
+  "translations": {
+    "j >= 0 or x": [
+      "j >= 0 || x;"
+    ],
+    "j >= 0 or y": [
+      "j >= 0 || y"
+    ],
+    "j >= 0 or z": [
+      "j >= 0 || z;"
+    ],
+    "j >= 0 or value": [
+      "j >= 0 || value;"
+    ],
+    "j >= 0 or foo": [
+      "j >= 0 || foo;"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "template": "__ == n or len(t) == 1",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "i == n or len(t) == 1",
+  "translations": {
+    "my_function == n or len(t) == 1": [
+      "my_function === n || t.length === 1;"
+    ],
+    "a == n or len(t) == 1": [
+      "a === n || t.length === 1;"
+    ],
+    "b == n or len(t) == 1": [
+      "b == n || t.length == 1"
+    ],
+    "c == n or len(t) == 1": [
+      "c == n || t.length == 1"
+    ],
+    "d == n or len(t) == 1": [
+      "d == n || t.length == 1;"
+    ]
+  }
+}

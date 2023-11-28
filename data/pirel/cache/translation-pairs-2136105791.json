@@ -1,0 +1,1061 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "t //= __",
+  "template_origin": "t //= 10",
+  "templatized_node_ids": [
+    4
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "t //= 2",
+        "target": "t = Math.floor(t / 2);"
+      },
+      {
+        "source": "t //= 3",
+        "target": "t = Math.floor(t / 3);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 2",
+        "target": "t = Math.floor(t / 2);"
+      },
+      {
+        "source": "t //= 4",
+        "target": "t = Math.floor(t / 4);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 2",
+        "target": "t = Math.floor(t / 2);"
+      },
+      {
+        "source": "t //= 5",
+        "target": "t = Math.floor(t / 5);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 2",
+        "target": "t = Math.floor(t / 2);"
+      },
+      {
+        "source": "t //= 6",
+        "target": "t = Math.floor(t / 6);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 2",
+        "target": "t = Math.floor(t / 2);"
+      },
+      {
+        "source": "t //= 7",
+        "target": "t = Math.floor(t / 7);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 2",
+        "target": "t = Math.floor(t / 2);"
+      },
+      {
+        "source": "t //= 8",
+        "target": "t = Math.floor(t / 8);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 2",
+        "target": "t = Math.floor(t / 2);"
+      },
+      {
+        "source": "t //= 9",
+        "target": "t = Math.floor(t / 9);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 2",
+        "target": "t = Math.floor(t / 2);"
+      },
+      {
+        "source": "t //= 10",
+        "target": "t = Math.floor(t / 10);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 2",
+        "target": "t = Math.floor(t / 2);"
+      },
+      {
+        "source": "t //= 1",
+        "target": "t = Math.floor(t / 1);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 2",
+        "target": "t = Math.floor(t / 2);"
+      },
+      {
+        "source": "t //= 100",
+        "target": "t = Math.floor(t / 100);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 2",
+        "target": "t = Math.floor(t / 2);"
+      },
+      {
+        "source": "t //= 1000000",
+        "target": "t = Math.floor(t / 1000000);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 2",
+        "target": "t = Math.floor(t / 2);"
+      },
+      {
+        "source": "t //= 999999",
+        "target": "t = Math.floor(t / 999999);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 2",
+        "target": "t = Math.floor(t / 2);"
+      },
+      {
+        "source": "t //= 20",
+        "target": "t = Math.floor(t / 20);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 2",
+        "target": "t = Math.floor(t / 2);"
+      },
+      {
+        "source": "t //= 15",
+        "target": "t = Math.floor(t / 15);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 3",
+        "target": "t = Math.floor(t / 3);"
+      },
+      {
+        "source": "t //= 4",
+        "target": "t = Math.floor(t / 4);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 3",
+        "target": "t = Math.floor(t / 3);"
+      },
+      {
+        "source": "t //= 5",
+        "target": "t = Math.floor(t / 5);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 3",
+        "target": "t = Math.floor(t / 3);"
+      },
+      {
+        "source": "t //= 6",
+        "target": "t = Math.floor(t / 6);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 3",
+        "target": "t = Math.floor(t / 3);"
+      },
+      {
+        "source": "t //= 7",
+        "target": "t = Math.floor(t / 7);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 3",
+        "target": "t = Math.floor(t / 3);"
+      },
+      {
+        "source": "t //= 8",
+        "target": "t = Math.floor(t / 8);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 3",
+        "target": "t = Math.floor(t / 3);"
+      },
+      {
+        "source": "t //= 9",
+        "target": "t = Math.floor(t / 9);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 3",
+        "target": "t = Math.floor(t / 3);"
+      },
+      {
+        "source": "t //= 10",
+        "target": "t = Math.floor(t / 10);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 3",
+        "target": "t = Math.floor(t / 3);"
+      },
+      {
+        "source": "t //= 1",
+        "target": "t = Math.floor(t / 1);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 3",
+        "target": "t = Math.floor(t / 3);"
+      },
+      {
+        "source": "t //= 100",
+        "target": "t = Math.floor(t / 100);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 3",
+        "target": "t = Math.floor(t / 3);"
+      },
+      {
+        "source": "t //= 1000000",
+        "target": "t = Math.floor(t / 1000000);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 3",
+        "target": "t = Math.floor(t / 3);"
+      },
+      {
+        "source": "t //= 999999",
+        "target": "t = Math.floor(t / 999999);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 3",
+        "target": "t = Math.floor(t / 3);"
+      },
+      {
+        "source": "t //= 20",
+        "target": "t = Math.floor(t / 20);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 3",
+        "target": "t = Math.floor(t / 3);"
+      },
+      {
+        "source": "t //= 15",
+        "target": "t = Math.floor(t / 15);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 4",
+        "target": "t = Math.floor(t / 4);"
+      },
+      {
+        "source": "t //= 5",
+        "target": "t = Math.floor(t / 5);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 4",
+        "target": "t = Math.floor(t / 4);"
+      },
+      {
+        "source": "t //= 6",
+        "target": "t = Math.floor(t / 6);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 4",
+        "target": "t = Math.floor(t / 4);"
+      },
+      {
+        "source": "t //= 7",
+        "target": "t = Math.floor(t / 7);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 4",
+        "target": "t = Math.floor(t / 4);"
+      },
+      {
+        "source": "t //= 8",
+        "target": "t = Math.floor(t / 8);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 4",
+        "target": "t = Math.floor(t / 4);"
+      },
+      {
+        "source": "t //= 9",
+        "target": "t = Math.floor(t / 9);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 4",
+        "target": "t = Math.floor(t / 4);"
+      },
+      {
+        "source": "t //= 10",
+        "target": "t = Math.floor(t / 10);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 4",
+        "target": "t = Math.floor(t / 4);"
+      },
+      {
+        "source": "t //= 1",
+        "target": "t = Math.floor(t / 1);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 4",
+        "target": "t = Math.floor(t / 4);"
+      },
+      {
+        "source": "t //= 100",
+        "target": "t = Math.floor(t / 100);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 4",
+        "target": "t = Math.floor(t / 4);"
+      },
+      {
+        "source": "t //= 1000000",
+        "target": "t = Math.floor(t / 1000000);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 4",
+        "target": "t = Math.floor(t / 4);"
+      },
+      {
+        "source": "t //= 999999",
+        "target": "t = Math.floor(t / 999999);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 4",
+        "target": "t = Math.floor(t / 4);"
+      },
+      {
+        "source": "t //= 20",
+        "target": "t = Math.floor(t / 20);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 4",
+        "target": "t = Math.floor(t / 4);"
+      },
+      {
+        "source": "t //= 15",
+        "target": "t = Math.floor(t / 15);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 5",
+        "target": "t = Math.floor(t / 5);"
+      },
+      {
+        "source": "t //= 6",
+        "target": "t = Math.floor(t / 6);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 5",
+        "target": "t = Math.floor(t / 5);"
+      },
+      {
+        "source": "t //= 7",
+        "target": "t = Math.floor(t / 7);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 5",
+        "target": "t = Math.floor(t / 5);"
+      },
+      {
+        "source": "t //= 8",
+        "target": "t = Math.floor(t / 8);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 5",
+        "target": "t = Math.floor(t / 5);"
+      },
+      {
+        "source": "t //= 9",
+        "target": "t = Math.floor(t / 9);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 5",
+        "target": "t = Math.floor(t / 5);"
+      },
+      {
+        "source": "t //= 10",
+        "target": "t = Math.floor(t / 10);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 5",
+        "target": "t = Math.floor(t / 5);"
+      },
+      {
+        "source": "t //= 1",
+        "target": "t = Math.floor(t / 1);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 5",
+        "target": "t = Math.floor(t / 5);"
+      },
+      {
+        "source": "t //= 100",
+        "target": "t = Math.floor(t / 100);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 5",
+        "target": "t = Math.floor(t / 5);"
+      },
+      {
+        "source": "t //= 1000000",
+        "target": "t = Math.floor(t / 1000000);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 5",
+        "target": "t = Math.floor(t / 5);"
+      },
+      {
+        "source": "t //= 999999",
+        "target": "t = Math.floor(t / 999999);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 5",
+        "target": "t = Math.floor(t / 5);"
+      },
+      {
+        "source": "t //= 20",
+        "target": "t = Math.floor(t / 20);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 5",
+        "target": "t = Math.floor(t / 5);"
+      },
+      {
+        "source": "t //= 15",
+        "target": "t = Math.floor(t / 15);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 6",
+        "target": "t = Math.floor(t / 6);"
+      },
+      {
+        "source": "t //= 7",
+        "target": "t = Math.floor(t / 7);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 6",
+        "target": "t = Math.floor(t / 6);"
+      },
+      {
+        "source": "t //= 8",
+        "target": "t = Math.floor(t / 8);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 6",
+        "target": "t = Math.floor(t / 6);"
+      },
+      {
+        "source": "t //= 9",
+        "target": "t = Math.floor(t / 9);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 6",
+        "target": "t = Math.floor(t / 6);"
+      },
+      {
+        "source": "t //= 10",
+        "target": "t = Math.floor(t / 10);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 6",
+        "target": "t = Math.floor(t / 6);"
+      },
+      {
+        "source": "t //= 1",
+        "target": "t = Math.floor(t / 1);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 6",
+        "target": "t = Math.floor(t / 6);"
+      },
+      {
+        "source": "t //= 100",
+        "target": "t = Math.floor(t / 100);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 6",
+        "target": "t = Math.floor(t / 6);"
+      },
+      {
+        "source": "t //= 1000000",
+        "target": "t = Math.floor(t / 1000000);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 6",
+        "target": "t = Math.floor(t / 6);"
+      },
+      {
+        "source": "t //= 999999",
+        "target": "t = Math.floor(t / 999999);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 6",
+        "target": "t = Math.floor(t / 6);"
+      },
+      {
+        "source": "t //= 20",
+        "target": "t = Math.floor(t / 20);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 6",
+        "target": "t = Math.floor(t / 6);"
+      },
+      {
+        "source": "t //= 15",
+        "target": "t = Math.floor(t / 15);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 7",
+        "target": "t = Math.floor(t / 7);"
+      },
+      {
+        "source": "t //= 8",
+        "target": "t = Math.floor(t / 8);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 7",
+        "target": "t = Math.floor(t / 7);"
+      },
+      {
+        "source": "t //= 9",
+        "target": "t = Math.floor(t / 9);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 7",
+        "target": "t = Math.floor(t / 7);"
+      },
+      {
+        "source": "t //= 10",
+        "target": "t = Math.floor(t / 10);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 7",
+        "target": "t = Math.floor(t / 7);"
+      },
+      {
+        "source": "t //= 1",
+        "target": "t = Math.floor(t / 1);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 7",
+        "target": "t = Math.floor(t / 7);"
+      },
+      {
+        "source": "t //= 100",
+        "target": "t = Math.floor(t / 100);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 7",
+        "target": "t = Math.floor(t / 7);"
+      },
+      {
+        "source": "t //= 1000000",
+        "target": "t = Math.floor(t / 1000000);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 7",
+        "target": "t = Math.floor(t / 7);"
+      },
+      {
+        "source": "t //= 999999",
+        "target": "t = Math.floor(t / 999999);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 7",
+        "target": "t = Math.floor(t / 7);"
+      },
+      {
+        "source": "t //= 20",
+        "target": "t = Math.floor(t / 20);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 7",
+        "target": "t = Math.floor(t / 7);"
+      },
+      {
+        "source": "t //= 15",
+        "target": "t = Math.floor(t / 15);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 8",
+        "target": "t = Math.floor(t / 8);"
+      },
+      {
+        "source": "t //= 9",
+        "target": "t = Math.floor(t / 9);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 8",
+        "target": "t = Math.floor(t / 8);"
+      },
+      {
+        "source": "t //= 10",
+        "target": "t = Math.floor(t / 10);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 8",
+        "target": "t = Math.floor(t / 8);"
+      },
+      {
+        "source": "t //= 1",
+        "target": "t = Math.floor(t / 1);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 8",
+        "target": "t = Math.floor(t / 8);"
+      },
+      {
+        "source": "t //= 100",
+        "target": "t = Math.floor(t / 100);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 8",
+        "target": "t = Math.floor(t / 8);"
+      },
+      {
+        "source": "t //= 1000000",
+        "target": "t = Math.floor(t / 1000000);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 8",
+        "target": "t = Math.floor(t / 8);"
+      },
+      {
+        "source": "t //= 999999",
+        "target": "t = Math.floor(t / 999999);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 8",
+        "target": "t = Math.floor(t / 8);"
+      },
+      {
+        "source": "t //= 20",
+        "target": "t = Math.floor(t / 20);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 8",
+        "target": "t = Math.floor(t / 8);"
+      },
+      {
+        "source": "t //= 15",
+        "target": "t = Math.floor(t / 15);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 9",
+        "target": "t = Math.floor(t / 9);"
+      },
+      {
+        "source": "t //= 10",
+        "target": "t = Math.floor(t / 10);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 9",
+        "target": "t = Math.floor(t / 9);"
+      },
+      {
+        "source": "t //= 1",
+        "target": "t = Math.floor(t / 1);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 9",
+        "target": "t = Math.floor(t / 9);"
+      },
+      {
+        "source": "t //= 100",
+        "target": "t = Math.floor(t / 100);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 9",
+        "target": "t = Math.floor(t / 9);"
+      },
+      {
+        "source": "t //= 1000000",
+        "target": "t = Math.floor(t / 1000000);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 9",
+        "target": "t = Math.floor(t / 9);"
+      },
+      {
+        "source": "t //= 999999",
+        "target": "t = Math.floor(t / 999999);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 9",
+        "target": "t = Math.floor(t / 9);"
+      },
+      {
+        "source": "t //= 20",
+        "target": "t = Math.floor(t / 20);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 9",
+        "target": "t = Math.floor(t / 9);"
+      },
+      {
+        "source": "t //= 15",
+        "target": "t = Math.floor(t / 15);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 10",
+        "target": "t = Math.floor(t / 10);"
+      },
+      {
+        "source": "t //= 1",
+        "target": "t = Math.floor(t / 1);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 10",
+        "target": "t = Math.floor(t / 10);"
+      },
+      {
+        "source": "t //= 100",
+        "target": "t = Math.floor(t / 100);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 10",
+        "target": "t = Math.floor(t / 10);"
+      },
+      {
+        "source": "t //= 1000000",
+        "target": "t = Math.floor(t / 1000000);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 10",
+        "target": "t = Math.floor(t / 10);"
+      },
+      {
+        "source": "t //= 999999",
+        "target": "t = Math.floor(t / 999999);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 10",
+        "target": "t = Math.floor(t / 10);"
+      },
+      {
+        "source": "t //= 20",
+        "target": "t = Math.floor(t / 20);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 10",
+        "target": "t = Math.floor(t / 10);"
+      },
+      {
+        "source": "t //= 15",
+        "target": "t = Math.floor(t / 15);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 1",
+        "target": "t = Math.floor(t / 1);"
+      },
+      {
+        "source": "t //= 100",
+        "target": "t = Math.floor(t / 100);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 1",
+        "target": "t = Math.floor(t / 1);"
+      },
+      {
+        "source": "t //= 1000000",
+        "target": "t = Math.floor(t / 1000000);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 1",
+        "target": "t = Math.floor(t / 1);"
+      },
+      {
+        "source": "t //= 999999",
+        "target": "t = Math.floor(t / 999999);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 1",
+        "target": "t = Math.floor(t / 1);"
+      },
+      {
+        "source": "t //= 20",
+        "target": "t = Math.floor(t / 20);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 1",
+        "target": "t = Math.floor(t / 1);"
+      },
+      {
+        "source": "t //= 15",
+        "target": "t = Math.floor(t / 15);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 100",
+        "target": "t = Math.floor(t / 100);"
+      },
+      {
+        "source": "t //= 1000000",
+        "target": "t = Math.floor(t / 1000000);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 100",
+        "target": "t = Math.floor(t / 100);"
+      },
+      {
+        "source": "t //= 999999",
+        "target": "t = Math.floor(t / 999999);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 100",
+        "target": "t = Math.floor(t / 100);"
+      },
+      {
+        "source": "t //= 20",
+        "target": "t = Math.floor(t / 20);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 100",
+        "target": "t = Math.floor(t / 100);"
+      },
+      {
+        "source": "t //= 15",
+        "target": "t = Math.floor(t / 15);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 1000000",
+        "target": "t = Math.floor(t / 1000000);"
+      },
+      {
+        "source": "t //= 999999",
+        "target": "t = Math.floor(t / 999999);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 1000000",
+        "target": "t = Math.floor(t / 1000000);"
+      },
+      {
+        "source": "t //= 20",
+        "target": "t = Math.floor(t / 20);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 1000000",
+        "target": "t = Math.floor(t / 1000000);"
+      },
+      {
+        "source": "t //= 15",
+        "target": "t = Math.floor(t / 15);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 999999",
+        "target": "t = Math.floor(t / 999999);"
+      },
+      {
+        "source": "t //= 20",
+        "target": "t = Math.floor(t / 20);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 999999",
+        "target": "t = Math.floor(t / 999999);"
+      },
+      {
+        "source": "t //= 15",
+        "target": "t = Math.floor(t / 15);"
+      }
+    ],
+    [
+      {
+        "source": "t //= 20",
+        "target": "t = Math.floor(t / 20);"
+      },
+      {
+        "source": "t //= 15",
+        "target": "t = Math.floor(t / 15);"
+      }
+    ]
+  ]
+}

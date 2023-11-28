@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for j in range(__ + 1, n - 2):\n    some_secret_fn_4071()",
+  "template_origin": "for j in range(i + 1, n - 2):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for j in range(start + 1, n - 2):\n    some_secret_fn_4071()",
+        "target": "for (let j = start + 1; j < n - 2; j++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(j + 1, n - 2):\n    some_secret_fn_4071()",
+        "target": "for (let j = j + 1; j < n - 2; j++) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You are a world-class software engineer.\n\nYour task is to generate syntactically valid programs in multiple languages as requested."
+  },
+  {
+    "role": "user",
+    "content": "The following Python program\n```Python\nfor i, val in enumerate(nums):\n    if i > 5:\n        break\n```\ncan be translated to the following semantically equivalent JavaScript program\n```JavaScript\nlet i = 0;\nfor (let val of nums) {\n    if (i > 5) {\n        break;\n    }\n    i++;\n}\n```\n\nTranslate the following Python program\n```Python\nfor count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")\n```\nto a semantically equivalent JavaScript program such that its translation is similar to\n```JavaScript\nlet i = 0;\nfor (let val of nums) {\n    if (i > 5) {\n        break;\n    }\n    i++;\n}\n```"
+  }
+]

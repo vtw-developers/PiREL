@@ -1,0 +1,51 @@
+{
+  "template": "len(res) > __ and res[-__] == 0",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "len(res) > 1 and res[-1] == 0",
+  "translations": {
+    "len(res) > 0 and res[-1] == 0": [
+      "(res.length > 0) && (res[res.length - 1] == 0)"
+    ],
+    "len(res) > 1 and res[-1] == 0": [
+      "res.length > 1 && res[res.length - 1] == 0"
+    ],
+    "len(res) > 2 and res[-1] == 0": [
+      "res.length > 2 && res[res.length - 1] == 0;"
+    ],
+    "len(res) > 3 and res[-1] == 0": [
+      "res.length > 3 && res[res.length - 1] == 0;"
+    ],
+    "len(res) > 4 and res[-1] == 0": [
+      "res.length > 4 && res[res.length - 1] == 0"
+    ],
+    "len(res) > 5 and res[-1] == 0": [
+      "res.length > 5 && res[res.length - 1] === 0"
+    ],
+    "len(res) > 6 and res[-1] == 0": [
+      "res.length > 6 && res[res.length - 1] == 0;"
+    ],
+    "len(res) > 7 and res[-1] == 0": [
+      "res.length > 7 && res[res.length - 1] == 0"
+    ],
+    "len(res) > 8 and res[-1] == 0": [
+      "res.length > 8 && res[res.length - 1] == 0"
+    ],
+    "len(res) > 9 and res[-1] == 0": [
+      "res.length > 9 && res[res.length - 1] == 0;"
+    ],
+    "len(res) > 1 and res[-2] == 0": [
+      "res.length > 1 && res[res.length - 2] == 0"
+    ],
+    "len(res) > 2 and res[-3] == 0": [],
+    "len(res) > 3 and res[-4] == 0": [
+      "res.length > 3 && res[res.length - 4] == 0"
+    ],
+    "len(res) > 4 and res[-5] == 0": [
+      "res.length > 4 && res[res.length - 5] == 0;"
+    ],
+    "len(res) > 5 and res[-6] == 0": [
+      "res.length > 5 && res[res.length - 6] === 0"
+    ]
+  }
+}

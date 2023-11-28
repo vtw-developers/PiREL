@@ -1,0 +1,2890 @@
+{
+  "best_score": 16,
+  "generated_codes_stats": [
+    [
+      0,
+      {
+        "generated_code": "my_dict = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      1,
+      {
+        "generated_code": "user_data = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      2,
+      {
+        "generated_code": "my_dict = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      3,
+      {
+        "generated_code": "_123 = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      4,
+      {
+        "generated_code": "x_y_z = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      5,
+      {
+        "generated_code": "my_dict = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      6,
+      {
+        "generated_code": "my_dict = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      7,
+      {
+        "generated_code": "data = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      8,
+      {
+        "generated_code": "result = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      9,
+      {
+        "generated_code": "_ = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      10,
+      {
+        "generated_code": "my_dict = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      11,
+      {
+        "generated_code": "my_dict = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      12,
+      {
+        "generated_code": "data = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      13,
+      {
+        "generated_code": "my_dict = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      14,
+      {
+        "generated_code": "'abc' = {}",
+        "has_parse_error": true,
+        "is_type_isomorphic_to_template": null,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      15,
+      {
+        "generated_code": "my_dict = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      16,
+      {
+        "generated_code": "one = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      17,
+      {
+        "generated_code": "student_grades = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      18,
+      {
+        "generated_code": "my_dict = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      19,
+      {
+        "generated_code": "# This is not applicable as a literal cannot be used as a variable name in Python.",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": false,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      20,
+      {
+        "generated_code": "# This is not applicable as the hole needs to be filled with an identifier to be syntactically correct.",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": false,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      21,
+      {
+        "generated_code": "my_dict = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ],
+    [
+      22,
+      {
+        "generated_code": "user_data = {}",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "helper = {}"
+      }
+    ]
+  ],
+  "perfect_two_source_programs": null,
+  "success": true,
+  "two_source_programs": {
+    "all_templatized_nodes_match": true,
+    "no_repeating_tokens": true,
+    "pair_score": 16,
+    "program1": "my_dict = {}",
+    "program2": "user_data = {}",
+    "ratio_template_nodes_width_1": 1
+  },
+  "two_source_programs_stats": [
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "_123 = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "x_y_z = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "_123 = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "x_y_z = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "_123 = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "x_y_z = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "x_y_z = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "one = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "one = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "one = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "one = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "student_grades = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "student_grades = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "student_grades = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    }
+  ],
+  "valid_tsp_list": [
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "_123 = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "x_y_z = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "_123 = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "x_y_z = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "user_data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "_123 = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "x_y_z = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "x_y_z = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_123 = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "x_y_z = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "result = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "_ = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "result = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "_ = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "data = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "one = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "one = {}",
+      "program2": "student_grades = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "one = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "one = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "one = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "student_grades = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "student_grades = {}",
+      "program2": "my_dict = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "student_grades = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "no_repeating_tokens": true,
+      "pair_score": 16,
+      "program1": "my_dict = {}",
+      "program2": "user_data = {}",
+      "ratio_template_nodes_width_1": 1
+    }
+  ]
+}

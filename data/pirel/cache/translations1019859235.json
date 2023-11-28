@@ -1,0 +1,23 @@
+{
+  "template": "for s, e in __[1:]:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for s, e in intervals[1:]:\n    some_secret_fn_4071()",
+  "translations": {
+    "for s, e in my_list[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < my_list.length; i++) {\n    let [s, e] = my_list[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for s, e in data[1:]:\n    some_secret_fn_4071()": [
+      "for (var i = 1; i < data.length; i++) {\n    var s = data[i][0];\n    var e = data[i][1];\n    some_secret_fn_4071();\n}"
+    ],
+    "for s, e in pairs[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < pairs.length; i++) {\n    const [s, e] = pairs[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for s, e in items[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < items.length; i++) {\n    const [s, e] = items[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for s, e in values[1:]:\n    some_secret_fn_4071()": [
+      "for (let [s, e] of values.slice(1)) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

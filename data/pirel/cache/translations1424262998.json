@@ -1,0 +1,48 @@
+{
+  "template": "group if i == __ else 2 * __ - 2 * i",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "group if i == numRows else 2 * numRows - 2 * i",
+  "translations": {
+    "group if i == NotImplemented else 2 * NotImplemented - 2 * i": [
+      "i === NotImplemented ? group : 2 * NotImplemented - 2 * i;"
+    ],
+    "group if i == Ellipsis else 2 * Ellipsis - 2 * i": [],
+    "group if i == Exception else 2 * Exception - 2 * i": [],
+    "group if i == StopIteration else 2 * StopIteration - 2 * i": [],
+    "group if i == OSError else 2 * OSError - 2 * i": [
+      "i == OSError ? group : 2 * OSError - 2 * i;"
+    ],
+    "group if i == a else 2 * a - 2 * i": [
+      "i == a ? group : 2 * a - 2 * i;"
+    ],
+    "group if i == b else 2 * b - 2 * i": [
+      "i === b ? group : 2 * b - 2 * i;"
+    ],
+    "group if i == c else 2 * c - 2 * i": [
+      "i == c ? group : 2 * c - 2 * i;"
+    ],
+    "group if i == d else 2 * d - 2 * i": [],
+    "group if i == e else 2 * e - 2 * i": [],
+    "group if i == f else 2 * f - 2 * i": [
+      "i == f ? group : 2 * f - 2 * i;"
+    ],
+    "group if i == g else 2 * g - 2 * i": [
+      "i == g ? group : 2 * g - 2 * i;"
+    ],
+    "group if i == h else 2 * h - 2 * i": [],
+    "group if i == j else 2 * j - 2 * i": [],
+    "group if i == k else 2 * k - 2 * i": [
+      "i == k ? group : 2 * k - 2 * i;"
+    ],
+    "group if i == x else 2 * x - 2 * i": [
+      "i == x ? group : 2 * x - 2 * i;"
+    ],
+    "group if i == y else 2 * y - 2 * i": [],
+    "group if i == z else 2 * z - 2 * i": [],
+    "group if i == p else 2 * p - 2 * i": [
+      "i == p ? group : 2 * p - 2 * i;"
+    ],
+    "group if i == q else 2 * q - 2 * i": []
+  }
+}

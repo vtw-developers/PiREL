@@ -1,0 +1,38 @@
+{
+  "template": "for j in range(__ + 1, n - 2):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for j in range(i + 1, n - 2):\n    some_secret_fn_4071()",
+  "translations": {
+    "for j in range(__ + 1, n - 2):\n    some_secret_fn_4071()": [
+      "for (let j = __ + 1; j < n - 2; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ - 1, n - 2):\n    some_secret_fn_4071()": [
+      "for (var j = (__ - 1); j < (n - 2); j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ * 2, n - 2):\n    some_secret_fn_4071()": [
+      "for (let j = __ * 2; j < n - 2; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ // 2, n - 2):\n    some_secret_fn_4071()": [
+      "for (let j = Math.floor(__ / 2); j < n - 2; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ % 5, n - 2):\n    some_secret_fn_4071()": [
+      "for (let j = __ % 5; j < n - 2; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ ** 3, n - 2):\n    some_secret_fn_4071()": [
+      "for (let j = Math.pow(__, 3); j < n - 2; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ ** 2, n - 2):\n    some_secret_fn_4071()": [
+      "for (let j = Math.pow(__, 2); j < n - 2; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(i + 1, n - 2):\n    some_secret_fn_4071()": [
+      "for (var j = i + 1; j < n - 2; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(start + 1, n - 2):\n    some_secret_fn_4071()": [
+      "for (let j = start + 1; j < n - 2; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(j + 1, n - 2):\n    some_secret_fn_4071()": [
+      "for (let j = j + 1; j < n - 2; j++) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+[
+  "midVal1 = val1 if condition else val2",
+  "midVal1 = 7 if True else 3"
+]

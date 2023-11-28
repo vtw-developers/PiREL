@@ -1,0 +1,62 @@
+{
+  "template": "-1 if __[i] == '-' else 1",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "-1 if s[i] == '-' else 1",
+  "translations": {
+    "-1 if nums[i] == '-' else 1": [
+      "nums[i] === '-' ? -1 : 1;"
+    ],
+    "-1 if lst[i] == '-' else 1": [
+      "lst[i] === '-' ? -1 : 1;"
+    ],
+    "-1 if data[i] == '-' else 1": [
+      "data[i] === '-' ? -1 : 1;"
+    ],
+    "-1 if values[i] == '-' else 1": [
+      "values[i] == '-' ? -1 : 1;"
+    ],
+    "-1 if elements[i] == '-' else 1": [
+      "elements[i] === '-' ? -1 : 1;"
+    ],
+    "-1 if items[i] == '-' else 1": [
+      "items[i] == '-' ? -1 : 1;"
+    ],
+    "-1 if arr[i] == '-' else 1": [
+      "arr[i] === '-' ? -1 : 1;"
+    ],
+    "-1 if sequence[i] == '-' else 1": [
+      "sequence[i] == '-' ? -1 : 1;"
+    ],
+    "-1 if input_list[i] == '-' else 1": [],
+    "-1 if characters[i] == '-' else 1": [
+      "characters[i] == '-' ? -1 : 1;"
+    ],
+    "-1 if array[i] == '-' else 1": [
+      "array[i] == '-' ? -1 : 1;"
+    ],
+    "-1 if strings[i] == '-' else 1": [
+      "strings[i] == '-' ? -1 : 1;"
+    ],
+    "-1 if a[i] == '-' else 1": [],
+    "-1 if b[i] == '-' else 1": [
+      "b[i] == \"-\" ? -1 : 1;"
+    ],
+    "-1 if c[i] == '-' else 1": [
+      "c[i] == '-' ? -1 : 1;"
+    ],
+    "-1 if d[i] == '-' else 1": [],
+    "-1 if e[i] == '-' else 1": [
+      "e[i] == '-' ? -1 : 1;"
+    ],
+    "-1 if f[i] == '-' else 1": [
+      "f[i] == '-' ? -1 : 1;"
+    ],
+    "-1 if g[i] == '-' else 1": [
+      "(g[i] === '-') ? -1 : 1;"
+    ],
+    "-1 if h[i] == '-' else 1": [
+      "(h[i] == '-') ? -1 : 1;"
+    ]
+  }
+}

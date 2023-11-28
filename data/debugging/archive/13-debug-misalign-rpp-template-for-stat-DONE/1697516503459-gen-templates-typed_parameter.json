@@ -1,0 +1,72 @@
+{
+  "0": {
+    "template_id": 0,
+    "template_origin": "nums: List[int]",
+    "context_node_type": "py.typed_parameter",
+    "template_origin_node_type": "py.expression_statement",
+    "is_valid_template": false,
+    "error": "template origin is not type-isomorphic to the context node"
+  },
+  "1": {
+    "template_id": 1,
+    "template_origin": "(nums: List[int], target: int)",
+    "context_node_type": "py.parameters",
+    "template_origin_node_type": null,
+    "is_valid_template": false,
+    "error": "parse error of template_origin"
+  },
+  "2": {
+    "template_id": 2,
+    "template_context": "def f_gold(nums: List[int], __) -> __:\n    __",
+    "template_context_str_repl": "def f_gold(__: __, <|pirel_context_hole|>) -> <|pirel_context_hole|>:\n    <|pirel_context_hole|>",
+    "template_origin": "def f_gold(nums: List[int], target: int) -> List[int]:\n    helper = {}\n    for i, v in enumerate(nums):\n        num = target - v\n        if num in helper:\n            return [helper[num], i]\n        helper[v] = i",
+    "templatized_node_ids": {
+      "5": [
+        2,
+        1,
+        0
+      ],
+      "6": [
+        2,
+        1,
+        2
+      ]
+    },
+    "templatized_node_ids_context": {
+      "10": [
+        2,
+        3
+      ],
+      "14": [
+        4
+      ],
+      "18": [
+        6
+      ]
+    },
+    "context_node_type": "function_definition",
+    "is_valid_template": true,
+    "sub_templates": null,
+    "contexts": [
+      {
+        "source_context": {
+          "siblings": [],
+          "parents": [
+            "\"py.parameters\"",
+            "\"py.function_definition\""
+          ]
+        },
+        "target_context": {
+          "siblings": [],
+          "parents": [
+            "\"js.formal_parameters\"",
+            "\"js.function_declaration\""
+          ]
+        }
+      }
+    ]
+  },
+  "problematic_node_type": "typed_parameter",
+  "problematic_node_id": 9,
+  "num_templates": 3
+}

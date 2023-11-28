@@ -1,0 +1,51 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums[mid] < __ <= nums[n - 1]",
+  "template_origin": "nums[mid] < target <= nums[n - 1]",
+  "templatized_node_ids": [
+    6
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums[mid] < x <= nums[n - 1]",
+        "target": "nums[mid] < x && x <= nums[n - 1]"
+      },
+      {
+        "source": "nums[mid] < y <= nums[n - 1]",
+        "target": "nums[mid] < y && y <= nums[n - 1]"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < x <= nums[n - 1]",
+        "target": "nums[mid] < x && x <= nums[n - 1]"
+      },
+      {
+        "source": "nums[mid] < foo <= nums[n - 1]",
+        "target": "nums[mid] < foo && foo <= nums[n - 1]"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < y <= nums[n - 1]",
+        "target": "nums[mid] < y && y <= nums[n - 1]"
+      },
+      {
+        "source": "nums[mid] < foo <= nums[n - 1]",
+        "target": "nums[mid] < foo && foo <= nums[n - 1]"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] < z <= nums[n - 1]",
+        "target": "nums[mid] < z && z <= nums[n - 1];"
+      },
+      {
+        "source": "nums[mid] < bar <= nums[n - 1]",
+        "target": "nums[mid] < bar && bar <= nums[n - 1];"
+      }
+    ]
+  ]
+}

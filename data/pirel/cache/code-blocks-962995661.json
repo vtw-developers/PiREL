@@ -1,0 +1,31 @@
+{
+  "template": "for item in __:\n    some_secret_fn_4071()",
+  "lang": "py",
+  "temperature": 1,
+  "code_blocks": [
+    "# Variant 1\nfor item in my_list:\n    some_secret_fn_4071()\n\n# Variant 2\nfor item in range(10):\n    some_secret_fn_4071()\n\n# Variant 3\nfor item in {1, 2, 3}:\n    some_secret_fn_4071()\n\n# Variant 4\nfor item in \"Hello, World!\":\n    some_secret_fn_4071()\n\n# Variant 5\nfor item in []:\n    some_secret_fn_4071()\n\n# Variant 6\nfor item in (1, 2, 3):\n    some_secret_fn_4071()\n\n# Variant 7\nfor item in {\"name\": \"John\", \"age\": 30}:\n    some_secret_fn_4071()\n\n# Variant 8\nfor item in range(5, 15, 2):\n    some_secret_fn_4071()\n\n# Variant 9\nfor item in (x ** 2 for x in range(5)):\n    some_secret_fn_4071()\n\n# Variant 10\nfor item in os.listdir():\n    some_secret_fn_4071()",
+    "# Variant 1\nfor item in my_list:\n    some_secret_fn_4071()\n\n# Variant 2\nfor item in range(10):\n    some_secret_fn_4071()\n\n# Variant 3\nfor item in \"hello world\":\n    some_secret_fn_4071()\n\n# Variant 4\nfor item in [1, 2, 3, 4, 5]:\n    some_secret_fn_4071()\n\n# Variant 5\nfor item in {\"a\": 1, \"b\": 2, \"c\": 3}:\n    some_secret_fn_4071()\n\n# Variant 6\nfor item in (1, 2, 3, 4, 5):\n    some_secret_fn_4071()\n\n# Variant 7\nfor item in set([1, 2, 3, 4, 5]):\n    some_secret_fn_4071()\n\n# Variant 8\nfor item in xrange(10):\n    some_secret_fn_4071()\n\n# Variant 9\nfor item in []:\n    some_secret_fn_4071()\n\n# Variant 10\nfor item in range(0):\n    some_secret_fn_4071()",
+    "# Variant 1\nfor item in items:\n    some_secret_fn_4071()\n\n# Variant 2\nfor item in myList:\n    some_secret_fn_4071()\n\n# Variant 3\nfor item in data:\n    some_secret_fn_4071()\n\n# Variant 4\nfor item in values:\n    some_secret_fn_4071()\n\n# Variant 5\nfor item in elements:\n    some_secret_fn_4071()\n\n# Variant 6\nfor item in collection:\n    some_secret_fn_4071()\n\n# Variant 7\nfor item in sequence:\n    some_secret_fn_4071()\n\n# Variant 8\nfor item in iterable:\n    some_secret_fn_4071()\n\n# Variant 9\nfor item in my_list:\n    some_secret_fn_4071()\n\n# Variant 10\nfor item in items_list:\n    some_secret_fn_4071()",
+    "for item in myList:\n    some_secret_fn_4071()",
+    "for item in myDict:\n    some_secret_fn_4071()",
+    "for item in mySet:\n    some_secret_fn_4071()",
+    "for item in myTuple:\n    some_secret_fn_4071()",
+    "for item in myString:\n    some_secret_fn_4071()",
+    "for item in myIterable:\n    some_secret_fn_4071()",
+    "for item in myGenerator():\n    some_secret_fn_4071()",
+    "for item in myIterator:\n    some_secret_fn_4071()",
+    "for item in myArray:\n    some_secret_fn_4071()",
+    "for item in myCustomCollection:\n    some_secret_fn_4071()",
+    "for item in my_list:\n    some_secret_fn_4071()",
+    "for item in range(10):\n    some_secret_fn_4071()",
+    "for item in [1, 2, 3]:\n    some_secret_fn_4071()",
+    "for item in \"hello\":\n    some_secret_fn_4071()",
+    "for item in {1, 2, 3}:\n    some_secret_fn_4071()",
+    "for item in range(1, 6):\n    some_secret_fn_4071()",
+    "for item in [\"apple\", \"banana\", \"orange\"]:\n    some_secret_fn_4071()",
+    "for item in {\"red\", \"green\", \"blue\"}:\n    some_secret_fn_4071()",
+    "for item in (1, 2, 3):\n    some_secret_fn_4071()",
+    "for item in range(5, 10):\n    some_secret_fn_4071()"
+  ],
+  "num_code_blocks": 23
+}

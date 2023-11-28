@@ -1,0 +1,23 @@
+{
+  "template": "__ > 1 and s[__ - 2] != '0' and (int(s[__ - 2]) * 10 + int(s[__ - 1]) <= 26)",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 10 + int(s[i - 1]) <= 26)",
+  "translations": {
+    "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 10 + int(s[i - 1]) <= 26)": [
+      "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 10 + parseInt(s[i - 1]) <= 26)"
+    ],
+    "x > 1 and s[x - 2] != '0' and (int(s[x - 2]) * 10 + int(s[x - 1]) <= 26)": [
+      "x > 1 && s[x - 2] !== '0' && (parseInt(s[x - 2]) * 10 + parseInt(s[x - 1]) <= 26)"
+    ],
+    "n > 1 and s[n - 2] != '0' and (int(s[n - 2]) * 10 + int(s[n - 1]) <= 26)": [
+      "n > 1 && s[n - 2] !== '0' && (parseInt(s[n - 2]) * 10 + parseInt(s[n - 1]) <= 26)"
+    ],
+    "idx > 1 and s[idx - 2] != '0' and (int(s[idx - 2]) * 10 + int(s[idx - 1]) <= 26)": [
+      "if (idx > 1 && s[idx - 2] !== '0' && (parseInt(s[idx - 2]) * 10 + parseInt(s[idx - 1])) <= 26) {\n    // code block\n}"
+    ],
+    "k > 1 and s[k - 2] != '0' and (int(s[k - 2]) * 10 + int(s[k - 1]) <= 26)": [
+      "k > 1 && s[k - 2] !== '0' && (parseInt(s[k - 2]) * 10 + parseInt(s[k - 1]) <= 26)"
+    ]
+  }
+}

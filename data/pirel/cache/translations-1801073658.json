@@ -1,0 +1,38 @@
+{
+  "template": "[matrix[i][right] for i in range(top + 1, __ + 1)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[matrix[i][right] for i in range(top + 1, bottom + 1)]",
+  "translations": {
+    "[matrix[i][right] for i in range(top + 1, right + 1)]": [
+      "var result = [];\nfor (var i = top + 1; i <= right + 1; i++) {\n    result.push(matrix[i][right]);\n}"
+    ],
+    "[matrix[i][right] for i in range(top + 1, left + 1)]": [
+      "matrix.slice(top + 1, left + 1).map(function(row) {\n    return row[right];\n});"
+    ],
+    "[matrix[i][right] for i in range(top + 1, bottom + 1)]": [
+      "let result = [];\nfor (let i = top + 1; i <= bottom; i++) {\n    result.push(matrix[i][right]);\n}"
+    ],
+    "[matrix[i][right] for i in range(top + 1, matrix_size + 1)]": [
+      "let result = [];\nfor (let i = top + 1; i < matrix_size + 1; i++) {\n    result.push(matrix[i][right]);\n}"
+    ],
+    "[matrix[i][right] for i in range(top + 1, bottom + 2)]": [
+      "let result = [];\nfor (let i = top + 1; i <= bottom + 1; i++) {\n    result.push(matrix[i][right]);\n}"
+    ],
+    "[matrix[i][right] for i in range(top + 1, bottom - 1)]": [
+      "let result = [];\nfor (let i = top + 1; i < bottom - 1; i++) {\n    result.push(matrix[i][right]);\n}"
+    ],
+    "[matrix[i][right] for i in range(top + 1, bottom * 2)]": [
+      "let result = [];\nfor (let i = top + 1; i < bottom * 2; i++) {\n    result.push(matrix[i][right]);\n}"
+    ],
+    "[matrix[i][right] for i in range(top + 1, row + 1)]": [
+      "matrix.slice(top + 1, row + 1).map((row) => row[right]);"
+    ],
+    "[matrix[i][right] for i in range(top + 1, max_row + 1)]": [
+      "let result = [];\nfor (let i = top + 1; i <= max_row; i++) {\n    result.push(matrix[i][right]);\n}"
+    ],
+    "[matrix[i][right] for i in range(top + 1, row_count + 1)]": [
+      "matrix.slice(top + 1, row_count + 1).map((row) => row[right]);"
+    ]
+  }
+}

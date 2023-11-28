@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+  "template_origin": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+  "templatized_node_ids": [
+    4
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "array[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "array[i + Math.floor(k / 2) - 1] < m ? array[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "lst[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "lst[i + Math.floor(k / 2) - 1] < m ? lst[i + Math.floor(k / 2) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "array[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "array[i + Math.floor(k / 2) - 1] < m ? array[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "items[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "items[i + Math.floor(k / 2) - 1] < m ? items[i + Math.floor(k / 2) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "array[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "array[i + Math.floor(k / 2) - 1] < m ? array[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "values[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "values[i + Math.floor(k / 2) - 1] < m ? values[i + Math.floor(k / 2) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "lst[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "lst[i + Math.floor(k / 2) - 1] < m ? lst[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "items[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "items[i + Math.floor(k / 2) - 1] < m ? items[i + Math.floor(k / 2) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "lst[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "lst[i + Math.floor(k / 2) - 1] < m ? lst[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "values[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "values[i + Math.floor(k / 2) - 1] < m ? values[i + Math.floor(k / 2) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "items[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "items[i + Math.floor(k / 2) - 1] < m ? items[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "values[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "values[i + Math.floor(k / 2) - 1] < m ? values[i + Math.floor(k / 2) - 1] : Infinity;"
+      }
+    ]
+  ]
+}

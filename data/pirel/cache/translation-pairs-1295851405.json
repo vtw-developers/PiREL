@@ -1,0 +1,32 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[matrix[__][right] for __ in range(top + 1, bottom + 1)]",
+  "template_origin": "[matrix[i][right] for i in range(top + 1, bottom + 1)]",
+  "templatized_node_ids": [
+    6,
+    9
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[matrix[i][right] for i in range(top + 1, bottom + 1)]",
+        "target": "let result = [];\nfor (let i = top + 1; i <= bottom; i++) {\n    result.push(matrix[i][right]);\n}"
+      },
+      {
+        "source": "[matrix[row][right] for row in range(top + 1, bottom + 1)]",
+        "target": "let result = [];\nfor (let row = top + 1; row <= bottom; row++) {\n    result.push(matrix[row][right]);\n}"
+      }
+    ],
+    [
+      {
+        "source": "[matrix[index][right] for index in range(top + 1, bottom + 1)]",
+        "target": "matrix.slice(top + 1, bottom + 1).map((row) => row[right]);"
+      },
+      {
+        "source": "[matrix[i][j] for i in range(top + 1, bottom + 1)]",
+        "target": "matrix.slice(top + 1, bottom + 1).map((row) => row[j]);"
+      }
+    ]
+  ]
+}

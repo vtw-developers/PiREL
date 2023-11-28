@@ -1,0 +1,20 @@
+{
+  "sp1": "var1 = var2",
+  "sp2": "number = 5",
+  "cand_translation_sp1": "let var1 = var2;",
+  "raw_translations_sp2": [
+    "let number = 5;"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

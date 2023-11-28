@@ -1,0 +1,26 @@
+{
+  "program_pairs": [
+    {
+      "source": "def f_gold(arg1: int, target: int) -> int:\n    return target",
+      "target": "function f_gold(arg1, target) {\n    return target;\n}"
+    }
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": [
+          "\"py.parameters\"",
+          "\"py.function_definition\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.formal_parameters\"",
+          "\"js.function_declaration\""
+        ]
+      }
+    }
+  ]
+}

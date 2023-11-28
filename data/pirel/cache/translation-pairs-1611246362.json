@@ -1,0 +1,51 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for __, num in enumerate(nums):\n    some_secret_fn_4071()",
+  "template_origin": "for i, num in enumerate(nums):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    3
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for i, num in enumerate(nums):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < nums.length; i++) {\n    let num = nums[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for idx, num in enumerate(nums):\n    some_secret_fn_4071()",
+        "target": "for (let idx = 0; idx < nums.length; idx++) {\n    let num = nums[idx];\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i, num in enumerate(nums):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < nums.length; i++) {\n    let num = nums[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for x, num in enumerate(nums):\n    some_secret_fn_4071()",
+        "target": "for (let x = 0; x < nums.length; x++) {\n    let num = nums[x];\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for idx, num in enumerate(nums):\n    some_secret_fn_4071()",
+        "target": "for (let idx = 0; idx < nums.length; idx++) {\n    let num = nums[idx];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for x, num in enumerate(nums):\n    some_secret_fn_4071()",
+        "target": "for (let x = 0; x < nums.length; x++) {\n    let num = nums[x];\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for index, num in enumerate(nums):\n    some_secret_fn_4071()",
+        "target": "for (let index = 0; index < nums.length; index++) {\n    const num = nums[index];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for count, num in enumerate(nums):\n    some_secret_fn_4071()",
+        "target": "for (let count = 0; count < nums.length; count++) {\n    const num = nums[count];\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

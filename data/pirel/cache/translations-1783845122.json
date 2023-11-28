@@ -1,0 +1,23 @@
+{
+  "template": "[matrix[i][right] for i in range(__ + 1, bottom + 1)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[matrix[i][right] for i in range(top + 1, bottom + 1)]",
+  "translations": {
+    "[matrix[i][right] for i in range(idx + 1, bottom + 1)]": [
+      "for (let i = idx + 1; i <= bottom; i++) {\n    result.push(matrix[i][right]);\n}"
+    ],
+    "[matrix[i][right] for i in range(row + 1, bottom + 1)]": [
+      "matrix.slice(row + 1, bottom + 1).map(row => row[right]);"
+    ],
+    "[matrix[i][right] for i in range(start + 1, bottom + 1)]": [
+      "matrix.slice(start + 1, bottom + 1).map((row) => row[right]);"
+    ],
+    "[matrix[i][right] for i in range(begin + 1, bottom + 1)]": [
+      "let result = [];\nfor (let i = begin + 1; i <= bottom; i++) {\n    result.push(matrix[i][right]);\n}"
+    ],
+    "[matrix[i][right] for i in range(count + 1, bottom + 1)]": [
+      "matrix.slice(count + 1, bottom + 1).map(row => row[right]);"
+    ]
+  }
+}

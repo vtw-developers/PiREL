@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "j > __ + 1 and nums[j] == nums[j - 1]",
+  "template_origin": "j > i + 1 and nums[j] == nums[j - 1]",
+  "templatized_node_ids": [
+    6
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "j > j + 1 and nums[j] == nums[j - 1]",
+        "target": "j > j + 1 && nums[j] === nums[j - 1]"
+      },
+      {
+        "source": "j > x + 1 and nums[j] == nums[j - 1]",
+        "target": "j > x + 1 && nums[j] === nums[j - 1]"
+      }
+    ],
+    [
+      {
+        "source": "j > j + 1 and nums[j] == nums[j - 1]",
+        "target": "j > j + 1 && nums[j] === nums[j - 1]"
+      },
+      {
+        "source": "j > z + 1 and nums[j] == nums[j - 1]",
+        "target": "j > z + 1 && nums[j] === nums[j - 1]"
+      }
+    ],
+    [
+      {
+        "source": "j > j + 1 and nums[j] == nums[j - 1]",
+        "target": "j > j + 1 && nums[j] === nums[j - 1]"
+      },
+      {
+        "source": "j > n + 1 and nums[j] == nums[j - 1]",
+        "target": "j > n + 1 && nums[j] === nums[j - 1]"
+      }
+    ],
+    [
+      {
+        "source": "j > x + 1 and nums[j] == nums[j - 1]",
+        "target": "j > x + 1 && nums[j] === nums[j - 1]"
+      },
+      {
+        "source": "j > z + 1 and nums[j] == nums[j - 1]",
+        "target": "j > z + 1 && nums[j] === nums[j - 1]"
+      }
+    ],
+    [
+      {
+        "source": "j > x + 1 and nums[j] == nums[j - 1]",
+        "target": "j > x + 1 && nums[j] === nums[j - 1]"
+      },
+      {
+        "source": "j > n + 1 and nums[j] == nums[j - 1]",
+        "target": "j > n + 1 && nums[j] === nums[j - 1]"
+      }
+    ],
+    [
+      {
+        "source": "j > z + 1 and nums[j] == nums[j - 1]",
+        "target": "j > z + 1 && nums[j] === nums[j - 1]"
+      },
+      {
+        "source": "j > n + 1 and nums[j] == nums[j - 1]",
+        "target": "j > n + 1 && nums[j] === nums[j - 1]"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,1001 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "-y if x < __ else y",
+  "template_origin": "-y if x < 0 else y",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 1 else y",
+        "target": "x < 1 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 3 else y",
+        "target": "x < 3 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 6 else y",
+        "target": "x < 6 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 7 else y",
+        "target": "x < 7 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 8 else y",
+        "target": "x < 8 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 9 else y",
+        "target": "x < 9 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 1 else y",
+        "target": "x < 1 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 2 else y",
+        "target": "x < 2 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 3 else y",
+        "target": "x < 3 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 5 else y",
+        "target": "x < 5 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 6 else y",
+        "target": "x < 6 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 7 else y",
+        "target": "x < 7 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 0 else y",
+        "target": "x < 0 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 9 else y",
+        "target": "x < 9 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 1 else y",
+        "target": "x < 1 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 3 else y",
+        "target": "x < 3 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 1 else y",
+        "target": "x < 1 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 6 else y",
+        "target": "x < 6 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 1 else y",
+        "target": "x < 1 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 7 else y",
+        "target": "x < 7 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 1 else y",
+        "target": "x < 1 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 8 else y",
+        "target": "x < 8 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 1 else y",
+        "target": "x < 1 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 9 else y",
+        "target": "x < 9 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 1 else y",
+        "target": "x < 1 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 1 else y",
+        "target": "x < 1 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 2 else y",
+        "target": "x < 2 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 1 else y",
+        "target": "x < 1 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 3 else y",
+        "target": "x < 3 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 1 else y",
+        "target": "x < 1 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 5 else y",
+        "target": "x < 5 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 1 else y",
+        "target": "x < 1 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 6 else y",
+        "target": "x < 6 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 1 else y",
+        "target": "x < 1 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 7 else y",
+        "target": "x < 7 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 1 else y",
+        "target": "x < 1 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 9 else y",
+        "target": "x < 9 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 3 else y",
+        "target": "x < 3 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 6 else y",
+        "target": "x < 6 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 3 else y",
+        "target": "x < 3 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 7 else y",
+        "target": "x < 7 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 3 else y",
+        "target": "x < 3 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 8 else y",
+        "target": "x < 8 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 3 else y",
+        "target": "x < 3 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 9 else y",
+        "target": "x < 9 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 3 else y",
+        "target": "x < 3 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 3 else y",
+        "target": "x < 3 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 1 else y",
+        "target": "x < 1 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 3 else y",
+        "target": "x < 3 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 2 else y",
+        "target": "x < 2 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 3 else y",
+        "target": "x < 3 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 5 else y",
+        "target": "x < 5 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 3 else y",
+        "target": "x < 3 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 6 else y",
+        "target": "x < 6 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 3 else y",
+        "target": "x < 3 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 7 else y",
+        "target": "x < 7 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 3 else y",
+        "target": "x < 3 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 9 else y",
+        "target": "x < 9 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 6 else y",
+        "target": "x < 6 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 7 else y",
+        "target": "x < 7 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 6 else y",
+        "target": "x < 6 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 8 else y",
+        "target": "x < 8 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 6 else y",
+        "target": "x < 6 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 9 else y",
+        "target": "x < 9 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 6 else y",
+        "target": "x < 6 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 6 else y",
+        "target": "x < 6 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 1 else y",
+        "target": "x < 1 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 6 else y",
+        "target": "x < 6 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 2 else y",
+        "target": "x < 2 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 6 else y",
+        "target": "x < 6 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 3 else y",
+        "target": "x < 3 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 6 else y",
+        "target": "x < 6 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 5 else y",
+        "target": "x < 5 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 6 else y",
+        "target": "x < 6 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 7 else y",
+        "target": "x < 7 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 6 else y",
+        "target": "x < 6 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 9 else y",
+        "target": "x < 9 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 7 else y",
+        "target": "x < 7 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 8 else y",
+        "target": "x < 8 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 7 else y",
+        "target": "x < 7 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 9 else y",
+        "target": "x < 9 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 7 else y",
+        "target": "x < 7 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 7 else y",
+        "target": "x < 7 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 1 else y",
+        "target": "x < 1 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 7 else y",
+        "target": "x < 7 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 2 else y",
+        "target": "x < 2 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 7 else y",
+        "target": "x < 7 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 3 else y",
+        "target": "x < 3 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 7 else y",
+        "target": "x < 7 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 5 else y",
+        "target": "x < 5 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 7 else y",
+        "target": "x < 7 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 6 else y",
+        "target": "x < 6 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 7 else y",
+        "target": "x < 7 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 9 else y",
+        "target": "x < 9 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 8 else y",
+        "target": "x < 8 ? -y : y;"
+      },
+      {
+        "source": "-y if x < 9 else y",
+        "target": "x < 9 ? -y : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 8 else y",
+        "target": "x < 8 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 8 else y",
+        "target": "x < 8 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 1 else y",
+        "target": "x < 1 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 8 else y",
+        "target": "x < 8 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 2 else y",
+        "target": "x < 2 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 8 else y",
+        "target": "x < 8 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 3 else y",
+        "target": "x < 3 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 8 else y",
+        "target": "x < 8 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 5 else y",
+        "target": "x < 5 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 8 else y",
+        "target": "x < 8 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 6 else y",
+        "target": "x < 6 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 8 else y",
+        "target": "x < 8 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 7 else y",
+        "target": "x < 7 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 8 else y",
+        "target": "x < 8 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 9 else y",
+        "target": "x < 9 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 9 else y",
+        "target": "x < 9 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 9 else y",
+        "target": "x < 9 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 1 else y",
+        "target": "x < 1 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 9 else y",
+        "target": "x < 9 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 2 else y",
+        "target": "x < 2 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 9 else y",
+        "target": "x < 9 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 3 else y",
+        "target": "x < 3 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 9 else y",
+        "target": "x < 9 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 5 else y",
+        "target": "x < 5 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 9 else y",
+        "target": "x < 9 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 6 else y",
+        "target": "x < 6 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-y if x < 9 else y",
+        "target": "x < 9 ? -y : y;"
+      },
+      {
+        "source": "-x if x < 7 else y",
+        "target": "x < 7 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 1 else y",
+        "target": "x < 1 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 2 else y",
+        "target": "x < 2 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 3 else y",
+        "target": "x < 3 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 5 else y",
+        "target": "x < 5 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 6 else y",
+        "target": "x < 6 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 7 else y",
+        "target": "x < 7 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 9 else y",
+        "target": "x < 9 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 1 else y",
+        "target": "x < 1 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 2 else y",
+        "target": "x < 2 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 1 else y",
+        "target": "x < 1 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 3 else y",
+        "target": "x < 3 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 1 else y",
+        "target": "x < 1 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 5 else y",
+        "target": "x < 5 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 1 else y",
+        "target": "x < 1 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 6 else y",
+        "target": "x < 6 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 1 else y",
+        "target": "x < 1 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 7 else y",
+        "target": "x < 7 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 1 else y",
+        "target": "x < 1 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 9 else y",
+        "target": "x < 9 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 2 else y",
+        "target": "x < 2 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 3 else y",
+        "target": "x < 3 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 2 else y",
+        "target": "x < 2 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 5 else y",
+        "target": "x < 5 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 2 else y",
+        "target": "x < 2 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 6 else y",
+        "target": "x < 6 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 2 else y",
+        "target": "x < 2 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 7 else y",
+        "target": "x < 7 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 2 else y",
+        "target": "x < 2 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 9 else y",
+        "target": "x < 9 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 3 else y",
+        "target": "x < 3 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 5 else y",
+        "target": "x < 5 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 3 else y",
+        "target": "x < 3 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 6 else y",
+        "target": "x < 6 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 3 else y",
+        "target": "x < 3 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 7 else y",
+        "target": "x < 7 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 3 else y",
+        "target": "x < 3 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 9 else y",
+        "target": "x < 9 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 5 else y",
+        "target": "x < 5 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 6 else y",
+        "target": "x < 6 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 5 else y",
+        "target": "x < 5 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 7 else y",
+        "target": "x < 7 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 5 else y",
+        "target": "x < 5 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 9 else y",
+        "target": "x < 9 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 6 else y",
+        "target": "x < 6 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 7 else y",
+        "target": "x < 7 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 6 else y",
+        "target": "x < 6 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 9 else y",
+        "target": "x < 9 ? -x : y;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 7 else y",
+        "target": "x < 7 ? -x : y;"
+      },
+      {
+        "source": "-x if x < 9 else y",
+        "target": "x < 9 ? -x : y;"
+      }
+    ]
+  ]
+}

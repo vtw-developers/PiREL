@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "from __ import defaultdict",
+  "template_origin": "from collections import defaultdict",
+  "templatized_node_ids": [
+    3
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "from random import defaultdict",
+        "target": "const defaultdict = require('defaultdict');"
+      },
+      {
+        "source": "from functools import defaultdict",
+        "target": "const defaultdict = require('defaultdict');"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "template": "strs = [chars[int(d) - 2] for d in __]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "strs = [chars[int(d) - 2] for d in digits]",
+  "translations": {
+    "strs = [chars[int(d) - 2] for d in chars]": [
+      "var strs = chars.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in digit_list]": [
+      "var strs = digit_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in numbers]": [
+      "var strs = numbers.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in digits]": [
+      "var strs = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in num_list]": [
+      "var strs = num_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in numbers_list]": [
+      "var strs = numbers_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in data]": [
+      "let strs = data.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "strs = [chars[int(d) - 2] for d in values]": [
+      "var strs = values.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in indices]": [
+      "var strs = indices.map(function(d) {\n  return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in number_list]": [
+      "var strs = number_list.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "strs = [chars[int(d) - 2] for d in number_string]": [
+      "var strs = number_string.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "strs = [chars[int(d) - 2] for d in nums]": [
+      "var strs = nums.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in input_data]": [
+      "var strs = input_data.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "strs = [chars[int(d) - 2] for d in keys]": [
+      "var strs = keys.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in sequence]": [
+      "var strs = sequence.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in strs]": [
+      "var strs = strs.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in digit_string]": [
+      "let strs = digit_string.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "strs = [chars[int(d) - 2] for d in lst]": [
+      "var strs = lst.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in elements]": [
+      "var strs = elements.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ],
+    "strs = [chars[int(d) - 2] for d in digits_list]": [
+      "var strs = digits_list.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+    ]
+  }
+}

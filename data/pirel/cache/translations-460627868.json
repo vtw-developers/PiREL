@@ -1,0 +1,21 @@
+{
+  "template": "i > __ and nums[i] == nums[i - 1]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "i > 0 and nums[i] == nums[i - 1]",
+  "translations": {
+    "i > 0 and nums[i] == nums[i - 1]": [],
+    "i > 1 and nums[i] == nums[i - 1]": [
+      "i > 1 && nums[i] === nums[i - 1]"
+    ],
+    "i > 100 and nums[i] == nums[i - 1]": [
+      "i > 100 && nums[i] === nums[i - 1]"
+    ],
+    "i > 2 and nums[i] == nums[i - 1]": [
+      "i > 2 && nums[i] == nums[i - 1]"
+    ],
+    "i > 3 and nums[i] == nums[i - 1]": [
+      "i > 3 && nums[i] == nums[i - 1]"
+    ]
+  }
+}

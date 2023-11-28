@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(intervals: List[List[__]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(intervals: List[List[int]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    11
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(intervals: List[List[int]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(intervals: List[List[float]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(intervals: List[List[int]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(intervals: List[List[str]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(intervals: List[List[int]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(intervals: List[List[bool]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(intervals: List[List[int]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(intervals: List[List[object]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(intervals: List[List[float]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(intervals: List[List[str]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(intervals: List[List[float]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(intervals: List[List[bool]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(intervals: List[List[float]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(intervals: List[List[object]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(intervals: List[List[str]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(intervals: List[List[bool]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(intervals: List[List[str]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(intervals: List[List[object]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(intervals: List[List[bool]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(intervals: List[List[object]]) -> List[List[int]]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(intervals) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

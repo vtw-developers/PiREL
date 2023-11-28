@@ -1,0 +1,31 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[matrix[__][j] for j in range(right - 1, left - 1, -1)]",
+  "template_origin": "[matrix[bottom][j] for j in range(right - 1, left - 1, -1)]",
+  "templatized_node_ids": [
+    6
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[matrix[i][j] for j in range(right - 1, left - 1, -1)]",
+        "target": "let result = [];\nfor (let j = right - 1; j >= left - 1; j--) {\n    result.push(matrix[i][j]);\n}"
+      },
+      {
+        "source": "[matrix[row][column] for column in range(right - 1, left - 1, -1)]",
+        "target": "let result = [];\nfor (let column = right - 1; column >= left - 1; column--) {\n    result.push(matrix[row][column]);\n}"
+      }
+    ],
+    [
+      {
+        "source": "[matrix[i][column] for column in range(right - 1, left - 1, -1)]",
+        "target": "let result = [];\nfor (let column = right - 1; column >= left - 1; column--) {\n    result.push(matrix[i][column]);\n}"
+      },
+      {
+        "source": "[matrix[row][column] for column in range(right - 1, left - 1, -1)]",
+        "target": "let result = [];\nfor (let column = right - 1; column >= left - 1; column--) {\n    result.push(matrix[row][column]);\n}"
+      }
+    ]
+  ]
+}

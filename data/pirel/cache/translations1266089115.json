@@ -1,0 +1,23 @@
+{
+  "template": "i > 1 and __[i - 2] != '0' and (int(__[i - 2]) * 10 + int(__[i - 1]) <= 26)",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 10 + int(s[i - 1]) <= 26)",
+  "translations": {
+    "i > 1 and s[i - 2] != '0' and (int(s[i - 2]) * 10 + int(s[i - 1]) <= 26)": [
+      "i > 1 && s[i - 2] !== '0' && (parseInt(s[i - 2]) * 10 + parseInt(s[i - 1]) <= 26)"
+    ],
+    "i > 1 and string[i - 2] != '0' and (int(string[i - 2]) * 10 + int(string[i - 1]) <= 26)": [
+      "i > 1 && string[i - 2] !== '0' && (parseInt(string[i - 2]) * 10 + parseInt(string[i - 1]) <= 26)"
+    ],
+    "i > 1 and text[i - 2] != '0' and (int(text[i - 2]) * 10 + int(text[i - 1]) <= 26)": [
+      "i > 1 && text[i - 2] !== '0' && (parseInt(text[i - 2]) * 10 + parseInt(text[i - 1]) <= 26)"
+    ],
+    "i > 1 and arr[i - 2] != '0' and (int(arr[i - 2]) * 10 + int(arr[i - 1]) <= 26)": [
+      "i > 1 && arr[i - 2] !== '0' && (parseInt(arr[i - 2]) * 10 + parseInt(arr[i - 1]) <= 26)"
+    ],
+    "i > 1 and data[i - 2] != '0' and (int(data[i - 2]) * 10 + int(data[i - 1]) <= 26)": [
+      "i > 1 && data[i - 2] !== '0' && (parseInt(data[i - 2]) * 10 + parseInt(data[i - 1]) <= 26)"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[
+  [
+    {
+      "source": "my_dict = {}",
+      "target": "let my_dict = {};"
+    },
+    {
+      "source": "user_data = {}",
+      "target": "let user_data = {};"
+    }
+  ],
+  [
+    {
+      "source": "my_dict = {}",
+      "target": "var my_dict = {};"
+    },
+    {
+      "source": "user_data = {}",
+      "target": "var user_data = {};"
+    }
+  ]
+]

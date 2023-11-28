@@ -1,0 +1,43 @@
+#!/home/unist/anaconda3/envs/duoglot_env/bin/python
+
+'''
+tiny utility to move Pirel generated files to next ## dir
+local to current dir
+safe to remove
+'''
+
+from pathlib import Path
+import os
+import sys
+
+cwd = Path('.')
+
+numerical_dirs = []
+has_files_to_move = False
+
+for f in cwd.iterdir():
+
+  # are there files to move?
+  if f.name.endswith('txt') or f.name.endswith('json') or f.name.endswith('snart'):
+    has_files_to_move = True
+
+  # skip if not a dir
+  if not f.is_dir():
+    continue
+  
+  # extract digits from dir name
+  dir_digit = f.name.split('-')[0]
+  if not dir_digit.isdigit():
+    continue
+
+  numerical_dirs.append(int(dir_digit))
+
+if has_files_to_move:
+  tag = '-'.join(sys.argv[1:])
+  dir_tag = '-' + '-'.join(sys.argv[1:]) if tag else ''
+
+  next_dir_int = sorted(numerical_dirs)[-1] + 1 if numerical_dirs else 0
+  next_dir_str = f'{next_dir_int:03d}{dir_tag}'
+
+  os.makedirs(next_dir_str)
+  os.system(f'mv -f *.txt *.json *.snart {next_dir_str}')

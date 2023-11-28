@@ -1,0 +1,671 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "not __",
+  "template_origin": "not res",
+  "templatized_node_ids": [
+    3
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "not a",
+        "target": "!a;"
+      },
+      {
+        "source": "not b",
+        "target": "!b;"
+      }
+    ],
+    [
+      {
+        "source": "not a",
+        "target": "!a;"
+      },
+      {
+        "source": "not x",
+        "target": "!x;"
+      }
+    ],
+    [
+      {
+        "source": "not a",
+        "target": "!a;"
+      },
+      {
+        "source": "not y",
+        "target": "!y;"
+      }
+    ],
+    [
+      {
+        "source": "not a",
+        "target": "!a;"
+      },
+      {
+        "source": "not z",
+        "target": "!z;"
+      }
+    ],
+    [
+      {
+        "source": "not a",
+        "target": "!a;"
+      },
+      {
+        "source": "not var",
+        "target": "!var;"
+      }
+    ],
+    [
+      {
+        "source": "not a",
+        "target": "!a;"
+      },
+      {
+        "source": "not value",
+        "target": "!value;"
+      }
+    ],
+    [
+      {
+        "source": "not a",
+        "target": "!a;"
+      },
+      {
+        "source": "not result",
+        "target": "!result;"
+      }
+    ],
+    [
+      {
+        "source": "not a",
+        "target": "!a;"
+      },
+      {
+        "source": "not obj",
+        "target": "!obj;"
+      }
+    ],
+    [
+      {
+        "source": "not a",
+        "target": "!a;"
+      },
+      {
+        "source": "not foo",
+        "target": "!foo;"
+      }
+    ],
+    [
+      {
+        "source": "not a",
+        "target": "!a;"
+      },
+      {
+        "source": "not spam",
+        "target": "!spam;"
+      }
+    ],
+    [
+      {
+        "source": "not a",
+        "target": "!a;"
+      },
+      {
+        "source": "not baz",
+        "target": "!baz;"
+      }
+    ],
+    [
+      {
+        "source": "not b",
+        "target": "!b;"
+      },
+      {
+        "source": "not x",
+        "target": "!x;"
+      }
+    ],
+    [
+      {
+        "source": "not b",
+        "target": "!b;"
+      },
+      {
+        "source": "not y",
+        "target": "!y;"
+      }
+    ],
+    [
+      {
+        "source": "not b",
+        "target": "!b;"
+      },
+      {
+        "source": "not z",
+        "target": "!z;"
+      }
+    ],
+    [
+      {
+        "source": "not b",
+        "target": "!b;"
+      },
+      {
+        "source": "not var",
+        "target": "!var;"
+      }
+    ],
+    [
+      {
+        "source": "not b",
+        "target": "!b;"
+      },
+      {
+        "source": "not value",
+        "target": "!value;"
+      }
+    ],
+    [
+      {
+        "source": "not b",
+        "target": "!b;"
+      },
+      {
+        "source": "not result",
+        "target": "!result;"
+      }
+    ],
+    [
+      {
+        "source": "not b",
+        "target": "!b;"
+      },
+      {
+        "source": "not obj",
+        "target": "!obj;"
+      }
+    ],
+    [
+      {
+        "source": "not b",
+        "target": "!b;"
+      },
+      {
+        "source": "not foo",
+        "target": "!foo;"
+      }
+    ],
+    [
+      {
+        "source": "not b",
+        "target": "!b;"
+      },
+      {
+        "source": "not spam",
+        "target": "!spam;"
+      }
+    ],
+    [
+      {
+        "source": "not b",
+        "target": "!b;"
+      },
+      {
+        "source": "not baz",
+        "target": "!baz;"
+      }
+    ],
+    [
+      {
+        "source": "not x",
+        "target": "!x;"
+      },
+      {
+        "source": "not y",
+        "target": "!y;"
+      }
+    ],
+    [
+      {
+        "source": "not x",
+        "target": "!x;"
+      },
+      {
+        "source": "not z",
+        "target": "!z;"
+      }
+    ],
+    [
+      {
+        "source": "not x",
+        "target": "!x;"
+      },
+      {
+        "source": "not var",
+        "target": "!var;"
+      }
+    ],
+    [
+      {
+        "source": "not x",
+        "target": "!x;"
+      },
+      {
+        "source": "not value",
+        "target": "!value;"
+      }
+    ],
+    [
+      {
+        "source": "not x",
+        "target": "!x;"
+      },
+      {
+        "source": "not result",
+        "target": "!result;"
+      }
+    ],
+    [
+      {
+        "source": "not x",
+        "target": "!x;"
+      },
+      {
+        "source": "not obj",
+        "target": "!obj;"
+      }
+    ],
+    [
+      {
+        "source": "not x",
+        "target": "!x;"
+      },
+      {
+        "source": "not foo",
+        "target": "!foo;"
+      }
+    ],
+    [
+      {
+        "source": "not x",
+        "target": "!x;"
+      },
+      {
+        "source": "not spam",
+        "target": "!spam;"
+      }
+    ],
+    [
+      {
+        "source": "not x",
+        "target": "!x;"
+      },
+      {
+        "source": "not baz",
+        "target": "!baz;"
+      }
+    ],
+    [
+      {
+        "source": "not y",
+        "target": "!y;"
+      },
+      {
+        "source": "not z",
+        "target": "!z;"
+      }
+    ],
+    [
+      {
+        "source": "not y",
+        "target": "!y;"
+      },
+      {
+        "source": "not var",
+        "target": "!var;"
+      }
+    ],
+    [
+      {
+        "source": "not y",
+        "target": "!y;"
+      },
+      {
+        "source": "not value",
+        "target": "!value;"
+      }
+    ],
+    [
+      {
+        "source": "not y",
+        "target": "!y;"
+      },
+      {
+        "source": "not result",
+        "target": "!result;"
+      }
+    ],
+    [
+      {
+        "source": "not y",
+        "target": "!y;"
+      },
+      {
+        "source": "not obj",
+        "target": "!obj;"
+      }
+    ],
+    [
+      {
+        "source": "not y",
+        "target": "!y;"
+      },
+      {
+        "source": "not foo",
+        "target": "!foo;"
+      }
+    ],
+    [
+      {
+        "source": "not y",
+        "target": "!y;"
+      },
+      {
+        "source": "not spam",
+        "target": "!spam;"
+      }
+    ],
+    [
+      {
+        "source": "not y",
+        "target": "!y;"
+      },
+      {
+        "source": "not baz",
+        "target": "!baz;"
+      }
+    ],
+    [
+      {
+        "source": "not z",
+        "target": "!z;"
+      },
+      {
+        "source": "not var",
+        "target": "!var;"
+      }
+    ],
+    [
+      {
+        "source": "not z",
+        "target": "!z;"
+      },
+      {
+        "source": "not value",
+        "target": "!value;"
+      }
+    ],
+    [
+      {
+        "source": "not z",
+        "target": "!z;"
+      },
+      {
+        "source": "not result",
+        "target": "!result;"
+      }
+    ],
+    [
+      {
+        "source": "not z",
+        "target": "!z;"
+      },
+      {
+        "source": "not obj",
+        "target": "!obj;"
+      }
+    ],
+    [
+      {
+        "source": "not z",
+        "target": "!z;"
+      },
+      {
+        "source": "not foo",
+        "target": "!foo;"
+      }
+    ],
+    [
+      {
+        "source": "not z",
+        "target": "!z;"
+      },
+      {
+        "source": "not spam",
+        "target": "!spam;"
+      }
+    ],
+    [
+      {
+        "source": "not z",
+        "target": "!z;"
+      },
+      {
+        "source": "not baz",
+        "target": "!baz;"
+      }
+    ],
+    [
+      {
+        "source": "not var",
+        "target": "!var;"
+      },
+      {
+        "source": "not value",
+        "target": "!value;"
+      }
+    ],
+    [
+      {
+        "source": "not var",
+        "target": "!var;"
+      },
+      {
+        "source": "not result",
+        "target": "!result;"
+      }
+    ],
+    [
+      {
+        "source": "not var",
+        "target": "!var;"
+      },
+      {
+        "source": "not obj",
+        "target": "!obj;"
+      }
+    ],
+    [
+      {
+        "source": "not var",
+        "target": "!var;"
+      },
+      {
+        "source": "not foo",
+        "target": "!foo;"
+      }
+    ],
+    [
+      {
+        "source": "not var",
+        "target": "!var;"
+      },
+      {
+        "source": "not spam",
+        "target": "!spam;"
+      }
+    ],
+    [
+      {
+        "source": "not var",
+        "target": "!var;"
+      },
+      {
+        "source": "not baz",
+        "target": "!baz;"
+      }
+    ],
+    [
+      {
+        "source": "not value",
+        "target": "!value;"
+      },
+      {
+        "source": "not result",
+        "target": "!result;"
+      }
+    ],
+    [
+      {
+        "source": "not value",
+        "target": "!value;"
+      },
+      {
+        "source": "not obj",
+        "target": "!obj;"
+      }
+    ],
+    [
+      {
+        "source": "not value",
+        "target": "!value;"
+      },
+      {
+        "source": "not foo",
+        "target": "!foo;"
+      }
+    ],
+    [
+      {
+        "source": "not value",
+        "target": "!value;"
+      },
+      {
+        "source": "not spam",
+        "target": "!spam;"
+      }
+    ],
+    [
+      {
+        "source": "not value",
+        "target": "!value;"
+      },
+      {
+        "source": "not baz",
+        "target": "!baz;"
+      }
+    ],
+    [
+      {
+        "source": "not result",
+        "target": "!result;"
+      },
+      {
+        "source": "not obj",
+        "target": "!obj;"
+      }
+    ],
+    [
+      {
+        "source": "not result",
+        "target": "!result;"
+      },
+      {
+        "source": "not foo",
+        "target": "!foo;"
+      }
+    ],
+    [
+      {
+        "source": "not result",
+        "target": "!result;"
+      },
+      {
+        "source": "not spam",
+        "target": "!spam;"
+      }
+    ],
+    [
+      {
+        "source": "not result",
+        "target": "!result;"
+      },
+      {
+        "source": "not baz",
+        "target": "!baz;"
+      }
+    ],
+    [
+      {
+        "source": "not obj",
+        "target": "!obj;"
+      },
+      {
+        "source": "not foo",
+        "target": "!foo;"
+      }
+    ],
+    [
+      {
+        "source": "not obj",
+        "target": "!obj;"
+      },
+      {
+        "source": "not spam",
+        "target": "!spam;"
+      }
+    ],
+    [
+      {
+        "source": "not obj",
+        "target": "!obj;"
+      },
+      {
+        "source": "not baz",
+        "target": "!baz;"
+      }
+    ],
+    [
+      {
+        "source": "not foo",
+        "target": "!foo;"
+      },
+      {
+        "source": "not spam",
+        "target": "!spam;"
+      }
+    ],
+    [
+      {
+        "source": "not foo",
+        "target": "!foo;"
+      },
+      {
+        "source": "not baz",
+        "target": "!baz;"
+      }
+    ],
+    [
+      {
+        "source": "not spam",
+        "target": "!spam;"
+      },
+      {
+        "source": "not baz",
+        "target": "!baz;"
+      }
+    ]
+  ]
+}

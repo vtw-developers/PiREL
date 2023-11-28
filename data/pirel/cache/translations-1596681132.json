@@ -1,0 +1,23 @@
+{
+  "template": "sign = -__ if s[i] == '-' else __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "sign = -1 if s[i] == '-' else 1",
+  "translations": {
+    "sign = -1 if s[i] == '-' else 1": [
+      "let sign = (s[i] === '-') ? -1 : 1;"
+    ],
+    "sign = -100 if s[i] == '-' else 100": [
+      "let sign = s[i] == '-' ? -100 : 100;"
+    ],
+    "sign = -9999 if s[i] == '-' else 9999": [
+      "let sign = s[i] == '-' ? -9999 : 9999;"
+    ],
+    "sign = -9999999 if s[i] == '-' else 9999999": [
+      "let sign = (s[i] === '-') ? -9999999 : 9999999;"
+    ],
+    "sign = -1000000000 if s[i] == '-' else 1000000000": [
+      "let sign = (s[i] == '-') ? -1000000000 : 1000000000;"
+    ]
+  }
+}

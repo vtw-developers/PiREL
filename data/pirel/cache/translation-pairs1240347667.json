@@ -1,0 +1,72 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "s[__] == s[j] and dp[__ + 1][j - 1]",
+  "template_origin": "s[i] == s[j] and dp[i + 1][j - 1]",
+  "templatized_node_ids": [
+    6,
+    14
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "s[k] == s[j] and dp[k + 1][j - 1]",
+        "target": "s[k] === s[j] && dp[k + 1][j - 1]"
+      },
+      {
+        "source": "s[index] == s[j] and dp[index + 1][j - 1]",
+        "target": "s[index] === s[j] && dp[index + 1][j - 1]"
+      }
+    ],
+    [
+      {
+        "source": "s[k] == s[j] and dp[k + 1][j - 1]",
+        "target": "s[k] === s[j] && dp[k + 1][j - 1]"
+      },
+      {
+        "source": "s[a] == s[j] and dp[a + 1][j - 1]",
+        "target": "s[a] === s[j] && dp[a + 1][j - 1]"
+      }
+    ],
+    [
+      {
+        "source": "s[k] == s[j] and dp[k + 1][j - 1]",
+        "target": "s[k] === s[j] && dp[k + 1][j - 1]"
+      },
+      {
+        "source": "s[m] == s[j] and dp[m + 1][j - 1]",
+        "target": "s[m] === s[j] && dp[m + 1][j - 1]"
+      }
+    ],
+    [
+      {
+        "source": "s[index] == s[j] and dp[index + 1][j - 1]",
+        "target": "s[index] === s[j] && dp[index + 1][j - 1]"
+      },
+      {
+        "source": "s[a] == s[j] and dp[a + 1][j - 1]",
+        "target": "s[a] === s[j] && dp[a + 1][j - 1]"
+      }
+    ],
+    [
+      {
+        "source": "s[index] == s[j] and dp[index + 1][j - 1]",
+        "target": "s[index] === s[j] && dp[index + 1][j - 1]"
+      },
+      {
+        "source": "s[m] == s[j] and dp[m + 1][j - 1]",
+        "target": "s[m] === s[j] && dp[m + 1][j - 1]"
+      }
+    ],
+    [
+      {
+        "source": "s[a] == s[j] and dp[a + 1][j - 1]",
+        "target": "s[a] === s[j] && dp[a + 1][j - 1]"
+      },
+      {
+        "source": "s[m] == s[j] and dp[m + 1][j - 1]",
+        "target": "s[m] === s[j] && dp[m + 1][j - 1]"
+      }
+    ]
+  ]
+}

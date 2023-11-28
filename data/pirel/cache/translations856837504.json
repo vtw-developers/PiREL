@@ -1,0 +1,109 @@
+{
+  "template": "[chars[int(d) - __] for d in digits]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[chars[int(d) - 2] for d in digits]",
+  "translations": {
+    "[chars[int(d) - 0] for d in digits]": [
+      "digits.map(d => chars[Number(d) - 0]);",
+      "digits.map(d => chars[Number(d) - 0]);",
+      "digits.map(d => chars[parseInt(d) - 0]);",
+      "digits.map(d => chars[parseInt(d) - 0]);"
+    ],
+    "[chars[int(d) - 1] for d in digits]": [
+      "var result = digits.map(function(d) {\n    return chars[parseInt(d) - 1];\n});",
+      "digits.map(d => chars[parseInt(d) - 1]);",
+      "digits.map(d => chars[parseInt(d) - 1]);",
+      "digits.map(d => chars[parseInt(d) - 1]);",
+      "digits.map(d => chars[parseInt(d) - 1]);",
+      "digits.map(d => chars[parseInt(d) - 1]);",
+      "digits.map(d => chars[Number(d) - 1]);",
+      "digits.map(d => chars[parseInt(d) - 1]);"
+    ],
+    "[chars[int(d) - 2] for d in digits]": [
+      "var result = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});",
+      "digits.map(d => chars[parseInt(d) - 2]);",
+      "digits.map(d => chars[parseInt(d) - 2]);",
+      "digits.map(d => chars[parseInt(d) - 2]);",
+      "digits.map(d => chars[parseInt(d) - 2]);",
+      "digits.map(d => chars[parseInt(d) - 2]);",
+      "digits.map(d => chars[parseInt(d) - 2]);",
+      "digits.map(d => chars[parseInt(d) - 2]);"
+    ],
+    "[chars[int(d) - 3] for d in digits]": [
+      "digits.map(d => chars[parseInt(d) - 3]);",
+      "digits.map(d => chars[parseInt(d) - 3]);",
+      "digits.map(d => chars[parseInt(d) - 3]);",
+      "digits.map(d => chars[parseInt(d) - 3]);",
+      "digits.map(d => chars[parseInt(d) - 3]);",
+      "digits.map(d => chars[parseInt(d) - 3]);",
+      "digits.map(d => chars[parseInt(d) - 3]);",
+      "digits.map(d => chars[parseInt(d) - 3]);"
+    ],
+    "[chars[int(d) - 4] for d in digits]": [
+      "digits.map(d => chars[d - 4]);",
+      "digits.map(d => chars[parseInt(d) - 4]);",
+      "digits.map(d => chars[parseInt(d) - 4]);",
+      "digits.map(d => chars[parseInt(d) - 4]);",
+      "digits.map(d => chars[parseInt(d) - 4]);",
+      "digits.map(d => chars[parseInt(d) - 4]);",
+      "digits.map(d => chars[parseInt(d) - 4]);",
+      "var result = [];\nfor (var i = 0; i < digits.length; i++) {\n    var d = digits[i];\n    result.push(chars[parseInt(d) - 4]);\n}"
+    ],
+    "[chars[int(d) - 5] for d in digits]": [
+      "var result = [];\nfor (var i = 0; i < digits.length; i++) {\n    var d = digits[i];\n    result.push(chars[parseInt(d) - 5]);\n}",
+      "digits.map(d => chars[parseInt(d) - 5]);",
+      "digits.map(d => chars[parseInt(d) - 5]);",
+      "var result = digits.map(function(d) {\n    return chars[parseInt(d) - 5];\n});",
+      "var result = [];\n\nfor (var i = 0; i < digits.length; i++) {\n    var d = digits[i];\n    result.push(chars[d - 5]);\n}",
+      "digits.map(d => chars[parseInt(d) - 5]);",
+      "digits.map(d => chars[parseInt(d) - 5]);",
+      "var result = [];\nfor (var i = 0; i < digits.length; i++) {\n    result.push(chars[parseInt(digits[i]) - 5]);\n}"
+    ],
+    "[chars[int(d) - 6] for d in digits]": [
+      "digits.map(d => chars[Number(d) - 6]);",
+      "digits.map(d => chars[parseInt(d) - 6]);",
+      "digits.map(d => chars[parseInt(d) - 6]);",
+      "digits.map(d => chars[parseInt(d) - 6]);",
+      "digits.map(d => chars[Number(d) - 6]);",
+      "var result = digits.map(function(d) {\n    return chars[parseInt(d) - 6];\n});",
+      "digits.map(d => chars[Number(d) - 6]);"
+    ],
+    "[chars[int(d) - 7] for d in digits]": [
+      "digits.map(d => chars[parseInt(d) - 7]);",
+      "digits.map(d => chars[Number(d) - 7]);",
+      "digits.map(d => chars[parseInt(d) - 7]);",
+      "var result = digits.map(function(d) {\n    return chars[parseInt(d) - 7];\n});",
+      "digits.map(d => chars[parseInt(d) - 7]);",
+      "digits.map(d => chars[parseInt(d) - 7]);",
+      "digits.map(d => chars[parseInt(d) - 7]);"
+    ],
+    "[chars[int(d) - 8] for d in digits]": [
+      "digits.map(d => chars[parseInt(d) - 8]);",
+      "digits.map(d => chars[parseInt(d) - 8]);",
+      "digits.map(d => chars[parseInt(d) - 8]);",
+      "digits.map(d => chars[parseInt(d) - 8]);",
+      "digits.map(d => chars[parseInt(d) - 8]);",
+      "digits.map(d => chars[parseInt(d) - 8]);",
+      "digits.map(d => chars[Number(d) - 8]);"
+    ],
+    "[chars[int(d) - 9] for d in digits]": [
+      "digits.map(d => chars[Number(d) - 9]);",
+      "digits.map(d => chars[parseInt(d) - 9]);",
+      "digits.map(d => chars[parseInt(d) - 9]);",
+      "digits.map(d => chars[parseInt(d) - 9]);",
+      "digits.map(d => chars[parseInt(d) - 9]);",
+      "digits.map(d => chars[parseInt(d) - 9]);",
+      "digits.map(d => chars[parseInt(d) - 9]);"
+    ],
+    "[chars[int(d) - 10] for d in digits]": [
+      "digits.map(d => chars[parseInt(d) - 10]);",
+      "digits.map(d => chars[parseInt(d) - 10]);",
+      "digits.map(d => chars[parseInt(d) - 10]);",
+      "digits.map(d => chars[parseInt(d) - 10]);",
+      "digits.map(d => chars[parseInt(d) - 10]);",
+      "var result = [];\nfor (var i = 0; i < digits.length; i++) {\n    result.push(chars[parseInt(digits[i]) - 10]);\n}",
+      "digits.map(d => chars[parseInt(d) - 10]);"
+    ]
+  }
+}

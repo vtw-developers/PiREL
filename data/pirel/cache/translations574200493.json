@@ -1,0 +1,38 @@
+{
+  "template": "([matrix[__][j] for j in range(right - 1, left - 1, -1)])",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "([matrix[bottom][j] for j in range(right - 1, left - 1, -1)])",
+  "translations": {
+    "([matrix[i][j] for j in range(right - 1, left - 1, -1)])": [
+      "matrix.slice(left - 1, right).map((row) => row[right - 1]);"
+    ],
+    "([matrix[row][j] for j in range(right - 1, left - 1, -1)])": [
+      "matrix.slice(left - 1, right).map(row => row[right - 1]).reverse()"
+    ],
+    "([matrix[row][col] for col in range(right - 1, left - 1, -1)])": [
+      "matrix.slice(left-1, right).map(row => row[right-1]).reverse()"
+    ],
+    "([matrix[i][col] for col in range(right - 1, left - 1, -1)])": [
+      "matrix.slice(left - 1, right).map(function(row) {\n    return row[col];\n});"
+    ],
+    "([matrix[row][column] for column in range(right - 1, left - 1, -1)])": [
+      "matrix.slice(left - 1, right).map(row => row[column]).reverse();"
+    ],
+    "([matrix[i][column] for column in range(right - 1, left - 1, -1)])": [
+      "for (let column = right - 1; column >= left - 1; column--) {\n    matrix[i][column];\n}"
+    ],
+    "([matrix[r][j] for j in range(right - 1, left - 1, -1)])": [
+      "matrix.slice(left - 1, right).map(row => row[right - 1]);"
+    ],
+    "([matrix[r][c] for c in range(right - 1, left - 1, -1)])": [
+      "matrix.slice().map(function(row) {\n    return row.slice(left - 1, right).reverse();\n});"
+    ],
+    "([matrix[x][j] for j in range(right - 1, left - 1, -1)])": [
+      "for (let j = right - 1; j >= left - 1; j--) {\n    matrix[x][j];\n}"
+    ],
+    "([matrix[i][y] for y in range(right - 1, left - 1, -1)])": [
+      "matrix.slice(left - 1, right).map((row) => row[y]);"
+    ]
+  }
+}

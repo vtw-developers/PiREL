@@ -1,0 +1,102 @@
+{
+  "template_id": 0,
+  "template_context": "if num in helper:\n    return [helper[num], i]",
+  "template_context_str_repl": "if __:\n    __",
+  "template_origin": "if num in helper:\n    return [helper[num], i]",
+  "templatized_node_ids": {
+    "2": [
+      1
+    ],
+    "5": [
+      3
+    ]
+  },
+  "templatized_node_ids_context": {},
+  "context_node_type": "if_statement",
+  "is_valid_template": true,
+  "is_insert_secret_fn": true,
+  "sub_templates": null,
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ],
+  "template": "if __:\n    __"
+}

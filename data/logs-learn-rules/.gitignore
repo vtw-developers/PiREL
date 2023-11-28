@@ -1,0 +1,7 @@
+# ignore all
+*
+
+# except
+!/.gitignore
+!/Makefile
+!/format.sh

@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums[mid] > nums[__] or nums[mid] > nums[r]",
+  "template_origin": "nums[mid] > nums[l] or nums[mid] > nums[r]",
+  "templatized_node_ids": [
+    9
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums[mid] > nums[i] or nums[mid] > nums[r]",
+        "target": "nums[mid] > nums[i] || nums[mid] > nums[r]"
+      },
+      {
+        "source": "nums[mid] > nums[x] or nums[mid] > nums[r]",
+        "target": "nums[mid] > nums[x] || nums[mid] > nums[r]"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] > nums[i] or nums[mid] > nums[r]",
+        "target": "nums[mid] > nums[i] || nums[mid] > nums[r]"
+      },
+      {
+        "source": "nums[mid] > nums[placeholder] or nums[mid] > nums[r]",
+        "target": "nums[mid] > nums[placeholder] || nums[mid] > nums[r]"
+      }
+    ],
+    [
+      {
+        "source": "nums[mid] > nums[x] or nums[mid] > nums[r]",
+        "target": "nums[mid] > nums[x] || nums[mid] > nums[r]"
+      },
+      {
+        "source": "nums[mid] > nums[placeholder] or nums[mid] > nums[r]",
+        "target": "nums[mid] > nums[placeholder] || nums[mid] > nums[r]"
+      }
+    ]
+  ]
+}

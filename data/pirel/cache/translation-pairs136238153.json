@@ -1,0 +1,72 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums1[i + k // __ - 1] if i + k // __ - 1 < m else float('inf')",
+  "template_origin": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+  "templatized_node_ids": [
+    10,
+    18
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < m ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 3 - 1] if i + k // 3 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 3) - 1] < m ? nums1[i + Math.floor(k / 3) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < m ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 4 - 1] if i + k // 4 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 4) - 1] < m ? nums1[i + Math.floor(k / 4) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < m ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 6 - 1] if i + k // 6 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 6) - 1] < m ? nums1[i + Math.floor(k / 6) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "nums1[i + k // 3 - 1] if i + k // 3 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 3) - 1] < m ? nums1[i + Math.floor(k / 3) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 4 - 1] if i + k // 4 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 4) - 1] < m ? nums1[i + Math.floor(k / 4) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "nums1[i + k // 3 - 1] if i + k // 3 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 3) - 1] < m ? nums1[i + Math.floor(k / 3) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 6 - 1] if i + k // 6 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 6) - 1] < m ? nums1[i + Math.floor(k / 6) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "nums1[i + k // 4 - 1] if i + k // 4 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 4) - 1] < m ? nums1[i + Math.floor(k / 4) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 6 - 1] if i + k // 6 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 6) - 1] < m ? nums1[i + Math.floor(k / 6) - 1] : Infinity;"
+      }
+    ]
+  ]
+}

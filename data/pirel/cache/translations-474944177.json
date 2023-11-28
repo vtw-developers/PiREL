@@ -1,0 +1,17 @@
+{
+  "template": "left if nums[left] == __ else -1",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "left if nums[left] == target else -1",
+  "translations": {
+    "left if nums[left] == FileNotFoundError else -1": [
+      "nums[left] == FileNotFoundError ? left : -1;"
+    ],
+    "left if nums[left] == NotImplemented else -1": [],
+    "left if nums[left] == Ellipsis else -1": [],
+    "left if nums[left] == NotImplementedType else -1": [],
+    "left if nums[left] == x else -1": [
+      "nums[left] == x ? left : -1;"
+    ]
+  }
+}

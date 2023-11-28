@@ -1,0 +1,23 @@
+[
+  "if condition:\n    secret_fun_4071()",
+  "if True:\n    secret_fun_4071()",
+  "if 1:\n    secret_fun_4071()",
+  "if my_variable:\n    secret_fun_4071()",
+  "if my_function():\n    secret_fun_4071()",
+  "if condition:\n    secret_fun_4071()",
+  "if True:\n    secret_fun_4071()",
+  "if 5 > 3:\n    secret_fun_4071()",
+  "if function_call():\n    secret_fun_4071()",
+  "if condition:\n    secret_fun_4071()",
+  "if True:\n    secret_fun_4071()",
+  "if len(list_var) > 0:\n    secret_fun_4071()",
+  "if my_func() == \"success\":\n    secret_fun_4071()",
+  "if condition:\n    secret_fun_4071()",
+  "if True:\n    secret_fun_4071()",
+  "if function_call():\n    secret_fun_4071()",
+  "if len(list_val) > 0:\n    secret_fun_4071()",
+  "if condition:\n    secret_fun_4071()",
+  "if True:\n    secret_fun_4071()",
+  "if check_condition():\n    secret_fun_4071()",
+  "if x > 5:\n    secret_fun_4071()"
+]

@@ -1,0 +1,23 @@
+{
+  "template": "[str(v) for v in res[::-__]]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[str(v) for v in res[::-1]]",
+  "translations": {
+    "[str(v) for v in res[::-1]]": [
+      "res.slice().reverse().map(v => String(v));"
+    ],
+    "[str(v) for v in res[::-2]]": [
+      "res.slice().reverse().filter((_, index) => index % 2 !== 0).map(v => String(v));"
+    ],
+    "[str(v) for v in res[::-3]]": [
+      "res.slice().reverse().filter((_, i) => i % 3 === 0).map(v => String(v));"
+    ],
+    "[str(v) for v in res[::-4]]": [
+      "res.slice().reverse().filter((_, i) => i % 4 === 0).map(v => String(v));"
+    ],
+    "[str(v) for v in res[::-5]]": [
+      "res.slice().reverse().filter((_, index) => index % 5 == 0).map(v => String(v));"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "sp1": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+  "sp2": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+  "cand_translation_sp1": "lst.forEach((v, i) => {\n    secret_fun_4071();\n});",
+  "raw_translations_sp2": [
+    "my_tuple.forEach(() => {\n    secret_fun_4071();\n});"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

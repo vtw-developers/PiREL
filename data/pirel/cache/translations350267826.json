@@ -1,0 +1,50 @@
+{
+  "template": "group if __ == numRows else 2 * numRows - 2 * __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "group if i == numRows else 2 * numRows - 2 * i",
+  "translations": {
+    "group if x == numRows else 2 * numRows - 2 * x": [
+      "x === numRows ? group : 2 * numRows - 2 * x;"
+    ],
+    "group if a == numRows else 2 * numRows - 2 * a": [
+      "a === numRows ? group : 2 * numRows - 2 * a;"
+    ],
+    "group if var == numRows else 2 * numRows - 2 * var": [
+      "var result = (var === numRows) ? group : (2 * numRows - 2 * var);"
+    ],
+    "group if count == numRows else 2 * numRows - 2 * count": [],
+    "group if i == numRows else 2 * numRows - 2 * i": [
+      "i == numRows ? group : 2 * numRows - 2 * i;"
+    ],
+    "group if index == numRows else 2 * numRows - 2 * index": [],
+    "group if val == numRows else 2 * numRows - 2 * val": [],
+    "group if n == numRows else 2 * numRows - 2 * n": [],
+    "group if item == numRows else 2 * numRows - 2 * item": [
+      "item == numRows ? group : 2 * numRows - 2 * item;"
+    ],
+    "group if j == numRows else 2 * numRows - 2 * j": [
+      "j == numRows ? group : 2 * numRows - 2 * j;"
+    ],
+    "group if b == numRows else 2 * numRows - 2 * b": [],
+    "group if c == numRows else 2 * numRows - 2 * c": [
+      "c == numRows ? group : 2 * numRows - 2 * c;"
+    ],
+    "group if d == numRows else 2 * numRows - 2 * d": [],
+    "group if e == numRows else 2 * numRows - 2 * e": [],
+    "group if f == numRows else 2 * numRows - 2 * f": [
+      "f == numRows ? group : 2 * numRows - 2 * f;"
+    ],
+    "group if g == numRows else 2 * numRows - 2 * g": [
+      "g == numRows ? group : 2 * numRows - 2 * g;"
+    ],
+    "group if h == numRows else 2 * numRows - 2 * h": [
+      "h == numRows ? group : 2 * numRows - 2 * h;"
+    ],
+    "group if y == numRows else 2 * numRows - 2 * y": [],
+    "group if z == numRows else 2 * numRows - 2 * z": [],
+    "group if a == numRows else 2 * numRows - 2 * b": [
+      "a == numRows ? group : 2 * numRows - 2 * b;"
+    ]
+  }
+}

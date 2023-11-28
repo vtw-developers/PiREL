@@ -1,0 +1,34 @@
+[
+  {
+    "source": "midVal1 = 0 if n + p - 1 < m else 1",
+    "target": "let midVal1 = (n + p - 1 < m) ? 0 : 1;"
+  },
+  {
+    "source": "midVal1 = 0 if n + p - 1 < m else 1",
+    "target": "var midVal1;\nif (n + p - 1 < m) {\n    midVal1 = 0;\n} else {\n    midVal1 = 1;\n}"
+  },
+  {
+    "source": "midVal1 = 0 if 2 + 3 - 1 < m else 1",
+    "target": "var midVal1 = (2 + 3 - 1 < m) ? 0 : 1;"
+  },
+  {
+    "source": "midVal1 = 0 if (n*p) + (m//p) - 1 < m else 1",
+    "target": "let midVal1 = ((n * p) + Math.floor(m / p) - 1 < m) ? 0 : 1;"
+  },
+  {
+    "source": "midVal1 = 0 if (n*p) + (m//p) - 1 < m else 1",
+    "target": "let result = (n * p) + Math.floor(m / p) - 1;\nlet midVal1 = (result < m) ? 0 : 1;"
+  },
+  {
+    "source": "midVal1 = 0 if var1 + var2 - 1 < m else 1",
+    "target": "let midVal1 = (var1 + var2 - 1 < m) ? 0 : 1;"
+  },
+  {
+    "source": "midVal1 = 0 if var1 + var2 - 1 < m else 1",
+    "target": "let midVal1;\nif (var1 + var2 - 1 < m) {\n    midVal1 = 0;\n} else {\n    midVal1 = 1;\n}"
+  },
+  {
+    "source": "midVal1 = 0 if 5 + 3 - 1 < m else 1",
+    "target": "let midVal1 = (5 + 3 - 1 < m) ? 0 : 1;"
+  }
+]

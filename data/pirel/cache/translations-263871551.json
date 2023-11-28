@@ -1,0 +1,38 @@
+{
+  "template": "from __ import deque",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "from collections import deque",
+  "translations": {
+    "from collections import deque": [
+      "const deque = require('collections/deque');"
+    ],
+    "from queue import deque": [
+      "// JavaScript does not have a built-in queue data structure\n// So we need to implement the queue functionality ourselves\n\nclass Queue {\n  constructor() {\n    this.queue = [];\n  }\n\n  enqueue(item) {\n    this.queue.push(item);\n  }\n\n  dequeue() {\n    if (this.isEmpty()) {\n      return;\n    }\n    return this.queue.shift();\n  }\n\n  isEmpty() {\n    return this.queue.length === 0;\n  }\n}\n\n// Usage:\n// const queue = new Queue();\n// queue.enqueue(item);\n// const item = queue.dequeue();\n// const isEmpty = queue.isEmpty();"
+    ],
+    "from math import deque": [
+      "const deque = require('math').deque;"
+    ],
+    "from functools import deque": [
+      "const deque = require('deque');"
+    ],
+    "from itertools import deque": [
+      "// JavaScript does not have an equivalent built-in module for itertools in Python.\n// You can create your own implementation of the deque functionality if needed."
+    ],
+    "from datetime import deque": [
+      "const deque = require('collections/deque');"
+    ],
+    "from random import deque": [
+      "const deque = require('deque');"
+    ],
+    "from typing import deque": [
+      "// There is no direct equivalent of 'typing.deque' in JavaScript.\n// We can safely ignore this import statement in the JavaScript translation."
+    ],
+    "from sys import deque": [
+      "const deque = require('deque');"
+    ],
+    "from os import deque": [
+      "const deque = require('deque');"
+    ]
+  }
+}

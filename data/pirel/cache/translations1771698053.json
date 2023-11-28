@@ -1,0 +1,23 @@
+{
+  "template": "def f_gold(nums1: List[__], m: int, nums2: List[int], n: int) -> None:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(nums1: List[int], m: int, nums2: List[int], n: int) -> None:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(nums1: List[int], m: int, nums2: List[int], n: int) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(nums1, m, nums2, n) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums1: List[float], m: int, nums2: List[int], n: int) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(nums1, m, nums2, n) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums1: List[str], m: int, nums2: List[int], n: int) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(nums1, m, nums2, n) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums1: List[bool], m: int, nums2: List[int], n: int) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(nums1, m, nums2, n) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums1: List[object], m: int, nums2: List[int], n: int) -> None:\n    some_secret_fn_4071()": [
+      "function f_gold(nums1, m, nums2, n) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

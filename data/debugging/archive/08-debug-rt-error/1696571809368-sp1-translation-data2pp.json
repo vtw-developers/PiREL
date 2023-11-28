@@ -1,0 +1,50 @@
+{
+  "program_pairs": [
+    {
+      "source": "midVal1 = val1 if condition else val2",
+      "target": "let midVal1 = condition ? val1 : val2;"
+    }
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [
+          "\"py.identifier\""
+        ],
+        "parents": [
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [
+          "\"js.identifier\""
+        ],
+        "parents": [
+          "\"js.variable_declarator\"",
+          "\"js.lexical_declaration\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [
+          "\"py.identifier\""
+        ],
+        "parents": [
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [
+          "\"js.identifier\""
+        ],
+        "parents": [
+          "\"js.variable_declarator\"",
+          "\"js.variable_declaration\""
+        ]
+      }
+    }
+  ]
+}

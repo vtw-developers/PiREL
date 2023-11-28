@@ -1,0 +1,32 @@
+{
+  "template": "j < n and __[j] == __[j - 1]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "j < n and nums[j] == nums[j - 1]",
+  "translations": {
+    "j < n and lst[j] == lst[j - 1]": [],
+    "j < n and nums[j] == nums[j - 1]": [
+      "j < n && nums[j] === nums[j - 1]"
+    ],
+    "j < n and items[j] == items[j - 1]": [],
+    "j < n and data[j] == data[j - 1]": [
+      "j < n && data[j] == data[j - 1]"
+    ],
+    "j < n and values[j] == values[j - 1]": [],
+    "j < n and elements[j] == elements[j - 1]": [
+      "j < n && elements[j] == elements[j - 1]"
+    ],
+    "j < n and array[j] == array[j - 1]": [
+      "j < n && array[j] == array[j - 1]"
+    ],
+    "j < n and sequence[j] == sequence[j - 1]": [
+      "j < n && sequence[j] === sequence[j - 1]"
+    ],
+    "j < n and strings[j] == strings[j - 1]": [
+      "j < n && strings[j] === strings[j - 1]"
+    ],
+    "j < n and characters[j] == characters[j - 1]": [
+      "j < n && characters[j] == characters[j - 1]"
+    ]
+  }
+}

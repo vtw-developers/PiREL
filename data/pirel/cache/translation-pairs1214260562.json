@@ -1,0 +1,51 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[matrix[bottom][j] for j in range(right - 1, __ - 1, -1)]",
+  "template_origin": "[matrix[bottom][j] for j in range(right - 1, left - 1, -1)]",
+  "templatized_node_ids": [
+    17
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[matrix[bottom][j] for j in range(right - 1, right - 10, -1)]",
+        "target": "let result = [];\nfor (let j = right - 1; j >= right - 10; j--) {\n    result.push(matrix[bottom][j]);\n}"
+      },
+      {
+        "source": "[matrix[bottom][j] for j in range(right - 1, left - 1, -1)]",
+        "target": "let arr = [];\nfor (let j = right - 1; j >= left - 1; j--) {\n    arr.push(matrix[bottom][j]);\n}"
+      }
+    ],
+    [
+      {
+        "source": "[matrix[bottom][j] for j in range(right - 1, right - 5, -1)]",
+        "target": "let result = [];\nfor (let j = right - 1; j >= right - 5; j--) {\n    result.push(matrix[bottom][j]);\n}"
+      },
+      {
+        "source": "[matrix[bottom][j] for j in range(right - 1, left - 1, -1)]",
+        "target": "let arr = [];\nfor (let j = right - 1; j >= left - 1; j--) {\n    arr.push(matrix[bottom][j]);\n}"
+      }
+    ],
+    [
+      {
+        "source": "[matrix[bottom][j] for j in range(right - 1, right - 2, -1)]",
+        "target": "let result = [];\nfor(let j = right - 1; j >= right - 2; j--) {\n    result.push(matrix[bottom][j]);\n}"
+      },
+      {
+        "source": "[matrix[bottom][j] for j in range(right - 1, left - 1, -1)]",
+        "target": "let arr = [];\nfor (let j = right - 1; j >= left - 1; j--) {\n    arr.push(matrix[bottom][j]);\n}"
+      }
+    ],
+    [
+      {
+        "source": "[matrix[bottom][j] for j in range(right - 1, left - 1, -1)]",
+        "target": "let arr = [];\nfor (let j = right - 1; j >= left - 1; j--) {\n    arr.push(matrix[bottom][j]);\n}"
+      },
+      {
+        "source": "[matrix[bottom][j] for j in range(right - 1, right - 1, -1)]",
+        "target": "let result = [];\nfor (let j = right - 1; j >= right - 1; j--) {\n    result.push(matrix[bottom][j]);\n}"
+      }
+    ]
+  ]
+}

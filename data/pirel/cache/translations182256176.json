@@ -1,0 +1,23 @@
+{
+  "template": "for s, __ in intervals[1:]:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for s, e in intervals[1:]:\n    some_secret_fn_4071()",
+  "translations": {
+    "for s, _ in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < intervals.length; i++) {\n    let s = intervals[i][0];\n    some_secret_fn_4071();\n}"
+    ],
+    "for s, x in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < intervals.length; i++) {\n    let s = intervals[i][0];\n    let x = intervals[i][1];\n    some_secret_fn_4071();\n}"
+    ],
+    "for s, value in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < intervals.length; i++) {\n    const [s, value] = intervals[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for s, item in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < intervals.length; i++) {\n    let s = intervals[i][0];\n    let item = intervals[i][1];\n    some_secret_fn_4071();\n}"
+    ],
+    "for s, element in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (var i = 1; i < intervals.length; i++) {\n    var s = intervals[i][0];\n    var element = intervals[i][1];\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

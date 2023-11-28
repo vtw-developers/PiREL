@@ -1,0 +1,38 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.assignment\"",
+        "\"*\""
+      ],
+      "\"*\""
+    ],
+    [
+      "fragment",
+      [
+        "\"py.assignment\"",
+        "\"*\""
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      [
+        "\"js.assignment_expression\"",
+        "\"*1\""
+      ],
+      "\"*2\""
+    ],
+    [
+      "fragment",
+      [
+        "\"js.variable_declarator\"",
+        "\"*1\""
+      ],
+      "\"*2\""
+    ]
+  ]
+}

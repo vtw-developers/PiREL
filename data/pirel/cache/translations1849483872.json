@@ -1,0 +1,23 @@
+{
+  "template": "i < n and __ + 1 + len(words[i]) <= maxWidth",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "i < n and cnt + 1 + len(words[i]) <= maxWidth",
+  "translations": {
+    "i < n and i + 1 + len(words[i]) <= maxWidth": [
+      "i < n && i + 1 + words[i].length <= maxWidth"
+    ],
+    "i < n and j + 1 + len(words[i]) <= maxWidth": [
+      "i < n && j + 1 + words[i].length <= maxWidth"
+    ],
+    "i < n and k + 1 + len(words[i]) <= maxWidth": [
+      "i < n && k + 1 + words[i].length <= maxWidth"
+    ],
+    "i < n and m + 1 + len(words[i]) <= maxWidth": [
+      "i < n && m + 1 + words[i].length <= maxWidth"
+    ],
+    "i < n and x + 1 + len(words[i]) <= maxWidth": [
+      "i < n && x + 1 + words[i].length <= maxWidth"
+    ]
+  }
+}

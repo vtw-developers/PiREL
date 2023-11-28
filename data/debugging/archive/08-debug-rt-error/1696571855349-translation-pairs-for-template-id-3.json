@@ -1,0 +1,12 @@
+[
+  [
+    {
+      "source": "midVal1 = 0 if a < b else 1",
+      "target": "let midVal1 = (a < b) ? 0 : 1;"
+    },
+    {
+      "source": "midVal1 = 0 if 5 < 10 else 1",
+      "target": "let midVal1 = (5 < 10) ? 0 : 1;"
+    }
+  ]
+]

@@ -1,0 +1,33 @@
+{
+  "template_id": 0,
+  "template_context": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+  "template_context_str_repl": "__ = __",
+  "template_origin": "midVal1 = nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+  "templatized_node_ids": {
+    "3": [
+      0,
+      0
+    ],
+    "4": [
+      0,
+      2
+    ]
+  },
+  "templatized_node_ids_context": {},
+  "context_node_type": "expression_statement",
+  "is_valid_template": true,
+  "sub_templates": null,
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ],
+  "template": "__ = __"
+}

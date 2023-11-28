@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "l > __ and nums[l] == nums[l + 1]",
+  "template_origin": "l > j and nums[l] == nums[l + 1]",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "l > NotImplementedType and nums[l] == nums[l + 1]",
+        "target": "l > NotImplementedType && nums[l] == nums[l + 1];"
+      },
+      {
+        "source": "l > object and nums[l] == nums[l + 1]",
+        "target": "l > object && nums[l] == nums[l + 1];"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for __ in range(n - 1):\n    some_secret_fn_4071()",
+  "template_origin": "for _ in range(n - 1):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    2
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for _ in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let _ = 0; _ < n - 1; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for x in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let x = 0; x < n - 1; x++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let _ = 0; _ < n - 1; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < n - 1; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let _ = 0; _ < n - 1; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let num = 0; num < n - 1; num++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let _ = 0; _ < n - 1; _++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for idx in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let idx = 0; idx < n - 1; idx++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let x = 0; x < n - 1; x++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < n - 1; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let x = 0; x < n - 1; x++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let num = 0; num < n - 1; num++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let x = 0; x < n - 1; x++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for idx in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let idx = 0; idx < n - 1; idx++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < n - 1; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let num = 0; num < n - 1; num++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < n - 1; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for idx in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let idx = 0; idx < n - 1; idx++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for num in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let num = 0; num < n - 1; num++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for idx in range(n - 1):\n    some_secret_fn_4071()",
+        "target": "for (let idx = 0; idx < n - 1; idx++) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

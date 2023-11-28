@@ -1,0 +1,23 @@
+{
+  "template": "@cache\ndef __(i, j):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "@cache\ndef dfs(i, j):\n    some_secret_fn_4071()",
+  "translations": {
+    "@cache\ndef variant1(i, j):\n    some_secret_fn_4071()": [
+      "function variant1(i, j) {\n    some_secret_fn_4071();\n}\n\nvariant1 = cache(variant1);"
+    ],
+    "@cache\ndef variant2(x, y):\n    some_secret_fn_4071()": [
+      "function variant2(x, y) {\n    some_secret_fn_4071();\n}\nvariant2 = cache(variant2);"
+    ],
+    "@cache\ndef variant3(a, b):\n    some_secret_fn_4071()": [
+      "function variant3(a, b) {\n    some_secret_fn_4071();\n}"
+    ],
+    "@cache\ndef variant4(num1, num2):\n    some_secret_fn_4071()": [
+      "function variant4(num1, num2) {\n    return some_secret_fn_4071();\n}\nvariant4 = cache(variant4);"
+    ],
+    "@cache\ndef variant5(arg1, arg2):\n    some_secret_fn_4071()": [
+      "function variant5(arg1, arg2) {\n    some_secret_fn_4071();\n}\n\nvariant5 = cache(variant5);"
+    ]
+  }
+}

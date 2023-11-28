@@ -1,0 +1,112 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__ and heights[__[-1]] >= h",
+  "template_origin": "stk and heights[stk[-1]] >= h",
+  "templatized_node_ids": [
+    3,
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "a and heights[a[-1]] >= h",
+        "target": "a && heights[a[a.length - 1]] >= h"
+      },
+      {
+        "source": "b and heights[b[-1]] >= h",
+        "target": "b && heights[b[b.length - 1]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "a and heights[a[-1]] >= h",
+        "target": "a && heights[a[a.length - 1]] >= h"
+      },
+      {
+        "source": "c and heights[c[-1]] >= h",
+        "target": "c && heights[c[c.length - 1]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "a and heights[a[-1]] >= h",
+        "target": "a && heights[a[a.length - 1]] >= h"
+      },
+      {
+        "source": "d and heights[d[-1]] >= h",
+        "target": "d && heights[d[d.length - 1]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "a and heights[a[-1]] >= h",
+        "target": "a && heights[a[a.length - 1]] >= h"
+      },
+      {
+        "source": "e and heights[e[-1]] >= h",
+        "target": "e && heights[e[e.length - 1]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "b and heights[b[-1]] >= h",
+        "target": "b && heights[b[b.length - 1]] >= h"
+      },
+      {
+        "source": "c and heights[c[-1]] >= h",
+        "target": "c && heights[c[c.length - 1]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "b and heights[b[-1]] >= h",
+        "target": "b && heights[b[b.length - 1]] >= h"
+      },
+      {
+        "source": "d and heights[d[-1]] >= h",
+        "target": "d && heights[d[d.length - 1]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "b and heights[b[-1]] >= h",
+        "target": "b && heights[b[b.length - 1]] >= h"
+      },
+      {
+        "source": "e and heights[e[-1]] >= h",
+        "target": "e && heights[e[e.length - 1]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "c and heights[c[-1]] >= h",
+        "target": "c && heights[c[c.length - 1]] >= h"
+      },
+      {
+        "source": "d and heights[d[-1]] >= h",
+        "target": "d && heights[d[d.length - 1]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "c and heights[c[-1]] >= h",
+        "target": "c && heights[c[c.length - 1]] >= h"
+      },
+      {
+        "source": "e and heights[e[-1]] >= h",
+        "target": "e && heights[e[e.length - 1]] >= h"
+      }
+    ],
+    [
+      {
+        "source": "d and heights[d[-1]] >= h",
+        "target": "d && heights[d[d.length - 1]] >= h"
+      },
+      {
+        "source": "e and heights[e[-1]] >= h",
+        "target": "e && heights[e[e.length - 1]] >= h"
+      }
+    ]
+  ]
+}

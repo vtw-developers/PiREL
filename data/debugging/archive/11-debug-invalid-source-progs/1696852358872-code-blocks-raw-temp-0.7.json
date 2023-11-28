@@ -1,0 +1,15 @@
+[
+  "def f_gold(x: float, n: int) -> int:\n    return n",
+  "def f_gold('x': 'float', n: int) -> int:\n    return n",
+  "def f_gold(arg1: int, n: int) -> int:\n    return n",
+  "def f_gold(5: 10, n: int) -> int:\n    return n",
+  "def f_gold(arg1: list, n: int) -> int:\n    return n",
+  "def f_gold(x: float, n: int) -> int:\n    return n",
+  "def f_gold(array: list, n: int) -> int:\n    return n",
+  "def f_gold(string: str, n: int) -> int:\n    return n",
+  "def f_gold(arg1: str, n: int) -> int:\n    return n",
+  "def f_gold(arr: list, n: int) -> int:\n    return n",
+  "def f_gold(data: dict, n: int) -> int:\n    return n",
+  "def f_gold(arg1: str, n: int) -> int:\n    return n",
+  "def f_gold('arg1': 'str', n: int) -> int:\n    return n"
+]

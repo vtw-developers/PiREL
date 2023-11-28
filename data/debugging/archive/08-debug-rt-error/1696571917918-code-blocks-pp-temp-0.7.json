@@ -1,0 +1,150 @@
+{
+  "generated_codes_stats": [
+    [
+      0,
+      {
+        "generated_code": "midVal1 = 0 if x - y < m else 1",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      1,
+      {
+        "generated_code": "midVal1 = 0 if 5 - 3 < m else 1",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      2,
+      {
+        "generated_code": "midVal1 = 0 if x - 2 < m else 1",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      3,
+      {
+        "generated_code": "midVal1 = 0 if x - y < m else 1",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      4,
+      {
+        "generated_code": "midVal1 = 0 if 10 - 5 < m else 1",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      5,
+      {
+        "generated_code": "midVal1 = 0 if x - 3 < m else 1",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      6,
+      {
+        "generated_code": "midVal1 = 0 if a - b < m else 1",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      7,
+      {
+        "generated_code": "midVal1 = 0 if 5 - 3 < m else 1",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      8,
+      {
+        "generated_code": "midVal1 = 0 if a - 2 < m else 1",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      9,
+      {
+        "generated_code": "midVal1 = 0 if x - y < m else 1",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      10,
+      {
+        "generated_code": "midVal1 = 0 if 5 - 3 < m else 1",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      11,
+      {
+        "generated_code": "midVal1 = 0 if num1 - num2 < m else 1",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      12,
+      {
+        "generated_code": "midVal1 = 0 if 10 - 5 < m else 1",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ],
+    [
+      13,
+      {
+        "generated_code": "midVal1 = 0 if count - limit < m else 1",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+        "templatized_nodes_depth_lte_2": true
+      }
+    ]
+  ],
+  "num_progs_satisfy_criteria": 14,
+  "success": true,
+  "two_source_programs": [
+    "midVal1 = 0 if x - y < m else 1",
+    "midVal1 = 0 if 5 - 3 < m else 1"
+  ]
+}

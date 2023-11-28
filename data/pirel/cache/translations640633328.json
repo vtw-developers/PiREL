@@ -1,0 +1,36 @@
+{
+  "template": "group if i == numRows else __ * numRows - __ * i",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "group if i == numRows else 2 * numRows - 2 * i",
+  "translations": {
+    "group if i == numRows else 0 * numRows - 0 * i": [
+      "i == numRows ? group : 0 * numRows - 0 * i;"
+    ],
+    "group if i == numRows else 1 * numRows - 1 * i": [
+      "i === numRows ? group : 1 * numRows - 1 * i"
+    ],
+    "group if i == numRows else 2 * numRows - 2 * i": [],
+    "group if i == numRows else 3 * numRows - 3 * i": [
+      "i == numRows ? group : 3 * numRows - 3 * i;"
+    ],
+    "group if i == numRows else 4 * numRows - 4 * i": [
+      "i === numRows ? group : 4 * numRows - 4 * i"
+    ],
+    "group if i == numRows else 5 * numRows - 5 * i": [
+      "i == numRows ? group : 5 * numRows - 5 * i;"
+    ],
+    "group if i == numRows else 6 * numRows - 6 * i": [
+      "i == numRows ? group : 6 * numRows - 6 * i;"
+    ],
+    "group if i == numRows else 7 * numRows - 7 * i": [
+      "i === numRows ? group : 7 * numRows - 7 * i"
+    ],
+    "group if i == numRows else 8 * numRows - 8 * i": [
+      "i == numRows ? group : 8 * numRows - 8 * i"
+    ],
+    "group if i == numRows else 9 * numRows - 9 * i": [
+      "i == numRows ? group : 9 * numRows - 9 * i;"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "template": "stk and heights[stk[-__]] >= h",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "stk and heights[stk[-1]] >= h",
+  "translations": {
+    "stk and heights[stk[-1]] >= h": [
+      "stk && heights[stk[stk.length - 1]] >= h"
+    ],
+    "stk and heights[stk[-2]] >= h": [
+      "stk && heights[stk[stk.length - 2]] >= h"
+    ],
+    "stk and heights[stk[-3]] >= h": [
+      "stk && heights[stk[stk.length - 3]] >= h"
+    ],
+    "stk and heights[stk[-4]] >= h": [
+      "stk && heights[stk[stk.length - 4]] >= h"
+    ],
+    "stk and heights[stk[-5]] >= h": [
+      "stk && heights[stk[stk.length - 5]] >= h"
+    ]
+  }
+}

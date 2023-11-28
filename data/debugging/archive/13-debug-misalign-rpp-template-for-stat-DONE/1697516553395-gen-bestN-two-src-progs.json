@@ -1,0 +1,14 @@
+[
+  [
+    "def f_gold(arg1: int, target: int) -> int:\n    return target",
+    "def f_gold(input_data: 'input_type', target: int) -> int:\n    return target"
+  ],
+  [
+    "def f_gold(arg1: int, target: int) -> int:\n    return target",
+    "def f_gold(arg: 'Any', target: int) -> int:\n    return target"
+  ],
+  [
+    "def f_gold(arg1: int, target: int) -> int:\n    return target",
+    "def f_gold(arg: 'str', target: int) -> int:\n    return target"
+  ]
+]

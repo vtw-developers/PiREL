@@ -1,0 +1,495 @@
+{
+  "generated_codes_stats": [
+    [
+      0,
+      {
+        "generated_code": "def f_gold(arg1: int, target: int) -> int:\n    return target",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return target"
+      }
+    ],
+    [
+      1,
+      {
+        "generated_code": "def f_gold('arg': 'int', target: int) -> int:\n    return target",
+        "has_parse_error": true,
+        "is_type_isomorphic_to_template": null,
+        "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return target"
+      }
+    ],
+    [
+      2,
+      {
+        "generated_code": "def f_gold(numbers: list, target: int) -> int:\n    return target",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return target"
+      }
+    ],
+    [
+      3,
+      {
+        "generated_code": "def f_gold('numbers': 'list', target: int) -> int:\n    return target",
+        "has_parse_error": true,
+        "is_type_isomorphic_to_template": null,
+        "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return target"
+      }
+    ],
+    [
+      4,
+      {
+        "generated_code": "def f_gold(num_list: list, target: int) -> int:\n    return target",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return target"
+      }
+    ],
+    [
+      5,
+      {
+        "generated_code": "def f_gold(arr: tuple, target: int) -> int:\n    return target",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return target"
+      }
+    ],
+    [
+      6,
+      {
+        "generated_code": "def f_gold(numbers: set, target: int) -> int:\n    return target",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return target"
+      }
+    ],
+    [
+      7,
+      {
+        "generated_code": "def f_gold(array: list, target: int) -> int:\n    return target",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return target"
+      }
+    ],
+    [
+      8,
+      {
+        "generated_code": "def f_gold(nums: list, target: int) -> int:\n    return target",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return target"
+      }
+    ],
+    [
+      9,
+      {
+        "generated_code": "def f_gold('array': 'list', target: int) -> int:\n    return target",
+        "has_parse_error": true,
+        "is_type_isomorphic_to_template": null,
+        "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return target"
+      }
+    ],
+    [
+      10,
+      {
+        "generated_code": "def f_gold('nums': 'list', target: int) -> int:\n    return target",
+        "has_parse_error": true,
+        "is_type_isomorphic_to_template": null,
+        "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return target"
+      }
+    ],
+    [
+      11,
+      {
+        "generated_code": "def f_gold(nums: list, target: int) -> int:\n    return target",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return target"
+      }
+    ],
+    [
+      12,
+      {
+        "generated_code": "def f_gold(matrix: list, target: int) -> int:\n    return target",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return target"
+      }
+    ],
+    [
+      13,
+      {
+        "generated_code": "def f_gold(array: list, target: int) -> int:\n    return target",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return target"
+      }
+    ]
+  ],
+  "perfect_two_source_programs": null,
+  "success": false,
+  "two_source_programs": null,
+  "two_source_programs_stats": [
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arg1: int, target: int) -> int:\n    return target",
+      "program2": "def f_gold(numbers: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arg1: int, target: int) -> int:\n    return target",
+      "program2": "def f_gold(num_list: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arg1: int, target: int) -> int:\n    return target",
+      "program2": "def f_gold(arr: tuple, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arg1: int, target: int) -> int:\n    return target",
+      "program2": "def f_gold(numbers: set, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arg1: int, target: int) -> int:\n    return target",
+      "program2": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arg1: int, target: int) -> int:\n    return target",
+      "program2": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arg1: int, target: int) -> int:\n    return target",
+      "program2": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arg1: int, target: int) -> int:\n    return target",
+      "program2": "def f_gold(matrix: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arg1: int, target: int) -> int:\n    return target",
+      "program2": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(numbers: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(num_list: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(numbers: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(arr: tuple, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(numbers: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(numbers: set, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(numbers: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(numbers: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(numbers: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(numbers: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(matrix: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(numbers: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(num_list: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(arr: tuple, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(num_list: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(numbers: set, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(num_list: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(num_list: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(num_list: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(num_list: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(matrix: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(num_list: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arr: tuple, target: int) -> int:\n    return target",
+      "program2": "def f_gold(numbers: set, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arr: tuple, target: int) -> int:\n    return target",
+      "program2": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arr: tuple, target: int) -> int:\n    return target",
+      "program2": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arr: tuple, target: int) -> int:\n    return target",
+      "program2": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arr: tuple, target: int) -> int:\n    return target",
+      "program2": "def f_gold(matrix: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(arr: tuple, target: int) -> int:\n    return target",
+      "program2": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(numbers: set, target: int) -> int:\n    return target",
+      "program2": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(numbers: set, target: int) -> int:\n    return target",
+      "program2": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(numbers: set, target: int) -> int:\n    return target",
+      "program2": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(numbers: set, target: int) -> int:\n    return target",
+      "program2": "def f_gold(matrix: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": true,
+      "pair_score": 32,
+      "program1": "def f_gold(numbers: set, target: int) -> int:\n    return target",
+      "program2": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(matrix: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(matrix: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(matrix: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(nums: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "no_repeating_tokens": false,
+      "pair_score": 32,
+      "program1": "def f_gold(matrix: list, target: int) -> int:\n    return target",
+      "program2": "def f_gold(array: list, target: int) -> int:\n    return target",
+      "ratio_template_nodes_width_1": 1
+    }
+  ]
+}

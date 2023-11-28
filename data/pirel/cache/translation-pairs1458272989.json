@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[[False] * (n + 1) for __ in range(m + 1)]",
+  "template_origin": "[[False] * (n + 1) for _ in range(m + 1)]",
+  "templatized_node_ids": [
+    11
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[[False] * (n + 1) for j in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));"
+      },
+      {
+        "source": "[[False] * (n + 1) for k in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));"
+      }
+    ],
+    [
+      {
+        "source": "[[False] * (n + 1) for j in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));"
+      },
+      {
+        "source": "[[False] * (n + 1) for x in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));"
+      }
+    ],
+    [
+      {
+        "source": "[[False] * (n + 1) for j in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));"
+      },
+      {
+        "source": "[[False] * (n + 1) for y in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));"
+      }
+    ],
+    [
+      {
+        "source": "[[False] * (n + 1) for k in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));"
+      },
+      {
+        "source": "[[False] * (n + 1) for x in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));"
+      }
+    ],
+    [
+      {
+        "source": "[[False] * (n + 1) for k in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));"
+      },
+      {
+        "source": "[[False] * (n + 1) for y in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));"
+      }
+    ],
+    [
+      {
+        "source": "[[False] * (n + 1) for x in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));"
+      },
+      {
+        "source": "[[False] * (n + 1) for y in range(m + 1)]",
+        "target": "Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));"
+      }
+    ]
+  ]
+}

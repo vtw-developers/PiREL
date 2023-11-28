@@ -1,0 +1,32 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__ * tot if INT_MIN <= __ * tot <= INT_MAX else INT_MAX",
+  "template_origin": "sign * tot if INT_MIN <= sign * tot <= INT_MAX else INT_MAX",
+  "templatized_node_ids": [
+    4,
+    9
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "value_2 * tot if INT_MIN <= value_2 * tot <= INT_MAX else INT_MAX",
+        "target": "if (INT_MIN <= value_2 * tot && value_2 * tot <= INT_MAX) {\n    return value_2 * tot;\n} else {\n    return INT_MAX;\n}"
+      },
+      {
+        "source": "int_2 * tot if INT_MIN <= int_2 * tot <= INT_MAX else INT_MAX",
+        "target": "if (INT_MIN <= int_2 * tot && int_2 * tot <= INT_MAX) {\n    return int_2 * tot;\n} else {\n    return INT_MAX;\n}"
+      }
+    ],
+    [
+      {
+        "source": "abc_2 * tot if INT_MIN <= abc_2 * tot <= INT_MAX else INT_MAX",
+        "target": "if (abc_2 * tot >= INT_MIN && abc_2 * tot <= INT_MAX) {\n    return abc_2 * tot;\n} else {\n    return INT_MAX;\n}"
+      },
+      {
+        "source": "num_2 * tot if INT_MIN <= num_2 * tot <= INT_MAX else INT_MAX",
+        "target": "if (num_2 * tot >= INT_MIN && num_2 * tot <= INT_MAX) {\n    return num_2 * tot;\n} else {\n    return INT_MAX;\n}"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(digits: __) -> List[__]:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(digits: str) -> List[str]:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    7,
+    11
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(digits: int) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(digits: float) -> List[float]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(digits: int) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(digits: str) -> List[str]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(digits: int) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(digits: bool) -> List[bool]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(digits: int) -> List[int]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(digits: list) -> List[list]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(digits: float) -> List[float]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(digits: str) -> List[str]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(digits: float) -> List[float]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(digits: bool) -> List[bool]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(digits: float) -> List[float]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(digits: list) -> List[list]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(digits: str) -> List[str]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(digits: bool) -> List[bool]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(digits: str) -> List[str]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(digits: list) -> List[list]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(digits: bool) -> List[bool]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(digits: list) -> List[list]:\n    some_secret_fn_4071()",
+        "target": "function f_gold(digits) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

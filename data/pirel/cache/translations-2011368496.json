@@ -1,0 +1,23 @@
+{
+  "template": "[[__[0][0]] * n for _ in range(m)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[[grid[0][0]] * n for _ in range(m)]",
+  "translations": {
+    "[[a[0][0]] * n for _ in range(m)]": [
+      "Array.from({ length: m }, () => Array(n).fill(a[0][0]));"
+    ],
+    "[[b[0][0]] * n for _ in range(m)]": [
+      "let result = Array(m).fill(Array(n).fill(b[0][0]));"
+    ],
+    "[[c[0][0]] * n for _ in range(m)]": [
+      "Array.from({ length: m }, () => Array(n).fill(c[0][0]));"
+    ],
+    "[[d[0][0]] * n for _ in range(m)]": [
+      "Array.from({ length: m }, () => Array(n).fill(d[0][0]));"
+    ],
+    "[[e[0][0]] * n for _ in range(m)]": [
+      "Array.from({ length: m }, () => Array(n).fill(e[0][0]));"
+    ]
+  }
+}

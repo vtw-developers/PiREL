@@ -1,0 +1,23 @@
+{
+  "template": "for s in __.split('/'):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for s in path.split('/'):\n    some_secret_fn_4071()",
+  "translations": {
+    "for s in my_string.split('/'):\n    some_secret_fn_4071()": [
+      "const my_string = \"some_string\";\nconst split_strings = my_string.split('/');\nfor (let i = 0; i < split_strings.length; i++) {\n  some_secret_fn_4071();\n}"
+    ],
+    "for s in str_var.split('/'):\n    some_secret_fn_4071()": [
+      "var str_var = \"\";\nvar s_list = str_var.split('/');\nfor (var i = 0; i < s_list.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in input_string.split('/'):\n    some_secret_fn_4071()": [
+      "var input_string = \"\"; // assuming input_string is defined\n\nvar splitArray = input_string.split('/');\nfor (var i = 0; i < splitArray.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in data.split('/'):\n    some_secret_fn_4071()": [
+      "var data = \"\";\nvar splitData = data.split('/');\nfor (var i = 0; i < splitData.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s in path.split('/'):\n    some_secret_fn_4071()": [
+      "var path = \"some/path/string\";\nvar pathArr = path.split('/');\nfor (var i = 0; i < pathArr.length; i++) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

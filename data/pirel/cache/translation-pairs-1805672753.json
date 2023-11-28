@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "left <= right and __ <= bottom",
+  "template_origin": "left <= right and top <= bottom",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "left <= right and top <= bottom",
+        "target": "left <= right && top <= bottom"
+      },
+      {
+        "source": "left <= right and front <= bottom",
+        "target": "left <= right && front <= bottom"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and top <= bottom",
+        "target": "left <= right && top <= bottom"
+      },
+      {
+        "source": "left <= right and back <= bottom",
+        "target": "left <= right && back <= bottom"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and top <= bottom",
+        "target": "left <= right && top <= bottom"
+      },
+      {
+        "source": "left <= right and x <= bottom",
+        "target": "left <= right && x <= bottom"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and top <= bottom",
+        "target": "left <= right && top <= bottom"
+      },
+      {
+        "source": "left <= right and y <= bottom",
+        "target": "left <= right && y <= bottom"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and front <= bottom",
+        "target": "left <= right && front <= bottom"
+      },
+      {
+        "source": "left <= right and back <= bottom",
+        "target": "left <= right && back <= bottom"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and front <= bottom",
+        "target": "left <= right && front <= bottom"
+      },
+      {
+        "source": "left <= right and x <= bottom",
+        "target": "left <= right && x <= bottom"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and front <= bottom",
+        "target": "left <= right && front <= bottom"
+      },
+      {
+        "source": "left <= right and y <= bottom",
+        "target": "left <= right && y <= bottom"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and back <= bottom",
+        "target": "left <= right && back <= bottom"
+      },
+      {
+        "source": "left <= right and x <= bottom",
+        "target": "left <= right && x <= bottom"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and back <= bottom",
+        "target": "left <= right && back <= bottom"
+      },
+      {
+        "source": "left <= right and y <= bottom",
+        "target": "left <= right && y <= bottom"
+      }
+    ],
+    [
+      {
+        "source": "left <= right and x <= bottom",
+        "target": "left <= right && x <= bottom"
+      },
+      {
+        "source": "left <= right and y <= bottom",
+        "target": "left <= right && y <= bottom"
+      }
+    ]
+  ]
+}

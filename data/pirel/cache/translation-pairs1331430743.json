@@ -1,0 +1,42 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums1[i + __ // 2 - 1] if i + __ // 2 - 1 < m else float('inf')",
+  "template_origin": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+  "templatized_node_ids": [
+    9,
+    17
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums1[i + __ // 2 - 1] if i + __ // 2 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(__ / 2) - 1] < m ? nums1[i + Math.floor(__ / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + x // 2 - 1] if i + x // 2 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(x / 2) - 1] < m ? nums1[i + Math.floor(x / 2) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "nums1[i + __ // 2 - 1] if i + __ // 2 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(__ / 2) - 1] < m ? nums1[i + Math.floor(__ / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < m ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      }
+    ],
+    [
+      {
+        "source": "nums1[i + x // 2 - 1] if i + x // 2 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(x / 2) - 1] < m ? nums1[i + Math.floor(x / 2) - 1] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 1] < m ? nums1[i + Math.floor(k / 2) - 1] : Infinity;"
+      }
+    ]
+  ]
+}

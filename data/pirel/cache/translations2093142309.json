@@ -1,0 +1,395 @@
+{
+  "template": "__ = len(__)",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "n = len(digits)",
+  "translations": {
+    "n = len(nums)": [
+      "var n = nums.length;"
+    ],
+    "length = len(nums)": [
+      "var length = nums.length;"
+    ],
+    "num_elements = len(nums)": [
+      "var num_elements = nums.length;"
+    ],
+    "size = len(nums)": [
+      "var size = nums.length;"
+    ],
+    "count = len(nums)": [
+      "var count = nums.length;"
+    ],
+    "total = len(nums)": [
+      "var total = nums.length;"
+    ],
+    "quantity = len(nums)": [
+      "var quantity = nums.length;"
+    ],
+    "amount = len(nums)": [
+      "var amount = nums.length;"
+    ],
+    "elements = len(nums)": [
+      "var elements = nums.length;"
+    ],
+    "size_of_nums = len(nums)": [
+      "var size_of_nums = nums.length;"
+    ],
+    "x = len(y)": [
+      "var x = y.length;"
+    ],
+    "count = len(data)": [
+      "var count = data.length;"
+    ],
+    "num = len(lst)": [],
+    "length = len(string)": [
+      "var length = string.length;"
+    ],
+    "size = len(array)": [
+      "var size = array.length;"
+    ],
+    "amount = len(items)": [
+      "var amount = items.length;"
+    ],
+    "result = len(sequence)": [
+      "var result = sequence.length;"
+    ],
+    "total = len(numbers)": [
+      "var total = numbers.length;"
+    ],
+    "value = len(container)": [
+      "var value = container.length;"
+    ],
+    "quantity = len(collection)": [
+      "var quantity = collection.length;"
+    ],
+    "length = len(some_list)": [
+      "var length = some_list.length;"
+    ],
+    "size = len(my_string)": [
+      "var size = my_string.length;"
+    ],
+    "count = len(numbers)": [
+      "var count = numbers.length;"
+    ],
+    "qty = len(data)": [
+      "var qty = data.length;"
+    ],
+    "num_elements = len(my_array)": [
+      "var num_elements = my_array.length;"
+    ],
+    "total = len(my_dict)": [
+      "var total = Object.keys(my_dict).length;"
+    ],
+    "num_items = len(my_set)": [
+      "var num_items = my_set.size;"
+    ],
+    "amount = len(my_tuple)": [
+      "var amount = my_tuple.length;"
+    ],
+    "num_chars = len(my_string)": [
+      "var num_chars = my_string.length;"
+    ],
+    "num_elements = len(my_list)": [
+      "var num_elements = my_list.length;"
+    ],
+    "x = len(x)": [
+      "x = x.length;"
+    ],
+    "y = len(y)": [
+      "y = y.length;"
+    ],
+    "z = len(z)": [
+      "z = z.length;"
+    ],
+    "a = len(a)": [
+      "var a = a.length;"
+    ],
+    "b = len(b)": [
+      "b = b.length;"
+    ],
+    "c = len(c)": [
+      "c = c.length;"
+    ],
+    "d = len(d)": [
+      "d = d.length;"
+    ],
+    "e = len(e)": [
+      "e = e.length;"
+    ],
+    "f = len(f)": [
+      "f = f.length;"
+    ],
+    "g = len(g)": [],
+    "length = len(sequence)": [
+      "let length = sequence.length;"
+    ],
+    "n = len(s)": [
+      "var n = s.length;"
+    ],
+    "count = len(items)": [
+      "var count = items.length;"
+    ],
+    "total = len(data)": [
+      "var total = data.length;"
+    ],
+    "elements = len(collection)": [
+      "var elements = collection.length;"
+    ],
+    "amount = len(items_list)": [
+      "var amount = items_list.length;"
+    ],
+    "qty = len(products)": [
+      "var qty = products.length;"
+    ],
+    "n = len(n)": [
+      "var n = n.length;"
+    ],
+    "length = len(length)": [
+      "var length = length.length;"
+    ],
+    "size = len(size)": [],
+    "count = len(count)": [
+      "count = count.length;"
+    ],
+    "num = len(num)": [
+      "num = num.length;"
+    ],
+    "total = len(total)": [
+      "total = total.length;"
+    ],
+    "value = len(value)": [],
+    "amount = len(amount)": [
+      "amount = amount.length;"
+    ],
+    "quantity = len(quantity)": [
+      "quantity = quantity.length;"
+    ],
+    "items = len(items)": [
+      "items = items.length;"
+    ],
+    "a = len(b)": [
+      "var a = b.length;"
+    ],
+    "size = len(data)": [
+      "var size = data.length;"
+    ],
+    "index = len(array)": [
+      "let index = array.length;"
+    ],
+    "num_elements = len(elements)": [
+      "var num_elements = elements.length;"
+    ],
+    "count_items = len(item_list)": [],
+    "size_of_list = len(my_list)": [
+      "var size_of_list = my_list.length;"
+    ],
+    "n = len(some_list)": [
+      "var n = some_list.length;"
+    ],
+    "count = len(sequence)": [
+      "var count = sequence.length;"
+    ],
+    "num_elements = len(sequence)": [
+      "var num_elements = sequence.length;"
+    ],
+    "total = len(collection)": [
+      "var total = collection.length;"
+    ],
+    "result = len(iterable)": [
+      "var result = iterable.length;"
+    ],
+    "quantity = len(container)": [
+      "var quantity = container.length;"
+    ],
+    "num_items = len(iterable)": [
+      "var num_items = iterable.length;"
+    ],
+    "amount = len(data)": [
+      "var amount = data.length;"
+    ],
+    "length = len(obj)": [
+      "var length = obj.length;"
+    ],
+    "length = len(items)": [
+      "var length = items.length;"
+    ],
+    "num_items = len(items_list)": [
+      "var num_items = items_list.length;"
+    ],
+    "size = len(container)": [
+      "var size = container.length;"
+    ],
+    "count = len(collection)": [
+      "var count = collection.length;"
+    ],
+    "num_elements = len(elements_list)": [
+      "var num_elements = elements_list.length;"
+    ],
+    "result = len(data)": [
+      "var result = data.length;"
+    ],
+    "size = len(sequence)": [
+      "var size = sequence.length;"
+    ],
+    "amount = len(values)": [
+      "var amount = values.length;"
+    ],
+    "quantity = len(items_list)": [
+      "var quantity = items_list.length;"
+    ],
+    "size = len(collection)": [
+      "var size = collection.length;"
+    ],
+    "variable = len(iterable)": [
+      "var variable = iterable.length;"
+    ],
+    "total = len(array)": [
+      "var total = array.length;"
+    ],
+    "amount = len(container)": [],
+    "value = len(object)": [
+      "var value = object.length;"
+    ],
+    "num_items = len(nums)": [
+      "let num_items = nums.length;"
+    ],
+    "val = len(iterable)": [
+      "var val = iterable.length;"
+    ],
+    "num_elements = len(collection)": [
+      "var num_elements = collection.length;"
+    ],
+    "result = len(string)": [
+      "var result = string.length;"
+    ],
+    "n = len(lst)": [
+      "let n = lst.length;"
+    ],
+    "quantity = len(items)": [
+      "var quantity = items.length;"
+    ],
+    "length = len(my_string)": [
+      "var length = my_string.length;"
+    ],
+    "size = len(my_tuple)": [
+      "var size = my_tuple.length;"
+    ],
+    "num_elements = len(my_set)": [
+      "var num_elements = my_set.size;"
+    ],
+    "qty = len(items)": [
+      "var qty = items.length;"
+    ],
+    "amount = len(my_list)": [
+      "var amount = my_list.length;"
+    ],
+    "elements = len(my_list)": [
+      "var elements = my_list.length;"
+    ],
+    "total = len(items_list)": [
+      "var total = items_list.length;"
+    ],
+    "size_of_list = len(some_list)": [],
+    "number_of_items = len(my_items)": [
+      "var number_of_items = my_items.length;"
+    ],
+    "number = len(nums)": [
+      "var number = nums.length;"
+    ],
+    "count = len(objects)": [
+      "var count = objects.length;"
+    ],
+    "total = len(items)": [
+      "var total = items.length;"
+    ],
+    "amount = len(collection)": [
+      "var amount = collection.length;"
+    ],
+    "qty = len(items_list)": [
+      "var qty = items_list.length;"
+    ],
+    "num_items = len(items_tuple)": [
+      "var num_items = items_tuple.length;"
+    ],
+    "num_values = len(values_dict)": [
+      "var num_values = Object.keys(values_dict).length;"
+    ],
+    "result = len(result)": [],
+    "string = len(string)": [
+      "string = string.length;"
+    ],
+    "size = len(arr)": [
+      "var size = arr.length;"
+    ],
+    "num_items = len(item_list)": [
+      "var num_items = item_list.length;"
+    ],
+    "array_length = len(number_array)": [
+      "var array_length = number_array.length;"
+    ],
+    "string_length = len(input_string)": [],
+    "size = len(iterable_object)": [
+      "var size = iterable_object.length;"
+    ],
+    "num_elements = len(array)": [
+      "var num_elements = array.length;"
+    ],
+    "elements = len(container)": [
+      "var elements = container.length;"
+    ],
+    "number_of_elements = len(my_array)": [
+      "var number_of_elements = my_array.length;"
+    ],
+    "length = len(variable)": [
+      "var length = variable.length;"
+    ],
+    "result = len(some_list)": [
+      "let result = some_list.length;"
+    ],
+    "total = len(iterable)": [
+      "var total = iterable.length;"
+    ],
+    "number_of_elements = len(container)": [
+      "var number_of_elements = container.length;"
+    ],
+    "count = len(array)": [
+      "var count = array.length;"
+    ],
+    "num_elements = len(some_list)": [
+      "var num_elements = some_list.length;"
+    ],
+    "size_of_string = len(my_string)": [
+      "var size_of_string = my_string.length;"
+    ],
+    "number_of_items = len(my_list)": [
+      "var number_of_items = my_list.length;"
+    ],
+    "num_chars = len(text)": [
+      "var num_chars = text.length;"
+    ],
+    "x = len(my_list)": [
+      "var x = my_list.length;"
+    ],
+    "count = len(my_list)": [
+      "var count = my_list.length;"
+    ],
+    "size = len(my_list)": [
+      "var size = my_list.length;"
+    ],
+    "length = len(my_list)": [
+      "var length = my_list.length;"
+    ],
+    "result = len(my_list)": [
+      "var result = my_list.length;"
+    ],
+    "var = len(my_list)": [
+      "var my_var = my_list.length;"
+    ],
+    "value = len(my_list)": [
+      "var value = my_list.length;"
+    ],
+    "total = len(my_list)": [
+      "let total = my_list.length;"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "template": "i < __ or num != nums[i - __]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "i < 1 or num != nums[i - 1]",
+  "translations": {
+    "i < 5 or num != nums[i - 2]": [],
+    "i < 7 or num != nums[i - 3]": [
+      "i < 7 || num !== nums[i - 3]"
+    ],
+    "i < 10 or num != nums[i - 4]": [
+      "i < 10 || num !== nums[i - 4];"
+    ],
+    "i < 2 or num != nums[i - 1]": [
+      "i < 2 || num !== nums[i - 1];"
+    ],
+    "i < 8 or num != nums[i - 5]": [
+      "i < 8 || num !== nums[i - 5]"
+    ]
+  }
+}

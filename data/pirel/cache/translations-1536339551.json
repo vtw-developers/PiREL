@@ -1,0 +1,23 @@
+{
+  "template": "for i in range(len(__)):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for i in range(len(s)):\n    some_secret_fn_4071()",
+  "translations": {
+    "for i in range(len(lst)):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < lst.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(len(string)):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < string.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(len(dictionary)):\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < dictionary.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(len(array)):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < array.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(len(numbers)):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < numbers.length; i++) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

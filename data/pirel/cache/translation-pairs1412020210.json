@@ -1,0 +1,22 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "sign * tot if INT_MIN <= sign * tot <= __ else __",
+  "template_origin": "sign * tot if INT_MIN <= sign * tot <= INT_MAX else INT_MAX",
+  "templatized_node_ids": [
+    11,
+    12
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "sign * tot if INT_MIN <= sign * tot <= MAX_INT else tot",
+        "target": "if (INT_MIN <= sign * tot && sign * tot <= MAX_INT) {\n    return sign * tot;\n} else {\n    return tot;\n}"
+      },
+      {
+        "source": "sign * tot if INT_MIN <= sign * tot <= var2 else var2",
+        "target": "if (INT_MIN <= sign * tot && sign * tot <= var2) {\n    return sign * tot;\n} else {\n    return var2;\n}"
+      }
+    ]
+  ]
+}

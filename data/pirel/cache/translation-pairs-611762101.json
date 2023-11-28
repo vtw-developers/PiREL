@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "from __ import *",
+  "template_origin": "from typing import *",
+  "templatized_node_ids": [
+    3
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "from datetime import *",
+        "target": "// No equivalent in JavaScript"
+      },
+      {
+        "source": "from typing import *",
+        "target": "// No equivalent in JavaScript"
+      }
+    ]
+  ]
+}

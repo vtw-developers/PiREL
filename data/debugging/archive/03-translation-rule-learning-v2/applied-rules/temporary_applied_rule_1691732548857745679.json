@@ -1,0 +1,20 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.module\"",
+        "\"*\""
+      ]
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      [
+        "\"js.program\"",
+        "\"*1\""
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "template": "left <= right and __ <= bottom",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "left <= right and top <= bottom",
+  "translations": {
+    "left <= right and top <= bottom": [
+      "left <= right && top <= bottom"
+    ],
+    "left <= right and front <= bottom": [
+      "left <= right && front <= bottom"
+    ],
+    "left <= right and back <= bottom": [
+      "left <= right && back <= bottom"
+    ],
+    "left <= right and x <= bottom": [
+      "left <= right && x <= bottom"
+    ],
+    "left <= right and y <= bottom": [
+      "left <= right && y <= bottom"
+    ]
+  }
+}

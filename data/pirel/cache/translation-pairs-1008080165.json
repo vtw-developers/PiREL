@@ -1,0 +1,491 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__ if i == numRows else 2 * numRows - 2 * i",
+  "template_origin": "group if i == numRows else 2 * numRows - 2 * i",
+  "templatized_node_ids": [
+    3
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "x if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? x : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "y if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? y : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "x if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? x : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "z if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? z : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "x if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? x : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "b if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? b : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "x if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? x : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "f if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? f : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "x if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? x : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "j if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? j : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "x if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? x : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "n if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? n : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "x if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? x : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "num if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? num : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "x if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? x : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "idx if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? idx : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "x if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? x : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "element if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? element : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "y if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? y : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "z if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? z : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "y if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? y : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "b if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? b : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "y if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? y : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "f if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? f : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "y if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? y : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "j if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? j : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "y if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? y : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "n if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? n : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "y if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? y : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "num if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? num : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "y if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? y : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "idx if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? idx : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "y if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? y : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "element if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? element : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "z if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? z : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "b if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? b : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "z if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? z : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "f if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? f : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "z if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? z : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "j if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? j : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "z if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? z : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "n if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? n : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "z if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? z : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "num if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? num : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "z if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? z : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "idx if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? idx : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "z if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? z : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "element if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? element : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "b if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? b : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "f if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? f : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "b if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? b : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "j if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? j : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "b if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? b : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "n if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? n : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "b if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? b : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "num if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? num : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "b if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? b : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "idx if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? idx : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "b if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? b : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "element if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? element : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "d if i == numRows else 2 * numRows - 2 * i",
+        "target": "i === numRows ? d : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "i if i == numRows else 2 * numRows - 2 * i",
+        "target": "i === numRows ? i : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "d if i == numRows else 2 * numRows - 2 * i",
+        "target": "i === numRows ? d : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "count if i == numRows else 2 * numRows - 2 * i",
+        "target": "i === numRows ? count : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "f if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? f : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "j if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? j : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "f if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? f : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "n if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? n : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "f if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? f : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "num if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? num : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "f if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? f : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "idx if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? idx : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "f if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? f : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "element if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? element : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "i if i == numRows else 2 * numRows - 2 * i",
+        "target": "i === numRows ? i : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "count if i == numRows else 2 * numRows - 2 * i",
+        "target": "i === numRows ? count : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "j if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? j : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "n if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? n : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "j if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? j : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "num if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? num : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "j if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? j : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "idx if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? idx : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "j if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? j : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "element if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? element : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "n if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? n : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "num if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? num : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "n if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? n : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "idx if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? idx : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "n if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? n : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "element if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? element : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "num if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? num : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "idx if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? idx : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "num if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? num : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "element if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? element : 2 * numRows - 2 * i;"
+      }
+    ],
+    [
+      {
+        "source": "idx if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? idx : 2 * numRows - 2 * i;"
+      },
+      {
+        "source": "element if i == numRows else 2 * numRows - 2 * i",
+        "target": "i == numRows ? element : 2 * numRows - 2 * i;"
+      }
+    ]
+  ]
+}

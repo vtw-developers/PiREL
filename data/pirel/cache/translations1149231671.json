@@ -1,0 +1,23 @@
+{
+  "template": "for __ in prices[1:]:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for price in prices[1:]:\n    some_secret_fn_4071()",
+  "translations": {
+    "for _ in prices[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < prices.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for x in prices[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < prices.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in prices[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < prices.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in prices[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < prices.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for element in prices[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < prices.length; i++) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

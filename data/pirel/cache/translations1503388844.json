@@ -1,0 +1,23 @@
+{
+  "template": "for s, e in intervals[__:]:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for s, e in intervals[1:]:\n    some_secret_fn_4071()",
+  "translations": {
+    "for s, e in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < intervals.length; i++) {\n    let [s, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for s, e in intervals[0:]:\n    some_secret_fn_4071()": [
+      "for (let [s, e] of intervals.slice(0)) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for s, e in intervals[2:]:\n    some_secret_fn_4071()": [
+      "for (let i = 2; i < intervals.length; i++) {\n    let [s, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for s, e in intervals[3:]:\n    some_secret_fn_4071()": [
+      "for (let i = 3; i < intervals.length; i++) {\n    let [s, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for s, e in intervals[4:]:\n    some_secret_fn_4071()": [
+      "for (let i = 4; i < intervals.length; i++) {\n    const [s, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

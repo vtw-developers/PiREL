@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "([matrix[__][j] for j in range(right - 1, left - 1, -1)])",
+  "template_origin": "([matrix[bottom][j] for j in range(right - 1, left - 1, -1)])",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "([matrix[i][column] for column in range(right - 1, left - 1, -1)])",
+        "target": "for (let column = right - 1; column >= left - 1; column--) {\n    matrix[i][column];\n}"
+      },
+      {
+        "source": "([matrix[x][j] for j in range(right - 1, left - 1, -1)])",
+        "target": "for (let j = right - 1; j >= left - 1; j--) {\n    matrix[x][j];\n}"
+      }
+    ]
+  ]
+}

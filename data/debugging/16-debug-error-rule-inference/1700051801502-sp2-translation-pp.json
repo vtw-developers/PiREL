@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "translation_pairs": [
+    [
+      {
+        "source": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+        "target": "for (let idx = 0; idx < my_list.length; idx++) {\n    let val = my_list[idx];\n    secret_fun_4071();\n}"
+      },
+      {
+        "source": "for i, item in enumerate(numbers):\n    secret_fun_4071()",
+        "target": "for (let i = 0; i < numbers.length; i++) {\n    let item = numbers[i];\n    secret_fun_4071();\n}"
+      }
+    ]
+  ]
+}

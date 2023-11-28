@@ -1,0 +1,4 @@
+[
+  "(match_expand\n  (fragment (\"py.expression_statement\" (\"py.assignment\" (\"py.identifier\" \"_val_\") (str \"=\") (\"py.dictionary\" (str \"{\") (str \"}\")))) \"*\")\n  (fragment (\"js.lexical_declaration\" (str \"let\") (\"js.variable_declarator\" (\"js.identifier\" \"_val1_\") (str \"=\") (\"js.object\" (str \"{\") (str \"}\"))) (str \";\")) \"*1\")\n)",
+  "(match_expand\n  (fragment (\"py.expression_statement\" (\"py.assignment\" (\"py.identifier\" \"_val_\") (str \"=\") (\"py.dictionary\" (str \"{\") (str \"}\")))) \"*\")\n  (fragment (\"js.variable_declaration\" (str \"var\") (\"js.variable_declarator\" (\"js.identifier\" \"_val1_\") (str \"=\") (\"js.object\" (str \"{\") (str \"}\"))) (str \";\")) \"*1\")\n)"
+]

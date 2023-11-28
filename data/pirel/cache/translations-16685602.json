@@ -1,0 +1,107 @@
+{
+  "template": "for j, c in enumerate(__):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for j, c in enumerate(s):\n    some_secret_fn_4071()",
+  "translations": {
+    "for j, c in enumerate(chars):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < chars.length; j++) {\n    let c = chars[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(string):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < string.length; j++) {\n    let c = string[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(items):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < items.length; j++) {\n    const c = items[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(sequence):\n    some_secret_fn_4071()": [
+      "for (var j = 0; j < sequence.length; j++) {\n    var c = sequence[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(data):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < data.length; j++) {\n    const c = data[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(text):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < text.length; j++) {\n    let c = text[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(words):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < words.length; j++) {\n    let c = words[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (var j = 0; j < lst.length; j++) {\n    var c = lst[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(items_list):\n    some_secret_fn_4071()": [
+      "for (var j = 0; j < items_list.length; j++) {\n    var c = items_list[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < my_list.length; j++) {\n    const c = my_list[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(iterable):\n    some_secret_fn_4071()": [
+      "for (let [j, c] of iterable.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(elements):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < elements.length; j++) {\n    const c = elements[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(list_of_chars):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < list_of_chars.length; j++) {\n    const c = list_of_chars[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(tuple_of_chars):\n    some_secret_fn_4071()": [
+      "for (var j = 0; j < tuple_of_chars.length; j++) {\n    var c = tuple_of_chars[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(set_of_chars):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < set_of_chars.length; j++) {\n    let c = set_of_chars[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(array_of_chars):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < array_of_chars.length; j++) {\n    const c = array_of_chars[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(some_list):\n    some_secret_fn_4071()": [
+      "for (var j = 0; j < some_list.length; j++) {\n    var c = some_list[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(string_var):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < string_var.length; j++) {\n    let c = string_var[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(numbers):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < numbers.length; j++) {\n    let c = numbers[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(my_tuple):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < my_tuple.length; j++) {\n    let c = my_tuple[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(my_dict):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < Object.keys(my_dict).length; j++) {\n    let c = Object.keys(my_dict)[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(my_set):\n    some_secret_fn_4071()": [
+      "var j = 0;\nfor (var c of my_set) {\n    some_secret_fn_4071();\n    j++;\n}"
+    ],
+    "for j, c in enumerate(my_generator):\n    some_secret_fn_4071()": [
+      "for (let [j, c] of my_generator.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(my_string):\n    some_secret_fn_4071()": [
+      "for (var j = 0; j < my_string.length; j++) {\n    var c = my_string[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(arr):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < arr.length; j++) {\n    let c = arr[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(word):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < word.length; j++) {\n    let c = word[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(collection):\n    some_secret_fn_4071()": [
+      "for (var j = 0; j < collection.length; j++) {\n    var c = collection[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(array):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < array.length; j++) {\n    const c = array[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(my_iterable):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < my_iterable.length; j++) {\n    const c = my_iterable[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(my_data):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < my_data.length; j++) {\n    let c = my_data[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(some_string):\n    some_secret_fn_4071()": [
+      "for (var j = 0; j < some_string.length; j++) {\n    var c = some_string[j];\n    some_secret_fn_4071();\n}"
+    ],
+    "for j, c in enumerate(iterable_object):\n    some_secret_fn_4071()": [
+      "var j;\nvar c;\nvar iterable_object_iter = iterable_object[Symbol.iterator]();\nvar iterable_object_item = iterable_object_iter.next();\nwhile (!iterable_object_item.done) {\n    j = iterable_object_item.value[0];\n    c = iterable_object_item.value[1];\n    some_secret_fn_4071();\n    iterable_object_item = iterable_object_iter.next();\n}"
+    ],
+    "for j, c in enumerate(characters):\n    some_secret_fn_4071()": [
+      "for (let j = 0; j < characters.length; j++) {\n    const c = characters[j];\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

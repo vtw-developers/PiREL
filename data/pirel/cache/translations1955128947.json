@@ -1,0 +1,68 @@
+{
+  "template": "([matrix[bottom][j] for j in range(right - __, left - __, -__)])",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "([matrix[bottom][j] for j in range(right - 1, left - 1, -1)])",
+  "translations": {
+    "([matrix[bottom][j] for j in range(right - 1, left - 1, -1)])": [
+      "for (let j = right - 1; j >= left; j--) {\n    matrix[bottom][j];\n}"
+    ],
+    "([matrix[bottom][j] for j in range(right - 2, left - 2, -1)])": [
+      "matrix.slice(bottom, bottom + 1)[0].slice(right - 2, left - 2 - 1, -1)"
+    ],
+    "([matrix[bottom][j] for j in range(right - 3, left - 3, -1)])": [
+      "let result = [];\nfor (let j = right - 3; j >= left - 3; j--) {\n    result.push(matrix[bottom][j]);\n}\nresult;"
+    ],
+    "([matrix[bottom][j] for j in range(right - 4, left - 4, -1)])": [
+      "let result = [];\nfor (let j = right - 4; j >= left - 4; j--) {\n    result.push(matrix[bottom][j]);\n}\nresult;"
+    ],
+    "([matrix[bottom][j] for j in range(right - 5, left - 5, -1)])": [
+      "matrix.slice(bottom, bottom + 1)[0].slice(right - 5, left - 5 - 1).reverse();"
+    ],
+    "([matrix[bottom][j] for j in range(right - 6, left - 6, -1)])": [
+      "let result = [];\nfor (let j = right - 6; j >= left - 6; j--) {\n    result.push(matrix[bottom][j]);\n}"
+    ],
+    "([matrix[bottom][j] for j in range(right - 7, left - 7, -1)])": [
+      "matrix.slice(bottom, bottom + 1)[0].slice(right - 7, left - 7 - 1, -1)"
+    ],
+    "([matrix[bottom][j] for j in range(right - 8, left - 8, -1)])": [
+      "let result = [];\nfor (let j = right - 8; j >= left - 8; j--) {\n    result.push(matrix[bottom][j]);\n}"
+    ],
+    "([matrix[bottom][j] for j in range(right - 9, left - 9, -1)])": [
+      "matrix.slice(bottom).map(row => row.slice(right - 9, left - 9 - 1, -1));"
+    ],
+    "([matrix[bottom][j] for j in range(right - 10, left - 10, -1)])": [
+      "matrix.slice(bottom).map(row => row.slice(right - 10, left - 10 - 1, -1));"
+    ],
+    "([matrix[bottom][j] for j in range(right - 2, left - 2, -2)])": [
+      "matrix.slice(bottom, bottom + 1)[0].slice(right - 2, left - 2, -2);"
+    ],
+    "([matrix[bottom][j] for j in range(right - 3, left - 3, -3)])": [
+      "let result = [];\nfor (let j = right - 3; j >= left - 3; j -= 3) {\n    result.push(matrix[bottom][j]);\n}"
+    ],
+    "([matrix[bottom][j] for j in range(right - 5, left - 1, -1)])": [
+      "matrix.slice(bottom, bottom + 1)[0].slice(left - 1, right - 5 - 1).reverse()"
+    ],
+    "([matrix[bottom][j] for j in range(right - 3, left - 2, -1)])": [
+      "let result = [];\nfor (let j = right - 3; j >= left - 2; j--) {\n    result.push(matrix[bottom][j]);\n}"
+    ],
+    "([matrix[bottom][j] for j in range(right - 7, left - 4, -1)])": [
+      "let result = [];\nfor (let j = right - 7; j >= left - 4; j--) {\n    result.push(matrix[bottom][j]);\n}"
+    ],
+    "([matrix[bottom][j] for j in range(right - 2, left - 1, -1)])": [
+      "matrix.slice(bottom, bottom+1)[0].slice(right - 2, left - 1).reverse();"
+    ],
+    "([matrix[bottom][j] for j in range(right - 6, left - 3, -1)])": [
+      "matrix.slice(bottom).map(row => row.slice(right - 6, left - 3).reverse());"
+    ],
+    "([matrix[bottom][j] for j in range(right - 4, left - 2, -1)])": [
+      "matrix.slice(bottom, bottom + 1)[0].slice(right - 4, left - 1).reverse();"
+    ],
+    "([matrix[bottom][j] for j in range(right - 8, left - 5, -1)])": [
+      "matrix.slice(bottom, bottom + 1)[0].slice(right - 8, left - 5 - 1).reverse();"
+    ],
+    "([matrix[bottom][j] for j in range(right - 9, left - 6, -1)])": [
+      "matrix.slice(bottom).map(row => {\n    return row.slice(right - 9, left - 6).reverse();\n});"
+    ]
+  }
+}

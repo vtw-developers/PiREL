@@ -1,0 +1,38 @@
+{
+  "template": "for __, e in intervals[1:]:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for s, e in intervals[1:]:\n    some_secret_fn_4071()",
+  "translations": {
+    "for _, e in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < intervals.length; i++) {\n    let e = intervals[i][1];\n    some_secret_fn_4071();\n}"
+    ],
+    "for x, e in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < intervals.length; i++) {\n    const x = intervals[i][0];\n    const e = intervals[i][1];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, e in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < intervals.length; i++) {\n    const [index, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, e in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (var i = 1; i < intervals.length; i++) {\n    var e = intervals[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for element, e in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (let [element, e] of intervals.slice(1)) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item, e in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < intervals.length; i++) {\n    const [item, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for key, e in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < intervals.length; i++) {\n    const [key, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for value, e in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (let [value, e] of intervals.slice(1)) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for pair, e in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < intervals.length; i++) {\n    const [pair, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for data, e in intervals[1:]:\n    some_secret_fn_4071()": [
+      "for (let i = 1; i < intervals.length; i++) {\n    const [data, e] = intervals[i];\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

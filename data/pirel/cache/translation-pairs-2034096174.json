@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[str(v) for v in __[::-1]]",
+  "template_origin": "[str(v) for v in res[::-1]]",
+  "templatized_node_ids": [
+    10
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[str(v) for v in values[::-1]]",
+        "target": "values.slice().reverse().map(v => String(v));"
+      },
+      {
+        "source": "[str(v) for v in lst[::-1]]",
+        "target": "lst.slice().reverse().map(v => String(v));"
+      }
+    ],
+    [
+      {
+        "source": "[str(v) for v in values[::-1]]",
+        "target": "values.slice().reverse().map(v => String(v));"
+      },
+      {
+        "source": "[str(v) for v in reversed_list[::-1]]",
+        "target": "reversed_list.slice().reverse().map(v => String(v));"
+      }
+    ],
+    [
+      {
+        "source": "[str(v) for v in values[::-1]]",
+        "target": "values.slice().reverse().map(v => String(v));"
+      },
+      {
+        "source": "[str(v) for v in reversed_values[::-1]]",
+        "target": "reversed_values.slice().reverse().map(v => String(v));"
+      }
+    ],
+    [
+      {
+        "source": "[str(v) for v in lst[::-1]]",
+        "target": "lst.slice().reverse().map(v => String(v));"
+      },
+      {
+        "source": "[str(v) for v in reversed_list[::-1]]",
+        "target": "reversed_list.slice().reverse().map(v => String(v));"
+      }
+    ],
+    [
+      {
+        "source": "[str(v) for v in lst[::-1]]",
+        "target": "lst.slice().reverse().map(v => String(v));"
+      },
+      {
+        "source": "[str(v) for v in reversed_values[::-1]]",
+        "target": "reversed_values.slice().reverse().map(v => String(v));"
+      }
+    ],
+    [
+      {
+        "source": "[str(v) for v in reversed_list[::-1]]",
+        "target": "reversed_list.slice().reverse().map(v => String(v));"
+      },
+      {
+        "source": "[str(v) for v in reversed_values[::-1]]",
+        "target": "reversed_values.slice().reverse().map(v => String(v));"
+      }
+    ]
+  ]
+}

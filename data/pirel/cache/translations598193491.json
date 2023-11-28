@@ -1,0 +1,53 @@
+{
+  "template": "def f_gold(nums: __[int]) -> List[List[int]]:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(nums: List[int]) -> List[List[int]]:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(nums: List[int]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums: List[float]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums: List[str]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums: List[bool]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums: List[object]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums: List[Any]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums: List[complex]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums: List[dict]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums: List[tuple]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums: List[set]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums: List[range]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums: list[int]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums: Sequence[int]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums: Iterable[int]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(nums: Tuple[int]) -> List[List[int]]:\n    some_secret_fn_4071()": [
+      "function f_gold(nums) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

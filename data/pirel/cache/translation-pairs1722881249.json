@@ -1,0 +1,6591 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[__[int(d) - 2] for d in digits]",
+  "template_origin": "[chars[int(d) - 2] for d in digits]",
+  "templatized_node_ids": [
+    4
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[nums[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => nums[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[sequence[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => sequence[Number(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[data[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => data[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_string[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => my_string[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[array[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => array[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_string[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => my_string[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[elements[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => elements[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[Number(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[values_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => values_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_string[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => my_string[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[items_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => items_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[numbers_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => numbers_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digit[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) + 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) + 2]);"
+      },
+      {
+        "source": "[digit[int(d) + 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) + 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[digits[int(d) * 2] for d in digits]",
+        "target": "digits.map(d => digits[parseInt(d) * 2]);"
+      },
+      {
+        "source": "[digit[int(d) * 2] for d in digits]",
+        "target": "digits.map(d => digit[parseInt(d) * 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => variable[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[function_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => function_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[object_name[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => object_name[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[expression[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => expression[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => my_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_string[int(d) - 2] for d in digits]",
+        "target": "let result = digits.map(d => my_string[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_list[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_list[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_dict[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_dict[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_tuple[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_tuple[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[my_set[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_set[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[my_variable[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => my_variable[parseInt(d) - 2]);"
+      }
+    ]
+  ]
+}

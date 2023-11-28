@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "from __ import deque",
+  "template_origin": "from collections import deque",
+  "templatized_node_ids": [
+    3
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "from random import deque",
+        "target": "const deque = require('deque');"
+      },
+      {
+        "source": "from sys import deque",
+        "target": "const deque = require('deque');"
+      }
+    ],
+    [
+      {
+        "source": "from random import deque",
+        "target": "const deque = require('deque');"
+      },
+      {
+        "source": "from os import deque",
+        "target": "const deque = require('deque');"
+      }
+    ],
+    [
+      {
+        "source": "from sys import deque",
+        "target": "const deque = require('deque');"
+      },
+      {
+        "source": "from os import deque",
+        "target": "const deque = require('deque');"
+      }
+    ]
+  ]
+}

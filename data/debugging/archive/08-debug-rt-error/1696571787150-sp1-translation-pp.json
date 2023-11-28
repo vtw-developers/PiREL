@@ -1,0 +1,17 @@
+{
+  "good_program_pairs": [
+    {
+      "source": "var1 = var2",
+      "target": "let var1 = var2;"
+    },
+    {
+      "source": "var1 = var2",
+      "target": "var var1 = var2;"
+    },
+    {
+      "source": "var1 = var2",
+      "target": "const var1 = var2;"
+    }
+  ],
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "template": "@cache\ndef dfs(i, __):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "@cache\ndef dfs(i, j):\n    some_secret_fn_4071()",
+  "translations": {
+    "@cache\ndef dfs(i, arg2):\n    some_secret_fn_4071()": [
+      "function dfs(i, arg2) {\n    some_secret_fn_4071();\n}\n\ndfs = cache(dfs);"
+    ],
+    "@cache\ndef dfs(i, value):\n    some_secret_fn_4071()": [
+      "function dfs(i, value) {\n    some_secret_fn_4071();\n}"
+    ],
+    "@cache\ndef dfs(i, x):\n    some_secret_fn_4071()": [
+      "function dfs(i, x) {\n    return some_secret_fn_4071();\n}"
+    ],
+    "@cache\ndef dfs(i, param):\n    some_secret_fn_4071()": [
+      "function dfs(i, param) {\n    some_secret_fn_4071();\n}\n\ndfs = cache(dfs);"
+    ],
+    "@cache\ndef dfs(i, input):\n    some_secret_fn_4071()": [
+      "function dfs(i, input) {\n    some_secret_fn_4071();\n}\ndfs = cache(dfs);"
+    ]
+  }
+}

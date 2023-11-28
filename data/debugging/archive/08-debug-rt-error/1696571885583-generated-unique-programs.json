@@ -1,0 +1,4 @@
+[
+  "midVal1 = 0 if x - y < m else 1",
+  "midVal1 = 0 if num1 - num2 < m else 1"
+]

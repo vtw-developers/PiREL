@@ -1,0 +1,1732 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[chars[int(__) - 2] for __ in digits]",
+  "template_origin": "[chars[int(d) - 2] for d in digits]",
+  "templatized_node_ids": [
+    9,
+    12
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(x) - 2] for x in digits]",
+        "target": "digits.map(x => chars[parseInt(x) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(y) - 2] for y in digits]",
+        "target": "digits.map(y => chars[parseInt(y) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(z) - 2] for z in digits]",
+        "target": "let result = digits.map(z => chars[parseInt(z) - 2]);"
+      },
+      {
+        "source": "[chars[int(a) - 2] for a in digits]",
+        "target": "let result = digits.map(a => chars[Number(a) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(b) - 2] for b in digits]",
+        "target": "digits.map(b => chars[parseInt(b) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(c) - 2] for c in digits]",
+        "target": "digits.map(c => chars[parseInt(c) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      },
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      },
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      },
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      },
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      },
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      },
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      },
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      },
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      },
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(e) - 2] for e in digits]",
+        "target": "digits.map(e => chars[parseInt(e) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      },
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      },
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      },
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      },
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      },
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      },
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      },
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      },
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(f) - 2] for f in digits]",
+        "target": "digits.map(f => chars[parseInt(f) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      },
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      },
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      },
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      },
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      },
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      },
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      },
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(g) - 2] for g in digits]",
+        "target": "digits.map(g => chars[parseInt(g) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      },
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      },
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      },
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      },
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      },
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      },
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(i) - 2] for i in digits]",
+        "target": "digits.map(i => chars[parseInt(i) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      },
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      },
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      },
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      },
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      },
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(n) - 2] for n in digits]",
+        "target": "digits.map(n => chars[parseInt(n) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      },
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      },
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      },
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      },
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(num) - 2] for num in digits]",
+        "target": "digits.map(num => chars[parseInt(num) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      },
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      },
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      },
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(value) - 2] for value in digits]",
+        "target": "digits.map(value => chars[parseInt(value) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      },
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      },
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(index) - 2] for index in digits]",
+        "target": "digits.map(index => chars[Number(index) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      },
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(pos) - 2] for pos in digits]",
+        "target": "digits.map(pos => chars[parseInt(pos) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      },
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(element) - 2] for element in digits]",
+        "target": "digits.map(element => chars[parseInt(element) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      },
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(item) - 2] for item in digits]",
+        "target": "digits.map(item => chars[parseInt(item) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      },
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(num_str) - 2] for num_str in digits]",
+        "target": "digits.map(num_str => chars[parseInt(num_str) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(val) - 2] for val in digits]",
+        "target": "digits.map(val => chars[Number(val) - 2]);"
+      },
+      {
+        "source": "[chars[int(digit) - 2] for digit in digits]",
+        "target": "digits.map(digit => chars[parseInt(digit) - 2]);"
+      }
+    ]
+  ]
+}

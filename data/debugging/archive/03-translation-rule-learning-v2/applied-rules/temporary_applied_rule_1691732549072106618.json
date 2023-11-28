@@ -1,0 +1,38 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.expression_statement\"",
+        "\"*\""
+      ],
+      "\"*\""
+    ],
+    [
+      "fragment",
+      [
+        "\"py.expression_statement\"",
+        "\"*\""
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      [
+        "\"js.expression_statement\"",
+        "\"*1\""
+      ],
+      "\"*2\""
+    ],
+    [
+      "fragment",
+      [
+        "\"js.lexical_declaration\"",
+        "\"*1\""
+      ],
+      "\"*2\""
+    ]
+  ]
+}

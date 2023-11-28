@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "j >= 0 or __",
+  "template_origin": "j >= 0 or t",
+  "templatized_node_ids": [
+    6
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "j >= 0 or x",
+        "target": "j >= 0 || x;"
+      },
+      {
+        "source": "j >= 0 or z",
+        "target": "j >= 0 || z;"
+      }
+    ],
+    [
+      {
+        "source": "j >= 0 or x",
+        "target": "j >= 0 || x;"
+      },
+      {
+        "source": "j >= 0 or value",
+        "target": "j >= 0 || value;"
+      }
+    ],
+    [
+      {
+        "source": "j >= 0 or x",
+        "target": "j >= 0 || x;"
+      },
+      {
+        "source": "j >= 0 or foo",
+        "target": "j >= 0 || foo;"
+      }
+    ],
+    [
+      {
+        "source": "j >= 0 or z",
+        "target": "j >= 0 || z;"
+      },
+      {
+        "source": "j >= 0 or value",
+        "target": "j >= 0 || value;"
+      }
+    ],
+    [
+      {
+        "source": "j >= 0 or z",
+        "target": "j >= 0 || z;"
+      },
+      {
+        "source": "j >= 0 or foo",
+        "target": "j >= 0 || foo;"
+      }
+    ],
+    [
+      {
+        "source": "j >= 0 or value",
+        "target": "j >= 0 || value;"
+      },
+      {
+        "source": "j >= 0 or foo",
+        "target": "j >= 0 || foo;"
+      }
+    ]
+  ]
+}

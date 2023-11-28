@@ -1,0 +1,51 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for __, h in enumerate(heights):\n    some_secret_fn_4071()",
+  "template_origin": "for i, h in enumerate(heights):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    3
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for i, h in enumerate(heights):\n    some_secret_fn_4071()",
+        "target": "for (let i = 0; i < heights.length; i++) {\n    const h = heights[i];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num, h in enumerate(heights):\n    some_secret_fn_4071()",
+        "target": "for (let num = 0; num < heights.length; num++) {\n    const h = heights[num];\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for idx, h in enumerate(heights):\n    some_secret_fn_4071()",
+        "target": "for (let idx = 0; idx < heights.length; idx++) {\n    let h = heights[idx];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for x, h in enumerate(heights):\n    some_secret_fn_4071()",
+        "target": "for (let x = 0; x < heights.length; x++) {\n    let h = heights[x];\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for idx, h in enumerate(heights):\n    some_secret_fn_4071()",
+        "target": "for (let idx = 0; idx < heights.length; idx++) {\n    let h = heights[idx];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for count, h in enumerate(heights):\n    some_secret_fn_4071()",
+        "target": "for (let count = 0; count < heights.length; count++) {\n    let h = heights[count];\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x, h in enumerate(heights):\n    some_secret_fn_4071()",
+        "target": "for (let x = 0; x < heights.length; x++) {\n    let h = heights[x];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for count, h in enumerate(heights):\n    some_secret_fn_4071()",
+        "target": "for (let count = 0; count < heights.length; count++) {\n    let h = heights[count];\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

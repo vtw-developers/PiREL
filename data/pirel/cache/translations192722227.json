@@ -1,0 +1,104 @@
+{
+  "template": "n = len(__)",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "n = len(digits)",
+  "translations": {
+    "n = len(abc)": [
+      "var n = abc.length;"
+    ],
+    "n = len(lst)": [
+      "var n = lst.length;"
+    ],
+    "n = len(string)": [
+      "var n = string.length;"
+    ],
+    "n = len(dictionary)": [
+      "var n = dictionary.length;"
+    ],
+    "n = len(tuple_var)": [
+      "var n = tuple_var.length;"
+    ],
+    "n = len(set_var)": [
+      "var n = new Set(set_var).size;"
+    ],
+    "n = len(range_var)": [
+      "var n = Array.from(range_var).length;"
+    ],
+    "n = len(array)": [
+      "var n = array.length;"
+    ],
+    "n = len(matrix)": [
+      "let n = matrix.length;"
+    ],
+    "n = len(queue)": [
+      "let n = queue.length;"
+    ],
+    "n = len(stack)": [
+      "var n = stack.length;"
+    ],
+    "n = len(var)": [
+      "var n = var.length;"
+    ],
+    "n = len(arr)": [
+      "var n = arr.length;"
+    ],
+    "n = len(iterable)": [
+      "var n = iterable.length;"
+    ],
+    "n = len(object)": [
+      "var n = object.length;"
+    ],
+    "n = len(variable_name)": [
+      "var n = variable_name.length;"
+    ],
+    "n = len(string_variable)": [
+      "var n = string_variable.length;"
+    ],
+    "n = len(list_variable)": [
+      "var n = list_variable.length;"
+    ],
+    "n = len(tuple_variable)": [
+      "var n = tuple_variable.length;"
+    ],
+    "n = len(dictionary_variable)": [
+      "var n = dictionary_variable.length;"
+    ],
+    "n = len(set_variable)": [
+      "var n = new Set(set_variable).size;"
+    ],
+    "n = len(iterable_object)": [
+      "var n = iterable_object.length;"
+    ],
+    "n = len(file_object)": [
+      "var n = file_object.length;"
+    ],
+    "n = len(function_name)": [
+      "var n = function_name.length;"
+    ],
+    "n = len(nums)": [
+      "var n = nums.length;"
+    ],
+    "n = len(my_list)": [
+      "var n = my_list.length;"
+    ],
+    "n = len(sequence)": [
+      "var n = sequence.length;"
+    ],
+    "n = len(data)": [
+      "var n = data.length;"
+    ],
+    "n = len(items)": [
+      "var n = items.length;"
+    ],
+    "n = len(elements)": [
+      "var n = elements.length;"
+    ],
+    "n = len(values)": [
+      "var n = values.length;"
+    ],
+    "n = len(xyz)": [
+      "var n = xyz.length;"
+    ]
+  }
+}

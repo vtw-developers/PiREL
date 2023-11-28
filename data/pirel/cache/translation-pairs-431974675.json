@@ -1,0 +1,72 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "-__ if x < 0 else __",
+  "template_origin": "-y if x < 0 else y",
+  "templatized_node_ids": [
+    4,
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "-x if x < 0 else x",
+        "target": "x < 0 ? -x : x;"
+      },
+      {
+        "source": "-abc if x < 0 else def",
+        "target": "x < 0 ? -abc : def;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else x",
+        "target": "x < 0 ? -x : x;"
+      },
+      {
+        "source": "-left if x < 0 else right",
+        "target": "x < 0 ? -left : right;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-abc if x < 0 else def",
+        "target": "x < 0 ? -abc : def;"
+      }
+    ],
+    [
+      {
+        "source": "-x if x < 0 else y",
+        "target": "x < 0 ? -x : y;"
+      },
+      {
+        "source": "-left if x < 0 else right",
+        "target": "x < 0 ? -left : right;"
+      }
+    ],
+    [
+      {
+        "source": "-abc if x < 0 else def",
+        "target": "x < 0 ? -abc : def;"
+      },
+      {
+        "source": "-left if x < 0 else right",
+        "target": "x < 0 ? -left : right;"
+      }
+    ],
+    [
+      {
+        "source": "-low if x < 0 else high",
+        "target": "x < 0 ? low : high;"
+      },
+      {
+        "source": "-minus if x < 0 else plus",
+        "target": "x < 0 ? minus : plus;"
+      }
+    ]
+  ]
+}

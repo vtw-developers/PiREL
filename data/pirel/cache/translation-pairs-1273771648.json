@@ -1,0 +1,31 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "i > __ and nums[i] == nums[i - 1]",
+  "template_origin": "i > 0 and nums[i] == nums[i - 1]",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "i > 1 and nums[i] == nums[i - 1]",
+        "target": "i > 1 && nums[i] === nums[i - 1]"
+      },
+      {
+        "source": "i > 100 and nums[i] == nums[i - 1]",
+        "target": "i > 100 && nums[i] === nums[i - 1]"
+      }
+    ],
+    [
+      {
+        "source": "i > 2 and nums[i] == nums[i - 1]",
+        "target": "i > 2 && nums[i] == nums[i - 1]"
+      },
+      {
+        "source": "i > 3 and nums[i] == nums[i - 1]",
+        "target": "i > 3 && nums[i] == nums[i - 1]"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  "midVal1 = 0 if x - y < m else 1",
+  "midVal1 = 0 if 5 - 3 < m else 1",
+  "midVal1 = 0 if x - 2 < m else 1",
+  "midVal1 = 0 if x - y < m else 1",
+  "midVal1 = 0 if 10 - 5 < m else 1",
+  "midVal1 = 0 if x - 3 < m else 1",
+  "midVal1 = 0 if a - b < m else 1",
+  "midVal1 = 0 if 5 - 3 < m else 1",
+  "midVal1 = 0 if a - 2 < m else 1",
+  "midVal1 = 0 if x - y < m else 1",
+  "midVal1 = 0 if 5 - 3 < m else 1",
+  "midVal1 = 0 if num1 - num2 < m else 1",
+  "midVal1 = 0 if 10 - 5 < m else 1",
+  "midVal1 = 0 if count - limit < m else 1"
+]

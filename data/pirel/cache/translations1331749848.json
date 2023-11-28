@@ -1,0 +1,68 @@
+{
+  "template": "from __ import defaultdict",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "from collections import defaultdict",
+  "translations": {
+    "from collections import defaultdict": [
+      "const defaultdict = require('collections').defaultdict;"
+    ],
+    "from my_module import defaultdict": [
+      "const defaultdict = require('./my_module');"
+    ],
+    "from utils import defaultdict": [
+      "const {defaultdict} = require('./utils');"
+    ],
+    "from data_structures import defaultdict": [
+      "const defaultdict = require('./data_structures');"
+    ],
+    "from custom_module import defaultdict": [
+      "const defaultdict = require('./custom_module');"
+    ],
+    "from helpers import defaultdict": [
+      "const defaultdict = require('./helpers').defaultdict;"
+    ],
+    "from custom_package import defaultdict": [
+      "const defaultdict = require('custom_package');"
+    ],
+    "from my_package import defaultdict": [
+      "const defaultdict = require('my_package').defaultdict;"
+    ],
+    "from custom_utilities import defaultdict": [
+      "const defaultdict = require('./custom_utilities').defaultdict;"
+    ],
+    "from custom_data_structures import defaultdict": [
+      "// Assuming the custom_data_structures module is already imported.\n\nconst defaultdict = require('custom_data_structures').defaultdict;"
+    ],
+    "from typing import defaultdict": [
+      "const defaultdict = require('defaultdict');"
+    ],
+    "from mymodule import defaultdict": [
+      "const defaultdict = require('./mymodule');"
+    ],
+    "from foo import defaultdict": [
+      "const defaultdict = require('foo').defaultdict;"
+    ],
+    "from bar import defaultdict": [
+      "const defaultdict = require('./bar');"
+    ],
+    "from baz import defaultdict": [
+      "const defaultdict = require('baz');"
+    ],
+    "from itertools import defaultdict": [
+      "const defaultdict = require('itertools').defaultdict;"
+    ],
+    "from math import defaultdict": [
+      "const {defaultDict} = require('math');"
+    ],
+    "from random import defaultdict": [
+      "const defaultdict = require('defaultdict');"
+    ],
+    "from string import defaultdict": [
+      "const defaultdict = require('string').defaultdict;"
+    ],
+    "from functools import defaultdict": [
+      "const defaultdict = require('defaultdict');"
+    ]
+  }
+}

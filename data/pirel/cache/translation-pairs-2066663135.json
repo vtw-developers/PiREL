@@ -1,0 +1,31 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "k < n and nums[k] == nums[k - __]",
+  "template_origin": "k < n and nums[k] == nums[k - 1]",
+  "templatized_node_ids": [
+    14
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "k < n and nums[k] == nums[k - 1]",
+        "target": "k < n && nums[k] === nums[k - 1]"
+      },
+      {
+        "source": "k < n and nums[k] == nums[k - 5]",
+        "target": "k < n && nums[k] === nums[k - 5]"
+      }
+    ],
+    [
+      {
+        "source": "k < n and nums[k] == nums[k - 2]",
+        "target": "k < n && nums[k] == nums[k - 2]"
+      },
+      {
+        "source": "k < n and nums[k] == nums[k - 3]",
+        "target": "k < n && nums[k] == nums[k - 3]"
+      }
+    ]
+  ]
+}

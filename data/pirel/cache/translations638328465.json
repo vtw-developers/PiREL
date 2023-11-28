@@ -1,0 +1,19 @@
+{
+  "template": "not (__ <= int(s) <= 255)",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "not (0 <= int(s) <= 255)",
+  "translations": {
+    "not (0 <= int(s) <= 255)": [
+      "!(0 <= parseInt(s) && parseInt(s) <= 255)"
+    ],
+    "not (10 <= int(s) <= 255)": [],
+    "not (42 <= int(s) <= 255)": [
+      "!(42 <= parseInt(s) && parseInt(s) <= 255)"
+    ],
+    "not (1 <= int(s) <= 255)": [
+      "!(1 <= parseInt(s) && parseInt(s) <= 255)"
+    ],
+    "not (100 <= int(s) <= 255)": []
+  }
+}

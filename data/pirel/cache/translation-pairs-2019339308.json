@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "words[::-__]",
+  "template_origin": "words[::-1]",
+  "templatized_node_ids": [
+    6
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "words[::-2]",
+        "target": "words.slice().reverse().filter((_, i) => i % 2 === 0);"
+      },
+      {
+        "source": "words[::-3]",
+        "target": "words.slice().reverse().filter((_, i) => i % 3 === 0);"
+      }
+    ],
+    [
+      {
+        "source": "words[::-2]",
+        "target": "words.slice().reverse().filter((_, i) => i % 2 === 0);"
+      },
+      {
+        "source": "words[::-4]",
+        "target": "words.slice().reverse().filter((_, index) => index % 4 === 0);"
+      }
+    ],
+    [
+      {
+        "source": "words[::-3]",
+        "target": "words.slice().reverse().filter((_, i) => i % 3 === 0);"
+      },
+      {
+        "source": "words[::-4]",
+        "target": "words.slice().reverse().filter((_, index) => index % 4 === 0);"
+      }
+    ]
+  ]
+}

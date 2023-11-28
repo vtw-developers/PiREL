@@ -1,0 +1,42 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "([matrix[bottom][__] for __ in range(right - 1, left - 1, -1)])",
+  "template_origin": "([matrix[bottom][j] for j in range(right - 1, left - 1, -1)])",
+  "templatized_node_ids": [
+    8,
+    10
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "([matrix[bottom][i] for i in range(right - 1, left - 1, -1)])",
+        "target": "matrix.slice(bottom, bottom + 1)[0].slice(left - 1, right).reverse();"
+      },
+      {
+        "source": "([matrix[bottom][k] for k in range(right - 1, left - 1, -1)])",
+        "target": "matrix.slice(bottom, bottom + 1)[0].slice(left - 1, right).reverse();"
+      }
+    ],
+    [
+      {
+        "source": "([matrix[bottom][i] for i in range(right - 1, left - 1, -1)])",
+        "target": "matrix.slice(bottom, bottom + 1)[0].slice(left - 1, right).reverse();"
+      },
+      {
+        "source": "([matrix[bottom][idx] for idx in range(right - 1, left - 1, -1)])",
+        "target": "matrix.slice(bottom, bottom + 1)[0].slice(left - 1, right).reverse();"
+      }
+    ],
+    [
+      {
+        "source": "([matrix[bottom][k] for k in range(right - 1, left - 1, -1)])",
+        "target": "matrix.slice(bottom, bottom + 1)[0].slice(left - 1, right).reverse();"
+      },
+      {
+        "source": "([matrix[bottom][idx] for idx in range(right - 1, left - 1, -1)])",
+        "target": "matrix.slice(bottom, bottom + 1)[0].slice(left - 1, right).reverse();"
+      }
+    ]
+  ]
+}

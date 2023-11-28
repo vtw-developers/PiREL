@@ -1,0 +1,10 @@
+###
+GET http://127.0.0.1:8000/backend/file/echo/helloworld
+###
+
+POST http://127.0.0.1:8000/backend/file/listglob
+content-type: application/json
+
+{
+  "glob": "duoglot/tests/standalone/**/*"
+}

@@ -1,0 +1,251 @@
+{
+  "template": "def __(s: str) -> int:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(s: str) -> int:\n    some_secret_fn_4071()",
+  "translations": {
+    "def len(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function len(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def max(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function max(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def count(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function count(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def sum(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function sum(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def find(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function find(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def index(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function index(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def calculate(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function calculate(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def process(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function process(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def analyze(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function analyze(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def evaluate(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function evaluate(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def str(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function str(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def secret_fn(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function secret_fn(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def get_length(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function get_length(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def determine(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function determine(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def count_vowels(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function count_vowels(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def calculate_length(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function calculate_length(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def string_length(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function string_length(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def get_string_length(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function get_string_length(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def len_string(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function len_string(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def string_size(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function string_size(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def size(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function size(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def calculate_size(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function calculate_size(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def length(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function length(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def abc(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function abc(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def xyz(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function xyz(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def foo(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function foo(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def bar(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function bar(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def func(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function func(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def my_function(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function my_function(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def helper(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function helper(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def custom_function(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function custom_function(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def qux(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function qux(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def hello(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function hello(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def world(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function world(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def process_string(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function process_string(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def count_chars(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function count_chars(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def analyze_string(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function analyze_string(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def determine_length(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function determine_length(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def find_string_length(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function find_string_length(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def process_input(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function process_input(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def count_characters(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function count_characters(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def find_length(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function find_length(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def measure_length(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function measure_length(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def compute_length(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function compute_length(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def calc_len(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function calc_len(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def baz(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function baz(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def def_(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function def_(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def ghi(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function ghi(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def jkl(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function jkl(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def mno(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function mno(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def parse(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function parse(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def transform(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function transform(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def extract(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function extract(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def convert(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function convert(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def secret_func(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function secret_func(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def convert_to_int(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function convert_to_int(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def decipher(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function decipher(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def parse_string(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function parse_string(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def compute(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function compute(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def another_function(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function another_function(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def custom_fn(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function custom_fn(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def spam(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function spam(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def eggs(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function eggs(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def function(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function function(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def determine_size(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function determine_size(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def get_size(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function get_size(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def quux(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function quux(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def corge(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function corge(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def grault(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function grault(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def waldo(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function waldo(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def defg(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function defg(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def hij(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function hij(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def klm(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function klm(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def nmo(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function nmo(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def handle_string(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function handle_string(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def custom_name(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function custom_name(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def my_func(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function my_func(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def string_to_int(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function string_to_int(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def garply(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function garply(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def get_result(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function get_result(s) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def measure_string(s: str) -> int:\n    some_secret_fn_4071()": [
+      "function measure_string(s) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

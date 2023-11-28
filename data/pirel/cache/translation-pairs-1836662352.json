@@ -1,0 +1,22 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "len(res) > __ and res[-__] == 0",
+  "template_origin": "len(res) > 1 and res[-1] == 0",
+  "templatized_node_ids": [
+    8,
+    13
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "len(res) > 1 and res[-2] == 0",
+        "target": "res.length > 1 && res[res.length - 2] == 0"
+      },
+      {
+        "source": "len(res) > 3 and res[-4] == 0",
+        "target": "res.length > 3 && res[res.length - 4] == 0"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  [
+    {
+      "source": "midVal1 = val1 if condition else val2",
+      "target": "let midVal1 = condition ? val1 : val2;"
+    },
+    {
+      "source": "midVal1 = 7 if True else 3",
+      "target": "let midVal1 = true ? 7 : 3;"
+    }
+  ]
+]

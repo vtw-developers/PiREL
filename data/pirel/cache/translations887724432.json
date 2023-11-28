@@ -1,0 +1,38 @@
+{
+  "template": "[[False] * __ for _ in range(__)]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "[[False] * 9 for _ in range(9)]",
+  "translations": {
+    "[[False] * 5 for _ in range(10)]": [
+      "let arr = [];\nfor (let i = 0; i < 10; i++) {\n    let innerArr = [];\n    for (let j = 0; j < 5; j++) {\n        innerArr.push(false);\n    }\n    arr.push(innerArr);\n}"
+    ],
+    "[[False] * 3 for _ in range(7)]": [
+      "let result = [];\nfor (let i = 0; i < 7; i++) {\n    result.push([false, false, false]);\n}"
+    ],
+    "[[False] * 8 for _ in range(2)]": [
+      "Array(2).fill(Array(8).fill(false));"
+    ],
+    "[[False] * 1 for _ in range(6)]": [
+      "Array.from({ length: 6 }, () => [false]);"
+    ],
+    "[[False] * 9 for _ in range(4)]": [
+      "Array.from({ length: 4 }, () => Array(9).fill(false));"
+    ],
+    "[[False] * 6 for _ in range(9)]": [
+      "Array.from({ length: 9 }, () => Array(6).fill(false));"
+    ],
+    "[[False] * 2 for _ in range(3)]": [
+      "let arr = Array.from({ length: 3 }, () => Array(2).fill(false));"
+    ],
+    "[[False] * 7 for _ in range(5)]": [
+      "let arr = Array.from({ length: 5 }, () => Array(7).fill(false));"
+    ],
+    "[[False] * 4 for _ in range(1)]": [
+      "Array.from({ length: 1 }, () => Array(4).fill(false));"
+    ],
+    "[[False] * 10 for _ in range(8)]": [
+      "Array.from({ length: 8 }, () => Array(10).fill(false));"
+    ]
+  }
+}

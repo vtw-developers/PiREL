@@ -1,0 +1,51 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "return y * y if (__ & 1) == 0 else y * y * x",
+  "template_origin": "return y * y if (n & 1) == 0 else y * y * x",
+  "templatized_node_ids": [
+    9
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "return x * x if (y & 1) == 0 else x * x * x",
+        "target": "return (y & 1) === 0 ? x * x : x * x * x;"
+      },
+      {
+        "source": "return y * y if (x & 1) == 0 else x * x * x",
+        "target": "return (x & 1) === 0 ? y * y : x * x * x;"
+      }
+    ],
+    [
+      {
+        "source": "return x * x if (y & 1) == 0 else x * x * x",
+        "target": "return (y & 1) === 0 ? x * x : x * x * x;"
+      },
+      {
+        "source": "return x * x if (x & 1) == 0 else x * x * x",
+        "target": "return (x & 1) === 0 ? x * x : x * x * x;"
+      }
+    ],
+    [
+      {
+        "source": "return y * y if (x & 1) == 0 else x * x * x",
+        "target": "return (x & 1) === 0 ? y * y : x * x * x;"
+      },
+      {
+        "source": "return x * x if (y & 1) == 0 else x * x * y",
+        "target": "return (y & 1) === 0 ? x * x : x * x * y;"
+      }
+    ],
+    [
+      {
+        "source": "return x * x if (x & 1) == 0 else x * x * x",
+        "target": "return (x & 1) === 0 ? x * x : x * x * x;"
+      },
+      {
+        "source": "return x * x if (y & 1) == 0 else x * x * y",
+        "target": "return (y & 1) === 0 ? x * x : x * x * y;"
+      }
+    ]
+  ]
+}

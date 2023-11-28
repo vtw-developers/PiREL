@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "i == __ or len(t) == 1",
+  "template_origin": "i == n or len(t) == 1",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "i == NotImplemented or len(t) == 1",
+        "target": "i === NotImplemented || t.length === 1"
+      },
+      {
+        "source": "i == a or len(t) == 1",
+        "target": "i === a || t.length === 1"
+      }
+    ],
+    [
+      {
+        "source": "i == NotImplemented or len(t) == 1",
+        "target": "i === NotImplemented || t.length === 1"
+      },
+      {
+        "source": "i == c or len(t) == 1",
+        "target": "i === c || t.length === 1"
+      }
+    ],
+    [
+      {
+        "source": "i == a or len(t) == 1",
+        "target": "i === a || t.length === 1"
+      },
+      {
+        "source": "i == c or len(t) == 1",
+        "target": "i === c || t.length === 1"
+      }
+    ]
+  ]
+}

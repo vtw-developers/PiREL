@@ -1,0 +1,83 @@
+{
+  "template": "for j in range(__ + 1, n):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for j in range(i + 1, n):\n    some_secret_fn_4071()",
+  "translations": {
+    "for j in range(__ + 1, n):\n    some_secret_fn_4071()": [
+      "for (let j = __ + 1; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ - 1, n):\n    some_secret_fn_4071()": [
+      "for (let j = __ - 1; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ + 2, n):\n    some_secret_fn_4071()": [
+      "for (let j = __ + 2; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ * 2, n):\n    some_secret_fn_4071()": [
+      "for (let j = __ * 2; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ // 2, n):\n    some_secret_fn_4071()": [
+      "for (let j = Math.floor(__ / 2); j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ % 3, n):\n    some_secret_fn_4071()": [
+      "for (let j = __ % 3; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ ** 2, n):\n    some_secret_fn_4071()": [
+      "for (let j = Math.pow(__, 2); j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ & 4, n):\n    some_secret_fn_4071()": [
+      "for (let j = (__ & 4); j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ | 8, n):\n    some_secret_fn_4071()": [
+      "for (let j = __ | 8; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ ^ 6, n):\n    some_secret_fn_4071()": [
+      "for (let j = Math.pow(__, 6); j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ << 2, n):\n    some_secret_fn_4071()": [
+      "for (let j = __ << 2; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ ** 3, n):\n    some_secret_fn_4071()": [
+      "for (let j = Math.pow(__, 3); j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ % 5, n):\n    some_secret_fn_4071()": [
+      "for (let j = __ % 5; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ + 10, n):\n    some_secret_fn_4071()": [
+      "for (var j = __ + 10; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ - 5, n):\n    some_secret_fn_4071()": [
+      "for (let j = __ - 5; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ * 3, n):\n    some_secret_fn_4071()": [
+      "for (let j = __ * 3; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ // 3, n):\n    some_secret_fn_4071()": [
+      "for (let j = Math.floor(__ / 3); j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ & 7, n):\n    some_secret_fn_4071()": [
+      "for (let j = __ & 7; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ | 15, n):\n    some_secret_fn_4071()": [
+      "for (let j = __ | 15; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ ^ 10, n):\n    some_secret_fn_4071()": [
+      "for (let j = Math.pow(__, 10); j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ << 3, n):\n    some_secret_fn_4071()": [
+      "for (let j = (__ << 3); j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ + 5, n):\n    some_secret_fn_4071()": [
+      "for (let j = __ + 5; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ - 2, n):\n    some_secret_fn_4071()": [
+      "for (let j = (__ - 2); j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(__ + 3, n):\n    some_secret_fn_4071()": [
+      "for (let j = __ + 3; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for j in range(x + 1, n):\n    some_secret_fn_4071()": [
+      "for (let j = x + 1; j < n; j++) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

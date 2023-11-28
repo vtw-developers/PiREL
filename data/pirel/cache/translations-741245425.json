@@ -1,0 +1,23 @@
+{
+  "template": "__[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+  "translations": {
+    "array[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')": [
+      "array[i + Math.floor(k / 2) - 1] < m ? array[i + Math.floor(k / 2) - 1] : Infinity;"
+    ],
+    "lst[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')": [
+      "lst[i + Math.floor(k / 2) - 1] < m ? lst[i + Math.floor(k / 2) - 1] : Infinity;"
+    ],
+    "items[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')": [
+      "items[i + Math.floor(k / 2) - 1] < m ? items[i + Math.floor(k / 2) - 1] : Infinity;"
+    ],
+    "values[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')": [
+      "values[i + Math.floor(k / 2) - 1] < m ? values[i + Math.floor(k / 2) - 1] : Infinity;"
+    ],
+    "sequence[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')": [
+      "sequence[i + Math.floor(k / 2) - 1 < m ? i + Math.floor(k / 2) - 1 : Infinity]"
+    ]
+  }
+}

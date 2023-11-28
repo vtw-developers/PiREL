@@ -1,0 +1,59 @@
+{
+  "template": "for __ in res:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for item in res:\n    some_secret_fn_4071()",
+  "translations": {
+    "for x in res:\n    some_secret_fn_4071()": [
+      "for (let x of res) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in res:\n    some_secret_fn_4071()": [
+      "for (let item of res) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for element in res:\n    some_secret_fn_4071()": [
+      "for (let element of res) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in res:\n    some_secret_fn_4071()": [
+      "for (let i of res) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for value in res:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < res.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for obj in res:\n    some_secret_fn_4071()": [
+      "for (let obj of res) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item_ in res:\n    some_secret_fn_4071()": [
+      "for (let item_ of res) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for ele in res:\n    some_secret_fn_4071()": [
+      "for (let ele of res) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx in res:\n    some_secret_fn_4071()": [
+      "for (var idx = 0; idx < res.length; idx++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for val in res:\n    some_secret_fn_4071()": [
+      "for (let val of res) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for _ in res:\n    some_secret_fn_4071()": [
+      "for (let _ of res) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item123 in res:\n    some_secret_fn_4071()": [
+      "for (let item123 of res) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for var in res:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < res.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for temp in res:\n    some_secret_fn_4071()": [
+      "for (let temp of res) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for e in res:\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < res.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for el in res:\n    some_secret_fn_4071()": [
+      "for (let el of res) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for index in res:\n    some_secret_fn_4071()": [
+      "for (let index of res) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

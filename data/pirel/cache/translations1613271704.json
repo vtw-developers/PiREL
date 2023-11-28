@@ -1,0 +1,23 @@
+{
+  "template": "return __ * tot if INT_MIN <= __ * tot <= INT_MAX else INT_MAX",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "return sign * tot if INT_MIN <= sign * tot <= INT_MAX else INT_MAX",
+  "translations": {
+    "return tot * tot if INT_MIN <= tot * tot <= INT_MAX else INT_MAX": [
+      "if (INT_MIN <= tot * tot && tot * tot <= INT_MAX) {\n    return tot * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "return n * tot if INT_MIN <= n * tot <= INT_MAX else INT_MAX": [
+      "if (INT_MIN <= n * tot && n * tot <= INT_MAX) {\n    return n * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "return x * tot if INT_MIN <= x * tot <= INT_MAX else INT_MAX": [
+      "if (INT_MIN <= x * tot && x * tot <= INT_MAX) {\n    return x * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "return val * tot if INT_MIN <= val * tot <= INT_MAX else INT_MAX": [
+      "if (INT_MIN <= val * tot && val * tot <= INT_MAX) {\n    return val * tot;\n} else {\n    return INT_MAX;\n}"
+    ],
+    "return result * tot if INT_MIN <= result * tot <= INT_MAX else INT_MAX": [
+      "if (INT_MIN <= result * tot && result * tot <= INT_MAX) {\n    return result * tot;\n} else {\n    return INT_MAX;\n}"
+    ]
+  }
+}

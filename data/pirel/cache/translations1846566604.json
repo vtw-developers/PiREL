@@ -1,0 +1,26 @@
+{
+  "template": "i < 1 or num != __[i - 1]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "i < 1 or num != nums[i - 1]",
+  "translations": {
+    "i < 1 or num != x[i - 1]": [],
+    "i < 1 or num != y[i - 1]": [],
+    "i < 1 or num != z[i - 1]": [
+      "i < 1 || num !== z[i - 1]"
+    ],
+    "i < 1 or num != a[i - 1]": [],
+    "i < 1 or num != b[i - 1]": [],
+    "i < 1 or num != c[i - 1]": [
+      "i < 1 || num !== c[i - 1]"
+    ],
+    "i < 1 or num != d[i - 1]": [],
+    "i < 1 or num != e[i - 1]": [],
+    "i < 1 or num != f[i - 1]": [
+      "i < 1 || num !== f[i - 1]"
+    ],
+    "i < 1 or num != g[i - 1]": [
+      "i < 1 || num !== g[i - 1]"
+    ]
+  }
+}

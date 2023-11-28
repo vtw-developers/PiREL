@@ -1,0 +1,458 @@
+{
+  "template": "for __, __ in enumerate(__):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for i, v in enumerate(nums):\n    some_secret_fn_4071()",
+  "translations": {
+    "for i, item in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < lst.length; i++) {\n    const item = lst[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, value in enumerate(iterable):\n    some_secret_fn_4071()": [
+      "for (let [index, value] of iterable.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for x, y in enumerate(sequence):\n    some_secret_fn_4071()": [
+      "for (let [x, y] of sequence.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, element in enumerate(elements):\n    some_secret_fn_4071()": [
+      "for (let count = 0; count < elements.length; count++) {\n    let element = elements[count];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, val in enumerate(data):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < data.length; idx++) {\n    let val = data[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, char in enumerate(string):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < string.length; i++) {\n    const char = string[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, item in enumerate(items):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < items.length; index++) {\n    const item = items[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, num in enumerate(numbers):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < numbers.length; i++) {\n    let num = numbers[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, item in enumerate(items_list):\n    some_secret_fn_4071()": [
+      "for (let count = 0; count < items_list.length; count++) {\n    let item = items_list[count];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, obj in enumerate(objects):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < objects.length; i++) {\n    let obj = objects[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, value in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < lst.length; i++) {\n    let value = lst[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, item in enumerate(iterable):\n    some_secret_fn_4071()": [
+      "for (let [index, item] of iterable.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, val in enumerate(sequence):\n    some_secret_fn_4071()": [
+      "sequence.forEach((val, idx) => {\n    some_secret_fn_4071();\n});"
+    ],
+    "for i, element in enumerate(collection):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < collection.length; i++) {\n    let element = collection[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, item in enumerate(items):\n    some_secret_fn_4071()": [
+      "for (var count = 0; count < items.length; count++) {\n    var item = items[count];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, x in enumerate(some_list):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < some_list.length; i++) {\n    const x = some_list[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, item in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < my_list.length; index++) {\n    const item = my_list[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, el in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < my_list.length; i++) {\n    const el = my_list[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, val in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < my_list.length; idx++) {\n    let val = my_list[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, item in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let [count, item] of my_list.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, val in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < lst.length; i++) {\n    const val = lst[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, item in enumerate(arr):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < arr.length; idx++) {\n    let item = arr[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, element in enumerate(items):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < items.length; index++) {\n    let element = items[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for key, value in enumerate(dictionary):\n    some_secret_fn_4071()": [
+      "for (var [key, value] of Object.entries(dictionary)) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, item in enumerate(collection):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < collection.length; index++) {\n    const item = collection[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, elem in enumerate(iterable):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < iterable.length; idx++) {\n    const elem = iterable[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, element in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < lst.length; i++) {\n    const element = lst[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, val in enumerate(arr):\n    some_secret_fn_4071()": [
+      "for (var idx = 0; idx < arr.length; idx++) {\n    var val = arr[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, value in enumerate(data):\n    some_secret_fn_4071()": [
+      "for (let [count, value] of data.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, item in enumerate(items_list):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < items_list.length; index++) {\n    let item = items_list[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, el in enumerate(elements):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < elements.length; i++) {\n    let el = elements[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, element in enumerate(elements_list):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < elements_list.length; idx++) {\n    const element = elements_list[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, element in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < my_list.length; index++) {\n    let element = my_list[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, value in enumerate(items):\n    some_secret_fn_4071()": [
+      "for (let [count, value] of items.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for num, char in enumerate(string):\n    some_secret_fn_4071()": [
+      "for (let num = 0; num < string.length; num++) {\n  let char = string[num];\n  some_secret_fn_4071();\n}"
+    ],
+    "for ind, el in enumerate(collection):\n    some_secret_fn_4071()": [
+      "for (let ind = 0; ind < collection.length; ind++) {\n    let el = collection[ind];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, key in enumerate(dictionary):\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < Object.keys(dictionary).length; i++) {\n    var key = Object.keys(dictionary)[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, item in enumerate(items_list):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < items_list.length; i++) {\n    let item = items_list[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, elem in enumerate(data):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < data.length; i++) {\n    let elem = data[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, value in enumerate(numbers):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < numbers.length; idx++) {\n    let value = numbers[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for counter, element in enumerate(sequence):\n    some_secret_fn_4071()": [
+      "for (var counter = 0; counter < sequence.length; counter++) {\n    var element = sequence[counter];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, x in enumerate(items):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < items.length; i++) {\n    const x = items[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for key, val in enumerate(dictionary):\n    some_secret_fn_4071()": [
+      "for (var key in dictionary) {\n    var val = dictionary[key];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, fruit in enumerate(fruits):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < fruits.length; i++) {\n    const fruit = fruits[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, value in enumerate(values):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < values.length; i++) {\n    const value = values[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, x in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < lst.length; i++) {\n    const x = lst[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, val in enumerate(lst):\n    some_secret_fn_4071()": [
+      "lst.forEach(function(val, idx) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for index, element in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < lst.length; index++) {\n    let element = lst[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, value in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let count = 0; count < lst.length; count++) {\n    let value = lst[count];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, obj in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < lst.length; i++) {\n    const obj = lst[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, data in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < lst.length; i++) {\n    let data = lst[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, entry in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < lst.length; i++) {\n    let entry = lst[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, record in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < lst.length; i++) {\n    let record = lst[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, item in enumerate(items):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < items.length; i++) {\n    const item = items[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, value in enumerate(sequence):\n    some_secret_fn_4071()": [
+      "sequence.forEach(function(value, index) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for idx, element in enumerate(elements):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < elements.length; idx++) {\n    let element = elements[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for x, y in enumerate(z):\n    some_secret_fn_4071()": [
+      "for (let [x, y] of z.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, value in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < my_list.length; index++) {\n    const value = my_list[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, element in enumerate(iterable):\n    some_secret_fn_4071()": [
+      "for (let [idx, element] of iterable.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, char in enumerate(string):\n    some_secret_fn_4071()": [
+      "for (let count = 0; count < string.length; count++) {\n    const char = string[count];\n    some_secret_fn_4071();\n}"
+    ],
+    "for pos, item in enumerate(collection):\n    some_secret_fn_4071()": [
+      "for (let pos = 0; pos < collection.length; pos++) {\n    let item = collection[pos];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, element in enumerate(sequence):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < sequence.length; index++) {\n    const element = sequence[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, word in enumerate(words):\n    some_secret_fn_4071()": [
+      "for (var count = 0; count < words.length; count++) {\n    var word = words[count];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, item in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < my_list.length; i++) {\n    const item = my_list[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, value in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < my_list.length; idx++) {\n    let value = my_list[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, obj in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let count = 0; count < my_list.length; count++) {\n    let obj = my_list[count];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, char in enumerate(my_string):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < my_string.length; i++) {\n    let char = my_string[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, num in enumerate(my_tuple):\n    some_secret_fn_4071()": [
+      "for (let [index, num] of my_tuple.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, item in enumerate(my_dict):\n    some_secret_fn_4071()": [
+      "for (let i in my_dict) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, value in enumerate(my_set):\n    some_secret_fn_4071()": [
+      "var count = 0;\nfor (var value of my_set) {\n    some_secret_fn_4071();\n    count++;\n}"
+    ],
+    "for idx, element in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < my_list.length; idx++) {\n    const element = my_list[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, val in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < my_list.length; i++) {\n    let val = my_list[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, value in enumerate(data):\n    some_secret_fn_4071()": [
+      "for(let idx = 0; idx < data.length; idx++) {\n    let value = data[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for counter, value in enumerate(sequence):\n    some_secret_fn_4071()": [
+      "for (let counter = 0; counter < sequence.length; counter++) {\n    const value = sequence[counter];\n    some_secret_fn_4071();\n}"
+    ],
+    "for num, elem in enumerate(elements):\n    some_secret_fn_4071()": [
+      "for (let [num, elem] of elements.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, element in enumerate(collection):\n    some_secret_fn_4071()": [
+      "for (let [index, element] of collection.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, val in enumerate(numbers):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < numbers.length; idx++) {\n    let val = numbers[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, obj in enumerate(objects):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < objects.length; idx++) {\n    let obj = objects[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for num, letter in enumerate(letters):\n    some_secret_fn_4071()": [
+      "for (let num = 0; num < letters.length; num++) {\n    const letter = letters[num];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, char in enumerate(chars):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < chars.length; i++) {\n    let char = chars[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for pos, el in enumerate(elements_list):\n    some_secret_fn_4071()": [
+      "for (let pos = 0; pos < elements_list.length; pos++) {\n    let el = elements_list[pos];\n    some_secret_fn_4071();\n}"
+    ],
+    "for x, y in enumerate(points):\n    some_secret_fn_4071()": [
+      "for (let [x, y] of points.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, value in enumerate(lst):\n    some_secret_fn_4071()": [
+      "lst.forEach(function(value, index) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for idx, item in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < lst.length; idx++) {\n    const item = lst[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for counter, obj in enumerate(lst):\n    some_secret_fn_4071()": [
+      "lst.forEach((obj, counter) => {\n    some_secret_fn_4071();\n});"
+    ],
+    "for num, val in enumerate(lst):\n    some_secret_fn_4071()": [
+      "lst.forEach(function(val, num) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for n, el in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let n = 0; n < lst.length; n++) {\n    const el = lst[n];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, element in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let count = 0; count < lst.length; count++) {\n    let element = lst[count];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, item in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < lst.length; index++) {\n    let item = lst[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, element in enumerate(data):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < data.length; idx++) {\n    const element = data[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for counter, obj in enumerate(collection):\n    some_secret_fn_4071()": [
+      "collection.forEach(function(obj, counter) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for num, elem in enumerate(items):\n    some_secret_fn_4071()": [
+      "for (let [num, elem] of items.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, el in enumerate(sequence):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < sequence.length; i++) {\n    let el = sequence[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, value in enumerate(my_data):\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < my_data.length; i++) {\n    var value = my_data[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, obj in enumerate(my_collection):\n    some_secret_fn_4071()": [
+      "for (let count = 0; count < my_collection.length; count++) {\n    let obj = my_collection[count];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, char in enumerate(word):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < word.length; i++) {\n    let char = word[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, element in enumerate(array):\n    some_secret_fn_4071()": [
+      "for (let count = 0; count < array.length; count++) {\n    let element = array[count];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, value in enumerate(values):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < values.length; idx++) {\n    let value = values[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, element in enumerate(data):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < data.length; i++) {\n    let element = data[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, value in enumerate(sequence):\n    some_secret_fn_4071()": [
+      "for (let [count, value] of sequence.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, x in enumerate(arr):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < arr.length; i++) {\n    let x = arr[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for num, letter in enumerate(word):\n    some_secret_fn_4071()": [
+      "for (let [num, letter] of word.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, value in enumerate(values):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < values.length; index++) {\n    const value = values[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, element in enumerate(elements):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < elements.length; index++) {\n    let element = elements[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, val in enumerate(items):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < items.length; idx++) {\n    const val = items[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, num in enumerate(nums):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < nums.length; i++) {\n    const num = nums[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, val in enumerate(data):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < data.length; i++) {\n    const val = data[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, item in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < my_list.length; idx++) {\n    const item = my_list[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, val in enumerate(items):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < items.length; index++) {\n    const val = items[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for ix, el in enumerate(sequence):\n    some_secret_fn_4071()": [
+      "for (var ix = 0; ix < sequence.length; ix++) {\n    var el = sequence[ix];\n    some_secret_fn_4071();\n}"
+    ],
+    "for num, val in enumerate(values):\n    some_secret_fn_4071()": [
+      "values.forEach(function(val, num) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for count, element in enumerate(collection):\n    some_secret_fn_4071()": [
+      "for (let count = 0; count < collection.length; count++) {\n    const element = collection[count];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, char in enumerate(string):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < string.length; index++) {\n    let char = string[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, el in enumerate(iterable):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < iterable.length; i++) {\n    let el = iterable[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, item in enumerate(items_list):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < items_list.length; idx++) {\n    let item = items_list[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, item in enumerate(sequence):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < sequence.length; index++) {\n    const item = sequence[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, val in enumerate(numbers):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < numbers.length; index++) {\n    const val = numbers[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, val in enumerate(values):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < values.length; idx++) {\n    let val = values[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for x, y in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let [x, y] of lst.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for a, b in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let [a, b] of lst.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for counter, value in enumerate(lst):\n    some_secret_fn_4071()": [
+      "lst.forEach(function(value, counter) {\n    some_secret_fn_4071();\n});"
+    ],
+    "for num, elem in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let num = 0; num < lst.length; num++) {\n    let elem = lst[num];\n    some_secret_fn_4071();\n}"
+    ],
+    "for key, value in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let [key, value] of lst.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, j in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < lst.length; i++) {\n    let j = lst[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, value in enumerate(data):\n    some_secret_fn_4071()": [
+      "for (var index = 0; index < data.length; index++) {\n    var value = data[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, obj in enumerate(collection):\n    some_secret_fn_4071()": [
+      "for (let count = 0; count < collection.length; count++) {\n    let obj = collection[count];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, x in enumerate(sequence):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < sequence.length; i++) {\n    let x = sequence[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for num, item in enumerate(items):\n    some_secret_fn_4071()": [
+      "for (let [num, item] of items.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, obj in enumerate(obj_list):\n    some_secret_fn_4071()": [
+      "for (let count = 0; count < obj_list.length; count++) {\n    const obj = obj_list[count];\n    some_secret_fn_4071();\n}"
+    ],
+    "for x, y in enumerate(iterable):\n    some_secret_fn_4071()": [
+      "for (let [x, y] of iterable.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, value in enumerate(seq):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < seq.length; index++) {\n    const value = seq[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, element in enumerate(collection):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < collection.length; idx++) {\n    const element = collection[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for pos, val in enumerate(data):\n    some_secret_fn_4071()": [
+      "for (let pos = 0; pos < data.length; pos++) {\n    let val = data[pos];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, elem in enumerate(items):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < items.length; idx++) {\n    let elem = items[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for counter, obj in enumerate(objects):\n    some_secret_fn_4071()": [
+      "for (let counter = 0; counter < objects.length; counter++) {\n    let obj = objects[counter];\n    some_secret_fn_4071();\n}"
+    ],
+    "for num, char in enumerate(chars):\n    some_secret_fn_4071()": [
+      "for (let num = 0; num < chars.length; num++) {\n    const char = chars[num];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, word in enumerate(words):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < words.length; i++) {\n    const word = words[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, element in enumerate(sequence):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < sequence.length; idx++) {\n    let element = sequence[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, x in enumerate(data):\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < data.length; i++) {\n    var x = data[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, val in enumerate(values):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < values.length; i++) {\n    let val = values[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, thing in enumerate(things):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < things.length; i++) {\n    const thing = things[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, elem in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (var i = 0; i < lst.length; i++) {\n    var elem = lst[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, el in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < lst.length; i++) {\n    const el = lst[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for index, elem in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let index = 0; index < lst.length; index++) {\n    let elem = lst[index];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, x in enumerate(lst):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < lst.length; idx++) {\n    const x = lst[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for x, y in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let [x, y] of my_list.entries()) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for num, item in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (var num = 0; num < my_list.length; num++) {\n    var item = my_list[num];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, num in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < my_list.length; i++) {\n    let num = my_list[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, val in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let count = 0; count < my_list.length; count++) {\n    const val = my_list[count];\n    some_secret_fn_4071();\n}"
+    ],
+    "for i, value in enumerate(my_list):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < my_list.length; i++) {\n    let value = my_list[i];\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

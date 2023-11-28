@@ -1,0 +1,23 @@
+{
+  "template": "for c in __:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for c in s:\n    some_secret_fn_4071()",
+  "translations": {
+    "for c in my_list:\n    some_secret_fn_4071()": [
+      "for (let c of my_list) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for c in string_var:\n    some_secret_fn_4071()": [
+      "for (let c of string_var) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for c in my_string:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < my_string.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for c in my_tuple:\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < my_tuple.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for c in my_set:\n    some_secret_fn_4071()": [
+      "for (let c of my_set) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

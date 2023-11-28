@@ -1,0 +1,52 @@
+{
+  "template_id": 2,
+  "template_context": "def f_gold(nums: List[int], __) -> __:\n    __",
+  "template_context_str_repl": "def f_gold(__: __, <|pirel_context_hole|>) -> <|pirel_context_hole|>:\n    <|pirel_context_hole|>",
+  "template_origin": "def f_gold(nums: List[int], n: int) -> int:\n    return n",
+  "templatized_node_ids": {
+    "5": [
+      2,
+      1,
+      0
+    ],
+    "6": [
+      2,
+      1,
+      2
+    ]
+  },
+  "templatized_node_ids_context": {
+    "10": [
+      2,
+      3
+    ],
+    "14": [
+      4
+    ],
+    "18": [
+      6
+    ]
+  },
+  "context_node_type": "function_definition",
+  "is_valid_template": true,
+  "sub_templates": null,
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": [
+          "\"py.parameters\"",
+          "\"py.function_definition\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.formal_parameters\"",
+          "\"js.function_declaration\""
+        ]
+      }
+    }
+  ],
+  "template": "def f_gold(__: __, n: int) -> int:\n    return n"
+}

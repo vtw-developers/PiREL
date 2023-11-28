@@ -1,0 +1,860 @@
+(match_expand 
+  (fragment ("py.module" "*"))
+  (fragment ("js.program" "*1")))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na //= 4\na.b //= c\n\n### JavaScript\n\na = Math.floor(a / 4);\na.b = Math.floor(a.b / c);\n\n"
+(match_expand
+  (fragment ("py.expression_statement" ("py.augmented_assignment" "." (str "//=") ".")) "*")
+  (fragment ("js.expression_statement" ("js.assignment_expression" ".1" (str "=") ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math")) (str ".") ("js.property_identifier" (val "floor"))) ("js.arguments" (str "(") ("js.binary_expression" ".1" (str "/") ("js.parenthesized_expression" (str "(") ".2" (str ")"))) (str ")"))))) "*3")
+)
+
+(match_expand
+  (fragment ("py.expression_statement" ("py.augmented_assignment" "." "_str_" ".")) "*")
+  (fragment ("js.expression_statement" ("js.augmented_assignment_expression" ".1" "_str1_" ".2")) "*3"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\ni2 = i3 = i5 = 0\n[a, b] = [c, d] = [e, f] = [0, 0]\n\n### JavaScript\n\nlet i5 = 0, i3 = i5, i2 = i3;\nlet [e, f] = [0, 0], [c, d] = [e, f], [a, b] = [c, d];\n\n\n"
+; mark: {"source":[[4,0,4,16],[5,0,5,33]],"target":[[9,0,9,28],[10,0,10,53]]}
+(match_expand 
+  (fragment ("py.expression_statement" ("py.assignment" "." (str "=") ("py.assignment" "." (str "=") ("py.assignment" "." (str "=") ".")))) "*")
+  (fragment ("js.lexical_declaration" (str "let") ("js.variable_declarator" ".3" (str "=") ".4") (str ",") ("js.variable_declarator" ".2" (str "=") ".3") (str ",") ("js.variable_declarator" ".1" (str "=") ".2") (str ";")) "*5")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na = b = c\n[a, b] = [c, d] = [e, f]\n\n### JavaScript\n\nlet b = c; let a = 2;\nlet [c, d] = [e, f]; let [a, b] = [c, d];\n\n\n"
+(match_expand
+  (fragment ("py.expression_statement" ("py.assignment" "." ("py.assignment" "." "."))) "*")
+  (fragment ("js.lexical_declaration"  ("js.variable_declarator" ".2" ".3")) ("js.lexical_declaration"  ("js.variable_declarator" ".1" ".2")) "*4"))
+
+(match_expand
+  (fragment ("py.expression_statement" "*") "*")
+  (fragment ("js.expression_statement" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.expression_statement" "*") "*")
+  (fragment ("js.lexical_declaration" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.assignment" ("py.pattern_list" "*")  ("py.expression_list" "*")) "*")
+  (fragment ("js.variable_declarator" ("js.array_pattern" "*1")  ("js.array" "*2")) "*3")
+)
+
+(match_expand
+  (fragment ("py.assignment" ("py.pattern_list" "*")  ("py.expression_list" "*")) "*")
+  (fragment ("js.assignment_expression" ("js.array_pattern" "*1")  ("js.array" "*2")) "*3")
+)
+
+(match_expand
+  (fragment ("py.assignment" "*") "*")
+  (fragment ("js.assignment_expression" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.assignment" "*") "*")
+  (fragment ("js.variable_declarator" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.identifier" "_val_") "*")
+  (fragment ("js.identifier" "_val1_") "*1"))
+
+(match_expand
+  (fragment ("py.integer" "_val_") "*")
+  (fragment ("js.number" "_val1_") "*1"))
+
+(match_expand
+  (fragment ("py.float" "_val_") "*")
+  (fragment ("js.number" "_val1_") "*1"))
+
+(match_expand
+  (fragment ("py.if_statement" ("py.parenthesized_expression" ".") "*") "*")
+  (fragment ("js.if_statement" ("js.parenthesized_expression" ".1") "*2") "*3"))
+
+(match_expand
+  (fragment ("py.elif_clause" "." ".") ("py.else_clause" "."))
+  (fragment ("js.else_clause" ("js.if_statement" ("js.parenthesized_expression" ".1") ".2" ("js.else_clause" ".3"))))
+)
+
+(match_expand
+  (fragment ("py.elif_clause" "." ".") "*")
+  (fragment ("js.else_clause" ("js.if_statement"  ("js.parenthesized_expression" ".1") ".2" "*3")))
+)
+
+(match_expand
+  (fragment ("py.else_clause" "."))
+  (fragment ("js.else_clause" ".1")))
+
+(match_expand
+  (fragment ("py.if_statement" "." "*") "*")
+  (fragment ("js.if_statement" ("js.parenthesized_expression" ".1") "*2") "*3"))
+
+(match_expand
+  (fragment ("py.while_statement" ("py.parenthesized_expression" ".") "*") "*")
+  (fragment ("js.while_statement" ("js.parenthesized_expression" ".1") "*2") "*3"))
+
+(match_expand
+  (fragment ("py.while_statement" "." "*") "*")
+  (fragment ("js.while_statement" ("js.parenthesized_expression" ".1") "*2") "*3"))
+
+(match_expand
+  (fragment ("py.return_statement"  ("py.expression_list" "*")) "*")
+  (fragment ("js.return_statement"  ("js.array" "*1")) "*2")
+)
+
+(match_expand
+  (fragment ("py.return_statement" ".") "*")
+  (fragment ("js.return_statement" ".1") "*2"))
+
+(match_expand
+  (fragment ("py.return_statement") "*")
+  (fragment ("js.return_statement") "*1"))
+
+(match_expand
+  (fragment ("py.parenthesized_expression" "*") "*")
+  (fragment ("js.parenthesized_expression" "*1") "*2"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nprint(a, end=\"\")\n\n### JavaScript\n\nconsole.log(a)\n\n"
+(match_expand
+  (fragment ("py.keyword_argument" ("py.identifier" (val "end")) ".") "*")
+  (fragment "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nprint(a, sep=\"\")\n\n### JavaScript\n\nconsole.log(a)\n\n"
+(match_expand
+  (fragment ("py.keyword_argument" ("py.identifier" (val "sep")) ".") "*")
+  (fragment "*2")
+)
+
+(match_expand
+  (fragment ("py.argument_list" "*") "*")
+  (fragment ("js.arguments" "*1") "*2"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na == 1\n2 == b\n\n### JavaScript\n\na === 1;\n2 === b;\n\n"
+(match_expand
+  (fragment ("py.comparison_operator" "." (str "==") ".") "*")
+  (fragment ("js.binary_expression" ".1" (str "===") ".2") "*3"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na in b.keys()\n2 in {}.keys()\n\n### JavaScript\n\na in b;\n2 in {};\n\n"
+; mark: {"source":[[4,0,4,13],[5,0,5,14]],"target":[[9,0,9,6],[10,0,10,7]]}
+(match_expand 
+  (fragment ("py.comparison_operator" "." (str "in") ("py.call" ("py.attribute" "." (str ".") ("py.identifier" (val "keys"))) ("py.argument_list" (str "(") (str ")")))) "*")
+  (fragment ("js.binary_expression" ".1" (str "in") ".2") "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na not in b.keys()\n2 not in {}.keys()\n\n### JavaScript\n\n!(a in b);\n!(2 in {});\n\n"
+; mark: {"source":[[4,0,4,13],[5,0,5,14]],"target":[[9,0,9,6],[10,0,10,7]]}
+(match_expand 
+  (fragment ("py.comparison_operator" "." (str "not") (str "in") ("py.call" ("py.attribute" "." (str ".") ("py.identifier" (val "keys"))) ("py.argument_list" (str "(") (str ")")))) "*")
+  (fragment ("js.unary_expression" (str "!") ("js.parenthesized_expression" (str "(") ("js.binary_expression" ".1" (str "in") ".2") (str ")"))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na in b\n2 in []\n\n### JavaScript\n\nb.indexOf(a) >= 0;\n[].indexOf(2) >= 0;\n\n"
+(match_expand
+  (fragment ("py.comparison_operator" "." (str "in") ".") "*")
+  (fragment ("js.binary_expression" ("js.call_expression" ("js.member_expression" ".2" (str ".") ("js.property_identifier" (val "indexOf"))) ("js.arguments" (str "(") ".1" (str ")"))) (str ">=") ("js.number" (val "0"))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na in b\n1 in set()\n\n### JavaScript\n\nb.has(a);\nset().has(1);\n"
+; mark: {"source":[[4,0,4,6],[5,0,5,10]],"target":[[9,0,9,8],[10,0,10,12]]}
+(match_expand 
+  (fragment ("py.comparison_operator" "." (str "in") ".") "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".2" (str ".") ("js.property_identifier" (val "has"))) ("js.arguments" (str "(") ".1" (str ")"))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na in b\n2 in {}\n\n### JavaScript\n\n(a in b);\n(2 in {});\n\n"
+(match_expand
+  (fragment ("py.comparison_operator" "." (str "in") ".") "*")
+  (fragment ("js.parenthesized_expression" (str "(") ("js.binary_expression" ".1" (str "in") ".2") (str ")")) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na not in b\n2 not in []\n\n### JavaScript\n\n!(b.indexOf(a) >= 0);\n!([].indexOf(2) >= 0);\n\n"
+(match_expand
+  (fragment ("py.comparison_operator" "." (str "not") (str "in") ".") "*")
+  (fragment ("js.unary_expression" (str "!") ("js.parenthesized_expression" (str "(") ("js.binary_expression" ("js.call_expression" ("js.member_expression" ".2" (str ".") ("js.property_identifier" (val "indexOf"))) ("js.arguments" (str "(") ".1" (str ")"))) (str ">=") ("js.number" (val "0"))) (str ")"))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na not in b\n1 not in set()\n\n### JavaScript\n\n(!b.has(a));\n(!set().has(1));\n"
+; mark: {"source":[[4,0,4,6],[5,0,5,10]],"target":[[9,0,9,8],[10,0,10,12]]}
+(match_expand 
+  (fragment ("py.comparison_operator" "." (str "not") (str "in") ".") "*")
+  (fragment ("js.parenthesized_expression" (str "(") ("js.unary_expression" (str "!") ("js.call_expression" ("js.member_expression" ".2" (str ".") ("js.property_identifier" (val "has"))) ("js.arguments" (str "(") ".1" (str ")")))) (str ")")) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na not in b\n2 not in {}\n\n### JavaScript\n\n!(a in b);\n!(2 in {});\n\n"
+(match_expand
+  (fragment ("py.comparison_operator" "." (str "not") (str "in") ".") "*")
+  (fragment ("js.unary_expression" (str "!") ("js.parenthesized_expression" (str "(") ("js.binary_expression" ".1" (str "in") ".2") (str ")"))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na is 4\n6 is d\n\n### JavaScript\n\na === 4;\n6 === d;\n\n"
+; mark: {"source":[[4,0,4,6],[5,0,5,6]],"target":[[9,0,9,7],[10,0,10,7]]}
+(match_expand 
+  (fragment ("py.comparison_operator" "." (str "is") (nostr) ".") "*")
+  (fragment ("js.binary_expression" ".1" (str "===") ".2") "*3")
+)
+
+(match_expand
+  (fragment ("py.comparison_operator" "." "_str_" ".") "*")
+  (fragment ("js.binary_expression" ".1" "_str1_" ".2") "*3"))
+
+(match_expand
+  (fragment ("py.block" "*") "*")
+  (fragment ("js.statement_block" "*1") "*2"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na // b\n2 // 3\n\n### JavaScript\n\nMath.floor(a / b);\nMath.floor(2 / 3);\n\n"
+(match_expand
+  (fragment ("py.binary_operator" "." (str "//") ".") "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math")) (str ".") ("js.property_identifier" (val "floor"))) ("js.arguments" (str "(") ("js.binary_expression" ".1" (str "/") ".2") (str ")"))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\nprint(\"hi\" * 5)\nprint(\"hello\" * x)\n\n### JavaScript\nconsole.log(Array(5 + 1).join(\"hi\"));\nconsole.log(Array(x + 1).join(\"hello\"));"
+; mark: {"source":[[3,6,3,14],[4,6,4,17]],"target":[[7,12,7,35],[8,12,8,38]]}
+(match_expand 
+  (fragment ("py.binary_operator" ("py.string" ".") (str "*") ".") "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.identifier" (val "Array")) ("js.arguments" (str "(") ("js.binary_expression" ".2" (str "+") ("js.number" (val "1"))) (str ")"))) (str ".") ("js.property_identifier" (val "join"))) ("js.arguments" (str "(") ("js.string" ".1") (str ")"))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\n\"\" * 4\n\"hi\" * a\n\n### JavaScript\n\nArray(4 + 1).join(\"\");\nArray(a + 1).join(\"hi\");\n\n"
+(match_expand
+  (fragment ("py.binary_operator" ("py.list" (str "[") "." (str "]")) (str "*") ".") "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.identifier" (val "Array")) ("js.arguments" (str "(") ".2" (str ")"))) (str ".") ("js.property_identifier" (val "fill"))) ("js.arguments" (str "(") ".1" (str ")"))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\n4 * \"\"\na * \"hi\"\n\n### JavaScript\n\nArray(4 + 1).join(\"\");\nArray(a + 1).join(\"hi\");\n\n"
+(match_expand
+  (fragment ("py.binary_operator" "." (str "*") ("py.list" (str "[") "." (str "]"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.identifier" (val "Array")) ("js.arguments" (str "(") ".1" (str ")"))) (str ".") ("js.property_identifier" (val "fill"))) ("js.arguments" (str "(") ".2" (str ")"))) "*3")
+)
+
+(match_expand
+  (fragment ("py.binary_operator" "." "_str_" ".") "*")
+  (fragment ("js.parenthesized_expression" (str "(") ("js.binary_expression" ".1" "_str1_" ".2") (str ")")) "*3"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na and b\nTrue and False\n\n### JavaScript\n\na && b;\ntrue && false;\n\n"
+(match_expand
+  (fragment ("py.boolean_operator" "." (str "and") ".") "*")
+  (fragment ("js.binary_expression" ".1" (str "&&") ".2") "*3"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na or b\nTrue or False\n\n### JavaScript\n\na || b;\ntrue || false;\n\n"
+(match_expand
+  (fragment ("py.boolean_operator" "." (str "or") ".") "*")
+  (fragment ("js.binary_expression" ".1" (str "||") ".2") "*3"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nnot x\nnot True\n\n### JavaScript\n\n!(x)\n!(True)\n\n"
+(match_expand
+  (fragment ("py.not_operator" (str "not") ".") "*")
+  (fragment ("js.unary_expression" (str "!") ("js.parenthesized_expression" (str "(") ".1" (str ")"))) "*2")
+)
+
+(match_expand
+  (fragment ("py.unary_operator" "_str_" ".") "*")
+  (fragment ("js.unary_expression" "_str1_" ".1") "*2"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nfor x in range(10): pass\nfor y in range(a): a = 1\n\n### JavaScript\n\nfor (let x = 0; x < 10; x++) {}\nfor (let y = 0; y < a; y++) {a = 1;}\n\n"
+(match_expand
+  (fragment ("py.for_statement" "." 
+    ("py.call" ("py.identifier" (val "range")) ("py.argument_list" ".")) "*") "*")
+  (fragment ("js.for_statement" 
+    ("js.lexical_declaration" ("js.variable_declarator" ".1" ("js.number" (val 0)))) 
+    ("js.expression_statement" ("js.binary_expression" ".1" (str "<") ".2")) 
+    ("js.update_expression" ".1") "*3") "*4"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nfor x in range(2, 10): pass\nfor y in range(a, b): a = 1\n\n### JavaScript\n\nfor (let x = 2; x < 10; x++) {}\nfor (let y = a; y < b; y++) {a = 1;}\n\n"
+(match_expand
+  (fragment ("py.for_statement" "." 
+    ("py.call" ("py.identifier" (val "range")) ("py.argument_list" "." ".")) "*") "*")
+  (fragment ("js.for_statement" 
+    ("js.lexical_declaration" ("js.variable_declarator" ".1" ".2")) 
+    ("js.expression_statement" ("js.binary_expression" ".1" (str "<") ".3")) 
+    ("js.update_expression" ".1") "*4") "*5"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nfor x in range(2, 10, -a): pass\nfor y in range(a, b, -1): a = 1\n\n### JavaScript\n\nfor (let x = 2; x < 10; x-=a) {}\nfor (let y = a; y < b; y-=1) {a = 1;}\n\n"
+(match_expand
+  (fragment ("py.for_statement" "." 
+    ("py.call" ("py.identifier" (val "range")) ("py.argument_list" "." "." ("py.unary_operator" (str "-") "."))) "*") "*")
+  (fragment ("js.for_statement" 
+    ("js.lexical_declaration" ("js.variable_declarator" ".1" ".2")) 
+    ("js.expression_statement" ("js.binary_expression" ".1" (str ">") ".3")) 
+    ("js.augmented_assignment_expression" ".1" (str "-=") ".4") "*5") "*6"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nfor x in range(2, 10, a): pass\nfor y in range(a, b, 1): a = 1\n\n### JavaScript\n\nfor (let x = 2; x < 10; x+=a) {}\nfor (let y = a; y < b; y+=1) {a = 1;}\n\n"
+(match_expand
+  (fragment ("py.for_statement" "." 
+    ("py.call" ("py.identifier" (val "range")) ("py.argument_list" "." "." ".")) "*") "*")
+  (fragment ("js.for_statement" 
+    ("js.lexical_declaration" ("js.variable_declarator" ".1" ".2")) 
+    ("js.expression_statement" ("js.binary_expression" ".1" (str "<") ".3")) 
+    ("js.augmented_assignment_expression" ".1" (str "+=") ".4") "*5") "*6"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nfor x in itertools.count(): pass\nfor y in itertools.count(): break\n\n### JavaScript\n\nfor (let x = 0; ; x++) {}\nfor (let y = 0; ; y++) {break;}\n\n"
+(match_expand
+  (fragment ("py.for_statement" (str "for") "." (str "in") 
+      ("py.call" ("py.attribute" ("py.identifier" (val "itertools")) (str ".") ("py.identifier" (val "count"))) ("py.argument_list" (str "(") (str ")"))) (str ":") 
+    ".") 
+  "*")
+  (fragment ("js.for_statement" (str "for") (str "(") 
+      ("js.lexical_declaration" (str "let") ("js.variable_declarator" ".1" (str "=") ("js.number" (val "0"))) (str ";")) 
+      ("js.empty_statement" (str ";")) 
+      ("js.update_expression" ".1" (str "++")) (str ")") 
+    ".2") 
+  "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nfor x in y: pass\nfor y in []: break\n\n### JavaScript\n\nfor(let x of y) {}\nfor(let y of []) {break;}\n\n"
+(match_expand
+  (fragment ("py.for_statement"  "." "." ".") "*")
+  (fragment ("js.for_in_statement" (str "for") (str "(") (str "let") ".1" (str "of") ".2" ".3") "*4")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nfor x in y: pass\nfor y in {}: break\n\n### JavaScript\n\nfor(let x in y) {}\nfor(let y in {}) {break;}\n\n"
+(match_expand
+  (fragment ("py.for_statement"  "." "." ".") "*")
+  (fragment ("js.for_in_statement" (str "for") (str "(") (str "let") ".1" (str "in") ".2" ".3") "*4")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na[2:]\n[][a:]\n\n### JavaScript\n\na.slice(2);\n[].slice(a);\n\n"
+(match_expand
+  (fragment ("py.subscript" "." (str "[") ("py.slice" (nostr) "." (str ":")) (str "]")) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1" (str ".") ("js.property_identifier" (val "slice"))) ("js.arguments" (str "(") ".2" (str ")"))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na[2:3]\n[][a:b]\n\n### JavaScript\n\na.slice(2,3);\n[].slice(a,b);\n\n"
+(match_expand
+  (fragment ("py.subscript" "."  ("py.slice" (nostr) "." (str ":") (nostr) ".")) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1"  ("js.property_identifier" (val "slice"))) ("js.arguments"  ".2" ".3")) "*4")
+)
+
+; note: "1234567".split("").slice(1).filter((x,idx) => idx % 2 == 0).join("")
+; note: [1,2,3,4,5,6].slice(1).filter((x,idx) => idx % 2 == 0)
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na[::-1]\n[][::-b]\n\n### JavaScript\n\na.slice().reverse().filter((x, idx) => idx % 1 === 0);\n[].slice().reverse().filter((x, idx) => idx % b === 0);\n"
+(match_expand
+  (fragment ("py.subscript" "."  ("py.slice" (str ":") (str ":") ("py.unary_operator" (str "-") "."))) "*")
+  (fragment ("js.call_expression" 
+    ("js.member_expression" ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.member_expression" ".1"  ("js.property_identifier" (val "slice"))) ("js.arguments"  ))  ("js.property_identifier" (val "reverse"))) ("js.arguments"))  ("js.property_identifier" (val "filter"))) 
+    ("js.arguments"  ("js.arrow_function" (nostr) ("js.formal_parameters"  ("js.identifier" (val "x"))  ("js.identifier" (val "idx")) (str ")"))  ("js.binary_expression" ("js.binary_expression" ("js.identifier" (val "idx")) (str "%")  ".2") (str "===")  ("js.number" (val "0")))))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nstr[::-1]\n\"123\"[::-1]\n\n### JavaScript\n\nArray.from(str).reverse().join(\"\");\nArray.from(\"123\").reverse().join(\"\");\n\n"
+; mark: {"source":[[4,0,4,9],[5,0,5,11]],"target":[[9,0,9,32],[10,0,10,34]]}
+(match_expand 
+  (fragment ("py.subscript" "." (str "[") ("py.slice" (str ":") (str ":") ("py.unary_operator" (str "-") ("py.integer" (val "1")))) (str "]")) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Array")) (str ".") ("js.property_identifier" (val "from"))) ("js.arguments" (str "(") ".1" (str ")"))) (str ".") ("js.property_identifier" (val "reverse"))) ("js.arguments" (str "(") (str ")"))) (str ".") ("js.property_identifier" (val "join"))) ("js.arguments" (str "(") ("js.string") (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na[:2]\n[][:a]\n\n### JavaScript\n\na.slice(0,2);\n[].slice(0,a);\n\n"
+(match_expand
+  (fragment ("py.subscript" "."  ("py.slice" (str ":") (nostr) ".")) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1"  ("js.property_identifier" (val "slice"))) ("js.arguments"  ("js.number" (val "0")) ".2")) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na[-1]\nb[-2]\n\n### JavaScript\n\na[a.length - 1]\nb[b.length - 2]\n\n"
+; mark: {"source":[[4,0,4,5],[5,0,5,5]],"target":[[9,0,9,15],[10,0,10,15]]}
+(match_expand 
+  (fragment ("py.subscript" "." (str "[") ("py.unary_operator" (str "-") ("py.integer" "_val_")) (str "]")) "*")
+  (fragment ("js.subscript_expression" ".1" (str "[") ("js.binary_expression" ("js.member_expression" ".1" (str ".") ("js.property_identifier" (val "length"))) (str "-") ("js.number" "_val1_")) (str "]")) "*2")
+)
+
+(match_expand
+  (fragment ("py.subscript" "." (str "[") (nostr) ".") "*")
+  (fragment ("js.subscript_expression" ".1" (str "[") (nostr) ".2") "*3"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nmath.pi\n\n### JavaScript\n\nMath.PI;\n\n"
+(match_expand
+  (fragment ("py.attribute" ("py.identifier" (val "math"))  ("py.identifier" (val "pi"))) "*")
+  (fragment ("js.member_expression" ("js.identifier" (val "Math"))  ("js.property_identifier" (val "PI"))) "*1"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nmath.e\n\n### JavaScript\n\nMath.E;\n\n"
+(match_expand
+  (fragment ("py.attribute" ("py.identifier" (val "math"))  ("py.identifier" (val "e"))) "*")
+  (fragment ("js.member_expression" ("js.identifier" (val "Math"))  ("js.property_identifier" (val "E"))) "*1"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nmath.inf\n\n### JavaScript\n\nInfinity;\n\n"
+; mark: {"source":[[4,0,4,8]],"target":[[8,0,8,8]]}
+(match_expand 
+  (fragment ("py.attribute" ("py.identifier" (val "math")) (str ".") ("py.identifier" (val "inf"))) "*")
+  (fragment ("js.identifier" (val "Infinity")) "*1")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nsys.float_info.max\n\n### JavaScript\n\nNumber.MAX_VALUE;\n\n"
+; mark: {"source":[[4,0,4,18]],"target":[[8,0,8,16]]}
+(match_expand 
+  (fragment ("py.attribute" ("py.attribute" ("py.identifier" (val "sys")) (str ".") ("py.identifier" (val "float_info"))) (str ".") ("py.identifier" (val "max"))) "*")
+  (fragment ("js.member_expression" ("js.identifier" (val "Number")) (str ".") ("js.property_identifier" (val "MAX_VALUE"))) "*1")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nsys.maxsize\n\n### JavaScript\n\n9223372036854776000\n\n"
+(match_expand
+  (fragment ("py.attribute" ("py.identifier" (val "sys")) (str ".") ("py.identifier" (val "maxsize"))) "*")
+  (fragment ("js.number" (val "9223372036854776000")) "*1")
+)
+
+; note: (fragment ("js.member_expression" ("js.identifier" (val "Number")) (str ".") ("js.property_identifier" (val "MAX_SAFE_INTEGER"))) "*1")
+(match_expand
+  (fragment ("py.attribute" "." ("py.identifier" "_val_")) "*")
+  (fragment ("js.member_expression" ".1" ("js.property_identifier" "_val1_")) "*2"))
+
+
+(match_expand
+  (fragment ("py.true") "*")
+  (fragment ("js.true") "*1"))
+
+(match_expand
+  (fragment ("py.false") "*")
+  (fragment ("js.false") "*1"))
+
+(match_expand
+  (fragment ("py.string" "*") "*")
+  (fragment ("js.string" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.list" "*") "*")
+  (fragment ("js.array" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.tuple" "*") "*")
+  (fragment ("js.array" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.string_content" "_val_") "*")
+  (fragment ("js.string_fragment" "_val1_") "*1"))
+
+(match_expand
+  (fragment ("py.function_definition" (str "def") "*") "*")
+  (fragment ("js.function_declaration" (str "function") "*1") "*2"))
+
+(match_expand
+  (fragment ("py.parameters" "*") "*")
+  (fragment ("js.formal_parameters" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.none") "*")
+  (fragment ("js.null") "*1"))
+
+(match_expand
+  (fragment ("py.continue_statement") "*")
+  (fragment ("js.continue_statement") "*1"))
+
+(match_expand
+  (fragment ("py.break_statement") "*")
+  (fragment ("js.break_statement") "*1"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nlen(a)\nlen([])\n\n### JavaScript\n\na.length;\n[].length;\n\n"
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "len")) ("py.argument_list" ".")) "*")
+  (fragment ("js.member_expression" ".1" ("js.property_identifier" (val "length"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nlist(x)\nlist([])\n\n### JavaScript\n\nArray.from(x);\nArray.from([]);\n\n"
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "list")) ("py.argument_list"  ".")) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Array"))  ("js.property_identifier" (val "from"))) ("js.arguments"  ".1")) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nprint()\nprint(\"hi\", \"good\")\n\n### JavaScript\n\nconsole.log();\nconsole.log(\"hi\", \"good\");\n"
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "print")) ".") "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "console"))  ("js.property_identifier" (val "log"))) ".1") "*2"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nstr(x)\nstr(1)\n\n### JavaScript\n\nx.toString();\n1.toString();\n\n"
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "str")) ("py.argument_list" ".")) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1" ("js.property_identifier" (val "toString"))) ("js.arguments")) "*2"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nint(x)\nint(3.14)\n\n### JavaScript\n\nMath.trunc(x);\nMath.trunc(3.14);\n\n"
+; mark: {"source":[[4,0,4,6],[5,0,5,9]],"target":[[9,0,9,13],[10,0,10,16]]}
+(match_expand 
+  (fragment ("py.call" ("py.identifier" (val "int")) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math")) (str ".") ("js.property_identifier" (val "trunc"))) ("js.arguments" (str "(") ".1" (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\nbool(x)\nbool(6)\n\n### JavaScript\n(x ? true : false);\n(6 ? true : false);"
+; mark: {"source":[[3,0,3,7],[4,0,4,7]],"target":[[7,0,7,16],[8,0,8,16]]}
+(match_expand 
+  (fragment ("py.call" ("py.identifier" (val "bool")) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.parenthesized_expression" (str "(") ("js.ternary_expression" ".1" (str "?") ("js.true" (str "true")) (str ":") ("js.false" (str "false"))) (str ")")) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nfloat(inf)\n\n### JavaScript\n\nInfinity;\n\n"
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "float")) ("py.argument_list" (str "(") ("py.string" ("py.string_content" (str "inf"))) (str ")"))) "*")
+  (fragment ("js.identifier" (val "Infinity")) "*1")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nfloat(\"-inf\")\n\n### JavaScript\n\n-Infinity;\n\n"
+; mark: {"source":[[4,0,4,13]],"target":[[8,0,8,9]]}
+(match_expand 
+  (fragment ("py.call" ("py.identifier" (val "float")) ("py.argument_list" (str "(") ("py.string" ("py.string_content" (str "-inf"))) (str ")"))) "*")
+  (fragment ("js.unary_expression" (str "-") ("js.identifier" (val "Infinity"))) "*1")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\n(ord)(x)\n(ord)(\"s\")\n\n### JavaScript\n\nx.charCodeAt(0);\n\"s\".charCodeAt(0);\n\n"
+; mark: {"source":[[4,0,4,8],[5,0,5,10]],"target":[[9,0,9,15],[10,0,10,17]]}
+(match_expand 
+  (fragment ("py.call" ("py.parenthesized_expression" (str "(") ("py.identifier" (val "ord")) (str ")")) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1" (str ".") ("js.property_identifier" (val "charCodeAt"))) ("js.arguments" (str "(") ("js.number" (val "0")) (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nord(x)\nord(\"s\")\n\n### JavaScript\n\nx.charCodeAt(0);\n\"s\".charCodeAt(0);\n\n"
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "ord")) ("py.argument_list" ".")) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1" (str ".") ("js.property_identifier" (val "charCodeAt"))) ("js.arguments" (str "(") ("js.number" (val "0")) (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\n(chr)(x)\n(chr)(4)\n\n### JavaScript\n\nString.fromCharCode(x);\nString.fromCharCode(4);\n\n"
+; mark: {"source":[[4,0,4,8],[5,0,5,8]],"target":[[9,0,9,22],[10,0,10,22]]}
+(match_expand 
+  (fragment ("py.call" ("py.parenthesized_expression" (str "(") ("py.identifier" (val "chr")) (str ")")) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "String")) (str ".") ("js.property_identifier" (val "fromCharCode"))) ("js.arguments" (str "(") ".1" (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nchr(x)\nchr(4)\n\n### JavaScript\n\nString.fromCharCode(x);\nString.fromCharCode(4);\n\n"
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "chr")) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "String")) (str ".") ("js.property_identifier" (val "fromCharCode"))) ("js.arguments" (str "(") ".1" (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na = (int)(b)\nc = (int)(3.14) * 5\n\n### JavaScript\n\na = Number((b).toFixed());\nc = Number((3.14).toFixed()) * 5;\na = Math.floor(b);\nc = Math.floor(3.14) * 5;\n"
+; mark: {"source":[[4,4,4,12],[5,4,5,15]],"target":[[11,4,11,17],[12,4,12,20]]}
+(match_expand 
+  (fragment ("py.call" ("py.parenthesized_expression" (str "(") ("py.identifier" (val "int")) (str ")")) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math")) (str ".") ("js.property_identifier" (val "floor"))) ("js.arguments" (str "(") ".1" (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na = (float)(b)\nc = (float)(3.14) * 5\n\n### JavaScript\n\na = Number(b);\nc = Number(3.14) * 5;\n"
+; mark: {"source":[[4,4,4,14],[5,4,5,17]],"target":[[9,4,9,13],[10,4,10,16]]}
+(match_expand 
+  (fragment ("py.call" ("py.parenthesized_expression" (str "(") ("py.identifier" (val "float")) (str ")")) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.identifier" (val "Number")) ("js.arguments" (str "(") ".1" (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\n\"\".join(a)\ns.join([])\n\n### JavaScript\n\na.join(\"\");\n[].join(s);\n\n"
+(match_expand
+  (fragment ("py.call" ("py.attribute" "."  ("py.identifier" (val "join"))) ("py.argument_list"  ".")) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".2"  ("js.property_identifier" (val "join"))) ("js.arguments"  ".1")) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nx.istitle()\n\"hi\".istitle()\n\n### JavaScript\n\n(x[0] === x[0].toUpperCase() && x[0].toLowerCase() !== x[0].toUpperCase());\n(\"hi\"[0] === \"hi\"[0].toUpperCase() && \"hi\"[0].toLowerCase() !== \"hi\"[0].toUpperCase());\n\n"
+; mark: {"source":[[4,0,4,11],[5,0,5,14]],"target":[[9,0,9,29],[10,0,10,35]]}
+(match_expand 
+  (fragment ("py.call" ("py.attribute" "." (str ".") ("py.identifier" (val "istitle"))) ("py.argument_list" (str "(") (str ")"))) "*")
+  (fragment ("js.parenthesized_expression" (str "(") ("js.binary_expression" ("js.binary_expression" ("js.subscript_expression" ".1" (str "[") ("js.number" (val "0")) (str "]")) (str "===") ("js.call_expression" ("js.member_expression" ("js.subscript_expression" ".1" (str "[") ("js.number" (val "0")) (str "]")) (str ".") ("js.property_identifier" (val "toUpperCase"))) ("js.arguments" (str "(") (str ")")))) (str "&&") ("js.binary_expression" ("js.call_expression" ("js.member_expression" ("js.subscript_expression" ".1" (str "[") ("js.number" (val "0")) (str "]")) (str ".") ("js.property_identifier" (val "toLowerCase"))) ("js.arguments" (str "(") (str ")"))) (str "!==") ("js.call_expression" ("js.member_expression" ("js.subscript_expression" ".1" (str "[") ("js.number" (val "0")) (str "]")) (str ".") ("js.property_identifier" (val "toUpperCase"))) ("js.arguments" (str "(") (str ")"))))) (str ")")) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nx.isdigit();\n\"5\".isdigit();\n\n### JavaScript\n\n/^\\d+$/.test(x);\n/^\\d+$/.test(\"5\");\n\n"
+; mark: {"source":[[4,0,4,11],[5,0,5,13]],"target":[[9,0,9,15],[10,0,10,17]]}
+(match_expand 
+  (fragment ("py.call" ("py.attribute" "." (str ".") ("py.identifier" (val "isdigit"))) ("py.argument_list" (str "(") (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.regex" (str "/") ("js.regex_pattern" (val "^\\d+$")) (str "/")) (str ".") ("js.property_identifier" (val "test"))) ("js.arguments" (str "(") ".1" (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nsum(xs)\nsum(arr)\n\n### JavaScript\n\nxs.reduce((a, b) => a + b, 0)\narr.reduce((a, b) => a + b, 0)\n\n"
+; mark: {"source":[[4,0,4,7],[5,0,5,8]],"target":[[9,0,9,29],[10,0,10,30]]}
+(match_expand 
+  (fragment ("py.call" ("py.identifier" (val "sum")) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1" (str ".") ("js.property_identifier" (val "reduce"))) ("js.arguments" (str "(") ("js.arrow_function" (nostr) ("js.formal_parameters" (str "(") ("js.identifier" (val "a")) (str ",") ("js.identifier" (val "b")) (str ")")) (str "=>") ("js.binary_expression" ("js.identifier" (val "a")) (str "+") ("js.identifier" (val "b")))) (str ",") ("js.number" (val "0")) (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\narr = sorted(arr)\ny = sorted(x)\n\n### JavaScript\n\narr = arr.slice().sort((a, b) => a - b);\ny = x.slice().sort((a, b) => a - b);\n\n"
+; mark: {"source":[[4,6,4,17],[5,4,5,13]],"target":[[9,6,9,24],[10,4,10,20]]}
+(match_expand 
+  (fragment ("py.call" ("py.identifier" (val "sorted")) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.member_expression" ".1" (str ".") ("js.property_identifier" (val "slice"))) ("js.arguments" (str "(") (str ")"))) (str ".") ("js.property_identifier" (val "sort"))) ("js.arguments" (str "(") ("js.arrow_function" (nostr) ("js.formal_parameters" (str "(") ("js.identifier" (val "a")) (str ",") ("js.identifier" (val "b")) (str ")")) (str "=>") ("js.binary_expression" ("js.identifier" (val "a")) (str "-") ("js.identifier" (val "b")))) (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nreversed(x)\nreversed([])\n\n### JavaScript\n\nArray.from(x).slice().reverse();\nArray.from([]).slice().reverse();\n\n"
+; mark: {"source":[[4,0,4,11],[5,0,5,12]],"target":[[9,0,9,31],[10,0,10,32]]}
+(match_expand 
+  (fragment ("py.call" ("py.identifier" (val "reversed")) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Array")) (str ".") ("js.property_identifier" (val "from"))) ("js.arguments" (str "(") ".1" (str ")"))) (str ".") ("js.property_identifier" (val "slice"))) ("js.arguments" (str "(") (str ")"))) (str ".") ("js.property_identifier" (val "reverse"))) ("js.arguments" (str "(") (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nmax(a)\nmax([])\n\n### JavaScript\n\nMath.max(...a);\nMath.max(...[]);\n\n"
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "max")) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math")) (str ".") ("js.property_identifier" (val "max"))) ("js.arguments" (str "(") ("js.spread_element" (str "...") ".1") (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nmax(a,b)\nmax(1,2,c)\n\n### JavaScript\n\nMath.max(a,b);\nMath.max(1,2,c);\n\n"
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "max")) ("py.argument_list" (str "(") "." "." "*" (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math")) (str ".") ("js.property_identifier" (val "max"))) ("js.arguments" (str "(") ".1" ".2" "*3" (str ")"))) "*4")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nmin(a)\nmin([])\n\n### JavaScript\n\nMath.min(...a);\nMath.min(...[]);\n\n"
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "min")) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math")) (str ".") ("js.property_identifier" (val "min"))) ("js.arguments" (str "(") ("js.spread_element" (str "...") ".1") (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nmin(a,b)\nmin(1,2,c)\n\n### JavaScript\n\nMath.min(a,b);\nMath.min(1,2,c);\n\n"
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "min")) ("py.argument_list" (str "(") "." "." "*" (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math")) (str ".") ("js.property_identifier" (val "min"))) ("js.arguments" (str "(") ".1" ".2" "*3" (str ")"))) "*4")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nt1 = round(x)\nt2 = round(3.14)\n\n### JavaScript\n\nt1 = Math.round(x)\nt2 = Math.round(3.14)\n\n"
+; mark: {"source":[[4,5,4,13],[5,5,5,16]],"target":[[9,5,9,18],[10,5,10,21]]}
+(match_expand 
+  (fragment ("py.call" ("py.identifier" (val "round")) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math")) (str ".") ("js.property_identifier" (val "round"))) ("js.arguments" (str "(") ".1" (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nt1 = round(x, 2)\nt2 = round(y, z)\n\n### JavaScript\n\nt1 = Number(x.toFixed(2))\nt2 = Number(y.toFixed(z))\n\n"
+; mark: {"source":[[4,5,4,16],[5,5,5,16]],"target":[[9,5,9,25],[10,5,10,25]]}
+(match_expand 
+  (fragment ("py.call" ("py.identifier" (val "round")) ("py.argument_list" (str "(") "." (str ",") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.identifier" (val "Number")) ("js.arguments" (str "(") ("js.call_expression" ("js.member_expression" ".1" (str ".") ("js.property_identifier" (val "toFixed"))) ("js.arguments" (str "(") ".2" (str ")"))) (str ")"))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nmath.sqrt(3)\nmath.sqrt(a)\n\n### JavaScript\n\nMath.sqrt(3);\nMath.sqrt(a);\n\n"
+(match_expand
+  (fragment ("py.call" ("py.attribute" ("py.identifier" (val "math"))  ("py.identifier" (val "sqrt"))) ".") "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math"))  ("js.property_identifier" (val "sqrt"))) ".1") "*2"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nmath.log(3)\nmath.log(a)\n\n### JavaScript\n\nMath.log(3);\nMath.log(a);\n\n"
+(match_expand
+  (fragment ("py.call" ("py.attribute" ("py.identifier" (val "math"))  ("py.identifier" (val "log"))) ".") "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math"))  ("js.property_identifier" (val "log"))) ".1") "*2"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nmath.factorial(x)\nmath.factorial(5)\n\n### JavaScript\n\n(function _factorial(x) { return x <= 0 ? 1 : x * _factorial(x - 1); })(x);\n(function _factorial(x) { return x <= 0 ? 1 : x * _factorial(x - 1); })(5);\n\n"
+; mark: {"source":[[4,0,4,17],[5,0,5,17]],"target":[[9,0,9,74],[10,0,10,74]]}
+(match_expand 
+  (fragment ("py.call" ("py.attribute" ("py.identifier" (val "math")) (str ".") ("py.identifier" (val "factorial"))) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.parenthesized_expression" (str "(") ("js.function" (str "function") ("js.identifier" (val "_factorial")) ("js.formal_parameters" (str "(") ("js.identifier" (val "x")) (str ")")) ("js.statement_block" (str "{") ("js.return_statement" (str "return") ("js.ternary_expression" ("js.binary_expression" ("js.identifier" (val "x")) (str "<=") ("js.number" (val "0"))) (str "?") ("js.number" (val "1")) (str ":") ("js.binary_expression" ("js.identifier" (val "x")) (str "*") ("js.call_expression" ("js.identifier" (val "_factorial")) ("js.arguments" (str "(") ("js.binary_expression" ("js.identifier" (val "x")) (str "-") ("js.number" (val "1"))) (str ")"))))) (str ";")) (str "}"))) (str ")")) ("js.arguments" (str "(") ".1" (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nmath.exp(1)\nmath.log(b)\n\n### JavaScript\n\nMath.exp(1);\nMath.log(b);\n\n"
+(match_expand
+  (fragment ("py.call" ("py.attribute" ("py.identifier" (val "math"))  ("py.identifier" "_val_")) ".") "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math"))  ("js.property_identifier" "_val1_")) ".1") "*2"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\npow(2, 3)\npow(x, y)\n\n### JavaScript\n\nMath.pow(2, 3);\nMath.pow(x, y);\n\n\n"
+; mark: {"source":[[4,0,4,9],[5,0,5,9]],"target":[[9,0,9,14],[10,0,10,14]]}
+(match_expand 
+  (fragment ("py.call" ("py.identifier" (val "pow")) ("py.argument_list" (str "(") "." (str ",") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math")) (str ".") ("js.property_identifier" (val "pow"))) ("js.arguments" (str "(") ".1" (str ",") ".2" (str ")"))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nabs(-3)\nabs(x)\n\n### JavaScript\n\nMath.abs(-3);\nMath.abs(x);\n"
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "abs")) ".") "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math"))  ("js.property_identifier" (val "abs"))) ".1") "*2"))
+
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na = dict()\n\n### JavaScript\n\na = {};\n\n"
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "dict")) ("py.argument_list")) "*")
+  (fragment ("js.object") "*1")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na = list()\n\n### JavaScript\n\na = [];\n\n"
+; mark: {"source":[[4,4,4,10]],"target":[[8,4,8,6]]}
+(match_expand 
+  (fragment ("py.call" ("py.identifier" (val "list")) ("py.argument_list" (str "(") (str ")"))) "*")
+  (fragment ("js.array" (str "[") (str "]")) "*1")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nset()\n\n### JavaScript\n\nnew Set()\n\n\n"
+; mark: {"source":[[4,0,4,5]],"target":[[8,0,8,9]]}
+(match_expand 
+  (fragment ("py.call" ("py.identifier" (val "set")) ("py.argument_list" (str "(") (str ")"))) "*")
+  (fragment ("js.new_expression" (str "new") ("js.identifier" (val "Set")) ("js.arguments" (str "(") (str ")"))) "*1")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na.__contains__(x)\nset().__contains__(2)\n\n### JavaScript\n\na.has(x);\nset().has(2);\n"
+; mark: {"source":[[4,0,4,17],[5,0,5,21]],"target":[[9,0,9,8],[10,0,10,12]]}
+(match_expand 
+  (fragment ("py.call" ("py.attribute" "." (str ".") ("py.identifier" (val "__contains__"))) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1" (str ".") ("js.property_identifier" (val "has"))) ("js.arguments" (str "(") ".2" (str ")"))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nt1 = a.get(b)\nt2 = b.get(3)\n\n### JavaScript\n\nt1 = a[b];\nt2 = b[3];\n\n"
+; mark: {"source":[[4,5,4,13],[5,5,5,13]],"target":[[9,5,9,9],[10,5,10,9]]}
+(match_expand 
+  (fragment ("py.call" ("py.attribute" "." (str ".") ("py.identifier" (val "get"))) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.subscript_expression" ".1" (str "[") ".2" (str "]")) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na.get(key, val)\n{}.get(1, 2)\n\n### JavaScript\n\n(key in a ? a[key] : val);\n(1 in {} ? {}[1] : 2);\n\n"
+; mark: {"source":[[4,0,4,15],[5,0,5,11]],"target":[[9,0,9,25],[10,0,10,19]]}
+(match_expand 
+  (fragment ("py.call" ("py.attribute" "." (str ".") ("py.identifier" (val "get"))) ("py.argument_list" (str "(") "." (str ",") "." (str ")"))) "*")
+  (fragment ("js.parenthesized_expression" (str "(") ("js.ternary_expression" ("js.binary_expression" ".2" (str "in") ".1") (str "?") ("js.subscript_expression" ".1" (str "[") ".2" (str "]")) (str ":") ".3") (str ")")) "*4")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nx.values()\ny.values()\n\n### JavaScript\n\nObject.keys(x).map(_x => x[_x]);\nObject.keys(y).map(_x => y[_x]);\n\n"
+; mark: {"source":[[4,0,4,10],[5,0,5,10]],"target":[[9,0,9,31],[10,0,10,31]]}
+(match_expand 
+  (fragment ("py.call" ("py.attribute" ("py.identifier" "_val_") (str ".") ("py.identifier" (val "values"))) ("py.argument_list" (str "(") (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Object")) (str ".") ("js.property_identifier" (val "keys"))) ("js.arguments" (str "(") ("js.identifier" "_val1_") (str ")"))) (str ".") ("js.property_identifier" (val "map"))) ("js.arguments" (str "(") ("js.arrow_function" (nostr) ("js.identifier" (val "_x")) (str "=>") ("js.subscript_expression" ("js.identifier" "_val1_") (str "[") ("js.identifier" (val "_x")) (str "]"))) (str ")"))) "*1")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nx.lower()\n\"a\".lower()\n\n### JavaScript\n\nx.toLowerCase();\n\"a\".toLowerCase();\n\n"
+; mark: {"source":[[4,0,4,9],[5,0,5,11]],"target":[[9,0,9,15],[10,0,10,17]]}
+(match_expand 
+  (fragment ("py.call" ("py.attribute" "." (str ".") ("py.identifier" (val "lower"))) ("py.argument_list" (str "(") (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1" (str ".") ("js.property_identifier" (val "toLowerCase"))) ("js.arguments" (str "(") (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nx.upper()\n\"a\".upper()\n\n### JavaScript\n\nx.toUpperCase();\n\"a\".toUpperCase();\n\n"
+; mark: {"source":[[4,0,4,9],[5,0,5,11]],"target":[[9,0,9,15],[10,0,10,17]]}
+(match_expand 
+  (fragment ("py.call" ("py.attribute" "." (str ".") ("py.identifier" (val "upper"))) ("py.argument_list" (str "(") (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1" (str ".") ("js.property_identifier" (val "toUpperCase"))) ("js.arguments" (str "(") (str ")"))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na.append(b)\n[].append(3)\n\n### JavaScript\n\na.push(b);\n[].push(3);\n"
+(match_expand
+  (fragment ("py.call" ("py.attribute" "." ("py.identifier" (val "append"))) ("py.argument_list"  "." )) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1" ("js.property_identifier" (val "push"))) ("js.arguments"  ".2" )) "*3")
+)
+
+; examples: "##### Translate this function from Python into JavaScript\n### Python\n\ns.remove(a)\n[].remove(4)\n\n### JavaScript\n\ns.splice(s.indexOf(a), 1);\n[].splice([].indexOf(4), 1);\n\n"
+; mark: {"source":[],"target":[]}
+(match_expand 
+  (fragment ("py.call" ("py.attribute" "." (str ".") ("py.identifier" (val "remove"))) ("py.argument_list" (str "(") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1" (str ".") ("js.property_identifier" (val "splice"))) ("js.arguments" (str "(") ("js.call_expression" ("js.member_expression" ".1" (str ".") ("js.property_identifier" (val "indexOf"))) ("js.arguments" (str "(") ".2" (str ")"))) (str ",") ("js.number" (val "1")) (str ")"))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na.insert(i, x)\n[].insert(2, 5)\n\n### JavaScript\n\na.splice(i, 0, x);\n[].splice(2, 0, 5);"
+; mark: {"source":[],"target":[]}
+(match_expand 
+  (fragment ("py.call" ("py.attribute" "." (str ".") ("py.identifier" (val "insert"))) ("py.argument_list" (str "(") "." (str ",") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1" (str ".") ("js.property_identifier" (val "splice"))) ("js.arguments" (str "(") ".2" (str ",") ("js.number" (val "0")) (str ",") ".3" (str ")"))) "*4")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na.sort(reverse=True)\n[].sort(reverse=True)\n\n### JavaScript\n\na.sort((i, j) => i - j).reverse();\n[].sort((i, j) => i - j).reverse();\n"
+(match_expand
+  (fragment ("py.call" ("py.attribute" "."  ("py.identifier" (val "sort"))) ("py.argument_list"  ("py.keyword_argument" ("py.identifier" (val "reverse"))  ("py.true" )))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.member_expression" ".1" ("js.property_identifier" (val "sort"))) ("js.arguments" ("js.arrow_function" (nostr) ("js.formal_parameters"  ("js.identifier" (val "i"))  ("js.identifier" (val "j")) (str ")"))  ("js.binary_expression" ("js.identifier" (val "i")) (str "-") ("js.identifier" (val "j")))))) ("js.property_identifier" (val "reverse"))) ("js.arguments")) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na.sort(reverse=False)\n[].sort(reverse=False)\n\n### JavaScript\n\na.sort((i, j) => i - j);\n[].sort((i, j) => i - j);\n"
+(match_expand
+  (fragment ("py.call" ("py.attribute" "."  ("py.identifier" (val "sort"))) ("py.argument_list"  ("py.keyword_argument" ("py.identifier" (val "reverse"))  ("py.false" )))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1" ("js.property_identifier" (val "sort"))) ("js.arguments" ("js.arrow_function" (nostr) ("js.formal_parameters"  ("js.identifier" (val "i"))  ("js.identifier" (val "j")) (str ")"))  ("js.binary_expression" ("js.identifier" (val "i")) (str "-") ("js.identifier" (val "j")))))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na.sort()\n[].sort()\n\n### JavaScript\n\na.sort((i, j) => i - j);\n[].sort((i, j) => i - j);\n"
+(match_expand
+  (fragment ("py.call" ("py.attribute" "."  ("py.identifier" (val "sort"))) ("py.argument_list")) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ".1" ("js.property_identifier" (val "sort"))) ("js.arguments" ("js.arrow_function" (nostr) ("js.formal_parameters"  ("js.identifier" (val "i"))  ("js.identifier" (val "j")) (str ")"))  ("js.binary_expression" ("js.identifier" (val "i")) (str "-") ("js.identifier" (val "j")))))) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nrange(4)\nrange(x)\n\n### JavaScript\n\nArray(4).keys();\nArray(x).keys();\n"
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "range")) ("py.argument_list" ".")) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.identifier" (val "Array")) ("js.arguments" ".1")) ("js.property_identifier" (val "keys"))) ("js.arguments")) "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nrange(1, x)\nrange(y, 6)\n\n### JavaScript\n\nArray.from(Array(Math.max(x - 1, 0)).keys()).map(_x => _x + 1);\nArray.from(Array(Math.max(6 - y, 0)).keys()).map(_x => _x + y);\n\n"
+; mark: {"source":[[4,0,4,11],[5,0,5,11]],"target":[[9,0,9,62],[10,0,10,62]]}
+(match_expand 
+  (fragment ("py.call" ("py.identifier" (val "range")) ("py.argument_list" (str "(") "." (str ",") "." (str ")"))) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Array")) (str ".") ("js.property_identifier" (val "from"))) ("js.arguments" (str "(") ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.identifier" (val "Array")) ("js.arguments" (str "(") ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Math")) (str ".") ("js.property_identifier" (val "max"))) ("js.arguments" (str "(") ("js.binary_expression" ".2" (str "-") ".1") (str ",") ("js.number" (val "0")) (str ")"))) (str ")"))) (str ".") ("js.property_identifier" (val "keys"))) ("js.arguments" (str "(") (str ")"))) (str ")"))) (str ".") ("js.property_identifier" (val "map"))) ("js.arguments" (str "(") ("js.arrow_function" (nostr) ("js.identifier" (val "_x")) (str "=>") ("js.binary_expression" ("js.identifier" (val "_x")) (str "+") ".1")) (str ")"))) "*3")
+)
+
+(match_expand
+  (fragment ("py.call" "*") "*")
+  (fragment ("js.call_expression" "*1") "*2"))
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\na if True else b\n1 if a == b else 0\n\n### JavaScript\n\ntrue ? a : b;\na === b ? 1 : 0;\n\n"
+(match_expand
+  (fragment ("py.conditional_expression" "."  "." ".") "*")
+  (fragment ("js.ternary_expression" ".2" ".1" ".3") "*4")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nglobal x\nglobal y\n\n### JavaScript\n\nif (global.x === undefined) global.x = null;\nif (global.y === undefined) global.y = null;\n"
+(match_expand
+  (fragment ("py.global_statement" (str "global") ("py.identifier" "_val_")) "*")
+  (fragment ("js.if_statement" 
+    ("js.parenthesized_expression" (str "(") ("js.binary_expression" ("js.member_expression" ("js.identifier" (val "global")) (str ".") ("js.property_identifier" "_val1_")) (str "===") ("js.undefined")) (str ")")) 
+    ("js.expression_statement" ("js.assignment_expression" ("js.member_expression" ("js.identifier" (val "global")) (str ".") ("js.property_identifier" "_val1_")) (str "=") ("js.null")))) "*1")
+)
+
+(match_expand
+  (fragment ("py.dictionary" "*") "*")
+  (fragment ("js.object" "*1") "*2")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\n[x for x in []]\n[y+y for y in a]\n\n### JavaScript\n\nArray.from([]).map(x => x);\nArray.from(a).map(y => y+y);\n\n"
+; mark: {"source":[[4,0,4,15],[5,0,5,16]],"target":[[9,0,9,26],[10,0,10,27]]}
+(match_expand 
+  (fragment ("py.list_comprehension" (str "[") "." ("py.for_in_clause" (str "for") ("py.identifier" "_val_") (str "in") ".") (str "]")) "*")
+  (fragment ("js.call_expression" ("js.member_expression" ("js.call_expression" ("js.member_expression" ("js.identifier" (val "Array")) (str ".") ("js.property_identifier" (val "from"))) ("js.arguments" (str "(") ".2" (str ")"))) (str ".") ("js.property_identifier" (val "map"))) ("js.arguments" (str "(") ("js.arrow_function" (nostr) ("js.identifier" "_val1_") (str "=>") ".1") (str ")"))) "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\n{x[\"id\"]:x for x in xs}\n{y:y*y for y in []}\n\n### JavaScript\n\nArray.from(xs).map((x) => [x[\"id\"], x]).reduce((a, b) => (a[b[0]] = b[1], a),{});\nArray.from([]).map((y) => [y, y*y]).reduce((a, b) => (a[b[0]] = b[1], a),{});\n"
+(match_expand
+  (fragment ("py.dictionary_comprehension"  
+    ("py.pair" "." ".") 
+    ("py.for_in_clause"  "." "."))
+  "*")
+  (fragment 
+    ("js.call_expression" 
+      ("js.member_expression" 
+        ("js.call_expression" 
+          ("js.member_expression" 
+            ("js.call_expression" 
+              ("js.member_expression" ("js.identifier" (val "Array"))  ("js.property_identifier" (val "from"))) 
+              ("js.arguments" ".4")
+            )  
+            ("js.property_identifier" (val "map"))
+          ) 
+          ("js.arguments" 
+            ("js.arrow_function" 
+              (nostr)
+              ("js.formal_parameters"  ".3" (str ")"))  
+              ("js.array"  ".1"  ".2")
+            ) 
+          )
+        )  
+        ("js.property_identifier" (val "reduce"))
+      ) 
+      ("js.arguments"  
+        ("js.arrow_function" 
+          (nostr)
+          ("js.formal_parameters"  ("js.identifier" (val "a"))  ("js.identifier" (val "b")) (str ")"))  
+          ("js.parenthesized_expression"  ("js.sequence_expression" ("js.assignment_expression" ("js.subscript_expression" ("js.identifier" (val "a")) (str "[")  ("js.subscript_expression" ("js.identifier" (val "b")) (str "[")  ("js.number" (val 0)) ) )  ("js.subscript_expression" ("js.identifier" (val "b")) (str "[") ("js.number" (val 1)) ))  ("js.identifier" (val "a"))) )
+        )  
+        ("js.object")
+      )
+    )
+  "*5")
+)
+
+(match_expand
+  (fragment ("py.escape_sequence" "_val_") "*")
+  (fragment ("js.escape_sequence" "_val1_") "*1")
+)
+
+(match_expand
+  (fragment ("py.default_parameter" "."  ".") "*")
+  (fragment ("js.assignment_pattern" ".1"  ".2") "*3")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nimport math\n\n### JavaScript\n\n;\n\n"
+(match_expand
+  (fragment ("py.import_statement"  ("py.dotted_name" ("py.identifier" (val "math")))) "*")
+  (fragment "*1")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nimport sys\n\n### JavaScript\n\n;\n\n"
+(match_expand
+  (fragment ("py.import_statement"  ("py.dotted_name" ("py.identifier" (val "sys")))) "*")
+  (fragment "*1")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nimport itertools\n\n### JavaScript\n\n;\n\n"
+(match_expand
+  (fragment ("py.import_statement" (str "import") ("py.dotted_name" ("py.identifier" (val "itertools")))) "*")
+  (fragment "*1")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nfrom math import floor\n\n### JavaScript\n\nlet floor = Math.floor;\n\n"
+(match_expand
+  (fragment ("py.import_from_statement"  ("py.dotted_name" ("py.identifier" (val "math")))  ("py.dotted_name" ("py.identifier" (val "floor")))) "*")
+  (fragment ("js.lexical_declaration"  ("js.variable_declarator" ("js.identifier" (val "floor"))  ("js.member_expression" ("js.identifier" (val "Math"))  ("js.property_identifier" (val "floor"))))) "*1")
+)
+
+; examples: "\n##### Translate this function from Python into JavaScript\n### Python\n\nfrom math import sqrt\n\n### JavaScript\n\nlet sqrt = Math.sqrt;\n\n"
+(match_expand
+  (fragment ("py.import_from_statement"  ("py.dotted_name" ("py.identifier" (val "math")))  ("py.dotted_name" ("py.identifier" (val "sqrt")))) "*")
+  (fragment ("js.lexical_declaration"  ("js.variable_declarator" ("js.identifier" (val "sqrt"))  ("js.member_expression" ("js.identifier" (val "Math"))  ("js.property_identifier" (val "sqrt"))))) "*1")
+)

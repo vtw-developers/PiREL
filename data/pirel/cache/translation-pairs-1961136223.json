@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(__: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(board: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(lst: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(matrix: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(lst: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(grid: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(grid) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(lst: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(data: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(data) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(lst: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(lst) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(table: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(table) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(matrix: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(grid: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(grid) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(matrix: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(data: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(data) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(matrix: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(matrix) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(table: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(table) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(grid: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(grid) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(data: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(data) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(grid: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(grid) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(table: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(table) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(data: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(data) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(table: List[List[str]]) -> bool:\n    some_secret_fn_4071()",
+        "target": "function f_gold(table) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

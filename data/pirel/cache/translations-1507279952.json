@@ -1,0 +1,23 @@
+{
+  "template": "def f_gold(prices: __[int]) -> int:\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "def f_gold(prices: List[int]) -> int:\n    some_secret_fn_4071()",
+  "translations": {
+    "def f_gold(prices: list[int]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(prices: List[int]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(prices: Tuple[int]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(prices: Set[int]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+    ],
+    "def f_gold(prices: Iterable[int]) -> int:\n    some_secret_fn_4071()": [
+      "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

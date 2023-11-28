@@ -1,0 +1,23 @@
+{
+  "template": "len(strs[__]) <= i or strs[__][i] != strs[0][i]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "len(strs[j]) <= i or strs[j][i] != strs[0][i]",
+  "translations": {
+    "len(strs[i]) <= i or strs[i][i] != strs[0][i]": [
+      "strs[i].length <= i || strs[i][i] !== strs[0][i]"
+    ],
+    "len(strs[__1]) <= i or strs[__2][i] != strs[0][i]": [
+      "strs[__1].length <= i || strs[__2][i] != strs[0][i];"
+    ],
+    "len(strs[__3]) <= i or strs[__4][i] != strs[0][i]": [
+      "strs[__3].length <= i || strs[__4][i] != strs[0][i]"
+    ],
+    "len(strs[__5]) <= i or strs[__6][i] != strs[0][i]": [
+      "strs[5].length <= i || strs[6][i] !== strs[0][i]"
+    ],
+    "len(strs[__7]) <= i or strs[__8][i] != strs[0][i]": [
+      "strs[__7].length <= i || strs[__8][i] !== strs[0][i]"
+    ]
+  }
+}

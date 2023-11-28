@@ -1,0 +1,471 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "-1 if __[i] == '-' else 1",
+  "template_origin": "-1 if s[i] == '-' else 1",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "-1 if nums[i] == '-' else 1",
+        "target": "nums[i] === '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if lst[i] == '-' else 1",
+        "target": "lst[i] === '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if nums[i] == '-' else 1",
+        "target": "nums[i] === '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if data[i] == '-' else 1",
+        "target": "data[i] === '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if nums[i] == '-' else 1",
+        "target": "nums[i] === '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if elements[i] == '-' else 1",
+        "target": "elements[i] === '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if nums[i] == '-' else 1",
+        "target": "nums[i] === '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if arr[i] == '-' else 1",
+        "target": "arr[i] === '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if lst[i] == '-' else 1",
+        "target": "lst[i] === '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if data[i] == '-' else 1",
+        "target": "data[i] === '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if lst[i] == '-' else 1",
+        "target": "lst[i] === '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if elements[i] == '-' else 1",
+        "target": "elements[i] === '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if lst[i] == '-' else 1",
+        "target": "lst[i] === '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if arr[i] == '-' else 1",
+        "target": "arr[i] === '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if data[i] == '-' else 1",
+        "target": "data[i] === '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if elements[i] == '-' else 1",
+        "target": "elements[i] === '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if data[i] == '-' else 1",
+        "target": "data[i] === '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if arr[i] == '-' else 1",
+        "target": "arr[i] === '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if values[i] == '-' else 1",
+        "target": "values[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if items[i] == '-' else 1",
+        "target": "items[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if values[i] == '-' else 1",
+        "target": "values[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if sequence[i] == '-' else 1",
+        "target": "sequence[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if values[i] == '-' else 1",
+        "target": "values[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if characters[i] == '-' else 1",
+        "target": "characters[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if values[i] == '-' else 1",
+        "target": "values[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if array[i] == '-' else 1",
+        "target": "array[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if values[i] == '-' else 1",
+        "target": "values[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if strings[i] == '-' else 1",
+        "target": "strings[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if values[i] == '-' else 1",
+        "target": "values[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if c[i] == '-' else 1",
+        "target": "c[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if values[i] == '-' else 1",
+        "target": "values[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if e[i] == '-' else 1",
+        "target": "e[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if values[i] == '-' else 1",
+        "target": "values[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if f[i] == '-' else 1",
+        "target": "f[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if elements[i] == '-' else 1",
+        "target": "elements[i] === '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if arr[i] == '-' else 1",
+        "target": "arr[i] === '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if items[i] == '-' else 1",
+        "target": "items[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if sequence[i] == '-' else 1",
+        "target": "sequence[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if items[i] == '-' else 1",
+        "target": "items[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if characters[i] == '-' else 1",
+        "target": "characters[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if items[i] == '-' else 1",
+        "target": "items[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if array[i] == '-' else 1",
+        "target": "array[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if items[i] == '-' else 1",
+        "target": "items[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if strings[i] == '-' else 1",
+        "target": "strings[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if items[i] == '-' else 1",
+        "target": "items[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if c[i] == '-' else 1",
+        "target": "c[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if items[i] == '-' else 1",
+        "target": "items[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if e[i] == '-' else 1",
+        "target": "e[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if items[i] == '-' else 1",
+        "target": "items[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if f[i] == '-' else 1",
+        "target": "f[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if sequence[i] == '-' else 1",
+        "target": "sequence[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if characters[i] == '-' else 1",
+        "target": "characters[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if sequence[i] == '-' else 1",
+        "target": "sequence[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if array[i] == '-' else 1",
+        "target": "array[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if sequence[i] == '-' else 1",
+        "target": "sequence[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if strings[i] == '-' else 1",
+        "target": "strings[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if sequence[i] == '-' else 1",
+        "target": "sequence[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if c[i] == '-' else 1",
+        "target": "c[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if sequence[i] == '-' else 1",
+        "target": "sequence[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if e[i] == '-' else 1",
+        "target": "e[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if sequence[i] == '-' else 1",
+        "target": "sequence[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if f[i] == '-' else 1",
+        "target": "f[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if characters[i] == '-' else 1",
+        "target": "characters[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if array[i] == '-' else 1",
+        "target": "array[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if characters[i] == '-' else 1",
+        "target": "characters[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if strings[i] == '-' else 1",
+        "target": "strings[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if characters[i] == '-' else 1",
+        "target": "characters[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if c[i] == '-' else 1",
+        "target": "c[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if characters[i] == '-' else 1",
+        "target": "characters[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if e[i] == '-' else 1",
+        "target": "e[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if characters[i] == '-' else 1",
+        "target": "characters[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if f[i] == '-' else 1",
+        "target": "f[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if array[i] == '-' else 1",
+        "target": "array[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if strings[i] == '-' else 1",
+        "target": "strings[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if array[i] == '-' else 1",
+        "target": "array[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if c[i] == '-' else 1",
+        "target": "c[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if array[i] == '-' else 1",
+        "target": "array[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if e[i] == '-' else 1",
+        "target": "e[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if array[i] == '-' else 1",
+        "target": "array[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if f[i] == '-' else 1",
+        "target": "f[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if strings[i] == '-' else 1",
+        "target": "strings[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if c[i] == '-' else 1",
+        "target": "c[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if strings[i] == '-' else 1",
+        "target": "strings[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if e[i] == '-' else 1",
+        "target": "e[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if strings[i] == '-' else 1",
+        "target": "strings[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if f[i] == '-' else 1",
+        "target": "f[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if c[i] == '-' else 1",
+        "target": "c[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if e[i] == '-' else 1",
+        "target": "e[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if c[i] == '-' else 1",
+        "target": "c[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if f[i] == '-' else 1",
+        "target": "f[i] == '-' ? -1 : 1;"
+      }
+    ],
+    [
+      {
+        "source": "-1 if e[i] == '-' else 1",
+        "target": "e[i] == '-' ? -1 : 1;"
+      },
+      {
+        "source": "-1 if f[i] == '-' else 1",
+        "target": "f[i] == '-' ? -1 : 1;"
+      }
+    ]
+  ]
+}

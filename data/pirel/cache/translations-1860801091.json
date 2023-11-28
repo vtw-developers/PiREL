@@ -1,0 +1,23 @@
+{
+  "template": "for __ in path.split('/'):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for s in path.split('/'):\n    some_secret_fn_4071()",
+  "translations": {
+    "for _ in path.split('/'):\n    some_secret_fn_4071()": [
+      "var pathArray = path.split('/');\nfor (var i = 0; i < pathArray.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for part in path.split('/'):\n    some_secret_fn_4071()": [
+      "var parts = path.split('/');\nfor (var i = 0; i < parts.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for p in path.split('/'):\n    some_secret_fn_4071()": [
+      "var path = path.split('/');\nfor (var i = 0; i < path.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for item in path.split('/'):\n    some_secret_fn_4071()": [
+      "var pathItems = path.split('/');\nfor (var i = 0; i < pathItems.length; i++) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for segment in path.split('/'):\n    some_secret_fn_4071()": [
+      "var segments = path.split('/');\nfor (var i = 0; i < segments.length; i++) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

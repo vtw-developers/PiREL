@@ -1,0 +1,51 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "from collections import __",
+  "template_origin": "from collections import defaultdict",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "from collections import abc",
+        "target": "const abc = require('collections');"
+      },
+      {
+        "source": "from collections import namedtuple",
+        "target": "const namedtuple = require('collections');"
+      }
+    ],
+    [
+      {
+        "source": "from collections import abc",
+        "target": "const abc = require('collections');"
+      },
+      {
+        "source": "from collections import namedtuple",
+        "target": "const namedtuple = require('collections');"
+      }
+    ],
+    [
+      {
+        "source": "from collections import abc",
+        "target": "const abc = require('collections');"
+      },
+      {
+        "source": "from collections import namedtuple",
+        "target": "const namedtuple = require('collections');"
+      }
+    ],
+    [
+      {
+        "source": "from collections import abc",
+        "target": "const abc = require('collections');"
+      },
+      {
+        "source": "from collections import namedtuple",
+        "target": "const namedtuple = require('collections');"
+      }
+    ]
+  ]
+}

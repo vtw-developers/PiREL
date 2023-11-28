@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "t in __ or t not in words",
+  "template_origin": "t in m1 or t not in words",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "t in my_tuple or t not in words",
+        "target": "my_tuple.includes(t) || !words.includes(t);"
+      },
+      {
+        "source": "t in my_collection or t not in words",
+        "target": "my_collection.includes(t) || !words.includes(t);"
+      }
+    ],
+    [
+      {
+        "source": "t in my_tuple or t not in words",
+        "target": "my_tuple.includes(t) || !words.includes(t);"
+      },
+      {
+        "source": "t in values or t not in words",
+        "target": "values.includes(t) || !words.includes(t);"
+      }
+    ],
+    [
+      {
+        "source": "t in my_collection or t not in words",
+        "target": "my_collection.includes(t) || !words.includes(t);"
+      },
+      {
+        "source": "t in values or t not in words",
+        "target": "values.includes(t) || !words.includes(t);"
+      }
+    ]
+  ]
+}

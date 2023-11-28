@@ -1,0 +1,17 @@
+{
+  "template": "l > j and __[l] == __[l + 1]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "l > j and nums[l] == nums[l + 1]",
+  "translations": {
+    "l > j and a[l] == a[l + 1]": [],
+    "l > j and b[l] == b[l + 1]": [
+      "l > j && b[l] == b[l + 1];"
+    ],
+    "l > j and c[l] == c[l + 1]": [],
+    "l > j and d[l] == d[l + 1]": [],
+    "l > j and e[l] == e[l + 1]": [
+      "l > j && e[l] == e[l + 1];"
+    ]
+  }
+}

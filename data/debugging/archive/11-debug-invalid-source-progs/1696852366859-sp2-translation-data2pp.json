@@ -1,0 +1,26 @@
+{
+  "sp1": "def f_gold(x: float, n: int) -> int:\n    return n",
+  "sp2": "def f_gold(arg1: int, n: int) -> int:\n    return n",
+  "cand_translation_sp1": "function f_gold(x, n) {\n    return n;\n}",
+  "raw_translations_sp2": [
+    "function f_gold(arg1, n) {\n    return n;\n}"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": [
+          "\"py.parameters\"",
+          "\"py.function_definition\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.formal_parameters\"",
+          "\"js.function_declaration\""
+        ]
+      }
+    }
+  ]
+}

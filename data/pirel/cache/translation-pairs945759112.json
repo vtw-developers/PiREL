@@ -1,0 +1,51 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for j in range(__, m1, -1):\n    some_secret_fn_4071()",
+  "template_origin": "for j in range(m2, m1, -1):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    6
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for j in range(m1, m1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let j = m1; j >= m1; j--) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(m5, m1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let j = m5; j >= m1; j--) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for j in range(m2, m1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let j = m2; j > m1; j--) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(m3, m1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let j = m3; j > m1; j--) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for j in range(m2, m1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let j = m2; j > m1; j--) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(m4, m1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let j = m4; j > m1; j--) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for j in range(m3, m1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let j = m3; j > m1; j--) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for j in range(m4, m1, -1):\n    some_secret_fn_4071()",
+        "target": "for (let j = m4; j > m1; j--) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

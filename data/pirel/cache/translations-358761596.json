@@ -1,0 +1,36 @@
+{
+  "template": "__ > nums[mid] and __ <= nums[r]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "target > nums[mid] and target <= nums[r]",
+  "translations": {
+    "nums > nums[mid] and nums <= nums[r]": [
+      "nums > nums[mid] && nums <= nums[r];"
+    ],
+    "nums < nums[mid] and nums <= nums[r]": [
+      "nums < nums[mid] && nums <= nums[r]"
+    ],
+    "nums >= nums[mid] and nums <= nums[r]": [
+      "nums >= nums[mid] && nums <= nums[r]"
+    ],
+    "nums <= nums[mid] and nums <= nums[r]": [],
+    "nums == nums[mid] and nums <= nums[r]": [
+      "nums === nums[mid] && nums <= nums[r];"
+    ],
+    "nums != nums[mid] and nums <= nums[r]": [
+      "nums !== nums[mid] && nums <= nums[r];"
+    ],
+    "nums is nums[mid] and nums <= nums[r]": [
+      "nums[mid] && nums[mid] <= nums[r]"
+    ],
+    "nums in nums[mid] and nums <= nums[r]": [
+      "nums.includes(nums[mid]) && nums <= nums[r];"
+    ],
+    "a > nums[mid] and a <= nums[r]": [
+      "a > nums[mid] && a <= nums[r]"
+    ],
+    "b > nums[mid] and b <= nums[r]": [
+      "b > nums[mid] && b <= nums[r]"
+    ]
+  }
+}

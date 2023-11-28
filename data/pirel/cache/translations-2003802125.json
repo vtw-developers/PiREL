@@ -1,0 +1,23 @@
+{
+  "template": "for __, h in enumerate(heights):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for i, h in enumerate(heights):\n    some_secret_fn_4071()",
+  "translations": {
+    "for i, h in enumerate(heights):\n    some_secret_fn_4071()": [
+      "for (let i = 0; i < heights.length; i++) {\n    const h = heights[i];\n    some_secret_fn_4071();\n}"
+    ],
+    "for idx, h in enumerate(heights):\n    some_secret_fn_4071()": [
+      "for (let idx = 0; idx < heights.length; idx++) {\n    let h = heights[idx];\n    some_secret_fn_4071();\n}"
+    ],
+    "for num, h in enumerate(heights):\n    some_secret_fn_4071()": [
+      "for (let num = 0; num < heights.length; num++) {\n    const h = heights[num];\n    some_secret_fn_4071();\n}"
+    ],
+    "for x, h in enumerate(heights):\n    some_secret_fn_4071()": [
+      "for (let x = 0; x < heights.length; x++) {\n    let h = heights[x];\n    some_secret_fn_4071();\n}"
+    ],
+    "for count, h in enumerate(heights):\n    some_secret_fn_4071()": [
+      "for (let count = 0; count < heights.length; count++) {\n    let h = heights[count];\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

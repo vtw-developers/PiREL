@@ -1,0 +1,4 @@
+[
+  "(match_expand\n  (fragment (\"py.binary_operator\" (\"py.identifier\" \"_val_\") (str \"-\") (\"py.identifier\" \"_val_\")) \"*\")\n  (fragment (\"js.binary_expression\" (\"js.identifier\" \"_val1_\") (str \"-\") (\"js.identifier\" \"_val2_\")) \"*1\")\n)",
+  "(match_expand\n  (fragment (\"py.binary_operator\" (\"py.identifier\" \"_val_\") (str \"-\") (\"py.identifier\" \"_val_\")) \"*\")\n  (fragment (\"js.binary_expression\" (\"js.identifier\" \"_val1_\") (str \"-\") (\"js.identifier\" \"_val2_\")) \"*1\")\n)"
+]

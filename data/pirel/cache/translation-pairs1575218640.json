@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__, y = divmod(mid, n)",
+  "template_origin": "x, y = divmod(mid, n)",
+  "templatized_node_ids": [
+    4
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "temp, y = divmod(mid, n)",
+        "target": "let [temp, y] = [Math.floor(mid / n), mid % n];"
+      },
+      {
+        "source": "result, y = divmod(mid, n)",
+        "target": "let [result, y] = [Math.floor(mid / n), mid % n];"
+      }
+    ],
+    [
+      {
+        "source": "temp, y = divmod(mid, n)",
+        "target": "let [temp, y] = [Math.floor(mid / n), mid % n];"
+      },
+      {
+        "source": "value, y = divmod(mid, n)",
+        "target": "let [value, y] = [Math.floor(mid / n), mid % n];"
+      }
+    ],
+    [
+      {
+        "source": "result, y = divmod(mid, n)",
+        "target": "let [result, y] = [Math.floor(mid / n), mid % n];"
+      },
+      {
+        "source": "value, y = divmod(mid, n)",
+        "target": "let [value, y] = [Math.floor(mid / n), mid % n];"
+      }
+    ]
+  ]
+}

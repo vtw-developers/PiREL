@@ -1,0 +1,42 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "return [i ^ (i >> __) for i in range(__ << n)]",
+  "template_origin": "return [i ^ (i >> 1) for i in range(1 << n)]",
+  "templatized_node_ids": [
+    8,
+    15
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "return [i ^ (i >> 3) for i in range(8 << n)]",
+        "target": "function f_gold(n) {\n    var result = [];\n    for (var i = 0; i < (8 << n); i++) {\n        result.push(i ^ (i >> 3));\n    }\n    return result;\n}"
+      },
+      {
+        "source": "return [i ^ (i >> 4) for i in range(16 << n)]",
+        "target": "function f_gold(n) {\n    var result = [];\n    for (var i = 0; i < (16 << n); i++) {\n        result.push(i ^ (i >> 4));\n    }\n    return result;\n}"
+      }
+    ],
+    [
+      {
+        "source": "return [i ^ (i >> 3) for i in range(8 << n)]",
+        "target": "function f_gold(n) {\n    var result = [];\n    for (var i = 0; i < (8 << n); i++) {\n        result.push(i ^ (i >> 3));\n    }\n    return result;\n}"
+      },
+      {
+        "source": "return [i ^ (i >> 5) for i in range(32 << n)]",
+        "target": "function f_gold(n) {\n    var result = [];\n    for (var i = 0; i < (32 << n); i++) {\n        result.push(i ^ (i >> 5));\n    }\n    return result;\n}"
+      }
+    ],
+    [
+      {
+        "source": "return [i ^ (i >> 4) for i in range(16 << n)]",
+        "target": "function f_gold(n) {\n    var result = [];\n    for (var i = 0; i < (16 << n); i++) {\n        result.push(i ^ (i >> 4));\n    }\n    return result;\n}"
+      },
+      {
+        "source": "return [i ^ (i >> 5) for i in range(32 << n)]",
+        "target": "function f_gold(n) {\n    var result = [];\n    for (var i = 0; i < (32 << n); i++) {\n        result.push(i ^ (i >> 5));\n    }\n    return result;\n}"
+      }
+    ]
+  ]
+}

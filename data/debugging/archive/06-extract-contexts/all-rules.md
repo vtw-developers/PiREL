@@ -1,0 +1,44 @@
+(match_expand
+  (fragment ("py.module" "*"))
+  (fragment ("js.program" "*1"))
+)
+
+(match_expand
+  (fragment ("py.function_definition" (str "def") "*") "*")
+  (fragment ("js.function_declaration" (str "function") "*1") "*2")
+)
+
+(match_expand
+  (fragment ("py.identifier" "_val_") "*")
+  (fragment ("js.identifier" "_val1_") "*1")
+)
+
+(match_expand
+  (fragment ("py.parameters" "*") "*")
+  (fragment ("js.formal_parameters" "*1") "*2")
+)
+
+(match_expand
+  (fragment ("py.block" "*") "*")
+  (fragment ("js.statement_block" "*1") "*2")
+)
+
+(match_expand
+  (fragment ("py.expression_statement" ("py.assignment" ("py.identifier" "_val_") (str "=") ".")) "*")
+  (fragment ("js.lexical_declaration" (str "let") ("js.variable_declarator" ("js.identifier" "_val1_") (str "=") ".1") (str ";")) "*2")
+)
+
+(match_expand
+  (fragment ("py.conditional_expression" "." (str "if") "." (str "else") ".") "*")
+  (fragment ("js.ternary_expression" ".2" (str "?") ".1" (str ":") ".3") "*4")
+)
+
+(match_expand
+  (fragment ("py.comparison_operator" "." (str "<") ".") "*")
+  (fragment ("js.binary_expression" ".1" (str "<") ".2") "*3")
+)
+
+(match_expand
+  (fragment ("py.binary_operator" "." (str "-") ".") "*")
+  (fragment ("js.binary_expression" ".1" (str "-") ".2") "*3")
+)

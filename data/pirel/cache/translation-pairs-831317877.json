@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "(num >> __ & 1 for num in nums)",
+  "template_origin": "(num >> i & 1 for num in nums)",
+  "templatized_node_ids": [
+    6
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "(num >> i & 1 for num in nums)",
+        "target": "nums.map(num => (num >> i) & 1);"
+      },
+      {
+        "source": "(num >> j & 1 for num in nums)",
+        "target": "nums.map(num => (num >> j) & 1);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> i & 1 for num in nums)",
+        "target": "nums.map(num => (num >> i) & 1);"
+      },
+      {
+        "source": "(num >> k & 1 for num in nums)",
+        "target": "nums.map(num => (num >> k) & 1);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> i & 1 for num in nums)",
+        "target": "nums.map(num => (num >> i) & 1);"
+      },
+      {
+        "source": "(num >> x & 1 for num in nums)",
+        "target": "nums.map(num => (num >> x) & 1);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> i & 1 for num in nums)",
+        "target": "nums.map(num => (num >> i) & 1);"
+      },
+      {
+        "source": "(num >> y & 1 for num in nums)",
+        "target": "nums.map(num => (num >> y) & 1);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> j & 1 for num in nums)",
+        "target": "nums.map(num => (num >> j) & 1);"
+      },
+      {
+        "source": "(num >> k & 1 for num in nums)",
+        "target": "nums.map(num => (num >> k) & 1);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> j & 1 for num in nums)",
+        "target": "nums.map(num => (num >> j) & 1);"
+      },
+      {
+        "source": "(num >> x & 1 for num in nums)",
+        "target": "nums.map(num => (num >> x) & 1);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> j & 1 for num in nums)",
+        "target": "nums.map(num => (num >> j) & 1);"
+      },
+      {
+        "source": "(num >> y & 1 for num in nums)",
+        "target": "nums.map(num => (num >> y) & 1);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> k & 1 for num in nums)",
+        "target": "nums.map(num => (num >> k) & 1);"
+      },
+      {
+        "source": "(num >> x & 1 for num in nums)",
+        "target": "nums.map(num => (num >> x) & 1);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> k & 1 for num in nums)",
+        "target": "nums.map(num => (num >> k) & 1);"
+      },
+      {
+        "source": "(num >> y & 1 for num in nums)",
+        "target": "nums.map(num => (num >> y) & 1);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> x & 1 for num in nums)",
+        "target": "nums.map(num => (num >> x) & 1);"
+      },
+      {
+        "source": "(num >> y & 1 for num in nums)",
+        "target": "nums.map(num => (num >> y) & 1);"
+      }
+    ]
+  ]
+}

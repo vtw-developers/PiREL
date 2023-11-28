@@ -1,0 +1,23 @@
+docker-backend-duoglotcore-1  | ++++++++++++  set self.expansion_programs
+docker-backend-duoglotcore-1  | # _fetch_parser cloning from checkpoint: 0
+docker-backend-duoglotcore-1  | ############## traceback ##############
+docker-backend-duoglotcore-1  | Traceback (most recent call last):
+docker-backend-duoglotcore-1  |   File "/opt/duoglotcore-server/grammar_expand.py", line 1505, in get_translation
+docker-backend-duoglotcore-1  |     next_alt_node_dict = _get_or_create_next_alt_inner_fun(current_alt_node_dict)
+docker-backend-duoglotcore-1  |   File "/opt/duoglotcore-server/grammar_expand.py", line 1438, in _get_or_create_next_alt_inner_fun
+docker-backend-duoglotcore-1  |     next_alt_node_dict = self._get_or_create_alt_node(alt_node, slot_expan_idx)
+docker-backend-duoglotcore-1  |   File "/opt/duoglotcore-server/grammar_expand.py", line 327, in _get_or_create_alt_node
+docker-backend-duoglotcore-1  |     templates_dict: dict = self.pirel_get_templates(new_node_corres_slot_id, slot_expan_idx)
+docker-backend-duoglotcore-1  |   File "/opt/duoglotcore-server/grammar_expand.py", line 367, in pirel_get_templates
+docker-backend-duoglotcore-1  |     contexts = self.pirel_get_all_contexts(slot_id)
+docker-backend-duoglotcore-1  |   File "/opt/duoglotcore-server/grammar_expand.py", line 410, in pirel_get_all_contexts
+docker-backend-duoglotcore-1  |     source_context, target_context = self.pirel_get_contexts_for_slot(problematic_slot_id)
+docker-backend-duoglotcore-1  |   File "/opt/duoglotcore-server/grammar_expand.py", line 537, in pirel_get_contexts_for_slot
+docker-backend-duoglotcore-1  |     source_paths, target_paths = _get_source_target_paths(cursor_expansion, previous_slot)
+docker-backend-duoglotcore-1  |   File "/opt/duoglotcore-server/grammar_expand.py", line 494, in _get_source_target_paths
+docker-backend-duoglotcore-1  |     target_path = phnode_expand.get_path_to_root(expansion)
+docker-backend-duoglotcore-1  |   File "/opt/duoglotcore-server/s_data_structures.py", line 1113, in get_path_to_root
+docker-backend-duoglotcore-1  |     cursor_path = _get_path(cursor_node, expansion)
+docker-backend-duoglotcore-1  |   File "/opt/duoglotcore-server/s_data_structures.py", line 1079, in _get_path
+docker-backend-duoglotcore-1  |     raise RuntimeError('should not happen')
+docker-backend-duoglotcore-1  | RuntimeError: should not happen

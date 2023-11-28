@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "return y * y if (n & 1) == 0 else y * y * __",
+  "template_origin": "return y * y if (n & 1) == 0 else y * y * x",
+  "templatized_node_ids": [
+    16
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * x",
+        "target": "return (n & 1) === 0 ? y * y : y * y * x;"
+      },
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * z",
+        "target": "return (n & 1) === 0 ? y * y : y * y * z;"
+      }
+    ],
+    [
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * x",
+        "target": "return (n & 1) === 0 ? y * y : y * y * x;"
+      },
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * y",
+        "target": "return (n & 1) === 0 ? y * y : y * y * y;"
+      }
+    ],
+    [
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * x",
+        "target": "return (n & 1) === 0 ? y * y : y * y * x;"
+      },
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * n",
+        "target": "return (n & 1) === 0 ? y * y : y * y * n;"
+      }
+    ],
+    [
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * x",
+        "target": "return (n & 1) === 0 ? y * y : y * y * x;"
+      },
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * a",
+        "target": "return (n & 1) === 0 ? y * y : y * y * a;"
+      }
+    ],
+    [
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * z",
+        "target": "return (n & 1) === 0 ? y * y : y * y * z;"
+      },
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * y",
+        "target": "return (n & 1) === 0 ? y * y : y * y * y;"
+      }
+    ],
+    [
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * z",
+        "target": "return (n & 1) === 0 ? y * y : y * y * z;"
+      },
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * n",
+        "target": "return (n & 1) === 0 ? y * y : y * y * n;"
+      }
+    ],
+    [
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * z",
+        "target": "return (n & 1) === 0 ? y * y : y * y * z;"
+      },
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * a",
+        "target": "return (n & 1) === 0 ? y * y : y * y * a;"
+      }
+    ],
+    [
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * y",
+        "target": "return (n & 1) === 0 ? y * y : y * y * y;"
+      },
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * n",
+        "target": "return (n & 1) === 0 ? y * y : y * y * n;"
+      }
+    ],
+    [
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * y",
+        "target": "return (n & 1) === 0 ? y * y : y * y * y;"
+      },
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * a",
+        "target": "return (n & 1) === 0 ? y * y : y * y * a;"
+      }
+    ],
+    [
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * n",
+        "target": "return (n & 1) === 0 ? y * y : y * y * n;"
+      },
+      {
+        "source": "return y * y if (n & 1) == 0 else y * y * a",
+        "target": "return (n & 1) === 0 ? y * y : y * y * a;"
+      }
+    ]
+  ]
+}

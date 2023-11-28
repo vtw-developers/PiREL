@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__, ed = intervals[0]",
+  "template_origin": "st, ed = intervals[0]",
+  "templatized_node_ids": [
+    4
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "i, ed = intervals[0]",
+        "target": "let [i, ed] = intervals[0];"
+      },
+      {
+        "source": "x, ed = intervals[0]",
+        "target": "let [x, ed] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "i, ed = intervals[0]",
+        "target": "let [i, ed] = intervals[0];"
+      },
+      {
+        "source": "start, ed = intervals[0]",
+        "target": "let [start, ed] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "i, ed = intervals[0]",
+        "target": "let [i, ed] = intervals[0];"
+      },
+      {
+        "source": "first, ed = intervals[0]",
+        "target": "let [first, ed] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "i, ed = intervals[0]",
+        "target": "let [i, ed] = intervals[0];"
+      },
+      {
+        "source": "a, ed = intervals[0]",
+        "target": "let [a, ed] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "x, ed = intervals[0]",
+        "target": "let [x, ed] = intervals[0];"
+      },
+      {
+        "source": "start, ed = intervals[0]",
+        "target": "let [start, ed] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "x, ed = intervals[0]",
+        "target": "let [x, ed] = intervals[0];"
+      },
+      {
+        "source": "first, ed = intervals[0]",
+        "target": "let [first, ed] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "x, ed = intervals[0]",
+        "target": "let [x, ed] = intervals[0];"
+      },
+      {
+        "source": "a, ed = intervals[0]",
+        "target": "let [a, ed] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "start, ed = intervals[0]",
+        "target": "let [start, ed] = intervals[0];"
+      },
+      {
+        "source": "first, ed = intervals[0]",
+        "target": "let [first, ed] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "start, ed = intervals[0]",
+        "target": "let [start, ed] = intervals[0];"
+      },
+      {
+        "source": "a, ed = intervals[0]",
+        "target": "let [a, ed] = intervals[0];"
+      }
+    ],
+    [
+      {
+        "source": "first, ed = intervals[0]",
+        "target": "let [first, ed] = intervals[0];"
+      },
+      {
+        "source": "a, ed = intervals[0]",
+        "target": "let [a, ed] = intervals[0];"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "__ <= right and top <= bottom",
+  "template_origin": "left <= right and top <= bottom",
+  "templatized_node_ids": [
+    4
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "x <= right and top <= bottom",
+        "target": "x <= right && top <= bottom"
+      },
+      {
+        "source": "value <= right and top <= bottom",
+        "target": "value <= right && top <= bottom"
+      }
+    ],
+    [
+      {
+        "source": "x <= right and top <= bottom",
+        "target": "x <= right && top <= bottom"
+      },
+      {
+        "source": "condition <= right and top <= bottom",
+        "target": "condition <= right && top <= bottom"
+      }
+    ],
+    [
+      {
+        "source": "x <= right and top <= bottom",
+        "target": "x <= right && top <= bottom"
+      },
+      {
+        "source": "test <= right and top <= bottom",
+        "target": "test <= right && top <= bottom"
+      }
+    ],
+    [
+      {
+        "source": "value <= right and top <= bottom",
+        "target": "value <= right && top <= bottom"
+      },
+      {
+        "source": "condition <= right and top <= bottom",
+        "target": "condition <= right && top <= bottom"
+      }
+    ],
+    [
+      {
+        "source": "value <= right and top <= bottom",
+        "target": "value <= right && top <= bottom"
+      },
+      {
+        "source": "test <= right and top <= bottom",
+        "target": "test <= right && top <= bottom"
+      }
+    ],
+    [
+      {
+        "source": "condition <= right and top <= bottom",
+        "target": "condition <= right && top <= bottom"
+      },
+      {
+        "source": "test <= right and top <= bottom",
+        "target": "test <= right && top <= bottom"
+      }
+    ]
+  ]
+}

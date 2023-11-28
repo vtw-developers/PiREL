@@ -1,0 +1,22 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.return_statement\"",
+        "\".\""
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      [
+        "\"js.return_statement\"",
+        "\".1\""
+      ],
+      "\"*2\""
+    ]
+  ]
+}

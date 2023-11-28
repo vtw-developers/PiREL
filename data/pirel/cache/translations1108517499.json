@@ -1,0 +1,19 @@
+{
+  "template": "__[mid] < __[r] or __[mid] < __[l]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "nums[mid] < nums[r] or nums[mid] < nums[l]",
+  "translations": {
+    "x[mid] < x[r] or x[mid] < x[l]": [
+      "x[mid] < x[r] || x[mid] < x[l]"
+    ],
+    "var[mid] < var[r] or var[mid] < var[l]": [
+      "mid < r || mid < l"
+    ],
+    "a[mid] < a[r] or a[mid] < a[l]": [],
+    "b[mid] < b[r] or b[mid] < b[l]": [],
+    "c[mid] < c[r] or c[mid] < c[l]": [
+      "c[mid] < c[r] || c[mid] < c[l]"
+    ]
+  }
+}

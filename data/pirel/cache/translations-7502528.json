@@ -1,0 +1,23 @@
+{
+  "template": "len(__) > 1 and __[-1] == 0",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "len(res) > 1 and res[-1] == 0",
+  "translations": {
+    "len(my_list) > 1 and my_list[-1] == 0": [
+      "my_list.length > 1 && my_list[my_list.length - 1] == 0;"
+    ],
+    "len(arr) > 1 and arr[-1] == 0": [
+      "arr.length > 1 && arr[arr.length - 1] === 0"
+    ],
+    "len(numbers) > 1 and numbers[-1] == 0": [
+      "numbers.length > 1 && numbers[numbers.length - 1] == 0;"
+    ],
+    "len(data) > 1 and data[-1] == 0": [
+      "data.length > 1 && data[data.length - 1] == 0"
+    ],
+    "len(items) > 1 and items[-1] == 0": [
+      "items.length > 1 && items[items.length - 1] == 0"
+    ]
+  }
+}

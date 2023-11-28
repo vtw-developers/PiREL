@@ -1,0 +1,22 @@
+{
+  "match": [
+    [
+      "fragment",
+      [
+        "\"py.integer\"",
+        "\"_val_\""
+      ],
+      "\"*\""
+    ]
+  ],
+  "expand": [
+    [
+      "fragment",
+      [
+        "\"js.number\"",
+        "\"_val1_\""
+      ],
+      "\"*1\""
+    ]
+  ]
+}

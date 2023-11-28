@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "(num >> i & 1 for num in __)",
+  "template_origin": "(num >> i & 1 for num in nums)",
+  "templatized_node_ids": [
+    10
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "(num >> i & 1 for num in array)",
+        "target": "array.map(num => (num >> i) & 1);"
+      },
+      {
+        "source": "(num >> i & 1 for num in numbers)",
+        "target": "numbers.map(num => (num >> i) & 1);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> i & 1 for num in array)",
+        "target": "array.map(num => (num >> i) & 1);"
+      },
+      {
+        "source": "(num >> i & 1 for num in values)",
+        "target": "values.map(num => (num >> i) & 1);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> i & 1 for num in array)",
+        "target": "array.map(num => (num >> i) & 1);"
+      },
+      {
+        "source": "(num >> i & 1 for num in sequence)",
+        "target": "sequence.map(num => (num >> i) & 1);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> i & 1 for num in numbers)",
+        "target": "numbers.map(num => (num >> i) & 1);"
+      },
+      {
+        "source": "(num >> i & 1 for num in values)",
+        "target": "values.map(num => (num >> i) & 1);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> i & 1 for num in numbers)",
+        "target": "numbers.map(num => (num >> i) & 1);"
+      },
+      {
+        "source": "(num >> i & 1 for num in sequence)",
+        "target": "sequence.map(num => (num >> i) & 1);"
+      }
+    ],
+    [
+      {
+        "source": "(num >> i & 1 for num in values)",
+        "target": "values.map(num => (num >> i) & 1);"
+      },
+      {
+        "source": "(num >> i & 1 for num in sequence)",
+        "target": "sequence.map(num => (num >> i) & 1);"
+      }
+    ]
+  ]
+}

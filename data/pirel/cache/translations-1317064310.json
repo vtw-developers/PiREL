@@ -1,0 +1,21 @@
+{
+  "template": "strs[0][:__]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "strs[0][:i]",
+  "translations": {
+    "strs[0][:__]": [
+      "strs[0].slice(0, __);"
+    ],
+    "strs[0][:strs]": [
+      "strs[0].substring(0, strs.length);"
+    ],
+    "strs[0][:n]": [
+      "strs[0].substring(0, n);"
+    ],
+    "strs[0][:i]": [],
+    "strs[0][:length]": [
+      "strs[0].substring(0, length);"
+    ]
+  }
+}

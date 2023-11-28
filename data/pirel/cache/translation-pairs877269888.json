@@ -1,0 +1,4101 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[chars[int(d) - __] for d in digits]",
+  "template_origin": "[chars[int(d) - 2] for d in digits]",
+  "templatized_node_ids": [
+    10
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "var result = digits.map(function(d) {\n    return chars[parseInt(d) - 1];\n});"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "var result = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "var result = digits.map(function(d) {\n    return chars[parseInt(d) - 1];\n});"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "var result = digits.map(function(d) {\n    return chars[parseInt(d) - 5];\n});"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[Number(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 1] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 1]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "var result = digits.map(function(d) {\n    return chars[parseInt(d) - 2];\n});"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "var result = digits.map(function(d) {\n    return chars[parseInt(d) - 5];\n});"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 2] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 2]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 3] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 3]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 4]);"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "digits.map(d => chars[parseInt(d) - 5]);"
+      }
+    ],
+    [
+      {
+        "source": "[chars[int(d) - 4] for d in digits]",
+        "target": "var result = [];\nfor (var i = 0; i < digits.length; i++) {\n    var d = digits[i];\n    result.push(chars[parseInt(d) - 4]);\n}"
+      },
+      {
+        "source": "[chars[int(d) - 5] for d in digits]",
+        "target": "var result = [];\nfor (var i = 0; i < digits.length; i++) {\n    var d = digits[i];\n    result.push(chars[parseInt(d) - 5]);\n}"
+      }
+    ]
+  ]
+}

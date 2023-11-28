@@ -1,0 +1,32 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "len(__) > 1 and __[-1] == 0",
+  "template_origin": "len(res) > 1 and res[-1] == 0",
+  "templatized_node_ids": [
+    7,
+    11
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "len(my_list) > 1 and my_list[-1] == 0",
+        "target": "my_list.length > 1 && my_list[my_list.length - 1] == 0;"
+      },
+      {
+        "source": "len(numbers) > 1 and numbers[-1] == 0",
+        "target": "numbers.length > 1 && numbers[numbers.length - 1] == 0;"
+      }
+    ],
+    [
+      {
+        "source": "len(data) > 1 and data[-1] == 0",
+        "target": "data.length > 1 && data[data.length - 1] == 0"
+      },
+      {
+        "source": "len(items) > 1 and items[-1] == 0",
+        "target": "items.length > 1 && items[items.length - 1] == 0"
+      }
+    ]
+  ]
+}

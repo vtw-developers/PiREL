@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums[__] < target <= nums[n - 1]",
+  "template_origin": "nums[mid] < target <= nums[n - 1]",
+  "templatized_node_ids": [
+    5
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums[i] < target <= nums[n - 1]",
+        "target": "nums[i] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "nums[j] < target <= nums[n - 1]",
+        "target": "nums[j] < target && target <= nums[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[i] < target <= nums[n - 1]",
+        "target": "nums[i] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "nums[index] < target <= nums[n - 1]",
+        "target": "nums[index] < target && target <= nums[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[i] < target <= nums[n - 1]",
+        "target": "nums[i] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "nums[idx] < target <= nums[n - 1]",
+        "target": "nums[idx] < target && target <= nums[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[i] < target <= nums[n - 1]",
+        "target": "nums[i] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "nums[x] < target <= nums[n - 1]",
+        "target": "nums[x] < target && target <= nums[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[j] < target <= nums[n - 1]",
+        "target": "nums[j] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "nums[index] < target <= nums[n - 1]",
+        "target": "nums[index] < target && target <= nums[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[j] < target <= nums[n - 1]",
+        "target": "nums[j] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "nums[idx] < target <= nums[n - 1]",
+        "target": "nums[idx] < target && target <= nums[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[j] < target <= nums[n - 1]",
+        "target": "nums[j] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "nums[x] < target <= nums[n - 1]",
+        "target": "nums[x] < target && target <= nums[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[index] < target <= nums[n - 1]",
+        "target": "nums[index] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "nums[idx] < target <= nums[n - 1]",
+        "target": "nums[idx] < target && target <= nums[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[index] < target <= nums[n - 1]",
+        "target": "nums[index] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "nums[x] < target <= nums[n - 1]",
+        "target": "nums[x] < target && target <= nums[n - 1];"
+      }
+    ],
+    [
+      {
+        "source": "nums[idx] < target <= nums[n - 1]",
+        "target": "nums[idx] < target && target <= nums[n - 1];"
+      },
+      {
+        "source": "nums[x] < target <= nums[n - 1]",
+        "target": "nums[x] < target && target <= nums[n - 1];"
+      }
+    ]
+  ]
+}

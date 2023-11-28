@@ -1,0 +1,23 @@
+{
+  "template": "len(__[j]) <= i or __[j][i] != __[0][i]",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "len(strs[j]) <= i or strs[j][i] != strs[0][i]",
+  "translations": {
+    "len(arr[j]) <= i or arr[j][i] != arr[0][i]": [
+      "arr[j].length <= i || arr[j][i] !== arr[0][i]"
+    ],
+    "len(lst[j]) <= i or lst[j][i] != lst[0][i]": [
+      "lst[j].length <= i || lst[j][i] !== lst[0][i]"
+    ],
+    "len(data[j]) <= i or data[j][i] != data[0][i]": [
+      "data[j].length <= i || data[j][i] !== data[0][i]"
+    ],
+    "len(matrix[j]) <= i or matrix[j][i] != matrix[0][i]": [
+      "matrix[j].length <= i || matrix[j][i] !== matrix[0][i]"
+    ],
+    "len(items[j]) <= i or items[j][i] != items[0][i]": [
+      "items[j].length <= i || items[j][i] !== items[0][i]"
+    ]
+  }
+}

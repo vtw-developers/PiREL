@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "k > i and nums[k] == nums[k + __]",
+  "template_origin": "k > i and nums[k] == nums[k + 1]",
+  "templatized_node_ids": [
+    14
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "k > i and nums[k] == nums[k + 4]",
+        "target": "k > i && nums[k] == nums[k + 4]"
+      },
+      {
+        "source": "k > i and nums[k] == nums[k + 5]",
+        "target": "k > i && nums[k] == nums[k + 5]"
+      }
+    ]
+  ]
+}

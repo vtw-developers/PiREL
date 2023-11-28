@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums[0] <= __ <= nums[mid]",
+  "template_origin": "nums[0] <= target <= nums[mid]",
+  "templatized_node_ids": [
+    6
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums[0] <= value <= nums[mid]",
+        "target": "nums[0] <= value && value <= nums[mid];"
+      },
+      {
+        "source": "nums[0] <= num <= nums[mid]",
+        "target": "nums[0] <= num && num <= nums[mid];"
+      }
+    ]
+  ]
+}

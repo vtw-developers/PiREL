@@ -1,0 +1,39 @@
+[
+  "js.program",
+  0,
+  [
+    "js.function_declaration",
+    5,
+    "\"function\"",
+    [
+      "js.identifier",
+      6,
+      "\"f_gold\""
+    ],
+    [
+      "js.formal_parameters",
+      7,
+      "\"(\"",
+      [
+        "js.identifier",
+        8,
+        "\"nums1\""
+      ],
+      "\",\"",
+      [
+        "js.identifier",
+        9,
+        "\"nums2\""
+      ],
+      "\",\"",
+      "\")\""
+    ],
+    [
+      "js.statement_block",
+      10,
+      [
+        "block children"
+      ]
+    ]
+  ]
+]

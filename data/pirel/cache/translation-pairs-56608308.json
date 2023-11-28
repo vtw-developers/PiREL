@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "def f_gold(prices: __[int]) -> int:\n    some_secret_fn_4071()",
+  "template_origin": "def f_gold(prices: List[int]) -> int:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    8
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "def f_gold(prices: list[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(prices: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(prices: list[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(prices: Tuple[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(prices: list[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(prices: Set[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(prices: list[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(prices: Iterable[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(prices: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(prices: Tuple[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(prices: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(prices: Set[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(prices: List[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(prices: Iterable[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(prices: Tuple[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(prices: Set[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(prices: Tuple[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(prices: Iterable[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "def f_gold(prices: Set[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "def f_gold(prices: Iterable[int]) -> int:\n    some_secret_fn_4071()",
+        "target": "function f_gold(prices) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

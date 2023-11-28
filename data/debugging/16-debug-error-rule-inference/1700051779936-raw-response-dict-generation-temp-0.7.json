@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-8L9PhOVs7tqSjl8kIKyQVhJko1hUd",
+  "object": "chat.completion",
+  "created": 1700051765,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1. Filled with identifiers:\n```python\nfor i, val in enumerate(numbers):\n    secret_fun_4071()\n```\n\n2. Filled with literals:\n```python\nfor 0 in enumerate(\"Hello\"):\n    secret_fun_4071()\n```\n\n3. Filled with different elements:\n```python\nfor i, val in enumerate([1,2,3,4,5]):\n    secret_fun_4071()\n```\n\n4. Filled with different language elements:\n```python\nfor i in enumerate({1:'one', 2:'two', 3:'three'}):\n    secret_fun_4071()\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 1,
+      "message": {
+        "role": "assistant",
+        "content": "1. Identifier variant:\n```\nfor i, value in enumerate(nums):\n    secret_fun_4071()\n```\n\n2. Literal variant:\n```\nfor i, value in enumerate([1,2,3,4,5]):\n    secret_fun_4071()\n```\n\n3. Other variant:\n```\nfor i, value in enumerate(\"Hello\"):\n    secret_fun_4071()\n```\n\n4. Different language element variant:\n```\nfor i, value in enumerate({\"a\": 1, \"b\": 2, \"c\": 3}):\n    secret_fun_4071()\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 2,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nfor i, item in enumerate(my_list):\n    secret_fun_4071()\n```\n\n```python\nfor idx, value in enumerate([1, 2, 3, 4, 5]):\n    secret_fun_4071()\n```\n\n```python\nfor key, val in enumerate({\"a\": 1, \"b\": 2}):\n    secret_fun_4071()\n```\n\n```python\nfor ind, element in enumerate((10, 20, 30, 40)):\n    secret_fun_4071()\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 3,
+      "message": {
+        "role": "assistant",
+        "content": "1. Filled with identifiers:\n```\nfor i, val in enumerate(nums):\n    secret_fun_4071()\n```\n\n2. Filled with literals:\n```\nfor 0 in enumerate([1, 2, 3]):\n    secret_fun_4071()\n```\n\n3. Filled with language elements:\n```\nfor i, val in enumerate(nums):\n    if i > 0: break\n```\n\n4. Filled with different language elements:\n```\nfor i, val in enumerate(nums):\n    return i\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 4,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nfor i, item in enumerate(my_list):\n    secret_fun_4071()\n```\n```python\nfor index, value in enumerate([1, 2, 3, 4, 5]):\n    secret_fun_4071()\n```\n```python\nfor count, element in enumerate((\"apple\", \"banana\", \"cherry\")):\n    secret_fun_4071()\n```\n```python\nfor num, word in enumerate([\"hello\", \"world\"]):\n    secret_fun_4071()\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 725,
+    "completion_tokens": 587,
+    "total_tokens": 1312
+  }
+}

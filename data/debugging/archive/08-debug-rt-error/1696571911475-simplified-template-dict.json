@@ -1,0 +1,80 @@
+{
+  "template_id": 4,
+  "template_context": "midVal1 = __ if i + k // 2 - 1 < m else __",
+  "template_context_str_repl": "midVal1 = <|pirel_context_hole|> if __ - __ < m else <|pirel_context_hole|>",
+  "template_origin": "midVal1 = 0 if i + k // 2 - 1 < m else 1",
+  "templatized_node_ids": {
+    "16": [
+      0,
+      2,
+      2,
+      0,
+      0
+    ],
+    "21": [
+      0,
+      2,
+      2,
+      0,
+      2
+    ]
+  },
+  "templatized_node_ids_context": {
+    "5": [
+      0,
+      2,
+      0
+    ],
+    "23": [
+      0,
+      2,
+      4
+    ]
+  },
+  "context_node_type": "expression_statement",
+  "is_valid_template": true,
+  "sub_templates": null,
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": [
+          "\"py.comparison_operator\"",
+          "\"py.conditional_expression\"",
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.binary_expression\"",
+          "\"js.parenthesized_expression\"",
+          "\"js.ternary_expression\"",
+          "\"js.variable_declarator\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": [
+          "\"py.comparison_operator\"",
+          "\"py.conditional_expression\"",
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": [
+          "\"js.binary_expression\"",
+          "\"js.parenthesized_expression\"",
+          "\"js.ternary_expression\"",
+          "\"js.variable_declarator\""
+        ]
+      }
+    }
+  ],
+  "template": "midVal1 = 0 if __ - __ < m else 1"
+}

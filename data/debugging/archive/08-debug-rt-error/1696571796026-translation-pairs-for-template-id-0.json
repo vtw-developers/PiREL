@@ -1,0 +1,32 @@
+[
+  [
+    {
+      "source": "var1 = var2",
+      "target": "let var1 = var2;"
+    },
+    {
+      "source": "number = 5",
+      "target": "let number = 5;"
+    }
+  ],
+  [
+    {
+      "source": "var1 = var2",
+      "target": "var var1 = var2;"
+    },
+    {
+      "source": "number = 5",
+      "target": "var number = 5;"
+    }
+  ],
+  [
+    {
+      "source": "var1 = var2",
+      "target": "const var1 = var2;"
+    },
+    {
+      "source": "number = 5",
+      "target": "const number = 5;"
+    }
+  ]
+]

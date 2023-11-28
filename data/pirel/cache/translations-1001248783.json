@@ -1,0 +1,23 @@
+{
+  "template": "__ in m1 or __ not in words",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "t in m1 or t not in words",
+  "translations": {
+    "x in m1 or y not in words": [
+      "x in m1 || !(y in words);"
+    ],
+    "a in m1 or b not in words": [
+      "m1.includes(a) || !words.includes(b);"
+    ],
+    "i in m1 or j not in words": [
+      "m1.includes(i) || !words.includes(j);"
+    ],
+    "foo in m1 or bar not in words": [
+      "m1.includes(foo) || !words.includes(bar)"
+    ],
+    "num1 in m1 or num2 not in words": [
+      "num1 in m1 || num2 not in words"
+    ]
+  }
+}

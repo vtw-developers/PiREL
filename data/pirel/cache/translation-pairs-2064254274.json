@@ -1,0 +1,851 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for __ in res:\n    some_secret_fn_4071()",
+  "template_origin": "for item in res:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    2
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for x in res:\n    some_secret_fn_4071()",
+        "target": "for (let x of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in res:\n    some_secret_fn_4071()",
+        "target": "for (let item of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in res:\n    some_secret_fn_4071()",
+        "target": "for (let x of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in res:\n    some_secret_fn_4071()",
+        "target": "for (let element of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in res:\n    some_secret_fn_4071()",
+        "target": "for (let x of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in res:\n    some_secret_fn_4071()",
+        "target": "for (let i of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in res:\n    some_secret_fn_4071()",
+        "target": "for (let x of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for obj in res:\n    some_secret_fn_4071()",
+        "target": "for (let obj of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in res:\n    some_secret_fn_4071()",
+        "target": "for (let x of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item_ in res:\n    some_secret_fn_4071()",
+        "target": "for (let item_ of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in res:\n    some_secret_fn_4071()",
+        "target": "for (let x of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for ele in res:\n    some_secret_fn_4071()",
+        "target": "for (let ele of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in res:\n    some_secret_fn_4071()",
+        "target": "for (let x of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in res:\n    some_secret_fn_4071()",
+        "target": "for (let val of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in res:\n    some_secret_fn_4071()",
+        "target": "for (let x of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for _ in res:\n    some_secret_fn_4071()",
+        "target": "for (let _ of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in res:\n    some_secret_fn_4071()",
+        "target": "for (let x of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item123 in res:\n    some_secret_fn_4071()",
+        "target": "for (let item123 of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in res:\n    some_secret_fn_4071()",
+        "target": "for (let x of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for temp in res:\n    some_secret_fn_4071()",
+        "target": "for (let temp of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in res:\n    some_secret_fn_4071()",
+        "target": "for (let x of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for el in res:\n    some_secret_fn_4071()",
+        "target": "for (let el of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in res:\n    some_secret_fn_4071()",
+        "target": "for (let x of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in res:\n    some_secret_fn_4071()",
+        "target": "for (let index of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in res:\n    some_secret_fn_4071()",
+        "target": "for (let item of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in res:\n    some_secret_fn_4071()",
+        "target": "for (let element of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in res:\n    some_secret_fn_4071()",
+        "target": "for (let item of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in res:\n    some_secret_fn_4071()",
+        "target": "for (let i of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in res:\n    some_secret_fn_4071()",
+        "target": "for (let item of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for obj in res:\n    some_secret_fn_4071()",
+        "target": "for (let obj of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in res:\n    some_secret_fn_4071()",
+        "target": "for (let item of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item_ in res:\n    some_secret_fn_4071()",
+        "target": "for (let item_ of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in res:\n    some_secret_fn_4071()",
+        "target": "for (let item of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for ele in res:\n    some_secret_fn_4071()",
+        "target": "for (let ele of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in res:\n    some_secret_fn_4071()",
+        "target": "for (let item of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in res:\n    some_secret_fn_4071()",
+        "target": "for (let val of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in res:\n    some_secret_fn_4071()",
+        "target": "for (let item of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for _ in res:\n    some_secret_fn_4071()",
+        "target": "for (let _ of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in res:\n    some_secret_fn_4071()",
+        "target": "for (let item of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item123 in res:\n    some_secret_fn_4071()",
+        "target": "for (let item123 of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in res:\n    some_secret_fn_4071()",
+        "target": "for (let item of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for temp in res:\n    some_secret_fn_4071()",
+        "target": "for (let temp of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in res:\n    some_secret_fn_4071()",
+        "target": "for (let item of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for el in res:\n    some_secret_fn_4071()",
+        "target": "for (let el of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in res:\n    some_secret_fn_4071()",
+        "target": "for (let item of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in res:\n    some_secret_fn_4071()",
+        "target": "for (let index of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in res:\n    some_secret_fn_4071()",
+        "target": "for (let element of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for i in res:\n    some_secret_fn_4071()",
+        "target": "for (let i of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in res:\n    some_secret_fn_4071()",
+        "target": "for (let element of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for obj in res:\n    some_secret_fn_4071()",
+        "target": "for (let obj of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in res:\n    some_secret_fn_4071()",
+        "target": "for (let element of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item_ in res:\n    some_secret_fn_4071()",
+        "target": "for (let item_ of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in res:\n    some_secret_fn_4071()",
+        "target": "for (let element of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for ele in res:\n    some_secret_fn_4071()",
+        "target": "for (let ele of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in res:\n    some_secret_fn_4071()",
+        "target": "for (let element of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in res:\n    some_secret_fn_4071()",
+        "target": "for (let val of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in res:\n    some_secret_fn_4071()",
+        "target": "for (let element of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for _ in res:\n    some_secret_fn_4071()",
+        "target": "for (let _ of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in res:\n    some_secret_fn_4071()",
+        "target": "for (let element of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item123 in res:\n    some_secret_fn_4071()",
+        "target": "for (let item123 of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in res:\n    some_secret_fn_4071()",
+        "target": "for (let element of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for temp in res:\n    some_secret_fn_4071()",
+        "target": "for (let temp of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in res:\n    some_secret_fn_4071()",
+        "target": "for (let element of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for el in res:\n    some_secret_fn_4071()",
+        "target": "for (let el of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in res:\n    some_secret_fn_4071()",
+        "target": "for (let element of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in res:\n    some_secret_fn_4071()",
+        "target": "for (let index of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in res:\n    some_secret_fn_4071()",
+        "target": "for (let i of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for obj in res:\n    some_secret_fn_4071()",
+        "target": "for (let obj of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in res:\n    some_secret_fn_4071()",
+        "target": "for (let i of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item_ in res:\n    some_secret_fn_4071()",
+        "target": "for (let item_ of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in res:\n    some_secret_fn_4071()",
+        "target": "for (let i of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for ele in res:\n    some_secret_fn_4071()",
+        "target": "for (let ele of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in res:\n    some_secret_fn_4071()",
+        "target": "for (let i of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in res:\n    some_secret_fn_4071()",
+        "target": "for (let val of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in res:\n    some_secret_fn_4071()",
+        "target": "for (let i of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for _ in res:\n    some_secret_fn_4071()",
+        "target": "for (let _ of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in res:\n    some_secret_fn_4071()",
+        "target": "for (let i of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item123 in res:\n    some_secret_fn_4071()",
+        "target": "for (let item123 of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in res:\n    some_secret_fn_4071()",
+        "target": "for (let i of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for temp in res:\n    some_secret_fn_4071()",
+        "target": "for (let temp of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in res:\n    some_secret_fn_4071()",
+        "target": "for (let i of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for el in res:\n    some_secret_fn_4071()",
+        "target": "for (let el of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for i in res:\n    some_secret_fn_4071()",
+        "target": "for (let i of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in res:\n    some_secret_fn_4071()",
+        "target": "for (let index of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for value in res:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < res.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for idx in res:\n    some_secret_fn_4071()",
+        "target": "for (var idx = 0; idx < res.length; idx++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for value in res:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < res.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for var in res:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < res.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for value in res:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < res.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for e in res:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < res.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for obj in res:\n    some_secret_fn_4071()",
+        "target": "for (let obj of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item_ in res:\n    some_secret_fn_4071()",
+        "target": "for (let item_ of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for obj in res:\n    some_secret_fn_4071()",
+        "target": "for (let obj of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for ele in res:\n    some_secret_fn_4071()",
+        "target": "for (let ele of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for obj in res:\n    some_secret_fn_4071()",
+        "target": "for (let obj of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in res:\n    some_secret_fn_4071()",
+        "target": "for (let val of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for obj in res:\n    some_secret_fn_4071()",
+        "target": "for (let obj of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for _ in res:\n    some_secret_fn_4071()",
+        "target": "for (let _ of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for obj in res:\n    some_secret_fn_4071()",
+        "target": "for (let obj of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item123 in res:\n    some_secret_fn_4071()",
+        "target": "for (let item123 of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for obj in res:\n    some_secret_fn_4071()",
+        "target": "for (let obj of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for temp in res:\n    some_secret_fn_4071()",
+        "target": "for (let temp of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for obj in res:\n    some_secret_fn_4071()",
+        "target": "for (let obj of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for el in res:\n    some_secret_fn_4071()",
+        "target": "for (let el of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for obj in res:\n    some_secret_fn_4071()",
+        "target": "for (let obj of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in res:\n    some_secret_fn_4071()",
+        "target": "for (let index of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item_ in res:\n    some_secret_fn_4071()",
+        "target": "for (let item_ of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for ele in res:\n    some_secret_fn_4071()",
+        "target": "for (let ele of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item_ in res:\n    some_secret_fn_4071()",
+        "target": "for (let item_ of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in res:\n    some_secret_fn_4071()",
+        "target": "for (let val of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item_ in res:\n    some_secret_fn_4071()",
+        "target": "for (let item_ of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for _ in res:\n    some_secret_fn_4071()",
+        "target": "for (let _ of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item_ in res:\n    some_secret_fn_4071()",
+        "target": "for (let item_ of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item123 in res:\n    some_secret_fn_4071()",
+        "target": "for (let item123 of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item_ in res:\n    some_secret_fn_4071()",
+        "target": "for (let item_ of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for temp in res:\n    some_secret_fn_4071()",
+        "target": "for (let temp of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item_ in res:\n    some_secret_fn_4071()",
+        "target": "for (let item_ of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for el in res:\n    some_secret_fn_4071()",
+        "target": "for (let el of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item_ in res:\n    some_secret_fn_4071()",
+        "target": "for (let item_ of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in res:\n    some_secret_fn_4071()",
+        "target": "for (let index of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for ele in res:\n    some_secret_fn_4071()",
+        "target": "for (let ele of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for val in res:\n    some_secret_fn_4071()",
+        "target": "for (let val of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for ele in res:\n    some_secret_fn_4071()",
+        "target": "for (let ele of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for _ in res:\n    some_secret_fn_4071()",
+        "target": "for (let _ of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for ele in res:\n    some_secret_fn_4071()",
+        "target": "for (let ele of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item123 in res:\n    some_secret_fn_4071()",
+        "target": "for (let item123 of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for ele in res:\n    some_secret_fn_4071()",
+        "target": "for (let ele of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for temp in res:\n    some_secret_fn_4071()",
+        "target": "for (let temp of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for ele in res:\n    some_secret_fn_4071()",
+        "target": "for (let ele of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for el in res:\n    some_secret_fn_4071()",
+        "target": "for (let el of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for ele in res:\n    some_secret_fn_4071()",
+        "target": "for (let ele of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in res:\n    some_secret_fn_4071()",
+        "target": "for (let index of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for idx in res:\n    some_secret_fn_4071()",
+        "target": "for (var idx = 0; idx < res.length; idx++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for var in res:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < res.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for idx in res:\n    some_secret_fn_4071()",
+        "target": "for (var idx = 0; idx < res.length; idx++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for e in res:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < res.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in res:\n    some_secret_fn_4071()",
+        "target": "for (let val of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for _ in res:\n    some_secret_fn_4071()",
+        "target": "for (let _ of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in res:\n    some_secret_fn_4071()",
+        "target": "for (let val of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item123 in res:\n    some_secret_fn_4071()",
+        "target": "for (let item123 of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in res:\n    some_secret_fn_4071()",
+        "target": "for (let val of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for temp in res:\n    some_secret_fn_4071()",
+        "target": "for (let temp of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in res:\n    some_secret_fn_4071()",
+        "target": "for (let val of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for el in res:\n    some_secret_fn_4071()",
+        "target": "for (let el of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for val in res:\n    some_secret_fn_4071()",
+        "target": "for (let val of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in res:\n    some_secret_fn_4071()",
+        "target": "for (let index of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in res:\n    some_secret_fn_4071()",
+        "target": "for (let _ of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item123 in res:\n    some_secret_fn_4071()",
+        "target": "for (let item123 of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in res:\n    some_secret_fn_4071()",
+        "target": "for (let _ of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for temp in res:\n    some_secret_fn_4071()",
+        "target": "for (let temp of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in res:\n    some_secret_fn_4071()",
+        "target": "for (let _ of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for el in res:\n    some_secret_fn_4071()",
+        "target": "for (let el of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in res:\n    some_secret_fn_4071()",
+        "target": "for (let _ of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in res:\n    some_secret_fn_4071()",
+        "target": "for (let index of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item123 in res:\n    some_secret_fn_4071()",
+        "target": "for (let item123 of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for temp in res:\n    some_secret_fn_4071()",
+        "target": "for (let temp of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item123 in res:\n    some_secret_fn_4071()",
+        "target": "for (let item123 of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for el in res:\n    some_secret_fn_4071()",
+        "target": "for (let el of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item123 in res:\n    some_secret_fn_4071()",
+        "target": "for (let item123 of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in res:\n    some_secret_fn_4071()",
+        "target": "for (let index of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for var in res:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < res.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for e in res:\n    some_secret_fn_4071()",
+        "target": "for (var i = 0; i < res.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for temp in res:\n    some_secret_fn_4071()",
+        "target": "for (let temp of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for el in res:\n    some_secret_fn_4071()",
+        "target": "for (let el of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for temp in res:\n    some_secret_fn_4071()",
+        "target": "for (let temp of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in res:\n    some_secret_fn_4071()",
+        "target": "for (let index of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for el in res:\n    some_secret_fn_4071()",
+        "target": "for (let el of res) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for index in res:\n    some_secret_fn_4071()",
+        "target": "for (let index of res) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

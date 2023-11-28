@@ -1,0 +1,22 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "l > j and __[l] == __[l + 1]",
+  "template_origin": "l > j and nums[l] == nums[l + 1]",
+  "templatized_node_ids": [
+    8,
+    11
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "l > j and b[l] == b[l + 1]",
+        "target": "l > j && b[l] == b[l + 1];"
+      },
+      {
+        "source": "l > j and e[l] == e[l + 1]",
+        "target": "l > j && e[l] == e[l + 1];"
+      }
+    ]
+  ]
+}

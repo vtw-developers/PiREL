@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for s, __ in intervals[1:]:\n    some_secret_fn_4071()",
+  "template_origin": "for s, e in intervals[1:]:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    4
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for s, x in intervals[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < intervals.length; i++) {\n    let s = intervals[i][0];\n    let x = intervals[i][1];\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for s, item in intervals[1:]:\n    some_secret_fn_4071()",
+        "target": "for (let i = 1; i < intervals.length; i++) {\n    let s = intervals[i][0];\n    let item = intervals[i][1];\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

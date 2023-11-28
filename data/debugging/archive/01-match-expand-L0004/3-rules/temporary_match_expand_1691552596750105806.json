@@ -1,0 +1,39 @@
+{
+  "range_cursor": [
+    "py.string",
+    5,
+    [
+      "anno",
+      [
+        "\"stype\"",
+        "\"\""
+      ],
+      [
+        "\"quote\"",
+        "\"'\""
+      ]
+    ],
+    "\"\\\"\"",
+    [
+      "py.string_content",
+      6,
+      "\"hi\""
+    ],
+    "\"\\\"\""
+  ],
+  "matcher": [
+    "\"py.string\"",
+    [
+      "str",
+      "\"\\\"\""
+    ],
+    [
+      "\"py.string_content\"",
+      "\"_val_\""
+    ],
+    [
+      "str",
+      "\"\\\"\""
+    ]
+  ]
+}

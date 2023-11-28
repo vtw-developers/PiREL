@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums[mid] > nums[l] or nums[mid] > nums[__]",
+  "template_origin": "nums[mid] > nums[l] or nums[mid] > nums[r]",
+  "templatized_node_ids": [
+    16
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums[mid] > nums[l] or nums[mid] > nums[i]",
+        "target": "nums[mid] > nums[l] || nums[mid] > nums[i]"
+      },
+      {
+        "source": "nums[mid] > nums[l] or nums[mid] > nums[j]",
+        "target": "nums[mid] > nums[l] || nums[mid] > nums[j]"
+      }
+    ]
+  ]
+}

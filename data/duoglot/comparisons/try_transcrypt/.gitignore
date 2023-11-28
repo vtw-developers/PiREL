@@ -1,0 +1,11 @@
+Transcrypt
+staleetcode
+standalone
+stactci
+standalone_ext
+*.ext.json
+eval_transcrypt.*.log
+!eval_transcrypt.stat.log
+try_transcrypt/__target__
+demo_test/__target__
+__pycache__

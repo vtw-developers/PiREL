@@ -1,0 +1,41 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for __ in nums:\n    some_secret_fn_4071()",
+  "template_origin": "for num in nums:\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    2
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for x in nums:\n    some_secret_fn_4071()",
+        "target": "for(let x of nums) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for element in nums:\n    some_secret_fn_4071()",
+        "target": "for (let element of nums) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for x in nums:\n    some_secret_fn_4071()",
+        "target": "for(let x of nums) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in nums:\n    some_secret_fn_4071()",
+        "target": "for (let num of nums) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for element in nums:\n    some_secret_fn_4071()",
+        "target": "for (let element of nums) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for num in nums:\n    some_secret_fn_4071()",
+        "target": "for (let num of nums) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "range_cursor": [
+    "py.argument_list",
+    4,
+    "\"(\"",
+    [
+      "py.string",
+      5,
+      [
+        "anno",
+        [
+          "\"stype\"",
+          "\"\""
+        ],
+        [
+          "\"quote\"",
+          "\"'\""
+        ]
+      ],
+      "\"\\\"\"",
+      [
+        "py.string_content",
+        6,
+        "\"hi\""
+      ],
+      "\"\\\"\""
+    ],
+    "\")\""
+  ],
+  "matcher": [
+    "\"py.argument_list\"",
+    "\"*\""
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "[[__[0][0]] * n for _ in range(m)]",
+  "template_origin": "[[grid[0][0]] * n for _ in range(m)]",
+  "templatized_node_ids": [
+    7
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "[[a[0][0]] * n for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(a[0][0]));"
+      },
+      {
+        "source": "[[c[0][0]] * n for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(c[0][0]));"
+      }
+    ],
+    [
+      {
+        "source": "[[a[0][0]] * n for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(a[0][0]));"
+      },
+      {
+        "source": "[[d[0][0]] * n for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(d[0][0]));"
+      }
+    ],
+    [
+      {
+        "source": "[[a[0][0]] * n for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(a[0][0]));"
+      },
+      {
+        "source": "[[e[0][0]] * n for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(e[0][0]));"
+      }
+    ],
+    [
+      {
+        "source": "[[c[0][0]] * n for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(c[0][0]));"
+      },
+      {
+        "source": "[[d[0][0]] * n for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(d[0][0]));"
+      }
+    ],
+    [
+      {
+        "source": "[[c[0][0]] * n for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(c[0][0]));"
+      },
+      {
+        "source": "[[e[0][0]] * n for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(e[0][0]));"
+      }
+    ],
+    [
+      {
+        "source": "[[d[0][0]] * n for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(d[0][0]));"
+      },
+      {
+        "source": "[[e[0][0]] * n for _ in range(m)]",
+        "target": "Array.from({ length: m }, () => Array(n).fill(e[0][0]));"
+      }
+    ]
+  ]
+}

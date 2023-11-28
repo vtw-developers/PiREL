@@ -1,0 +1,111 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "for __ in path.split('/'):\n    some_secret_fn_4071()",
+  "template_origin": "for s in path.split('/'):\n    some_secret_fn_4071()",
+  "templatized_node_ids": [
+    2
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "for _ in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var pathArray = path.split('/');\nfor (var i = 0; i < pathArray.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for part in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var parts = path.split('/');\nfor (var i = 0; i < parts.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var pathArray = path.split('/');\nfor (var i = 0; i < pathArray.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for p in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var path = path.split('/');\nfor (var i = 0; i < path.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var pathArray = path.split('/');\nfor (var i = 0; i < pathArray.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var pathItems = path.split('/');\nfor (var i = 0; i < pathItems.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for _ in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var pathArray = path.split('/');\nfor (var i = 0; i < pathArray.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for segment in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var segments = path.split('/');\nfor (var i = 0; i < segments.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for part in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var parts = path.split('/');\nfor (var i = 0; i < parts.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for p in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var path = path.split('/');\nfor (var i = 0; i < path.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for part in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var parts = path.split('/');\nfor (var i = 0; i < parts.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var pathItems = path.split('/');\nfor (var i = 0; i < pathItems.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for part in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var parts = path.split('/');\nfor (var i = 0; i < parts.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for segment in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var segments = path.split('/');\nfor (var i = 0; i < segments.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for p in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var path = path.split('/');\nfor (var i = 0; i < path.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for item in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var pathItems = path.split('/');\nfor (var i = 0; i < pathItems.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for p in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var path = path.split('/');\nfor (var i = 0; i < path.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for segment in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var segments = path.split('/');\nfor (var i = 0; i < segments.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ],
+    [
+      {
+        "source": "for item in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var pathItems = path.split('/');\nfor (var i = 0; i < pathItems.length; i++) {\n    some_secret_fn_4071();\n}"
+      },
+      {
+        "source": "for segment in path.split('/'):\n    some_secret_fn_4071()",
+        "target": "var segments = path.split('/');\nfor (var i = 0; i < segments.length; i++) {\n    some_secret_fn_4071();\n}"
+      }
+    ]
+  ]
+}

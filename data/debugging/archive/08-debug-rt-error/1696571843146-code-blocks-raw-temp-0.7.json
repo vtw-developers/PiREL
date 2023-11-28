@@ -1,0 +1,17 @@
+[
+  "midVal1 = 0 if a < b else 1",
+  "midVal1 = 0 if 5 < 10 else 1",
+  "midVal1 = 0 if (2+3) < (4*2) else 1",
+  "midVal1 = 0 if num1 < num2 else 1",
+  "midVal1 = 0 if 10 < 20 else 1",
+  "midVal1 = 0 if (2+3) < (5+7) else 1",
+  "x = 5\ny = 10\nmidVal1 = 0 if x < y else 1",
+  "midVal1 = 0 if 5 < 10 else 1",
+  "x = 5\nmidVal1 = 0 if x < 10 else 1",
+  "midVal1 = 0 if num1 < num2 else 1",
+  "midVal1 = 0 if 5 < 10 else 1",
+  "midVal1 = 0 if len(array1) < len(array2) else 1",
+  "midVal1 = 0 if x < y else 1",
+  "midVal1 = 0 if 5 < 10 else 1",
+  "midVal1 = 0 if len(list1) < len(list2) else 1"
+]

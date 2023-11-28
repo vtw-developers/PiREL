@@ -1,0 +1,21 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "not (0 <= int(s) <= __)",
+  "template_origin": "not (0 <= int(s) <= 255)",
+  "templatized_node_ids": [
+    10
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "not (0 <= int(s) <= 9999999)",
+        "target": "!(0 <= parseInt(s) <= 9999999);"
+      },
+      {
+        "source": "not (0 <= int(s) <= 99999999)",
+        "target": "!(0 <= parseInt(s) <= 99999999);"
+      }
+    ]
+  ]
+}

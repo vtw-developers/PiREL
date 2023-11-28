@@ -1,0 +1,22 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "nums1[i + k // 2 - __] if i + k // 2 - __ < m else float('inf')",
+  "template_origin": "nums1[i + k // 2 - 1] if i + k // 2 - 1 < m else float('inf')",
+  "templatized_node_ids": [
+    11,
+    19
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "nums1[i + k // 2 - 2] if i + k // 2 - 2 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 2] < m ? nums1[i + Math.floor(k / 2) - 2] : Infinity;"
+      },
+      {
+        "source": "nums1[i + k // 2 - 3] if i + k // 2 - 3 < m else float('inf')",
+        "target": "nums1[i + Math.floor(k / 2) - 3] < m ? nums1[i + Math.floor(k / 2) - 3] : Infinity;"
+      }
+    ]
+  ]
+}

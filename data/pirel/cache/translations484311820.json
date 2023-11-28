@@ -1,0 +1,23 @@
+{
+  "template": "return y * y if (n & 1) == __ else y * y * x",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "return y * y if (n & 1) == 0 else y * y * x",
+  "translations": {
+    "return y * y if (n & 1) == 0 else y * y * x": [
+      "return (n & 1) === 0 ? y * y : y * y * x;"
+    ],
+    "return y * y if (n & 1) == 1 else y * y * x": [
+      "return y * y * (n & 1) === 1 ? y * y * x : y * y;"
+    ],
+    "return y * y if (n % 2) == 0 else y * y * x": [
+      "if (n % 2 === 0) {\n    return y * y;\n} else {\n    return y * y * x;\n}"
+    ],
+    "return y * y if (n % 2) == 1 else y * y * x": [
+      "return (n % 2) === 1 ? y * y : y * y * x;"
+    ],
+    "return y * y if (n & 1) == 2 else y * y * x": [
+      "return (n & 1) === 2 ? y * y : y * y * x;"
+    ]
+  }
+}

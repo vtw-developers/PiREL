@@ -1,0 +1,23 @@
+{
+  "template": "for __ in range(n - 1, -1, -1):\n    some_secret_fn_4071()",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "for i in range(n - 1, -1, -1):\n    some_secret_fn_4071()",
+  "translations": {
+    "for _ in range(n - 1, -1, -1):\n    some_secret_fn_4071()": [
+      "for (let i = n - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for i in range(n - 1, -1, -1):\n    some_secret_fn_4071()": [
+      "for (let i = n - 1; i >= 0; i--) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for num in range(n - 1, -1, -1):\n    some_secret_fn_4071()": [
+      "for (let num = n - 1; num >= 0; num--) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for x in range(n - 1, -1, -1):\n    some_secret_fn_4071()": [
+      "for (let x = n - 1; x >= 0; x--) {\n    some_secret_fn_4071();\n}"
+    ],
+    "for index in range(n - 1, -1, -1):\n    some_secret_fn_4071()": [
+      "for (let index = n - 1; index >= 0; index--) {\n    some_secret_fn_4071();\n}"
+    ]
+  }
+}

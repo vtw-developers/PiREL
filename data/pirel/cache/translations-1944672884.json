@@ -1,0 +1,128 @@
+{
+  "template": "from collections import __",
+  "source_lang": "py",
+  "target_lang": "js",
+  "template_origin": "from collections import defaultdict",
+  "translations": {
+    "from collections import abc": [
+      "const abc = require('collections');",
+      "const abc = require('collections');",
+      "const abc = require('collections').abc;",
+      "const abc = require('collections');",
+      "const abc = require('collections');",
+      "const abc = require('collections').abc;",
+      "const abc = require('collections').abc;"
+    ],
+    "from collections import defaultdict": [
+      "const defaultdict = require('collections/defaultdict');",
+      "const defaultdict = require('collections/defaultdict');",
+      "const defaultdict = require('collections').defaultdict;",
+      "const defaultdict = require('collections').defaultdict;",
+      "const defaultdict = require('collections').defaultdict;",
+      "const defaultdict = require('collections/defaultdict');",
+      "const defaultdict = require('collections/defaultdict');"
+    ],
+    "from collections import deque": [
+      "const deque = require('collections/deque');",
+      "const deque = require('collections/deque');",
+      "const deque = require('collections/deque');",
+      "const deque = require('collections/deque');",
+      "const deque = require('collections/deque');",
+      "const deque = require('collections/deque');",
+      "const deque = require('collections/deque');"
+    ],
+    "from collections import Counter": [
+      "const Counter = require('collections/counter');",
+      "const Counter = require('collections/counter');",
+      "// No direct equivalent in JavaScript\n\n// JavaScript does not have a built-in module equivalent to Python's collections module.\n// However, you can achieve similar functionality by manually implementing the required data structures and methods.\n// For example, to use a Counter-like functionality, you can create a function that takes an array as input and returns an object with counts of each element:\n\nfunction counter(arr) {\n    let counts = {};\n    arr.forEach(element => {\n        counts[element] = (counts[element] || 0) + 1;\n    });\n    return counts;\n}",
+      "// JavaScript does not have a built-in equivalent for the Counter class in Python.\n// You can use an object to achieve similar functionality.\n\n// Create a function that mimics the Counter class in Python\nfunction Counter(iterable) {\n    const counts = {};\n    for (const item of iterable) {\n        counts[item] = (counts[item] || 0) + 1;\n    }\n    return counts;\n}\n\n// Usage:\n// const myCounter = new Counter(iterable);\n// console.log(myCounter);",
+      "// JavaScript does not have a built-in Counter class like Python.\n// You can implement a similar functionality using an object.\n\n// Initialize an empty object to serve as the counter\nconst Counter = {};\n\n// Function to increment the count of a particular element\nfunction increment(element) {\n  Counter[element] = (Counter[element] || 0) + 1;\n}\n\n// Usage example:\nincrement(\"a\");\nincrement(\"b\");\nincrement(\"a\");\n\nconsole.log(Counter); // Output: { a: 2, b: 1 }",
+      "const Counter = require('collections/counter');"
+    ],
+    "from collections import ChainMap": [
+      "const ChainMap = require('chainmap');",
+      "const ChainMap = require('collections').ChainMap;",
+      "// JavaScript does not have a built-in equivalent for ChainMap in Python\n// Ignore the import statement",
+      "const ChainMap = require('collections').ChainMap;",
+      "const ChainMap = require('collections/chainmap');",
+      "const ChainMap = require('chainmap');"
+    ],
+    "from collections import namedtuple": [
+      "const { namedtuple } = require('collections');",
+      "const { NamedTuple } = require('collections');",
+      "// JavaScript does not have a direct equivalent for the namedtuple class in Python.\n// However, you can create a similar functionality by defining a JavaScript class.\n\nclass namedtuple {\n    constructor(name, fields) {\n        this.name = name;\n        this.fields = fields;\n    }\n}\n\n// Usage:\n// var Point = new namedtuple('Point', ['x', 'y']);\n// var p = new Point(1, 2);",
+      "const namedtuple = require('collections');",
+      "const namedtuple = require('collections/namedtuple');",
+      "const { namedtupled } = require('namedtupled');",
+      "const namedtuple = require('collections').namedtuple;"
+    ],
+    "from collections import OrderedDict": [
+      "const OrderedDict = require('collections/orderedDict');",
+      "// There is no direct equivalent of the OrderedDict class in JavaScript.\n// You can use a Map object to achieve similar functionality.\n\n// Create an ordered map\nconst OrderedDict = new Map();",
+      "// JavaScript does not have an exact equivalent of OrderedDict in Python.\n// However, you can use Map in JavaScript to achieve similar functionality.\n\n// Create an empty Map\nvar OrderedDict = new Map();",
+      "// JavaScript does not have an equivalent built-in module for OrderedDict in Python.\n// You can implement a similar functionality using a Map object in JavaScript.\nconst OrderedDict = new Map();",
+      "const OrderedDict = require('collections/ordereddict');",
+      "const OrderedDict = require('collections/ordereddict');",
+      "// JavaScript does not have a built-in OrderedDict class like Python\n// We can use a Map object in JavaScript to achieve similar functionality\n\nconst OrderedDict = Map;"
+    ],
+    "from collections import UserDict": [
+      "// There is no direct equivalent of UserDict in JavaScript\n// You can use a regular JavaScript object instead\n\n// JavaScript equivalent of importing collections\n// is not necessary since JavaScript does not have\n// an equivalent module\n\n// JavaScript equivalent of UserDict\nclass UserDict {\n    constructor() {\n        this.data = {};\n    }\n}",
+      "// JavaScript does not have a direct equivalent for the Python UserDict class.\n// However, you can achieve similar functionality by creating a custom object or using ES6 Map.\n\n// Option 1: Creating a custom object\nfunction UserDict() {\n    this.data = {};\n}\n\nUserDict.prototype.get = function(key) {\n    return this.data[key];\n}\n\nUserDict.prototype.set = function(key, value) {\n    this.data[key] = value;\n}\n\n// Option 2: Using ES6 Map\nconst UserDict = new Map();",
+      "// JavaScript does not have a built-in UserDict class. \n\n// You can create a similar functionality using ES6 classes and extending the Map class.\n\nclass UserDict extends Map {\n    constructor() {\n        super();\n    }\n}\n\n// Usage:\nconst dict = new UserDict();\ndict.set(\"key\", \"value\");\nconsole.log(dict.get(\"key\")); // Output: \"value\"",
+      "const UserDict = require('collections').UserDict;",
+      "const UserDict = require('collections').UserDict;",
+      "const UserDict = require('collections').UserDict;"
+    ],
+    "from collections import UserList": [
+      "// JavaScript does not have a built-in equivalent to the Python collections module.\n// You can define a custom UserList class in JavaScript if needed.",
+      "// JavaScript does not have a built-in `UserList` class.\n// So, we can skip importing it in JavaScript.",
+      "const UserList = require('collections/user-list');",
+      "const UserList = require('collections').UserList;",
+      "// JavaScript does not have a built-in module called \"collections\"\n// Therefore, we cannot directly translate the Python import statement to JavaScript\n// You will need to find an equivalent JavaScript library or implement the functionality yourself",
+      "// JavaScript does not have a built-in 'UserList' class like Python\n// You can create a similar class in JavaScript if needed"
+    ],
+    "from collections import UserString": [
+      "// JavaScript does not have a built-in UserString module.\n// You can simply omit the import statement in JavaScript.",
+      "// There is no direct equivalent to Python's UserString in JavaScript.\n// You can create a custom class with similar functionality in JavaScript.\n\nclass UserString {\n    constructor(s) {\n        this.data = s;\n    }\n    \n    toString() {\n        return this.data;\n    }\n    \n    length() {\n        return this.data.length;\n    }\n}\n\n// Usage:\n// var s = new UserString(\"Hello\");",
+      "// The 'collections' module in Python provides the 'UserString' class.\n// However, there is no equivalent class in JavaScript.\n// Therefore, we cannot directly translate the import statement.\n\n// If you want to use similar functionality in JavaScript, you will have to implement it yourself.",
+      "// JavaScript does not have a built-in UserString class like Python.\n// So we can ignore this import statement and continue with the rest of the code.",
+      "// UserString is not available in JavaScript, so we can't directly translate this import statement.\n// However, we can create a similar functionality manually if needed."
+    ],
+    "from collections import Iterable": [
+      "// There is no direct equivalent import statement in JavaScript.\n// Assuming that the Iterable class is defined elsewhere, we can use the 'require' function in Node.js to import it.\nconst { Iterable } = require('collections');",
+      "// JavaScript does not have an equivalent module to collections in Python.\n// To achieve similar functionality, you can use third-party libraries like lodash or underscore.\n// However, for the purpose of semantic equivalence, we can omit this import statement in JavaScript.",
+      "// JavaScript does not have a direct equivalent to Python's collections module\n// However, if you need to check if an object is iterable in JavaScript, you can use the following function:\n\nfunction isIterable(obj) {\n    return typeof obj[Symbol.iterator] === 'function';\n}",
+      "// JavaScript does not have a direct equivalent to the `collections` module in Python.\n// However, you can achieve similar functionality by using built-in JavaScript data structures and methods.\n// In this case, if you want to check if an object is iterable, you can use the following function:\n\nfunction isIterable(obj) {\n    return typeof obj[Symbol.iterator] === 'function';\n}"
+    ],
+    "from collections import Callable": [
+      "// JavaScript does not have a direct equivalent for importing specific modules or classes.\n// However, if you have access to the `collections` module in JavaScript, you can import the `Callable` class like this:\n\nconst { Callable } = require('collections');",
+      "const Callable = require('collections').Callable;",
+      "const Callable = require('collections').Callable;",
+      "// JavaScript does not have a direct equivalent of Python's `collections.Callable`.\n// You can omit this import statement in JavaScript as it is not necessary."
+    ],
+    "from collections import ABC": [
+      "const ABC = require('collections').ABC;"
+    ],
+    "from collections import Hashable": [
+      "// The 'collections' module does not exist in JavaScript.\n// Therefore, we cannot directly translate this import statement."
+    ],
+    "from collections import Sized": [
+      "// JavaScript does not have a direct equivalent of the Python collections module.\n// If you need the Sized class, you can define it yourself in JavaScript.\n\nclass Sized {\n    // Define the methods of the Sized class here\n}\n\n// You can then use the Sized class in your JavaScript code"
+    ],
+    "from collections import Container": [
+      "// No direct equivalent in JavaScript\n// Ignore the import statement"
+    ],
+    "from collections import Iterator": [
+      "// JavaScript does not have a direct equivalent of the `Iterator` class in Python.\n// Therefore, we can just omit this line as it does not affect the semantic equivalence of the program."
+    ],
+    "from collections import MutableSequence": [
+      "// No direct equivalent in JavaScript"
+    ],
+    "from collections import MutableSet": [
+      "// The 'collections' module in Python provides a 'MutableSet' class, which is not available in JavaScript.\n// Therefore, we cannot provide a semantically equivalent JavaScript code."
+    ],
+    "from collections import Mapping": [
+      "// JavaScript does not have a direct equivalent for Python's collections module.\n// However, you can achieve similar functionality by using the Map object in JavaScript.\n\n// Here is an example of how you can use the Map object to achieve similar functionality as Python's Mapping:\nlet Mapping = Map;"
+    ]
+  }
+}

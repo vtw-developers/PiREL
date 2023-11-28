@@ -1,0 +1,72 @@
+{
+  "source_lang": "py",
+  "target_lang": "js",
+  "template": "j > i + __ and nums[j] == nums[j - __]",
+  "template_origin": "j > i + 1 and nums[j] == nums[j - 1]",
+  "templatized_node_ids": [
+    7,
+    16
+  ],
+  "translation_pairs": [
+    [
+      {
+        "source": "j > i + 1 and nums[j] == nums[j - 1]",
+        "target": "j > i + 1 && nums[j] == nums[j - 1]"
+      },
+      {
+        "source": "j > i + 2 and nums[j] == nums[j - 2]",
+        "target": "j > i + 2 && nums[j] == nums[j - 2]"
+      }
+    ],
+    [
+      {
+        "source": "j > i + 1 and nums[j] == nums[j - 1]",
+        "target": "j > i + 1 && nums[j] == nums[j - 1]"
+      },
+      {
+        "source": "j > i + 4 and nums[j] == nums[j - 4]",
+        "target": "j > i + 4 && nums[j] == nums[j - 4]"
+      }
+    ],
+    [
+      {
+        "source": "j > i + 1 and nums[j] == nums[j - 1]",
+        "target": "j > i + 1 && nums[j] == nums[j - 1]"
+      },
+      {
+        "source": "j > i + 5 and nums[j] == nums[j - 5]",
+        "target": "j > i + 5 && nums[j] == nums[j - 5]"
+      }
+    ],
+    [
+      {
+        "source": "j > i + 2 and nums[j] == nums[j - 2]",
+        "target": "j > i + 2 && nums[j] == nums[j - 2]"
+      },
+      {
+        "source": "j > i + 4 and nums[j] == nums[j - 4]",
+        "target": "j > i + 4 && nums[j] == nums[j - 4]"
+      }
+    ],
+    [
+      {
+        "source": "j > i + 2 and nums[j] == nums[j - 2]",
+        "target": "j > i + 2 && nums[j] == nums[j - 2]"
+      },
+      {
+        "source": "j > i + 5 and nums[j] == nums[j - 5]",
+        "target": "j > i + 5 && nums[j] == nums[j - 5]"
+      }
+    ],
+    [
+      {
+        "source": "j > i + 4 and nums[j] == nums[j - 4]",
+        "target": "j > i + 4 && nums[j] == nums[j - 4]"
+      },
+      {
+        "source": "j > i + 5 and nums[j] == nums[j - 5]",
+        "target": "j > i + 5 && nums[j] == nums[j - 5]"
+      }
+    ]
+  ]
+}
