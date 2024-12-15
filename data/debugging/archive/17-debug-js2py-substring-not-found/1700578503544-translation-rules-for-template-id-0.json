@@ -1,0 +1,3 @@
+[
+  "(match_expand\n  (fragment (\"js.variable_declaration\" (str \"var\") (\"js.variable_declarator\" (\"js.identifier\" \"_val_\") (str \"=\") (\"js.number\" \"_val_\")) (str \";\")) \"*\")\n  (fragment (\"py.expression_statement\" (\"py.assignment\" (\"py.identifier\" \"_val1_\") (str \"=\") (\"py.integer\" \"_val2_\"))) \"*1\")\n)"
+]

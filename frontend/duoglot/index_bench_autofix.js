@@ -7,37 +7,53 @@ function get_charpos_to_linepos_maplists(lines) {
       linemap.push(i);
       columnmap.push(j);
     }
-    //the newline char
+    // the newline char
     linemap.push(i);
     columnmap.push(-1);
   }
   return {linemap, columnmap};
 }
 
+function proposeAutoFixNoinstru(
+  wrapper_code,
+  focus_code,
+  current_choices,
+  tried_choices_history,
+  translate_dbg_history,
+  translated_code_map,
+  error_info,
+  trans_prog_config_info
+) {
 
-
-function proposeAutoFixNoinstru(wrapper_code, focus_code, current_choices, tried_choices_history, translate_dbg_history, translated_code_map, error_info, trans_prog_config_info) {
   let focus_splitted = wrapper_code.split(focus_code);
-  if (focus_splitted.length !== 2) throw Error("focus_code should appear once in wrapper");
+  if (focus_splitted.length !== 2) {
+    throw Error("focus_code should appear once in wrapper");
+  }
+
   let [before_focus, after_focus] = focus_splitted;
   let before_focus_lines = before_focus.split("\n");
   let focus_lines = focus_code.split("\n");
   let before_line_count = before_focus_lines.length;
+
   let {error_msg, error_type, line_content, lineno} = error_info;
   let line_idx = null;
+
   if (error_type === "SyntaxError:" || error_type === "ReferenceError:" || error_type === "TypeError:") {
     line_idx = lineno[1] - before_line_count;
     let expected_line = focus_lines[line_idx];
+
     if (expected_line === undefined) {
       throw Error("Expected line doesn't exist for line_idx " + line_idx);
     }
     if (expected_line.indexOf(line_content) < 0) {
       throw Error("Expected line doesn't contains error line content.");
     }
+
     console.log(error_type + " at line ", line_idx + 1, "(idx=" + line_idx + ")", line_content);
   } else {
     throw Error("proposeAutoFix Unknown Error Type:" + error_type + " msg:" + error_msg);
   }
+
   let {linemap, columnmap} = get_charpos_to_linepos_maplists(focus_lines);
   let exids_by_line_idx = {};
   for (let exid in translated_code_map) {
@@ -45,10 +61,12 @@ function proposeAutoFixNoinstru(wrapper_code, focus_code, current_choices, tried
     for (let rg of ranges_of_exid) {
       let {range, str} = rg;
       let [chpos1, chpos2] = range;
+
       if (focus_code.slice(chpos1, chpos2) !== str) {
         console.error("code_map is wrong!", focus_code.slice(chpos1, chpos2), str);
         throw Error("ErrorCodeMap");
       }
+
       let linepos1 = linemap[chpos1];
       let linepos2 = linemap[chpos2];
       if (linepos1 === linepos2) {
@@ -56,7 +74,9 @@ function proposeAutoFixNoinstru(wrapper_code, focus_code, current_choices, tried
           console.error("code_map processing code is wrong!", focus_lines[linepos1], str);
           throw Error("ErrorProcessingCodeMap");
         }
-        if (!(linepos1 in exids_by_line_idx)) exids_by_line_idx[linepos1] = {};
+        if (!(linepos1 in exids_by_line_idx)) {
+          exids_by_line_idx[linepos1] = {};
+        }
         exids_by_line_idx[linepos1][exid] = true;
       } else {
         alert("Unhandled case: a str across multiple lines.");
@@ -64,6 +84,7 @@ function proposeAutoFixNoinstru(wrapper_code, focus_code, current_choices, tried
       }
     }
   }
+
   let alt_step_to_choices_exid = [];
   let exid_to_alt_step_choices = {};
   for (let elem of translate_dbg_history) {
@@ -82,8 +103,8 @@ function proposeAutoFixNoinstru(wrapper_code, focus_code, current_choices, tried
   }
   console.log("proposeAutoFix exids_by_line_idx:", exids_by_line_idx);
   console.log("proposeAutoFix exid_to_alt_step_choices:", exid_to_alt_step_choices);
-  //console.log("proposeAutoFix alt_step_to_choices_exid:", alt_step_to_choices_exid);
-  
+  // console.log("proposeAutoFix alt_step_to_choices_exid:", alt_step_to_choices_exid);
+
   let canskip_dict = {};
   let error_table_available = trans_prog_config_info !== null && "skip_on_line_error" in trans_prog_config_info;
   if (error_table_available) {
@@ -100,52 +121,58 @@ function proposeAutoFixNoinstru(wrapper_code, focus_code, current_choices, tried
       canskip_dict[rule_id] = true;
     }
   }
-  
 
-  //get relavent choices_and_exid 
+  // get relevant choices_and_exid
   let exids = exids_by_line_idx[line_idx];
   console.log("proposeAutoFix line_idx:", line_idx, " exids:", exids);
   let related_alt_step_infos = {};
   let RELATED_WINDOW_SIZE = 1;
+
   for (let exid in exids) {
     let alt_step_info = exid_to_alt_step_choices[exid];
     let alt_step = alt_step_info["alt_step"];
+
     for (let i = alt_step - 1 - RELATED_WINDOW_SIZE; i <= alt_step - 1; i++) {
-      if (i <= 0 || i >= alt_step_to_choices_exid.length) continue;
+      if (i <= 0 || i >= alt_step_to_choices_exid.length) {
+        continue;
+      }
       if (alt_step_to_choices_exid[i-1]["next_choices_count"] > 1) {
         let related_alt_step_id = alt_step_to_choices_exid[i]["alt_step"];
         let rule_id = alt_step_to_choices_exid[i]["current_rule_id"];
         let is_skip_allowed = rule_id in canskip_dict;
         related_alt_step_infos[related_alt_step_id] = [
-          alt_step_to_choices_exid[i-1]["next_choices_count"], 
-          alt_step_to_choices_exid[i]["current_choose_idx"], 
+          alt_step_to_choices_exid[i-1]["next_choices_count"],
+          alt_step_to_choices_exid[i]["current_choose_idx"],
           alt_step_to_choices_exid[i]["ex_id"],
-          rule_id, 
+          rule_id,
           is_skip_allowed,
           alt_step_to_choices_exid[i]["current_range_key"],];
-      } 
+      }
     }
   }
+
   if (error_table_available) {
     let filtered_related_alt_step_infos = {};
+
     for (k in related_alt_step_infos) {
-      let info = related_alt_step_infos[k]; 
-      if (info[4] === true) filtered_related_alt_step_infos[k] = info;
+      let info = related_alt_step_infos[k];
+      if (info[4] === true) {
+        filtered_related_alt_step_infos[k] = info;
+      }
     }
+
     console.log("proposeAutoFix related_alt_steps:", related_alt_step_infos, " filtered (err_table):", filtered_related_alt_step_infos);
     let new_choices = find_next_unique_choices(filtered_related_alt_step_infos, current_choices, tried_choices_history);
     console.log("proposeAutoFix get_new_choices:", current_choices, "->", new_choices);
     return new_choices;
+
   } else {
     console.log("proposeAutoFix related_alt_steps:", related_alt_step_infos, "(no filter)");
     let new_choices = find_next_unique_choices(related_alt_step_infos, current_choices, tried_choices_history);
     console.log("proposeAutoFix get_new_choices:", current_choices, "->", new_choices);
     return new_choices;
   }
- 
 }
-
-
 
 function find_next_unique_choices(related_alt_step_infos, current_choices, tried_choices_history) {
   let {type, choices_list} = current_choices;
@@ -153,7 +180,9 @@ function find_next_unique_choices(related_alt_step_infos, current_choices, tried
     for (alt_step in related_alt_step_infos) {
       let [chcount, current_ch] = related_alt_step_infos[alt_step];
       for (let i = 0; i < chcount; i++) {
-        if (i === current_ch) continue;
+        if (i === current_ch) {
+          continue;
+        }
         let updated_choices_list = _step_choices_list_update(choices_list, parseInt(alt_step), i);
         console.log("find_next_unique_choices updated_choices_list:", updated_choices_list);
         let new_choices = {
@@ -166,12 +195,14 @@ function find_next_unique_choices(related_alt_step_infos, current_choices, tried
       }
     }
   } else if (type === "ASTNODE") {
-    //TODO...
+    // TODO...
     for (alt_step in related_alt_step_infos) {
       let [chcount, current_ch] = related_alt_step_infos[alt_step];
       let current_range_key = related_alt_step_infos[alt_step][5];
       for (let i = 0; i < chcount; i++) {
-        if (i === current_ch) continue;
+        if (i === current_ch) {
+          continue;
+        }
         let updated_choices_list = _astnode_choices_list_update(choices_list, current_range_key, i);
         console.log("find_next_unique_choices updated_choices_list:", updated_choices_list);
         let new_choices = {
@@ -228,22 +259,30 @@ function _step_choices_list_compare(choices_list1, choices_list2) {
     if (step in choices1_dict) {
       throw Error("_step_choices_list_compare invalid choices_list1: duplicated step: " + JSON.stringify(choices1_dict));
     }
-    if (ch !== 0) choices1_dict[step] = ch;
+    if (ch !== 0) {
+      choices1_dict[step] = ch;
+    }
   }
   for (let [step, ch] of choices_list2) {
     if (step in choices1_dict) {
       if (choices1_dict[step] === ch) {
         choices1_dict[step] = -1;
         continue;
-      } else return false;
+      } else {
+        return false;
+      }
     } else {
       if (ch === 0) {
         continue;
-      } else return false;
+      } else {
+        return false;
+      }
     }
   }
   for (let step in choices1_dict) {
-    if (choices1_dict[step] !== -1) return false;
+    if (choices1_dict[step] !== -1) {
+      return false;
+    }
   }
   return true;
 }
@@ -256,7 +295,9 @@ function _astnode_choices_list_compare(choices_list1, choices_list2) {
     if (range_key_str in choices1_dict) {
       throw Error("_astnode_choices_list_compare invalid choices_list1: duplicated range_key: " + JSON.stringify(choices1_dict));
     }
-    if (ch !== 0) choices1_dict[range_key_str] = ch;
+    if (ch !== 0) {
+      choices1_dict[range_key_str] = ch;
+    }
   }
   for (let [range_key, ch] of choices_list2) {
     let [astid, start, end] = range_key;
@@ -265,15 +306,21 @@ function _astnode_choices_list_compare(choices_list1, choices_list2) {
       if (choices1_dict[range_key_str] === ch) {
         choices1_dict[range_key_str] = -1;
         continue;
-      } else return false;
+      } else {
+        return false;
+      }
     } else {
       if (ch === 0) {
         continue;
-      } else return false;
+      } else {
+        return false;
+      }
     }
   }
   for (let range_key_str in choices1_dict) {
-    if (choices1_dict[range_key_str] !== -1) return false;
+    if (choices1_dict[range_key_str] !== -1) {
+      return false;
+    }
   }
   return true;
 }
@@ -282,12 +329,18 @@ function _choices_any_duplicate(choices, tried_choices_history) {
   let {type, choices_list} = choices;
   for (let cmpchoices of tried_choices_history) {
     let cmp_type = cmpchoices["type"];
-    if (cmp_type !== type) throw Error("_choices_any_duplicate boolean check FAILED. Choices are of different type.");
+    if (cmp_type !== type) {
+      throw Error("_choices_any_duplicate boolean check FAILED. Choices are of different type.");
+    }
     let cmp_choices_list = cmpchoices["choices_list"];
     if (type === "STEP") {
-      if (_step_choices_list_compare(choices_list, cmp_choices_list)) return true;
+      if (_step_choices_list_compare(choices_list, cmp_choices_list)) {
+        return true;
+      }
     } else if (type === "ASTNODE") {
-      if (_astnode_choices_list_compare(choices_list, cmp_choices_list)) return true;
+      if (_astnode_choices_list_compare(choices_list, cmp_choices_list)) {
+        return true;
+      }
     } else {
       throw Error("_choices_any_duplicate unknown type: " + type);
     }

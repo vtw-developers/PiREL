@@ -1,7 +1,6 @@
 "use strict";
 
 document.body.style.zoom = "90%";
-window.DEBUG_LOGGING = false;
 require.config({ paths: { vs: '../../_common/monaco/node_modules/monaco-editor/min/vs' } });
 
 let monaco_language_name_dict = {
@@ -204,6 +203,7 @@ translate_choices_btn.addEventListener("click", window.translateHandlerChAsync);
 copyurl_btn.addEventListener("click", copyUrlHandler);
 
 
+// monaco editors
 (async function main1() {
   getFileDictHandlerAsync();
 
@@ -212,19 +212,19 @@ copyurl_btn.addEventListener("click", copyUrlHandler);
 
   // the demo code is not a real file
   require(['vs/editor/editor.main'], function () {
-    source_lang_editor_obj = monaco.editor.create(source_lang_editor_elem, {
+    window.source_lang_editor_obj = monaco.editor.create(source_lang_editor_elem, {
       // value: ['def x():', '\tprint("Hello world!")', ''].join('\n'),
       language: 'python',
       wordWrap: "off",
       automaticLayout: true
     });
-    target_lang_editor_obj = monaco.editor.createDiffEditor(target_lang_editor_elem, {
+    window.target_lang_editor_obj = monaco.editor.createDiffEditor(target_lang_editor_elem, {
       // value: ['function x() {', '\tconsole.log("Hello world!");', '}'].join('\n'),
       wordWrap: "off",
       enableSplitViewResizing: true,
       automaticLayout: true
     });
-    target_trans_editor_obj = monaco.editor.create(target_trans_editor_elem, {
+    window.target_trans_editor_obj = monaco.editor.create(target_trans_editor_elem, {
       value: ['; target translation program'].join('\n'),
       language: 'scheme',
       wordWrap: "on",
@@ -375,9 +375,11 @@ async function getFileDictHandlerAsync() {
     console.log("_updateTestcasesSelect: ", sourceLang, targetLang);
 
     // ~~~ default ruleset
+    let defaultValueForSelect = "_active";
+    // let defaultValueForSelect = "base";
     // let defaultValueForSelect = "base_upd";
     // let defaultValueForSelect = "base_fn_header_only_ext";
-    let defaultValueForSelect = "current_learned_rules";
+    // let defaultValueForSelect = "base_fn_header_only_ext_learned";
 
     let pairkey = sourceLang + "_" + targetLang;
     if (pairkey in prog_dict["dirs"]) {
@@ -526,13 +528,13 @@ async function loadHandlerAsync() {
   if (true) {
     new_source_code_str = new_source_code_str === null ? "" : new_source_code_str;
     new_target_code_str = new_target_code_str  === null ? "" : new_target_code_str;
-    let srcModel = source_lang_editor_obj.getModel();
+    let srcModel = window.source_lang_editor_obj.getModel();
     monaco.editor.setModelLanguage(srcModel, monaco_language_name_dict[srcLang]);
-    source_lang_editor_obj.setValue(new_source_code_str);
+    window.source_lang_editor_obj.setValue(new_source_code_str);
 
     var tarCurrentlModel = monaco.editor.createModel('', monaco_language_name_dict[tarLang]);
     var tarTargetModel = monaco.editor.createModel(new_target_code_str, monaco_language_name_dict[tarLang]);
-    target_lang_editor_obj.setModel({
+    window.target_lang_editor_obj.setModel({
       original: tarCurrentlModel,
       modified: tarTargetModel
     });
@@ -541,53 +543,91 @@ async function loadHandlerAsync() {
   console.log("Load translator program (if any)...");
   try {
     let progCodeStr = await anyfileAsync(defaultTranslatorPath);
-    target_trans_editor_obj.setValue(progCodeStr);
+    window.target_trans_editor_obj.setValue(progCodeStr);
   } catch (error) {
     console.warn("Translator program not loaded. Default might not exist.", error);
-    target_trans_editor_obj.setValue("; empty ...");
+    window.target_trans_editor_obj.setValue("; empty ...");
   }
 }
 
 
 // ~~~ Trans button handler on http://127.0.0.1:8000/frontend/duoglot/pirel/ui_translate_single.html
-function translateHandlerGen(is_reading_choices) {
+function translateHandlerGen(isReadingChoices) {
 
-  function _setContinueButton(text, is_disabled) {
+  function _setContinueButton(text, isDisabled) {
     continue_choices_btn.innerText = text;
-    continue_choices_btn.disabled = is_disabled;
+    continue_choices_btn.disabled = isDisabled;
+  }
+
+  function _getSrcASTDict(source_AST, source_ann) {
+    let source_AST_dict = {};
+    let astToDictRec = (ast, thedict) => {
+      if (Array.isArray(ast)) {
+        if (ast.length >= 1 && ast[0] === "anno") return; //this is anno
+        if (ast.length <= 2) throw "ast_node_length_should_g2";
+        thedict[ast[1]] = ast;
+        if (ast.length > 2) {
+          for (let i = 2; i < ast.length; i++) astToDictRec(ast[i], thedict);
+        }
+      }
+    };
+    astToDictRec(source_AST, source_AST_dict);
+    return source_AST_dict;
   }
 
   /**
    * ~~~~~ loop for learning rules
    * transRules: all rules in a single string
+   * PRE: PiREL is enabled
   */
-  async function pirelLoop(srcCode, srcLang, tarLang, transRules, transType, transChoices, autobackEnabled) {
+  async function pirelLoop(
+    sourceCode,
+    sourceLang,
+    targetLang,
+    translationRules,
+    choiceType,
+    choicesList,
+    autobackEnabled,
+    kwargs
+  ) {
     let programTranslationState = {};
     let attemptCount = 0;
 
-    pirelLoop:
+    // this loop runs until the entire source program is translated
     while (attemptCount < consts_ns.MAX_NUM_LOOPS_PIREL) {
-      let translationResult = await translateAsync(srcCode, srcLang, tarLang, transRules, transType, transChoices, autobackEnabled);
-      let [_1, _2, errorInfo, _4, _5, _6, _7] = translationResult;
+      let _translationResult = await translateAsync(
+        sourceCode,
+        sourceLang,
+        targetLang,
+        translationRules,
+        choiceType,
+        choicesList,
+        autobackEnabled,
+        kwargs
+      );
+      let [_1, _2, _3, _4, _5, _6, _7, pirelData] = _translationResult;
 
-      if (!errorInfo) {
-        return translationResult;
+      // PiREL is enabled. If backend did not return any translation pairs,
+      // it means that the translation was successful
+      if (!pirelData) {
+        return _translationResult;
       }
 
-      if ("templates_dict" in errorInfo) {
-        let templatesDict = JSON.parse(errorInfo["templates_dict"]);
-        let translationRules = await getTranslationRules(templatesDict, programTranslationState, srcLang, tarLang);
-        // remove duplicate translation rules
-        translationRules = [...new Set(translationRules)];
-        for (let translationRule of translationRules) {
-          transRules = `;;;; NEW FROM PIREL:\n${translationRule}\n\n\n` + transRules;
-        }
-        await utils_ns.writeWithTimestamp(transRules, 'updated-ruleset.snart', consts_ns.DEBUG_OUTPUT_TRANSLATE_SINGLE_DIR);
+      let templateDict = pirelData["template_dict"];
+      let translationPairsDict = pirelData["translation_pairs"];
 
-      } else {
-        console.log("SEVERE: error on backend", errorInfo);
-        alert("error on backend: check console logs");
+      let inferredTransRules = await inferTranslationRules(
+        sourceLang,
+        targetLang,
+        translationPairsDict,
+        templateDict,
+        kwargs
+      );
+      inferredTransRules = [...new Set(inferredTransRules)];
+      for (let translationRule of inferredTransRules) {
+        translationRules = `;;;; NEW FROM PIREL:\n${translationRule}\n\n\n` + translationRules;
       }
+      await utils_ns.writeWithTimestamp(translationRules, 'updated-ruleset.snart', consts_ns.DEBUG_OUTPUT_TRANSLATE_SINGLE_DIR);
 
       attemptCount += 1;
     }
@@ -597,94 +637,16 @@ function translateHandlerGen(is_reading_choices) {
   }
 
   /**
-   * part of pirel
-   * templatesDict - as is from the backend
-  */
-  async function getTranslationRules(templatesDict, programTranslationState, srcLang, tarLang) {
-    let problematicNodeType = templatesDict["problematic_node_type"];
-    await utils_ns.writeJsonWithTimestamp(templatesDict, `gen-templates-${problematicNodeType}`, consts_ns.DEBUG_OUTPUT_TRANSLATE_SINGLE_DIR);
-
-    // initiate the state for the current problematic node
-    let nodeTranslationState = null;
-    let isPreviouslySeenNode = false;
-    let problematicNodeId = templatesDict["problematic_node_id"];
-    if (problematicNodeId in programTranslationState) {
-      nodeTranslationState = programTranslationState[problematicNodeId];
-      isPreviouslySeenNode = true;
-    } else {
-      nodeTranslationState = programTranslationState[problematicNodeId] = {};
-    }
-
-    // generate program pairs
-    // this is a hack to make query_llm.js work for ui_translate_single.js
-    learnRules_ns.log = function() { console.log(...arguments); };
-    let programMetadata = {file_name: "", source_code: "", id: "", log_dir: consts_ns.DEBUG_OUTPUT_TRANSLATE_SINGLE_DIR, path: (x => x)};
-
-    // iterate over templates
-    for (let templateId = 0; templateId < templatesDict["num_templates"]; templateId++) {
-      let templateDict = templatesDict[templateId];
-
-      // skip an invalid template
-      if (!templateDict["is_valid_template"]) {
-        continue;
-      }
-
-      let translationPairsDict = await queryAPI_ns.genTransPair(srcLang, tarLang, templateDict, programMetadata);
-      // let translationPairsDict = {
-      //   "translation_pairs": [
-      //     [
-      //       {
-      //         "source": "for i, v in enumerate(lst):\n    secret_fun_4071()",
-      //         "target": "for(let i = 0; i < lst.length; i++) {\n    let v = lst[i];\n    secret_fun_4071();\n}"
-      //       },
-      //       {
-      //         "source": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
-      //         "target": "for(let i = 0; i < my_tuple.length; i++) {\n    let v = my_tuple[i];\n    secret_fun_4071();\n}"
-      //       }
-      //     ],
-      //     [
-      //       {
-      //         "source": "for i, v in enumerate(lst):\n    secret_fun_4071()",
-      //         "target": "lst.forEach((v, i) => {\n    secret_fun_4071();\n});"
-      //       },
-      //       {
-      //         "source": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
-      //         "target": "my_tuple.forEach((v, i) => {\n    secret_fun_4071();\n});"
-      //       }
-      //     ]
-      //   ],
-      //   "templatized_nodes_replace_dws_values": [
-      //     true,
-      //     false,
-      //     false
-      //   ]
-      // }
-
-      // skip if no translation pairs were generated
-      if (translationPairsDict["translation_pairs"].length === 0) {
-        continue;
-      }
-
-      await utils_ns.writeJsonWithTimestamp(translationPairsDict, `translation-pairs-for-template-id-${templateId}`, programMetadata.log_dir);
-
-      let translationRules = await inferTranslationRules(
-        srcLang,
-        tarLang,
-        translationPairsDict,
-        templateDict,
-      );
-
-      await utils_ns.writeJsonWithTimestamp(translationRules, `translation-rules-for-template-id-${templateId}`, programMetadata.log_dir);
-
-      return translationRules;
-    }
-  }
-
-  /**
    * RETURN
    * List of translation rules
   */
-  async function inferTranslationRules(srcLang, tarLang, translationPairsDict, templateDict) {
+  async function inferTranslationRules(
+    sourceLang,
+    targetLang,
+    translationPairsDict,
+    templateDict,
+    kwargs
+  ) {
     let translationRules = [];
     let chooseLargestContainingNode = true;
     let prettyPrintTreeLike = false;
@@ -697,14 +659,15 @@ function translateHandlerGen(is_reading_choices) {
       for (let context of templateDict["contexts"]) {
         try {
           let newTranslationRule = await ruleInfAPI_ns.inferTranslationRule(
-            srcLang,
-            tarLang,
+            sourceLang,
+            targetLang,
             translationPair,
             context,
             templateDict["templatized_node_ids"],
             templatizedNodesReplaceDWS,
             templateDict["is_insert_secret_fn"],
-            prettyPrintTreeLike
+            prettyPrintTreeLike,
+            kwargs
           );
           translationRules.push(newTranslationRule);
         } catch (e) {
@@ -720,108 +683,117 @@ function translateHandlerGen(is_reading_choices) {
   }
 
   async function _translateHandlerAsync() {
-    console.log("++++++++++++++ translate_btn event handler ++++++++++++++");
+
     //------- set parse globals
     _setContinueButton("Waiting...", true);
-    function _get_src_AST_dict(source_AST, source_ann) {
-      let source_AST_dict = {};
-      let astToDictRec = (ast, thedict) => {
-        if (Array.isArray(ast)) {
-          if (ast.length >= 1 && ast[0] === "anno") return; //this is anno
-          if (ast.length <= 2) throw "ast_node_length_should_g2";
-          thedict[ast[1]] = ast;
-          if (ast.length > 2) {
-            for (let i = 2; i < ast.length; i++) astToDictRec(ast[i], thedict);
-          }
-        }
-      };
-      astToDictRec(source_AST, source_AST_dict);
-      if (false) console.log("_get_src_AST_dict.  source_code:", source_AST, "source_ann:", source_ann);
-      return source_AST_dict;
-    }
+
+    let sourceCode = window.source_lang_editor_obj.getValue();
     let sourceLang = sourcelang_select_elem.value;
     let targetLang = targetlang_select_elem.value;
-    let source_code = source_lang_editor_obj.getValue();
-    let transprog = target_trans_editor_obj.getValue();
-    let choices_info = {"type": "STEP", "choices_list": []};
-    if (is_reading_choices) {
-      choices_info = JSON.parse(choices_input_elem.value);
-    }
-    let {type, choices_list} = choices_info;
+    let translationRules = window.target_trans_editor_obj.getValue();
+    let choicesInfo = {"type": "STEP", "choices_list": []};
+    if (isReadingChoices) { choicesInfo = JSON.parse(choices_input_elem.value); }
+    let choiceType = choicesInfo["type"];
+    let choicesList = choicesInfo["choices_list"];
+    let autobackEnabled = translate_autobackward_elem.checked;
+    let pirelEnabled = translate_pirel_checkbox.checked;
 
     // ~~~ invoke translation
-    let pirelEnabled = translate_pirel_checkbox.checked;
-    let translationResult = null;
-    if (pirelEnabled) {
-      translationResult = await pirelLoop(source_code, sourceLang, targetLang, transprog, type, choices_list, translate_autobackward_elem.checked);
-    } else {
-      translationResult = await translateAsync(source_code, sourceLang, targetLang, transprog, type, choices_list, translate_autobackward_elem.checked);
-    }
-    let [src_parse_result, translate_result, error_info, dbg_history, translator_dbg_info, timespan, timespan_p] = translationResult;
+    let _translationResult = null;
+    let kwargs = {
+      "subject_name": srcfilepath_input_elem.value.split("/").slice(-1)[0],
+      "pirel_enabled": pirelEnabled
+    };
 
-    window._translate_dbg_history = dbg_history;
-    window._translate_timespan = timespan;
-    window._translate_timespan_pretty = timespan_p;
-    window._translate_src_parse = null;
-    if (window.DEBUG_LOGGING) {
-      console.log("++++++++++++++ translate-btn src_parse:", src_parse_result);
-      console.log("++++++++++++++ translate-btn translate_result:", translate_result);
-      console.log("++++++++++++++ translate-btn error_info:", error_info);
-      console.log("++++++++++++++ translate-btn translate dbg_history:", dbg_history);
-      console.log("++++++++++++++ translate-btn translator_dbg_info:", translator_dbg_info);
-      console.log("++++++++++++++ translate-btn timespan:", timespan);
+    // PiREL is enabled
+    if (pirelEnabled) {
+      _translationResult = await pirelLoop(
+        sourceCode,
+        sourceLang,
+        targetLang,
+        translationRules,
+        choiceType,
+        choicesList,
+        autobackEnabled,
+        kwargs
+      );
+
+    // PiREL is not enabled
+    } else {
+      _translationResult = await translateAsync(
+        sourceCode,
+        sourceLang,
+        targetLang,
+        translationRules,
+        choiceType,
+        choicesList,
+        autobackEnabled,
+        kwargs
+      );
     }
+
+    let [
+      srcParseResultDict,
+      tarTransResultDict,
+      errorDict,
+      debugHistory,
+      translatorDebugInfo,
+      timespan,
+      timespanPretty
+    ] = _translationResult;
+
+    window._translate_dbg_history = debugHistory;
+    window._translate_timespan = timespan;
+    window._translate_timespan_pretty = timespanPretty;
+    window._translate_src_parse = null;
+
     //------- update translated code
     function _updateTranslatedCodeMonaco(partial_code) {
-      if (partial_code == null) {
-        //console.warn("# _updateTranslatedCodeMonaco code is null.");
-        partial_code = "ERROR_OR_EMPTY";
-      }
-
+      if (partial_code == null) { partial_code = "ERROR_OR_EMPTY"; }
       try {
-        var oldModel = target_lang_editor_obj.getModel().original;
+        var oldModel = window.target_lang_editor_obj.getModel().original;
         if (oldModel) oldModel.dispose();
       } catch (e) {console.warn("Cannot clean the old model.");}
-
-      var tarCurrentlModel = monaco.editor.createModel(partial_code, monaco_language_name_dict[targetLang]);
-      var tarTargetModel = target_lang_editor_obj.getModel().modified;
+      var tarCurrentModel = monaco.editor.createModel(partial_code, monaco_language_name_dict[targetLang]);
+      var tarTargetModel = window.target_lang_editor_obj.getModel().modified;
       if (tarTargetModel === null) tarTargetModel = monaco.editor.createModel("", monaco_language_name_dict[targetLang]);
-      target_lang_editor_obj.setModel({
-        original: tarCurrentlModel,
+      window.target_lang_editor_obj.setModel({
+        original: tarCurrentModel,
         modified: tarTargetModel
       });
     }
 
-    if (translate_result) {
-      window._translated_code_map = translate_result["map_to_exid"];
-      _updateTranslatedCodeMonaco(translate_result["code"]);
+    if (tarTransResultDict) {
+      window._translated_code_map = tarTransResultDict["map_to_exid"];
+      _updateTranslatedCodeMonaco(tarTransResultDict["code"]);
       _setContinueButton("Done", true);
     } else {
       window._translated_code_map = null;
       _updateTranslatedCodeMonaco(null);
       _setContinueButton("Continue(ch)", false);
-      if (error_info["type"] === "API_PARAM_ERROR") {
-        alert("[UI_HANDLED]API Param Error. Translation Abort. " + error_info["msg"]);
+      if (errorDict["type"] === "API_PARAM_ERROR") {
+        alert("[UI_HANDLED]API Param Error. Translation Abort. " + errorDict["msg"]);
         return;
       } else {
-        alert("[UI_HANDLED]" + error_info["msg"]);
+        alert("[UI_HANDLED]" + errorDict["msg"]);
       }
     }
     console.log("+++++++++++++ translate-btn done.");
 
 
-    let source_AST = src_parse_result["src_ast"];
-    let source_ann = src_parse_result["src_ann"];
-    let source_AST_dict = _get_src_AST_dict(source_AST, source_ann);
-    window._translate_src_parse = [source_code, src_parse_result, source_AST_dict];
+    let source_AST = srcParseResultDict["src_ast"];
+    let source_ann = srcParseResultDict["src_ann"];
+    let source_AST_dict = _getSrcASTDict(source_AST, source_ann);
+    window._translate_src_parse = [sourceCode, srcParseResultDict, source_AST_dict];
     visualizeAST(true,
       sourceLang, targetLang,
       source_AST_dict, null,
       source_AST, null,
       source_ann, null,
-      dbg_history, translator_dbg_info,
-      translate_result, _updateTranslatedCodeMonaco);
+      debugHistory, translatorDebugInfo,
+      tarTransResultDict, _updateTranslatedCodeMonaco);
   }
+
   return _translateHandlerAsync;
 }
 
@@ -956,9 +928,9 @@ function update_monaco_marks_by_decoration_dicts() {
   //https://microsoft.github.io/monaco-editor/playground.html#interacting-with-the-editor-line-and-inline-decorations
   let sourceDecoList = Object.keys(source_decoration_dict).map((nodeId) => source_decoration_dict[nodeId]["isOn"] ? source_decoration_dict[nodeId]["deco"] : null).filter(x => x !== null);
   //let targetDecoList = Object.keys(target_decoration_dict).map((nodeId) => target_decoration_dict[nodeId]["isOn"] ? target_decoration_dict[nodeId]["deco"] : null).filter(x => x !== null);
-  _source_decoration_old_decids = source_lang_editor_obj.deltaDecorations(
+  _source_decoration_old_decids = window.source_lang_editor_obj.deltaDecorations(
     _source_decoration_old_decids, sourceDecoList);
-  // _target_decoration_old_decids = target_lang_editor_obj.deltaDecorations(
+  // _target_decoration_old_decids = window.target_lang_editor_obj.deltaDecorations(
   //   _target_decoration_old_decids, targetDecoList);
 }
 
@@ -970,13 +942,13 @@ function update_monaco_highlight_locate_for_trans(start, end) {
     throw "FAILED_update_monaco_highlight_locate_for_trans";
   }
   function _decoration(start, end, className) {
-    const sp = target_trans_editor_obj.getModel().getPositionAt(start);
-    const ep = target_trans_editor_obj.getModel().getPositionAt(end);
+    const sp = window.target_trans_editor_obj.getModel().getPositionAt(start);
+    const ep = window.target_trans_editor_obj.getModel().getPositionAt(end);
     let range = new monaco.Range(sp.lineNumber, sp.column, ep.lineNumber, ep.column);
     //console.log(sp, ep, range);
     //hacky. reveal the line.
-    target_trans_editor_obj.revealLine(sp.lineNumber);
-    target_trans_editor_obj.revealLine(ep.lineNumber);
+    window.target_trans_editor_obj.revealLine(sp.lineNumber);
+    window.target_trans_editor_obj.revealLine(ep.lineNumber);
     return {
       range: range, options: { inlineClassName: className}
     };
@@ -985,7 +957,7 @@ function update_monaco_highlight_locate_for_trans(start, end) {
   if (start !== -1 && end !== -1) {
     new_decos.push(_decoration(start, end, 'mymonaco-locate'));
   }
-  _transprog_decoration_old_decids = target_trans_editor_obj.deltaDecorations(
+  _transprog_decoration_old_decids = window.target_trans_editor_obj.deltaDecorations(
     _transprog_decoration_old_decids, new_decos);
 }
 

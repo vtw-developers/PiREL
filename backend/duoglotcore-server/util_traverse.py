@@ -1,7 +1,7 @@
 import cython
 import sys
-if cython.compiled: print("[util_traverse] Compiled.", file=sys.stderr)
-else: print("[util_traverse] Interpreted.", file=sys.stderr)
+# if cython.compiled: print("[util_traverse] Compiled.", file=sys.stderr)
+# else: print("[util_traverse] Interpreted.", file=sys.stderr)
 ####################################
 
 

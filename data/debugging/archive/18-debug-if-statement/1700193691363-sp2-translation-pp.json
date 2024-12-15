@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "translation_pairs": [
+    [
+      {
+        "source": "num = x - y",
+        "target": "let num = x - y;"
+      },
+      {
+        "source": "num = var1 - var2",
+        "target": "let num = var1 - var2;"
+      }
+    ]
+  ]
+}

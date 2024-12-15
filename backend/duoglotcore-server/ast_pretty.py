@@ -1,6 +1,8 @@
+import sys
 import json
 import consts
 import copy
+import code_beautify
 
 
 ### This is REALLY hacky!
@@ -297,3 +299,32 @@ def elem_list_to_mapanno_ast(all_elem_nodes):
       assert isinstance(ast_node, str) or isinstance(ast_node, int)
   # the result is the root elem
   return ast_root_node
+
+
+def ast_to_code(tar_ast, tarlang):
+  if tar_ast is None: return ""
+  prettied_code, map_by_exid = pretty_mapanno_ast(tar_ast, tarlang)
+  beautified_code, mapping_list = code_beautify.beautify(tarlang, prettied_code)
+  for exid in map_by_exid:
+    for mapanno in map_by_exid[exid]:
+      rg = mapanno["range"]
+      if not (rg[1] > rg[0] and prettied_code[rg[0]:rg[1]] == mapanno["str"]):
+        print("ERROR! invalid range:", mapanno, file=sys.stderr)
+        assert "string mismatch or range length 0" == 0
+      try:
+        newrg = (mapping_list[rg[0]], mapping_list[rg[1]-1]+1)
+      except Exception as e:
+        print("ERROR! code map calculation failure: " + str(e), file=sys.stderr)
+        print("-------- prettied code:", file=sys.stderr)
+        print(prettied_code, file=sys.stderr)
+        print("-------- problematic beautify and mapping:", file=sys.stderr)
+        print(beautified_code, file=sys.stderr)
+        print("-------- problematic range and mapping:", file=sys.stderr)
+        print("rg:", rg, file=sys.stderr)
+        print("mapping_list:", mapping_list, file=sys.stderr)
+        assert "beautified code failed to calculate mapping" == 0
+      if newrg[0] is None or newrg[1] is None:
+        print("ERROR! after beautify mapping lost:", prettied_code[rg[0]:rg[1]], mapanno, file=sys.stderr)
+        assert "after beautify mapping lost" == 0
+      mapanno["range"] = newrg
+  return beautified_code, map_by_exid

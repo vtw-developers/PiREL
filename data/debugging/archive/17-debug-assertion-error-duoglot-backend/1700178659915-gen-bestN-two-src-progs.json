@@ -1,0 +1,42 @@
+[
+  [
+    "for i, v in enumerate(lst):\n    secret_fun_4071()",
+    "for _ in enumerate(my_tuple):\n    secret_fun_4071()"
+  ],
+  [
+    "for i, v in enumerate(lst):\n    secret_fun_4071()",
+    "for _ in enumerate(items):\n    secret_fun_4071()"
+  ],
+  [
+    "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+    "for _ in enumerate(my_tuple):\n    secret_fun_4071()"
+  ],
+  [
+    "for index, value in enumerate(my_list):\n    secret_fun_4071()",
+    "for _ in enumerate(items):\n    secret_fun_4071()"
+  ],
+  [
+    "for idx, item in enumerate(array):\n    secret_fun_4071()",
+    "for _ in enumerate(my_tuple):\n    secret_fun_4071()"
+  ],
+  [
+    "for idx, item in enumerate(array):\n    secret_fun_4071()",
+    "for _ in enumerate(items):\n    secret_fun_4071()"
+  ],
+  [
+    "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+    "for _ in enumerate(my_tuple):\n    secret_fun_4071()"
+  ],
+  [
+    "for counter, element in enumerate(elements):\n    secret_fun_4071()",
+    "for _ in enumerate(items):\n    secret_fun_4071()"
+  ],
+  [
+    "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+    "for _ in enumerate(my_tuple):\n    secret_fun_4071()"
+  ],
+  [
+    "for i, val in enumerate(my_list):\n    secret_fun_4071()",
+    "for _ in enumerate(items):\n    secret_fun_4071()"
+  ]
+]

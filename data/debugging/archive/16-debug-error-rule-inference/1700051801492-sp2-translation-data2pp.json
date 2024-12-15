@@ -1,0 +1,21 @@
+{
+  "sp1": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+  "sp2": "for i, item in enumerate(numbers):\n    secret_fun_4071()",
+  "cand_translation_sp1": "for (let idx = 0; idx < my_list.length; idx++) {\n    let val = my_list[idx];\n    secret_fun_4071();\n}",
+  "raw_translations_sp2": [
+    "for i, item in enumerate(numbers):\n    secret_fun_4071()",
+    "for (let i = 0; i < numbers.length; i++) {\n    let item = numbers[i];\n    secret_fun_4071();\n}"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

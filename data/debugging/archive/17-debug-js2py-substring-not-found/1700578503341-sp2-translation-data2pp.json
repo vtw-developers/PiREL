@@ -1,0 +1,22 @@
+{
+  "sp1": "var one = 1;",
+  "sp2": "var myNumber = 5;",
+  "cand_translation_sp1": "one = 1",
+  "raw_translations_sp2": [
+    "myNumber = 5"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ],
+  "src_lang": "js",
+  "tar_lang": "py"
+}

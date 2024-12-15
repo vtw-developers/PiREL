@@ -1,0 +1,20 @@
+{
+  "sp1": "for count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")",
+  "sp2": "for num, letter in enumerate('python'):\n    if letter == 'o':\n        continue",
+  "cand_translation_sp1": "let str = \"Hello World\";\nfor(let count = 0; count < str.length; count++) {\n    let char = str[count];\n    console.log(count + \": \" + char);\n}",
+  "raw_translations_sp2": [
+    "let str = \"python\";\nfor(let num = 0; num < str.length; num++) {\n    let letter = str[num];\n    if(letter == 'o') {\n        continue;\n    }\n}"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

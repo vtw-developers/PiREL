@@ -11,16 +11,21 @@
     <script type="text/javascript" src="../../_common/monaco/node_modules/monaco-editor/min/vs/loader.js"></script>
 
     <div class="full-width-div height-100p-fixed">
+
       <!-- HEADER -->
       <div class="height-headline">
-        <!-- headline -->
         <div class="headline-elem">
           <h2 class="main-name">PiREL: Learn rules</h2>
           <a class="the-other-link" href="../index.html">Go to index</a>
         </div>
 
-        <!-- Rules control group -->
+        <!-- control group -->
         <div class="control-group" id="load-control-group">
+          <span>Learn rules for subjects from</span>
+          <input type="number" id="subjects-from-idx">
+          <span>to</span>
+          <input type="number" id="subjects-to-idx">
+          <span>(inclusive, 1-indexed)</span>
           <button id="start-rule-learning-btn" class="my-btn headline-elem">Start PiREL rule learning</button>
         </div>
       </div>
@@ -30,11 +35,15 @@
         <div class="row">
 
           <div class="column">
-            <span>Current program:</span>
+            <p>Current program:</p>
+            <input type="number" id="current-subject-input">
           </div>
 
+          <br/>
+
           <div class="column">
-            <span>Logs:</span>
+            <p>Logs:</p>
+            <textarea id="learn-rules-logs-textarea" rows="50" cols="200">logs are printed here</textarea>
           </div>
 
         </div>
@@ -48,8 +57,6 @@
     <script type="text/javascript" src="../api_wrapper.js"></script>
     <script type="text/javascript" src="./ui_learn_rules.js"></script>
     <script type="text/javascript" src="./consts.js"></script>
-    <script type="text/javascript" src="./prompt_templates.js"></script>
-    <script type="text/javascript" src="./query_llm.js"></script>
     <script type="text/javascript" src="./rule_inference.js"></script>
     <script type="text/javascript" src="./utils.js"></script>
   </body>

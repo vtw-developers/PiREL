@@ -55,28 +55,28 @@ let task_queue = [];
 function task_queue_label_update() {
   statusQueueSetter("Task Queue Status\nLength: " + task_queue.length + "\nAddAll: " + addall_benchmark_ids.length);
 }
-function task_queue_pushtail(benchmark_id) { 
-  task_queue.push(benchmark_id); 
-  task_queue_label_update(); 
+function task_queue_pushtail(benchmark_id) {
+  task_queue.push(benchmark_id);
+  task_queue_label_update();
 }
-function task_queue_pushtail_list(benchmark_id_list) { 
+function task_queue_pushtail_list(benchmark_id_list) {
   for (let benchmark_id of benchmark_id_list) {
     task_queue.push(benchmark_id);
-  } 
-  task_queue_label_update(); 
+  }
+  task_queue_label_update();
 }
-function task_queue_pophead() { 
+function task_queue_pophead() {
   if (task_queue.length > 0) {
-    let head = task_queue.shift(); 
-    task_queue_label_update(); 
+    let head = task_queue.shift();
+    task_queue_label_update();
     return head;
   } else {
-    return null; 
+    return null;
   }
 }
-function task_queue_clear() { 
-  task_queue.length = 0; 
-  task_queue_label_update(); 
+function task_queue_clear() {
+  task_queue.length = 0;
+  task_queue_label_update();
 }
 
 const RUNNER_STATE_IDLE = "RUNNER_STATE_IDLE";
@@ -138,11 +138,11 @@ setTimeout((async function main1() {
 
   mainLogger("Initializing...");
   task_runners[0].logger = composeFuncN(
-    dashboard_iframe_elem.contentWindow.createLogger("logSub1"), 
+    dashboard_iframe_elem.contentWindow.createLogger("logSub1"),
     (msg) => task_runners[0].log_string_list.push(msg)
   );
   task_runners[1].logger = composeFuncN(
-    dashboard_iframe_elem.contentWindow.createLogger("logSub2"), 
+    dashboard_iframe_elem.contentWindow.createLogger("logSub2"),
     (msg) => task_runners[1].log_string_list.push(msg)
   );
   task_runners[0].logger_cleaner = dashboard_iframe_elem.contentWindow.createLoggerCleaner("logSub1");
@@ -176,7 +176,7 @@ setTimeout((async function main1() {
         await runBenchmarkHandler_ErrorAlert(bench_id_if_any);
       }
       is_dispatcher_running = false;
-      
+
     }
   }, 500);
 
@@ -200,7 +200,7 @@ function polyFillRunnerIframes(loggerFunc) {
 async function initializeConfigAsync() {
   // list of translation rules
   let prog_dict = await getProgfilesAsync();
-  
+
   // sets the values for dropdown UI element
   function set_option_general_elems(select_elem, vals) {
     select_elem.innerHTML = "";
@@ -269,7 +269,7 @@ async function initializeConfigAsync() {
     update_select_elems(transprog_trans_select_elem, pairkey, "gfg");
     update_select_elems(transprog_transtest_select_elem, pairkey, "gfgtest");
     update_select_elems(transprog_target_select_elem, tarkey, "instrudel");
-    
+
     // set config data after loading progs
     let config_data = config_dict[config_option];
     set_config_data(config_data);
@@ -295,7 +295,7 @@ async function initializeConfigAsync() {
     }
     if(window.DEBUG_LOGGING) console.log("_updateConfigAsync existing_file_list:", existing_file_list);
     if(window.DEBUG_LOGGING) console.log("_updateConfigAsync existing_logfile_list:", existing_logfile_list);
-    
+
     // TODO: get stafiles according to source language
     let stafiles = sourceLang in file_dict["dirs"] ? file_dict["dirs"][sourceLang]["files"] : [];
     stafiles = stafiles.filter(x => x !== ".gitignore");
@@ -303,8 +303,8 @@ async function initializeConfigAsync() {
     if(window.DEBUG_LOGGING) console.log("_updateConfigAsync stafiles: ", stafiles);
     let done_ratio = stafiles.length >= 0 && existing_file_list ? Math.round((existing_file_list.length / stafiles.length) * 100) + "%" : "NA";
     statusBenchSetter("Total: " + stafiles.length + "\nDone: " + (existing_file_list? existing_file_list.length : "NA") + " (" + done_ratio + ")"+ "\nLog: " + log_count)
-    
-    let havent_run_files = [];    
+
+    let havent_run_files = [];
     benchmark_list_elem.innerHTML = "";
     // use fragment to speed up
     let list_fragment = document.createDocumentFragment();
@@ -325,10 +325,12 @@ async function initializeConfigAsync() {
       let codepath2 = "duoglot/tests/_output_/" +output_fdr + "/" + pairkey + "_log/" + expected_existing_logfilename;
       let newpageurl = create_url(null, "../_common/index_viewer.html", {
         codepath0: codepath0,
-        codepath1: codepath1, 
-        codepath2: codepath2, 
+        codepath1: codepath1,
+        codepath2: codepath2,
         autoload: true});
       let view_code_btn = true ? `<a class="sidelist-item-view-link" href="${newpageurl}" target="_blank">View</a>` : "";
+
+      // ~~~ this is the UI element that corresponds to a subject from the benchmark
       let item_elem = document.createElement("div");
       item_elem.attributes["key"] = filename;
       item_elem.attributes["x_fail"] = (!is_result_existing) && is_log_existing;
@@ -346,7 +348,7 @@ async function initializeConfigAsync() {
       list_fragment.appendChild(item_elem);
     }
     benchmark_list_elem.appendChild(list_fragment);
-    
+
     console.log("_updateConfigAsync havent_run_files:", havent_run_files);
     addall_benchmark_ids = havent_run_files;
     task_queue_label_update();
@@ -383,7 +385,7 @@ function getIdleTaskRunner() {
       runner.log_string_list.length = 0;
     }
   }
-  
+
   idle_runner = _find_idle_runner();
   if (idle_runner !== null) return idle_runner;
 
@@ -395,10 +397,10 @@ function getIdleTaskRunner() {
       runner.log_string_list.length = 0;
     }
   }
-  
+
   idle_runner = _find_idle_runner();
   if (idle_runner !== null) return idle_runner;
-  
+
   return null;
 }
 
@@ -435,7 +437,7 @@ function fail_reason_checker(src, log_text) {
   if (src.indexOf("import defaultdict") >= 0) return "need defaultdict";
   if (src.indexOf("Counter(") >= 0) return "need Counter";
   if (src.indexOf("heapq") >= 0) return "need heapq";
-  return "UN"; 
+  return "UN";
 }
 
 
@@ -496,16 +498,16 @@ async function runBenchmarkHandler(benchmarkname) {
   let transProgPrefix = transprog_trans_select_elem.value;               // 'gfg'
   let transtestProgPrefix = transprog_transtest_select_elem.value;       // 'gfgtest'
   let targetProgPrefix = transprog_target_select_elem.value;             // 'instrudel'
-  let srckey = sourcelang + "_" + sourcelang;                            
-  let tarkey = targetlang + "_" + targetlang;                            
-  let pairkey = sourcelang + "_" + targetlang;                           
+  let srckey = sourcelang + "_" + sourcelang;
+  let tarkey = targetlang + "_" + targetlang;
+  let pairkey = sourcelang + "_" + targetlang;
   let staFilepath = "duoglot/tests/" + benchDirname + "/" + sourcelang + "/" + benchmarkname;                                                          // 'duoglot/tests/standalone/py/GFG_ADD_1_TO_A_GIVEN_NUMBER.py'
   let sourceProgPath = sourceProgPrefix === "" ? null : "duoglot/tests/trans_programs/" + srckey + "/" + sourceProgPrefix + ".snart";                  // 'duoglot/tests/trans_programs/py_py/instru.snart'
   let transProgPath = transProgPrefix === "" ? null : "duoglot/tests/trans_programs/" + pairkey + "/" + transProgPrefix + ".snart";                    // 'duoglot/tests/trans_programs/py_js/gfg.snart'
   let transProgConfigPath = transProgPrefix === "" ? null : "duoglot/tests/trans_programs/" + pairkey + "/" + transProgPrefix + ".config.json";        // 'duoglot/tests/trans_programs/py_js/gfg.config.json'
   let transtestProgPath = transtestProgPrefix === "" ? null : "duoglot/tests/trans_programs/" + pairkey + "/" + transtestProgPrefix + ".snart";        // 'duoglot/tests/trans_programs/py_js/gfgtest.snart'
   let targetProgPath = targetProgPrefix === "" ? null : "duoglot/tests/trans_programs/" + tarkey + "/" + targetProgPrefix + ".snart";                  // 'duoglot/tests/trans_programs/js_js/instrudel.snart'
-  
+
   let files_git_status = parse_gitstatus((await getGitStatusAsync())["content"]);
 
   // TODO why do we need GITSTATUS?
@@ -595,7 +597,7 @@ async function runBenchmarkHandler(benchmarkname) {
     let source_lang_editor_obj = iframe.contentWindow.source_lang_editor_obj;     // source program editor
     let target_trans_editor_obj = iframe.contentWindow.target_trans_editor_obj;   // rules editor (below source program editor)
     let monaco = iframe.contentWindow.monaco;
-    let srcModel = source_lang_editor_obj.getModel(); 
+    let srcModel = source_lang_editor_obj.getModel();
 
     monaco.editor.setModelLanguage(srcModel, monaco_language_name_dict[lang_at_source]);
     source_lang_editor_obj.setValue(code_at_source);
@@ -717,7 +719,7 @@ async function runBenchmarkHandler(benchmarkname) {
       testfunc_code = raw_testfunc_code.replace("mylog(2", "myexactlog(2");
       testfunc_code = testfunc_code.replace("mylog(1", "myexactlog(1");
       testfunc_code = testfunc_code.replace("mylog(3", "myexactlog(3");
-      
+
       //FUTURE TODO: remove mylog instrumentation in goldfunc_code
       goldfunc_code = raw_goldfunc_code.split("\n").filter(x => !(x.trim().startsWith("mylog"))).join("\n");
       logger("INFO: removed 'mylog' instrumentation in goldfunc (if any).");
@@ -746,7 +748,7 @@ async function runBenchmarkHandler(benchmarkname) {
         testcall_code = null;
       }
     }
-    
+
     // ~~~ STAGE 2
     logger("===== Process stage 2 =====");
     _setLanguages(iframe_trans, sourcelang, targetlang);
@@ -777,7 +779,7 @@ async function runBenchmarkHandler(benchmarkname) {
         throw Error("inspect translation of test.");
       }
     }
-    
+
     logger("Translating f_gold func...");
     function testcode_wrapper(goldfunc_trans_code) {
       if (split3_check_elem.checked) {
@@ -808,7 +810,7 @@ async function runBenchmarkHandler(benchmarkname) {
           let test_runner_after_t = performance.now();
           logger("TIME (test_runner): " + String((test_runner_after_t - test_runner_before_t) / 1000));
           return [true, target_code, target_log, target_error, timespan_s, timespan_t];
-        } 
+        }
         logger("FAILED. target_error:", JSON.stringify(target_error));
 
         let test_runner_after_t = performance.now();
@@ -844,7 +846,7 @@ async function runBenchmarkHandler(benchmarkname) {
         logger("===== Process stage 3 skipped =====");
         deinstrumented_code = translated_code;
       }
-      
+
       if (saverun) {
         logger("Write to file: " + outputpath, JSON.stringify(await writeOutputFileAsync(outputpath, deinstrumented_code)));
       } else {

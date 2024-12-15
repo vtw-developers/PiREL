@@ -1,11 +1,12 @@
 # Contents of this dir
 ```
-base.snart                            base 44 rules in DuoGlot
+base.snart                                  base 44 rules in DuoGlot
+base_upd.snart                              origin=base.snart, addditional 4 rules for comments and imports
 
-base_upd_pirel.snart              Pirel rules learner will save the inferred rules to this file
-base_upd_debug_L0017.snart            (removable) temporary ruleset for debugging L0017 2023 07 25
-base_upd_reduced.snart                origin=base_upd.snart, 36 rules, 8 rules removed from base.snart
-base_upd.snart                        origin=base.snart, addditionally 2 rules for comment and import
+base_fn_header_only.snart                   5 rules enough to translate a function header
+base_fn_header_only_ext.snart               base_fn_header_only.snart + additional rules that we cannot learn at this moment,
+                                            tricky rules, rules that we will handle later
+base_fn_header_only_ext_learned.snart       base_fn_header_only_ext.snart + rules that we have learned so far
 
 ctci.snart                            
 gfg.snart                             

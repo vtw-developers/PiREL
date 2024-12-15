@@ -2,7 +2,7 @@
 
 ## License
 Main part of the code is under MIT License.
-Some dependencies and datasets are under other licenses. See [DEPENDENCY.md](DEPENDENCY.md) for details.
+Some dependencies and datasets are under other licenses. See [DEPENDENCY.md](./DEPENDENCY.md) for details.
 
 ## Introduction
 This is an ongoing research work.
@@ -105,10 +105,10 @@ Notice that the `PiREL` is exposed at `127.0.0.1:8000`. Open the browser to visi
 
 - Link to the Translation UI:  
   http://127.0.0.1:8000/frontend/duoglot/pirel/ui_translate_single.html
-  ![Translation UI](../../../Users/user/Downloads/PiREL-main/PiREL-main/pics/pirel_translate_single.png)
+  ![Translation UI](./pics/pirel_translate_single.png)
 - Rule Editor UI:  
   http://127.0.0.1:8000/frontend/duoglot/index_editrule.html
-  ![Rule Editor UI](../../../Users/user/Downloads/PiREL-main/PiREL-main/pics/duoglot_editrule.png)
+  ![Rule Editor UI](./pics/duoglot_editrule.png)
 - Index:
   http://127.0.0.1:8000/frontend/duoglot/index.html
 
@@ -120,7 +120,7 @@ If you can successfully load those pages, then it's good to go.
 ### **Translate JavaScript code to Python code**
 1. After obtaining a JavaScript code using [BlocklyCode](https://github.com/vtw-developers/dna-blockly-open), save it for reference.
 2. Visit [PiREL Translation UI](http://127.0.0.1:8000/frontend/duoglot/pirel/ui_translate_single.html)
-   ![Translation UI steps](../../../Users/user/Downloads/PiREL-main/PiREL-main/pics/pirel_translate_single_steps.png)
+   ![Translation UI steps](./pics/pirel_translate_single_steps.png)
 3. After setting up translation source and target languages, starting ruleset, and the program you want to translate, click on the Load button (1).
 4. The program can be edited in the text field on the left (4), and the ruleset can be edited in the text field at the bottom (5).
 5. Check the PiREL checkbox (2).

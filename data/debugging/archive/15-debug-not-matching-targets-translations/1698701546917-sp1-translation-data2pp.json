@@ -1,0 +1,24 @@
+{
+  "program_pairs": [
+    {
+      "source": "for i, val in enumerate(nums):\n    if i > 5:\n        break",
+      "target": "for (let i = 0; i < nums.length; i++) {\n    if (i > 5) {\n        break;\n    }\n    let val = nums[i];\n}"
+    },
+    {
+      "source": "for i, val in enumerate(nums):\n    if i > 5:\n        break",
+      "target": "let i = 0;\nfor (let val of nums) {\n    if (i > 5) {\n        break;\n    }\n    i++;\n}"
+    }
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

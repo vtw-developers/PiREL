@@ -2,10 +2,8 @@
  * The 'module' that contains everything for learning rules using Pirel.
 */
 
-// namespace for rule learner
+// namespaces
 var learnRules_ns = {};
-
-// namespace for benchmark
 var benchmark_ns = {};
 
 // ==============================================================================
@@ -17,10 +15,10 @@ var benchmark_ns = {};
  * Sampling can be implemented here.
  *
  * PARAMS
- * numPrograms - number of programs to get
+ * fromIdx, toIdx - are 0-based normal array indices
 */
-benchmark_ns.getProgramsForLearningRules = async function(numPrograms) {
-  let leetCodePrograms = await benchmark_ns._getLeetCodePrograms(numPrograms);
+benchmark_ns.getProgramsForLearningRules = async function(fromIdx, toIdx) {
+  let leetCodePrograms = await benchmark_ns._getLeetCodePrograms(fromIdx, toIdx);
   return leetCodePrograms;
 };
 
@@ -32,17 +30,17 @@ benchmark_ns.getProgramsForLearningRules = async function(numPrograms) {
  * Can be arbitrarily large number to get all programs.
  *
  * RETURN FORMAT
- * returnData = {
- *   filename: {
+ * returnData = [
+ *   {
  *     file_name: str,
  *     content: str,
  *     id: str
  *   }
- * }
+ * ]
 */
-benchmark_ns._getLeetCodePrograms = async function(firstN) {
+benchmark_ns._getLeetCodePrograms = async function(fromIdx, toIdx) {
 
-  let returnData = {};
+  let returnData = [];
 
   let filesDirsDict = await getGeneralBenchFilesAsync("staleetcode/pysep");
   let allFilesList = filesDirsDict["files"];
@@ -53,7 +51,7 @@ benchmark_ns._getLeetCodePrograms = async function(firstN) {
   validProgramNames.sort();
 
   // get first N program names
-  validProgramNames = validProgramNames.slice(0, firstN);
+  validProgramNames = validProgramNames.slice(fromIdx, toIdx);
 
   // temporary hack to run just L0003_LongestSubstringWithoutRepeatingCharacters.py
   // TODO remove after testing
@@ -63,11 +61,12 @@ benchmark_ns._getLeetCodePrograms = async function(firstN) {
     let programPath = `duoglot/tests/staleetcode/pysep/${programName}`;
     let programSource = await utils_ns.readFileFromDataDir(programPath);
     let programId = programName.slice(0, 5);
-    returnData[programName] = {
+    let programData = {
       file_name: programName,
       content: programSource,
       id: programId
     };
+    returnData.push(programData);
   }
 
   return returnData;
@@ -77,14 +76,23 @@ benchmark_ns._getLeetCodePrograms = async function(firstN) {
  * Returns
  * 1. path to the starting ruleset
  * 2. path where the updated rulesed is saved after adding newly learned rules with Pirel
+ * `customSuffix` can be an empty string
 */
-benchmark_ns.getRulesetPaths = async function() {
-  let rulesetDir = "duoglot/tests/trans_programs/py_js";
-  let startRulesetName = "base_upd";
-  let updatedRulesetSuffix = "pirel";
+benchmark_ns.getStartingUpdatedRulesetPaths = async function(customSuffix, config) {
+  let rulesetDir = config["ruleset_dir"];
+  let startRulesetName = config["start_ruleset"];
+  let updatedRulesetSuffix = config["updated_ruleset_suffix"];
+
+  if (customSuffix !== "") {
+    customSuffix = "_" + customSuffix;
+  }
 
   let startRulesetPath = `${rulesetDir}/${startRulesetName}.snart`;
-  let updatedRulesetPath = `${rulesetDir}/${startRulesetName}_${updatedRulesetSuffix}.snart`;
+  let updatedRulesetPath = `${rulesetDir}/${startRulesetName}_${updatedRulesetSuffix}${customSuffix}.snart`;
+
+  if (config["save_updated_ruleset_to_start_ruleset_file"]) {
+    updatedRulesetPath = startRulesetPath;
+  }
 
   return [startRulesetPath, updatedRulesetPath];
 };
@@ -98,6 +106,13 @@ learnRules_ns.startButtonHandler = async function() {
 };
 learnRules_ns.startButton = document.getElementById("start-rule-learning-btn");
 learnRules_ns.startButton.addEventListener("click", learnRules_ns.startButtonHandler);
+
+learnRules_ns.subjectsFromIdxInput = document.getElementById("subjects-from-idx");
+learnRules_ns.subjectsToIdxInput = document.getElementById("subjects-to-idx");
+
+learnRules_ns.logsTextArea = document.getElementById("learn-rules-logs-textarea");
+learnRules_ns.currentSubjectInput = document.getElementById("current-subject-input");
+// learnRules_ns.currentSubjectInput.value = "10";
 
 // ==============================================================================
 // ================= LOGGING ====================================================
@@ -119,6 +134,8 @@ learnRules_ns.log = function() {
 
   // uncomment if need to see the arguments in console
   // console.log(...arguments);
+
+  learnRules_ns.logsTextArea.innerHTML = learnRules_ns.logs.join("\n");
 };
 
 learnRules_ns.clearLogs = function() {
@@ -134,6 +151,7 @@ learnRules_ns.saveLogs = async function() {
 // ==============================================================================
 
 /**
+ * TODO update this doc
  * Run rules learner on a single program
  *
  * PARAMS
@@ -159,38 +177,32 @@ learnRules_ns.runSingleProgram = async function(
   programSourceCode,
   programId,
   ruleset,
-  updatedRulesetPath
+  updatedRulesetPath,
+  config
 ) {
 
-  function __log() {learnRules_ns.log("[learnRules_ns.runSingleProgram]", ...arguments);}
-  __log("Starting translation of", programFileName);
+  function _log() {learnRules_ns.log("[learnRules_ns.runSingleProgram]", ...arguments);}
+  _log("Starting translation of", programFileName);
 
-  // store metadata about the program under test
-  let programMetadata = {
-    file_name: programFileName,
-    source_code: programSourceCode,
-    id: programId,
-    log_dir: consts_ns.DEBUG_OUTPUT_LEARN_RULES_DIR + "/" + programId,
-    path: ((x) => consts_ns.DEBUG_OUTPUT_LEARN_RULES_DIR + "/" + programId + "/" + x)
-  };
+  programLogDir = consts_ns.DEBUG_OUTPUT_LEARN_RULES_DIR + "/" + programId;
+  await utils_ns.writeFileToDataDirMakedirs(programLogDir + "/program.py", programSourceCode);
+  await utils_ns.writeFileToDataDirMakedirs(programLogDir + "/starting_ruleset.snart", ruleset);
 
   // this is an object that stores the state of Pirel for the current program
   let programTranslationState = {};
 
-  // create a log dir for the program under test
-  await utils_ns.writeFileToDataDirMakedirs(programMetadata.path("program.py"), programSourceCode);
-  __log("created log directory for the program under", programId);
-
   // run the loop only `consts_ns.MAX_NUM_LOOPS_PIREL` times
-  // OR until all templates are exhausted
   // OR some other error is thrown
   let attemptCount = 0;
   pirelLoop:
   while (attemptCount < consts_ns.MAX_NUM_LOOPS_PIREL) {
+    attemptCount += 1;
+    _log(`attempt number ${attemptCount} to translate ${programId}`);
 
-    __log(`attempt number ${attemptCount + 1} to translate ${programId}`);
-
-    // ~~~ run normal translation
+    // ~~~ RUN NORMAL TRANSLATION
+    let kwargs = {
+      "subject_name": programId  // NOTE this is a prefix that is added to produced log messages and files
+    };
     let translationResult = await translateAsync(
       programSourceCode,
       consts_ns.SRC_LANG,
@@ -198,200 +210,103 @@ learnRules_ns.runSingleProgram = async function(
       ruleset,
       consts_ns.TRANS_TYPE,
       consts_ns.TRANS_CHOICES,
-      consts_ns.AUTOBACK_ENABLED
+      consts_ns.AUTOBACK_ENABLED,
+      config.enable_pirel,
+      kwargs
     );
+    let [_1, _2, errorInfo, _4, _5, _6, _7, pirelData] = translationResult;
+    _log("translation is complete");
 
-    __log("translation is complete");
-
-    // we need only errorInfo
-    let [_1, _2, errorInfo, _3, _4, _5, _6] = translationResult;
-
-    // there is an error in translation
-    if (errorInfo && "templates_dict" in errorInfo) {
-      __log("Error in translation");
-
-      // 1 parse the data sent from the backend
-      // refer to s_extract_templates.extract_templates() for the format of templates_dict
-      let templatesDict = JSON.parse(errorInfo["templates_dict"]);
-      let problematicNodeType = templatesDict["problematic_node_type"];
-      let problematicNodeId = templatesDict["problematic_node_id"];
-      let numTemplates = templatesDict["num_templates"];
-      __log("problematic node type is", problematicNodeType);
-      __log("problematic node id is", problematicNodeId);
-      __log("number of templates is", numTemplates);
-      await utils_ns.writeFileToDataDir(
-        programMetadata.path(`templates-pnid-${problematicNodeId}-pntype-${problematicNodeType}.json`),
-        JSON.stringify(templatesDict)
-      );
-
-      // 2 initiate the state for the current problematic node
-      let currentNodeState = null;
-      let previouslySeenNode = false;
-
-      // 2.1 problematic node didn't change from previous iteration
-      if (problematicNodeId in programTranslationState) {
-        currentNodeState = programTranslationState[problematicNodeId];
-        previouslySeenNode = true;
-        __log(`seeing the same problematic node ${problematicNodeId} again: last template did not work`);
-
-      // 2.2 seeing this problematic node for the first time
-      } else {
-        currentNodeState = programTranslationState[problematicNodeId] = {};
-        // INV the following four sets are disjoint:
-        currentNodeState["template_ids_skipped"] = []; // templates which could not be filled
-        currentNodeState["template_ids_not_tried"] = Array.from(Array(numTemplates).keys()); // templates which have not been tried yet
-        currentNodeState["template_ids_unsuccessful"] = []; // templates from which rules were inferred, but they didn't work
-        currentNodeState["template_id_last_used"] = null; // THE template from which working rule was inferred
-        __log(`seeing the problematic node ${problematicNodeId} for the first time`);
-      }
-
-      // 2.3 sanity check of INV (above)
-      let _groundTruth = Array.from(Array(numTemplates).keys()).join(',');
-      let _gathered = [
-        ...currentNodeState["template_ids_skipped"],
-        ...currentNodeState["template_ids_not_tried"],
-        ...currentNodeState["template_ids_unsuccessful"],
-      ];
-      if (currentNodeState["template_id_last_used"] !== null) {
-        _gathered.push(currentNodeState["template_id_last_used"]);
-      }
-      let _compared = _gathered.sort().join(',');
-      if (_groundTruth !== _compared) {
-        __log("INVARIANT is broken. Debugging needed.");
-        __log("ground truth:", _groundTruth);
-        __log("gathered:", _gathered);
-        __log("skipped:", currentNodeState["template_ids_skipped"]);
-        __log("unused:", currentNodeState["template_ids_not_tried"]);
-        __log("unsuccessful:", currentNodeState["template_ids_unsuccessful"]);
-        __log("last used:", currentNodeState["template_id_last_used"]);
-      }
-
-      // 2.4 no unused templates left => no rule was inferenced with given templates
-      // TODO start over? what to change?
-      if (currentNodeState["template_ids_not_tried"].length === 0) {
-        __log(`SEVERE: no templates left for ${programId}. Quitting...`);
-        programTranslationState["success"] = false;
-        programTranslationState["result"] = "could not be translated due to template exhaustion";
-
-        // breaking the loop is the same as returning from the function
-        break pirelLoop;
-      }
-
-      // 3 ~~~ generate translation pairs
-      let translationPairsDict = {};
-      try {
-
-        __log(`attempting to generate translation pairs for ${programId}`);
-        translationPairsDict = await queryAPI_ns.generateAllPossibleTranslationPairs(
-          consts_ns.SRC_LANG,
-          consts_ns.TAR_LANG,
-          templatesDict,
-          currentNodeState["template_ids_not_tried"],
-          programMetadata
-        );
-        // NOTE if generated more translation pairs than request, truncate (happens later down below)
-        __log(`successfully generated at least ${Object.keys(translationPairsDict).length} translation pairs for ${programId}`);
-
-      } catch (e) {
-
-        // this is an expected error
-        if (e instanceof queryAPI_ns.TemplatesExhaustedError) {
-          __log(`SEVERE: translation pairs could not be generated for ${programId}.`);
-          __log(`SEVERE: Tried all templates, but none worked`);
-          programTranslationState["success"] = false;
-          programTranslationState["result"] = "could not be translated because none of the templates worked";
-          break pirelLoop;
-
-          // this is an unexpected error
-        } else {
-          __log(`SEVERE: translation pairs could not be generated for ${programId}.`);
-          __log(`Error is: ${e} (UNEXPECTED)`);
-          __log(`Stacktrace:\n${e.stack}`);
-          programTranslationState["success"] = false;
-          programTranslationState["result"] = "could not be translated due to unexpected exception";
-          break pirelLoop;
-        }
-      }
-      await utils_ns.writeJsonWithTimestamp(translationPairsDict, "translation-pairs-dict", programMetadata.log_dir);
-
-      // 4 extract data from programPairsData
-      let templateIdsSkipped = translationPairsDict["template_ids_skipped"];
-      let templateIdsUnused = translationPairsDict["template_ids_not_tried"];
-      let templateIdUsed = translationPairsDict["template_id_last_used"];
-      __log("templateIdsSkipped", templateIdsSkipped);
-      __log("templateIdsUnused", templateIdsUnused);
-      __log("templateIdUsed", templateIdUsed);
-      __log(`generated ${translationPairsDict["translation_pairs"].length} translation pairs.`);
-
-      // 5 update the currentNodeState
-      // 5.1 if we have seen the node previously, then the previous inferred rule didn't work
-      if (previouslySeenNode) {
-        currentNodeState["template_ids_unsuccessful"].push(currentNodeState["template_id_last_used"]);
-      }
-      currentNodeState["template_ids_skipped"].push(...templateIdsSkipped);
-      currentNodeState["template_ids_not_tried"] = templateIdsUnused;
-      currentNodeState["template_id_last_used"] = templateIdUsed;
-
-      // 6 ~~~ infer translation rule
-      let templateHasPyBlockReplaced = templatesDict[templateIdUsed]["py_block_replaced"];
-
-      for (let translationPair of translationPairsDict["translation_pairs"]) {
-
-        // NOTE right now infer rules for both values of `chooseLargestContainingNode`
-        // TODO might generate the same rule twice if largest and smallest containing nodes are one node
-        for (let chooseLargestContainingNode of [true, false]) {
-
-          // 6.1 invoke `ruleInfAPI_ns.inferTranslationRule()`
-          let newTranslationRule = "";
-          try {
-            __log("attempting to infer a rule");
-            newTranslationRule = await ruleInfAPI_ns.inferTranslationRule(
-              translationPair,
-              consts_ns.SRC_LANG,
-              consts_ns.TAR_LANG,
-              templateHasPyBlockReplaced,
-              chooseLargestContainingNode
-            );
-            __log("successfully inferred a rule");
-          } catch (e) {
-            __log("error at inferring a rule from translation pair", translationPair);
-            continue;
-          }
-          await utils_ns.writeJsonWithTimestamp(newTranslationRule, "generated-rule", programMetadata.log_dir);
-
-          // 6.2 update the ruleset and save it locally
-          ruleset = "; new rule from Pirel\n" + newTranslationRule + "\n\n" + ruleset;
-          await utils_ns.writeFileToDataDir(updatedRulesetPath, ruleset);
-          __log("successfully inferred a rule and saved it.");
-        }
-      }
+    // ~~~ TRANSLATION IS SUCCESSFUL
+    if (!errorInfo && !pirelData) {
+      programTranslationState["success"] = true;
+      programTranslationState["result"] = "succesfully translated a program";
+      _log("translation is successful");
+      break pirelLoop;
     }
 
-    // there is some error on the backend
+    // ~~~ THERE IS SOME ERROR ON THE BACKEND
     else if (errorInfo) {
       programTranslationState["success"] = false;
       programTranslationState["result"] = "some error on the backend";
       programTranslationState["error"] = JSON.stringify(errorInfo);
-      __log("translation unsuccessful: error on the backend");
+      _log("translation is unsuccessful: error on the backend");
       break pirelLoop;
     }
 
-    // there is no error in translation
-    else {
-      programTranslationState["success"] = true;
-      programTranslationState["result"] = "succesfully translated a program";
-      __log("translation successful");
-      break pirelLoop;
-    }
+    // ~~~ TRANSLATION IS NOT SUCCESSFUL
+    _log("Error in translation (no translation rule)");
 
-    attemptCount += 1;
+    // parse data from backend
+    let templateDict = pirelData["template_dict"];
+    let translationPairsDict = pirelData["translation_pairs"];
+    let srcLang = templateDict["src_lang"];
+    let tarLang = templateDict["tar_lang"];
+
+    // infer translation rules
+    let translationRules = [];
+    let prettyPrintTreeLike = false;
+
+    let translationPairs = translationPairsDict["translation_pairs"];
+    let templatizedNodesReplaceDWS = translationPairsDict["templatized_nodes_replace_dws_values"];
+
+    for (let translationPair of translationPairs) {
+      for (let context of templateDict["contexts"]) {
+        let newTranslationRule = null;
+        try {
+          _log("attempting to infer a rule");
+          newTranslationRule = await ruleInfAPI_ns.inferTranslationRule(
+            srcLang,
+            tarLang,
+            translationPair,
+            context,
+            templateDict["templatized_node_ids"],
+            templatizedNodesReplaceDWS,
+            templateDict["is_insert_secret_fn"],
+            prettyPrintTreeLike,
+            kwargs
+          );
+          _log("successfully inferred a rule");
+        } catch (e) {
+          if (e instanceof ruleInfAPI_ns.ContextNotFoundError) {
+            _log("context does not exist. skipping this context...");
+            continue;
+          }
+          _log(`error during rule inference (skipping...): ${e}\n${e.stack}`);
+          continue;
+        }
+
+        if (translationRules.includes(newTranslationRule)) {
+          _log('already have this rule. will not add it to the ruleset');
+          continue;
+        }
+
+        // update the ruleset and save it locally
+        translationRules.push(newTranslationRule);
+        await utils_ns.writeWithTimestamp(newTranslationRule, "learned-rule.snart", programLogDir);
+        ruleset = ruleset + "\n\n;;;; NEW RULE FROM PIREL (LEARN RULES)\n" + newTranslationRule + "\n";
+        await utils_ns.writeFileToDataDir(updatedRulesetPath, ruleset);
+        _log("successfully inferred a rule and saved it.");
+      }
+    }
   }
 
   // do some finalization
   // TODO the template node ids need to be updated
-  await utils_ns.writeJsonWithTimestamp(programTranslationState, "program-translation-state", programMetadata.log_dir);
+  await utils_ns.writeJsonWithTimestamp(programTranslationState, "program-translation-state", programLogDir);
   return programTranslationState["success"];
 };
+
+learnRules_ns._getSubjectsFromToIdxs = function() {
+  const subjectsFromIdx = parseInt(learnRules_ns.subjectsFromIdxInput.value, 10);
+  const subjectsToIdx = parseInt(learnRules_ns.subjectsToIdxInput.value, 10);
+  if (!Number.isInteger(subjectsFromIdx)) throw new Error("left index is not a number");
+  if (!Number.isInteger(subjectsToIdx)) throw new Error("right index is not a number");
+  if (subjectsFromIdx < 1) throw new Error("left index should be greater than or equal to 1");
+  if (subjectsToIdx < 1) throw new Error("right index should be greater than or equal to 1");
+  if (subjectsFromIdx > subjectsToIdx) throw new Error("left index should be less than or equal to right index");
+  return [subjectsFromIdx, subjectsToIdx];
+}
 
 /**
  * This entry point is invoked by clicking a button.
@@ -399,56 +314,67 @@ learnRules_ns.runSingleProgram = async function(
 */
 learnRules_ns.main = async function() {
 
-  function __log() {learnRules_ns.log("[learnRules_ns.main]", ...arguments);}
+  function _log() {learnRules_ns.log("[learnRules_ns.main]", ...arguments);}
 
-  // learn rules from first N programs
-  // TODO add a UI element for this
-  let NUM_PROGRAMS = 20;
+  _log("Pirel starting");
 
-  __log("Pirel starting");
-  __log("Number of programs:", NUM_PROGRAMS);
+  const [subjectsFromIdx, subjectsToIdx] = learnRules_ns._getSubjectsFromToIdxs();
+  const subjectsNum = subjectsToIdx - subjectsFromIdx + 1;
 
-  // prepare programs, paths for ruleset, and the ruleset itself
-  let programsDict = await benchmark_ns.getProgramsForLearningRules(NUM_PROGRAMS);
-  let [startRulesetPath, updatedRulesetPath] = await benchmark_ns.getRulesetPaths();
-  let ruleset = await utils_ns.readFileFromDataDir(startRulesetPath);
+  var config = await utils_ns.readJsonFromDataDir("configs/learn-rules.json");
+  _log(`Pirel configs: ${config}`);
+  _log(`Pirel will learn rules from subjects in the range [${subjectsFromIdx}, ${subjectsToIdx}] (inclusive, 1-indexed)`);
 
-  __log("Path to starting ruleset:", startRulesetPath);
-  __log("Path to updated ruleset:", updatedRulesetPath);
+  // turn indices to normal array indexing
+  let programsDict = await benchmark_ns.getProgramsForLearningRules(subjectsFromIdx - 1, subjectsToIdx);
 
   // loop over programs
   let translationResults = [];
-  let fileIdx = 1;
-  for (let fileName in programsDict) {
+  for (let idx = 0; idx < subjectsNum; idx++) {
 
-    __log("=================================");
-    __log(`Starting Pirel translation of ${fileName}`);
+    const programName = programsDict[idx]["file_name"];
+    const programContent = programsDict[idx]["content"];
+    const programId = programsDict[idx]["id"];
+    const subjectIdx = idx + subjectsFromIdx;
 
-    console.log("Current file", fileName);
-    console.log("Progress", `${fileIdx}/${Object.keys(programsDict).length}`);
-    fileIdx++;
+    _log("=================================");
+    _log(`Starting Pirel translation of ${idx + 1}/${subjectsNum} ${programName}`);
+    learnRules_ns.currentSubjectInput.value = subjectIdx;
+
+    // `updatedRulesetPath` may be identical to `startRulesetPath`
+    // in which case for each subsequent program in the benchmark all previously
+    // learned rules serve as a base ruleset. This is controlled by
+    // `save_updated_ruleset_to_start_ruleset_file` in config.
+    let [startRulesetPath, updatedRulesetPath] = await benchmark_ns.getStartingUpdatedRulesetPaths(programName, config);
+    let ruleset = await utils_ns.readFileFromDataDir(startRulesetPath);
+    _log("Path to starting ruleset:", startRulesetPath);
+    _log("Path to updated ruleset:", updatedRulesetPath);
+
+    console.log("Current file", programName);
+    console.log("Progress", `${idx + 1}/${subjectsNum}`);
 
     // ~~~
-    let translationResult = await learnRules_ns.runSingleProgram(
-      programsDict[fileName]["file_name"],
-      programsDict[fileName]["content"],
-      programsDict[fileName]["id"],
+    let isTranslationSuccessful = await learnRules_ns.runSingleProgram(
+      programName,
+      programContent,
+      programId,
       ruleset,
-      updatedRulesetPath
+      updatedRulesetPath,
+      config
     );
 
     translationResults.push({
-      "program": fileName,
-      "result": translationResult
+      "program": programName,
+      "result": isTranslationSuccessful
     });
 
-    console.log("Result of", fileName, "is", translationResult);
-    __log(`Pirel translation result of ${fileName} is "${translationResult}"`);
+    console.log("Result of", programName, "is", isTranslationSuccessful);
+    _log(`Pirel translation result of ${programName} is "${isTranslationSuccessful}"`);
 
+    await learnRules_ns.saveLogs();
+    await utils_ns.writeJsonWithTimestamp(translationResults, "translation-results", consts_ns.DEBUG_OUTPUT_LEARN_RULES_DIR);
   }
 
-  await learnRules_ns.saveLogs();
-  await utils_ns.writeJsonWithTimestamp(translationResults, "translation-results", consts_ns.DEBUG_OUTPUT_LEARN_RULES_DIR);
-  __log(`Pirel has finished`);
+  _log(`Pirel has finished`);
   alert("Pirel has finished");
 };

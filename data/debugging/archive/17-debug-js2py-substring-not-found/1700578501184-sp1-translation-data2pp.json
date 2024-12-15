@@ -1,0 +1,22 @@
+{
+  "program_pairs": [
+    {
+      "source": "var one = 1;",
+      "target": "one = 1"
+    }
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ],
+  "src_lang": "js",
+  "tar_lang": "py"
+}

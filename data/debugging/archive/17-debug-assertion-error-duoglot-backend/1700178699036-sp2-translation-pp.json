@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "translation_pairs": [
+    [
+      {
+        "source": "for i, v in enumerate(lst):\n    secret_fun_4071()",
+        "target": "lst.forEach((v, i) => {\n    secret_fun_4071();\n});"
+      },
+      {
+        "source": "for _ in enumerate(my_tuple):\n    secret_fun_4071()",
+        "target": "my_tuple.forEach((v, i) => {\n    secret_fun_4071();\n});"
+      }
+    ]
+  ]
+}

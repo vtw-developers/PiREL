@@ -1,0 +1,9 @@
+{
+  "good_program_pairs": [
+    {
+      "source": "for idx, char in enumerate('hello'):\n    if char == 'e':\n        return idx",
+      "target": "for (let idx = 0; idx < 'hello'.length; idx++) {\n    if ('hello'[idx] === 'e') {\n        return idx;\n    }\n}"
+    }
+  ],
+  "success": true
+}

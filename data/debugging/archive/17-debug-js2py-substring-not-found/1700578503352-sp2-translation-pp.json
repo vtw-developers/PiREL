@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "translation_pairs": [
+    [
+      {
+        "source": "var one = 1;",
+        "target": "one = 1"
+      },
+      {
+        "source": "var myNumber = 5;",
+        "target": "myNumber = 5"
+      }
+    ]
+  ]
+}

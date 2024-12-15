@@ -15,21 +15,18 @@ import ast_pretty
 import sys
 import json
 import ast_parse
-import s_extract_templates
-from s_data_structures import PatternTree, PatternNode
+import p_data_structures as pds
 from typing import Union, List
+import p_templates
+import p_utils
+import logging
+
+
+logger = logging.getLogger(__name__)
 
 
 ###################################################################
 TRANS_VERBOSE : cython.int = DEBUG_VERBOSE
-
-
-# ~~~ for debugging, can be removed later
-import debugpy
-def _breakpoint():
-  debugpy.listen(('0.0.0.0', 4444))
-  debugpy.wait_for_client()
-  debugpy.breakpoint()
 
 
 # ~~~ class that performs translation
@@ -119,188 +116,207 @@ class TransSession():
     self.any_error = False
     self._set_program_str(program_str)
 
-
-  def _alt_calc_todo_slots(self, expansion: gdp.Expansion, prev_alt_node):
-    # todo slot dedup impl here? If dedup is on for the whole transsession, then this expansion and its corresponding slot must be unique.
-    # can unique expansion/slot produce duplicated children slots? Should be yes.
-    # But can the duplicated children slots appear in the same transduction history?
-    # (only slots/expansions along a specific transduction history is book-keeped in transducer)
-    # Not possible in current transducer impl. because matches inside an expansion are exclusive.
-    # If matches are not exclusive, [1] + 2   and [1 +] 2 can be slot 1:([1]) slot 2:([1 +]). Another expansion on slot 2 break it down to [1] and [+]
-    # will be unaware that [1] is already handled.
-    # If we keep duplicated todo slots, will they affect the transduction?
-    old_todo_slot_ids = prev_alt_node["todo_slot_ids"]
-    prepend_ids = [x.slot_id for x in expansion.slots if x is not None]
-    return prepend_ids + old_todo_slot_ids[1:]
+    # TransSession instances internally use `expansion_programs` for translation programs
+    # The field below is used only for debugging purposes and can be removed later
+    self.translation_rules_str = program_str
 
 
-  def _alt_node_as_dict(
-    self,
-    alt_id,
-    alt_step,
-    expansion,
-    choose_idx,
-    prev_alt_id,
-    todo_slot_ids,
-    next_choices_status,
-    next_alt_choose_dict,
-    is_all_rejected,
-    is_checkpoint
-  ):
-    return {
-      "alt_id": alt_id,
-      "alt_step": alt_step,
-      "expansion": expansion,
-      "choose_idx": choose_idx,
-      "prev_alt_id": prev_alt_id,
-      "todo_slot_ids": todo_slot_ids,
-      "next_choices_status": next_choices_status,
-      "next_alt_choose_dict": next_alt_choose_dict,
-      "is_all_rejected": is_all_rejected,
-      "is_checkpoint": is_checkpoint
-    }
+  # relation:
+  #  each slot belongs to an expansion
+  #  a fixed list of slots belong to the same expansion
+  #  each expansion belong to one slot
+  #  multiple expansions can be alternatives of the same slot
+  def get_translation(self, choices, auto_backward=True, **kwargs):
+    '''
+    ~~~
+    This is the main method for performing translation.
+    Returns a full translation for a given source program
 
+    PARAMETERS:
+    choices: ?
+    auto_backward: ?
 
-  def _parser_result_as_dict(
-    self,
-    is_acceptable,
-    is_done,
-    is_error,
-    dbg_info,
-    stuck_slot_id
-  ):
-    return {
-      "is_acceptable": is_acceptable,
-      "is_done": is_done,
-      "is_error": is_error,
-      "dbg_info": dbg_info,
-      "stuck_slot_id": stuck_slot_id,
-    }
+    LOCALS:
+    current_alt_node_dict: dict ?
+    next_alt_node_dict: dict ?
+    par_alt_node_dict: dict ?
+    '''
 
+    _subject_name = kwargs['subject_name']
+    logger.info(f'{_subject_name} Starting TransSession.get_translation()')
 
-  def _fetch_parser(self, alt_id):
-    """assume the parsing result of alt_id is already available. We don't care. Return a parser"""
-    assert alt_id == 0 or alt_id in self._alt_parser_result_dict
-    alt_node = self._alt_tree_dict[alt_id]
+    # 1 `choices_dict`
+    choice_type = choices["type"]
+    if choice_type == "STEP":
+      choices_dict = {x:y for x, y in choices["choices_list"]}
+    elif choice_type == "ASTNODE":
+      choices_dict = {tuple(x):y for x, y in choices["choices_list"]}
 
-    # 1 exists in cache (@satbek)
-    if alt_id in self._alt_parser_dict and self._alt_parser_dict[alt_id] is not None:
-      if alt_node["is_checkpoint"]:
-        print("# _fetch_parser cloning from checkpoint:", alt_id)
-        return self._alt_parser_dict[alt_id].clone()
+    # 2 inner function `_get_or_create_next_alt_inner_fun`
+    def _get_or_create_next_alt_inner_fun(alt_node, **kwargs):
+      if TRANS_VERBOSE > -10: print("# _get_or_create_next_alt_inner_fun. current_alt_node_dict:", alt_node)
+      assert len(alt_node["todo_slot_ids"]) > 0
+      slot_expan_idx = 0
+      new_step = alt_node["alt_step"] + 1
+      if choice_type == "STEP":
+        if new_step in choices_dict:
+          slot_expan_idx = choices_dict[new_step]
+      elif choice_type == "ASTNODE":
+        todo_slot_id = alt_node["todo_slot_ids"][0]
+        todo_slot = self._slot_dict[todo_slot_id]
+        ast_node, start_idx, end_idx = todo_slot.range_cursor
+        if new_step == 1:
+          assert len(ast_node) == 1
+        else:
+          # if (len(ast_node) < 2):
+          #   print("Unexpected ast_node: ", ast_node, file=sys.stderr)
+          #   assert "unexpected ast_node length." == 0
+          ast_id = ast_node[1]
+          if not isinstance(ast_id, int):
+            print("Unexpected ast_id: ", ast_id, file=sys.stderr)
+            assert "unexpected ast_id" == 0
+          key = (ast_id, start_idx, end_idx)
+          if key in choices_dict:
+            slot_expan_idx = choices_dict[key]
       else:
-        parser = self._alt_parser_dict[alt_id]
-        self._alt_parser_dict[alt_id] = None
-        return parser
+        assert "Unknown choice_type" == 0
 
-    # 2 does not exist in cache (@satbek)
-    assert not alt_node["is_checkpoint"]
-    prev_id = alt_node["prev_alt_id"]
-    assert prev_id is not None
-    expansion = alt_node["expansion"]
-    fetched_parser = self._fetch_parser(prev_id)
-    is_accepted, _ = fetched_parser.add_expansion_parse_until_stuck(expansion)
-    assert is_accepted
-    assert fetched_parser.last_time_stuck_slot_id == self._alt_parser_result_dict[alt_id]["stuck_slot_id"]
-    return fetched_parser
+      # ~~~ this is an important invocation: get_translation() -> _get_or_create_next_alt_inner_fun -> _get_or_create_alt_node()
+      next_alt_node_dict = self._get_or_create_alt_node(alt_node, slot_expan_idx, **kwargs)
+      return next_alt_node_dict
 
+    # 3 inner function `_get_nth_parent_inner_fun`
+    def _get_nth_parent_inner_fun(alt_node, n):
+      if alt_node is None: return None
+      if n == 0: return alt_node
+      return _get_nth_parent_inner_fun(self._alt_tree_dict[alt_node["prev_alt_id"]], n - 1)
 
-  def _update_alt_node_as_checkpoint(self, alt_id):
-    alt_node = self._alt_tree_dict[alt_id]
-    if alt_node["is_checkpoint"]: return
-    parser = self._fetch_parser(alt_id)
-    self._alt_parser_dict[alt_id] = parser
-    alt_node["is_checkpoint"] = True
-    print(f"!!! Updating (alt_id:{alt_id}) as checkpoint.")
+    # 4 inner function `_backward_alt_next_choice_inner_func`
+    allowed_backward_alt_step = 0
+    def _backward_alt_next_choice_inner_func(alt_node, child_choose_idx):
+      nonlocal allowed_backward_alt_step
+      if auto_backward == False:
+        raise NormalException("Rejection occurred and automatic backwarding is disabled.")
+      allowed_backward_alt_step = max(allowed_backward_alt_step, alt_node["alt_step"] - self._BACKWARD_MAX_STEP)
+      if alt_node["alt_step"] < allowed_backward_alt_step:
+        raise NormalException("Automatic backwarding failed to find alternative choices. (back limit)")
+      next_choices_status = alt_node["next_choices_status"]
+      if child_choose_idx + 1 >= next_choices_status["count"] and next_choices_status["done"]:
+        prev_alt_id = alt_node["prev_alt_id"]
+        if prev_alt_id is None:
+          raise NormalException("Automatic backwarding failed to find alternative choices. (back to root)")
+        return _backward_alt_next_choice_inner_func(self._alt_tree_dict[prev_alt_id], alt_node["choose_idx"])
+      else:
+        new_ch_idx = child_choose_idx + 1
+        if choice_type == "STEP":
+          next_step = alt_node["alt_step"] + 1
+          if TRANS_VERBOSE > -11: print(f"++++++ _backward_alt_func set to: (alt_id:{alt_node['alt_id']}) (next_step:{next_step}) (new_ch_idx:{new_ch_idx})")
+          return alt_node, next_step, new_ch_idx
+        elif choice_type == "ASTNODE":
+          slot_id = alt_node["todo_slot_ids"][0]
+          slot_range_cursor = self._slot_dict[slot_id].range_cursor
+          next_range_key = (slot_range_cursor[0][1], slot_range_cursor[1], slot_range_cursor[2])
+          if TRANS_VERBOSE > -11: print(f"++++++ _backward_alt_func set to: (alt_id:{alt_node['alt_id']}) (next_range_key:{next_range_key}) (new_ch_idx:{new_ch_idx})")
+          return alt_node, next_range_key, new_ch_idx
+        else:
+          assert "Unsupported choice_type" == 0
 
+    # 5 inner function `_get_alt_parser_result_inner_fun`
+    def _get_alt_parser_result_inner_fun(alt_node):
+      try:
+        parser_result = self._ensure_parser_result(alt_node)
+        if TRANS_VERBOSE > -10: print("# _get_or_create_next_alt_inner_fun PARSE is_acceptable:", parser_result["is_acceptable"], " is_done:", parser_result["is_done"])
+        return parser_result["is_acceptable"], parser_result["stuck_slot_id"], parser_result["is_done"]
+      except Exception as err:
+        error_alt_parser_result = self._alt_parser_result_dict[alt_node["alt_id"]]
+        assert error_alt_parser_result["is_error"]
+        raise err
 
-  def _ensure_parser_result(self, alt_node):
-    '''
-    make sure the parser result is set.
-    NOTE: parser_result might be error
-    TODO what this method does?
-    '''
+    current_alt_node_dict = self._alt_tree_dict[0]
+    is_expand_loop_successful = False
+    error_info = {"msg": None}
 
-    alt_id = alt_node["alt_id"]
-
-    # 1 exists in cache (@satbek)
-    if alt_id in self._alt_parser_result_dict:
-      return self._alt_parser_result_dict[alt_id]
-
-    # 2 does not exist in cache (@satbek)
+    # 6 expand loop
     try:
-      # fetch the previous parser (move or clone from the last checkpoint and move) and run it
-      prev_alt_id = alt_node["prev_alt_id"]
-      fetched_parser = self._fetch_parser(prev_alt_id)
-      expansion = alt_node["expansion"]
+      MAX_LOOPCOUNT = 15000
+      loop_count = 0
+      last_checkpoint_step = 0
 
-      # ~~~ main work
-      is_accepted, dbg_info = fetched_parser.add_expansion_parse_until_stuck(expansion)
+      while True:
+        loop_count += 1
+        assert loop_count < MAX_LOOPCOUNT, "MAX_LOOP_excedded"
+        assert len(current_alt_node_dict["todo_slot_ids"]) > 0
+        if TRANS_VERBOSE > -10: print(f"############## _expand_loop {loop_count} ... ")
 
-      parser_result = self._parser_result_as_dict(
-        is_accepted,  # is_acceptable
-        fetched_parser.last_time_parsing_done,  # is_done
-        False,  # is_error
-        dbg_info,  # dbg_info
-        fetched_parser.last_time_stuck_slot_id  # stuck_slot_id
-      )
+        # ~~~ this is an important invocation (contains invocation of Pirel)
+        next_alt_node_dict = _get_or_create_next_alt_inner_fun(current_alt_node_dict, **kwargs)
+        assert next_alt_node_dict is not None, "How_to_deal_with_this_case"
 
-      self._alt_parser_result_dict[alt_id] = parser_result
-      self._alt_parser_dict[alt_id] = fetched_parser
+        par_alt_node_dict = current_alt_node_dict
+        current_alt_node_dict = next_alt_node_dict
 
-      return parser_result
+        # ~~~ this is an important invocation
+        is_acceptable, stucking_slot_id, is_done = _get_alt_parser_result_inner_fun(current_alt_node_dict)
 
+        if not is_acceptable:
+          expansion = current_alt_node_dict["expansion"]
+          if TRANS_VERBOSE > -11: print(f"!!!!!!!!!! _expand_loop apply_expand_func FAILED on exid:{expansion.ex_id} (corres_slot_id:{expansion.corres_slot_id}). Backward...\n\n")
+          # optimization block
+          if par_alt_node_dict["alt_step"] - last_checkpoint_step > self._BACKWARD_MAX_STEP:
+            nth_parent = _get_nth_parent_inner_fun(par_alt_node_dict, self._BACKWARD_MAX_STEP)
+            if nth_parent is not None:
+              self._update_alt_node_as_checkpoint(nth_parent["alt_id"])
+              last_checkpoint_step = nth_parent["alt_step"]
+          current_alt_node_dict, update_key, update_choose_idx = _backward_alt_next_choice_inner_func(par_alt_node_dict, current_alt_node_dict["choose_idx"])
+          choices_dict[update_key] = update_choose_idx
+
+        elif len(current_alt_node_dict["todo_slot_ids"]) == 0:
+          assert is_done
+          break
+
+        else:
+          # optimization block
+          if par_alt_node_dict["alt_step"] - last_checkpoint_step > self._SNAPSHOT_INTERVAL:
+            self._update_alt_node_as_checkpoint(par_alt_node_dict["alt_id"])
+            last_checkpoint_step = par_alt_node_dict["alt_step"]
+          expansion = current_alt_node_dict["expansion"]
+          if TRANS_VERBOSE > -11: print(f"************** _expand_loop {loop_count} apply_expand_func SUCCEED on exid:{expansion.ex_id} (corres_slot_id:{expansion.corres_slot_id})\n\n")
+
+      is_expand_loop_successful = True
+
+    # 7 catch exceptions and update `error_info` accordingly
     except Exception as err:
-      print("#################### _ensure_parser_result FAILED! ####################")
-      self.any_error = True
-      fetched_parser.dbg_print_tail_stack()
-      err_dbg_info = fetched_parser._dbg_info_finish_for_ex_error()
+      print("############## traceback ##############", file=sys.stderr)
+      print(traceback.format_exc(), file=sys.stderr)
+      print("################# err #################", file=sys.stderr)
 
-      err_parser_result = self._parser_result_as_dict(
-        False,  # is_acceptable
-        False,  # is_done
-        True,  # is_error
-        err_dbg_info,  # dbg_info
-        None  # stuck_slot_id
-      )
+      # ~~~ Pirel: include information about problematic node in `error_info`
+      if isinstance(err, TranslationRuleNotFoundException):
+        templates_dict: dict = err.get_templates_dict()
+        error_info['msg'] = f'\n{_subject_name} TranslationRuleNotFoundException:\nno rule found for "{templates_dict["problematic_node_type"]}"'
+        error_info['templates_dict'] = json.dumps(templates_dict)
 
-      self._alt_parser_result_dict[alt_id] = err_parser_result
-      raise err
-
-
-  def _get_alt_partial_ast(self, alt_node):
-    alt_id = alt_node["alt_id"]
-    assert alt_id in self._alt_parser_dict
-    parser = self._alt_parser_dict[alt_id]
-    elem_list = parser.get_current_elem_list()
-    return ast_pretty.elem_list_to_mapanno_ast(elem_list)
-
-
-  def _get_alt_debug_history(self, alt_node):
-    # get dbg_debug_info from the chain of parents start from alt_node
-    alt_debug_history = []
-    while alt_node["alt_id"] != 0:
-      alt_id = alt_node["alt_id"]
-      dbg_info = self._alt_parser_result_dict[alt_id]["dbg_info"]
-      range_cursor = self._slot_dict[alt_node["expansion"].corres_slot_id].range_cursor
-      alt_step = alt_node["alt_step"]
-      range_info = None
-      if alt_step == 1:
-        assert len(range_cursor[0]) == 1
+      elif isinstance(err, AssertionError):
+        error_msg = "[FATAL_ERROR] SERVER STATE MIGHT BE CORRUPTED. Please check the log. " + str(err) + "\n" + str(traceback.format_exc())
+        error_info["msg"] = error_msg
+        consts.HIT_UNEXPECTED_ERROR_MESSAGE = error_msg
+        consts.HIT_UNEXPECTED_ERROR = True
+      elif isinstance(err, NormalException):
+        error_info["msg"] = "[NormalException] " + str(err) + " " + traceback.format_exc()
+      elif isinstance(err, UnderstoodException):
+        error_info["msg"] = "[UnderstoodException] " + str(err) + " " + traceback.format_exc()
       else:
-        range_info = (range_cursor[0][1], range_cursor[1], range_cursor[2])
-      alt_debug_history.append({
-        "alt_step": alt_step,
-        "range_info": range_info,
-        "next_choices_status": alt_node["next_choices_status"] ,
-        "dbg_info": dbg_info
-      })
-      alt_node = self._alt_tree_dict[alt_node["prev_alt_id"]]
-    alt_debug_history = list(reversed(alt_debug_history))
-    return alt_debug_history
+        error_info["msg"] = "[UNEXPECTED_ERROR] " + str(type(err)) + "\n" + str(err) + "\n" + traceback.format_exc()
+
+    # 8 return
+    if is_expand_loop_successful:
+      tar_ast = self._get_alt_partial_ast(current_alt_node_dict)
+      return (is_expand_loop_successful, tar_ast, choices_dict, None,       self._get_alt_debug_history(current_alt_node_dict))
+    else:
+      return (is_expand_loop_successful, None,    choices_dict, error_info, self._get_alt_debug_history(current_alt_node_dict))
 
 
-  def _get_or_create_alt_node(self, prev_alt_node, slot_expan_idx):
+  def _get_or_create_alt_node(self, prev_alt_node, slot_expan_idx, **kwargs):
     '''
     call stack (most recent on top):
     _get_or_create_alt_node()       <- this
@@ -323,14 +339,9 @@ class TransSession():
 
       # 3 ~~~~~ Pirel entrypoint
       if expansion is None:
-        # v2
-        templates_dict: dict = self.pirel_get_templates(new_node_corres_slot_id, slot_expan_idx)
+        templates_dict: dict = self.pirel_get_templates(new_node_corres_slot_id, slot_expan_idx, **kwargs)
         raise TranslationRuleNotFoundException(templates_dict)
         # raise NormalException(f'Translation rule not found for slot {new_node_corres_slot_id}')
-
-        # v1
-        # templates_dict: dict = self.pirel_get_templates(new_node_corres_slot_id, slot_expan_idx)
-        # raise TranslationRuleNotFoundException(templates_dict)
 
       next_choices_status = self._get_expansions_stat_for_slot(new_node_corres_slot_id)
       assert "next_choices_status" in prev_alt_node
@@ -357,23 +368,27 @@ class TransSession():
 
 
   # ~~~~~ our logic for extracting templates from AST
-  def pirel_get_templates(self, slot_id: int, idx: int):
+  def pirel_get_templates(self, slot_id: int, idx: int, **kwargs):
     '''
     slot_range_cursor:
     Tuple[ AST , start_idx , end_idx ]
     '''
 
+    _subject_name = kwargs['subject_name']
+    logger.info(f'{_subject_name} Starting PiREL template extraction.')
+    p_utils.log_file_time(f'{_subject_name}_program_to_translate.{self.source_language_name}', self.source_code)
+    p_utils.log_file_time(f'{_subject_name}_translation_rules.snart', self.translation_rules_str)
+
     # context information
     contexts = self.pirel_get_all_contexts(slot_id)
-    with open('temporary_contexts.json', 'w') as fout:
-      fout.write(json.dumps(contexts))
+    p_utils.log_json_time(f'{_subject_name}_contexts_grammar_expand.json', contexts)
 
     # slot is pertinent to the node that cannot be translated
     slot = self._slot_dict[slot_id]
     slot_range_cursor = slot.range_cursor
     slot_child_node_ids = slot.slot_node_ids
 
-    slot_ast = slot_range_cursor[0]  # this is a pure AST node as parsed by server_trans.parse_core() OR a sub-node
+    slot_ast = slot_range_cursor[0]  # this is a pure AST node as parsed by ast_parse.parse_text_dbg() OR a sub-node
     slot_start_idx = slot_range_cursor[1]
     slot_end_idx = slot_range_cursor[2]
 
@@ -386,16 +401,23 @@ class TransSession():
         break
 
     # full AST information can be leveraged
-    full_ast_w_text, ast_annotation = ast_parse.parse_text_dbg_keep_text(self.source_code, self.source_language_name)
+    full_ast_w_text, ast_annotation = ast_parse.parse_text_dbg(self.source_code, self.source_language_name, keep_text=True)
 
-    templates_dict = s_extract_templates.extract_templates(
+    templates_dict = p_templates.extract_templates(
       problematic_ast=problem_node_ast,
       full_ast=self.source_ast,
       full_ast_text=full_ast_w_text,
       ast_annotation=ast_annotation,
       lang=self.source_language_name,
-      contexts=contexts
+      contexts=contexts,
+      **kwargs
     )
+    templates_dict['src_lang'] = self.source_language_name
+    templates_dict['tar_lang'] = self.target_language_name
+
+    p_utils.log_json_time(f'{_subject_name}_ALL-TEMPLATES-grammar_expand.json', templates_dict)
+    logger.info(f'{_subject_name} PiREL template extraction is complete.')
+
     return templates_dict
 
 
@@ -408,12 +430,14 @@ class TransSession():
     # 2 collect unique contexts
     unique_contexts_dict = {}
     for problematic_slot_id in problematic_slot_ids:
-      source_context, target_context = self.pirel_get_contexts_for_slot(problematic_slot_id)
+      source_context, target_context, scptr, tcptr = self.pirel_get_contexts_for_slot(problematic_slot_id)
       hash_val = str(source_context) + str(target_context)
       if hash_val not in unique_contexts_dict:
         unique_contexts_dict[hash_val] = {
           'source_context': source_context,
           'target_context': target_context,
+          'scptr': scptr,
+          'tcptr': tcptr,
         }
 
     return list(unique_contexts_dict.values())
@@ -486,8 +510,8 @@ class TransSession():
       match_pattern = trans_rule['match']  # aka source pattern
       expand_pattern = trans_rule['expand']  # aka target pattern
 
-      match_tree = PatternTree(match_pattern, self.source_language_name)
-      expand_tree = PatternTree(expand_pattern, self.target_language_name)
+      match_tree = pds.PatternTree(match_pattern, self.source_language_name)
+      expand_tree = pds.PatternTree(expand_pattern, self.target_language_name)
       phnode_match = match_tree.get_node_with_type(slot_name)
       phnode_expand = expand_tree.get_node_with_type(slot_name)
 
@@ -502,8 +526,17 @@ class TransSession():
       for parent in reversed(paths[:-1]):
         context.append(parent)
 
+    def _update_contexts_per_trans_rule(context: List[list], paths: list):
+      # parent of previous
+      parents = []
+      for e in reversed(paths[:-1]):
+        parents.append([e[-1]])
+      context.append(['parent', parents])
+
     source_context = []
     target_context = []
+    source_context_per_trans_rule = []
+    target_context_per_trans_rule = []
 
     # 1
     # Since we start with the problematic node,
@@ -518,6 +551,12 @@ class TransSession():
     # NOTE can problematic node have a sibling?
     source_context.append([problematic_slot_type])
     target_context.append(['unknown'])
+    # NOTE these two are needed for better context construction:
+    # for some cases, chain of parents may differ in length for source
+    # and target contexts. Instead of blindly picking N parents above,
+    # pick them based on (please read the source code, I am sorry)
+    source_context_per_trans_rule.append(('init', [[problematic_slot_type]]))
+    target_context_per_trans_rule.append(('init', [['unknown']]))
 
     # 2
     # set up transduction tree cursors
@@ -526,7 +565,7 @@ class TransSession():
     cursor_expansion_id : Union[int, None] = problematic_slot.belong_ex_id
     # hit the root node (unlikely at this step)
     if cursor_expansion_id is None:
-      return source_context, target_context
+      return source_context, target_context, source_context_per_trans_rule, target_context_per_trans_rule
     cursor_expansion = _get_expansion_by_id(cursor_expansion_id)
     cursor_slot_id = cursor_expansion.corres_slot_id
     cursor_slot = _get_slot_by_id(cursor_slot_id)
@@ -538,6 +577,8 @@ class TransSession():
       source_paths, target_paths = _get_source_target_paths(cursor_expansion, previous_slot)
       _update_contexts(source_context, source_paths)
       _update_contexts(target_context, target_paths)
+      _update_contexts_per_trans_rule(source_context_per_trans_rule, source_paths)
+      _update_contexts_per_trans_rule(target_context_per_trans_rule, target_paths)
 
       # update cursors
       previous_slot = cursor_slot
@@ -549,7 +590,7 @@ class TransSession():
       cursor_slot_id = cursor_expansion.corres_slot_id
       cursor_slot = _get_slot_by_id(cursor_slot_id)
 
-    return source_context, target_context
+    return source_context, target_context, source_context_per_trans_rule, target_context_per_trans_rule
 
 
   def pirel_expand_unexpanded_slots_get_problematic_slot_ids(self, problematic_slot_id: int):
@@ -811,99 +852,6 @@ class TransSession():
     return problematic_slot_ids
 
 
-  def _create_or_get_slot(self, belong_ex_id, range_cursor):
-    ast_id = range_cursor[0][1]
-    assert isinstance(ast_id, int)
-    start_idx = range_cursor[1]
-    end_idx = range_cursor[2]
-
-    if self._SLOT_DEDUP_ENABLED:
-      astid_dict = None
-      if ast_id in self._slot_dedup_lookup:
-        astid_dict = self._slot_dedup_lookup[ast_id]
-        if (start_idx, end_idx) in astid_dict:
-          return astid_dict[(start_idx, end_idx)]
-      else:
-        astid_dict = {}
-        self._slot_dedup_lookup[ast_id] = astid_dict
-
-    self._counter_slot_id += 1
-    new_slot = gdp.Slot(self._counter_slot_id, belong_ex_id, range_cursor)
-    self._slot_dict[self._counter_slot_id] = new_slot
-
-    if self._SLOT_DEDUP_ENABLED:
-      # add to cache
-      astid_dict[(start_idx, end_idx)] = new_slot
-
-    return new_slot
-
-
-  def _create_expansion(
-    self,
-    corres_slot_id,
-    m_expand,
-    matching_ids,
-    slot_cursors,
-    matching_values,
-    matching_strs,
-    matching_anynts,
-    matching_liststrs,
-    matching_annos,
-    notes=None
-  ):
-    self._counter_expansion_id += 1
-    return gdp.Expansion(
-      self._counter_expansion_id,  # ex_id
-      corres_slot_id,  # corres_slot_id
-      m_expand,  # expand
-      matching_ids,  # matching_node_ids
-      slot_cursors,  # src_slot_cursors
-      matching_values,  # matching_values
-      matching_strs,  # matching_strs
-      matching_anynts,  # matching_anynts
-      matching_liststrs,  # matching_liststrs
-      matching_annos,  # matching_annos
-      lambda ex_id, cursor : self._create_or_get_slot(ex_id, cursor),  # slot_create_func
-      notes  # notes
-    )
-
-
-  def _possible_expansion_iter_gen(self, slot):
-    if TRANS_VERBOSE > 0: print(f"_possible_expansion_iter_gen slot: ({slot})")
-
-    choose_idx = 0
-    # iterate over all translation rules (a.k.a. expansion programs) in a natural order (as provided in the text field)
-    # if a rule matches a 'slot', get an Expansion object and yield it (generator)
-    # generator is called in a loop
-    # 3 is hard-coded in _get_expansion_for_slot()
-    for rule_id in range(len(self.expansion_programs)):
-      me_prog = self.expansion_programs[rule_id]
-      ruletype = me_prog["type"]
-      match = me_prog["match"]
-      expand = me_prog["expand"]
-      flag_dict = me_prog["flags"] if ruletype == "ext_match_expand" else None
-
-      # try the matcher. If true, return an expansion object
-      # expansion is either a None (no match for a given rule_id)
-      #              OR     a gdp.Expansion (match exists)
-      expansion = self._try_get_expansion_if_match_on_slot(
-        slot,  # slot
-        rule_id,  # rule_id
-        ruletype,  # m_ruletype
-        match,  # m_match
-        expand,  # m_expand
-        flag_dict,  # m_flag_dict
-        {"choose_idx": choose_idx}  # notes
-      )
-
-      if expansion is not None:
-        if TRANS_VERBOSE > 0: print("# _possible_expansion_iter_gen matched!", slot, expansion)
-        yield expansion
-        choose_idx += 1
-
-    return None
-
-
   def _get_expansion_for_slot(self, slot_id: int, idx: int) -> Union[None, gdp.Expansion]:
     '''
     ~~~ if this function returns None, it means that DuoGlot failed to find a rule for translation
@@ -953,53 +901,40 @@ class TransSession():
     return None
 
 
-  def _get_expansions_stat_for_slot(self, slot_id):
-    assert slot_id in self._slot_expand_info_dict
-    expan_list, is_done, _ = self._slot_expand_info_dict[slot_id]
-    return {"count":len(expan_list), "done":is_done}
+  def _possible_expansion_iter_gen(self, slot):
+    if TRANS_VERBOSE > 0: print(f"_possible_expansion_iter_gen slot: ({slot})")
 
+    choose_idx = 0
+    # iterate over all translation rules (a.k.a. expansion programs) in a natural order (as provided in the text field)
+    # if a rule matches a 'slot', get an Expansion object and yield it (generator)
+    # generator is called in a loop
+    # 3 is hard-coded in _get_expansion_for_slot()
+    for rule_id in range(len(self.expansion_programs)):
+      me_prog = self.expansion_programs[rule_id]
+      ruletype = me_prog["type"]
+      match = me_prog["match"]
+      expand = me_prog["expand"]
+      flag_dict = me_prog["flags"] if ruletype == "ext_match_expand" else None
 
-  def _set_program_str(self, code_str):
-    # parse the code, set self.expansion_programs
-    print(f"\n\n++++++++++++++++++++++++++++++++++++++++ _set_program_str. {len(code_str)} ++++++++++++++++++++++++++++++++++++++++\n")
-    expansion_programs, dbg_info = grammar_rules.parse_analyze_rules(code_str)
-    self.expansion_programs = expansion_programs
-    self.program_dbg_info["expansion_programs"] = dbg_info
-    print("++++++++++++  set self.expansion_programs")
+      # try the matcher. If true, return an expansion object
+      # expansion is either a None (no match for a given rule_id)
+      #              OR     a gdp.Expansion (match exists)
+      expansion = self._try_get_expansion_if_match_on_slot(
+        slot,  # slot
+        rule_id,  # rule_id
+        ruletype,  # m_ruletype
+        match,  # m_match
+        expand,  # m_expand
+        flag_dict,  # m_flag_dict
+        {"choose_idx": choose_idx}  # notes
+      )
 
+      if expansion is not None:
+        if TRANS_VERBOSE > 0: print("# _possible_expansion_iter_gen matched!", slot, expansion)
+        yield expansion
+        choose_idx += 1
 
-  @classmethod
-  def _pretty_range_cursor(cls, range_cursor):
-    additional_info = []
-    for idx in range(range_cursor[1], range_cursor[2]):
-      cursor_elem = range_cursor[0][idx]
-      if isinstance(cursor_elem, list) and len(cursor_elem) > 0:
-        additional_info.append(str(cursor_elem[0]))
-      elif isinstance(cursor_elem, str):
-        additional_info.append("str:" + cursor_elem)
-      elif isinstance(cursor_elem, int):
-        additional_info.append("int:" + str(cursor_elem))
-      else:
-        print("# ERROR!", cursor_elem)
-        assert False
-    return f"(len={str(len(range_cursor[0]))} start={range_cursor[1]} end={range_cursor[2]} {additional_info}))"
-
-
-  def is_anno_compatible(self, matcher_anno, intree_anno):
-    # print("matcher_anno:", matcher_anno, file=sys.stderr)
-    # print("intree_anno:", intree_anno, file=sys.stderr)
-    # return True
-    # FUTURE TODO: improve performance
-    matcher_anno_dict = {x[0]:x[1] for x in matcher_anno[1:]}
-    intree_anno_dict = {x[0]:x[1] for x in intree_anno[1:]}
-    for key in matcher_anno_dict:
-      if key not in intree_anno_dict: return False
-      if matcher_anno_dict[key] != intree_anno_dict[key]: return False
-    return True
-
-
-  def get_session_dbg_info(self):
-    return {"program": self.program_dbg_info}
+    return None
 
 
   # if successful, this function should return an expand object
@@ -1378,196 +1313,281 @@ class TransSession():
     ) # notes (for human debugging) not implemented
 
 
-  # relation:
-  #  each slot belongs to an expansion
-  #  a fixed list of slots belong to the same expansion
-  #  each expansion belong to one slot
-  #  multiple expansions can be alternatives of the same slot
-  def get_translation(self, choices, auto_backward=True):
-    '''
-    ~~~
-    This is the main method for performing translation.
-    Returns a full translation for a given source program
+  def is_anno_compatible(self, matcher_anno, intree_anno):
+    # print("matcher_anno:", matcher_anno, file=sys.stderr)
+    # print("intree_anno:", intree_anno, file=sys.stderr)
+    # return True
+    # FUTURE TODO: improve performance
+    matcher_anno_dict = {x[0]:x[1] for x in matcher_anno[1:]}
+    intree_anno_dict = {x[0]:x[1] for x in intree_anno[1:]}
+    for key in matcher_anno_dict:
+      if key not in intree_anno_dict: return False
+      if matcher_anno_dict[key] != intree_anno_dict[key]: return False
+    return True
 
-    PARAMETERS:
-    choices: ?
-    auto_backward: ?
-
-    LOCALS:
-    current_alt_node_dict: dict ?
-    next_alt_node_dict: dict ?
-    par_alt_node_dict: dict ?
-    '''
-
-    # 1 `choices_dict`
-    choice_type = choices["type"]
-    if choice_type == "STEP":
-      choices_dict = {x:y for x, y in choices["choices_list"]}
-    elif choice_type == "ASTNODE":
-      choices_dict = {tuple(x):y for x, y in choices["choices_list"]}
-
-    # 2 inner function `_get_or_create_next_alt_inner_fun`
-    def _get_or_create_next_alt_inner_fun(alt_node):
-      if TRANS_VERBOSE > -10: print("# _get_or_create_next_alt_inner_fun. current_alt_node_dict:", alt_node)
-      assert len(alt_node["todo_slot_ids"]) > 0
-      slot_expan_idx = 0
-      new_step = alt_node["alt_step"] + 1
-      if choice_type == "STEP":
-        if new_step in choices_dict:
-          slot_expan_idx = choices_dict[new_step]
-      elif choice_type == "ASTNODE":
-        todo_slot_id = alt_node["todo_slot_ids"][0]
-        todo_slot = self._slot_dict[todo_slot_id]
-        ast_node, start_idx, end_idx = todo_slot.range_cursor
-        if new_step == 1:
-          assert len(ast_node) == 1
-        else:
-          # if (len(ast_node) < 2):
-          #   print("Unexpected ast_node: ", ast_node, file=sys.stderr)
-          #   assert "unexpected ast_node length." == 0
-          ast_id = ast_node[1]
-          if not isinstance(ast_id, int):
-            print("Unexpected ast_id: ", ast_id, file=sys.stderr)
-            assert "unexpected ast_id" == 0
-          key = (ast_id, start_idx, end_idx)
-          if key in choices_dict:
-            slot_expan_idx = choices_dict[key]
+  @classmethod
+  def _pretty_range_cursor(cls, range_cursor):
+    additional_info = []
+    for idx in range(range_cursor[1], range_cursor[2]):
+      cursor_elem = range_cursor[0][idx]
+      if isinstance(cursor_elem, list) and len(cursor_elem) > 0:
+        additional_info.append(str(cursor_elem[0]))
+      elif isinstance(cursor_elem, str):
+        additional_info.append("str:" + cursor_elem)
+      elif isinstance(cursor_elem, int):
+        additional_info.append("int:" + str(cursor_elem))
       else:
-        assert "Unknown choice_type" == 0
+        print("# ERROR!", cursor_elem)
+        assert False
+    return f"(len={str(len(range_cursor[0]))} start={range_cursor[1]} end={range_cursor[2]} {additional_info}))"
 
-      # ~~~ this is an important invocation: get_translation() -> _get_or_create_next_alt_inner_fun -> _get_or_create_alt_node()
-      next_alt_node_dict = self._get_or_create_alt_node(alt_node, slot_expan_idx)
-      return next_alt_node_dict
+  def _create_expansion(
+    self,
+    corres_slot_id,
+    m_expand,
+    matching_ids,
+    slot_cursors,
+    matching_values,
+    matching_strs,
+    matching_anynts,
+    matching_liststrs,
+    matching_annos,
+    notes=None
+  ):
+    self._counter_expansion_id += 1
+    return gdp.Expansion(
+      self._counter_expansion_id,  # ex_id
+      corres_slot_id,  # corres_slot_id
+      m_expand,  # expand
+      matching_ids,  # matching_node_ids
+      slot_cursors,  # src_slot_cursors
+      matching_values,  # matching_values
+      matching_strs,  # matching_strs
+      matching_anynts,  # matching_anynts
+      matching_liststrs,  # matching_liststrs
+      matching_annos,  # matching_annos
+      lambda ex_id, cursor : self._create_or_get_slot(ex_id, cursor),  # slot_create_func
+      notes  # notes
+    )
 
-    # 3 inner function `_get_nth_parent_inner_fun`
-    def _get_nth_parent_inner_fun(alt_node, n):
-      if alt_node is None: return None
-      if n == 0: return alt_node
-      return _get_nth_parent_inner_fun(self._alt_tree_dict[alt_node["prev_alt_id"]], n - 1)
+  def _create_or_get_slot(self, belong_ex_id, range_cursor):
+    ast_id = range_cursor[0][1]
+    assert isinstance(ast_id, int)
+    start_idx = range_cursor[1]
+    end_idx = range_cursor[2]
 
-    # 4 inner function `_backward_alt_next_choice_inner_func`
-    allowed_backward_alt_step = 0
-    def _backward_alt_next_choice_inner_func(alt_node, child_choose_idx):
-      nonlocal allowed_backward_alt_step
-      if auto_backward == False:
-        raise NormalException("Rejection occurred and automatic backwarding is disabled.")
-      allowed_backward_alt_step = max(allowed_backward_alt_step, alt_node["alt_step"] - self._BACKWARD_MAX_STEP)
-      if alt_node["alt_step"] < allowed_backward_alt_step:
-        raise NormalException("Automatic backwarding failed to find alternative choices. (back limit)")
-      next_choices_status = alt_node["next_choices_status"]
-      if child_choose_idx + 1 >= next_choices_status["count"] and next_choices_status["done"]:
-        prev_alt_id = alt_node["prev_alt_id"]
-        if prev_alt_id is None:
-          raise NormalException("Automatic backwarding failed to find alternative choices. (back to root)")
-        return _backward_alt_next_choice_inner_func(self._alt_tree_dict[prev_alt_id], alt_node["choose_idx"])
+    if self._SLOT_DEDUP_ENABLED:
+      astid_dict = None
+      if ast_id in self._slot_dedup_lookup:
+        astid_dict = self._slot_dedup_lookup[ast_id]
+        if (start_idx, end_idx) in astid_dict:
+          return astid_dict[(start_idx, end_idx)]
       else:
-        new_ch_idx = child_choose_idx + 1
-        if choice_type == "STEP":
-          next_step = alt_node["alt_step"] + 1
-          if TRANS_VERBOSE > -11: print(f"++++++ _backward_alt_func set to: (alt_id:{alt_node['alt_id']}) (next_step:{next_step}) (new_ch_idx:{new_ch_idx})")
-          return alt_node, next_step, new_ch_idx
-        elif choice_type == "ASTNODE":
-          slot_id = alt_node["todo_slot_ids"][0]
-          slot_range_cursor = self._slot_dict[slot_id].range_cursor
-          next_range_key = (slot_range_cursor[0][1], slot_range_cursor[1], slot_range_cursor[2])
-          if TRANS_VERBOSE > -11: print(f"++++++ _backward_alt_func set to: (alt_id:{alt_node['alt_id']}) (next_range_key:{next_range_key}) (new_ch_idx:{new_ch_idx})")
-          return alt_node, next_range_key, new_ch_idx
-        else:
-          assert "Unsupported choice_type" == 0
+        astid_dict = {}
+        self._slot_dedup_lookup[ast_id] = astid_dict
 
-    # 5 inner function `_get_alt_parser_result_inner_fun`
-    def _get_alt_parser_result_inner_fun(alt_node):
-      try:
-        parser_result = self._ensure_parser_result(alt_node)
-        if TRANS_VERBOSE > -10: print("# _get_or_create_next_alt_inner_fun PARSE is_acceptable:", parser_result["is_acceptable"], " is_done:", parser_result["is_done"])
-        return parser_result["is_acceptable"], parser_result["stuck_slot_id"], parser_result["is_done"]
-      except Exception as err:
-        error_alt_parser_result = self._alt_parser_result_dict[alt_node["alt_id"]]
-        assert error_alt_parser_result["is_error"]
-        raise err
+    self._counter_slot_id += 1
+    new_slot = gdp.Slot(self._counter_slot_id, belong_ex_id, range_cursor)
+    self._slot_dict[self._counter_slot_id] = new_slot
 
-    current_alt_node_dict = self._alt_tree_dict[0]
-    is_expand_loop_successful = False
-    error_info = {"msg": None}
+    if self._SLOT_DEDUP_ENABLED:
+      # add to cache
+      astid_dict[(start_idx, end_idx)] = new_slot
 
-    # 6 expand loop
+    return new_slot
+
+
+  def _get_expansions_stat_for_slot(self, slot_id):
+    assert slot_id in self._slot_expand_info_dict
+    expan_list, is_done, _ = self._slot_expand_info_dict[slot_id]
+    return {"count":len(expan_list), "done":is_done}
+
+  def _alt_node_as_dict(
+    self,
+    alt_id,
+    alt_step,
+    expansion,
+    choose_idx,
+    prev_alt_id,
+    todo_slot_ids,
+    next_choices_status,
+    next_alt_choose_dict,
+    is_all_rejected,
+    is_checkpoint
+  ):
+    return {
+      "alt_id": alt_id,
+      "alt_step": alt_step,
+      "expansion": expansion,
+      "choose_idx": choose_idx,
+      "prev_alt_id": prev_alt_id,
+      "todo_slot_ids": todo_slot_ids,
+      "next_choices_status": next_choices_status,
+      "next_alt_choose_dict": next_alt_choose_dict,
+      "is_all_rejected": is_all_rejected,
+      "is_checkpoint": is_checkpoint
+    }
+
+  def _alt_calc_todo_slots(self, expansion: gdp.Expansion, prev_alt_node):
+    # todo slot dedup impl here? If dedup is on for the whole transsession, then this expansion and its corresponding slot must be unique.
+    # can unique expansion/slot produce duplicated children slots? Should be yes.
+    # But can the duplicated children slots appear in the same transduction history?
+    # (only slots/expansions along a specific transduction history is book-keeped in transducer)
+    # Not possible in current transducer impl. because matches inside an expansion are exclusive.
+    # If matches are not exclusive, [1] + 2   and [1 +] 2 can be slot 1:([1]) slot 2:([1 +]). Another expansion on slot 2 break it down to [1] and [+]
+    # will be unaware that [1] is already handled.
+    # If we keep duplicated todo slots, will they affect the transduction?
+    old_todo_slot_ids = prev_alt_node["todo_slot_ids"]
+    prepend_ids = [x.slot_id for x in expansion.slots if x is not None]
+    return prepend_ids + old_todo_slot_ids[1:]
+
+
+  def _ensure_parser_result(self, alt_node):
+    '''
+    make sure the parser result is set.
+    NOTE: parser_result might be error
+    TODO what this method does?
+    '''
+
+    alt_id = alt_node["alt_id"]
+
+    # 1 exists in cache (@satbek)
+    if alt_id in self._alt_parser_result_dict:
+      return self._alt_parser_result_dict[alt_id]
+
+    # 2 does not exist in cache (@satbek)
     try:
-      MAX_LOOPCOUNT = 15000
-      loop_count = 0
-      last_checkpoint_step = 0
+      # fetch the previous parser (move or clone from the last checkpoint and move) and run it
+      prev_alt_id = alt_node["prev_alt_id"]
+      fetched_parser = self._fetch_parser(prev_alt_id)
+      expansion = alt_node["expansion"]
 
-      while True:
-        loop_count += 1
-        assert loop_count < MAX_LOOPCOUNT, "MAX_LOOP_excedded"
-        assert len(current_alt_node_dict["todo_slot_ids"]) > 0
-        if TRANS_VERBOSE > -10: print(f"############## _expand_loop {loop_count} ... ")
+      # ~~~ main work
+      is_accepted, dbg_info = fetched_parser.add_expansion_parse_until_stuck(expansion)
 
-        # ~~~ this is an important invocation (contains invocation of Pirel)
-        next_alt_node_dict = _get_or_create_next_alt_inner_fun(current_alt_node_dict)
-        assert next_alt_node_dict is not None, "How_to_deal_with_this_case"
+      parser_result = self._parser_result_as_dict(
+        is_accepted,  # is_acceptable
+        fetched_parser.last_time_parsing_done,  # is_done
+        False,  # is_error
+        dbg_info,  # dbg_info
+        fetched_parser.last_time_stuck_slot_id  # stuck_slot_id
+      )
 
-        par_alt_node_dict = current_alt_node_dict
-        current_alt_node_dict = next_alt_node_dict
+      self._alt_parser_result_dict[alt_id] = parser_result
+      self._alt_parser_dict[alt_id] = fetched_parser
 
-        # ~~~ this is an important invocation
-        is_acceptable, stucking_slot_id, is_done = _get_alt_parser_result_inner_fun(current_alt_node_dict)
+      return parser_result
 
-        if not is_acceptable:
-          expansion = current_alt_node_dict["expansion"]
-          if TRANS_VERBOSE > -11: print(f"!!!!!!!!!! _expand_loop apply_expand_func FAILED on exid:{expansion.ex_id} (corres_slot_id:{expansion.corres_slot_id}). Backward...\n\n")
-          # optimization block
-          if par_alt_node_dict["alt_step"] - last_checkpoint_step > self._BACKWARD_MAX_STEP:
-            nth_parent = _get_nth_parent_inner_fun(par_alt_node_dict, self._BACKWARD_MAX_STEP)
-            if nth_parent is not None:
-              self._update_alt_node_as_checkpoint(nth_parent["alt_id"])
-              last_checkpoint_step = nth_parent["alt_step"]
-          current_alt_node_dict, update_key, update_choose_idx = _backward_alt_next_choice_inner_func(par_alt_node_dict, current_alt_node_dict["choose_idx"])
-          choices_dict[update_key] = update_choose_idx
-
-        elif len(current_alt_node_dict["todo_slot_ids"]) == 0:
-          assert is_done
-          break
-
-        else:
-          # optimization block
-          if par_alt_node_dict["alt_step"] - last_checkpoint_step > self._SNAPSHOT_INTERVAL:
-            self._update_alt_node_as_checkpoint(par_alt_node_dict["alt_id"])
-            last_checkpoint_step = par_alt_node_dict["alt_step"]
-          expansion = current_alt_node_dict["expansion"]
-          if TRANS_VERBOSE > -11: print(f"************** _expand_loop {loop_count} apply_expand_func SUCCEED on exid:{expansion.ex_id} (corres_slot_id:{expansion.corres_slot_id})\n\n")
-
-      is_expand_loop_successful = True
-
-    # 7 catch exceptions and update `error_info` accordingly
     except Exception as err:
-      print("############## traceback ##############", file=sys.stderr)
-      print(traceback.format_exc(), file=sys.stderr)
-      print("################# err #################", file=sys.stderr)
+      print("#################### _ensure_parser_result FAILED! ####################")
+      self.any_error = True
+      fetched_parser.dbg_print_tail_stack()
+      err_dbg_info = fetched_parser._dbg_info_finish_for_ex_error()
 
-      # ~~~ Pirel: include information about problematic node in `error_info`
-      if isinstance(err, TranslationRuleNotFoundException):
-        templates_dict: dict = err.get_templates_dict()
-        error_info['msg'] = f'\nTranslationRuleNotFoundException:\nno rule found for "{templates_dict["problematic_node_type"]}"'
-        error_info['templates_dict'] = json.dumps(templates_dict)
+      err_parser_result = self._parser_result_as_dict(
+        False,  # is_acceptable
+        False,  # is_done
+        True,  # is_error
+        err_dbg_info,  # dbg_info
+        None  # stuck_slot_id
+      )
 
-      elif isinstance(err, AssertionError):
-        error_msg = "[FATAL_ERROR] SERVER STATE MIGHT BE CORRUPTED. Please check the log. " + str(err) + "\n" + str(traceback.format_exc())
-        error_info["msg"] = error_msg
-        consts.HIT_UNEXPECTED_ERROR_MESSAGE = error_msg
-        consts.HIT_UNEXPECTED_ERROR = True
-      elif isinstance(err, NormalException):
-        error_info["msg"] = "[NormalException] " + str(err) + " " + traceback.format_exc()
-      elif isinstance(err, UnderstoodException):
-        error_info["msg"] = "[UnderstoodException] " + str(err) + " " + traceback.format_exc()
+      self._alt_parser_result_dict[alt_id] = err_parser_result
+      raise err
+
+  def _parser_result_as_dict(
+    self,
+    is_acceptable,
+    is_done,
+    is_error,
+    dbg_info,
+    stuck_slot_id
+  ):
+    return {
+      "is_acceptable": is_acceptable,
+      "is_done": is_done,
+      "is_error": is_error,
+      "dbg_info": dbg_info,
+      "stuck_slot_id": stuck_slot_id,
+    }
+
+
+  def _update_alt_node_as_checkpoint(self, alt_id):
+    alt_node = self._alt_tree_dict[alt_id]
+    if alt_node["is_checkpoint"]: return
+    parser = self._fetch_parser(alt_id)
+    self._alt_parser_dict[alt_id] = parser
+    alt_node["is_checkpoint"] = True
+    print(f"!!! Updating (alt_id:{alt_id}) as checkpoint.")
+
+  def _fetch_parser(self, alt_id):
+    """assume the parsing result of alt_id is already available. We don't care. Return a parser"""
+    assert alt_id == 0 or alt_id in self._alt_parser_result_dict
+    alt_node = self._alt_tree_dict[alt_id]
+
+    # 1 exists in cache (@satbek)
+    if alt_id in self._alt_parser_dict and self._alt_parser_dict[alt_id] is not None:
+      if alt_node["is_checkpoint"]:
+        print("# _fetch_parser cloning from checkpoint:", alt_id)
+        return self._alt_parser_dict[alt_id].clone()
       else:
-        error_info["msg"] = "[UNEXPECTED_ERROR] " + str(type(err)) + "\n" + str(err) + "\n" + traceback.format_exc()
+        parser = self._alt_parser_dict[alt_id]
+        self._alt_parser_dict[alt_id] = None
+        return parser
 
-    # 8 return
-    if is_expand_loop_successful:
-      tar_ast = self._get_alt_partial_ast(current_alt_node_dict)
-      return (is_expand_loop_successful, tar_ast, choices_dict, None, self._get_alt_debug_history(current_alt_node_dict))
-    else:
-      return (is_expand_loop_successful, None, choices_dict, error_info, self._get_alt_debug_history(current_alt_node_dict))
+    # 2 does not exist in cache (@satbek)
+    assert not alt_node["is_checkpoint"]
+    prev_id = alt_node["prev_alt_id"]
+    assert prev_id is not None
+    expansion = alt_node["expansion"]
+    fetched_parser = self._fetch_parser(prev_id)
+    is_accepted, _ = fetched_parser.add_expansion_parse_until_stuck(expansion)
+    assert is_accepted
+    assert fetched_parser.last_time_stuck_slot_id == self._alt_parser_result_dict[alt_id]["stuck_slot_id"]
+    return fetched_parser
+
+  def _get_alt_partial_ast(self, alt_node):
+    alt_id = alt_node["alt_id"]
+    assert alt_id in self._alt_parser_dict
+    parser = self._alt_parser_dict[alt_id]
+    elem_list = parser.get_current_elem_list()
+    return ast_pretty.elem_list_to_mapanno_ast(elem_list)
+
+  def _get_alt_debug_history(self, alt_node):
+    # get dbg_debug_info from the chain of parents start from alt_node
+    alt_debug_history = []
+    while alt_node["alt_id"] != 0:
+      alt_id = alt_node["alt_id"]
+      dbg_info = self._alt_parser_result_dict[alt_id]["dbg_info"]
+      range_cursor = self._slot_dict[alt_node["expansion"].corres_slot_id].range_cursor
+      alt_step = alt_node["alt_step"]
+      range_info = None
+      if alt_step == 1:
+        assert len(range_cursor[0]) == 1
+      else:
+        range_info = (range_cursor[0][1], range_cursor[1], range_cursor[2])
+      alt_debug_history.append({
+        "alt_step": alt_step,
+        "range_info": range_info,
+        "next_choices_status": alt_node["next_choices_status"] ,
+        "dbg_info": dbg_info
+      })
+      alt_node = self._alt_tree_dict[alt_node["prev_alt_id"]]
+    alt_debug_history = list(reversed(alt_debug_history))
+    return alt_debug_history
+
+
+  def _set_program_str(self, code_str):
+    # parse the code, set self.expansion_programs
+    print(f"\n\n++++++++++++++++++++++++++++++++++++++++ _set_program_str. {len(code_str)} ++++++++++++++++++++++++++++++++++++++++\n")
+    expansion_programs, dbg_info = grammar_rules.parse_analyze_rules(code_str)
+    self.expansion_programs = expansion_programs
+    self.program_dbg_info["expansion_programs"] = dbg_info
+    print("++++++++++++  set self.expansion_programs")
+
+  def get_session_dbg_info(self):
+    return {"program": self.program_dbg_info}
+
 
 # end of class `TransSession`
 

@@ -1,0 +1,21 @@
+{
+  "good_program_pairs": [
+    {
+      "source": "if condition:\n    secret_fun_4071()",
+      "target": "if (condition) {\n    secret_fun_4071();\n}"
+    },
+    {
+      "source": "if condition:\n    secret_fun_4071()",
+      "target": "if(condition){\n    secret_fun_4071();\n}"
+    },
+    {
+      "source": "if condition:\n    secret_fun_4071()",
+      "target": "if (condition)\n{\n    secret_fun_4071();\n}"
+    },
+    {
+      "source": "if condition:\n    secret_fun_4071()",
+      "target": "if(condition)\n{\n    secret_fun_4071();\n}"
+    }
+  ],
+  "success": true
+}

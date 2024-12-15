@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-8B0TlTg3TNCuhskwbiBMT2OYYCAcH",
+  "object": "chat.completion",
+  "created": 1697634141,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Variant where holes are filled with identifiers:\n```python\nfor i in some_list:\n    print(i)\n```\nVariant where holes are filled with literals:\n```python\nfor _ in [1, 2, 3]:\n    print _\n```\nVariant where holes are filled with different language elements like function calls:\n```python\nfor letter in 'Python':\n    print(ord(letter)) \n```\nVariant where holes are filled with lists:\n```python\nfor element in [1,2,3,4,5]:\n    print(element*10)\n```\nVariant where holes are filled with continuing statement inside a control structure:\n```python\nfor number in [3, 14, 15, 9, 26, 13, 28]:\n    if number % 2 == 0:\n        continue\n    print(number)\n```\nVariant where holes are filled with objects of a custom class:\n```python\nclass Foo:\n    def __init__(self, x):\n        self.x = x\n\nexamples = [Foo(1), Foo(2), Foo(3)]\nfor example in examples:\n    example.x += 1\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 1,
+      "message": {
+        "role": "assistant",
+        "content": "1.\n```python\nfor i in my_list:\n    print(i)\n```\n\n2.\n```python\nfor 'elem' in 'string':\n    print('elem')\n```\n\n3.\n```python\nfor _ in []:\n    pass\n```\n\n4.\n```python\nfor element in range(10):\n    if element > 5:\n        break\n```\n\n5.\n```python\nfor num in {'apple': 1, 'banana': 2}.values():\n    return num\n```\n\n6.\n```python\nfor char in \"Hello, World!\":\n    if char.isupper():\n        continue\n```\n\n7.\n```python\nfor item in arr:\n    if not item:\n        return False\n```\n\n8.\n```python\nfor obj in object_list:\n    obj.method()\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 2,
+      "message": {
+        "role": "assistant",
+        "content": "Variant 1:\n```python\nfor i in range(10):\n    print(i)\n```\n\nVariant 2:\n```python\nfor character in 'string':\n    print(character)\n```\n\nVariant 3:\n```python\nfor value in [1, 2, 3]:\n    print(value)\n```\n\nVariant 4:\n```python\nfor key in {'a': 1, 'b': 2}:\n    print(key)\n```\n\nVariant 5:\n```python\nfor item in [{'name': 'Alice', 'age': 24}, {'name': 'Bob', 'age': 26}]:\n    print(item)\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 3,
+      "message": {
+        "role": "assistant",
+        "content": "1. Variants with identifiers:\n```python\nfor i in nums:\n    print(i)\n```\n```python\nfor character in string:\n    print(character)\n```\n```python\nfor element in list:\n    print(element)\n```\n\n2. Variants with literals:\n```python\nfor i in [1, 2, 3, 4]:\n    print(i)\n```\n```python\nfor character in \"Hello\":\n    print(character)\n```\n```python\nfor dog in [\"bulldog\", \"chihuahua\", \"dalmatian\"]:\n    print(dog)\n```\n\n3. Variants with function calls:\n```python\nfor i in range(10):\n    print(i)\n```\n```python\nfor i in map(lambda x: x**2, [1, 2, 3, 4, 5]):\n    print(i)\n```\n```python\nfor result in filter(lambda x: x > 5, [1, 2, 3, 4, 5, 6, 7, 8, 9]):\n    print(result)\n```\n\n4. Variants with statements:\n```python\nfor i in [1, 2, 3, 4, 5]:\n    if i == 3:\n        break\n    print(i)\n```\n```python\nfor i in range(10):\n    if i % 2 == 0:\n        continue\n    print(i)\n```\n\n5. Variants with data structures:\n```python\nfor key, value in {'key1': 1, 'key2': 2}.items():\n    print(f\"Key: {key}, Value: {value}\")\n```\n```python\nfor i in [i for i in range(10)]:\n    print(i)\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 4,
+      "message": {
+        "role": "assistant",
+        "content": "Variant with identifiers:\n```python\nfor fruit in fruits:\n    print(fruit)\n```\nVariant with literals:\n```python\nfor i in [1,2,3]:\n    print(i)\n```\nVariant with a function call:\n```python\nfor i in range(num):\n    calculate(i)\n```\nVariant with 'continue' statement:\n```python\nfor character in string:\n    if character == ' ':\n        continue\n    print(character)\n```\nVariant with 'break' statement:\n```python\nfor i in ints:\n    if i < 0:\n        break\n    process(i)\n```\nVariant with lists:\n```python\nfor i in [4, 5, 6]:\n    modified_list.append(i*2)\n```\nVariant with dictionaries:\n```python\nfor key in dictionary:\n    print(dictionary[key])\n```\nVariant with objects:\t\n```python\nfor obj in objList:\n    obj.show_attrs()\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 542,
+    "completion_tokens": 1099,
+    "total_tokens": 1641
+  }
+}

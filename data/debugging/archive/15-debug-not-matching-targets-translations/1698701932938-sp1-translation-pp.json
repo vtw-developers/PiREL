@@ -1,0 +1,13 @@
+{
+  "good_program_pairs": [
+    {
+      "source": "for num, letter in enumerate('python'):\n    if letter == 'o':\n        continue",
+      "target": "for (let num = 0; num < 'python'.length; num++) {\n    let letter = 'python'[num];\n    if (letter === 'o') {\n        continue;\n    }\n}"
+    },
+    {
+      "source": "for num, letter in enumerate('python'):\n    if letter == 'o':\n        continue",
+      "target": "'python'.split('').forEach((letter, num) => {\n    if (letter === 'o') {\n        return;\n    }\n});"
+    }
+  ],
+  "success": true
+}

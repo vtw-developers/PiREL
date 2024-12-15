@@ -24,7 +24,7 @@
   (fragment "*1")
 )
 
-;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; DuoGlot's base ruleset
 
 (match_expand
   (fragment ("py.module" "*"))

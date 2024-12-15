@@ -1,0 +1,13 @@
+{
+  "good_program_pairs": [
+    {
+      "source": "for count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")",
+      "target": "let str = \"Hello World\";\nfor(let count = 0; count < str.length; count++) {\n    let char = str[count];\n    console.log(count + \": \" + char);\n}"
+    },
+    {
+      "source": "for count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")",
+      "target": "\"Hello World\".split('').forEach((char, count) => console.log(`${count}: ${char}`));"
+    }
+  ],
+  "success": true
+}

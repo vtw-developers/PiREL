@@ -1,0 +1,24 @@
+{
+  "program_pairs": [
+    {
+      "source": "for n, char in enumerate(\"Hello\"):\n    if char == \"l\":\n        continue",
+      "target": "let str = \"Hello\";\nfor (let n = 0; n < str.length; n++) {\n    if (str[n] === \"l\") {\n        continue;\n    }\n}"
+    },
+    {
+      "source": "for n, char in enumerate(\"Hello\"):\n    if char == \"l\":\n        continue",
+      "target": "\"Hello\".split('').forEach((char, n) => {\n    if (char === \"l\") {\n        return;\n    }\n});"
+    }
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

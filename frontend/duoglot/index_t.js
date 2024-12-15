@@ -20,7 +20,7 @@ let testcase_select_elem = document.getElementById("testcase-select");
 let transprog_select_elem = document.getElementById("transprog-select");
 let srcfilepath_input_elem = document.getElementById("srcfilepath-input");
 let load_btn = document.getElementById("load-btn");
-let translate_btn = document.getElementById("translate-btn"); 
+let translate_btn = document.getElementById("translate-btn");
 let translate_choices_btn = document.getElementById("translate-choices-btn");
 let continue_choices_btn = document.getElementById("continue-choices-btn");
 let choices_input_elem = document.getElementById("choices-input");
@@ -97,7 +97,7 @@ window.getChoices = function () {
 window.setChoices = function (choice_type, choices_list) {
   if ((choice_type !== "STEP" && choice_type !== "ASTNODE")) {
     throw Error("choice_type is unexpected: " + choice_type);
-  } 
+  }
   if (!Array.isArray(choices_list)) {
     throw Error("choices_list not valid array.");
   }
@@ -312,7 +312,7 @@ function copyUrlHandler() {
     urlparams["hideload"] = "none";
   }
   let url = new URL(document.URL);
-  url.search = new URLSearchParams(urlparams); 
+  url.search = new URLSearchParams(urlparams);
   window.history.pushState(null, "Trans (URL Copied)", url);
   navigator.clipboard.writeText(url.toString());
   console.log("copyUrlHandler:", url.toString());
@@ -390,7 +390,7 @@ async function getFileDictHandlerAsync() {
         let tar_prefix = tarfile.split(".").slice(0,-1).join("");
         if (tar_prefix in prefix_dict) {
           common_filenames.push(tar_prefix);
-        } 
+        }
       }
       common_filenames.sort();
       console.log("_updateTestcasesSelect common: ", common_filenames);
@@ -432,7 +432,7 @@ async function getFileDictHandlerAsync() {
     _autocomplete_list_cache[srclang][normalized_q] = ac_list;
     return _autocomplete_list_cache[srclang][normalized_q];
   }
-  let srcfilepath_autocomplete_obj = new autoComplete({ 
+  let srcfilepath_autocomplete_obj = new autoComplete({
     selector: "#srcfilepath-input",
     placeHolder: "input filename...",
     data: {
@@ -449,7 +449,7 @@ async function getFileDictHandlerAsync() {
     }
    });
   console.log(
-    "create srcfilepath_autocomplete_obj:", 
+    "create srcfilepath_autocomplete_obj:",
     srcfilepath_autocomplete_obj);
   srcfilepath_input_elem.addEventListener("selection", function (event) {
     // "event.detail" carries the autoComplete.js "feedback" object
@@ -499,10 +499,10 @@ async function loadHandlerAsync() {
   if (true) {
     new_source_code_str = new_source_code_str === null ? "" : new_source_code_str;
     new_target_code_str = new_target_code_str  === null ? "" : new_target_code_str;
-    let srcModel = source_lang_editor_obj.getModel(); 
+    let srcModel = source_lang_editor_obj.getModel();
     monaco.editor.setModelLanguage(srcModel, monaco_language_name_dict[srcLang]);
     source_lang_editor_obj.setValue(new_source_code_str);
-  
+
     var tarCurrentlModel = monaco.editor.createModel('', monaco_language_name_dict[tarLang]);
     var tarTargetModel = monaco.editor.createModel(new_target_code_str, monaco_language_name_dict[tarLang]);
     target_lang_editor_obj.setModel({
@@ -523,10 +523,12 @@ async function loadHandlerAsync() {
 
 // ~~~ Trans button handler on http://127.0.0.1:8000/frontend/duoglot/index_t.html
 function translateHandlerGen(is_reading_choices) {
+
   function _setContinueButton(text, is_disabled) {
     continue_choices_btn.innerText = text;
     continue_choices_btn.disabled = is_disabled;
   }
+
   async function _translateHandlerAsync() {
     console.log("++++++++++++++ translate_btn event handler ++++++++++++++");
     //------- set parse globals
@@ -547,6 +549,7 @@ function translateHandlerGen(is_reading_choices) {
       if (false) console.log("_get_src_AST_dict.  source_code:", source_AST, "source_ann:", source_ann);
       return source_AST_dict;
     }
+
     let sourceLang = sourcelang_select_elem.value;
     let targetLang = targetlang_select_elem.value;
     let source_code = source_lang_editor_obj.getValue();
@@ -556,31 +559,51 @@ function translateHandlerGen(is_reading_choices) {
       choices_info = JSON.parse(choices_input_elem.value);
     }
     let {type, choices_list} = choices_info;
-    let [src_parse_result, translate_result, error_info, dbg_history, translator_dbg_info, timespan, timespan_p] = await translateAsync(source_code, sourceLang, targetLang, transprog, type, choices_list, translate_autobackward_elem.checked);
+
+    // kwargs contains PiREL related arguments
+    let kwargs = {
+      "subject_name": srcfilepath_input_elem.value.split("/").slice(-1)[0]
+    };
+
+    // the following function call is missing a `pirelEnabled` parameter
+    let _translationResult = await translateAsync(
+      source_code,
+      sourceLang,
+      targetLang,
+      transprog,
+      type,
+      choices_list,
+      translate_autobackward_elem.checked,
+      kwargs
+    );
+    let [src_parse_result, translate_result, error_info, dbg_history, translator_dbg_info, timespan, timespan_p] = _translationResult;
+
     window._translate_dbg_history = dbg_history;
     window._translate_timespan = timespan;
     window._translate_timespan_pretty = timespan_p;
     window._translate_src_parse = null;
+
     if (window.DEBUG_LOGGING) {
       console.log("++++++++++++++ translate-btn src_parse:", src_parse_result);
       console.log("++++++++++++++ translate-btn translate_result:", translate_result);
       console.log("++++++++++++++ translate-btn error_info:", error_info);
       console.log("++++++++++++++ translate-btn translate dbg_history:", dbg_history);
-      console.log("++++++++++++++ translate-btn translator_dbg_info:", translator_dbg_info);  
+      console.log("++++++++++++++ translate-btn translator_dbg_info:", translator_dbg_info);
       console.log("++++++++++++++ translate-btn timespan:", timespan);
     }
+
     //------- update translated code
     function _updateTranslatedCodeMonaco(partial_code) {
       if (partial_code == null) {
         //console.warn("# _updateTranslatedCodeMonaco code is null.");
         partial_code = "ERROR_OR_EMPTY";
       }
-      
+
       try {
         var oldModel = target_lang_editor_obj.getModel().original;
         if (oldModel) oldModel.dispose();
       } catch (e) {console.warn("Cannot clean the old model.");}
-      
+
       var tarCurrentlModel = monaco.editor.createModel(partial_code, monaco_language_name_dict[targetLang]);
       var tarTargetModel = target_lang_editor_obj.getModel().modified;
       if (tarTargetModel === null) tarTargetModel = monaco.editor.createModel("", monaco_language_name_dict[targetLang]);
@@ -606,20 +629,21 @@ function translateHandlerGen(is_reading_choices) {
       }
     }
     console.log("+++++++++++++ translate-btn done.");
-    
+
 
     let source_AST = src_parse_result["src_ast"];
     let source_ann = src_parse_result["src_ann"];
     let source_AST_dict = _get_src_AST_dict(source_AST, source_ann);
     window._translate_src_parse = [source_code, src_parse_result, source_AST_dict];
-    visualizeAST(true, 
+    visualizeAST(true,
       sourceLang, targetLang,
-      source_AST_dict, null, 
-      source_AST, null, 
-      source_ann, null, 
-      dbg_history, translator_dbg_info, 
+      source_AST_dict, null,
+      source_AST, null,
+      source_ann, null,
+      dbg_history, translator_dbg_info,
       translate_result, _updateTranslatedCodeMonaco);
   }
+
   return _translateHandlerAsync;
 }
 
@@ -723,12 +747,12 @@ function update_monaco_decoration_dicts_by_astvis_edit_state() {
   //set on
   function _setNodeIdsClassName(nodeIds, decoDict, classname) {
     nodeIds.forEach((nodeId) => {
-      decoDict[nodeId].isOn = true; 
+      decoDict[nodeId].isOn = true;
       decoDict[nodeId].deco.options.inlineClassName = classname
     });
   }
   _setNodeIdsClassName(astvis_edit_state.node.hover.source, source_decoration_dict, "mymonaco-hover");
-  
+
   function _setNodesOfComboIdsClassName(comboIds, decoDict, classname) {
     for (let comId of comboIds) {
       let [_, nodeIds] = getDirectNodeIdsByComboId(comId);
@@ -1092,7 +1116,7 @@ function visualizeAST(useCostomLayout, sourceLang, targetLang, source_AST_dict, 
         let comboInternal = e["item"]["_cfg"];
         let comboModel = comboInternal["model"];
         let comId = comboModel["id"];
-        
+
         if (eventName === 'mouseenter') {
           astvis_edit_state.set_single_combo_auto(comId, "hover");
           updateCompoPairInfo(comId, null);
@@ -1117,14 +1141,14 @@ function visualizeAST(useCostomLayout, sourceLang, targetLang, source_AST_dict, 
     graph.on('node:click', () => {isFreezing = !isFreezing;});
     graph.on('combo:click', () => {isFreezing = !isFreezing;});
   };
-  
+
   //history table
   function choicesClickHandler(e) {
     let update_choices_param = e.target._update_choices_param;
     let {step, target_choose_idx, range_info} = update_choices_param;
     updateChoices(step, range_info, target_choose_idx);
   }
-  let changeOp = function(cell, formatterParams, onRendered){ 
+  let changeOp = function(cell, formatterParams, onRendered){
     let row_data = cell.getRow().getData();
     let step = row_data["step"];
     let nch_count_str = row_data["ch_com"].split("/")[1].replace("+", "");
@@ -1138,7 +1162,7 @@ function visualizeAST(useCostomLayout, sourceLang, targetLang, source_AST_dict, 
       //should have left btn
       let leftBtn = document.createElement("button");
       leftBtn.className = "tiny-btn";
-      leftBtn.innerText = "<"; 
+      leftBtn.innerText = "<";
       leftBtn._update_choices_param = {
         "step": step,
         "target_choose_idx": choose_idx - 1,
@@ -1151,7 +1175,7 @@ function visualizeAST(useCostomLayout, sourceLang, targetLang, source_AST_dict, 
       //should have right btn
       let rightBtn = document.createElement("button");
       rightBtn.className = "tiny-btn";
-      rightBtn.innerText = ">"; 
+      rightBtn.innerText = ">";
       rightBtn._update_choices_param = {
         "step": step,
         "target_choose_idx": choose_idx + 1,
@@ -1241,7 +1265,7 @@ function visualizeAST(useCostomLayout, sourceLang, targetLang, source_AST_dict, 
         let rule_id = dbg_data["dbg_info"]["notes"]["rule_id"];
         let loc_dict = translator_dbg_info["program"]["expansion_programs"]["rule_loc_dict"];
         console.log("# _getTableRowEventHandler mouseenter", rowId, " rule_id:", rule_id);
-        
+
         //translator program highlight update
         setTimeout(async () => {
           let opt_info_id = dbg_data["dbg_info"]["elem_list_info_id"];
@@ -1249,7 +1273,7 @@ function visualizeAST(useCostomLayout, sourceLang, targetLang, source_AST_dict, 
           if (_entering_row_id === rowId) translated_code_updater_func(code);
         }, 0);
         update_monaco_highlight_locate_for_trans(loc_dict[rule_id][0], loc_dict[rule_id][1]);
-        
+
         //clear and add graph visstate
         let matching_node_ids = dbg_data["dbg_info"]["src_matching_node_ids"].map((x) => "c_source" + x);
         let slot_matching_node_ids = dbg_data["dbg_info"]["slot_src_matching_node_ids"].map(ids => ids.map(x => "c_source" + x));
@@ -1267,13 +1291,13 @@ function visualizeAST(useCostomLayout, sourceLang, targetLang, source_AST_dict, 
         if (_update_graph_item_states_by_astvis_edit_state_func !== null) _update_graph_item_states_by_astvis_edit_state_func();
         update_monaco_decoration_dicts_by_astvis_edit_state();
         update_monaco_marks_by_decoration_dicts();
-      } else if(eventName === "click") {  
+      } else if(eventName === "click") {
         //console.warn("table row click not implemented.");
       } else {
         throw "Unknown_table_row_event_" + eventName;
       }
     }
-    return _tabRowEventHandler; 
+    return _tabRowEventHandler;
   }
   panel_dbg_history_table_obj.on("rowClick", _getTableRowEventHandler("click"));
   panel_dbg_history_table_obj.on("rowMouseEnter", _getTableRowEventHandler("mouseenter"));

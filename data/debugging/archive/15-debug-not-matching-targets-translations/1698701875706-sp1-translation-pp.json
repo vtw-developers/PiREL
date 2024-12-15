@@ -1,0 +1,13 @@
+{
+  "good_program_pairs": [
+    {
+      "source": "for count, item in enumerate(items):\n    if item == 'stop':\n        break",
+      "target": "for (let count = 0; count < items.length; count++) {\n    let item = items[count];\n    if (item === 'stop') {\n        break;\n    }\n}"
+    },
+    {
+      "source": "for count, item in enumerate(items):\n    if item == 'stop':\n        break",
+      "target": "items.forEach((item, count) => {\n    if (item === 'stop') {\n        throw BreakException;\n    }\n});"
+    }
+  ],
+  "success": true
+}

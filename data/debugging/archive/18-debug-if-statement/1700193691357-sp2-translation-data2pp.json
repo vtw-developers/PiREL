@@ -1,0 +1,170 @@
+{
+  "sp1": "num = x - y",
+  "sp2": "num = var1 - var2",
+  "cand_translation_sp1": "let num = x - y;",
+  "raw_translations_sp2": [
+    "let num = var1 - var2;"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [
+          "\"py.identifier\""
+        ],
+        "parents": [
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [
+          "\"js.identifier\""
+        ],
+        "parents": [
+          "\"js.variable_declarator\"",
+          "\"js.lexical_declaration\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [
+          "\"py.identifier\""
+        ],
+        "parents": [
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [
+          "\"js.identifier\""
+        ],
+        "parents": [
+          "\"js.variable_declarator\"",
+          "\"js.variable_declaration\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [
+          "\"py.identifier\""
+        ],
+        "parents": [
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [
+          "\"js.identifier\""
+        ],
+        "parents": [
+          "\"js.variable_declarator\"",
+          "\"js.lexical_declaration\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [
+          "\"py.identifier\""
+        ],
+        "parents": [
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [
+          "\"js.identifier\""
+        ],
+        "parents": [
+          "\"js.variable_declarator\"",
+          "\"js.variable_declaration\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [
+          "\"py.identifier\""
+        ],
+        "parents": [
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [
+          "\"js.identifier\""
+        ],
+        "parents": [
+          "\"js.variable_declarator\"",
+          "\"js.lexical_declaration\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [
+          "\"py.identifier\""
+        ],
+        "parents": [
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [
+          "\"js.identifier\""
+        ],
+        "parents": [
+          "\"js.variable_declarator\"",
+          "\"js.variable_declaration\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [
+          "\"py.identifier\""
+        ],
+        "parents": [
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [
+          "\"js.identifier\""
+        ],
+        "parents": [
+          "\"js.variable_declarator\"",
+          "\"js.lexical_declaration\""
+        ]
+      }
+    },
+    {
+      "source_context": {
+        "siblings": [
+          "\"py.identifier\""
+        ],
+        "parents": [
+          "\"py.assignment\"",
+          "\"py.expression_statement\""
+        ]
+      },
+      "target_context": {
+        "siblings": [
+          "\"js.identifier\""
+        ],
+        "parents": [
+          "\"js.variable_declarator\"",
+          "\"js.variable_declaration\""
+        ]
+      }
+    }
+  ]
+}

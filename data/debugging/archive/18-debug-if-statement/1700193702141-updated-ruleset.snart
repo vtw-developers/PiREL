@@ -1,0 +1,144 @@
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.binary_operator" ("py.identifier" "_val_") (str "-") ("py.identifier" "_val_")) "*")
+  (fragment ("js.binary_expression" ("js.identifier" "_val1_") (str "-") ("js.identifier" "_val2_")) "*1")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.expression_statement" ("py.assignment" ("py.identifier" "_val_") (str "=") ("py.dictionary" (str "{") (str "}")))) "*")
+  (fragment ("js.lexical_declaration" (str "let") ("js.variable_declarator" ("js.identifier" "_val1_") (str "=") ("js.object" (str "{") (str "}")))) "*1")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.typed_parameter" ("py.identifier" "_val_") (str ":") ("py.type" ".")) "*")
+  (fragment ("js.identifier" "_val1_") "*2")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.expression_statement" ("py.assignment" ("py.identifier" "_val_") (str "=") "*")) "*")
+  (fragment ("js.lexical_declaration" (str "const") ("js.variable_declarator" ("js.identifier" "_val1_") (str "=") "*1") (str ";")) "*2")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.expression_statement" ("py.assignment" ("py.identifier" "_val_") (str "=") "*")) "*")
+  (fragment ("js.variable_declaration" (str "var") ("js.variable_declarator" ("js.identifier" "_val1_") (str "=") "*1") (str ";")) "*2")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.expression_statement" ("py.assignment" ("py.identifier" "_val_") (str "=") "*")) "*")
+  (fragment ("js.lexical_declaration" (str "let") ("js.variable_declarator" ("js.identifier" "_val1_") (str "=") "*1") (str ";")) "*2")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.for_statement" (str "for") ("py.pattern_list" ("py.identifier" "_val_") (str ",") ("py.identifier" "_val_")) (str "in") ("py.call" ("py.identifier" (val "enumerate")) ("py.argument_list" (str "(") ("py.identifier" "_val_") (str ")"))) (str ":") ("py.block" "*")) "*")
+  (fragment ("js.expression_statement" ("js.call_expression" ("js.member_expression" ("js.identifier" "_val3_") (str ".") ("js.property_identifier" (val "forEach"))) ("js.arguments" (str "(") ("js.arrow_function" (nostr) ("js.formal_parameters" (str "(") ("js.identifier" (val "val")) (str ",") ("js.identifier" (val "i")) (str ")")) (str "=>") ("js.statement_block" (str "{") "*1" (str "}"))) (str ")"))) (str ";")) "*2")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.for_statement" (str "for") ("py.pattern_list" ("py.identifier" "_val_") (str ",") ("py.identifier" "_val_")) (str "in") ("py.call" ("py.identifier" (val "enumerate")) ("py.argument_list" (str "(") ("py.identifier" "_val_") (str ")"))) (str ":") ("py.block" "*")) "*")
+  (fragment ("js.for_statement" (str "for") (str "(") ("js.lexical_declaration" (str "let") ("js.variable_declarator" ("js.identifier" (val "i")) (str "=") ("js.number" (val "0"))) (str ";")) ("js.expression_statement" ("js.binary_expression" ("js.identifier" (val "i")) (str "<") ("js.member_expression" ("js.identifier" "_val3_") (str ".") ("js.property_identifier" (val "length")))) (str ";")) ("js.update_expression" ("js.identifier" (val "i")) (str "++")) (str ")") ("js.statement_block" (str "{") ("js.lexical_declaration" (str "let") ("js.variable_declarator" ("js.identifier" (val "val")) (str "=") ("js.subscript_expression" ("js.identifier" "_val3_") (str "[") ("js.identifier" (val "i")) (str "]"))) (str ";")) "*1" (str "}"))) "*2")
+)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;; base rules
+(match_expand
+  (fragment ("py.module" "*"))
+  (fragment ("js.program" "*1"))
+)
+
+(match_expand
+  (fragment ("py.function_definition" (str "def") "*") "*")
+  (fragment ("js.function_declaration" (str "function") "*1") "*2")
+)
+
+(match_expand
+  (fragment ("py.identifier" "_val_") "*")
+  (fragment ("js.identifier" "_val1_") "*1")
+)
+
+(match_expand
+  (fragment ("py.parameters" "*") "*")
+  (fragment ("js.formal_parameters" "*1") "*2")
+)
+
+(match_expand
+  (fragment ("py.block" "*") "*")
+  (fragment ("js.statement_block" "*1") "*2")
+)
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;; rule(s) that we cannot learn
+(match_expand 
+  (fragment ("py.type" ".") "*")
+  (fragment  "*2")
+)
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;; tricky rules to learn
+; COMMENT (IGNORE)
+(match_expand
+  (fragment ("py.comment" "_val_") "*")
+  (fragment "*1")
+)
+
+; from X import * (IGNORE)
+(match_expand
+  (fragment ("py.import_from_statement" (str "from") ("py.dotted_name" ("py.identifier" "_val_")) (str "import") ("py.wildcard_import" (str "*"))) "*")
+  (fragment "*1")
+)
+
+; from X import Y (IGNORE)
+(match_expand
+  (fragment ("py.import_from_statement" (str "from") ("py.dotted_name" ("py.identifier" "_val_")) (str "import") ("py.dotted_name" ("py.identifier" "_val_"))) "*")
+  (fragment "*1")
+)
+
+; import X (IGNORE)
+(match_expand
+  (fragment ("py.import_statement" (str "import") ("py.dotted_name" ("py.identifier" "_val_"))) "*")
+  (fragment "*1")
+)
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;; will handle later
+(match_expand
+  (fragment ("py.true") "*")
+  (fragment ("js.true") "*1"))
+
+(match_expand
+  (fragment ("py.false") "*")
+  (fragment ("js.false") "*1"))
+
+(match_expand
+  (fragment ("py.integer" "_val_") "*")
+  (fragment ("js.number" "_val1_") "*1"))
+
+(match_expand
+  (fragment ("py.float" "_val_") "*")
+  (fragment ("js.number" "_val1_") "*1"))
+
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "float")) ("py.argument_list" (str "(") ("py.string" ("py.string_content" (str "inf"))) (str ")"))) "*")
+  (fragment ("js.identifier" (val "Infinity")) "*1")
+)

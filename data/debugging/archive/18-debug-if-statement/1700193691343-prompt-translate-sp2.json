@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You are a world-class software engineer.\n\nYour task is to generate syntactically valid programs in multiple languages as requested."
+  },
+  {
+    "role": "user",
+    "content": "The following Python program\n```Python\nnum = x - y\n```\ncan be translated to the following semantically equivalent JavaScript program\n```JavaScript\nlet num = x - y;\n```\n\nTranslate the following Python program\n```Python\nnum = var1 - var2\n```\nto a semantically equivalent JavaScript program such that its translation is similar to\n```JavaScript\nlet num = x - y;\n```"
+  }
+]

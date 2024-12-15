@@ -1,0 +1,38 @@
+{
+  "translation_pairs": [
+    [
+      {
+        "source": "num = x - y",
+        "target": "let num = x - y;"
+      },
+      {
+        "source": "num = var1 - var2",
+        "target": "let num = var1 - var2;"
+      }
+    ],
+    [
+      {
+        "source": "num = x - y",
+        "target": "var num = x - y;"
+      },
+      {
+        "source": "num = var1 - var2",
+        "target": "var num = var1 - var2;"
+      }
+    ],
+    [
+      {
+        "source": "num = x - y",
+        "target": "const num = x - y;"
+      },
+      {
+        "source": "num = var1 - var2",
+        "target": "const num = var1 - var2;"
+      }
+    ]
+  ],
+  "templatized_nodes_replace_dws_values": [
+    false,
+    false
+  ]
+}

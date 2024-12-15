@@ -54,51 +54,6 @@ async function parseAsync(text, language) {
 }
 
 /*
-Post data from frontend to backed for post-processing LLM generated simplified template.
-*/
-async function postProcessSimplifiedTemplatesOnBackendAsync(data) {
-  let resultStr = await postAsync(SERVER_DUOGLOT_PREFIX, "/postprocess-simplified-templates", data);
-  let resultData = JSON.parse(resultStr);
-  return resultData;
-}
-
-/*
-Post data from frontend to backed for post-processing LLM generated programs.
-*/
-async function postProcessGeneratedCodeBlocksOnBackendAsync(data) {
-  let resultStr = await postAsync(SERVER_DUOGLOT_PREFIX, "/postprocess-llm-gen-code", data);
-  let resultData = JSON.parse(resultStr);
-  return resultData;
-}
-
-/*
-Post data from frontend to backed for post-processing program pairs.
-*/
-async function postProcessProgramPairsOnBackendAsync(data) {
-  let resultStr = await postAsync(SERVER_DUOGLOT_PREFIX, "/postprocess-program-pairs", data);
-  let resultData = JSON.parse(resultStr);
-  return resultData;
-}
-
-/*
-Post data from frontend to backed for post-processing a translation pair.
-*/
-async function postProcessTranslationPairOnBackendAsync(data) {
-  let resultStr = await postAsync(SERVER_DUOGLOT_PREFIX, "/postprocess-translation-pair", data);
-  let resultData = JSON.parse(resultStr);
-  return resultData;
-}
-
-/*
-Post-process program pairs and get translation pairs from them.
-*/
-async function getTranslationPairsFromProgramPairsOnBackendAsync(data) {
-  let resultStr = await postAsync(SERVER_DUOGLOT_PREFIX, "/get-translation-pairs", data);
-  let resultData = JSON.parse(resultStr);
-  return resultData;
-}
-
-/*
 Post-process patterns of generated translation rules.
 */
 async function postProcessTranslationRuleOnBackendAsync(data) {
@@ -108,43 +63,60 @@ async function postProcessTranslationRuleOnBackendAsync(data) {
 }
 
 // ~~~ translate function entry point
-async function translateAsync(src_code, srclang, tarlang, transprog, choices_type, choices_list, auto_backward = true) {
-  if (typeof choices_type !== "string") {
-    throw Error("Expecting choices_type to be string");
-  }
-  if (!Array.isArray(choices_list)) {
-    throw Error("Expecting choices_list to be array.");
-  }
+async function translateAsync(
+  sourceCode,
+  sourceLang,
+  targetLang,
+  translationRules,
+  choiceType,
+  choicesList,
+  autobackEnabled,
+  kwargs  // contains additional keyword arguments to the backend
+) {
+
+  // sanity check
+  if (typeof choiceType !== "string") throw Error("Expecting choices_type to be string");
+  if (!Array.isArray(choicesList)) throw Error("Expecting choices_list to be array.");
+
   let postdata = {
-    source_code: src_code,
-    source_language: srclang,
-    target_language: tarlang,
-    trans_program_str: transprog,
+    source_code: sourceCode,
+    source_lang: sourceLang,
+    target_lang: targetLang,
+    translation_rules: translationRules,
     choices: {
-      type: choices_type,
-      choices_list: choices_list,
+      type: choiceType,
+      choices_list: choicesList,
     },
-    auto_backward: auto_backward,
+    autoback_enabled: autobackEnabled,
+    kwargs: kwargs
   };
+
   let resultStr = await postAsync(SERVER_DUOGLOT_PREFIX, "/translate", postdata);
-  let parseResult = JSON.parse(resultStr);
+  let translationResult = JSON.parse(resultStr);
 
   // the interpretations of the following objects are taken from backend/server_trans.py::translate()
-  // {"src_ast": src_ast, "src_ann": src_ann}
-  let srcparse_result = parseResult["parse"];
+  let srcParseResult = translationResult["parse"];  // {"src_ast": src_ast, "src_ann": src_ann}
+  let timespan = translationResult["timespan"];
+  let timespanPretty = translationResult["timespan_p"];
 
-  // {"ast": tar_ast, "code": code, "map_to_exid": map_to_exid}
-  let trans_result = parseResult["result"];
+  let tarTransResult = translationResult["result"];  // {"ast": tar_ast, "code": code, "map_to_exid": map_to_exid}
+  let errorDict = translationResult["error_info"];  // dict containing `msg`, and `problematic_node_type` if any
 
-  // dict containing `msg`, and `problematic_node_type` if any
-  let error_info = parseResult["error_info"];
+  let debugHistory = translationResult["dbg_history"];
+  let translatorDebugInfo = translationResult["translator_dbg_info"];
 
-  let dbg_hisory = parseResult["dbg_history"];
-  let translator_dbg_info = parseResult["translator_dbg_info"];
-  let timespan = parseResult["timespan"];
-  let timespan_p = parseResult["timespan_p"];
+  let pirelData = translationResult["pirel"];
 
-  return [srcparse_result, trans_result, error_info, dbg_hisory, translator_dbg_info, timespan, timespan_p];
+  return [
+    srcParseResult,
+    tarTransResult,
+    errorDict,
+    debugHistory,
+    translatorDebugInfo,
+    timespan,
+    timespanPretty,
+    pirelData
+  ];
 }
 
 async function parseRulesAsync(transprog) {

@@ -5,7 +5,7 @@ const assert = require('assert')
 const babylon = require('babylon')
 const esprima = require('esprima')
 const {Document} = require('tree-sitter-cli/node_modules/tree-sitter')
-const jsLanguage = require('../bindings/node')
+const jsLanguage = require('..')
 
 const ITERATION_COUNT = 50
 

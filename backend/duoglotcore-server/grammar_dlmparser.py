@@ -1,7 +1,7 @@
 import cython
 import sys
-if cython.compiled: print("[grammar_dlmparser] Compiled.", file=sys.stderr)
-else: print("[grammar_dlmparser] Interpreted.", file=sys.stderr)
+# if cython.compiled: print("[grammar_dlmparser] Compiled.", file=sys.stderr)
+# else: print("[grammar_dlmparser] Interpreted.", file=sys.stderr)
 ####################################
 
 import grammar
@@ -9,14 +9,6 @@ import util_traverse
 import copy
 import consts
 import json
-
-
-# ~~~ for debugging, can be removed later
-import debugpy
-def _breakpoint():
-  debugpy.listen(('0.0.0.0', 4444))
-  debugpy.wait_for_client()
-  debugpy.breakpoint()
 
 
 def _get_node_ids_from_range_cursor(range_cursor):

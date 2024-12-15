@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-8LkKCk9PkZ4D06AJFQcgN1S0fQpJJ",
+  "object": "chat.completion",
+  "created": 1700193652,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1. Filled with identifiers:\n```python\nnum = x - y\n```\n2. Filled with literals:\n```python\nnum = 5 - 3\n```\n3. Filled with function calls:\n```python\nnum = max(2,3) - min(2,3)\n```\n4. Filled with list elements:\n```python\nnum = lst[0] - lst[1]\n```\n5. Filled with dictionary values:\n```python\nnum = dict['key1'] - dict['key2']\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 1,
+      "message": {
+        "role": "assistant",
+        "content": "Variant where holes are filled with identifiers:\n```python\nnum = x - y\n```\n\nVariant where holes are filled with literals:\n```python\nnum = 10 - 5\n```\n\nVariant where holes are filled with function calls:\n```python\nnum = max(10, 20) - min(3, 7)\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 2,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nnum1 = 10 - 5\n```\n\n```python\nnum2 = max_val - min_val\n```\n\n```python\nnum3 = 100 - 50\n```\n\n```python\nnum4 = num_a - num_b\n```\n\n```python\nnum5 = sum(nums) - len(nums)\n```\n\n```python\nnum6 = lst[0] - lst[1]\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 3,
+      "message": {
+        "role": "assistant",
+        "content": "Variant 1:\n```python\nnum = x - y\n```\n\nVariant 2:\n```python\nnum = 10 - 5\n```\n\nVariant 3:\n```python\nnum = len(list1) - len(list2)\n```\n\nVariant 4:\n```python\nnum = dict1.get('key1') - dict2.get('key2')\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 4,
+      "message": {
+        "role": "assistant",
+        "content": "1. Filled with identifiers:\n```python\nnum = var1 - var2\n```\n\n2. Filled with literals:\n```python\nnum = 5 - 2\n```\n\n3. Filled with function calls:\n```python\nnum = func1() - func2()\n```\n\n4. Filled with list elements:\n```python\nnum = list1[1] - list2[2]\n```\n\n5. Filled with dictionary values:\n```python\nnum = dict1['key1'] - dict2['key2']\n```\n\n6. Filled with object attributes:\n```python\nnum = obj1.attr1 - obj2.attr2\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 540,
+    "completion_tokens": 489,
+    "total_tokens": 1029
+  }
+}

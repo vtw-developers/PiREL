@@ -1,0 +1,5259 @@
+{
+  "generated_codes_stats": [
+    [
+      0,
+      {
+        "generated_code": "if condition:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      1,
+      {
+        "generated_code": "if True:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      2,
+      {
+        "generated_code": "if 1:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      3,
+      {
+        "generated_code": "if my_variable:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      4,
+      {
+        "generated_code": "if my_function():\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      5,
+      {
+        "generated_code": "if condition:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      6,
+      {
+        "generated_code": "if True:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      7,
+      {
+        "generated_code": "if 5 > 3:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      8,
+      {
+        "generated_code": "if function_call():\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      9,
+      {
+        "generated_code": "if condition:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      10,
+      {
+        "generated_code": "if True:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      11,
+      {
+        "generated_code": "if len(list_var) > 0:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      12,
+      {
+        "generated_code": "if my_func() == \"success\":\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      13,
+      {
+        "generated_code": "if condition:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      14,
+      {
+        "generated_code": "if True:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      15,
+      {
+        "generated_code": "if function_call():\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      16,
+      {
+        "generated_code": "if len(list_val) > 0:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      17,
+      {
+        "generated_code": "if condition:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      18,
+      {
+        "generated_code": "if True:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      19,
+      {
+        "generated_code": "if check_condition():\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ],
+    [
+      20,
+      {
+        "generated_code": "if x > 5:\n    secret_fun_4071()",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "if num in helper:\n    return [helper[num], i]"
+      }
+    ]
+  ],
+  "min_penalty": 12.2,
+  "success": true,
+  "two_source_programs_stats": [
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if 1:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if my_variable:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if my_function():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if 5 > 3:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if 1:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if my_variable:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if my_function():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if 5 > 3:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if my_variable:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if my_function():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if 5 > 3:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if my_function():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if 5 > 3:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if 5 > 3:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if 5 > 3:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if 5 > 3:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 20,
+      "no_repeating_tokens": true,
+      "pair_penalty": 4020,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "nonterminal_dotstar",
+          null,
+          null
+        ],
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          true,
+          false,
+          false
+        ],
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 32.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "nonterminal_dotstar",
+          "terminal_val",
+          "nonterminal_dotstar"
+        ],
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          true,
+          false,
+          true
+        ],
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 20,
+      "no_repeating_tokens": true,
+      "pair_penalty": 4020,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "nonterminal_dotstar",
+          null,
+          null
+        ],
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          true,
+          false,
+          false
+        ],
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 20,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3220,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "nonterminal_dotstar",
+          null,
+          null
+        ],
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          true,
+          false,
+          false
+        ],
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 201,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          null,
+          "terminal_val",
+          "nonterminal_dotstar"
+        ],
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          true
+        ],
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": true,
+      "pair_penalty": 24100,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          null,
+          null,
+          null
+        ],
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          false
+        ],
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 20,
+      "no_repeating_tokens": true,
+      "pair_penalty": 4020,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "nonterminal_dotstar",
+          null,
+          null
+        ],
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          true,
+          false,
+          false
+        ],
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 201,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          null,
+          "terminal_val",
+          "nonterminal_dotstar"
+        ],
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          false,
+          false,
+          true
+        ],
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 32.2,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "nonterminal_dotstar",
+          "terminal_val",
+          "nonterminal_dotstar"
+        ],
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          true,
+          false,
+          true
+        ],
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 1,
+      "no_repeating_tokens": false,
+      "pair_penalty": 2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        null,
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 20,
+      "no_repeating_tokens": true,
+      "pair_penalty": 4020,
+      "program1": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "nonterminal_dotstar",
+          null,
+          null
+        ],
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          true,
+          false,
+          false
+        ],
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": false,
+      "pair_penalty": 4.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if check_condition():\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    }
+  ],
+  "valid_tsp_list": [
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if 5 > 3:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if 5 > 3:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if 5 > 3:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if 5 > 3:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if 5 > 3:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if 5 > 3:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if 5 > 3:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 12.2,
+      "program1": "if check_condition():\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if 1:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if my_variable:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if my_function():\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if function_call():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_var) > 0:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if condition:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if True:\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if function_call():\n    secret_fun_4071()",
+      "program2": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "program2": "if condition:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "program2": "if True:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0.25,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 16.2,
+      "program1": "if len(list_val) > 0:\n    secret_fun_4071()",
+      "program2": "if check_condition():\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        "nonterminal_dotstar",
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        true,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 32.2,
+      "program1": "if 5 > 3:\n    secret_fun_4071()",
+      "program2": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "nonterminal_dotstar",
+          "terminal_val",
+          "nonterminal_dotstar"
+        ],
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          true,
+          false,
+          true
+        ],
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.2,
+      "no_repeating_tokens": true,
+      "pair_penalty": 32.2,
+      "program1": "if my_func() == \"success\":\n    secret_fun_4071()",
+      "program2": "if x > 5:\n    secret_fun_4071()",
+      "ratio_template_nodes_width_1": 0,
+      "templatized_nodes_match_types": [
+        [
+          "nonterminal_dotstar",
+          "terminal_val",
+          "nonterminal_dotstar"
+        ],
+        "terminal_exact_secret"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        [
+          true,
+          false,
+          true
+        ],
+        false
+      ]
+    }
+  ]
+}

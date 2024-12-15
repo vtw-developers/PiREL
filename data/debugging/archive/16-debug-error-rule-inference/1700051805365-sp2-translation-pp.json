@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "translation_pairs": [
+    [
+      {
+        "source": "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+        "target": "my_list.forEach((val, idx) => {\n    secret_fun_4071();\n});"
+      },
+      {
+        "source": "for i, item in enumerate(numbers):\n    secret_fun_4071()",
+        "target": "numbers.forEach((item, i) => {\n    secret_fun_4071();\n});"
+      }
+    ]
+  ]
+}

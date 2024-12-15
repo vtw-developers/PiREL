@@ -23,6 +23,23 @@ utils_ns.sleep = async function (msDuration) {
   await new Promise((r) => setTimeout(r, msDuration));
 }
 
+utils_ns.getCurrentTimeStr = function () {
+  const now = new Date();
+  let timeStr = "";
+  timeStr += ("0" + (now.getMonth() + 1)).slice(-2);
+  timeStr += "-";
+  timeStr += ("0" + now.getDate()).slice(-2);
+  timeStr += "-";
+  timeStr += ("0" + now.getHours()).slice(-2);
+  timeStr += "-";
+  timeStr += ("0" + now.getMinutes()).slice(-2);
+  timeStr += "-";
+  timeStr += ("0" + now.getSeconds()).slice(-2);
+  timeStr += ".";
+  timeStr += ("00" + now.getMilliseconds()).slice(-3) + "000";
+  return timeStr;
+}
+
 // ==============================================================================
 // ================= FILE I/O ===================================================
 // ==============================================================================
@@ -34,8 +51,7 @@ utils_ns.sleep = async function (msDuration) {
  * PRE1: relDirectory exists
 */
 utils_ns.writeJsonWithTimestamp = async function (data, fileName, relDirectory) {
-  const now = Date.now();
-  await saveAnyTextfileAsync(relDirectory + `/${now}-${fileName}.json`, JSON.stringify(data));
+  await saveAnyTextfileAsync(relDirectory + `/${utils_ns.getCurrentTimeStr()}-${fileName}.json`, JSON.stringify(data));
 }
 
 /**
@@ -45,8 +61,7 @@ utils_ns.writeJsonWithTimestamp = async function (data, fileName, relDirectory) 
  * PRE1: relDirectory exists
 */
 utils_ns.writeWithTimestamp = async function (text, fileNameWithExtension, relDirectory) {
-  const now = Date.now();
-  await saveAnyTextfileAsync(relDirectory + `/${now}-${fileNameWithExtension}`, text);
+  await saveAnyTextfileAsync(relDirectory + `/${utils_ns.getCurrentTimeStr()}-${fileNameWithExtension}`, text);
 }
 
 /**
@@ -55,6 +70,15 @@ utils_ns.writeWithTimestamp = async function (text, fileNameWithExtension, relDi
 utils_ns.readFileFromDataDir = async function(relFilePath) {
   let fileContents = await errorWrapperPromiseAsync(anyfileAsync(relFilePath), error404Nullify);
   return fileContents;
+}
+
+/**
+ * relFilePath - path to file relative to `duoglot-root/data/`
+*/
+utils_ns.readJsonFromDataDir = async function(relFilePath) {
+  let fileContents = await errorWrapperPromiseAsync(anyfileAsync(relFilePath), error404Nullify);
+  let contentDict = JSON.parse(fileContents);
+  return contentDict;
 }
 
 /**

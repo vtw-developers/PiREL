@@ -1,0 +1,6218 @@
+{
+  "generated_codes_stats": [
+    [
+      0,
+      {
+        "generated_code": "2. Literals:",
+        "has_parse_error": true,
+        "is_type_isomorphic_to_template": null,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      1,
+      {
+        "generated_code": "3. Anything else:",
+        "has_parse_error": true,
+        "is_type_isomorphic_to_template": null,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      2,
+      {
+        "generated_code": "4. Different language elements:",
+        "has_parse_error": true,
+        "is_type_isomorphic_to_template": null,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      3,
+      {
+        "generated_code": "var name = age;",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      4,
+      {
+        "generated_code": "var one = 1;",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      5,
+      {
+        "generated_code": "var result = sum();",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      6,
+      {
+        "generated_code": "var my_list = [1, 2, 3];",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      7,
+      {
+        "generated_code": "var my_dict = {\"key\": \"value\"};",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      8,
+      {
+        "generated_code": "var myVariable = anotherVariable;",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      9,
+      {
+        "generated_code": "var myNumber = 5;",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      10,
+      {
+        "generated_code": "var result = calculateSum();",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      11,
+      {
+        "generated_code": "var myList = [1, 2, 3];",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      12,
+      {
+        "generated_code": "var myDict = {\"key\": \"value\"};",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      13,
+      {
+        "generated_code": "var myVariable = anotherVariable;",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      14,
+      {
+        "generated_code": "var num = 5;",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      15,
+      {
+        "generated_code": "var result = myFunction();",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      16,
+      {
+        "generated_code": "var myList = [1, 2, 3];",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      17,
+      {
+        "generated_code": "var myDict = {\"key\": \"value\"};",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      18,
+      {
+        "generated_code": "var myVariable = anotherVariable;",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      19,
+      {
+        "generated_code": "var number = 5;",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      20,
+      {
+        "generated_code": "var result = myFunction();",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      21,
+      {
+        "generated_code": "var myList = [1, 2, 3, 4, 5];",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ],
+    [
+      22,
+      {
+        "generated_code": "var myDict = {'key': 'value'};",
+        "has_parse_error": false,
+        "is_type_isomorphic_to_template": true,
+        "template_origin": "var total = 0;"
+      }
+    ]
+  ],
+  "min_penalty": 2,
+  "success": true,
+  "two_source_programs_stats": [
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var one = 1;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var result = sum();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var name = age;",
+      "program2": "var my_list = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var name = age;",
+      "program2": "var my_dict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": true,
+      "pair_penalty": 25,
+      "program1": "var name = age;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var myNumber = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var result = calculateSum();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var name = age;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var name = age;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": true,
+      "pair_penalty": 25,
+      "program1": "var name = age;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var name = age;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var name = age;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": true,
+      "pair_penalty": 25,
+      "program1": "var name = age;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var name = age;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var name = age;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var one = 1;",
+      "program2": "var result = sum();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var one = 1;",
+      "program2": "var my_list = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var one = 1;",
+      "program2": "var my_dict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var one = 1;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2,
+      "program1": "var one = 1;",
+      "program2": "var myNumber = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "terminal_val"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var one = 1;",
+      "program2": "var result = calculateSum();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var one = 1;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var one = 1;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var one = 1;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2,
+      "program1": "var one = 1;",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "terminal_val"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var one = 1;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var one = 1;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var one = 1;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var one = 1;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2,
+      "program1": "var one = 1;",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "terminal_val"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var one = 1;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var one = 1;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var one = 1;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var result = sum();",
+      "program2": "var my_list = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = sum();",
+      "program2": "var my_dict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = sum();",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = sum();",
+      "program2": "var myNumber = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": false,
+      "pair_penalty": 500,
+      "program1": "var result = sum();",
+      "program2": "var result = calculateSum();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var result = sum();",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = sum();",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = sum();",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = sum();",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": false,
+      "pair_penalty": 500,
+      "program1": "var result = sum();",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var result = sum();",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = sum();",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = sum();",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = sum();",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": false,
+      "pair_penalty": 500,
+      "program1": "var result = sum();",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var result = sum();",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = sum();",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var my_dict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myNumber = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var result = calculateSum();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": true,
+      "pair_penalty": 200,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": true,
+      "pair_penalty": 200,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": true,
+      "pair_penalty": 340,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myNumber = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var result = calculateSum();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": true,
+      "pair_penalty": 100,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": true,
+      "pair_penalty": 100,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 19604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": true,
+      "pair_penalty": 100,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myNumber = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var result = calculateSum();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": false,
+      "pair_penalty": 500,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": false,
+      "pair_penalty": 500,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myNumber = 5;",
+      "program2": "var result = calculateSum();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myNumber = 5;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myNumber = 5;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myNumber = 5;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": false,
+      "pair_penalty": 40,
+      "program1": "var myNumber = 5;",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myNumber = 5;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myNumber = 5;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myNumber = 5;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myNumber = 5;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": false,
+      "pair_penalty": 40,
+      "program1": "var myNumber = 5;",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myNumber = 5;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var myNumber = 5;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myNumber = 5;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var result = calculateSum();",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = calculateSum();",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = calculateSum();",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = calculateSum();",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": false,
+      "pair_penalty": 500,
+      "program1": "var result = calculateSum();",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var result = calculateSum();",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = calculateSum();",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = calculateSum();",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = calculateSum();",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": false,
+      "pair_penalty": 500,
+      "program1": "var result = calculateSum();",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var result = calculateSum();",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = calculateSum();",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": true,
+      "pair_penalty": 4000,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6800,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2000,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 19604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2000,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": false,
+      "pair_penalty": 500,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var num = 5;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var num = 5;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var num = 5;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var num = 5;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 5,
+      "no_repeating_tokens": false,
+      "pair_penalty": 40,
+      "program1": "var num = 5;",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var num = 5;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var num = 5;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var num = 5;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var result = myFunction();",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = myFunction();",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = myFunction();",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = myFunction();",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": false,
+      "pair_penalty": 500,
+      "program1": "var result = myFunction();",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var result = myFunction();",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = myFunction();",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6800,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 19604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": false,
+      "match_penalty": 100,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2000,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        null,
+        null
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var number = 5;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var number = 5;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var number = 5;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var result = myFunction();",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = myFunction();",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 19604,
+      "program1": "var myList = [1, 2, 3, 4, 5];",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    }
+  ],
+  "valid_tsp_list": [
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2,
+      "program1": "var one = 1;",
+      "program2": "var myNumber = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "terminal_val"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2,
+      "program1": "var one = 1;",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "terminal_val"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 0.25,
+      "no_repeating_tokens": true,
+      "pair_penalty": 2,
+      "program1": "var one = 1;",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "terminal_val"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        false
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var one = 1;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var result = sum();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var myNumber = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var result = calculateSum();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var name = age;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var one = 1;",
+      "program2": "var result = sum();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var one = 1;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var one = 1;",
+      "program2": "var result = calculateSum();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var one = 1;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var one = 1;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var one = 1;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var one = 1;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = sum();",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = sum();",
+      "program2": "var myNumber = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = sum();",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = sum();",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = sum();",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = sum();",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myNumber = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var result = calculateSum();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myNumber = 5;",
+      "program2": "var result = calculateSum();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myNumber = 5;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myNumber = 5;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myNumber = 5;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myNumber = 5;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = calculateSum();",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = calculateSum();",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = calculateSum();",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = calculateSum();",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var num = 5;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var num = 5;",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var num = 5;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = myFunction();",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var result = myFunction();",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 1,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 404,
+      "program1": "var number = 5;",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var name = age;",
+      "program2": "var my_dict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var name = age;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var name = age;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var name = age;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var one = 1;",
+      "program2": "var my_dict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var one = 1;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var one = 1;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var one = 1;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = sum();",
+      "program2": "var my_dict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = sum();",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = sum();",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = sum();",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myNumber = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var result = calculateSum();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myNumber = 5;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myNumber = 5;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myNumber = 5;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = calculateSum();",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = calculateSum();",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = calculateSum();",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var num = 5;",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var num = 5;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = myFunction();",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = myFunction();",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var number = 5;",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 3604,
+      "program1": "var result = myFunction();",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var name = age;",
+      "program2": "var my_list = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var name = age;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var name = age;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var one = 1;",
+      "program2": "var my_list = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var one = 1;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var one = 1;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var result = sum();",
+      "program2": "var my_list = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var result = sum();",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var result = sum();",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myNumber = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var result = calculateSum();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myNumber = 5;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myNumber = 5;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var result = calculateSum();",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var result = calculateSum();",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var num = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var num = 5;",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var result = myFunction();",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myVariable = anotherVariable;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var number = 5;",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 6404,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var result = myFunction();",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var my_dict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var my_list = [1, 2, 3];",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myList = [1, 2, 3];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myDict = {\"key\": \"value\"};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 10004,
+      "program1": "var myList = [1, 2, 3];",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var name = age;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var one = 1;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var result = sum();",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var myNumber = 5;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var result = calculateSum();",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var num = 5;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var result = myFunction();",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var myVariable = anotherVariable;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var number = 5;",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.75,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 14404,
+      "program1": "var result = myFunction();",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 19604,
+      "program1": "var my_dict = {\"key\": \"value\"};",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 19604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 19604,
+      "program1": "var myDict = {\"key\": \"value\"};",
+      "program2": "var myList = [1, 2, 3, 4, 5];",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    },
+    {
+      "all_templatized_nodes_match": true,
+      "match_penalty": 1,
+      "no_repeating_tokens": true,
+      "pair_penalty": 19604,
+      "program1": "var myList = [1, 2, 3, 4, 5];",
+      "program2": "var myDict = {'key': 'value'};",
+      "ratio_template_nodes_width_1": 0.5,
+      "templatized_nodes_match_types": [
+        "terminal_val",
+        "nonterminal_dotstar"
+      ],
+      "templatized_nodes_replace_dot_w_star_flags": [
+        false,
+        true
+      ]
+    }
+  ]
+}

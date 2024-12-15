@@ -1,0 +1,42 @@
+[
+  [
+    "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+    "for i, item in enumerate(numbers):\n    secret_fun_4071()"
+  ],
+  [
+    "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+    "for i, value in enumerate(nums):\n    secret_fun_4071()"
+  ],
+  [
+    "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+    "for i, item in enumerate(numbers):\n    secret_fun_4071()"
+  ],
+  [
+    "for idx, val in enumerate(my_list):\n    secret_fun_4071()",
+    "for i, value in enumerate(nums):\n    secret_fun_4071()"
+  ],
+  [
+    "for i, val in enumerate(nums):\n    secret_fun_4071()",
+    "for _ in enumerate(\"string\"):\n    secret_fun_4071()"
+  ],
+  [
+    "for i, val in enumerate(nums):\n    secret_fun_4071()",
+    "for _ in enumerate(\"Hello\"):\n    secret_fun_4071()"
+  ],
+  [
+    "for _ in enumerate(\"string\"):\n    secret_fun_4071()",
+    "for idx, val in enumerate(my_list):\n    secret_fun_4071()"
+  ],
+  [
+    "for _ in enumerate(\"string\"):\n    secret_fun_4071()",
+    "for idx, val in enumerate(my_list):\n    secret_fun_4071()"
+  ],
+  [
+    "for _ in enumerate(\"string\"):\n    secret_fun_4071()",
+    "for i, item in enumerate(numbers):\n    secret_fun_4071()"
+  ],
+  [
+    "for _ in enumerate(\"string\"):\n    secret_fun_4071()",
+    "for i, item in enumerate(my_list):\n    secret_fun_4071()"
+  ]
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return",
+    "generated_code": "def f_gold(data: str, target: int) -> int:\n    return",
+    "has_parse_error": false,
+    "is_type_isomorphic_to_template": true,
+    "templatized_nodes_depth_lte_2": true
+  },
+  {
+    "template_origin": "def f_gold(nums: List[int], target: int) -> int:\n    return",
+    "generated_code": "def f_gold(nums: list, target: int) -> int:\n    return",
+    "has_parse_error": false,
+    "is_type_isomorphic_to_template": true,
+    "templatized_nodes_depth_lte_2": true
+  }
+]

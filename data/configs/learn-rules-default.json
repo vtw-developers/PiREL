@@ -1,0 +1,7 @@
+{
+  "ruleset_dir": "duoglot/tests/trans_programs/py_js",
+  "start_ruleset": "_learned_rules",
+  "updated_ruleset_suffix": "pirel",
+  "save_updated_ruleset_to_start_ruleset_file": true,
+  "enable_pirel": true
+}

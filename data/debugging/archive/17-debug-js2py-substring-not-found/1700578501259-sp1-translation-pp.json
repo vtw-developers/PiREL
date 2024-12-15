@@ -1,0 +1,9 @@
+{
+  "good_program_pairs": [
+    {
+      "source": "var one = 1;",
+      "target": "one = 1"
+    }
+  ],
+  "success": true
+}

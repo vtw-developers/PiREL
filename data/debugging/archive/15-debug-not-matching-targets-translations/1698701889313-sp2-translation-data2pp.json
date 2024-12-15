@@ -1,0 +1,20 @@
+{
+  "sp1": "for count, item in enumerate(items):\n    if item == 'stop':\n        break",
+  "sp2": "for i, val in enumerate(range(10)):\n    print(f\"Index: {i}, Value: {val}\")",
+  "cand_translation_sp1": "for (let count = 0; count < items.length; count++) {\n    let item = items[count];\n    if (item === 'stop') {\n        break;\n    }\n}",
+  "raw_translations_sp2": [
+    "for (let i = 0; i < 10; i++) {\n    let val = i;\n    console.log(`Index: ${i}, Value: ${val}`);\n}"
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

@@ -4,4 +4,4 @@
 # except
 !/.gitignore
 !/Makefile
-!/format.sh
+!/format-json.sh

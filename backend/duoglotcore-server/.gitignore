@@ -2,13 +2,7 @@
 /*.so
 /*.html
 /*--old
+/.env.json
 
-## everything below was added by @satbek
-# generated artifacts (not important)
-/out/
-
-# temporary files
+# added by satbek
 /temporary*
-
-# json files formatter
-/format.sh

@@ -1,0 +1,18 @@
+{
+  "translation_pairs": [
+    [
+      {
+        "source": "var one = 1;",
+        "target": "one = 1"
+      },
+      {
+        "source": "var myNumber = 5;",
+        "target": "myNumber = 5"
+      }
+    ]
+  ],
+  "templatized_nodes_replace_dws_values": [
+    false,
+    false
+  ]
+}

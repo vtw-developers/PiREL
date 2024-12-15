@@ -1,6 +1,6 @@
 ## GeeksForGeeks
 
-All files inside `./standalone` that starts with `GFG_` in the filename are modified from https://github.com/facebookresearch/CodeGen/tree/main/data/transcoder_evaluation_gfg. The dataset is released under CC-BY-SA 2.0 ([License](LICENSE-geeksforgeeks)). Facebook Research is the owner of the dataset. 
+All files inside `./standalone` that starts with `GFG_` in the filename are modified from https://github.com/facebookresearch/CodeGen/tree/main/data/transcoder_evaluation_gfg. The dataset is released under CC-BY-SA 2.0 ([License](./LICENSE-geeksforgeeks)). Facebook Research is the owner of the dataset. 
 
 The files get modified to be used in this project. The modifications are: 
 - Removing comments in the code. 
@@ -11,7 +11,7 @@ The files get modified to be used in this project. The modifications are:
 
 https://github.com/doocs/leetcode
 
-The programs are released under CC-BY-SA-4.0 license ([License](LICENSE-leetcode)).
+The programs are released under CC-BY-SA-4.0 license ([License](./LICENSE-leetcode)).
 
 The programs are downloaded from here and modified to be used in this project. We add unit tests provided in the documentations of the problems to the tests of the solutions.
 Only the programs that are standalone are filtered as the case study programs.

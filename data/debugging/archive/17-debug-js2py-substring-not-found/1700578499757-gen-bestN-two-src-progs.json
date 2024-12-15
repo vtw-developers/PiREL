@@ -1,0 +1,42 @@
+[
+  [
+    "var one = 1;",
+    "var myNumber = 5;"
+  ],
+  [
+    "var one = 1;",
+    "var num = 5;"
+  ],
+  [
+    "var one = 1;",
+    "var number = 5;"
+  ],
+  [
+    "var one = 1;",
+    "var a = 5;"
+  ],
+  [
+    "var one = 1;",
+    "var num = 5;"
+  ],
+  [
+    "var one = 1;",
+    "var a = 5;"
+  ],
+  [
+    "var one = 1;",
+    "var myNumber = 10;"
+  ],
+  [
+    "var num = 5;",
+    "var myNumber = 10;"
+  ],
+  [
+    "var number = 5;",
+    "var myNumber = 10;"
+  ],
+  [
+    "var a = 5;",
+    "var myNumber = 10;"
+  ]
+]

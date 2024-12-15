@@ -1,0 +1,42 @@
+[
+  [
+    "for a, b in enumerate({'name': 'John', 'age': 30}):\n    return a, b",
+    "for count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")"
+  ],
+  [
+    "for a, b in enumerate({'name': 'John', 'age': 30}):\n    return a, b",
+    "for i, val in enumerate(range(10)):\n    print(f\"Index: {i}, Value: {val}\")"
+  ],
+  [
+    "for a, b in enumerate({'name': 'John', 'age': 30}):\n    return a, b",
+    "for i, val in enumerate([x for x in range(10)]):\n    print(f\"Index: {i}, Value: {val}\")"
+  ],
+  [
+    "for i, val in enumerate(nums):\n    if i > 5:\n        break",
+    "for count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")"
+  ],
+  [
+    "for n, char in enumerate(\"Hello\"):\n    if char == \"l\":\n        continue",
+    "for i, val in enumerate(range(10)):\n    print(f\"Index: {i}, Value: {val}\")"
+  ],
+  [
+    "for count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")",
+    "for num, letter in enumerate('python'):\n    if letter == 'o':\n        continue"
+  ],
+  [
+    "for count, char in enumerate(str(\"Hello World\")):\n    print(f\"{count}: {char}\")",
+    "for idx, val in enumerate(nums):\n    if val > 5:\n        break"
+  ],
+  [
+    "for count, item in enumerate(items):\n    if item == 'stop':\n        break",
+    "for i, val in enumerate(range(10)):\n    print(f\"Index: {i}, Value: {val}\")"
+  ],
+  [
+    "for num, letter in enumerate('python'):\n    if letter == 'o':\n        continue",
+    "for i, val in enumerate(range(10)):\n    print(f\"Index: {i}, Value: {val}\")"
+  ],
+  [
+    "for idx, char in enumerate('hello'):\n    if char == 'e':\n        return idx",
+    "for i, val in enumerate(range(10)):\n    print(f\"Index: {i}, Value: {val}\")"
+  ]
+]

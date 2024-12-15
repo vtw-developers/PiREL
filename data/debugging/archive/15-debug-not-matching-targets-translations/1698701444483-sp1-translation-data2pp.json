@@ -1,0 +1,28 @@
+{
+  "program_pairs": [
+    {
+      "source": "for a, b in enumerate({'name': 'John', 'age': 30}):\n    return a, b",
+      "target": "let obj = {'name': 'John', 'age': 30};\nfor (let key in obj) {\n    return [key, obj[key]];\n}"
+    },
+    {
+      "source": "for a, b in enumerate({'name': 'John', 'age': 30}):\n    return a, b",
+      "target": "let dict = {'name': 'John', 'age': 30};\nObject.keys(dict).forEach((key, index) => {\n    return [index, key];\n});"
+    },
+    {
+      "source": "for a, b in enumerate({'name': 'John', 'age': 30}):\n    return a, b",
+      "target": "let dictionary = {'name': 'John', 'age': 30};\nlet keys = Object.keys(dictionary);\nfor (let i = 0; i < keys.length; i++) {\n    return [i, keys[i]];\n}"
+    }
+  ],
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ]
+}

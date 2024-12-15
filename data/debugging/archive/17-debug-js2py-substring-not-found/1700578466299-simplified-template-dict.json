@@ -1,0 +1,33 @@
+{
+  "template_id": 0,
+  "template_context": "var total = 0;",
+  "template_context_str_repl": "var __ = __;",
+  "template_origin": "var total = 0;",
+  "templatized_node_ids": {
+    "3": [
+      1,
+      0
+    ],
+    "4": [
+      1,
+      2
+    ]
+  },
+  "templatized_node_ids_context": {},
+  "context_node_type": "variable_declaration",
+  "is_valid_template": true,
+  "sub_templates": null,
+  "contexts": [
+    {
+      "source_context": {
+        "siblings": [],
+        "parents": []
+      },
+      "target_context": {
+        "siblings": [],
+        "parents": []
+      }
+    }
+  ],
+  "template": "var __ = __;"
+}

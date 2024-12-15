@@ -1,0 +1,73 @@
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("js.return_statement" (str "return") ("js.identifier" "_val_") (str ";")) "*")
+  (fragment ("py.expression_statement" ("py.yield" (str "yield") ("py.identifier" "_val1_"))) "*1")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("js.return_statement" (str "return") ("js.identifier" "_val_") (str ";")) "*")
+  (fragment ("py.return_statement" (str "return") ("py.identifier" "_val1_")) "*1")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("js.binary_expression" ("js.identifier" "_val_") (str "+") ("js.identifier" "_val_")) "*")
+  (fragment ("py.binary_operator" ("py.identifier" "_val1_") (str "+") ("py.identifier" "_val2_")) "*1")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("js.expression_statement" ("js.assignment_expression" ("js.identifier" "_val_") (str "=") "*") (str ";")) "*")
+  (fragment ("py.expression_statement" ("py.assignment" ("py.identifier" "_val1_") (str "=") "*1")) "*2")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("js.binary_expression" ("js.identifier" "_val_") (str "<=") ("js.identifier" "_val_")) "*")
+  (fragment ("py.comparison_operator" ("py.identifier" "_val1_") (str "<=") ("py.identifier" "_val2_")) "*1")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("js.while_statement" (str "while") ("js.parenthesized_expression" (str "(") "." (str ")")) ("js.statement_block" (str "{") "*" (str "}"))) "*")
+  (fragment ("py.while_statement" (str "while") ".1" (str ":") ("py.block" "*2")) "*3")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("js.variable_declaration" (str "var") ("js.variable_declarator" ("js.identifier" "_val_") (str "=") ("js.number" "_val_")) (str ";")) "*")
+  (fragment ("py.expression_statement" ("py.assignment" ("py.identifier" "_val1_") (str "=") ("py.integer" "_val2_"))) "*1")
+)
+
+
+(match_expand 
+  (fragment ("js.program" "*"))
+  (fragment ("py.module" "*1"))
+)
+
+(match_expand
+  (fragment ("js.function_declaration" (str "function") "*") "*")
+  (fragment ("py.function_definition" (str "def") "*1") "*2")
+)
+
+(match_expand
+  (fragment ("js.identifier" "_val_") "*")
+  (fragment ("py.identifier" "_val1_") "*1")
+)
+
+(match_expand
+  (fragment ("js.formal_parameters" "*") "*")
+  (fragment ("py.parameters" "*1") "*2")
+)
+
+(match_expand
+  (fragment ("js.statement_block" "*") "*")
+  (fragment ("py.block" "*1") "*2")
+)

@@ -1,0 +1,17 @@
+{
+  "good_program_pairs": [
+    {
+      "source": "num = x - y",
+      "target": "let num = x - y;"
+    },
+    {
+      "source": "num = x - y",
+      "target": "var num = x - y;"
+    },
+    {
+      "source": "num = x - y",
+      "target": "const num = x - y;"
+    }
+  ],
+  "success": true
+}

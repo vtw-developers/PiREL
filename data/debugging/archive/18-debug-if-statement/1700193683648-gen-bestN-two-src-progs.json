@@ -1,0 +1,42 @@
+[
+  [
+    "num = x - y",
+    "num = var1 - var2"
+  ],
+  [
+    "num = x - y",
+    "num = var1 - var2"
+  ],
+  [
+    "num = x - y",
+    "num = var1 - var2"
+  ],
+  [
+    "num = x - y",
+    "num = 5 - 3"
+  ],
+  [
+    "num = x - y",
+    "num = 10 - 5"
+  ],
+  [
+    "num = x - y",
+    "num = 10 - 5"
+  ],
+  [
+    "num = x - y",
+    "num = 5 - 2"
+  ],
+  [
+    "num = x - y",
+    "num = func1() - func2()"
+  ],
+  [
+    "num = x - y",
+    "num = 10 - 5"
+  ],
+  [
+    "num = x - y",
+    "num = 10 - 5"
+  ]
+]

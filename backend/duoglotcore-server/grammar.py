@@ -1,7 +1,7 @@
 import cython
 import sys
-if cython.compiled: print("[grammar] Compiled.", file=sys.stderr)
-else: print("[grammar] Interpreted.", file=sys.stderr)
+# if cython.compiled: print("[grammar] Compiled.", file=sys.stderr)
+# else: print("[grammar] Interpreted.", file=sys.stderr)
 ####################################
 
 import util_traverse
@@ -82,7 +82,7 @@ def grm_external_NT_pretty_string(grammar, external_state_id, external_NT):
 
 def _grm_preprocess_hack_py(grammar):
   # hack for py
-  print("# !!! Special hacks for python grammar. Add fake rules.")
+  # print("# !!! Special hacks for python grammar. Add fake rules.")
   assert "string_content" not in grammar["rules"]
   grammar["rules"]["string_content"] = {
     "type": "IMMEDIATE_TOKEN",
@@ -96,7 +96,7 @@ def _grm_preprocess_hack_py(grammar):
 
 def _grm_preprocess_hack_js(grammar):
   # hack for js
-  print("# !!! Special hacks for javascript grammar. Add fake rules.")
+  # print("# !!! Special hacks for javascript grammar. Add fake rules.")
   assert "template_chars" not in grammar["rules"]
   grammar["rules"]["template_chars"] = {
     "type": "IMMEDIATE_TOKEN",
@@ -128,7 +128,7 @@ def grm_preprocess(lang_prefix, grammar):
   }
   grammar["_prefix"] = lang_prefix
 
-  print(f"\n# grm_preprocess {lang_prefix} _external_symbols:", externals)
+  # print(f"\n# grm_preprocess {lang_prefix} _external_symbols:", externals)
 
   # 4 inner function 1
   def _transform_alias_subprod_rec_inner_fun(prod, aliased_name):
@@ -197,7 +197,7 @@ def grm_preprocess(lang_prefix, grammar):
   util_traverse.traverse_nested_list_and_dict(grammar["rules"], _find_transform_immediate_string_inner_fun)
 
   grammar["_aliased_symbols"] = all_aliased_symbols
-  print(f"# grm_preprocess {lang_prefix} _aliased_symbols:", all_aliased_symbols)
+  # print(f"# grm_preprocess {lang_prefix} _aliased_symbols:", all_aliased_symbols)
   # add _diret_cset to each prod
 
   # 7 inner function 4
@@ -266,7 +266,7 @@ def grm_preprocess(lang_prefix, grammar):
     return cset
 
   # 8 process each prod
-  print(f"# add {DIRECT_CSET_KEY} to each prod...")
+  # print(f"# add {DIRECT_CSET_KEY} to each prod...")
   for prod_key in grammar["rules"]:
     prod = grammar["rules"][prod_key]
     cset = _mark_get_possible_direct_children_rec_inner_fun(prod)
@@ -348,7 +348,7 @@ def grm_preprocess(lang_prefix, grammar):
     return new_ahead_set
 
   # 10 process each prod
-  print(f"# add {SYM_AHEADSET_KEY} to each prod...")
+  # print(f"# add {SYM_AHEADSET_KEY} to each prod...")
   empty_set = set()
 
   for prod_key in grammar["rules"]:
@@ -399,7 +399,7 @@ def grm_preprocess(lang_prefix, grammar):
 
 def grm_get_start_NT(grammar):
   start_NT = list(dict.keys(grammar["rules"]))[0]
-  print("# grm_get_start_NT:", start_NT)
+  # print("# grm_get_start_NT:", start_NT)
   return start_NT
 
 

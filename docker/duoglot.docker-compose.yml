@@ -50,6 +50,8 @@ services:
         target: "/opt/_common"
     working_dir: '/opt/duoglotcore-server/'
     command: 'python server_trans.py --reloader True'
+    environment:
+      - TZ=Asia/Seoul
   nginx:
     image: nginxbase
     ports:

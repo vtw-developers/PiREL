@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-8LkKOP8NBeGykqlrjGhL6uDugDOGT",
+  "object": "chat.completion",
+  "created": 1700193664,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1. Filled with identifiers:\n```python\nnum1 = 10\nnum2 = 5\nnum = num1 - num2\n```\n\n2. Filled with literals:\n```python\nnum = 10 - 5\n```\n\n3. Filled with function calls:\n```python\ndef return_num1():\n    return 10\n\ndef return_num2():\n    return 5\n\nnum = return_num1() - return_num2()\n```\n\n4. Filled with objects:\n```python\nclass Number:\n    def __init__(self, value):\n        self.value = value\n\nnum1 = Number(10)\nnum2 = Number(5)\nnum = num1.value - num2.value\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 1,
+      "message": {
+        "role": "assistant",
+        "content": "1. Variants where holes are filled with identifiers:\n```python\nnum1 = 5\nnum2 = 3\nnum = num1 - num2\n```\n\n2. Variants where holes are filled with literals:\n```python\nnum = 10 - 5\n```\n\n3. Variants where holes are filled with different language elements like function calls:\n```python\ndef get_num():\n    return 5\n\nnum = get_num() - 2\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 2,
+      "message": {
+        "role": "assistant",
+        "content": "1. Here, the holes are filled with identifiers:\n```python\nnum1 = 10\nnum2 = 5\nnum = num1 - num2\n```\n\n2. Here, the holes are filled with literals:\n```python\nnum = 10 - 5\n```\n\n3. Here, the holes are filled with a combination of literals and identifiers:\n```python\nnum1 = 10\nnum = num1 - 5\n```\n\n4. Here, the holes are filled with function calls:\n```python\ndef return_five():\n    return 5\n\ndef return_ten():\n    return 10\n\nnum = return_ten() - return_five()\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 3,
+      "message": {
+        "role": "assistant",
+        "content": "1. Filling holes with identifiers:\n```python\nnum1 = 5\nnum2 = 3\nnum = num1 - num2\n```\n2. Filling holes with literals:\n```python\nnum = 7 - 2\n```\n3. Filling holes with function calls:\n```python\ndef get_num1():\n    return 10\ndef get_num2():\n    return 5\nnum = get_num1() - get_num2()\n```\n4. Filling holes with expressions:\n```python\nnum = (3 + 2) - (1 + 1)\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 4,
+      "message": {
+        "role": "assistant",
+        "content": "1. Variants where holes are filled with identifiers:\n```python\na = 5\nb = 3\nnum = a - b\n```\n```python\nprice = 200\ndiscount = 50\nnum = price - discount\n```\n2. Variants where holes are filled with literals:\n```python\nnum = 10 - 5\n```\n```python\nnum = 100.5 - 50.2\n```\n3. Variants where holes are filled with anything else if identifiers and literals are not suitable:\n```python\nnum = len('hello') - len('hi')\n```\n```python\nnum = max(1, 2, 3) - min(1, 2, 3)\n```\n4. Variants where holes are filled with different language elements:\n```python\nnum = [1, 2, 3].count(1) - [4, 5, 6].count(1)\n```\n```python\nnum = {'a': 1, 'b': 2}['a'] - {'a': 1, 'b': 2}['b']\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 540,
+    "completion_tokens": 752,
+    "total_tokens": 1292
+  }
+}

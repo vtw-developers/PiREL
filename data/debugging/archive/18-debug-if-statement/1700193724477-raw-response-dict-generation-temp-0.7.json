@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-8LkLBSzp8YV5QNVuUtxejeSnG4ibp",
+  "object": "chat.completion",
+  "created": 1700193713,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1. Identifier variant:\n```python\nif condition:\n    secret_fun_4071()\n```\n\n2. Literal variant:\n```python\nif True:\n    secret_fun_4071()\n```\n\n3. Other variants:\n```python\nif 5 > 3:\n    secret_fun_4071()\n```\n\n4. Different language elements variant:\n```python\nif [1, 2, 3]:\n    secret_fun_4071()\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 1,
+      "message": {
+        "role": "assistant",
+        "content": "1. Identifier variant:\n\n```python\nif condition:\n    secret_fun_4071()\n```\n\n2. Literal variant:\n\n```python\nif True:\n    secret_fun_4071()\n```\n\n3. Different identifiers:\n\n```python\nif check_status:\n    secret_fun_4071()\n```\n\n4. Language elements:\n\n```python\nif len(my_list) > 0:\n    secret_fun_4071()\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 2,
+      "message": {
+        "role": "assistant",
+        "content": "1. Filling with identifiers:\n```python\nif condition:\n    secret_fun_4071()\n```\n2. Filling with literals:\n```python\nif True:\n    secret_fun_4071()\n```\n3. Filling with anything else:\n```python\nif not False:\n    secret_fun_4071()\n```\n4. Filling with different language elements:\n```python\nif (2 > 1):\n    secret_fun_4071()\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 3,
+      "message": {
+        "role": "assistant",
+        "content": "1. Filled with identifiers:\n```\nif condition:\n    secret_fun_4071()\n```\n\n2. Filled with literals:\n```\nif True:\n    secret_fun_4071()\n```\n\n3. Filled with other language elements:\n```\nif 5 > 2:\n    secret_fun_4071()\n```\n\n4. Filled with different language elements:\n```\nif len([1, 2, 3]) > 0:\n    secret_fun_4071()\n```"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 4,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nif condition:\n    secret_fun_4071()\n```\n\n```python\nif 5 > 2:\n    secret_fun_4071()\n```\n\n```python\nif True:\n    secret_fun_4071()\n```\n\n```python\nif func_call():\n    secret_fun_4071()\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 722,
+    "completion_tokens": 440,
+    "total_tokens": 1162
+  }
+}

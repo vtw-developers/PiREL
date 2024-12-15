@@ -1,0 +1,118 @@
+;;;; for development
+(match_expand
+  (fragment ("py.expression_statement" "*") "*")
+  (fragment ("js.expression_statement" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.assignment" "*") "*")
+  (fragment ("js.assignment_expression" "*1") "*2"))
+
+(match_expand
+  (fragment ("py.conditional_expression" "."  "." ".") "*")
+  (fragment ("js.ternary_expression" ".2" ".1" ".3") "*4")
+)
+
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.expression_statement" ("py.assignment" ("py.identifier" "_val_") (str "=") ("py.dictionary" (str "{") (str "}")))) "*")
+  (fragment ("js.lexical_declaration" (str "let") ("js.variable_declarator" ("js.identifier" "_val1_") (str "=") ("js.object" (str "{") (str "}")))) "*1")
+)
+
+
+;;;; NEW FROM PIREL:
+(match_expand
+  (fragment ("py.typed_parameter" ("py.identifier" "_val_") (str ":") ("py.type" ".")) "*")
+  (fragment ("js.identifier" "_val1_") "*2")
+)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;; base rules
+(match_expand
+  (fragment ("py.module" "*"))
+  (fragment ("js.program" "*1"))
+)
+
+(match_expand
+  (fragment ("py.function_definition" (str "def") "*") "*")
+  (fragment ("js.function_declaration" (str "function") "*1") "*2")
+)
+
+(match_expand
+  (fragment ("py.identifier" "_val_") "*")
+  (fragment ("js.identifier" "_val1_") "*1")
+)
+
+(match_expand
+  (fragment ("py.parameters" "*") "*")
+  (fragment ("js.formal_parameters" "*1") "*2")
+)
+
+(match_expand
+  (fragment ("py.block" "*") "*")
+  (fragment ("js.statement_block" "*1") "*2")
+)
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;; rule(s) that we cannot learn
+(match_expand 
+  (fragment ("py.type" ".") "*")
+  (fragment  "*2")
+)
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;; tricky rules to learn
+; COMMENT (IGNORE)
+(match_expand
+  (fragment ("py.comment" "_val_") "*")
+  (fragment "*1")
+)
+
+; from X import * (IGNORE)
+(match_expand
+  (fragment ("py.import_from_statement" (str "from") ("py.dotted_name" ("py.identifier" "_val_")) (str "import") ("py.wildcard_import" (str "*"))) "*")
+  (fragment "*1")
+)
+
+; from X import Y (IGNORE)
+(match_expand
+  (fragment ("py.import_from_statement" (str "from") ("py.dotted_name" ("py.identifier" "_val_")) (str "import") ("py.dotted_name" ("py.identifier" "_val_"))) "*")
+  (fragment "*1")
+)
+
+; import X (IGNORE)
+(match_expand
+  (fragment ("py.import_statement" (str "import") ("py.dotted_name" ("py.identifier" "_val_"))) "*")
+  (fragment "*1")
+)
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;; will handle later
+(match_expand
+  (fragment ("py.true") "*")
+  (fragment ("js.true") "*1"))
+
+(match_expand
+  (fragment ("py.false") "*")
+  (fragment ("js.false") "*1"))
+
+(match_expand
+  (fragment ("py.integer" "_val_") "*")
+  (fragment ("js.number" "_val1_") "*1"))
+
+(match_expand
+  (fragment ("py.float" "_val_") "*")
+  (fragment ("js.number" "_val1_") "*1"))
+
+(match_expand
+  (fragment ("py.call" ("py.identifier" (val "float")) ("py.argument_list" (str "(") ("py.string" ("py.string_content" (str "inf"))) (str ")"))) "*")
+  (fragment ("js.identifier" (val "Infinity")) "*1")
+)

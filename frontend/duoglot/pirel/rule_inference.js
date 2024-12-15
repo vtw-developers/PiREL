@@ -657,7 +657,8 @@ ruleInfAPI_ns.inferTranslationRule = async function (
   templatizedNodeIds,
   templatizedNodesReplaceDWS,
   isInsertSecretFn,
-  ppTreeLike = false
+  ppTreeLike,
+  kwargs
 ) {
 
   let _lastElem = (arr) => {
@@ -777,7 +778,8 @@ ruleInfAPI_ns.inferTranslationRule = async function (
     templatized_node_ids: templatizedNodeIds,
     context: context,
     templatized_nodes_replace_dws: templatizedNodesReplaceDWS,
-    is_insert_secret_fn: isInsertSecretFn
+    is_insert_secret_fn: isInsertSecretFn,
+    kwargs: kwargs
   };
   let resultData = await postProcessTranslationRuleOnBackendAsync(dataToPostProcess);
   // exception on backend during post-processing
@@ -800,7 +802,7 @@ ruleInfAPI_ns.inferTranslationRule = async function (
 
 // this function is an interface for debugging
 // refer to debug/debug_rule_inf.js
-ruleInfAPI_ns.ruleInferenceDebug = async function (data) {
+ruleInfAPI_ns.ruleInferenceDebug = async function (data, kwargs) {
 
   let programPairs = [
     {
@@ -824,7 +826,8 @@ ruleInfAPI_ns.ruleInferenceDebug = async function (data) {
     {},  // templatizedNodeIds
     [],  // templatizedNodesReplaceDWS
     isInsertSecretFn,
-    data.pretty_print_rule
+    data.pretty_print_rule,
+    kwargs
   );
 
   return rule;
